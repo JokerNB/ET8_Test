@@ -1,0 +1,11 @@
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/obj/Debug/Share.SourceGenerator.csproj.AssemblyReference.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/obj/Debug/Share.SourceGenerator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/obj/Debug/Share.SourceGenerator.AssemblyInfoInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/obj/Debug/Share.SourceGenerator.AssemblyInfo.cs
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/obj/Debug/Share.SourceGenerator.csproj.CoreCompileInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/bin/Debug/Share.SourceGenerator.deps.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/bin/Debug/Share.SourceGenerator.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/bin/Debug/Share.SourceGenerator.pdb
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/obj/Debug/Share.SourceGenerator.sourcelink.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/obj/Debug/Share.SourceGenerator.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/obj/Debug/Share.SourceGenerator.pdb

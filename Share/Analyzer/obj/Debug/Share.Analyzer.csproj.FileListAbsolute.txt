@@ -1,0 +1,11 @@
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/obj/Debug/Share.Analyzer.csproj.AssemblyReference.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/obj/Debug/Share.Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/obj/Debug/Share.Analyzer.AssemblyInfoInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/obj/Debug/Share.Analyzer.AssemblyInfo.cs
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/obj/Debug/Share.Analyzer.csproj.CoreCompileInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/bin/Debug/Share.Analyzer.deps.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/bin/Debug/Share.Analyzer.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/bin/Debug/Share.Analyzer.pdb
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/obj/Debug/Share.Analyzer.sourcelink.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/obj/Debug/Share.Analyzer.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/obj/Debug/Share.Analyzer.pdb
