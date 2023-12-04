@@ -1,0 +1,17 @@
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/App
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/App.deps.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/App.runtimeconfig.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/App.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/App.pdb
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/DotNet.App.csproj.AssemblyReference.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/DotNet.App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/DotNet.App.AssemblyInfoInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/DotNet.App.AssemblyInfo.cs
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/DotNet.App.csproj.CoreCompileInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/DotNet.App.sourcelink.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/DotNet.App.csproj.CopyComplete
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/App.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/refint/App.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/App.pdb
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/DotNet.App.genruntimeconfig.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/App/obj/Debug/ref/App.dll

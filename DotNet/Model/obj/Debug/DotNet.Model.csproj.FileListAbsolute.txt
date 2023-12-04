@@ -1,0 +1,14 @@
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/Model.deps.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/Model.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/Model.pdb
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/DotNet.Model.csproj.AssemblyReference.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/DotNet.Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/DotNet.Model.AssemblyInfoInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/DotNet.Model.AssemblyInfo.cs
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/DotNet.Model.csproj.CoreCompileInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/DotNet.Model.sourcelink.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/DotNet.Model.csproj.CopyComplete
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/Model.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/refint/Model.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/Model.pdb
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/Debug/ref/Model.dll

@@ -1,0 +1,14 @@
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/Core.deps.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/Core.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/Bin/Core.pdb
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/DotNet.Core.csproj.AssemblyReference.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/DotNet.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/DotNet.Core.AssemblyInfoInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/DotNet.Core.AssemblyInfo.cs
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/DotNet.Core.csproj.CoreCompileInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/DotNet.Core.sourcelink.json
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/DotNet.Core.csproj.CopyComplete
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/Core.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/refint/Core.dll
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/Core.pdb
+/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/Debug/ref/Core.dll
