@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3M2XK6Kw/XHOAPR2P/UUKGid7b6mHSK21ym6WwsGgr/SP1Ujl+R1XtpWTSt58u39tGb0paNKfSaugHH+wWffQ==",
+  "dgSpecHash": "8+F1XfJiOqY8wryL47W5755CPgBAq7/aLZkddKTN+PRIjpYxPA3kZZZafjQxdNbNDat90dH6Q35p7J+BntYY4Q==",
   "success": true,
-  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Tool/Share.Tool.csproj",
+  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Tool/Share.Tool.csproj",
   "expectedPackageFiles": [
     "/Users/liuwei/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/liuwei/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",

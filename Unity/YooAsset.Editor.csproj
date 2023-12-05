@@ -119,14 +119,14 @@
      <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/ECopyBuildinFileOption.cs" />
      <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/BuildTasks/TaskCopyRawFile.cs" />
      <Compile Include="Packages/YooAsset/Editor/UxmlLoader.cs" />
-     <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/BuildTasks/TaskEncryption.cs" />
      <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/BuildTasks/TaskCreatePackage.cs" />
      <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/BuildTasks/TaskVerifyBuildResult_SBP.cs" />
+     <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/BuildTasks/TaskEncryption.cs" />
      <Compile Include="Packages/YooAsset/Editor/AssetBundleCollector/CollectCommand.cs" />
-     <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/BuildSystem/BuildResult.cs" />
      <Compile Include="Packages/YooAsset/Editor/ShaderVariantCollector/ShaderVariantCollectorSetting.cs" />
      <Compile Include="Packages/YooAsset/Editor/AssetBundleCollector/CollectAssetInfo.cs" />
      <Compile Include="Packages/YooAsset/Editor/ShaderVariantCollector/ShaderVariantCollectorWindow.cs" />
+     <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/BuildSystem/BuildResult.cs" />
      <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/BuildTasks/TaskBuilding_SBP.cs" />
      <Compile Include="Packages/YooAsset/Editor/AssetBundleBuilder/BuildSystem/BuildContext.cs" />
      <Compile Include="Packages/YooAsset/Editor/AssetBundleCollector/DefaultRules/DefaultPackRule.cs" />

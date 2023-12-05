@@ -15,6 +15,6 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property.RootNamespace = ET
-build_property.ProjectDir = /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/
+build_property.ProjectDir = /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

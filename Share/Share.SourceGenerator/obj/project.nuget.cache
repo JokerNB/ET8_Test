@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6PJ4/gxJp745M2XWKG0vBS84b8nR/jYQqROcd5xcDKig2P5lykmrO2dFsh/EihSuy63YhVCnviOOwLYXumKgng==",
+  "dgSpecHash": "uzCzD8KT6epGFE+kP7RwdxojpZAsj7VfQiNLhxqZIjYH0Hlb2pw30tK/nSe4KGnM4yWWkDBYz64dDGRpycKStA==",
   "success": true,
-  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/Share.SourceGenerator.csproj",
+  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Share.SourceGenerator/Share.SourceGenerator.csproj",
   "expectedPackageFiles": [
     "/Users/liuwei/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/Users/liuwei/.nuget/packages/microsoft.codeanalysis.common/3.9.0/microsoft.codeanalysis.common.3.9.0.nupkg.sha512",

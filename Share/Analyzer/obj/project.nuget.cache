@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2cHoaeaRm0MLcxtswdD0jrRvOyEyzo4Or3RjZtY6rwcjb2ix1LfeSszA+2h0Fjx9hFY3ySYRpji0+T8kcot6tg==",
+  "dgSpecHash": "KWvGbgTcV0U5l6hw+H6ggwpzcxiEHMbGWmPkNUzSrPpnFtcAlM8ctdioTCmIiPJKtJjzh07ccRAcPRSXHCAOEQ==",
   "success": true,
-  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Analyzer/Share.Analyzer.csproj",
+  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Analyzer/Share.Analyzer.csproj",
   "expectedPackageFiles": [
     "/Users/liuwei/.nuget/packages/humanizer.core/2.2.0/humanizer.core.2.2.0.nupkg.sha512",
     "/Users/liuwei/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",

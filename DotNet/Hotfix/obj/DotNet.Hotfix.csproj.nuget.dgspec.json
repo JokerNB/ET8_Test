@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Hotfix/DotNet.Hotfix.csproj": {}
+    "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/DotNet.Hotfix.csproj": {}
   },
   "projects": {
-    "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/DotNet.Core.csproj": {
+    "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/DotNet.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/DotNet.Core.csproj",
+        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/DotNet.Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/DotNet.Core.csproj",
+        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/DotNet.Core.csproj",
         "packagesPath": "/Users/liuwei/.nuget/packages/",
-        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/obj/",
+        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/liuwei/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
-                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj"
+              "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
+                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Hotfix/DotNet.Hotfix.csproj": {
+    "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/DotNet.Hotfix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Hotfix/DotNet.Hotfix.csproj",
+        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/DotNet.Hotfix.csproj",
         "projectName": "Hotfix",
-        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Hotfix/DotNet.Hotfix.csproj",
+        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/DotNet.Hotfix.csproj",
         "packagesPath": "/Users/liuwei/.nuget/packages/",
-        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Hotfix/obj/",
+        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/liuwei/.nuget/NuGet/NuGet.Config"
@@ -94,11 +94,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Loader/DotNet.Loader.csproj": {
-                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Loader/DotNet.Loader.csproj"
+              "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/DotNet.Loader.csproj": {
+                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/DotNet.Loader.csproj"
               },
-              "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/DotNet.Model.csproj": {
-                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/DotNet.Model.csproj"
+              "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Model/DotNet.Model.csproj": {
+                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Model/DotNet.Model.csproj"
               }
             }
           }
@@ -142,14 +142,14 @@
         }
       }
     },
-    "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Loader/DotNet.Loader.csproj": {
+    "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/DotNet.Loader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Loader/DotNet.Loader.csproj",
+        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/DotNet.Loader.csproj",
         "projectName": "Loader",
-        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Loader/DotNet.Loader.csproj",
+        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/DotNet.Loader.csproj",
         "packagesPath": "/Users/liuwei/.nuget/packages/",
-        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Loader/obj/",
+        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/liuwei/.nuget/NuGet/NuGet.Config"
@@ -164,11 +164,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/DotNet.Core.csproj": {
-                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/DotNet.Core.csproj"
+              "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/DotNet.Core.csproj": {
+                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/DotNet.Core.csproj"
               },
-              "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
-                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj"
+              "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
+                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj"
               }
             }
           }
@@ -212,14 +212,14 @@
         }
       }
     },
-    "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/DotNet.Model.csproj": {
+    "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Model/DotNet.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/DotNet.Model.csproj",
+        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Model/DotNet.Model.csproj",
         "projectName": "Model",
-        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/DotNet.Model.csproj",
+        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Model/DotNet.Model.csproj",
         "packagesPath": "/Users/liuwei/.nuget/packages/",
-        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/obj/",
+        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/liuwei/.nuget/NuGet/NuGet.Config"
@@ -234,11 +234,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/DotNet.Core.csproj": {
-                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/DotNet.Core.csproj"
+              "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/DotNet.Core.csproj": {
+                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/DotNet.Core.csproj"
               },
-              "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
-                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj"
+              "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
+                "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj"
               }
             }
           }
@@ -282,14 +282,14 @@
         }
       }
     },
-    "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
+    "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj",
+        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj",
         "projectName": "ThirdParty",
-        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj",
+        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj",
         "packagesPath": "/Users/liuwei/.nuget/packages/",
-        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/obj/",
+        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/liuwei/.nuget/NuGet/NuGet.Config"

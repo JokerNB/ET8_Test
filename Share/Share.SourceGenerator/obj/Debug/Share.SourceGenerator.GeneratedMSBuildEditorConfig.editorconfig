@@ -7,6 +7,6 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Share.SourceGenerator
-build_property.ProjectDir = /Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/
+build_property.ProjectDir = /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Share.SourceGenerator/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

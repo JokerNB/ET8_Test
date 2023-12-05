@@ -2334,11 +2334,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Tool/Share.Tool.csproj",
+      "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Tool/Share.Tool.csproj",
       "projectName": "Apps.Tool",
-      "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Tool/Share.Tool.csproj",
+      "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Tool/Share.Tool.csproj",
       "packagesPath": "/Users/liuwei/.nuget/packages/",
-      "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Tool/obj/",
+      "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Tool/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/liuwei/.nuget/NuGet/NuGet.Config"
@@ -2353,11 +2353,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/DotNet.Core.csproj": {
-              "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Core/DotNet.Core.csproj"
+            "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/DotNet.Core.csproj": {
+              "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Core/DotNet.Core.csproj"
             },
-            "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
-              "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/DotNet.ThirdParty.csproj"
+            "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj": {
+              "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/DotNet.ThirdParty.csproj"
             }
           }
         }

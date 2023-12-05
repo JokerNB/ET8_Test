@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CEc6zR5hJvzelsKuVgFKMKY3JnJRJ0eMwvnfUetvI5ldOgEjXJMT6oIgUQOZYhrbdTMXQDtLuRTsyTZAzWvgvA==",
+  "dgSpecHash": "XA53qSBPkEJQK0fR+p3ahxekkrD6Pt7HFh5NNo6SHyDaDzss+jtse45cXO5tmZVnRTO8AbeSaRCj+fN+HsqrKA==",
   "success": true,
-  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Model/DotNet.Model.csproj",
+  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Model/DotNet.Model.csproj",
   "expectedPackageFiles": [
     "/Users/liuwei/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/liuwei/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",

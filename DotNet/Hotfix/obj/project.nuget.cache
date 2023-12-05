@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JuW9JQi9mjbVawx19kq/a0FVlsDnmi9dDhvCvJcATHfsMXtK/ekoCSktRoTUD6as9IQwMohw8Ho6aYAIQssLJw==",
+  "dgSpecHash": "R79Mnb2HzFxaSCCm1sOtgiMRv+EigSmV/EQhH68ulNHuMs/LiNdxY4o43qrUjyPqgsRH5ohI0mxCukdA4Dnd7Q==",
   "success": true,
-  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Hotfix/DotNet.Hotfix.csproj",
+  "projectFilePath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/DotNet.Hotfix.csproj",
   "expectedPackageFiles": [
     "/Users/liuwei/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/liuwei/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",

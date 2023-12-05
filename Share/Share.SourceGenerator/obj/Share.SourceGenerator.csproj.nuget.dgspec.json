@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/Share.SourceGenerator.csproj": {}
+    "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Share.SourceGenerator/Share.SourceGenerator.csproj": {}
   },
   "projects": {
-    "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/Share.SourceGenerator.csproj": {
+    "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Share.SourceGenerator/Share.SourceGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/Share.SourceGenerator.csproj",
+        "projectUniqueName": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Share.SourceGenerator/Share.SourceGenerator.csproj",
         "projectName": "Share.SourceGenerator",
-        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/Share.SourceGenerator.csproj",
+        "projectPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Share.SourceGenerator/Share.SourceGenerator.csproj",
         "packagesPath": "/Users/liuwei/.nuget/packages/",
-        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8/ET/Share/Share.SourceGenerator/obj/",
+        "outputPath": "/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Share/Share.SourceGenerator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/liuwei/.nuget/NuGet/NuGet.Config"
