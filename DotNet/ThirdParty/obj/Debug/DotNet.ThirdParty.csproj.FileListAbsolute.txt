@@ -11,3 +11,16 @@
 /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/obj/Debug/refint/ThirdParty.dll
 /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/obj/Debug/ThirdParty.pdb
 /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/ThirdParty/obj/Debug/ref/ThirdParty.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Bin/ThirdParty.deps.json
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Bin/ThirdParty.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Bin/ThirdParty.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/DotNet.ThirdParty.csproj.AssemblyReference.cache
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/DotNet.ThirdParty.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/DotNet.ThirdParty.AssemblyInfoInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/DotNet.ThirdParty.AssemblyInfo.cs
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/DotNet.ThirdParty.csproj.CoreCompileInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/DotNet.ThirdParty.sourcelink.json
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/ThirdParty.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/refint/ThirdParty.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/ThirdParty.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/ThirdParty/obj/Debug/ref/ThirdParty.dll

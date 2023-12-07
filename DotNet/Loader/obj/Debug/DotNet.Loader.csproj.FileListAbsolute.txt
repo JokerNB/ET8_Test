@@ -12,3 +12,17 @@
 /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Loader/obj/Debug/refint/Loader.dll
 /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Loader/obj/Debug/Loader.pdb
 /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Loader/obj/Debug/ref/Loader.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Bin/Loader.deps.json
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Bin/Loader.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Bin/Loader.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/DotNet.Loader.csproj.AssemblyReference.cache
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/DotNet.Loader.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/DotNet.Loader.AssemblyInfoInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/DotNet.Loader.AssemblyInfo.cs
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/DotNet.Loader.csproj.CoreCompileInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/DotNet.Loader.sourcelink.json
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/DotNet.Loader.csproj.CopyComplete
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/Loader.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/refint/Loader.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/Loader.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Loader/obj/Debug/ref/Loader.dll

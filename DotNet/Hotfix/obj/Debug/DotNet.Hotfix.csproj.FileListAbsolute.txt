@@ -12,3 +12,17 @@
 /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Hotfix/obj/Debug/refint/Hotfix.dll
 /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Hotfix/obj/Debug/Hotfix.pdb
 /Users/liuwei/Desktop/WorkProject/ET8/ET/DotNet/Hotfix/obj/Debug/ref/Hotfix.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Bin/Hotfix.deps.json
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Bin/Hotfix.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Bin/Hotfix.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/DotNet.Hotfix.csproj.AssemblyReference.cache
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/DotNet.Hotfix.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/DotNet.Hotfix.AssemblyInfoInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/DotNet.Hotfix.AssemblyInfo.cs
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/DotNet.Hotfix.csproj.CoreCompileInputs.cache
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/DotNet.Hotfix.sourcelink.json
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/DotNet.Hotfix.csproj.CopyComplete
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/Hotfix.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/refint/Hotfix.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/Hotfix.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/DotNet/Hotfix/obj/Debug/ref/Hotfix.dll

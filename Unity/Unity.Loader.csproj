@@ -76,9 +76,6 @@
      <Folder Include="Assets/Scripts/Loader/MonoBehaviour" />
      <Folder Include="Assets/Scripts/Loader" />
      <None Include="Assets/Scripts/Loader/Unity.Loader.asmdef" />
-     <Reference Include="BetterStreamingAssets">
-       <HintPath>Library\ScriptAssemblies\BetterStreamingAssets.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEngine">
      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -754,14 +751,17 @@
      <Reference Include="MemoryPack">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/MemoryPack.dll</HintPath>
      </Reference>
+     <Reference Include="BetterStreamingAssets">
+     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/BetterStreamingAssets.dll</HintPath>
+     </Reference>
+     <Reference Include="YooAsset">
+     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/YooAsset.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="YooAsset">
-       <HintPath>Library\ScriptAssemblies\YooAsset.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -772,14 +772,6 @@
     <ProjectReference Include="Unity.Core.csproj">
       <Project>{770e9beb-b313-3761-faa2-76daf4b34ada}</Project>
       <Name>Unity.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="BetterStreamingAssets.csproj">
-      <Project>{48355f85-248e-7ca0-1859-0a28a551010e}</Project>
-      <Name>BetterStreamingAssets</Name>
-    </ProjectReference>
-    <ProjectReference Include="YooAsset.csproj">
-      <Project>{969b6393-7326-9cc5-ac5f-d252d24b1a34}</Project>
-      <Name>YooAsset</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

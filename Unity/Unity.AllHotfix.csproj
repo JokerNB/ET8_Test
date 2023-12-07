@@ -716,6 +716,9 @@
     <Reference Include="MemoryPack">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/MemoryPack.dll</HintPath>
     </Reference>
+    <Reference Include="YooAsset">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/YooAsset.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -739,10 +742,6 @@
     <ProjectReference Include="Unity.AllModel.csproj">
       <Project>{b274d5fa-24be-0ef2-8374-77d88f882f8d}</Project>
       <Name>Unity.AllModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="YooAsset.csproj">
-      <Project>{969b6393-7326-9cc5-ac5f-d252d24b1a34}</Project>
-      <Name>YooAsset</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

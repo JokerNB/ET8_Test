@@ -9,98 +9,10 @@
     "AssetList": [
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/CommandLine.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/MemoryPack.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/MongoDB.Bson.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/mscorlib.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/NLog.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/System.Core.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/System.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/System.Runtime.CompilerServices.Unsafe.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/Unity.Core.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/Unity.Loader.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/AotDlls/Unity.ThirdParty.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 0,
-            "DependIDs": []
-        },
-        {
-            "Address": "",
             "AssetPath": "Assets/Bundles/Code/Hotfix.dll.bytes",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1,
+            "BundleID": 0,
             "DependIDs": []
         },
         {
@@ -108,7 +20,7 @@
             "AssetPath": "Assets/Bundles/Code/Hotfix.pdb.bytes",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1,
+            "BundleID": 0,
             "DependIDs": []
         },
         {
@@ -116,7 +28,7 @@
             "AssetPath": "Assets/Bundles/Code/Model.dll.bytes",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1,
+            "BundleID": 0,
             "DependIDs": []
         },
         {
@@ -124,7 +36,7 @@
             "AssetPath": "Assets/Bundles/Code/Model.pdb.bytes",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 1,
+            "BundleID": 0,
             "DependIDs": []
         },
         {
@@ -132,7 +44,7 @@
             "AssetPath": "Assets/Bundles/Config/AIConfigCategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2,
+            "BundleID": 1,
             "DependIDs": []
         },
         {
@@ -140,7 +52,7 @@
             "AssetPath": "Assets/Bundles/Config/UnitConfigCategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 2,
+            "BundleID": 1,
             "DependIDs": []
         },
         {
@@ -148,7 +60,7 @@
             "AssetPath": "Assets/Bundles/UI/Demo/UIHelp.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 3,
+            "BundleID": 2,
             "DependIDs": []
         },
         {
@@ -156,7 +68,7 @@
             "AssetPath": "Assets/Bundles/UI/Demo/UILobby.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 4,
+            "BundleID": 3,
             "DependIDs": []
         },
         {
@@ -164,7 +76,7 @@
             "AssetPath": "Assets/Bundles/UI/Demo/UILogin.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 5,
+            "BundleID": 4,
             "DependIDs": []
         },
         {
@@ -172,7 +84,7 @@
             "AssetPath": "Assets/Bundles/UI/LockStep/UILSLobby.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 6,
+            "BundleID": 5,
             "DependIDs": []
         },
         {
@@ -180,7 +92,7 @@
             "AssetPath": "Assets/Bundles/UI/LockStep/UILSLogin.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 7,
+            "BundleID": 6,
             "DependIDs": []
         },
         {
@@ -188,7 +100,7 @@
             "AssetPath": "Assets/Bundles/UI/LockStep/UILSRoom.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 8,
+            "BundleID": 7,
             "DependIDs": []
         },
         {
@@ -196,7 +108,7 @@
             "AssetPath": "Assets/Bundles/Unit/Unit.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 9,
+            "BundleID": 8,
             "DependIDs": []
         },
         {
@@ -204,7 +116,7 @@
             "AssetPath": "Assets/Bundles/Scenes/Map1.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 10,
+            "BundleID": 9,
             "DependIDs": []
         },
         {
@@ -212,21 +124,11 @@
             "AssetPath": "Assets/Bundles/Scenes/Map2.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 11,
+            "BundleID": 10,
             "DependIDs": []
         }
     ],
     "BundleList": [
-        {
-            "BundleName": "assets_bundles_aotdlls.bundle",
-            "FileHash": "00000000000000000000000000000000",
-            "FileCRC": "00000000",
-            "FileSize": 0,
-            "IsRawFile": false,
-            "LoadMethod": 0,
-            "Tags": [],
-            "ReferenceIDs": []
-        },
         {
             "BundleName": "assets_bundles_code.bundle",
             "FileHash": "00000000000000000000000000000000",
