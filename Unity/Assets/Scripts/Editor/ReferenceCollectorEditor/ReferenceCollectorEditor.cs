@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using UnityEditor;
 using UnityEngine;
 //Object并非C#基础中的Object，而是 UnityEngine.Object
@@ -47,6 +49,32 @@ public class ReferenceCollectorEditor: Editor
 			}
 		}
 	}
+	
+	private void CopyKey()
+	{
+		var dataProperty = serializedObject.FindProperty("data");
+		StringBuilder text = new StringBuilder();
+		StringBuilder temp = new StringBuilder();
+		for (int i = dataProperty.arraySize - 1; i >= 0; i--)
+		{
+			temp.Clear();
+			var key = dataProperty.GetArrayElementAtIndex(i).FindPropertyRelative("key");
+			var name = key.stringValue;
+			temp.Append("public ");
+			if (name.Contains("Button"))
+				temp.Append("Button ");
+			else if(name.Contains("Image"))
+				temp.Append("Image ");
+			else if (name.Contains("Text"))
+				temp.Append("Text ");
+			else
+				temp.Append("GameObject ");
+			temp.Append(name+";");
+
+			text.AppendLine(temp.ToString());
+		}
+		GUIUtility.systemCopyBuffer = text.ToString();
+	}
 
 	private void OnEnable()
 	{
@@ -79,6 +107,10 @@ public class ReferenceCollectorEditor: Editor
 		if (GUILayout.Button("排序"))
 		{
 			referenceCollector.Sort();
+		}
+		if (GUILayout.Button("复制key"))
+		{
+			CopyKey();
 		}
 		EditorGUILayout.EndHorizontal();
 		EditorGUILayout.BeginHorizontal();

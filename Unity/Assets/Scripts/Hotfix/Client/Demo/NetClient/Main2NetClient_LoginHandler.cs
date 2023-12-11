@@ -1,5 +1,4 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using System.Net.Sockets;
 
 namespace ET.Client
@@ -11,6 +10,15 @@ namespace ET.Client
         {
             string account = request.Account;
             string password = request.Password;
+            var checkRegexMatchComponent = root.AddComponent<CheckRegexMatchComponent>();
+            if (!checkRegexMatchComponent.isMatchAccount(account) || !checkRegexMatchComponent.isMatchPassword(password))
+            {
+                response.Error = ErrorCode.ERR_LoginError;
+                Log.Error("LoginError!Please Check Your Account or Password.");
+                root.RemoveComponent<CheckRegexMatchComponent>();
+                return;
+            }
+            root.RemoveComponent<CheckRegexMatchComponent>();
             // 创建一个ETModel层的Session
             root.RemoveComponent<RouterAddressComponent>();
             // 获取路由跟realmDispatcher地址
@@ -42,6 +50,7 @@ namespace ET.Client
 
             Log.Debug("登陆gate成功!");
 
+            response.Error = 0;
             response.PlayerId = g2CLoginGate.PlayerId;
         }
     }

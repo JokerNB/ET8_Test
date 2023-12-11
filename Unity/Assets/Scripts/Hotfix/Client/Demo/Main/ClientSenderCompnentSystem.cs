@@ -39,6 +39,12 @@ namespace ET.Client
             {
                 OwnerFiberId = self.Fiber().Id, Account = account, Password = password
             }) as NetClient2Main_Login;
+            Log.Error($"11111 , response.Error == {response.Error}");
+            if (response.Error == ErrorCode.ERR_LoginError)
+            {
+                Log.Error("LoginError!ErrorCode == ErrorCode.ERR_LoginError.");
+                return -1;
+            }
             return response.PlayerId;
         }
 

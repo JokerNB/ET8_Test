@@ -1,5 +1,4 @@
-﻿using System.Text.RegularExpressions;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace ET.Client
@@ -24,15 +23,19 @@ namespace ET.Client
 		{
 			var account = self.account.GetComponent<InputField>().text;
 			var password = self.password.GetComponent<InputField>().text;
+			var checkRegexMatchComponent = self.Root().AddComponent<CheckRegexMatchComponent>();
 			//Account限制在4-8位数，不能有下划线及其他特殊字符
-			var account_IsMatch = Regex.IsMatch(account, @"\b(?!-_)\w[4,8]\b");
+			var account_IsMatch = checkRegexMatchComponent.isMatchAccount(account);
 			//Password限制：
-			//开头大写，限制在6-12位数，不包含特殊字符
-			var password_IsMatch = Regex.IsMatch(password, @"\b(?!-_)\w[6,12]\b");
-			
+			var password_IsMatch = checkRegexMatchComponent.isMatchPassword(password);
+
 			if (!account_IsMatch || !password_IsMatch)
+			{
+				self.Root().RemoveComponent<CheckRegexMatchComponent>();
 				return;
-			
+			}
+
+			self.Root().RemoveComponent<CheckRegexMatchComponent>();
 			LoginHelper.Login(
 				self.Root(), 
 				self.account.GetComponent<InputField>().text, 
