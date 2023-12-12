@@ -54,24 +54,11 @@ public class ReferenceCollectorEditor: Editor
 	{
 		var dataProperty = serializedObject.FindProperty("data");
 		StringBuilder text = new StringBuilder();
-		StringBuilder temp = new StringBuilder();
 		for (int i = dataProperty.arraySize - 1; i >= 0; i--)
 		{
-			temp.Clear();
 			var key = dataProperty.GetArrayElementAtIndex(i).FindPropertyRelative("key");
 			var name = key.stringValue;
-			temp.Append("public ");
-			if (name.Contains("Button"))
-				temp.Append("Button ");
-			else if(name.Contains("Image"))
-				temp.Append("Image ");
-			else if (name.Contains("Text"))
-				temp.Append("Text ");
-			else
-				temp.Append("GameObject ");
-			temp.Append(name+";");
-
-			text.AppendLine(temp.ToString());
+			text.AppendLine($"public GameObject {name};");
 		}
 		GUIUtility.systemCopyBuffer = text.ToString();
 	}
