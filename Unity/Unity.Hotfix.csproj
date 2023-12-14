@@ -86,6 +86,7 @@
     <Folder Include="Assets/Scripts/Hotfix/Server/LockStep" />
     <Folder Include="Assets/Scripts/Hotfix/Server/Demo/Map" />
     <Folder Include="Assets/Scripts/Hotfix/Share/Plugins/Example" />
+    <Folder Include="Assets/Scripts/Hotfix/Client/UI" />
     <Folder Include="Assets/Scripts/Hotfix/Server/Module/NetInner" />
     <Folder Include="Assets/Scripts/Hotfix/Server/Benchmark" />
     <Folder Include="Assets/Scripts/Hotfix/Share/Plugins" />

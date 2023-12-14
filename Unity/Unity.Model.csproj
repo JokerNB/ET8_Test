@@ -63,6 +63,7 @@
     <Folder Include="Assets/Scripts/Model/Server/LockStep/Match" />
     <Folder Include="Assets/Scripts/Model/Server/Plugins/Example" />
     <Folder Include="Assets/Scripts/Model/Server/Demo/Map/Recast" />
+    <Folder Include="Assets/Scripts/Model/Client/UI" />
     <Folder Include="Assets/Scripts/Model/Server/Demo/Robot/Console" />
     <Folder Include="Assets/Scripts/Model/Server/Module/RobotCase" />
     <Folder Include="Assets/Scripts/Model/Generate" />

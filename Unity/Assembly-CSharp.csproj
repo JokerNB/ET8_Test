@@ -55,12 +55,13 @@
      <Folder Include="Assets/Config/Excel/StartConfig" />
      <Folder Include="Assets/Res" />
      <Folder Include="Assets/Bundles/Code" />
-     <Folder Include="Assets/Bundles/UI/Demo" />
+     <Folder Include="Assets/Bundles/UI/Login" />
      <Folder Include="Assets/Res/Unit/Skeleton/Texture" />
      <Folder Include="Assets/Bundles/Scenes/Map1" />
      <Folder Include="Assets/Config/Excel/StartConfig/RouterTest" />
      <Folder Include="Assets/Config/Excel" />
      <Folder Include="Assets/Bundles/UI/LockStep" />
+     <Folder Include="Assets/Bundles/Scenes/Map3" />
      <Folder Include="Assets/Config/Excel/StartConfig/Benchmark" />
      <Folder Include="Assets/Res/Unit/Skeleton/Character" />
      <Folder Include="Assets/Bundles/UI" />

@@ -105,7 +105,7 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Unit/Unit.prefab",
+            "AssetPath": "Assets/Bundles/UI/MainUI/MainUI.prefab",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 8,
@@ -113,7 +113,7 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Scenes/Map1.unity",
+            "AssetPath": "Assets/Bundles/Unit/Unit.prefab",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 9,
@@ -121,10 +121,26 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Scenes/Map2.unity",
+            "AssetPath": "Assets/Bundles/Scenes/Map1.unity",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 10,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Scenes/Map2.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Scenes/Map3.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
             "DependIDs": []
         }
     ],
@@ -210,6 +226,16 @@
             "ReferenceIDs": []
         },
         {
+            "BundleName": "assets_bundles_ui_mainui_mainui.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
             "BundleName": "assets_bundles_unit_unit.bundle",
             "FileHash": "00000000000000000000000000000000",
             "FileCRC": "00000000",
@@ -231,6 +257,16 @@
         },
         {
             "BundleName": "assets_bundles_scenes_map2.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_bundles_scenes_map3.bundle",
             "FileHash": "00000000000000000000000000000000",
             "FileCRC": "00000000",
             "FileSize": 0,

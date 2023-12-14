@@ -70,6 +70,7 @@
      <Compile Include="Assets/Scripts/Editor/ReferenceCollectorEditor/ReferenceCollectorEditor.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/ISceneTypeDrawer.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/ColorTypeDrawer.cs" />
+     <Compile Include="Assets/Scripts/Editor/UIToolEditor/CreatEmptyUIRoot.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/CharTypeDrawer.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/Vector3TypeDrawer.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/EnumTypeDrawer.cs" />
@@ -94,6 +95,7 @@
      <Folder Include="Assets/Scripts/Editor/AssetPostProcessor" />
      <Folder Include="Assets/Scripts/Editor/ComponentViewEditor" />
      <Folder Include="Assets/Scripts/Editor/Plugins" />
+     <Folder Include="Assets/Scripts/Editor/UIToolEditor" />
      <Folder Include="Assets/Scripts/Editor" />
      <Folder Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer" />
      <Folder Include="Assets/Scripts/Editor/Plugins/HybridCLR" />
