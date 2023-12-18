@@ -43,6 +43,7 @@
   <ItemGroup>
      <Folder Include="Assets" />
      <Folder Include="Assets/Res/Unit" />
+     <Folder Include="Assets/Config/Excel/Datas/StartConfig/RouterTest" />
      <Folder Include="Assets/Bundles/Scenes" />
      <Folder Include="Assets/Bundles" />
      <Folder Include="Assets/Bundles/AotDlls" />
@@ -55,20 +56,26 @@
      <Folder Include="Assets/Config/Excel/StartConfig" />
      <Folder Include="Assets/Res" />
      <Folder Include="Assets/Bundles/Code" />
+     <Folder Include="Assets/Config/Excel/Datas/StartConfig/Localhost" />
      <Folder Include="Assets/Bundles/UI/Login" />
      <Folder Include="Assets/Res/Unit/Skeleton/Texture" />
      <Folder Include="Assets/Bundles/Scenes/Map1" />
      <Folder Include="Assets/Config/Excel/StartConfig/RouterTest" />
+     <Folder Include="Assets/Config/Excel/Datas/StartConfig/Release" />
+     <Folder Include="Assets/Config/Excel/Datas/StartConfig" />
      <Folder Include="Assets/Config/Excel" />
      <Folder Include="Assets/Bundles/UI/LockStep" />
      <Folder Include="Assets/Bundles/Scenes/Map3" />
      <Folder Include="Assets/Config/Excel/StartConfig/Benchmark" />
      <Folder Include="Assets/Res/Unit/Skeleton/Character" />
      <Folder Include="Assets/Bundles/UI" />
+     <Folder Include="Assets/Config/Excel/Datas/StartConfig/Benchmark" />
      <None Include="Assets/link.xml" />
      <Folder Include="Assets/Config/Proto" />
      <Folder Include="Assets/Res/Mat" />
      <Folder Include="Assets/Resources" />
+     <Folder Include="Assets/Config/Excel/Defines" />
+     <Folder Include="Assets/Config/Excel/Datas" />
      <Folder Include="Assets/Config" />
      <Folder Include="Assets/Res/Unit/Skeleton/Character/Materials" />
      <Folder Include="Assets/Res/Unit/Skeleton/Ani" />
@@ -77,6 +84,7 @@
      <Folder Include="Assets/Scripts" />
      <None Include="Assets/Settings/AssetBundleCollectorConfig.xml" />
      <Folder Include="Assets/StreamingAssets" />
+     <None Include="Assets/Config/Excel/Defines/__root__.xml" />
      <Folder Include="Assets/Bundles/Config" />
      <Reference Include="UnityEngine">
      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

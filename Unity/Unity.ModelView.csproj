@@ -43,18 +43,16 @@
   <ItemGroup>
     <Folder Include="Assets/Scripts/ModelView/Client/Module/Resource" />
     <Folder Include="Assets/Scripts/ModelView/Client/Plugins" />
-    <Folder Include="Assets/Scripts/ModelView/Client/UI" />
-    <Folder Include="Assets/Scripts/ModelView/Client/LockStep/UI/UILSRoom" />
+    <Folder Include="Assets/Scripts/ModelView/Client/FUIAutoGen" />
     <Folder Include="Assets/Scripts/ModelView/Client/Plugins/Example" />
+    <Folder Include="Assets/Scripts/ModelView/Client/Module/Localize" />
+    <Folder Include="Assets/Scripts/ModelView/Client/FUI" />
     <Folder Include="Assets/Scripts/ModelView/Client/LockStep/Camera" />
-    <Folder Include="Assets/Scripts/ModelView/Client/LockStep/UI/UILSLobby" />
-    <Folder Include="Assets/Scripts/ModelView/Client/LockStep/UI/UILSLogin" />
     <Folder Include="Assets/Scripts/ModelView/Client" />
     <None Include="Assets/Scripts/ModelView/Unity.ModelView.asmdef" />
     <Folder Include="Assets/Scripts/ModelView/Client/Module/UI" />
     <Folder Include="Assets/Scripts/ModelView/Client/Demo" />
     <Folder Include="Assets/Scripts/ModelView/Client/LockStep/UI" />
-    <Folder Include="Assets/Scripts/ModelView/Client/UI/Login" />
     <Folder Include="Assets/Scripts/ModelView" />
     <Folder Include="Assets/Scripts/ModelView/Client/LockStep" />
     <Folder Include="Assets/Scripts/ModelView/Client/Demo/Opera" />

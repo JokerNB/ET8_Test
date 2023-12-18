@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine.SceneManagement;
 using YooAsset;
 
@@ -104,6 +105,39 @@ namespace ET.Client
             await handler.Task;
             self.handlers.Add(location, handler);
         }
+        
+        
+        public static async ETTask<byte[]> LoadRawFileDataSync(this ResourcesLoaderComponent self, string location)
+        {
+            using CoroutineLock coroutineLock = await self.Root().GetComponent<CoroutineLockComponent>().Wait(CoroutineLockType.ResourcesLoader, location.GetHashCode());
+            RawFileOperationHandle handler;
+            if (!self.RawFileOperationHandles.TryGetValue(location, out handler))
+            {
+                handler = self.package.LoadRawFileSync(location);
+            
+                await handler.Task;
+
+                self.RawFileOperationHandles.Add(location, handler);
+            }
+            await Task.CompletedTask;
+            return handler.GetRawFileData();
+        }
+        
+        public static async ETTask<string> LoadRawFileTextSync(this ResourcesLoaderComponent self, string location)
+        {
+            using CoroutineLock coroutineLock = await self.Root().GetComponent<CoroutineLockComponent>().Wait(CoroutineLockType.ResourcesLoader, location.GetHashCode());
+            RawFileOperationHandle handler;
+            if (!self.RawFileOperationHandles.TryGetValue(location, out handler))
+            {
+                handler = self.package.LoadRawFileSync(location);
+            
+                await handler.Task;
+
+                self.RawFileOperationHandles.Add(location, handler);
+            }
+            await Task.CompletedTask;
+            return handler.GetRawFileText();
+        }
     }
     
     /// <summary>
@@ -115,5 +149,6 @@ namespace ET.Client
     {
         public ResourcePackage package;
         public Dictionary<string, OperationHandleBase> handlers = new();
+        public Dictionary<string, RawFileOperationHandle> RawFileOperationHandles = new Dictionary<string, RawFileOperationHandle>(100);
     }
 }

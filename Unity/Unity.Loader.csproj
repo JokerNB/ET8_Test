@@ -47,7 +47,6 @@
     <Analyzer Include="/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.cysharp.memorypack@2554e81f03/Runtime/MemoryPack.Generator/MemoryPack.Generator.Roslyn3.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/RTLSupport.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/HitTest/MeshColliderHitTest.cs" />
      <Compile Include="Assets/Scripts/Loader/Helper/PathHelper.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Tween/GTween.cs" />
@@ -64,6 +63,7 @@
      <Compile Include="Assets/Scripts/Loader/Define.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/TextField.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/RelationItem.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/LubanLib/StringUtil.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/IHtmlPageContext.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/BitmapFont.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GTreeNode.cs" />
@@ -89,6 +89,7 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GRoot.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/NAudioClip.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Container.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/LubanLib/ByteBufExtensions.cs" />
      <Compile Include="Assets/Scripts/Loader/MonoBehaviour/GlobalConfig.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/Emoji.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GList.cs" />
@@ -104,9 +105,9 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Mesh/RegularPolygonMesh.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/UIPackage.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/MaterialManager.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Transition.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/ByteBuffer.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Filter/BlurFilter.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Transition.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GSlider.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Tree/TreeNode.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/HtmlElement.cs" />
@@ -129,6 +130,7 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GGraph.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GTree.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/InputTextField.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/LubanLib/ByteBuf.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Event/EventDispatcher.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GTextInput.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/IColorGear.cs" />
@@ -142,9 +144,9 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Relations.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/AsyncCreationHelper.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/StageCameraEditor.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Tween/EaseManager.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/HtmlParser.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/UIPanel.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Tween/EaseManager.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/IAnimationGear.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Margin.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/FieldTypes.cs" />
@@ -164,8 +166,8 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Action/ControllerAction.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/EditorToolSet.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/StageEngine.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/HitTest/IHitTest.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GObject.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/HitTest/IHitTest.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/EMRenderSupport.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Mesh/EllipseMesh.cs" />
      <Compile Include="Assets/Scripts/Loader/ConfigLoaderInvoker.cs" />
@@ -180,6 +182,7 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Tween/GTweener.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/ZipReader.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/IUISource.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/LubanLib/BeanBase.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Controller.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Timers.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/GoWrapper.cs" />
@@ -200,17 +203,18 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Event/EventListener.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearText.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/UBBParser.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/LubanLib/ITypeId.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Window.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/XMLUtils.cs" />
      <Compile Include="Assets/Scripts/Loader/CodeLoader.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/ScrollPane.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Mesh/PolygonMesh.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/HtmlLink.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GMovieClip.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/HtmlLink.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/XML.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Action/PlayTransitionAction.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearXY.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GRichTextField.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearXY.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearLook.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Shape.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/DisplayObjectEditor.cs" />
@@ -228,6 +232,8 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Gesture/RotationGesture.cs" />
      <Compile Include="Assets/Scripts/Loader/Helper/CoroutineHelper.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Tween/GPath.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/RTLSupport.cs" />
+     <Folder Include="Assets/Scripts/Loader/Plugins/LubanLib" />
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI" />
      <Folder Include="Assets/Scripts/Loader/Resource" />
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/Gesture" />
@@ -539,6 +545,9 @@
      </Reference>
      <Reference Include="MongoDB.Driver">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Driver.dll</HintPath>
+     </Reference>
+     <Reference Include="CsvHelper">
+     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/Editor/CsvHelper.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
@@ -935,6 +944,9 @@
      </Reference>
      <Reference Include="YooAsset">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/YooAsset.dll</HintPath>
+     </Reference>
+     <Reference Include="FairyGUI.Dyanmic">
+     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/FairyGUI.Dyanmic.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
