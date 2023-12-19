@@ -82,7 +82,9 @@
      <Compile Include="Assets/Scripts/Editor/Plugins/FairyGUI/CodeSpawn/FUIPanelIdSpawner.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/ColorTypeDrawer.cs" />
      <Compile Include="Assets/Scripts/Editor/Plugins/FairyGUI/CodeSpawn/ComponentInfo.cs" />
+     <Compile Include="Assets/Scripts/Editor/CodesListener/ETProjectMenusWindow.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/CharTypeDrawer.cs" />
+     <Compile Include="Assets/Scripts/Editor/CodesListener/CodesListenerExecutor.cs" />
      <Compile Include="Assets/Scripts/Editor/Plugins/FairyGUI/CodeSpawn/FUIPackageHelperSpawner.cs" />
      <Compile Include="Assets/Scripts/Editor/Plugins/FairyGUI/CodeSpawn/FUIComponentSpawner.cs" />
      <Compile Include="Assets/Scripts/Editor/Plugins/FairyGUI/CodeSpawn/FUIEventHandlerSpawner.cs" />
@@ -105,8 +107,10 @@
      <Compile Include="Assets/Scripts/Editor/RecastNavDataExporter/NavMeshExporter.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/StringTypeDrawer.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/DictionaryIntLongTypeDrawer.cs" />
+     <Compile Include="Assets/Scripts/Editor/CodesListener/ETProjectBrowser.cs" />
      <Compile Include="Assets/Scripts/Editor/BuildEditor/BuildHelper.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/Float3TypeDrawer.cs" />
+     <Compile Include="Assets/Scripts/Editor/CodesListener/ETProjectBrowserMenusItem.cs" />
      <Compile Include="Assets/Scripts/Editor/Plugins/Example/ExampleEditor.cs" />
      <Compile Include="Assets/Scripts/Editor/FairyGUIEditor/DisplayObjectEditor.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/UnityObjectTypeDrawer.cs" />
@@ -127,7 +131,9 @@
      <Folder Include="Assets/Scripts/Editor/RecastNavDataExporter" />
      <Folder Include="Assets/Scripts/Editor/BuildEditor" />
      <Folder Include="Assets/Scripts/Editor/LogRedirection" />
+     <Folder Include="Assets/Scripts/Editor/CodesListener" />
      <Folder Include="Assets/Scripts/Editor/FairyGUIEditor" />
+     <None Include="Assets/Scripts/Editor/CodesListener/template.txt" />
      <Folder Include="Assets/Scripts/Editor/Plugins/Example" />
      <Reference Include="UnityEngine">
      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
