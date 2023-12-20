@@ -74,7 +74,6 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Filter/IFilter.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/HybridCLR/Generated/AOTGenericReferences.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/PackageItem.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/UIContentScalerEditor.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GScrollBar.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/DisplayObject.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/HitTest/ShapeHitTest.cs" />
@@ -117,7 +116,6 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/DragDropManager.cs" />
      <Compile Include="Assets/Scripts/Loader/AssemblyReference.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/FontManager.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/PackagesWindow.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/HitTest/PixelHitTest.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/UIPainter.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/ToolSet.cs" />
@@ -147,7 +145,6 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/NTexture.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Relations.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/AsyncCreationHelper.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/StageCameraEditor.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Tween/EaseManager.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/HtmlParser.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/UIPanel.cs" />
@@ -158,17 +155,14 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/BlendMode.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/IHtmlObject.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/CaptureCamera.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/UIPainterEditor.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Mesh/LineMesh.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Gesture/PinchGesture.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/UIConfigEditor.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearDisplay.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/HitTest/ColliderHitTest.cs" />
      <Compile Include="Assets/Scripts/Loader/UnityLogger.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/UIObjectFactory.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/XMLIterator.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Action/ControllerAction.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/EditorToolSet.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/StageEngine.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GObject.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/HitTest/IHitTest.cs" />
@@ -200,7 +194,6 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Filter/ColorFilter.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/PopupMenu.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/HtmlInput.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/UIPanelEditor.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Tween/TweenPropType.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearColor.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Mesh/CompositeMesh.cs" />
@@ -221,7 +214,6 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearXY.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearLook.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Shape.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor/DisplayObjectEditor.cs" />
      <Compile Include="Assets/Scripts/Loader/GlobalComponent.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GImage.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Mesh/RoundedRectMesh.cs" />
@@ -265,7 +257,6 @@
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Tree" />
      <None Include="Assets/Scripts/Loader/Unity.Loader.asmdef" />
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core" />
-     <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/Editor" />
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/Tween" />
      <Reference Include="UnityEngine">
      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

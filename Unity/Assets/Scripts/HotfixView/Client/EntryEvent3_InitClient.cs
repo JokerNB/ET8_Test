@@ -17,7 +17,8 @@ namespace ET.Client
             root.AddComponent<ComputersComponent>();
             
             // 根据配置修改掉Main Fiber的SceneType
-            SceneType sceneType = EnumHelper.FromString<SceneType>(GlobalComponent.Instance.GlobalConfig.AppType.ToString());
+            string appType = GlobalComponent.Instance.GlobalConfig.AppType.ToString();
+            SceneType sceneType = EnumHelper.FromString<SceneType>(appType);
             root.SceneType = sceneType;
             
             await EventSystem.Instance.PublishAsync(root, new AppStartInitFinish());
