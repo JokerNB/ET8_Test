@@ -15,11 +15,20 @@ namespace ET
         MacOS,
         Linux
     }
+    
+    public enum ConfigFolder
+    {
+        Benchmark,
+        Localhost,
+        Release,
+        RouterTest
+    }
 
     public class BuildEditor : EditorWindow
     {
         private PlatformType activePlatform;
         private PlatformType platformType;
+        private ConfigFolder configFolder;
         private bool clearFolder;
         private BuildOptions buildOptions;
         private BuildAssetBundleOptions buildAssetBundleOptions = BuildAssetBundleOptions.None;
@@ -164,12 +173,31 @@ namespace ET
                 BuildHelper.ReGenerateProjectFiles();
                 return;
             }
-
-            if (GUILayout.Button("ExcelExporter"))
+            EditorGUILayout.BeginHorizontal();
             {
-                ToolsEditor.ExcelExporter();
-                return;
+                this.configFolder = (ConfigFolder)EditorGUILayout.EnumPopup(this.configFolder, GUILayout.Width(200f));
+
+                if (GUILayout.Button("ExcelExporter"))
+                {
+                    ToolsEditor.ExcelExporter(globalConfig.CodeMode, this.configFolder);
+
+                    string clientProtoDir = "../Unity/Assets/Bundles/Config";
+                    if (Directory.Exists(clientProtoDir))
+                    {
+                        Directory.Delete(clientProtoDir, true);
+                    }
+                    FileHelper.CopyDirectory("../Config/Excel/c", clientProtoDir);
+				
+                    AssetDatabase.Refresh();
+                    Log.Error("ExcelExporter Success!!!");
+                }
             }
+            EditorGUILayout.EndHorizontal();
+            // if (GUILayout.Button("ExcelExporter"))
+            // {
+            //     ToolsEditor.ExcelExporter();
+            //     return;
+            // }
 
             if (GUILayout.Button("Proto2CS"))
             {

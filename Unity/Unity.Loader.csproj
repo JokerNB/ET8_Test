@@ -54,6 +54,7 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Event/InputEvent.cs" />
      <Compile Include="Assets/Scripts/Loader/MonoBehaviour/ReferenceCollector.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Event/EventBridge.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/YooAsset/YooAssetHelper.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/HitTest/RectHitTest.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/SelectionShape.cs" />
      <Compile Include="Assets/Scripts/Loader/RecastFileReader.cs" />
@@ -99,6 +100,7 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GLabel.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Image.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Mesh/FillMesh.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/YooAsset/BundleStream.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/Example/MonoScript.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/HtmlParseOptions.cs" />
      <Compile Include="Assets/Scripts/Loader/Helper/AcceptAllCertificate.cs" />
@@ -137,8 +139,10 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/RichTextField.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Action/ChangePageAction.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearIcon.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/YooAsset/MonoResComponent.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/GComboBox.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text/BaseFont.cs" />
+     <Compile Include="Assets/Scripts/Loader/Helper/StreamingAssetsHelper/StreamingAssetsHelper.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html/HtmlButton.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/NTexture.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Relations.cs" />
@@ -202,8 +206,8 @@
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Mesh/CompositeMesh.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Event/EventListener.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Gears/GearText.cs" />
-     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/UBBParser.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/LubanLib/ITypeId.cs" />
+     <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/UBBParser.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/UI/Window.cs" />
      <Compile Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/XMLUtils.cs" />
      <Compile Include="Assets/Scripts/Loader/CodeLoader.cs" />
@@ -247,11 +251,13 @@
      <Folder Include="Assets/Scripts/Loader/Plugins/HybridCLR/Generated" />
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Text" />
      <None Include="Assets/Scripts/Loader/Plugins/HybridCLR/Generated/link.xml" />
+     <Folder Include="Assets/Scripts/Loader/Plugins/YooAsset" />
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils" />
      <Folder Include="Assets/Scripts/Loader/Helper" />
      <Folder Include="Assets/Scripts/Loader/Plugins/Example" />
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/Utils/Html" />
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/Event" />
+     <Folder Include="Assets/Scripts/Loader/Helper/StreamingAssetsHelper" />
      <Folder Include="Assets/Scripts/Loader/MonoBehaviour" />
      <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI/Core/Mesh" />
      <Folder Include="Assets/Scripts/Loader" />
@@ -510,6 +516,9 @@
      <Reference Include="UnityEditor.Android.Extensions">
      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="CsvHelper">
+     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/Editor/CsvHelper.dll</HintPath>
+     </Reference>
      <Reference Include="NLog">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/NLog.dll</HintPath>
      </Reference>
@@ -545,9 +554,6 @@
      </Reference>
      <Reference Include="MongoDB.Driver">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Driver.dll</HintPath>
-     </Reference>
-     <Reference Include="CsvHelper">
-     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/Editor/CsvHelper.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>

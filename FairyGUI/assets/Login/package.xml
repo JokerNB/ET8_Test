@@ -2,7 +2,7 @@
 <packageDescription id="ykcsql7p">
   <resources>
     <component id="e3ky0" name="UILogin.xml" path="/" exported="true"/>
-    <component id="igj22" name="Button_Login.xml" path="/"/>
+    <component id="igj22" name="Button_Login.xml" path="/" exported="true"/>
   </resources>
-  <publish name="" genCode="true"/>
+  <publish name=""/>
 </packageDescription>

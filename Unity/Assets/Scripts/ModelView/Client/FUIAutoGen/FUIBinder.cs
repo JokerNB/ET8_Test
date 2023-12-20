@@ -1,9 +1,16 @@
-namespace ET;
+/** This is an automatically generated class by FUICodeSpawner. Please do not modify it. **/
 
-public static class FUIBinder
+using FairyGUI;
+
+namespace ET.Client
 {
-    public static void BindAll()
-    {
-
-    }
+	public static class FUIBinder
+	{
+		public static void BindAll()
+		{
+			UIObjectFactory.Clear();
+			
+			LoginBinder.BindAll();
+		}
+	}
 }

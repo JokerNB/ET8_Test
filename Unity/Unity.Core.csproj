@@ -465,6 +465,9 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="CsvHelper">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/Editor/CsvHelper.dll</HintPath>
+    </Reference>
     <Reference Include="NLog">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/NLog.dll</HintPath>
     </Reference>
@@ -500,9 +503,6 @@
     </Reference>
     <Reference Include="MongoDB.Driver">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Driver.dll</HintPath>
-    </Reference>
-    <Reference Include="CsvHelper">
-      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/Editor/CsvHelper.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>

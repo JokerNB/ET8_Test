@@ -57,11 +57,13 @@ namespace ET
 	
 			if (!source.Exists)
 			{
+				Log.Error($"srcDir is Null!!! srcDir == {srcDir}");
 				return;
 			}
 	
 			if (!target.Exists)
 			{
+				Log.Error("tgtDir is Null!!! Create");
 				target.Create();
 			}
 	

@@ -9,9 +9,10 @@
         "HybridCLR.Editor",
         "Unity.Model",
         "Unity.Hotfix",
-        "YooAsset",
+        "YooAsset.Editor",
         "Unity.Mathematics",
-        "FairyGUI.Dyanmic"
+        "FairyGUI.Dyanmic",
+        "YooAsset"
     ],
     "includePlatforms": [
         "Editor"

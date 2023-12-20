@@ -52,7 +52,9 @@
     <Folder Include="Assets/Scripts/HotfixView/Client/Module/Resource" />
     <Folder Include="Assets/Scripts/HotfixView/Client/Demo/Opera" />
     <Folder Include="Assets/Scripts/HotfixView/Client/LockStep/UI" />
+    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/Login/Event" />
     <Folder Include="Assets/Scripts/HotfixView/Client/FUI" />
+    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/Login" />
     <Folder Include="Assets/Scripts/HotfixView/Client" />
     <Folder Include="Assets/Scripts/HotfixView" />
     <Folder Include="Assets/Scripts/HotfixView/Client/Scene" />

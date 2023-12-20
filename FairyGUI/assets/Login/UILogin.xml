@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="800,600">
+<component size="800,600" remark="Main">
   <displayList>
     <text id="n0_igj2" name="Account" xy="229,149" size="342,70" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入账号" restrict="10" keyboardType="4"/>
     <text id="n1_igj2" name="Password" xy="229,275" size="342,70" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入密码" password="true"/>

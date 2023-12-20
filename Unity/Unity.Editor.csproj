@@ -78,6 +78,7 @@
      <Compile Include="Assets/Scripts/Editor/LogRedirection/LogRedirection.cs" />
      <Compile Include="Assets/Scripts/Editor/BuildEditor/BuildEditor.cs" />
      <Compile Include="Assets/Scripts/Editor/ReferenceCollectorEditor/ReferenceCollectorEditor.cs" />
+     <Compile Include="Assets/Scripts/Editor/Plugins/YooAsset/Encryption.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/ISceneTypeDrawer.cs" />
      <Compile Include="Assets/Scripts/Editor/Plugins/FairyGUI/CodeSpawn/FUIPanelIdSpawner.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/ColorTypeDrawer.cs" />
@@ -106,6 +107,7 @@
      <Compile Include="Assets/Scripts/Editor/Plugins/Example/Editor.cs" />
      <Compile Include="Assets/Scripts/Editor/RecastNavDataExporter/NavMeshExporter.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/StringTypeDrawer.cs" />
+     <Compile Include="Assets/Scripts/Editor/Plugins/YooAsset/ExtensionFilterRule.cs" />
      <Compile Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer/DictionaryIntLongTypeDrawer.cs" />
      <Compile Include="Assets/Scripts/Editor/CodesListener/ETProjectBrowser.cs" />
      <Compile Include="Assets/Scripts/Editor/BuildEditor/BuildHelper.cs" />
@@ -121,6 +123,7 @@
      <Folder Include="Assets/Scripts/Editor/AssetPostProcessor" />
      <Folder Include="Assets/Scripts/Editor/ComponentViewEditor" />
      <Folder Include="Assets/Scripts/Editor/Plugins" />
+     <Folder Include="Assets/Scripts/Editor/Plugins/YooAsset" />
      <Folder Include="Assets/Scripts/Editor" />
      <Folder Include="Assets/Scripts/Editor/ComponentViewEditor/TypeDrawer" />
      <Folder Include="Assets/Scripts/Editor/Plugins/HybridCLR" />
@@ -396,6 +399,9 @@
      <Reference Include="UnityEditor.Android.Extensions">
      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="CsvHelper">
+     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/Editor/CsvHelper.dll</HintPath>
+     </Reference>
      <Reference Include="NLog">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/NLog.dll</HintPath>
      </Reference>
@@ -431,9 +437,6 @@
      </Reference>
      <Reference Include="MongoDB.Driver">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Driver.dll</HintPath>
-     </Reference>
-     <Reference Include="CsvHelper">
-     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/Editor/CsvHelper.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -828,14 +831,17 @@
      <Reference Include="HybridCLR.Editor">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/HybridCLR.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="YooAsset">
-     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/YooAsset.dll</HintPath>
+     <Reference Include="YooAsset.Editor">
+     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/YooAsset.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
      </Reference>
      <Reference Include="FairyGUI.Dyanmic">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/FairyGUI.Dyanmic.dll</HintPath>
+     </Reference>
+     <Reference Include="YooAsset">
+     <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/YooAsset.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
