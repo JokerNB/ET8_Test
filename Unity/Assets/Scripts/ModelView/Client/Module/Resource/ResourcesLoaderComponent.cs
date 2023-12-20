@@ -119,7 +119,7 @@ namespace ET.Client
 
                 self.RawFileOperationHandles.Add(location, handler);
             }
-            await Task.CompletedTask;
+            await handler;
             return handler.GetRawFileData();
         }
         
@@ -135,7 +135,7 @@ namespace ET.Client
 
                 self.RawFileOperationHandles.Add(location, handler);
             }
-            await Task.CompletedTask;
+            await handler;
             return handler.GetRawFileText();
         }
     }

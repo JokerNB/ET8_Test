@@ -21,6 +21,7 @@ public static partial class FUIComponentSystem
         self.VisiblePanelsQueue?.Clear();
         self.HidePanelsStack?.Clear();
 
+        GRoot.inst.MakeFullScreen();
         FUIBinder.BindAll();
     }
 

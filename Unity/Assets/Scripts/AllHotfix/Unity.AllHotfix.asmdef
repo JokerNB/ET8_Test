@@ -9,7 +9,8 @@
         "MemoryPack",
         "Unity.AllModel",
         "YooAsset",
-        "FairyGUI.Dyanmic"
+        "FairyGUI.Dyanmic",
+        "FairyGUI"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

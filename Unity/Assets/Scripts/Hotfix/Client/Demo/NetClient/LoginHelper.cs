@@ -10,7 +10,6 @@ namespace ET.Client
             long playerId = await clientSenderCompnent.LoginAsync(account, password);
             if (playerId == -1)
             {
-                Log.Error("LoginError!PlayerId == -1 , LoginError!Please Check Your Account or Password.");
                 return;
             }
 

@@ -11,7 +11,8 @@
         "Unity.Hotfix",
         "Unity.ModelView",
         "YooAsset",
-        "FairyGUI.Dyanmic"
+        "FairyGUI.Dyanmic",
+        "FairyGUI"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="800,600" remark="Main">
+<component size="1920,1080" remark="Main">
   <displayList>
-    <text id="n0_igj2" name="Account" xy="229,149" size="342,70" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入账号" restrict="10" keyboardType="4"/>
-    <text id="n1_igj2" name="Password" xy="229,275" size="342,70" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入密码" password="true"/>
-    <component id="n3_igj2" name="n3" src="igj22" fileName="Button_Login.xml" xy="300,384"/>
+    <text id="n0_igj2" name="Account" xy="789,149" size="342,70" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入账号" restrict="10" keyboardType="4"/>
+    <text id="n1_igj2" name="Password" xy="789,275" size="342,70" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入密码" password="true"/>
+    <component id="n3_igj2" name="n3" src="igj22" fileName="Button_Login.xml" xy="860,490"/>
   </displayList>
 </component>

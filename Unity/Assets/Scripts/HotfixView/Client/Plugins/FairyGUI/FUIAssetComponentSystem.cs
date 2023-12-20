@@ -55,15 +55,14 @@ public static partial class FUIAssetComponentSystem
 
     public static async ETTask GetMappingData(this FUIAssetComponent self)
     {
-        var mappingData = await self.Root().GetComponent<ResourcesLoaderComponent>().LoadRawFileDataSync("UIPackageMapping");
+        var mappingData = await self.Root().GetComponent<ResourcesLoaderComponent>().LoadRawFileDataSync("Assets/Bundles/FUI/UIPackageMapping");
         self.PackageHelper = new UIPackageMapping(mappingData);
     }
 
     public static ETTask<GObject> CreateObjectFromURLAsync(this FUIAssetComponent self, string url)
     {
         ETTask<GObject> task = ETTask<GObject>.Create(true);
-        // UIPackage.CreateObjectFromURLAsync(url, result =>
-        UIPackage.CreateObjectFromURL(url, result => { task.SetResult(result); });
+        UIPackage.CreateObjectFromURL(url);
         return task;
     }
 
@@ -88,7 +87,7 @@ public static partial class FUIAssetComponentSystem
     {
         ResourcesLoaderComponent resourcesLoaderComponent = self.Root().GetComponent<ResourcesLoaderComponent>();
         string location = "{0}{1}".Fmt(packageName, "_fui");
-        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync(location);
+        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync($"Assets/Bundles/FUI/{packageName}/{location}");
         // resourcesLoaderComponent.UnloadAsset(location);
 
         bytes = descData;
@@ -99,7 +98,7 @@ public static partial class FUIAssetComponentSystem
     {
         ResourcesLoaderComponent resourcesLoaderComponent = self.Root().GetComponent<ResourcesLoaderComponent>();
         string location = "{0}{1}".Fmt(packageName, "_fui");
-        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync(location);
+        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync($"Assets/Bundles/FUI/{packageName}/{location}");
         // ResComponent.Instance.UnloadAsset(location);
 
         callback(descData, packageName);

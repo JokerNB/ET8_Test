@@ -8,7 +8,8 @@
         "MemoryPack",
         "BetterStreamingAssets",
         "YooAsset",
-        "FairyGUI.Dyanmic"
+        "FairyGUI.Dyanmic",
+        "FairyGUI"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

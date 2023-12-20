@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Unity/HybridCLRData/hybridclr_repo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Unity/HybridCLRData/il2cpp_plus_repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Unity/Packages/FairyGUI-Dynamic" vcs="Git" />
   </component>
 </project>

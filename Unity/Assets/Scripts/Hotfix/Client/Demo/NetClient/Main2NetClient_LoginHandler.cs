@@ -14,7 +14,6 @@ namespace ET.Client
             if (!checkRegexMatchComponent.isMatchAccount(account) || !checkRegexMatchComponent.isMatchPassword(password))
             {
                 response.Error = ErrorCode.ERR_LoginError;
-                Log.Error("LoginError!Please Check Your Account or Password.");
                 root.RemoveComponent<CheckRegexMatchComponent>();
                 return;
             }

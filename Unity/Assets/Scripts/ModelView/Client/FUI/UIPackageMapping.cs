@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.IO;
 using Bright.Serialization;
 using FairyGUI.Dynamic;
 

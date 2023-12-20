@@ -347,7 +347,7 @@ Transform:
   m_GameObject: {fileID: 1619759878}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.548611, y: -5, z: 0}
+  m_LocalPosition: {x: 9.581395, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1619759878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 367e80e3fa958344491a9a196a902b72, type: 3}
+  m_Script: {fileID: 11500000, guid: ac0ac396094a04088bfba62b09ef1e85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   constantSize: 1
@@ -454,8 +454,8 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 0
-  m_HDR: 0
-  m_AllowMSAA: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -575,7 +575,8 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras: []
+  m_Cameras:
+  - {fileID: 1619759882}
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
