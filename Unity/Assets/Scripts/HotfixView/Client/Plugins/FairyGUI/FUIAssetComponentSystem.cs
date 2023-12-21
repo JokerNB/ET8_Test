@@ -87,7 +87,7 @@ public static partial class FUIAssetComponentSystem
     {
         ResourcesLoaderComponent resourcesLoaderComponent = self.Root().GetComponent<ResourcesLoaderComponent>();
         string location = "{0}{1}".Fmt(packageName, "_fui");
-        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync($"Assets/Bundles/FUI/{packageName}/{location}");
+        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync($"{self.FUIPath}/{packageName}/{location}");
         // resourcesLoaderComponent.UnloadAsset(location);
 
         bytes = descData;
@@ -98,7 +98,7 @@ public static partial class FUIAssetComponentSystem
     {
         ResourcesLoaderComponent resourcesLoaderComponent = self.Root().GetComponent<ResourcesLoaderComponent>();
         string location = "{0}{1}".Fmt(packageName, "_fui");
-        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync($"Assets/Bundles/FUI/{packageName}/{location}");
+        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync($"{self.FUIPath}/{packageName}/{location}");
         // ResComponent.Instance.UnloadAsset(location);
 
         callback(descData, packageName);

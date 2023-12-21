@@ -145,7 +145,7 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/Login/Login_fui.bytes",
+            "AssetPath": "Assets/Bundles/FUI/Lobby/Lobby_fui.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 3,
@@ -153,7 +153,7 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/UIPackageMapping.bytes",
+            "AssetPath": "Assets/Bundles/FUI/Login/Login_fui.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 4,
@@ -161,7 +161,7 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Unit/Unit.prefab",
+            "AssetPath": "Assets/Bundles/FUI/UIPackageMapping.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 5,
@@ -169,7 +169,7 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Scenes/Map1.unity",
+            "AssetPath": "Assets/Bundles/Unit/Unit.prefab",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 6,
@@ -177,7 +177,7 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Scenes/Map2.unity",
+            "AssetPath": "Assets/Bundles/Scenes/Map1.unity",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 7,
@@ -185,10 +185,18 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Scenes/Map3.unity",
+            "AssetPath": "Assets/Bundles/Scenes/Map2.unity",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 8,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Scenes/Map3.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
             "DependIDs": []
         }
     ],
@@ -219,6 +227,16 @@
             "FileCRC": "00000000",
             "FileSize": 0,
             "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_bundles_fui_lobby_lobby_fui_bytes.rawfile",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": true,
             "LoadMethod": 0,
             "Tags": [],
             "ReferenceIDs": []

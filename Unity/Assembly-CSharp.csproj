@@ -59,11 +59,11 @@
      <Folder Include="Assets/Bundles/FUI/Login" />
      <Folder Include="Assets/Res/Unit/Skeleton/Texture" />
      <Folder Include="Assets/Bundles/Scenes/Map1" />
+     <Folder Include="Assets/Bundles/FUI/Lobby" />
      <Folder Include="Assets/Config/Excel/Datas/StartConfig/Release" />
      <Folder Include="Assets/Config/Excel/Datas/StartConfig" />
      <Folder Include="Assets/StreamingAssets/Bundles/DefaultPackage" />
      <Folder Include="Assets/Config/Excel" />
-     <Folder Include="Assets/Bundles/UI" />
      <Folder Include="Assets/Bundles/Scenes/Map3" />
      <None Include="Assets/Bundles/Shaders/FairyGUI-BMFont.shader" />
      <Folder Include="Assets/Res/Unit/Skeleton/Character" />
@@ -76,7 +76,6 @@
      <Folder Include="Assets/Config/Excel/Defines" />
      <None Include="Assets/Bundles/Shaders/FairyGUI-Text.shader" />
      <Folder Include="Assets/Config/Excel/Datas" />
-     <Folder Include="Assets/Bundles/UI/Login" />
      <Folder Include="Assets/Bundles/Shaders/AddOn" />
      <None Include="Assets/Bundles/Shaders/AddOn/FairyGUI-BlurFilter.shader" />
      <Folder Include="Assets/Config" />
