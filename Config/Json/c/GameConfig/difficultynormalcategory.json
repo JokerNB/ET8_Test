@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 10001,
+    "WaveNumber": 5,
+    "HasSecond": false
+  },
+  {
+    "Id": 10002,
+    "WaveNumber": 6,
+    "HasSecond": false
+  },
+  {
+    "Id": 10003,
+    "WaveNumber": 6,
+    "HasSecond": false
+  },
+  {
+    "Id": 10004,
+    "WaveNumber": 7,
+    "HasSecond": false
+  },
+  {
+    "Id": 10005,
+    "WaveNumber": 7,
+    "HasSecond": false
+  },
+  {
+    "Id": 10006,
+    "WaveNumber": 7,
+    "HasSecond": false
+  },
+  {
+    "Id": 10007,
+    "WaveNumber": 7,
+    "HasSecond": false
+  },
+  {
+    "Id": 10008,
+    "WaveNumber": 7,
+    "HasSecond": false
+  },
+  {
+    "Id": 10009,
+    "WaveNumber": 7,
+    "HasSecond": false
+  }
+]

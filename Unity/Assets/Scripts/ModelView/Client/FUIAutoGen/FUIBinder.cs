@@ -10,7 +10,10 @@ namespace ET.Client
 		{
 			UIObjectFactory.Clear();
 			
+			ChooseDifficultyBinder.BindAll();
+			LobbyBinder.BindAll();
 			LoginBinder.BindAll();
+			MainPanelBinder.BindAll();
 		}
 	}
 }

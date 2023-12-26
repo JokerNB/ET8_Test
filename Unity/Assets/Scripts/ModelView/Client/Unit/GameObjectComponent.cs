@@ -12,7 +12,7 @@ namespace ET.Client
             get
             {
                 return this.gameObject;
-            }
+            } 
             set
             {
                 this.gameObject = value;

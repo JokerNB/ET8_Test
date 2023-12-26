@@ -53,6 +53,7 @@
      <Folder Include="Assets/Bundles/Shaders" />
      <Folder Include="Assets/Bundles/Unit" />
      <Folder Include="Assets/Res/Unit/Skeleton/Ani/Materials" />
+     <Folder Include="Assets/Bundles/Config/GameConfig" />
      <Folder Include="Assets/Res" />
      <Folder Include="Assets/Bundles/Code" />
      <Folder Include="Assets/Config/Excel/Datas/StartConfig/Localhost" />
@@ -63,6 +64,7 @@
      <Folder Include="Assets/Config/Excel/Datas/StartConfig/Release" />
      <Folder Include="Assets/Config/Excel/Datas/StartConfig" />
      <Folder Include="Assets/StreamingAssets/Bundles/DefaultPackage" />
+     <Folder Include="Assets/Bundles/FUI/MainPanel" />
      <Folder Include="Assets/Config/Excel" />
      <Folder Include="Assets/Bundles/Scenes/Map3" />
      <None Include="Assets/Bundles/Shaders/FairyGUI-BMFont.shader" />
@@ -84,6 +86,7 @@
      <None Include="Assets/Bundles/Shaders/FairyGUI-TMP.shader" />
      <Folder Include="Assets/Res/Unit/Skeleton" />
      <Folder Include="Assets/Bundles/Scenes/Map2" />
+     <Folder Include="Assets/Bundles/FUI/ChooseDifficulty" />
      <Folder Include="Assets/Scripts" />
      <None Include="Assets/Settings/AssetBundleCollectorConfig.xml" />
      <None Include="Assets/Bundles/Shaders/FairyGUI-Image.shader" />

@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1001,
+    "Desc": "正常模式",
+    "DifficultyType": 1
+  },
+  {
+    "Id": 1002,
+    "Desc": "开爽模式",
+    "DifficultyType": 2
+  }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" remark="Main">
+  <displayList>
+    <component id="n0_koj0" name="Button_Back" src="koj01" fileName="Button_Back.xml" xy="130,72" size="100,100">
+      <Button titleFontSize="20"/>
+    </component>
+    <component id="n1_koj0" name="Button_Lottery" src="koj02" fileName="Button_Lottery.xml" xy="1101,73" size="100,100"/>
+    <component id="n2_koj0" name="Button_Pass" src="koj03" fileName="Button_Pass.xml" xy="1239,72"/>
+    <component id="n3_koj0" name="Button_Shop" src="koj04" fileName="Button_Shop.xml" xy="1384,72"/>
+    <component id="n4_koj0" name="Button_TopUp" src="koj05" fileName="Button_TopUp.xml" xy="1527,73"/>
+    <component id="n5_koj0" name="Button_Setting" src="koj06" fileName="Button_Setting.xml" xy="1668,73"/>
+    <component id="n6_koj0" name="Button_SocialContact" src="koj07" fileName="Button_SocialContact.xml" xy="142,927"/>
+    <component id="n7_koj0" name="Button_Chat" src="koj08" fileName="Button_Chat.xml" xy="297,927"/>
+    <component id="n8_koj0" name="Button_SignIn" src="koj09" fileName="Button_SignIn.xml" xy="831,922"/>
+    <component id="n9_koj0" name="Button_FirstCharge" src="koj0a" fileName="Button_FirstCharge.xml" xy="971,923"/>
+    <component id="n10_koj0" name="Button_PersonalInformation" src="koj0b" fileName="Button_PersonalInformation.xml" xy="1105,921"/>
+    <component id="n11_koj0" name="Button_Talent" src="koj0c" fileName="Button_Talent.xml" xy="1257,923"/>
+    <component id="n12_koj0" name="Button_Task" src="koj0d" fileName="Button_Task.xml" xy="1404,923"/>
+  </displayList>
+</component>

@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 20001,
+    "WaveNumber": 7,
+    "HasSecond": false
+  },
+  {
+    "Id": 20002,
+    "WaveNumber": 7,
+    "HasSecond": true
+  },
+  {
+    "Id": 20003,
+    "WaveNumber": 7,
+    "HasSecond": true
+  },
+  {
+    "Id": 20004,
+    "WaveNumber": 7,
+    "HasSecond": true
+  },
+  {
+    "Id": 20005,
+    "WaveNumber": 7,
+    "HasSecond": true
+  },
+  {
+    "Id": 20006,
+    "WaveNumber": 7,
+    "HasSecond": true
+  },
+  {
+    "Id": 20007,
+    "WaveNumber": 7,
+    "HasSecond": true
+  }
+]

@@ -9,6 +9,7 @@ namespace ET.Client.Login
 	{
 		public GTextInput Account;
 		public GTextInput Password;
+		public ET.Client.Login.FUI_Button_Login Button_Login;
 		public const string URL = "ui://ykcsql7pe3ky0";
 
 		public static FUI_UILogin CreateInstance()
@@ -22,6 +23,7 @@ namespace ET.Client.Login
 
 			Account = (GTextInput)GetChildAt(0);
 			Password = (GTextInput)GetChildAt(1);
+			Button_Login = (ET.Client.Login.FUI_Button_Login)GetChildAt(2);
 		}
 	}
 }

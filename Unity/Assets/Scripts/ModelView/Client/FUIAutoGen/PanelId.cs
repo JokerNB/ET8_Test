@@ -5,6 +5,9 @@ namespace ET.Client
 	public enum PanelId
 	{
 		Invalid = 0,
+		UIChooseDifficulty,
+		UILobby,
 		UILogin,
+		UIMainPanel,
 	}
 }

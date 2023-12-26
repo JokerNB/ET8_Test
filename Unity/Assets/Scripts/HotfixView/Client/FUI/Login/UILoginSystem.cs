@@ -9,6 +9,12 @@ namespace ET.Client
 
 		public static void RegisterUIEvent(this UILogin self)
 		{
+			self.FUIUILogin.Button_Login.AddListner(() =>
+			{
+				var account = self.FUIUILogin.Account.text;
+				var password = self.FUIUILogin.Password.text;
+				LoginHelper.Login(self.Root(), account, password).Coroutine();
+			});
 		}
 
 		public static void OnShow(this UILogin self, Entity contextData = null)

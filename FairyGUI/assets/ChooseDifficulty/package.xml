@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="59f6nlxf">
+  <resources>
+    <component id="koj00" name="UIChooseDifficulty.xml" path="/" exported="true"/>
+    <component id="koj02" name="Button_ChooseItem.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

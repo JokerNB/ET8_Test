@@ -77,7 +77,6 @@
      <Compile Include="Assets/Scripts/Loader/GlobalComponent.cs" />
      <Compile Include="Assets/Scripts/Loader/Helper/CoroutineHelper.cs" />
      <Folder Include="Assets/Scripts/Loader/Plugins/LubanLib" />
-     <Folder Include="Assets/Scripts/Loader/Plugins/FairyGUI" />
      <Folder Include="Assets/Scripts/Loader/Resource" />
      <Folder Include="Assets/Scripts/Loader/Plugins" />
      <Folder Include="Assets/Scripts/Loader/Plugins/HybridCLR" />

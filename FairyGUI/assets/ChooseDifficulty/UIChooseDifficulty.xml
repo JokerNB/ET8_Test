@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" remark="Main">
+  <controller name="c1" pages="0,Model,1,Difficulty" selected="0"/>
+  <displayList>
+    <list id="n0_koj0" name="List_Model" xy="501,140" size="917,800" layout="pagination" overflow="scroll" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item url="ui://59f6nlxfkoj02"/>
+    </list>
+    <list id="n1_koj0" name="List_Difficulty" xy="501,140" size="917,800" layout="pagination" overflow="scroll" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <item url="ui://59f6nlxfkoj02"/>
+    </list>
+  </displayList>
+</component>
