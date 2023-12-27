@@ -16,12 +16,12 @@ namespace {{x.namespace_with_top_module}}
 /// </summary>
 {{~end~}}
 [Config]
-public partial class {{name}}: ConfigSingleton<{{name}}>
+public partial class {{name}}: Singleton<{{name}}>,IMerge
 {
     {{~if x.is_map_table ~}}
-    private readonly Dictionary<{{cs_define_type key_type}}, {{cs_define_type value_type}}> _dataMap;
-    private readonly List<{{cs_define_type value_type}}> _dataList;
-    
+    private Dictionary<{{cs_define_type key_type}}, {{cs_define_type value_type}}> _dataMap;
+    private List<{{cs_define_type value_type}}> _dataList;
+
     public {{name}}(ByteBuf _buf)
     {
         _dataMap = new Dictionary<{{cs_define_type key_type}}, {{cs_define_type value_type}}>();
@@ -34,7 +34,6 @@ public partial class {{name}}: ConfigSingleton<{{name}}>
             _dataList.Add(_v);
             _dataMap.Add(_v.{{x.index_field.convention_name}}, _v);
         }
-        PostInit();
     }
     
     public bool Contain({{cs_define_type key_type}} id)
@@ -49,6 +48,15 @@ public partial class {{name}}: ConfigSingleton<{{name}}>
     
     public List<{{cs_define_type value_type}}> DataList => _dataList;
 
+    public void Merge(object o)
+    {
+        {{name}} s = o as {{name}};
+        foreach (var kv in s._dataMap)
+        {
+            this._dataMap.Add(kv.Key, kv.Value);
+        }
+    }
+
 {{~if value_type.is_dynamic~}}
     public T GetOrDefaultAs<T>({{cs_define_type key_type}} key) where T : {{cs_define_type value_type}} => _dataMap.TryGetValue(key, out var v) ? (T)v : null;
     public T GetAs<T>({{cs_define_type key_type}} key) where T : {{cs_define_type value_type}} => (T)_dataMap[key];
@@ -57,31 +65,8 @@ public partial class {{name}}: ConfigSingleton<{{name}}>
     public {{cs_define_type value_type}} Get({{cs_define_type key_type}} key) => _dataMap[key];
     public {{cs_define_type value_type}} this[{{cs_define_type key_type}} key] => _dataMap[key];
 
-    public override void Resolve(Dictionary<string, IConfigSingleton> _tables)
-    {
-        foreach(var v in _dataList)
-        {
-            v.Resolve(_tables);
-        }
-        PostResolve();
-    }
-
-    public override void TranslateText(System.Func<string, string, string> translator)
-    {
-        foreach(var v in _dataList)
-        {
-            v.TranslateText(translator);
-        }
-    }
-    
-    public override void TrimExcess()
-    {
-        _dataMap.TrimExcess();
-        _dataList.TrimExcess();
-    }
-    
         {{~else if x.is_list_table ~}}
-    private readonly List<{{cs_define_type value_type}}> _dataList;
+    private List<{{cs_define_type value_type}}> _dataList;
 
     {{~if x.is_union_index~}}
     private {{cs_table_union_map_type_name x}} _dataMapUnion;
@@ -118,7 +103,6 @@ public partial class {{name}}: ConfigSingleton<{{name}}>
     {{~end~}}
     }
     {{~end~}}
-        PostInit();
     }
 
     public List<{{cs_define_type value_type}}> DataList => _dataList;
@@ -131,38 +115,15 @@ public partial class {{name}}: ConfigSingleton<{{name}}>
         {{~end~}}
     {{~end~}}
 
-    public override void Resolve(Dictionary<string, IConfigSingleton> _tables)
-    {
-        foreach(var v in _dataList)
-        {
-            v.Resolve(_tables);
-        }
-        PostResolve();
-    }
-
-    public override void TranslateText(System.Func<string, string, string> translator)
-    {
-        foreach(var v in _dataList)
-        {
-            v.TranslateText(translator);
-        }
-    }
-    
-    public override void TrimExcess()
-    {
-        _dataList.TrimExcess();
-    }
-        
     {{~else~}}
 
-     private readonly {{cs_define_type value_type}} _data;
+     private {{cs_define_type value_type}} _data;
 
     public {{name}}(ByteBuf _buf)
     {
         int n = _buf.ReadSize();
         if (n != 1) throw new SerializationException("table mode=one, but size != 1");
         {{cs_deserialize '_buf' '_data' value_type}}
-        PostInit();
     }
 
     {{~ for field in value_type.bean.hierarchy_export_fields ~}}
@@ -173,26 +134,11 @@ public partial class {{name}}: ConfigSingleton<{{name}}>
 {{~end~}}
      public {{cs_define_type field.ctype}} {{field.convention_name}} => _data.{{field.convention_name}};
     {{~end~}}
-
-    public override void Resolve(Dictionary<string, IConfigSingleton> _tables)
-    {
-        _data.Resolve(_tables);
-        PostResolve();
-    }
-
-    public override void TranslateText(System.Func<string, string, string> translator)
-    {
-        _data.TranslateText(translator);
-    }
-
     {{~end~}}
     
-    public override string ConfigName()
+    public string ConfigName()
     {
         return typeof({{cs_define_type value_type}}).Name;
     }
-    
-    partial void PostInit();
-    partial void PostResolve();
 }
 }

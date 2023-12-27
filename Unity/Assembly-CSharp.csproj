@@ -53,7 +53,6 @@
      <Folder Include="Assets/Bundles/Shaders" />
      <Folder Include="Assets/Bundles/Unit" />
      <Folder Include="Assets/Res/Unit/Skeleton/Ani/Materials" />
-     <Folder Include="Assets/Bundles/Config/GameConfig" />
      <Folder Include="Assets/Res" />
      <Folder Include="Assets/Bundles/Code" />
      <Folder Include="Assets/Config/Excel/Datas/StartConfig/Localhost" />

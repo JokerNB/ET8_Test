@@ -58,6 +58,7 @@
     <Compile Include="Assets/Scripts/Core/Analyzer/ChildOfAttribute.cs" />
     <Compile Include="Assets/Scripts/Core/Network/KChannel.cs" />
     <Compile Include="Assets/Scripts/Core/Analyzer/EnableClassAttribute.cs" />
+    <Compile Include="Assets/Scripts/Core/LubanLib/StringUtil.cs" />
     <Compile Include="Assets/Scripts/Core/Entity/ISerializeSystem.cs" />
     <Compile Include="Assets/Scripts/Core/Fiber/EntitySystem.cs" />
     <Compile Include="Assets/Scripts/Core/World/Module/Actor/MessageDispatcher.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="Assets/Scripts/Core/Network/WChannel.cs" />
     <Compile Include="Assets/Scripts/Core/Helper/StringHelper.cs" />
     <Compile Include="Assets/Scripts/Core/Fiber/Module/CoroutineLock/CoroutineLock.cs" />
+    <Compile Include="Assets/Scripts/Core/LubanLib/ITypeId.cs" />
     <Compile Include="Assets/Scripts/Core/World/Module/Fiber/MainThreadScheduler.cs" />
     <Compile Include="Assets/Scripts/Core/World/Module/Log/Log.cs" />
     <Compile Include="Assets/Scripts/Core/HashSetComponent.cs" />
@@ -137,6 +139,7 @@
     <Compile Include="Assets/Scripts/Core/World/Module/Config/ConfigAttribute.cs" />
     <Compile Include="Assets/Scripts/Core/Entity/SceneType.cs" />
     <Compile Include="Assets/Scripts/Core/Serialize/StructBsonSerialize.cs" />
+    <Compile Include="Assets/Scripts/Core/LubanLib/BeanBase.cs" />
     <Compile Include="Assets/Scripts/Core/Serialize/MemoryPackHelper.cs" />
     <Compile Include="Assets/Scripts/Core/MultiDictionary.cs" />
     <Compile Include="Assets/Scripts/Core/Entity/IDeserializeSystem.cs" />
@@ -148,6 +151,7 @@
     <Compile Include="Assets/Scripts/Core/Object/MessageObject.cs" />
     <Compile Include="Assets/Scripts/Core/Network/TChannel.cs" />
     <Compile Include="Assets/Scripts/Core/Fiber/Module/CoroutineLock/WaitCoroutineLock.cs" />
+    <Compile Include="Assets/Scripts/Core/LubanLib/ByteBufExtensions.cs" />
     <Compile Include="Assets/Scripts/Core/World/Module/ObjectPool/ObjectPool.cs" />
     <Compile Include="Assets/Scripts/Core/Entity/EntityRef.cs" />
     <Compile Include="Assets/Scripts/Core/World/Module/TimeInfo/TimeInfo.cs" />
@@ -181,6 +185,7 @@
     <Compile Include="Assets/Scripts/Core/World/Module/Actor/MessageQueue.cs" />
     <Compile Include="Assets/Scripts/Core/Fiber/Fiber.cs" />
     <Compile Include="Assets/Scripts/Core/World/Module/Fiber/ThreadPoolScheduler.cs" />
+    <Compile Include="Assets/Scripts/Core/LubanLib/ByteBuf.cs" />
     <Compile Include="Assets/Scripts/Core/Analyzer/EnableAccessEntiyChildAttribute.cs" />
     <Compile Include="Assets/Scripts/Core/Fiber/MailBoxType.cs" />
     <Compile Include="Assets/Scripts/Core/Network/ResponseTypeAttribute.cs" />
@@ -188,6 +193,7 @@
     <Compile Include="Assets/Scripts/Core/World/Module/Actor/MessageHandlerAttribute.cs" />
     <Compile Include="Assets/Scripts/Core/ThreadSynchronizationContext.cs" />
     <Compile Include="Assets/Scripts/Core/Serialize/MongoHelper.cs" />
+    <Folder Include="Assets/Scripts/Core/LubanLib" />
     <Folder Include="Assets/Scripts/Core/World/Module/Options" />
     <Folder Include="Assets/Scripts/Core/Fiber/Module/Synchronization" />
     <Folder Include="Assets/Scripts/Core/Serialize" />

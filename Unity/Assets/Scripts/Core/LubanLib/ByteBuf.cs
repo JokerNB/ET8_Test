@@ -3,6 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text;
+using ET;
 
 namespace Bright.Serialization
 {
@@ -1038,6 +1039,7 @@ namespace Bright.Serialization
         }
 
         // byte[], [start, end)
+        [StaticField]
         public static Func<byte[], int, int, string> StringCacheFinder { get; set; }
 
         public string ReadString()

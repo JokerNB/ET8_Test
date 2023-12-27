@@ -129,7 +129,7 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/AIConfigCategory.bytes",
+            "AssetPath": "Assets/Bundles/Config/aiconfigcategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2,
@@ -137,7 +137,79 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/UnitConfigCategory.bytes",
+            "AssetPath": "Assets/Bundles/Config/difficultyhappycategroy.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/difficultynormalcategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/localizeconfig_excel_chscategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/localizeconfig_excel_chtcategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/localizeconfig_excel_encategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/localizeconfig_ui_chscategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/localizeconfig_ui_chtcategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/localizeconfig_ui_encategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/modelcategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/unitconfigcategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2,
