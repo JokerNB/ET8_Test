@@ -20,6 +20,7 @@ public sealed partial class StartMachineConfig : ProtoObject
         InnerIP = _buf.ReadString();
         OuterIP = _buf.ReadString();
         WatcherPort = _buf.ReadString();
+        this.EndInit();
     }
 
     public static StartMachineConfig DeserializeStartMachineConfig(ByteBuf _buf)

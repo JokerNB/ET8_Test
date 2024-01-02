@@ -10,14 +10,6 @@ namespace ET.Client
         {
             string account = request.Account;
             string password = request.Password;
-            var checkRegexMatchComponent = root.AddComponent<CheckRegexMatchComponent>();
-            if (!checkRegexMatchComponent.isMatchAccount(account) || !checkRegexMatchComponent.isMatchPassword(password))
-            {
-                response.Error = ErrorCode.ERR_LoginError;
-                root.RemoveComponent<CheckRegexMatchComponent>();
-                return;
-            }
-            root.RemoveComponent<CheckRegexMatchComponent>();
             // 创建一个ETModel层的Session
             root.RemoveComponent<RouterAddressComponent>();
             // 获取路由跟realmDispatcher地址
@@ -39,6 +31,12 @@ namespace ET.Client
             using (Session session = await netComponent.CreateRouterSession(realmAddress, account, password))
             {
                 r2CLogin = (R2C_Login)await session.Call(new C2R_Login() { Account = account, Password = password });
+            }
+
+            if (r2CLogin.Error != ErrorCode.ERR_Success)
+            {
+                response.Error = r2CLogin.Error;
+                return;
             }
 
             // 创建一个gate Session,并且保存到SessionComponent中

@@ -17,6 +17,7 @@ public sealed partial class LocalizeConfig_EN :  ALocalizeConfig
     public LocalizeConfig_EN(ByteBuf _buf)  : base(_buf) 
     {
         TextEN = _buf.ReadString();
+        this.EndInit();
     }
 
     public static LocalizeConfig_EN DeserializeLocalizeConfig_EN(ByteBuf _buf)

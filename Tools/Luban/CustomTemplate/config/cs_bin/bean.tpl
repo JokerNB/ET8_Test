@@ -28,6 +28,7 @@ public {{x.cs_class_modifier}} partial class {{name}} : {{if parent_def_type}} {
         }
         {{~end~}}
         {{~end~}}
+        this.EndInit();
     }
 
     public static {{name}} Deserialize{{name}}(ByteBuf _buf)

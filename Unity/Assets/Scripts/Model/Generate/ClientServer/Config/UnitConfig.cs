@@ -22,6 +22,7 @@ public sealed partial class UnitConfig : ProtoObject
         Position = _buf.ReadInt();
         Height = _buf.ReadInt();
         Weight = _buf.ReadInt();
+        this.EndInit();
     }
 
     public static UnitConfig DeserializeUnitConfig(ByteBuf _buf)

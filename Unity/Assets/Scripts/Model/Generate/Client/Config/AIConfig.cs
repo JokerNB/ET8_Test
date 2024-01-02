@@ -22,6 +22,7 @@ public sealed partial class AIConfig : ProtoObject
         Name = _buf.ReadString();
         Desc = _buf.ReadString();
         {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);NodeParams = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); NodeParams[__index0] = __e0;}}
+        this.EndInit();
     }
 
     public static AIConfig DeserializeAIConfig(ByteBuf _buf)

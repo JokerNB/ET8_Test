@@ -21,6 +21,7 @@ public sealed partial class UnitConfig : ProtoObject
         Name_l10n_key = _buf.ReadString(); Name = _buf.ReadString();
         Position = _buf.ReadInt();
         Weight = _buf.ReadInt();
+        this.EndInit();
     }
 
     public static UnitConfig DeserializeUnitConfig(ByteBuf _buf)

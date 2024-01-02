@@ -7,13 +7,14 @@ namespace ET.Client
             root.RemoveComponent<ClientSenderCompnent>();
             ClientSenderCompnent clientSenderCompnent = root.AddComponent<ClientSenderCompnent>();
 
-            long playerId = await clientSenderCompnent.LoginAsync(account, password);
-            if (playerId == -1)
+            var response = await clientSenderCompnent.LoginAsync(account, password);
+            if (response.Error != ErrorCode.ERR_Success)
             {
+                Log.Error($"response Error : {response.Error}");
                 return;
             }
 
-            root.GetComponent<PlayerComponent>().MyId = playerId;
+            root.GetComponent<PlayerComponent>().MyId = response.PlayerId;
             
             await EventSystem.Instance.PublishAsync(root, new LoginFinish());
         }

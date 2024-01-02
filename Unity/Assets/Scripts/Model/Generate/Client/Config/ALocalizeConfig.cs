@@ -17,6 +17,7 @@ public abstract partial class ALocalizeConfig : ProtoObject
     public ALocalizeConfig(ByteBuf _buf) 
     {
         Key = _buf.ReadString();
+        this.EndInit();
     }
 
     public static ALocalizeConfig DeserializeALocalizeConfig(ByteBuf _buf)

@@ -22,6 +22,7 @@ public sealed partial class StartSceneConfig : ProtoObject
         SceneType = _buf.ReadString();
         Name = _buf.ReadString();
         Port = _buf.ReadInt();
+        this.EndInit();
     }
 
     public static StartSceneConfig DeserializeStartSceneConfig(ByteBuf _buf)

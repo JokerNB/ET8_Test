@@ -17,6 +17,7 @@ public sealed partial class LocalizeConfig_CHS :  ALocalizeConfig
     public LocalizeConfig_CHS(ByteBuf _buf)  : base(_buf) 
     {
         TextCHS = _buf.ReadString();
+        this.EndInit();
     }
 
     public static LocalizeConfig_CHS DeserializeLocalizeConfig_CHS(ByteBuf _buf)

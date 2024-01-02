@@ -19,6 +19,7 @@ public sealed partial class DifficultyHappyConfig : ProtoObject
         Id = _buf.ReadInt();
         WaveNumber = _buf.ReadInt();
         HasSecond = _buf.ReadBool();
+        this.EndInit();
     }
 
     public static DifficultyHappyConfig DeserializeDifficultyHappyConfig(ByteBuf _buf)

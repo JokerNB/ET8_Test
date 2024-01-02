@@ -19,6 +19,7 @@ public sealed partial class ModelConfig : ProtoObject
         Id = _buf.ReadInt();
         Desc = _buf.ReadString();
         DifficultyType = _buf.ReadInt();
+        this.EndInit();
     }
 
     public static ModelConfig DeserializeModelConfig(ByteBuf _buf)

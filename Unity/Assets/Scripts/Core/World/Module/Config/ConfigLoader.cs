@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Threading.Tasks;
 using Bright.Serialization;
 
@@ -59,6 +60,10 @@ namespace ET
 		{
 			ByteBuf byteBuf = new ByteBuf(oneConfigBytes);
 			var category = Activator.CreateInstance(configType,byteBuf);
+			if (category is ISupportInitialize supportInitialize)
+			{
+				supportInitialize.EndInit();
+			}
 			lock (this)
 			{
 				ASingleton singleton = category as ASingleton;

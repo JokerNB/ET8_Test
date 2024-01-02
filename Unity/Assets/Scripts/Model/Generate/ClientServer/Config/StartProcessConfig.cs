@@ -19,6 +19,7 @@ public sealed partial class StartProcessConfig : ProtoObject
         Id = _buf.ReadInt();
         MachineId = _buf.ReadInt();
         Port = _buf.ReadInt();
+        this.EndInit();
     }
 
     public static StartProcessConfig DeserializeStartProcessConfig(ByteBuf _buf)

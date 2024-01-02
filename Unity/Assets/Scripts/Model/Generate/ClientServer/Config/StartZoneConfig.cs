@@ -20,6 +20,7 @@ public sealed partial class StartZoneConfig : ProtoObject
         DBConnection = _buf.ReadString();
         DBName = _buf.ReadString();
         Desc = _buf.ReadString();
+        this.EndInit();
     }
 
     public static StartZoneConfig DeserializeStartZoneConfig(ByteBuf _buf)
