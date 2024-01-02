@@ -35,7 +35,7 @@ public sealed partial class ModelConfig : ProtoObject
     /// </summary>
     public string Desc { get; set; }
     /// <summary>
-    ///  
+    /// 难度类型
     /// </summary>
     public int DifficultyType { get; set; }
 

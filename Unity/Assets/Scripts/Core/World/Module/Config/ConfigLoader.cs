@@ -2,6 +2,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Bright.Serialization;
 
 namespace ET
 {
@@ -56,8 +57,8 @@ namespace ET
 		
 		private void LoadOneInThread(Type configType, byte[] oneConfigBytes)
 		{
-			object category = MongoHelper.Deserialize(configType, oneConfigBytes, 0, oneConfigBytes.Length);
-			
+			ByteBuf byteBuf = new ByteBuf(oneConfigBytes);
+			var category = Activator.CreateInstance(configType,byteBuf);
 			lock (this)
 			{
 				ASingleton singleton = category as ASingleton;

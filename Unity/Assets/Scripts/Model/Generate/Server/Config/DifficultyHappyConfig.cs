@@ -31,9 +31,12 @@ public sealed partial class DifficultyHappyConfig : ProtoObject
     /// </summary>
     public int Id { get; set; }
     /// <summary>
-    ///  
+    /// 波数
     /// </summary>
     public int WaveNumber { get; set; }
+    /// <summary>
+    /// 是否有第二幕
+    /// </summary>
     public bool HasSecond { get; set; }
 
     public const int __ID__ = 978946919;

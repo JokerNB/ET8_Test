@@ -20,7 +20,7 @@ namespace ET
                 switch (codeMode)
                 {
                     case CodeMode.Client:
-                        ct = "c";
+                        ct = "c/";
                         break;
                     case CodeMode.Server:
                         ct = "s";
@@ -31,6 +31,7 @@ namespace ET
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
+
                 List<string> startConfigs = new List<string>()
                 {
                     "StartMachineConfigCategory", 
@@ -47,7 +48,7 @@ namespace ET
                     }
                     else
                     {
-                        configFilePath = $"../Config/Excel/{ct}/{configType.Name}.bytes";
+                        configFilePath = $"../Config/Excel/{ct}/GameConfig/{configType.Name}.bytes";
                     }
                     output[configType] = File.ReadAllBytes(configFilePath);
                 }
@@ -75,7 +76,7 @@ namespace ET
             switch (codeMode)
             {
                 case CodeMode.Client:
-                    ct = "c";
+                    ct = "c/";
                     break;
                 case CodeMode.Server:
                     ct = "s";
@@ -103,7 +104,7 @@ namespace ET
             }
             else
             {
-                configFilePath = $"../Config/Excel/{ct}/{configName}.bytes";
+                configFilePath = $"../Config/Excel/{ct}/GameConfig/{configName}.bytes";
             }
 
             await ETTask.CompletedTask;

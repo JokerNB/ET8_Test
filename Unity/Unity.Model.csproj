@@ -68,6 +68,7 @@
     <Folder Include="Assets/Scripts/Model/Server/Module/RobotCase" />
     <Folder Include="Assets/Scripts/Model/Generate" />
     <Folder Include="Assets/Scripts/Model" />
+    <Folder Include="Assets/Scripts/Model/Server/Account" />
     <Folder Include="Assets/Scripts/Model/Server/Demo/Map" />
     <Folder Include="Assets/Scripts/Model/Server/Demo/Gate" />
     <Folder Include="Assets/Scripts/Model/Share/Module/Move" />
