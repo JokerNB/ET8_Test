@@ -7,7 +7,6 @@ namespace ET.Client.ChooseDifficulty
 {
 	public partial class FUI_Button_ChooseItem: GButton
 	{
-		public GTextField ItemName;
 		public const string URL = "ui://59f6nlxfkoj02";
 
 		public static FUI_Button_ChooseItem CreateInstance()
@@ -19,7 +18,6 @@ namespace ET.Client.ChooseDifficulty
 		{
 			base.ConstructFromXML(xml);
 
-			ItemName = (GTextField)GetChildAt(3);
 		}
 	}
 }

@@ -17,6 +17,7 @@ public sealed partial class DifficultyNormalConfig : ProtoObject
     public DifficultyNormalConfig(ByteBuf _buf) 
     {
         Id = _buf.ReadInt();
+        Desc = _buf.ReadString();
         WaveNumber = _buf.ReadInt();
         HasSecond = _buf.ReadBool();
         this.EndInit();
@@ -31,6 +32,10 @@ public sealed partial class DifficultyNormalConfig : ProtoObject
     /// Id
     /// </summary>
     public int Id { get; set; }
+    /// <summary>
+    /// 描述
+    /// </summary>
+    public string Desc { get; set; }
     /// <summary>
     /// 波数
     /// </summary>

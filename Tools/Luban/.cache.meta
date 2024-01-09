@@ -1,6 +1,6 @@
 ﻿/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/aiconfigcategory.bytes,37AA4CC6969B1A5C214592393A8E6F,65,1703573801313
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/difficultyhappycategroy.bytes,132E28828646AC7BAF4629D92A89399,36,1703573801314
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/difficultynormalcategory.bytes,5A87DB5B7AF2FBFCBC95D87191356099,37,1703573801313
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/difficultyhappycategroy.bytes,5ABED31140864B1192B685A7DE876B1D,141,1704251448117
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/difficultynormalcategory.bytes,9375F6C423A7226C142AF46EBC10D3F1,109,1704251448117
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/localizeconfig_excel_chscategory.bytes,CD345C35AC8361F0F3BA9B4DBA819EA2,128,1703573801314
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/localizeconfig_excel_chtcategory.bytes,C468D3C734C97516D225B49C67E6187,128,1703573801314
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/localizeconfig_excel_encategory.bytes,6322B37267DAE96BB6373FEA9D7331F,116,1703573801314
@@ -10,8 +10,8 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/modelcategory.bytes,4ED5C680DFC1A7867A84D58949BC1584,33,1703573801313
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/c/GameConfig/unitconfigcategory.bytes,2DD3BCECFA39F85F80CC3D8917737A8,152,1703573801314
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/cs/GameConfig/aiconfigcategory.bytes,37AA4CC6969B1A5C214592393A8E6F,65,1704167311314
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/cs/GameConfig/difficultyhappycategroy.bytes,132E28828646AC7BAF4629D92A89399,36,1703582759138
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/cs/GameConfig/difficultynormalcategory.bytes,5A87DB5B7AF2FBFCBC95D87191356099,37,1703582759138
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/cs/GameConfig/difficultyhappycategroy.bytes,5ABED31140864B1192B685A7DE876B1D,141,1704251451618
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/cs/GameConfig/difficultynormalcategory.bytes,9375F6C423A7226C142AF46EBC10D3F1,109,1704251451618
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/cs/GameConfig/localizeconfig_excel_chscategory.bytes,CD345C35AC8361F0F3BA9B4DBA819EA2,128,1703582759138
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/cs/GameConfig/localizeconfig_excel_chtcategory.bytes,C468D3C734C97516D225B49C67E6187,128,1703582759139
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/cs/GameConfig/localizeconfig_excel_encategory.bytes,6322B37267DAE96BB6373FEA9D7331F,116,1703582759139
@@ -30,7 +30,7 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/cs/StartConfig/Localhost/startzoneconfigcategory.bytes,2BF8E436A2732CFB0181C4478F7F554,65,1703817525656
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/s/GameConfig/aiconfigcategory.bytes,37AA4CC6969B1A5C214592393A8E6F,65,1703573802335
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/s/GameConfig/difficultyhappycategroy.bytes,132E28828646AC7BAF4629D92A89399,36,1703573802335
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/s/GameConfig/difficultynormalcategory.bytes,5A87DB5B7AF2FBFCBC95D87191356099,37,1703573802335
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/s/GameConfig/difficultynormalcategory.bytes,9375F6C423A7226C142AF46EBC10D3F1,109,1704251449130
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/s/GameConfig/modelcategory.bytes,4ED5C680DFC1A7867A84D58949BC1584,33,1703573802335
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/s/GameConfig/unitconfigcategory.bytes,A0F33326DCA62B3E36363AF61CC6DC2A,148,1703573802335
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/s/StartConfig/Benchmark/startmachineconfigcategory.bytes,8FFAD2F95982422EF86D8F1F217924AA,28,1703583127299
@@ -42,8 +42,8 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/s/StartConfig/Localhost/startsceneconfigcategory.bytes,5318D7776ACB8E31973F9FDCF269A6A,244,1704180039166
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Excel/s/StartConfig/Localhost/startzoneconfigcategory.bytes,2BF8E436A2732CFB0181C4478F7F554,65,1703817523213
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/aiconfigcategory.json,63B6315ECCBF8687F7BA8E4EC6EB81F,389,1703573801810
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/difficultyhappycategroy.json,E17C76862E74F31A6DA3AF6A8BE9B6C1,486,1703573801810
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/difficultynormalcategory.json,5D25FC864EDC2B647B023E01FE67B6,632,1703573801810
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/difficultyhappycategroy.json,A94B8C539FF3EFE06371682BF3CD90A5,696,1704251448618
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/difficultynormalcategory.json,1B57D31D97B9BAD679A2D3B8B476457,839,1704251448618
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/localizeconfig_excel_chscategory.json,57F678B6C846A2E949ADFC649D38892,289,1703573801810
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/localizeconfig_excel_chtcategory.json,A713C767453994A7E3CEA0315D934365,289,1703573801810
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/localizeconfig_excel_encategory.json,C0799EE8C0B0BC45DD7D605627A22370,273,1703573801810
@@ -53,8 +53,8 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/modelcategory.json,A6D5D516E9C699AA7DC212B72129EEC6,156,1703573801810
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/c/GameConfig/unitconfigcategory.json,2877D05C24D492F4662185390CEB2D3,649,1703573801810
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/cs/GameConfig/aiconfigcategory.json,63B6315ECCBF8687F7BA8E4EC6EB81F,389,1704167312803
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/cs/GameConfig/difficultyhappycategroy.json,E17C76862E74F31A6DA3AF6A8BE9B6C1,486,1703582759145
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/cs/GameConfig/difficultynormalcategory.json,5D25FC864EDC2B647B023E01FE67B6,632,1703582759145
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/cs/GameConfig/difficultyhappycategroy.json,A94B8C539FF3EFE06371682BF3CD90A5,696,1704251453130
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/cs/GameConfig/difficultynormalcategory.json,1B57D31D97B9BAD679A2D3B8B476457,839,1704251453130
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/cs/GameConfig/localizeconfig_excel_chscategory.json,57F678B6C846A2E949ADFC649D38892,289,1703582759145
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/cs/GameConfig/localizeconfig_excel_chtcategory.json,A713C767453994A7E3CEA0315D934365,289,1703582759145
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/cs/GameConfig/localizeconfig_excel_encategory.json,C0799EE8C0B0BC45DD7D605627A22370,273,1703582759145
@@ -73,7 +73,7 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/cs/StartConfig/Localhost/startzoneconfigcategory.json,EC5FA6C9C814D8BAB7A3E568B5DC4B20,291,1703817197844
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/s/GameConfig/aiconfigcategory.json,63B6315ECCBF8687F7BA8E4EC6EB81F,389,1703573803879
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/s/GameConfig/difficultyhappycategroy.json,E17C76862E74F31A6DA3AF6A8BE9B6C1,486,1703573803879
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/s/GameConfig/difficultynormalcategory.json,5D25FC864EDC2B647B023E01FE67B6,632,1703573803879
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/s/GameConfig/difficultynormalcategory.json,1B57D31D97B9BAD679A2D3B8B476457,839,1704251450628
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/s/GameConfig/modelcategory.json,A6D5D516E9C699AA7DC212B72129EEC6,156,1703573803879
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/s/GameConfig/unitconfigcategory.json,48A8A29C227A937EDC2A5544376757,645,1703573803879
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Config/Json/s/StartConfig/Benchmark/startmachineconfigcategory.json,E775A29FE3863161DB2ED228E16EDD42,107,1703573804372
@@ -90,7 +90,7 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Config/Excel/Datas/AIConfig.xlsx,F37AA9DA91A89753AA6F5F357C8DBFA,10393,1703756726846
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Config/Excel/Datas/LocalizeConfig_Excel.csv,DB2FD1AD8B8FE2458AF18939F1DA82F,316,1702519721577
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Config/Excel/Datas/LocalizeConfig_UI.csv,FBAC1DE2DCA993DEC4B575F7E07A8,1918,1702519721577
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Config/Excel/Datas/ModelDifficultyConfig.xlsx,1C64AF2866DDB1743DC4EB3BB9388DC,11555,1704171760298
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Config/Excel/Datas/ModelDifficultyConfig.xlsx,AB4BE2462E0ED852EA7A73D874769F,11581,1704251429620
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Config/Excel/Datas/StartConfig/Benchmark/__beans__.xlsx,E5CEDBF09DDE2B155B1835B5D8E165E,9789,1702519721578
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Config/Excel/Datas/StartConfig/Benchmark/__enums__.xlsx,B8844630A416337714D2256ED395F0C5,10219,1702519721578
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Config/Excel/Datas/StartConfig/Benchmark/__tables__.xlsx,7ED061484D109A6CA29862CAB26DEA5,10265,1702519721578
@@ -108,9 +108,9 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/AIConfigCategory.cs,1EC2E2367E77388D6F20C6702E8D4951,1703,1703583125805
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/ALocalizeConfig.cs,98832FD17DC5A72411CEDB083217182,1086,1704179508798
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/DifficultyHappyCategroy.cs,D58BFC89123918128F2C59F255C2CF7A,1907,1703583125805
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/DifficultyHappyConfig.cs,E529EC1D2F4A2458EEE475746F6C239B,1195,1704179508798
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/DifficultyHappyConfig.cs,98D986916A14689CBBDCFE2412F4EDF,1318,1704251448117
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/DifficultyNormalCategory.cs,CFD7A32A99B4566A1238405A62CA974F,1925,1703583125806
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/DifficultyNormalConfig.cs,7D1761903B9EE7C54DB151E1FFDC03B,1197,1704179508798
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/DifficultyNormalConfig.cs,871FDBBBBFB864158C8650B2843F,1320,1704251448117
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/LocalizeConfig_CHS.cs,28F2FFF748E42FEF7312A7E7C12549,899,1704179508798
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/LocalizeConfig_CHT.cs,2D373F7F7247E577D4DAA7DB4B68044,899,1704179508798
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Client/Config/LocalizeConfig_EN.cs,3C311EBB49A06E9DD262289E1BEB8E3,892,1704179508798
@@ -128,9 +128,9 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/AIConfigCategory.cs,1EC2E2367E77388D6F20C6702E8D4951,1703,1703819478525
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/ALocalizeConfig.cs,98832FD17DC5A72411CEDB083217182,1086,1704179513277
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyHappyCategroy.cs,D58BFC89123918128F2C59F255C2CF7A,1907,1703583130283
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyHappyConfig.cs,E529EC1D2F4A2458EEE475746F6C239B,1195,1704179513276
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyHappyConfig.cs,98D986916A14689CBBDCFE2412F4EDF,1318,1704251452631
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyNormalCategory.cs,CFD7A32A99B4566A1238405A62CA974F,1925,1703583130285
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyNormalConfig.cs,7D1761903B9EE7C54DB151E1FFDC03B,1197,1704179513277
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyNormalConfig.cs,871FDBBBBFB864158C8650B2843F,1320,1704251452631
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/LocalizeConfig_CHS.cs,28F2FFF748E42FEF7312A7E7C12549,899,1704179513277
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/LocalizeConfig_CHT.cs,2D373F7F7247E577D4DAA7DB4B68044,899,1704179513276
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/ClientServer/Config/LocalizeConfig_EN.cs,3C311EBB49A06E9DD262289E1BEB8E3,892,1704179513277
@@ -157,7 +157,7 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Server/Config/DifficultyHappyCategroy.cs,D58BFC89123918128F2C59F255C2CF7A,1907,1703583127815
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Server/Config/DifficultyHappyConfig.cs,E529EC1D2F4A2458EEE475746F6C239B,1195,1704179510788
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Server/Config/DifficultyNormalCategory.cs,CFD7A32A99B4566A1238405A62CA974F,1925,1703583127815
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Server/Config/DifficultyNormalConfig.cs,7D1761903B9EE7C54DB151E1FFDC03B,1197,1704179510788
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Server/Config/DifficultyNormalConfig.cs,871FDBBBBFB864158C8650B2843F,1320,1704251450129
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Server/Config/ModelCategory.cs,81B8F0BD9162E8C2E6A726C24AC5E89,1727,1703583127814
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Server/Config/ModelConfig.cs,EB2C913BE6F14F349A7F160208FA7DB,1142,1704179510788
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Scripts/Model/Generate/Server/Config/StartMachineConfig.cs,38004C29AC3A87D64A5B8196809B92,1336,1704179510788

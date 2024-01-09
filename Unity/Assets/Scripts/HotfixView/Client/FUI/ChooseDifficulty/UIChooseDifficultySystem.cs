@@ -1,3 +1,5 @@
+using FairyGUI;
+
 namespace ET.Client
 {
 	[FriendOf(typeof(UIChooseDifficulty))]
@@ -5,7 +7,60 @@ namespace ET.Client
 	{
 		public static void Awake(this UIChooseDifficulty self)
 		{
+			self.FUIUIChooseDifficulty.c1.SetSelectedIndex(0);
 			
+			var listModel = self.FUIUIChooseDifficulty.List_Model;
+			listModel.itemRenderer = RenderModelListItem;
+			listModel.onClickItem.Add(context => OnClickListModelItem(self,context));
+			var configs = ModelCategory.Instance.GetAll();
+			listModel.numItems = configs.Count;
+
+			var listDifficulty = self.FUIUIChooseDifficulty.List_Difficulty;
+			listDifficulty.itemRenderer = RenderListDifficultyItem;
+			listDifficulty.onClickItem.Add(context => OnClickListDifficultyItem(self,context));
+		}
+
+		private static void OnClickListDifficultyItem(UIChooseDifficulty self, EventContext context)
+		{
+			//TODO:Semd Msg
+			self.Root().GetComponent<FUIComponent>().ClosePanel(PanelId.UIChooseDifficulty);
+		}
+
+		private static void RenderListDifficultyItem(int index, GObject item)
+		{
+			GButton button = item.asButton;
+			string title = "";
+			if (UIChooseDifficulty.ModelType == 1)
+			{
+				var config = DifficultyNormalCategory.Instance.Get(index + 1 + 10000);
+				string hasSec = config.HasSecond? "+第二幕" : "";
+				title = $"{config.Desc}({config.WaveNumber}波{hasSec})";
+			}
+			else
+			{
+				var config = DifficultyHappyCategroy.Instance.Get(index + 1 + 20000);
+				string hasSec = config.HasSecond? "+第二幕" : "";
+				title = $"{config.Desc}({config.WaveNumber}波{hasSec})";
+			}
+			button.title = title;
+		}
+
+		private static void OnClickListModelItem(UIChooseDifficulty uiChooseDifficulty, EventContext eventContext)
+		{
+			var listModel = uiChooseDifficulty.FUIUIChooseDifficulty.List_Model;
+			var index = listModel.GetChildIndex(eventContext.data as GObject);
+			var config = ModelCategory.Instance.GetOrDefault(index + UIChooseDifficulty.ModelConfigId + 1);
+			UIChooseDifficulty.ModelType = config.DifficultyType;
+			uiChooseDifficulty.FUIUIChooseDifficulty.c1.SetSelectedIndex(1);
+			int count = UIChooseDifficulty.ModelType == 1? DifficultyNormalCategory.Instance.GetAll().Count : DifficultyHappyCategroy.Instance.GetAll().Count;
+			uiChooseDifficulty.FUIUIChooseDifficulty.List_Difficulty.numItems = count;
+		}
+
+		private static void RenderModelListItem(int index, GObject item)
+		{
+			GButton button = item.asButton;
+			var config = ModelCategory.Instance.Get(index + 1 + 1000);
+			button.title = config.Desc;
 		}
 
 		public static void RegisterUIEvent(this UIChooseDifficulty self)
