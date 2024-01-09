@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Net.Sockets;
 
 namespace ET.Client
@@ -10,18 +11,13 @@ namespace ET.Client
         {
             string account = request.Account;
             string password = request.Password;
-            // 创建一个ETModel层的Session
+            
             root.RemoveComponent<RouterAddressComponent>();
-            // 获取路由跟realmDispatcher地址
-            RouterAddressComponent routerAddressComponent = root.GetComponent<RouterAddressComponent>();
-            if (routerAddressComponent == null)
-            {
-                routerAddressComponent =
-                        root.AddComponent<RouterAddressComponent, string, int>(ConstValue.RouterHttpHost, ConstValue.RouterHttpPort);
-                await routerAddressComponent.Init();
-                root.AddComponent<NetComponent, AddressFamily, NetworkProtocol>(routerAddressComponent.RouterManagerIPAddress.AddressFamily, NetworkProtocol.UDP);
-                root.GetComponent<FiberParentComponent>().ParentFiberId = request.OwnerFiberId;
-            }
+            RouterAddressComponent routerAddressComponent =
+                    root.AddComponent<RouterAddressComponent, string, int>(ConstValue.RouterHttpHost, ConstValue.RouterHttpPort);
+            await routerAddressComponent.Init();
+            root.AddComponent<NetComponent, AddressFamily, NetworkProtocol>(routerAddressComponent.RouterManagerIPAddress.AddressFamily, NetworkProtocol.UDP);
+            root.GetComponent<FiberParentComponent>().ParentFiberId = request.OwnerFiberId;
 
             NetComponent netComponent = root.GetComponent<NetComponent>();
             
@@ -47,7 +43,6 @@ namespace ET.Client
 
             Log.Debug("登陆gate成功!");
 
-            response.Error = 0;
             response.PlayerId = g2CLoginGate.PlayerId;
         }
     }

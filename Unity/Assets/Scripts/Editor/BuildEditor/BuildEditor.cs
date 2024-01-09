@@ -29,12 +29,10 @@ namespace ET
         private PlatformType activePlatform;
         private PlatformType platformType;
         private ConfigFolder configFolder;
-        private bool clearFolder;
-        private BuildOptions buildOptions;
-        private BuildAssetBundleOptions buildAssetBundleOptions = BuildAssetBundleOptions.None;
 
-        private GlobalConfig globalConfig;
         private string fairyGUIXMLPath;
+        private BuildOptions buildOptions;
+        private GlobalConfig globalConfig;
 
         [MenuItem("ET/Build Tool")]
         public static void ShowWindow()
@@ -60,12 +58,12 @@ namespace ET
             activePlatform = PlatformType.None;
 #endif
             platformType = activePlatform;
+            this.buildOptions = BuildOptions.None;
         }
 
         private void OnGUI()
         {
             this.platformType = (PlatformType)EditorGUILayout.EnumPopup(platformType);
-            this.clearFolder = EditorGUILayout.Toggle("clean folder? ", clearFolder);
             BuildType codeOptimization = (BuildType)EditorGUILayout.EnumPopup("BuildType ", this.globalConfig.BuildType);
 
             if (codeOptimization != this.globalConfig.BuildType)
@@ -75,19 +73,8 @@ namespace ET
                 AssetDatabase.SaveAssets();
             }
 
-            EditorGUILayout.LabelField("BuildAssetBundleOptions ");
-            this.buildAssetBundleOptions = (BuildAssetBundleOptions)EditorGUILayout.EnumFlagsField(this.buildAssetBundleOptions);
-
-            switch (this.globalConfig.BuildType)
-            {
-                case BuildType.None:
-                case BuildType.Debug:
-                    this.buildOptions = BuildOptions.BuildScriptsOnly;
-                    break;
-                case BuildType.Release:
-                    this.buildOptions = BuildOptions.BuildScriptsOnly;
-                    break;
-            }
+            EditorGUILayout.LabelField("BuildOptions ");
+            this.buildOptions = (BuildOptions)EditorGUILayout.EnumFlagsField(this.buildOptions);
 
             GUILayout.Space(5);
 
@@ -125,7 +112,7 @@ namespace ET
                             break;
                     }
                 }
-                BuildHelper.Build(this.platformType, this.buildAssetBundleOptions, this.buildOptions, this.clearFolder);
+                BuildHelper.Build(this.platformType, this.buildOptions);
                 return;
             }
 

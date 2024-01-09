@@ -3,8 +3,36 @@ using UnityEngine;
 
 namespace ET
 {
+    [FriendOf(typeof(GlobalComponent))]
+    public static partial class GlobalComponentSystem
+    {
+        [EntitySystem]
+        public static void Awake(this GlobalComponent self)
+        {
+            self.Global = GameObject.Find("/Global").transform;
+            self.Unit = GameObject.Find("/Global/Unit").transform;
+            self.GlobalConfig = Resources.Load<GlobalConfig>("GlobalConfig");
+            
+            self.NormalGRoot = new GComponent();
+            self.NormalGRoot.gameObjectName = "NormalGRoot";
+            FairyGUI.GRoot.inst.AddChild(self.NormalGRoot);
+            
+            self.PopUpGRoot = new GComponent();
+            self.PopUpGRoot.gameObjectName = "PopUpGRoot";
+            FairyGUI.GRoot.inst.AddChild(self.PopUpGRoot);
+            
+            self.FixedGRoot = new GComponent();
+            self.FixedGRoot.gameObjectName = "FixedGRoot";
+            FairyGUI.GRoot.inst.AddChild(self.FixedGRoot);
+            
+            self.OtherGRoot = new GComponent();
+            self.OtherGRoot.gameObjectName = "OtherGRoot";
+            FairyGUI.GRoot.inst.AddChild(self.OtherGRoot);
+        }
+    }
+    
     [ComponentOf(typeof(Scene))]
-    public class GlobalComponent: Singleton<GlobalComponent>,ISingletonAwake
+    public class GlobalComponent: Entity, IAwake
     {
         public Transform Global;
         public Transform Unit { get; set; }
@@ -15,27 +43,5 @@ namespace ET
         public GComponent OtherGRoot{ get; set; }
 
         public GlobalConfig GlobalConfig { get; set; }
-        public void Awake()
-        {
-            Global = GameObject.Find("/Global").transform;
-            Unit = GameObject.Find("/Global/Unit").transform;
-            GlobalConfig = Resources.Load<GlobalConfig>("GlobalConfig");
-
-            NormalGRoot = new GComponent();
-            NormalGRoot.gameObjectName = "NormalGRoot";
-            FairyGUI.GRoot.inst.AddChild(NormalGRoot);
-            
-            PopUpGRoot = new GComponent();
-            PopUpGRoot.gameObjectName = "PopUpGRoot";
-            FairyGUI.GRoot.inst.AddChild(PopUpGRoot);
-            
-            FixedGRoot = new GComponent();
-            FixedGRoot.gameObjectName = "FixedGRoot";
-            FairyGUI.GRoot.inst.AddChild(FixedGRoot);
-            
-            OtherGRoot = new GComponent();
-            OtherGRoot.gameObjectName = "OtherGRoot";
-            FairyGUI.GRoot.inst.AddChild(OtherGRoot);
-        }
     }
 }

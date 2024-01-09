@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 //Object并非C#基础中的Object，而是 UnityEngine.Object
 using Object = UnityEngine.Object;
 
@@ -123,12 +122,6 @@ public class ReferenceCollector: MonoBehaviour, ISerializationCallbackReceiver
 		{
 			return null;
 		}
-
-		if ((dictGo as T) == null)
-		{
-			return (dictGo as GameObject).GetComponent<T>();
-		}
-
 		return dictGo as T;
 	}
 

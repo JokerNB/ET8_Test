@@ -63,7 +63,8 @@ namespace ET
                 YooAssets.SetDefaultPackage(package);
             }
 
-            EPlayMode ePlayMode = GlobalComponent.Instance.GlobalConfig.EPlayMode;
+            GlobalConfig globalConfig = Resources.Load<GlobalConfig>("GlobalConfig");
+            EPlayMode ePlayMode = globalConfig.EPlayMode;
             
             // 编辑器下的模拟模式
             switch (ePlayMode)

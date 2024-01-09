@@ -31,7 +31,8 @@ namespace ET
         {
             if (!Define.EnableDll)
             {
-                if (GlobalComponent.Instance.GlobalConfig.CodeMode != CodeMode.ClientServer)
+                GlobalConfig globalConfig = Resources.Load<GlobalConfig>("GlobalConfig");
+                if (globalConfig.CodeMode != CodeMode.ClientServer)
                 {
                     throw new Exception("!ENABLE_DLL mode must use ClientServer code mode!");
                 }

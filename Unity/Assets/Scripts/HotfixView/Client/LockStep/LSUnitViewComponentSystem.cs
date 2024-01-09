@@ -29,7 +29,8 @@ namespace ET.Client
                 GameObject bundleGameObject = await room.GetComponent<ResourcesLoaderComponent>().LoadAssetAsync<GameObject>(assetsName);
                 GameObject prefab = bundleGameObject.Get<GameObject>("Skeleton");
 
-                GameObject unitGo = UnityEngine.Object.Instantiate(prefab, GlobalComponent.Instance.Unit, true);
+                GlobalComponent globalComponent = root.GetComponent<GlobalComponent>();
+                GameObject unitGo = UnityEngine.Object.Instantiate(prefab, globalComponent.Unit, true);
                 unitGo.transform.position = lsUnit.Position.ToVector();
 
                 LSUnitView lsUnitView = self.AddChildWithId<LSUnitView, GameObject>(lsUnit.Id, unitGo);
