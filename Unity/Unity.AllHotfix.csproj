@@ -49,7 +49,6 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/AllHotfix/Empty.cs" />
     <None Include="Assets/Scripts/AllHotfix/Unity.AllHotfix.asmdef" />
-    <Folder Include="Assets/Scripts/AllHotfix" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -306,7 +305,7 @@
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Bson.dll</HintPath>
     </Reference>
     <Reference Include="dnlib">
-      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.code-philosophy.hybridclr@febff1c658/Plugins/dnlib.dll</HintPath>
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.code-philosophy.hybridclr@51da1d4c43/Plugins/dnlib.dll</HintPath>
     </Reference>
     <Reference Include="CommandLine">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/CommandLine.dll</HintPath>

@@ -41,66 +41,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Folder Include="Assets" />
-     <Folder Include="Assets/StreamingAssets/Bundles" />
-     <Folder Include="Assets/Res/Unit" />
-     <Folder Include="Assets/Config/Excel/Datas/StartConfig/RouterTest" />
-     <Folder Include="Assets/Bundles/Scenes" />
-     <Folder Include="Assets/Bundles" />
-     <Folder Include="Assets/Bundles/AotDlls" />
-     <Folder Include="Assets/Settings" />
-     <Folder Include="Assets/Scenes" />
-     <Folder Include="Assets/Bundles/Shaders" />
-     <Folder Include="Assets/Bundles/Unit" />
-     <Folder Include="Assets/Res/Unit/Skeleton/Ani/Materials" />
-     <Folder Include="Assets/Res" />
-     <Folder Include="Assets/Bundles/Code" />
-     <Folder Include="Assets/Config/Excel/Datas/StartConfig/Localhost" />
-     <Folder Include="Assets/Bundles/FUI/Login" />
-     <Folder Include="Assets/Res/Unit/Skeleton/Texture" />
-     <Folder Include="Assets/Bundles/Scenes/Map1" />
-     <Folder Include="Assets/Bundles/FUI/Lobby" />
-     <Folder Include="Assets/Config/Excel/Datas/StartConfig/Release" />
-     <Folder Include="Assets/Config/Excel/Datas/StartConfig" />
-     <Folder Include="Assets/StreamingAssets/Bundles/DefaultPackage" />
-     <Folder Include="Assets/Bundles/FUI/MainPanel" />
-     <Folder Include="Assets/Config/Excel" />
-     <Folder Include="Assets/Bundles/Scenes/Map3" />
-     <None Include="Assets/Bundles/Shaders/FairyGUI-BMFont.shader" />
-     <Folder Include="Assets/Res/Unit/Skeleton/Character" />
-     <Folder Include="Assets/Bundles/FUI" />
-     <Folder Include="Assets/Config/Excel/Datas/StartConfig/Benchmark" />
-     <None Include="Assets/link.xml" />
-     <Folder Include="Assets/Config/Proto" />
-     <Folder Include="Assets/Res/Mat" />
-     <Folder Include="Assets/Resources" />
-     <Folder Include="Assets/Config/Excel/Defines" />
-     <None Include="Assets/Bundles/Shaders/FairyGUI-Text.shader" />
-     <Folder Include="Assets/Config/Excel/Datas" />
-     <Folder Include="Assets/Bundles/Shaders/AddOn" />
-     <None Include="Assets/Bundles/Shaders/AddOn/FairyGUI-BlurFilter.shader" />
-     <Folder Include="Assets/Config" />
-     <Folder Include="Assets/Res/Unit/Skeleton/Character/Materials" />
-     <Folder Include="Assets/Res/Unit/Skeleton/Ani" />
-     <None Include="Assets/Bundles/Shaders/FairyGUI-TMP.shader" />
-     <Folder Include="Assets/Res/Unit/Skeleton" />
-     <Folder Include="Assets/Bundles/Scenes/Map2" />
-     <Folder Include="Assets/Bundles/FUI/ChooseDifficulty" />
-     <Folder Include="Assets/Scripts" />
-     <None Include="Assets/Settings/AssetBundleCollectorConfig.xml" />
-     <None Include="Assets/Bundles/Shaders/FairyGUI-Image.shader" />
-     <Folder Include="Assets/StreamingAssets" />
-     <None Include="Assets/Config/Excel/Defines/__root__.xml" />
-     <Folder Include="Assets/Bundles/Config" />
-     <Reference Include="UnityEngine">
-     <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.CoreModule">
-     <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor">
-     <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
-     </Reference>
+    <None Include="Assets/Bundles/Shaders/FairyGUI-BMFont.shader" />
+    <None Include="Assets/link.xml" />
+    <None Include="Assets/Bundles/Shaders/FairyGUI-Text.shader" />
+    <None Include="Assets/Bundles/Shaders/AddOn/FairyGUI-BlurFilter.shader" />
+    <None Include="Assets/Bundles/Shaders/FairyGUI-TMP.shader" />
+    <None Include="Assets/Settings/AssetBundleCollectorConfig.xml" />
+    <None Include="Assets/Bundles/Shaders/FairyGUI-Image.shader" />
+    <None Include="Assets/Config/Excel/Defines/__root__.xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

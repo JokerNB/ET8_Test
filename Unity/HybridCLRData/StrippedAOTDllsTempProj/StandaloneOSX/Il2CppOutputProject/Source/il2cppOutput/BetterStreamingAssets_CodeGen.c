@@ -31,13 +31,13 @@ static Il2CppMethodPointer s_methodPointers[7] =
 };
 static const int32_t s_InvokerIndices[7] = 
 {
-	23719,
-	21668,
-	19963,
-	18703,
-	23719,
-	19112,
-	21685,
+	22770,
+	20738,
+	19052,
+	17804,
+	22770,
+	18208,
+	20755,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_BetterStreamingAssets_CodeGenModule;
 const Il2CppCodeGenModule g_BetterStreamingAssets_CodeGenModule = 

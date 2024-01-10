@@ -196,9 +196,9 @@ else \
 
 		std::vector<uint64_t>& resolveDatas = result.resolveDatas;
 		// TODO. alloc use pool
-		std::unordered_map<uint32_t, uint32_t> token2DataIdxs;
+		Il2CppHashMap<uint32_t, uint32_t, il2cpp::utils::PassThroughHash<uint32_t>> token2DataIdxs;
 		// TOTO. alloc use pool
-		std::unordered_map<const void*, uint32_t> ptr2DataIdxs;
+		Il2CppHashMap<const void*, uint32_t, il2cpp::utils::PassThroughHash<const void*>> ptr2DataIdxs;
 
 		resolveDatas.push_back(0); // reserved
 
@@ -317,7 +317,7 @@ else \
 
 		for (ExceptionClause& ec : body.exceptionClauses)
 		{
-			InterpExceptionClause* iec = (InterpExceptionClause*)IL2CPP_MALLOC_ZERO(sizeof(InterpExceptionClause));
+			InterpExceptionClause* iec = (InterpExceptionClause*)HYBRIDCLR_MALLOC_ZERO(sizeof(InterpExceptionClause));
 			iec->flags = ec.flags;
 			iec->tryBeginOffset = ec.tryOffset;
 			iec->tryEndOffset = ec.tryOffset + ec.tryLength;
@@ -3505,7 +3505,7 @@ ir->ele = ele.locOffset;
 		}
 
 
-		byte* tranCodes = (byte*)IL2CPP_MALLOC(totalSize);
+		byte* tranCodes = (byte*)HYBRIDCLR_MALLOC(totalSize);
 
 		uint32_t tranOffset = 0;
 		for (IRBasicBlock* bb : irbbs)
@@ -3528,7 +3528,7 @@ ir->ele = ele.locOffset;
 		MethodArgDesc* argDescs;
 		if (actualParamCount > 0)
 		{
-			argDescs = (MethodArgDesc*)IL2CPP_CALLOC(actualParamCount, sizeof(MethodArgDesc));
+			argDescs = (MethodArgDesc*)HYBRIDCLR_CALLOC(actualParamCount, sizeof(MethodArgDesc));
 			for (int32_t i = 0; i < actualParamCount; i++)
 			{
 				const Il2CppType* argType = args[i].type;

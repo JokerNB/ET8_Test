@@ -41,33 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Assets/Scripts/ModelView/Client/Module/Resource" />
-    <Folder Include="Assets/Scripts/ModelView/Client/Plugins" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUIAutoGen/ChooseDifficulty" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUIAutoGen/Lobby" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUIAutoGen" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUI/MainPanel" />
-    <Folder Include="Assets/Scripts/ModelView/Client/Plugins/Example" />
-    <Folder Include="Assets/Scripts/ModelView/Client/Map" />
-    <Folder Include="Assets/Scripts/ModelView/Client/Module/Localize" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUI" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUIAutoGen/Login" />
-    <Folder Include="Assets/Scripts/ModelView/Client/LockStep/Camera" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUI/Main" />
-    <Folder Include="Assets/Scripts/ModelView/Client" />
     <None Include="Assets/Scripts/ModelView/Unity.ModelView.asmdef" />
-    <Folder Include="Assets/Scripts/ModelView/Client/Module/UI" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUI/ChooseDifficulty" />
-    <Folder Include="Assets/Scripts/ModelView/Client/Demo" />
-    <Folder Include="Assets/Scripts/ModelView/Client/LockStep/UI" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUI/Login" />
-    <Folder Include="Assets/Scripts/ModelView" />
-    <Folder Include="Assets/Scripts/ModelView/Client/LockStep" />
-    <Folder Include="Assets/Scripts/ModelView/Client/Demo/Opera" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUI/Lobby" />
-    <Folder Include="Assets/Scripts/ModelView/Client/Unit" />
-    <Folder Include="Assets/Scripts/ModelView/Client/FUIAutoGen/MainPanel" />
-    <Folder Include="Assets/Scripts/ModelView/Client/Module" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

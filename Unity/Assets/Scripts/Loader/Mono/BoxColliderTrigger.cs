@@ -17,10 +17,7 @@ namespace ET
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.tag == "Player")
-            {
-                this.onTriggerEnterCall?.Invoke(this.triggerType);
-            }
+            this.onTriggerEnterCall?.Invoke(this.triggerType);
         }
     }
 }

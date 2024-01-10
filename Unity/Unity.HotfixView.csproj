@@ -41,35 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Assets/Scripts/HotfixView/Client/LockStep/Scene" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Demo" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Module/UI" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Module/TrueSync" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Unit" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Module" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Plugins/Example" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/LockStep" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Module/Resource" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/Main" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/MainPanel" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Demo/Opera" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/MainPanel/Event" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/LockStep/UI" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/Login/Event" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/Lobby" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/Login" />
-    <Folder Include="Assets/Scripts/HotfixView/Client" />
-    <Folder Include="Assets/Scripts/HotfixView" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Scene" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/ChooseDifficulty/Event" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Plugins/FairyGUI" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/LockStep/Camera" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Plugins" />
     <None Include="Assets/Scripts/HotfixView/Unity.HotfixView.asmdef" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/FUI/ChooseDifficulty" />
-    <Folder Include="Assets/Scripts/HotfixView/Client/Map" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

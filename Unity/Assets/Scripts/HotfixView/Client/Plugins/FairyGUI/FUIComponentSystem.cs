@@ -463,7 +463,7 @@ public static partial class FUIComponentSystem
         fuiEventHandler.OnInitPanelCoreData(fuiEntity);
 
         // 设置根节点
-        fuiEntity.SetRoot(FUIRootHelper.GetTargetRoot(fuiEntity.PanelCoreData.panelType));
+        fuiEntity.SetRoot(FUIRootHelper.GetTargetRoot(fuiEntity.PanelCoreData.panelType,self.Root()));
 
         fuiEventHandler.OnInitComponent(fuiEntity);
         fuiEventHandler.OnRegisterUIEvent(fuiEntity);

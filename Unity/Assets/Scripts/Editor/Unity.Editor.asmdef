@@ -10,7 +10,11 @@
         "Unity.Model",
         "Unity.Hotfix",
         "YooAsset",
-        "Unity.Mathematics"
+        "Unity.Mathematics",
+        "FairyGUI.Editor",
+        "FairyGUI",
+        "FairyGUI.Dyanmic",
+        "YooAsset.Editor"
     ],
     "includePlatforms": [
         "Editor"

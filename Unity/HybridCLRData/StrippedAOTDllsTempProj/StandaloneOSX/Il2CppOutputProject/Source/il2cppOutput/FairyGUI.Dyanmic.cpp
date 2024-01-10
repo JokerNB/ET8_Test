@@ -549,6 +549,9 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 struct DisplayListItem_tAB0DC3A28414748A92EB2C92E721BBCDE604C285  : public RuntimeObject
 {
 	PackageItem_t93A2F2C2794F75EB09486CC05A681593080BFE07* ___packageItem;
+	int32_t ___type;
+	int32_t ___childCount;
+	int32_t ___listItemCount;
 };
 struct U3CU3Ec__DisplayClass10_0_tD8316F228AEEA511240B7A44285C32B706176D1D  : public RuntimeObject
 {

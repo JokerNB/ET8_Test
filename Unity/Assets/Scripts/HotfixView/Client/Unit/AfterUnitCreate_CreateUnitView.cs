@@ -13,7 +13,8 @@ namespace ET.Client
             GameObject bundleGameObject = await scene.GetComponent<ResourcesLoaderComponent>().LoadAssetAsync<GameObject>(assetsName);
             GameObject prefab = bundleGameObject.Get<GameObject>("Skeleton");
 
-            GameObject go = UnityEngine.Object.Instantiate(prefab, GlobalComponent.Instance.Unit, true);
+            GlobalComponent globalComponent = scene.Root().GetComponent<GlobalComponent>();
+            GameObject go = UnityEngine.Object.Instantiate(prefab, globalComponent.Unit, true);
             go.transform.position = unit.Position;
             unit.AddComponent<GameObjectComponent>().GameObject = go;
             unit.AddComponent<AnimatorComponent>();

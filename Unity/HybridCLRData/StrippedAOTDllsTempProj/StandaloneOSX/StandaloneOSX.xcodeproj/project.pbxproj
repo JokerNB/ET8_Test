@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36BD481CA443481B99C833BD = {isa = PBXBuildFile; fileRef = AB8D47C9ABDC14F8DD86C8CA /* GameAssembly.dylib */; };
-		3CA64FF7B7F47887949E04A8 /* GameAssembly.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB8D47C9ABDC14F8DD86C8CA /* GameAssembly.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A854932916399FB2BC4D2FA /* lib_burst_generated.bundle in CopyPlugIns */ = {isa = PBXBuildFile; fileRef = 258B433688003E780432176D /* lib_burst_generated.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		750575B4214B38CE004B1B34 /* UnityPlayer.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 750575B3214B38CE004B1B34 /* UnityPlayer.dylib */; };
 		750575B5214B3DF2004B1B34 /* UnityPlayer.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 750575B3214B38CE004B1B34 /* UnityPlayer.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		752CA83E2149E6C400295EFC /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 752CA83D2149E6C400295EFC /* Main.cpp */; };
@@ -16,21 +15,22 @@
 		75E7179121715210002B2479 /* DefaultPreferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75E7178E21715210002B2479 /* DefaultPreferences.plist */; };
 		75E7179221715210002B2479 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 75E7178F21715210002B2479 /* Data */; };
 		75E7179321715210002B2479 /* PlayerIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 75E7179021715210002B2479 /* PlayerIcon.icns */; };
-		8D3A4DB2B96FB72E01CC2BDA /* lib_burst_generated.bundle in CopyPlugIns */ = {isa = PBXBuildFile; fileRef = 93C84B29A64C17547C62A4B0 /* lib_burst_generated.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		87EA4A8982D51175F0ABFE46 /* GameAssembly.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE2242E495CD86B18219DC26 /* GameAssembly.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB54473A802A452A419823F2 = {isa = PBXBuildFile; fileRef = AE2242E495CD86B18219DC26 /* GameAssembly.dylib */; };
 		CDD5792C240E027400DEA632 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = CDD5792B240E027400DEA632 /* MainMenu.nib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		44B14A1B88D8005365377139 /* PBXContainerItemProxy */ = {
+		0A8D473EA7055C86CAC424B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 752CA8202149E6C100295EFC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A1C23A925DE4C98008EA3B6;
 			remoteInfo = GameAssembly;
 		};
-		561B41FEB422EBF1834DA001 /* PBXContainerItemProxy */ = {
+		8DB84507AC3579CF85D2BD7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E4674C4DA50B0118FC44F4A9 /* GameAssembly.xcodeproj */;
+			containerPortal = E5724EAA84FC3A8E454CBB55 /* GameAssembly.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8A1C23AA25DE4C98008EA3B6;
 			remoteInfo = GameAssembly;
@@ -38,15 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		61204006A9F70023FC77119B /* Embed Frameworks */ = {
+		56DA42E2890E23B3CBD74B2E /* CopyPlugIns */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 13;
 			files = (
-				3CA64FF7B7F47887949E04A8 /* GameAssembly.dylib in Embed Frameworks */,
+				3A854932916399FB2BC4D2FA /* lib_burst_generated.bundle in CopyPlugIns */,
 			);
-			name = "Embed Frameworks";
+			name = CopyPlugIns;
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		750575B6214B3DF2004B1B34 /* Embed Libraries */ = {
@@ -60,20 +60,21 @@
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		947D40ABA8EB4E1A89793A4C /* CopyPlugIns */ = {
+		DA6745E68CCFCF848FDB3B34 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstSubfolderSpec = 10;
 			files = (
-				8D3A4DB2B96FB72E01CC2BDA /* lib_burst_generated.bundle in CopyPlugIns */,
+				87EA4A8982D51175F0ABFE46 /* GameAssembly.dylib in Embed Frameworks */,
 			);
-			name = CopyPlugIns;
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		258B433688003E780432176D /* lib_burst_generated.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = lib_burst_generated.bundle; path = ET/Plugins/lib_burst_generated.bundle; sourceTree = SOURCE_ROOT; };
 		750575B3214B38CE004B1B34 /* UnityPlayer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = UnityPlayer.dylib; path = ET/Frameworks/UnityPlayer.dylib; sourceTree = "<group>"; };
 		752CA8282149E6C100295EFC /* ET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752CA83C2149E6C400295EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,9 +83,8 @@
 		75E7178E21715210002B2479 /* DefaultPreferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DefaultPreferences.plist; path = ET/Resources/DefaultPreferences.plist; sourceTree = "<group>"; };
 		75E7178F21715210002B2479 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Data; path = ET/Resources/Data; sourceTree = "<group>"; };
 		75E7179021715210002B2479 /* PlayerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = PlayerIcon.icns; path = ET/Resources/PlayerIcon.icns; sourceTree = "<group>"; };
-		93C84B29A64C17547C62A4B0 /* lib_burst_generated.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = lib_burst_generated.bundle; path = ET/Plugins/lib_burst_generated.bundle; sourceTree = SOURCE_ROOT; };
 		CDD5792B240E027400DEA632 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MainMenu.nib; path = ET/Resources/MainMenu.nib; sourceTree = "<group>"; };
-		E4674C4DA50B0118FC44F4A9 /* GameAssembly.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GameAssembly.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E5724EAA84FC3A8E454CBB55 /* GameAssembly.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GameAssembly.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65984BDF917DEE36BB9316A0 /* Products */ = {
+		29FD4CC2BC9345DEFF5950BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB8D47C9ABDC14F8DD86C8CA /* GameAssembly.dylib */,
+				AE2242E495CD86B18219DC26 /* GameAssembly.dylib */,
 			);
 			path = Products;
+			sourceTree = "<group>";
+		};
+		6CEE44EBB55C4A07BE5BB5A7 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				258B433688003E780432176D /* lib_burst_generated.bundle */,
+			);
+			path = Plugins;
 			sourceTree = "<group>";
 		};
 		750575B2214B38CE004B1B34 /* Frameworks */ = {
@@ -122,7 +130,7 @@
 				750575B2214B38CE004B1B34 /* Frameworks */,
 				752CA82A2149E6C100295EFC /* ET */,
 				752CA8292149E6C100295EFC /* Products */,
-				E4674C4DA50B0118FC44F4A9 /* GameAssembly.xcodeproj */,
+				E5724EAA84FC3A8E454CBB55 /* GameAssembly.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,7 +147,7 @@
 			children = (
 				752CA83C2149E6C400295EFC /* Info.plist */,
 				752CA83D2149E6C400295EFC /* Main.cpp */,
-				BBC94C629C6FD03A4660A3BB /* Plugins */,
+				6CEE44EBB55C4A07BE5BB5A7 /* Plugins */,
 			);
 			path = ET;
 			sourceTree = "<group>";
@@ -156,14 +164,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BBC94C629C6FD03A4660A3BB /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				93C84B29A64C17547C62A4B0 /* lib_burst_generated.bundle */,
-			);
-			path = Plugins;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,13 +175,13 @@
 				752CA8252149E6C100295EFC /* Frameworks */,
 				752CA8262149E6C100295EFC /* Resources */,
 				750575B6214B3DF2004B1B34 /* Embed Libraries */,
-				947D40ABA8EB4E1A89793A4C /* CopyPlugIns */,
-				61204006A9F70023FC77119B /* Embed Frameworks */,
+				56DA42E2890E23B3CBD74B2E /* CopyPlugIns */,
+				DA6745E68CCFCF848FDB3B34 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				76344B1EB1A57E3FFE8B5AA8 /* PBXTargetDependency */,
+				12CE47DB847AEA03A372117A /* PBXTargetDependency */,
 			);
 			name = ET;
 			productName = ET;
@@ -216,8 +216,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 65984BDF917DEE36BB9316A0 /* Products */;
-					ProjectRef = E4674C4DA50B0118FC44F4A9 /* GameAssembly.xcodeproj */;
+					ProductGroup = 29FD4CC2BC9345DEFF5950BA /* Products */;
+					ProjectRef = E5724EAA84FC3A8E454CBB55 /* GameAssembly.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -228,11 +228,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		AB8D47C9ABDC14F8DD86C8CA /* GameAssembly.dylib */ = {
+		AE2242E495CD86B18219DC26 /* GameAssembly.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
 			path = GameAssembly.dylib;
-			remoteRef = 561B41FEB422EBF1834DA001 /* PBXContainerItemProxy */;
+			remoteRef = 8DB84507AC3579CF85D2BD7B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -264,10 +264,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		76344B1EB1A57E3FFE8B5AA8 /* PBXTargetDependency */ = {
+		12CE47DB847AEA03A372117A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8A1C23A925DE4C98008EA3B6;
-			targetProxy = 44B14A1B88D8005365377139 /* PBXContainerItemProxy */;
+			targetProxy = 0A8D473EA7055C86CAC424B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

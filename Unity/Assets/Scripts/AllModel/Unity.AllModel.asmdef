@@ -7,7 +7,9 @@
         "Unity.Mathematics",
         "Unity.Loader",
         "MemoryPack",
-        "YooAsset"
+        "YooAsset",
+        "FairyGUI",
+        "FairyGUI.Dyanmic"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

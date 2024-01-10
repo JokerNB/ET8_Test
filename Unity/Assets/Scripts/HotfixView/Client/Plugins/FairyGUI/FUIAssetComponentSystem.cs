@@ -46,19 +46,16 @@ public static partial class FUIAssetComponentSystem
         assetLoader.UnloadAudioClipHandlerImpl = self.UnloadAssetInner;
 
         self.AssetLoader = assetLoader;
+    }
 
-        self.GetMappingData().Coroutine();
-
+    public static async ETTask InitializeUIAssetManager(this FUIAssetComponent self)
+    {
+        var mappingData = await self.Root().GetComponent<ResourcesLoaderComponent>().LoadAssetAsync<TextAsset>("Assets/Bundles/FUI/UIPackageMapping");
+        self.PackageHelper = new UIPackageMapping(mappingData.bytes);
         self.UIAssetManager = new UIAssetManager();
         self.UIAssetManager.Initialize(self);
     }
-
-    public static async ETTask GetMappingData(this FUIAssetComponent self)
-    {
-        var mappingData = await self.Root().GetComponent<ResourcesLoaderComponent>().LoadRawFileDataSync("Assets/Bundles/FUI/UIPackageMapping");
-        self.PackageHelper = new UIPackageMapping(mappingData);
-    }
-
+    
     public static ETTask<GObject> CreateObjectFromURLAsync(this FUIAssetComponent self, string url)
     {
         ETTask<GObject> task = ETTask<GObject>.Create(true);
@@ -87,10 +84,10 @@ public static partial class FUIAssetComponentSystem
     {
         ResourcesLoaderComponent resourcesLoaderComponent = self.Root().GetComponent<ResourcesLoaderComponent>();
         string location = "{0}{1}".Fmt(packageName, "_fui");
-        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync($"{self.FUIPath}/{packageName}/{location}");
+        var descData = await resourcesLoaderComponent.LoadAssetAsync<TextAsset>($"{self.FUIPath}/{packageName}/{location}");
         // resourcesLoaderComponent.UnloadAsset(location);
 
-        bytes = descData;
+        bytes = descData.bytes;
         assetNamePrefix = packageName;
     }
 
@@ -98,10 +95,10 @@ public static partial class FUIAssetComponentSystem
     {
         ResourcesLoaderComponent resourcesLoaderComponent = self.Root().GetComponent<ResourcesLoaderComponent>();
         string location = "{0}{1}".Fmt(packageName, "_fui");
-        byte[] descData = await resourcesLoaderComponent.LoadRawFileDataSync($"{self.FUIPath}/{packageName}/{location}");
+        var descData = await resourcesLoaderComponent.LoadAssetAsync<TextAsset>($"{self.FUIPath}/{packageName}/{location}");
         // ResComponent.Instance.UnloadAsset(location);
 
-        callback(descData, packageName);
+        callback(descData.bytes, packageName);
     }
 
     private static async ETTask LoadTextureAsyncInner(this FUIAssetComponent self, string assetName, LoadTextureCallback callback)

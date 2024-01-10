@@ -897,3 +897,5 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/YooAsset.Editor.pdb
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.ScriptableBuildPipeline.Editor.pdb
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.ScriptableBuildPipeline.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/FairyGUI.Editor.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/FairyGUI.Editor.pdb

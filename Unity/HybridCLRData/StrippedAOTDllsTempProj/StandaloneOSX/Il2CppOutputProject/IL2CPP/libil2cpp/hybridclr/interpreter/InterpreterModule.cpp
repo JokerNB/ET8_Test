@@ -25,10 +25,10 @@ namespace interpreter
 {
 	il2cpp::os::ThreadLocalValue InterpreterModule::s_machineState;
 
-	static std::unordered_map<const char*, Managed2NativeCallMethod, CStringHash, CStringEqualTo> g_managed2natives;
-	static std::unordered_map<const char*, Il2CppMethodPointer, CStringHash, CStringEqualTo> g_native2manageds;
-	static std::unordered_map<const char*, Il2CppMethodPointer, CStringHash, CStringEqualTo> g_adjustThunks;
-	static std::unordered_map<const char*, const char*, CStringHash, CStringEqualTo> g_fullName2signature;
+	static Il2CppHashMap<const char*, Managed2NativeCallMethod, CStringHash, CStringEqualTo> g_managed2natives;
+	static Il2CppHashMap<const char*, Il2CppMethodPointer, CStringHash, CStringEqualTo> g_native2manageds;
+	static Il2CppHashMap<const char*, Il2CppMethodPointer, CStringHash, CStringEqualTo> g_adjustThunks;
+	static Il2CppHashMap<const char*, const char*, CStringHash, CStringEqualTo> g_fullName2signature;
 
 	MachineState& InterpreterModule::GetCurrentThreadMachineState()
 	{
@@ -516,7 +516,7 @@ namespace interpreter
 			TEMP_FORMAT(errMsg, "Method body is null. %s.%s::%s", methodInfo->klass->namespaze, methodInfo->klass->name, methodInfo->name);
 			il2cpp::vm::Exception::Raise(il2cpp::vm::Exception::GetExecutionEngineException(errMsg));
 		}
-		InterpMethodInfo* imi = new (IL2CPP_MALLOC_ZERO(sizeof(InterpMethodInfo))) InterpMethodInfo;
+		InterpMethodInfo* imi = new (HYBRIDCLR_MALLOC_ZERO(sizeof(InterpMethodInfo))) InterpMethodInfo;
 		transform::HiTransform::Transform(image, methodInfo, *methodBody, *imi);
 		il2cpp::os::Atomic::FullMemoryBarrier();
 		const_cast<MethodInfo*>(methodInfo)->interpData = imi;

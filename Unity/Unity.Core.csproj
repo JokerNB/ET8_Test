@@ -193,35 +193,7 @@
     <Compile Include="Assets/Scripts/Core/World/Module/Actor/MessageHandlerAttribute.cs" />
     <Compile Include="Assets/Scripts/Core/ThreadSynchronizationContext.cs" />
     <Compile Include="Assets/Scripts/Core/Serialize/MongoHelper.cs" />
-    <Folder Include="Assets/Scripts/Core/LubanLib" />
-    <Folder Include="Assets/Scripts/Core/World/Module/Options" />
-    <Folder Include="Assets/Scripts/Core/Fiber/Module/Synchronization" />
-    <Folder Include="Assets/Scripts/Core/Serialize" />
-    <Folder Include="Assets/Scripts/Core/Fiber/Module/Actor" />
-    <Folder Include="Assets/Scripts/Core/World/Module/Log" />
-    <Folder Include="Assets/Scripts/Core/Fiber/Module/CoroutineLock" />
-    <Folder Include="Assets/Scripts/Core/Method" />
-    <Folder Include="Assets/Scripts/Core/World/Module/Code" />
-    <Folder Include="Assets/Scripts/Core/World/Module" />
-    <Folder Include="Assets/Scripts/Core/World/Module/Actor" />
-    <Folder Include="Assets/Scripts/Core/World" />
-    <Folder Include="Assets/Scripts/Core/Fiber/Module" />
-    <Folder Include="Assets/Scripts/Core/Fiber/Module/Navmesh" />
-    <Folder Include="Assets/Scripts/Core/Network" />
-    <Folder Include="Assets/Scripts/Core/World/Module/Fiber" />
-    <Folder Include="Assets/Scripts/Core/Fiber/Module/Timer" />
-    <Folder Include="Assets/Scripts/Core/World/Module/ObjectPool" />
-    <Folder Include="Assets/Scripts/Core/Analyzer" />
-    <Folder Include="Assets/Scripts/Core/World/Module/TimeInfo" />
-    <Folder Include="Assets/Scripts/Core/World/Module/Config" />
-    <Folder Include="Assets/Scripts/Core/World/Module/IdGenerater" />
     <None Include="Assets/Scripts/Core/Unity.Core.asmdef" />
-    <Folder Include="Assets/Scripts/Core/Object" />
-    <Folder Include="Assets/Scripts/Core/Fiber" />
-    <Folder Include="Assets/Scripts/Core" />
-    <Folder Include="Assets/Scripts/Core/World/Module/EventSystem" />
-    <Folder Include="Assets/Scripts/Core/Entity" />
-    <Folder Include="Assets/Scripts/Core/Helper" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -490,7 +462,7 @@
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Bson.dll</HintPath>
     </Reference>
     <Reference Include="dnlib">
-      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.code-philosophy.hybridclr@febff1c658/Plugins/dnlib.dll</HintPath>
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.code-philosophy.hybridclr@51da1d4c43/Plugins/dnlib.dll</HintPath>
     </Reference>
     <Reference Include="CommandLine">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/CommandLine.dll</HintPath>

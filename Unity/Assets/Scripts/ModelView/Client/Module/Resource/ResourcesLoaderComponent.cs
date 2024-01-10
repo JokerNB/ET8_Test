@@ -105,39 +105,6 @@ namespace ET.Client
             await handler.Task;
             self.handlers.Add(location, handler);
         }
-        
-        
-        public static async ETTask<byte[]> LoadRawFileDataSync(this ResourcesLoaderComponent self, string location)
-        {
-            using CoroutineLock coroutineLock = await self.Root().GetComponent<CoroutineLockComponent>().Wait(CoroutineLockType.ResourcesLoader, location.GetHashCode());
-            RawFileOperationHandle handler;
-            if (!self.RawFileOperationHandles.TryGetValue(location, out handler))
-            {
-                handler = self.package.LoadRawFileSync(location);
-            
-                await handler.Task;
-
-                self.RawFileOperationHandles.Add(location, handler);
-            }
-            await handler;
-            return handler.GetRawFileData();
-        }
-        
-        public static async ETTask<string> LoadRawFileTextSync(this ResourcesLoaderComponent self, string location)
-        {
-            using CoroutineLock coroutineLock = await self.Root().GetComponent<CoroutineLockComponent>().Wait(CoroutineLockType.ResourcesLoader, location.GetHashCode());
-            RawFileOperationHandle handler;
-            if (!self.RawFileOperationHandles.TryGetValue(location, out handler))
-            {
-                handler = self.package.LoadRawFileSync(location);
-            
-                await handler.Task;
-
-                self.RawFileOperationHandles.Add(location, handler);
-            }
-            await handler;
-            return handler.GetRawFileText();
-        }
     }
     
     /// <summary>

@@ -10,23 +10,24 @@ public static class FUIRootHelper
           
     }
         
-    public static GComponent GetTargetRoot(UIPanelType type)
+    public static GComponent GetTargetRoot(UIPanelType type,Scene scene)
     {
+        var globalComponent = scene.GetComponent<GlobalComponent>();
         if (type == UIPanelType.Normal)
         {
-            return GlobalComponent.Instance.NormalGRoot;
+            return globalComponent.NormalGRoot;
         }
         else if (type == UIPanelType.Fixed)
         {
-            return GlobalComponent.Instance.FixedGRoot;
+            return globalComponent.FixedGRoot;
         }
         else if (type == UIPanelType.PopUp)
         {
-            return GlobalComponent.Instance.PopUpGRoot;
+            return globalComponent.PopUpGRoot;
         }
         else if (type == UIPanelType.Other)
         {
-            return GlobalComponent.Instance.OtherGRoot;
+            return globalComponent.OtherGRoot;
         }
 
         Log.Error("uiroot type is error: " + type.ToString());
