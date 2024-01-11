@@ -14,6 +14,8 @@ namespace ET.Client
 
 		[StaticField]
 		public static int ModelType { get; set; } = 0;
+		[StaticField]
+		public static int ModelId { get; set; } = 0;
 		public const int ModelConfigId = 1000;
 		public const int NormalConfigId = 10000;
 		public const int HappyConfigId = 20000;

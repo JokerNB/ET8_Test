@@ -15,5 +15,7 @@ namespace ET
         // 200001以上不抛异常
         public const int ERR_LoginInfoEmpty = 200002;
         public const int ERR_LoginPasswrodError = 200003;
+        public const int ERR_ChooseModelTypeError = 200004;
+        public const int ERR_ChooseDifficultyTypeError = 200004;
     }
 }

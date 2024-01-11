@@ -1,3 +1,4 @@
+using ET.Server;
 using FairyGUI;
 
 namespace ET.Client
@@ -22,8 +23,30 @@ namespace ET.Client
 
 		private static void OnClickListDifficultyItem(UIChooseDifficulty self, EventContext context)
 		{
-			//TODO:Semd Msg
-			self.Root().GetComponent<FUIComponent>().ClosePanel(PanelId.UIChooseDifficulty);
+			var modelType = UIChooseDifficulty.ModelType;
+			var modelId = UIChooseDifficulty.ModelId;
+			var gObject = context.data as GObject;
+			var index = self.FUIUIChooseDifficulty.List_Difficulty.GetChildIndex(gObject);
+			int difficultyType = 0;
+			if (modelType == 1)
+			{
+				var config = DifficultyNormalCategory.Instance.Get(index + 1 + 10000);
+				difficultyType = config.Id;
+			}
+			else
+			{
+				var config = DifficultyHappyCategroy.Instance.Get(index + 1 + 20000);
+				difficultyType = config.Id;
+			}
+
+			//发送模式及难度选择消息
+			OnClickEnd(modelId, difficultyType, self.Root()).Coroutine();
+		}
+
+		private static async ETTask OnClickEnd(int modelId, int difficultyType, Scene scene)
+		{
+			scene.GetComponent<FUIComponent>().ClosePanel(PanelId.UIChooseDifficulty);
+			await scene.GetComponent<ClientSenderCompnent>().Call(new C2M_TransferMap());
 		}
 
 		private static void RenderListDifficultyItem(int index, GObject item)
@@ -51,6 +74,7 @@ namespace ET.Client
 			var index = listModel.GetChildIndex(eventContext.data as GObject);
 			var config = ModelCategory.Instance.GetOrDefault(index + UIChooseDifficulty.ModelConfigId + 1);
 			UIChooseDifficulty.ModelType = config.DifficultyType;
+			UIChooseDifficulty.ModelId = config.Id;
 			uiChooseDifficulty.FUIUIChooseDifficulty.c1.SetSelectedIndex(1);
 			int count = UIChooseDifficulty.ModelType == 1? DifficultyNormalCategory.Instance.GetAll().Count : DifficultyHappyCategroy.Instance.GetAll().Count;
 			uiChooseDifficulty.FUIUIChooseDifficulty.List_Difficulty.numItems = count;
