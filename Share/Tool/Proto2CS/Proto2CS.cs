@@ -304,6 +304,9 @@ namespace ET
                 case "uint16":
                     typeCs = "ushort";
                     break;
+                case "bool":
+                    typeCs = "bool";
+                    break;
                 default:
                     typeCs = type;
                     break;
