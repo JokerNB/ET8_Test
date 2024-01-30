@@ -17,6 +17,8 @@ namespace ET.Server
                 return;
             }
 
+            bool isNewPlayer = false;
+            string NickName = "";
             using (await session.Root().GetComponent<CoroutineLockComponent>().Wait(CoroutineLockType.LoginAccount,request.Account.GetLongHashCode()))
             {
                 DBComponent dbComponent = session.Root().GetComponent<DBManagerComponent>().GetZoneDB(session.Zone());
@@ -27,6 +29,8 @@ namespace ET.Server
                     var accountInfo = accountInfosComponent.AddChild<AccountInfo>();
                     accountInfo.Account = request.Account;
                     accountInfo.Password = request.Password;
+                    accountInfo.NickName = NickName;
+                    isNewPlayer = true;
                     await dbComponent.Save(accountInfo);
                 }
                 else
@@ -38,6 +42,8 @@ namespace ET.Server
                         CloseSession(session).Coroutine();
                         return;
                     }
+
+                    NickName = accountInfo.NickName;
                 }
             }
             
@@ -51,6 +57,8 @@ namespace ET.Server
             response.Address = config.InnerIPPort.ToString();
             response.Key = g2RGetLoginKey.Key;
             response.GateId = g2RGetLoginKey.GateId;
+            response.IsNewPlayer = isNewPlayer;
+            response.NickName = NickName;
 
             CloseSession(session).Coroutine();
         }

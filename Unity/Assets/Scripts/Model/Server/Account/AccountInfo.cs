@@ -5,4 +5,5 @@ public class AccountInfo : Entity,IAwake
 {
     public string Account;
     public string Password;
+    public string NickName;
 }

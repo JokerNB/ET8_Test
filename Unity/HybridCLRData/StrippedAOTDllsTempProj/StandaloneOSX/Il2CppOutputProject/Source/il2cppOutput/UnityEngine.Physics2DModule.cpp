@@ -15,14 +15,26 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
 struct List_1_t2EF0515F9247C0F480F55BF3E296366A47CB0324;
 struct List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76;
 struct ContactPoint2DU5BU5D_t427621BF8902AE33C86E7BF384D9B2B5B781F949;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7;
 struct Rigidbody2DU5BU5D_tC196E4DEEA396B4A08BFAE8A94A45FD14403C9CF;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63;
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
 struct Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct Joint2D_tFA088656425446CDA98555EC8A0E5FE25945F843;
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E;
+struct Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
 struct String_t;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ContactPoint2DU5BU5D_t427621BF8902AE33C86E7BF384D9B2B5B781F949_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
@@ -32,12 +44,17 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PhysicsScene2D_t550D023B9E77BE6844564BB4F9FA291EEA10FDC9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral21ACE806CE655297BC379B3AD17E97F0A68B6AEC;
+IL2CPP_EXTERN_C String_t* _stringLiteralBD3BA845D2B098E6C2C7B123873A495D8803B7BC;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m18046D64FD3FA546A46227B43826992EE5D5F434_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PolygonCollider2D_SetPath_mDF03B6FDAE81E25C985F9BA6D372D949A6D9A1C1_RuntimeMethod_var;
 struct ContactPoint2D_t16A7EE2DDFB4FA3A09C6554E11F30CEDAEBFA801;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
 
 struct ContactPoint2DU5BU5D_t427621BF8902AE33C86E7BF384D9B2B5B781F949;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -223,6 +240,63 @@ struct ContactPoint2D_t16A7EE2DDFB4FA3A09C6554E11F30CEDAEBFA801
 	int32_t ___m_OtherRigidbody;
 	int32_t ___m_Enabled;
 };
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	intptr_t ___m_CachedPtr;
@@ -252,13 +326,36 @@ struct RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ____paramName;
+};
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
 };
 struct Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
 };
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+	RuntimeObject* ____actualValue;
+};
 struct Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct Joint2D_tFA088656425446CDA98555EC8A0E5FE25945F843  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63  : public Joint2D_tFA088656425446CDA98555EC8A0E5FE25945F843
+{
+};
+struct PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E  : public Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52
+{
+};
+struct HingeJoint2D_t713F69DA7EC9A05A9425DE3AE68CBFC5F8DD8839  : public AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63
 {
 };
 struct List_1_t2EF0515F9247C0F480F55BF3E296366A47CB0324_StaticFields
@@ -411,6 +508,38 @@ struct ContactPoint2DU5BU5D_t427621BF8902AE33C86E7BF384D9B2B5B781F949  : public 
 		m_Items[index] = value;
 	}
 };
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 m_Items[1];
+
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		m_Items[index] = value;
+	}
+};
 
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
@@ -454,7 +583,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB65488459697EAB64613 (RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* Object_FindObjectFromInstanceID_m977F314530A838CAB5497C8F5D0D8DA134B92E0C (int32_t ___0_instanceID, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* RaycastHit2D_get_collider_mB56DFCD16B708852EEBDBB490BC8665DBF7487FD (RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_position_Injected_m5D2AC2F0F4D41BA17BCA48FF18263F7728C6871C (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MovePosition_Injected_m7B6D07CFCE2E864C008AB5CED9EF1C8231D95386 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_position, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Component__ctor_m4319162A6E6B02301078C1233F6E7F4A3E735486 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_get_bounds_Injected_mB3F24D39428D3C8E314CC6452878BD9A62C216E4 (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* ___0_ret, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___0_paramName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D (PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* __this, int32_t ___0_index, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___1_points, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredJoint2D_get_connectedAnchor_Injected_m5A960B4774F642CB34B009D69776ED9A10F735F7 (AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_ret, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1956,6 +2093,101 @@ IL2CPP_EXTERN_C  Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* RaycastHi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_position_m03C92F26F561D48050FBA840754F584AA7F415EF (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		Rigidbody2D_set_position_Injected_m5D2AC2F0F4D41BA17BCA48FF18263F7728C6871C(__this, (&___0_value), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_rotation_m2B5A1F0A973B47E2CFED94B3C01CA523938BF8A0 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Rigidbody2D_set_rotation_m2B5A1F0A973B47E2CFED94B3C01CA523938BF8A0_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, float);
+	static Rigidbody2D_set_rotation_m2B5A1F0A973B47E2CFED94B3C01CA523938BF8A0_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody2D_set_rotation_m2B5A1F0A973B47E2CFED94B3C01CA523938BF8A0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_rotation(System.Single)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MovePosition_m7F24879BB78DA0587168B257C56DCFD248A90895 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_position, const RuntimeMethod* method) 
+{
+	{
+		Rigidbody2D_MovePosition_Injected_m7B6D07CFCE2E864C008AB5CED9EF1C8231D95386(__this, (&___0_position), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_gravityScale_mAFD1A72661304467D20971BBCAA7E04B418F80FD (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Rigidbody2D_set_gravityScale_mAFD1A72661304467D20971BBCAA7E04B418F80FD_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, float);
+	static Rigidbody2D_set_gravityScale_mAFD1A72661304467D20971BBCAA7E04B418F80FD_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody2D_set_gravityScale_mAFD1A72661304467D20971BBCAA7E04B418F80FD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_gravityScale(System.Single)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, int32_t);
+	static Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_bodyType(UnityEngine.RigidbodyType2D)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_isKinematic_m7C68AB4CFB6D301F0EDF0BFF66FB121ED3CC7853 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* G_B2_0 = NULL;
+	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* G_B3_1 = NULL;
+	{
+		bool L_0 = ___0_value;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0008;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B1_0;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0009:
+	{
+		NullCheck(G_B3_1);
+		Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248(G_B3_1, G_B3_0, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D__ctor_mFF16B8ADAAE2FFD5FD4FBE3F412FC9E8FBBDBC88 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, const RuntimeMethod* method) 
+{
+	{
+		Component__ctor_m4319162A6E6B02301078C1233F6E7F4A3E735486(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_position_Injected_m5D2AC2F0F4D41BA17BCA48FF18263F7728C6871C (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Rigidbody2D_set_position_Injected_m5D2AC2F0F4D41BA17BCA48FF18263F7728C6871C_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
+	static Rigidbody2D_set_position_Injected_m5D2AC2F0F4D41BA17BCA48FF18263F7728C6871C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody2D_set_position_Injected_m5D2AC2F0F4D41BA17BCA48FF18263F7728C6871C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_position_Injected(UnityEngine.Vector2&)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MovePosition_Injected_m7B6D07CFCE2E864C008AB5CED9EF1C8231D95386 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_position, const RuntimeMethod* method) 
+{
+	typedef void (*Rigidbody2D_MovePosition_Injected_m7B6D07CFCE2E864C008AB5CED9EF1C8231D95386_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
+	static Rigidbody2D_MovePosition_Injected_m7B6D07CFCE2E864C008AB5CED9EF1C8231D95386_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody2D_MovePosition_Injected_m7B6D07CFCE2E864C008AB5CED9EF1C8231D95386_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::MovePosition_Injected(UnityEngine.Vector2&)");
+	_il2cpp_icall_func(__this, ___0_position);
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1964,6 +2196,14 @@ IL2CPP_EXTERN_C  Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* RaycastHi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48 (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48_ftn) (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52*, bool);
+	static Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Collider2D::set_isTrigger(System.Boolean)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 Collider2D_get_bounds_m74F65CE702BA9D9EED05B870325B4FE3B2401B5E (Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* __this, const RuntimeMethod* method) 
 {
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_0;
@@ -1982,6 +2222,104 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_get_bounds_Injected_mB3F24D39
 	_il2cpp_icall_func = (Collider2D_get_bounds_Injected_mB3F24D39428D3C8E314CC6452878BD9A62C216E4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Collider2D::get_bounds_Injected(UnityEngine.Bounds&)");
 	_il2cpp_icall_func(__this, ___0_ret);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolygonCollider2D_SetPath_mDF03B6FDAE81E25C985F9BA6D372D949A6D9A1C1 (PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* __this, int32_t ___0_index, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___1_points, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		int32_t L_0 = ___0_index;
+		V_0 = (bool)((((int32_t)L_0) < ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		int32_t L_2 = ___0_index;
+		int32_t L_3 = L_2;
+		RuntimeObject* L_4 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_3);
+		String_t* L_5;
+		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBD3BA845D2B098E6C2C7B123873A495D8803B7BC)), L_4, NULL);
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_6 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A(L_6, L_5, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&PolygonCollider2D_SetPath_mDF03B6FDAE81E25C985F9BA6D372D949A6D9A1C1_RuntimeMethod_var)));
+	}
+
+IL_001f:
+	{
+		int32_t L_7 = ___0_index;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_8 = ___1_points;
+		PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D(__this, L_7, L_8, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D (PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* __this, int32_t ___0_index, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___1_points, const RuntimeMethod* method) 
+{
+	typedef void (*PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D_ftn) (PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E*, int32_t, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*);
+	static PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.PolygonCollider2D::SetPath_Internal(System.Int32,UnityEngine.Vector2[])");
+	_il2cpp_icall_func(__this, ___0_index, ___1_points);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* Joint2D_get_connectedBody_m2ACC7B59AFFF74F080B96DBBC42866B15F6EA125 (Joint2D_tFA088656425446CDA98555EC8A0E5FE25945F843* __this, const RuntimeMethod* method) 
+{
+	typedef Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* (*Joint2D_get_connectedBody_m2ACC7B59AFFF74F080B96DBBC42866B15F6EA125_ftn) (Joint2D_tFA088656425446CDA98555EC8A0E5FE25945F843*);
+	static Joint2D_get_connectedBody_m2ACC7B59AFFF74F080B96DBBC42866B15F6EA125_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Joint2D_get_connectedBody_m2ACC7B59AFFF74F080B96DBBC42866B15F6EA125_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Joint2D::get_connectedBody()");
+	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AnchoredJoint2D_get_connectedAnchor_mCE5550E89AA68AC0C17DA51A7B6F11F43457FC83 (AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63* __this, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		AnchoredJoint2D_get_connectedAnchor_Injected_m5A960B4774F642CB34B009D69776ED9A10F735F7(__this, (&V_0), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = V_0;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchoredJoint2D_get_connectedAnchor_Injected_m5A960B4774F642CB34B009D69776ED9A10F735F7 (AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_ret, const RuntimeMethod* method) 
+{
+	typedef void (*AnchoredJoint2D_get_connectedAnchor_Injected_m5A960B4774F642CB34B009D69776ED9A10F735F7_ftn) (AnchoredJoint2D_t912CA383672E7BBF63D331BEA84F794488864C63*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
+	static AnchoredJoint2D_get_connectedAnchor_Injected_m5A960B4774F642CB34B009D69776ED9A10F735F7_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AnchoredJoint2D_get_connectedAnchor_Injected_m5A960B4774F642CB34B009D69776ED9A10F735F7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AnchoredJoint2D::get_connectedAnchor_Injected(UnityEngine.Vector2&)");
+	_il2cpp_icall_func(__this, ___0_ret);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

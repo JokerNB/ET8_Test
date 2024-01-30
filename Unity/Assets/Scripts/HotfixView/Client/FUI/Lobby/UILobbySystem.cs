@@ -30,9 +30,9 @@ namespace ET.Client
 		public static async ETTask EnterMap(this UILobby self)
 		{
 			Scene root = self.Root();
-			await EnterMapHelper.EnterMapAsync(root);
 			root.GetComponent<FUIComponent>().ClosePanel(PanelId.UILobby);
-			await ETTask.CompletedTask;
+			await root.GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UILoadingPanel);
+			await EnterMapHelper.EnterMapAsync(root);
 		}
 	}
 }

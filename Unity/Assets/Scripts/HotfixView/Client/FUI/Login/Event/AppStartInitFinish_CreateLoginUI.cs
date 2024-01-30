@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace ET.Client;
 
 [Event(SceneType.Demo)]

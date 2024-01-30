@@ -21,12 +21,12 @@ public static partial class FUIAssetComponentSystem
 
         void LoadTextureHandler(string packageName, string assetName, string extension, LoadTextureCallback callback)
         {
-            self.LoadTextureAsyncInner(assetName, callback).Coroutine();
+            self.LoadTextureAsyncInner(packageName,assetName, callback).Coroutine();
         }
 
         void LoadAudioClipHandler(string packageName, string assetName, string extension, LoadAudioClipCallback callback)
         {
-            self.LoadAudioClipAsyncInner(assetName, callback).Coroutine();
+            self.LoadAudioClipAsyncInner(packageName,assetName, callback).Coroutine();
         }
 
         void LoadUIPackageInner(string packageName, out byte[] bytes, out string assetNamePrefix)
@@ -101,10 +101,10 @@ public static partial class FUIAssetComponentSystem
         callback(descData.bytes, packageName);
     }
 
-    private static async ETTask LoadTextureAsyncInner(this FUIAssetComponent self, string assetName, LoadTextureCallback callback)
+    private static async ETTask LoadTextureAsyncInner(this FUIAssetComponent self, string packageName, string assetName, LoadTextureCallback callback)
     {
         ResourcesLoaderComponent resourcesLoaderComponent = self.Root().GetComponent<ResourcesLoaderComponent>();
-        Texture res = await resourcesLoaderComponent.LoadAssetAsync<Texture>(assetName);
+        Texture res = await resourcesLoaderComponent.LoadAssetAsync<Texture>($"{self.FUIPath}/{packageName}/{assetName}");
 
         if (res != null)
             self.Locations[res.GetInstanceID()] = assetName;
@@ -112,10 +112,11 @@ public static partial class FUIAssetComponentSystem
         callback(res);
     }
 
-    private static async ETTask LoadAudioClipAsyncInner(this FUIAssetComponent self, string assetName, LoadAudioClipCallback callback)
+    private static async ETTask LoadAudioClipAsyncInner(this FUIAssetComponent self, string packageName, string assetName,
+    LoadAudioClipCallback callback)
     {
         ResourcesLoaderComponent resourcesLoaderComponent = self.Root().GetComponent<ResourcesLoaderComponent>();
-        AudioClip res = await resourcesLoaderComponent.LoadAssetAsync<AudioClip>(assetName);
+        AudioClip res = await resourcesLoaderComponent.LoadAssetAsync<AudioClip>($"{self.FUIPath}/{packageName}/{assetName}");
 
         if (res != null)
             self.Locations[res.GetInstanceID()] = assetName;

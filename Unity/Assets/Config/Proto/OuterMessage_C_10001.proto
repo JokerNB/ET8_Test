@@ -158,6 +158,8 @@ message R2C_Login // ISessionResponse
 	string Address = 4;
 	int64 Key = 5;
 	int64 GateId = 6;
+	bool IsNewPlayer = 7;
+	string NickName = 8;
 }
 
 //ResponseType G2C_LoginGate
@@ -228,6 +230,21 @@ message C2G_Benchmark // ISessionRequest
 }
 
 message G2C_Benchmark // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+}
+
+//ResponseType G2C_ChangeNickName
+message C2G_ChangeNickName // ISessionRequest
+{
+	int32 RpcId = 1;
+	string Account = 2;
+	string NewNickName = 3;
+}
+
+message G2C_ChangeNickName // ISessionResponse
 {
 	int32 RpcId = 1;
 	int32 Error = 2;

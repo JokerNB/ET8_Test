@@ -17,6 +17,7 @@ message NetClient2Main_Login // IResponse
 	int32 RpcId = 1;
 	int32 Error = 2;
 	string Message = 3;
-	
 	int64 PlayerId = 4;
+	bool IsNewPlayer = 5;
+	string NickName = 6;
 }

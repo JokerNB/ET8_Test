@@ -11,9 +11,12 @@ namespace ET.Client
 			UIObjectFactory.Clear();
 			
 			ChooseDifficultyBinder.BindAll();
+			HUDPanelBinder.BindAll();
+			LoadingPanelBinder.BindAll();
 			LobbyBinder.BindAll();
 			LoginBinder.BindAll();
 			MainPanelBinder.BindAll();
+			RegisterPanelBinder.BindAll();
 		}
 	}
 }

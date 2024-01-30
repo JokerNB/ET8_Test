@@ -22,6 +22,7 @@
 
     public struct LoginFinish
     {
+        public bool isNewPlayer;
     }
 
     public struct EnterMapFinish
@@ -31,5 +32,9 @@
     public struct AfterUnitCreate
     {
         public Unit Unit;
+    }
+    
+    public struct RegisterFinish
+    {
     }
 }

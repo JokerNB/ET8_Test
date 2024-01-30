@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using ET.Client.HUDPanel;
+using FairyGUI;
+using UnityEngine;
 
 namespace ET.Client
 {
@@ -18,6 +20,10 @@ namespace ET.Client
             go.transform.position = unit.Position;
             unit.AddComponent<GameObjectComponent>().GameObject = go;
             unit.AddComponent<AnimatorComponent>();
+            await scene.Root().GetComponent<TimerComponent>().WaitAsync(1000);
+            var uiPanel = go.GetComponentInChildren<UIPanel>();
+            FUI_UIHearBarPanel gComponent = uiPanel.ui as FUI_UIHearBarPanel;
+            gComponent.NickName.text = scene.Root().GetComponent<PlayerComponent>().NickName;
             await ETTask.CompletedTask;
         }
     }

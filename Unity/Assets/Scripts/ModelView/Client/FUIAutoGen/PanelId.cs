@@ -6,8 +6,10 @@ namespace ET.Client
 	{
 		Invalid = 0,
 		UIChooseDifficulty,
+		UILoadingPanel,
 		UILobby,
 		UILogin,
 		UIMainPanel,
+		UIRegister,
 	}
 }

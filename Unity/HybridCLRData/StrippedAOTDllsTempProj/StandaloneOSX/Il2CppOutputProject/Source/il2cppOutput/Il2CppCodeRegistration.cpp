@@ -20,17 +20,21 @@ IL2CPP_EXTERN_C const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[];
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_UnresolvedInstanceMethodPointers[];
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_UnresolvedStaticMethodPointers[];
 IL2CPP_EXTERN_C Il2CppInteropData g_Il2CppInteropData[];
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_BetterStreamingAssets_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_CommandLine_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_DnsClient_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_FairyGUI_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_FairyGUI_Dyanmic_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_HybridCLR_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_ICSharpCode_SharpZipLib_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_MemoryPack_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_MongoDB_Bson_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_MongoDB_Driver_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_MongoDB_Driver_Core_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_MongoDB_Libmongocrypt_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_NLog_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_SharpCompress_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Core_CodeGenModule;
@@ -71,7 +75,6 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIElementsModule_CodeGen
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UI_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModule_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAssetBundleModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VFXModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule;
@@ -89,20 +92,25 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_ThirdParty_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_YooAsset_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_spineU2Dunity_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[69] = 
+const Il2CppCodeGenModule* g_CodeGenModules[73] = 
 {
-	(&g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule),
 	(&g_BetterStreamingAssets_CodeGenModule),
 	(&g_CommandLine_CodeGenModule),
+	(&g_DnsClient_CodeGenModule),
 	(&g_FairyGUI_CodeGenModule),
 	(&g_FairyGUI_Dyanmic_CodeGenModule),
 	(&g_HybridCLR_Runtime_CodeGenModule),
 	(&g_ICSharpCode_SharpZipLib_CodeGenModule),
 	(&g_MemoryPack_CodeGenModule),
 	(&g_MongoDB_Bson_CodeGenModule),
+	(&g_MongoDB_Driver_CodeGenModule),
+	(&g_MongoDB_Driver_Core_CodeGenModule),
+	(&g_MongoDB_Libmongocrypt_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
 	(&g_NLog_CodeGenModule),
+	(&g_SharpCompress_CodeGenModule),
 	(&g_System_CodeGenModule),
 	(&g_System_Configuration_CodeGenModule),
 	(&g_System_Core_CodeGenModule),
@@ -143,7 +151,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[69] =
 	(&g_UnityEngine_UIModule_CodeGenModule),
 	(&g_UnityEngine_UI_CodeGenModule),
 	(&g_UnityEngine_UnityAnalyticsModule_CodeGenModule),
-	(&g_UnityEngine_UnityWebRequestAssetBundleModule_CodeGenModule),
 	(&g_UnityEngine_UnityWebRequestModule_CodeGenModule),
 	(&g_UnityEngine_VFXModule_CodeGenModule),
 	(&g_UnityEngine_VRModule_CodeGenModule),
@@ -161,26 +168,27 @@ const Il2CppCodeGenModule* g_CodeGenModules[69] =
 	(&g_YooAsset_CodeGenModule),
 	(&g___Generated_CodeGenModule),
 	(&g_mscorlib_CodeGenModule),
+	(&g_spineU2Dunity_CodeGenModule),
 };
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
 	19,
 	g_ReversePInvokeWrapperPointers,
-	103550,
+	117437,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	22799,
+	23959,
 	g_Il2CppInvokerPointers,
-	3235,
+	3726,
 	g_UnresolvedVirtualMethodPointers,
 	g_UnresolvedInstanceMethodPointers,
 	g_UnresolvedStaticMethodPointers,
-	764,
+	923,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	69,
+	73,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

@@ -21,9 +21,9 @@ namespace ET.Client.Login
 		{
 			base.ConstructFromXML(xml);
 
-			Account = (GTextInput)GetChildAt(0);
-			Password = (GTextInput)GetChildAt(1);
-			Button_Login = (ET.Client.Login.FUI_Button_Login)GetChildAt(2);
+			Account = (GTextInput)GetChildAt(1);
+			Password = (GTextInput)GetChildAt(2);
+			Button_Login = (ET.Client.Login.FUI_Button_Login)GetChildAt(3);
 		}
 	}
 }

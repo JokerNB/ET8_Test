@@ -16,6 +16,7 @@ namespace ET
         public const int ERR_LoginInfoEmpty = 200002;
         public const int ERR_LoginPasswrodError = 200003;
         public const int ERR_ChooseModelTypeError = 200004;
-        public const int ERR_ChooseDifficultyTypeError = 200004;
+        public const int ERR_ChooseDifficultyTypeError = 200005;
+        public const int ERR_ChangeNickNameError = 200006;
     }
 }

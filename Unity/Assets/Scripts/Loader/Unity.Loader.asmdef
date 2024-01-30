@@ -8,7 +8,9 @@
         "MemoryPack",
         "BetterStreamingAssets",
         "YooAsset",
-        "FairyGUI"
+        "FairyGUI.Dyanmic",
+        "FairyGUI",
+        "spine-unity"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

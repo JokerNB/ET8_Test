@@ -8,8 +8,8 @@
         "Unity.Loader",
         "MemoryPack",
         "YooAsset",
-        "FairyGUI",
-        "FairyGUI.Dyanmic"
+        "FairyGUI.Dyanmic",
+        "FairyGUI"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

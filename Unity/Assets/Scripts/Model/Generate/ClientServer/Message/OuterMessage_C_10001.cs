@@ -648,6 +648,12 @@ namespace ET
 		[MemoryPackOrder(5)]
 		public long GateId { get; set; }
 
+		[MemoryPackOrder(6)]
+		public bool IsNewPlayer { get; set; }
+
+		[MemoryPackOrder(7)]
+		public string NickName { get; set; }
+
 		public override void Dispose() 
 		{
 			if (!this.IsFromPool) return;
@@ -657,6 +663,8 @@ namespace ET
 			this.Address = default;
 			this.Key = default;
 			this.GateId = default;
+			this.IsNewPlayer = default;
+			this.NickName = default;
 			
 			ObjectPool.Instance.Recycle(this); 
 		}
@@ -969,6 +977,67 @@ namespace ET
 
 	}
 
+	[ResponseType(nameof(G2C_ChangeNickName))]
+	[Message(OuterMessage.C2G_ChangeNickName)]
+	[MemoryPackable]
+	public partial class C2G_ChangeNickName: MessageObject, ISessionRequest
+	{
+		public static C2G_ChangeNickName Create(bool isFromPool = true) 
+		{ 
+			return ObjectPool.Instance.Fetch(typeof(C2G_ChangeNickName), isFromPool) as C2G_ChangeNickName; 
+		}
+
+		[MemoryPackOrder(0)]
+		public int RpcId { get; set; }
+
+		[MemoryPackOrder(1)]
+		public string Account { get; set; }
+
+		[MemoryPackOrder(2)]
+		public string NewNickName { get; set; }
+
+		public override void Dispose() 
+		{
+			if (!this.IsFromPool) return;
+			this.RpcId = default;
+			this.Account = default;
+			this.NewNickName = default;
+			
+			ObjectPool.Instance.Recycle(this); 
+		}
+
+	}
+
+	[Message(OuterMessage.G2C_ChangeNickName)]
+	[MemoryPackable]
+	public partial class G2C_ChangeNickName: MessageObject, ISessionResponse
+	{
+		public static G2C_ChangeNickName Create(bool isFromPool = true) 
+		{ 
+			return ObjectPool.Instance.Fetch(typeof(G2C_ChangeNickName), isFromPool) as G2C_ChangeNickName; 
+		}
+
+		[MemoryPackOrder(0)]
+		public int RpcId { get; set; }
+
+		[MemoryPackOrder(1)]
+		public int Error { get; set; }
+
+		[MemoryPackOrder(2)]
+		public string Message { get; set; }
+
+		public override void Dispose() 
+		{
+			if (!this.IsFromPool) return;
+			this.RpcId = default;
+			this.Error = default;
+			this.Message = default;
+			
+			ObjectPool.Instance.Recycle(this); 
+		}
+
+	}
+
 	public static class OuterMessage
 	{
 		 public const ushort HttpGetRouterResponse = 10002;
@@ -1005,5 +1074,7 @@ namespace ET
 		 public const ushort M2C_TransferMap = 10033;
 		 public const ushort C2G_Benchmark = 10034;
 		 public const ushort G2C_Benchmark = 10035;
+		 public const ushort C2G_ChangeNickName = 10036;
+		 public const ushort G2C_ChangeNickName = 10037;
 	}
 }

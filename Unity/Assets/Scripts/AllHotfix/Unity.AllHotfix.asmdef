@@ -10,6 +10,7 @@
         "Unity.AllModel",
         "YooAsset",
         "FairyGUI.Dyanmic",
+        "spine-unity",
         "FairyGUI"
     ],
     "includePlatforms": [],

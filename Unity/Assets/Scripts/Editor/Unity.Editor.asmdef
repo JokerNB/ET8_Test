@@ -12,9 +12,10 @@
         "YooAsset",
         "Unity.Mathematics",
         "FairyGUI.Editor",
-        "FairyGUI",
         "FairyGUI.Dyanmic",
-        "YooAsset.Editor"
+        "YooAsset.Editor",
+        "spine-unity-editor",
+        "FairyGUI"
     ],
     "includePlatforms": [
         "Editor"

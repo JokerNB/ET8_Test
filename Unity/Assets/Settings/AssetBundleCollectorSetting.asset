@@ -17,7 +17,7 @@ MonoBehaviour:
   LocationToLower: 0
   IncludeAssetGUID: 0
   UniqueBundleName: 0
-  ShowEditorAlias: 0
+  ShowEditorAlias: 1
   Packages:
   - PackageName: DefaultPackage
     PackageDesc: 
@@ -106,5 +106,18 @@ MonoBehaviour:
         AddressRuleName: AddressByFileName
         PackRuleName: PackSeparately
         FilterRuleName: CollectScene
+        AssetTags: 
+        UserData: 
+    - GroupName: Spine
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Bundles/Spine
+        CollectorGUID: d40d9c3377d3d4482a3950fa894f15a2
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
         AssetTags: 
         UserData: 

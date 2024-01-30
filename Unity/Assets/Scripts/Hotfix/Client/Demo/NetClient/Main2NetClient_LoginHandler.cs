@@ -26,7 +26,7 @@ namespace ET.Client
             R2C_Login r2CLogin;
             using (Session session = await netComponent.CreateRouterSession(realmAddress, account, password))
             {
-                r2CLogin = (R2C_Login)await session.Call(new C2R_Login() { Account = account, Password = password });
+                r2CLogin = (R2C_Login)await session.Call(new C2R_Login() { Account = account, Password = password});
             }
 
             if (r2CLogin.Error != ErrorCode.ERR_Success)
@@ -44,6 +44,8 @@ namespace ET.Client
             Log.Debug("登陆gate成功!");
 
             response.PlayerId = g2CLoginGate.PlayerId;
+            response.IsNewPlayer = r2CLogin.IsNewPlayer;
+            response.NickName = r2CLogin.NickName;
         }
     }
 }

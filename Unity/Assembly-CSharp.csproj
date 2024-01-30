@@ -41,13 +41,47 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Assets/Bundles/Spine/Dragon/dragon.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/FootSoldier/FootSoldier.json" />
+    <None Include="Assets/Bundles/Spine/spineboy-pro/spineboy-pro.json" />
+    <None Include="Assets/Bundles/Spine/Stretchyman/stretchyman.json" />
+    <None Include="Assets/Bundles/Spine/raptor-pro-and-mask/raptor-pro.json" />
+    <None Include="Assets/Bundles/Spine/Eyes/eyes.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/raptor-pro-and-mask/raptor-pma.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/Hero/hero-pro.json" />
+    <None Include="Assets/Bundles/Spine/Goblins/goblins.json" />
+    <None Include="Assets/Bundles/Spine/spineboy-unity/spineboy-unity.json" />
+    <None Include="Assets/Bundles/Spine/mix-and-match/mix-and-match-pro.json" />
+    <None Include="Assets/Bundles/Spine/Dragon/dragon.json" />
+    <None Include="Assets/Bundles/Spine/Raggedy Spineboy/raggedy spineboy.json" />
+    <None Include="Assets/Bundles/Spine/Goblins/goblins.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/Hero/hero-pro.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/whirlyblendmodes/whirlyblendmodes.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/Stretchyman/stretchyman-diffuse-pma.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/Spineunitygirl/Doi.atlas.txt" />
     <None Include="Assets/Bundles/Shaders/FairyGUI-BMFont.shader" />
+    <None Include="Assets/Bundles/Spine/whirlyblendmodes/whirlyblendmodes.json" />
+    <None Include="Assets/Bundles/Spine/Raptor/raptor.json" />
+    <None Include="Assets/Bundles/Spine/Gauge/Gauge.atlas.txt" />
     <None Include="Assets/link.xml" />
+    <None Include="Assets/Bundles/Spine/Dragon/license.txt" />
     <None Include="Assets/Bundles/Shaders/FairyGUI-Text.shader" />
+    <None Include="Assets/Bundles/Spine/mix-and-match/mix-and-match-pma.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/spineboy-pro/spineboy-pro.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/FootSoldier/FS_White.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/spineboy-unity/spineboy.atlas.txt" />
     <None Include="Assets/Bundles/Shaders/AddOn/FairyGUI-BlurFilter.shader" />
+    <None Include="Assets/Bundles/Spine/Hero/license.txt" />
     <None Include="Assets/Bundles/Shaders/FairyGUI-TMP.shader" />
+    <None Include="Assets/Bundles/Spine/Raggedy Spineboy/Raggedy Spineboy.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/Raptor/raptor.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/Eyes/eyes.json" />
+    <None Include="Assets/Bundles/Spine/Spineunitygirl/Doi.json" />
     <None Include="Assets/Settings/AssetBundleCollectorConfig.xml" />
     <None Include="Assets/Bundles/Shaders/FairyGUI-Image.shader" />
+    <None Include="Assets/Bundles/Spine/FootSoldier/Equipment/Equipment.atlas.txt" />
+    <None Include="Assets/Bundles/Spine/FootSoldier/license.txt" />
+    <None Include="Assets/Bundles/Spine/Gauge/Gauge.json" />
     <None Include="Assets/Config/Excel/Defines/__root__.xml" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

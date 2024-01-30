@@ -39,6 +39,11 @@ namespace ET.Client
                 C2M_TransferMap c2MTransferMap = new();
                 self.Root().GetComponent<ClientSenderCompnent>().Call(c2MTransferMap).Coroutine();
             }
+
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+
+            }
         }
     }
 }
