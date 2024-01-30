@@ -17,9 +17,13 @@ namespace FUIEditor
             }
           
             // 删除原来的 handler 类。
-            string duplicateFilePath = "{0}/{1}EventHandler.cs".Fmt(fileDir, packageName);
+            string uiPanelType = "UIPanelType.Normal";
+            string duplicateFilePath = "{0}/UI{1}EventHandler.cs".Fmt(fileDir, packageName);
             if (File.Exists(duplicateFilePath))
             {
+                var targetUIPanelType = GetTargetUIPanelType(duplicateFilePath);
+                if (!string.IsNullOrEmpty(targetUIPanelType))
+                    uiPanelType = targetUIPanelType;
                 File.Delete(duplicateFilePath);
             }
 
@@ -44,7 +48,7 @@ namespace FUIEditor
             sb.AppendFormat("\t\tpublic void OnInitPanelCoreData(FUIEntity fuiEntity)");
             sb.AppendLine();
             sb.AppendLine("\t\t{");
-            sb.AppendLine("\t\t\tfuiEntity.PanelCoreData.panelType = UIPanelType.Normal;");
+            sb.AppendLine($"\t\t\tfuiEntity.PanelCoreData.panelType = {uiPanelType};");
             sb.AppendLine("\t\t}");
             
             sb.AppendLine();
@@ -96,5 +100,20 @@ namespace FUIEditor
             sw.Write(sb.ToString());
         }
 
+        private static string GetTargetUIPanelType(string path)
+        {
+            var allLines = File.ReadAllLines(path);
+            foreach (string line in allLines)
+            {
+                if (line.Contains("fuiEntity.PanelCoreData.panelType"))
+                {
+                    var splits = line.Split("=");
+                    var sp = splits[1].TrimStart(' ').TrimEnd(';');
+                    return sp;
+                }
+            }
+
+            return string.Empty;
+        }
     }
 }
