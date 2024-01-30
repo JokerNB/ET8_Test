@@ -2,19 +2,19 @@
 <packageDescription id="512337h5">
   <resources>
     <component id="koj00" name="UIMainPanel.xml" path="/" exported="true"/>
-    <component id="koj01" name="Button_Back.xml" path="/" exported="true"/>
-    <component id="koj02" name="Button_Lottery.xml" path="/" exported="true"/>
-    <component id="koj03" name="Button_Pass.xml" path="/" exported="true"/>
-    <component id="koj04" name="Button_Shop.xml" path="/" exported="true"/>
-    <component id="koj05" name="Button_TopUp.xml" path="/" exported="true"/>
-    <component id="koj06" name="Button_Setting.xml" path="/" exported="true"/>
-    <component id="koj07" name="Button_SocialContact.xml" path="/" exported="true"/>
-    <component id="koj08" name="Button_Chat.xml" path="/" exported="true"/>
-    <component id="koj09" name="Button_SignIn.xml" path="/" exported="true"/>
-    <component id="koj0a" name="Button_FirstCharge.xml" path="/" exported="true"/>
-    <component id="koj0b" name="Button_PersonalInformation.xml" path="/" exported="true"/>
-    <component id="koj0c" name="Button_Talent.xml" path="/" exported="true"/>
-    <component id="koj0d" name="Button_Task.xml" path="/" exported="true"/>
+    <component id="koj01" name="Button_Back.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj02" name="Button_Lottery.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj03" name="Button_Pass.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj04" name="Button_Shop.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj05" name="Button_TopUp.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj06" name="Button_Setting.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj07" name="Button_SocialContact.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj08" name="Button_Chat.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj09" name="Button_SignIn.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj0a" name="Button_FirstCharge.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj0b" name="Button_PersonalInformation.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj0c" name="Button_Talent.xml" path="/Compoennts/" exported="true"/>
+    <component id="koj0d" name="Button_Task.xml" path="/Compoennts/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

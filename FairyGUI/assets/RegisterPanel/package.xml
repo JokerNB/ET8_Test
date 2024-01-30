@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1ohm0rys">
+  <resources>
+    <component id="lxtc0" name="UIRegister.xml" path="/" exported="true"/>
+    <component id="lxtc1" name="Button_ChooseName.xml" path="/Components/" exported="true"/>
+    <image id="lxtc2" name="Dice.png" path="/Atlas/" exported="true"/>
+    <component id="lxtc3" name="Button_EntryGame.xml" path="/Components/" exported="true"/>
+    <image id="lxtc4" name="CloseBtn.png" path="/Atlas/" exported="true"/>
+    <component id="lxtc5" name="Button_Close.xml" path="/Components/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

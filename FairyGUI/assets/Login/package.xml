@@ -2,7 +2,9 @@
 <packageDescription id="ykcsql7p">
   <resources>
     <component id="e3ky0" name="UILogin.xml" path="/" exported="true"/>
-    <component id="igj22" name="Button_Login.xml" path="/" exported="true"/>
+    <component id="igj22" name="Button_Login.xml" path="/Components/" exported="true"/>
+    <image id="lxtc6" name="BG_Login.jpeg" path="/Atlas/" exported="true"/>
+    <component id="lxtc7" name="Button_Register.xml" path="/Components/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

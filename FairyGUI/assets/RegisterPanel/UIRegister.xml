@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" remark="Main">
+  <displayList>
+    <loader3D id="n9_lxtc" name="GLoad_1" xy="642,539" pivot="0.5,0.5" anchor="true" size="546,568" group="n2_lxtc" animation="" skin="" loop="true"/>
+    <loader3D id="n10_lxtc" name="GLoad_2" xy="1278,542" pivot="0.5,0.5" anchor="true" size="546,568" group="n2_lxtc" animation="" skin="" loop="true"/>
+    <group id="n2_lxtc" name="n2" xy="369,254" size="1182,571" advanced="true" layout="hz" colGap="90" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n3_lxtc" name="Input" xy="616,872" size="460,103" group="n5_lxtc" fontSize="70" align="center" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入昵称" maxLength="10"/>
+    <component id="n4_lxtc" name="Button_ChooseName" src="lxtc1" fileName="Components/Button_ChooseName.xml" xy="1144,837" size="159,164" group="n5_lxtc" aspect="true"/>
+    <group id="n5_lxtc" name="n5" xy="616,837" size="687,164" advanced="true" layout="hz" colGap="68" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n7_lxtc" name="Button_EntryGame" src="lxtc3" fileName="Components/Button_EntryGame.xml" xy="1594,869">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

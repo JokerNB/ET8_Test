@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" remark="Main">
+  <controller name="BG" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <image id="n0_dauk" name="n0" src="dauk2" fileName="BG/LoadingBG.png" xy="0,0" size="1920,1920" aspect="true">
+      <gearDisplay controller="BG" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_dauk" name="n1" src="dauk3" fileName="BG/LoadingBG1.png" xy="0,-210" size="1920,1920" aspect="true">
+      <gearDisplay controller="BG" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_dauk" name="n2" src="dauk4" fileName="BG/LoadingBG2.png" xy="0,0" size="1920,1920">
+      <gearDisplay controller="BG" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_dauk" name="n3" src="dauk5" fileName="BG/LoadingBG3.png" xy="-77,0" size="2075,1080" aspect="true">
+      <gearDisplay controller="BG" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n11_dauk" name="n11" src="daukb" fileName="BG/LoadingBG4.png" xy="0,-23" size="1920,1127" aspect="true">
+      <gearDisplay controller="BG" pages="4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n4_dauk" name="UILoadingPanel_Progress" src="dauk8" fileName="UILoadingPanelItem/UILoadingPanel_Progress.xml" xy="0,836"/>
+    <image id="n5_dauk" name="n5" src="dauk9" fileName="Atlas/LoadingIcon.png" xy="536,924" size="376,106" aspect="true"/>
+    <image id="n6_dauk" name="n6" src="dauka" fileName="Atlas/PointIcon.png" xy="947,991" pivot="0.5,0.5" anchor="true" size="50,60" group="n9_dauk"/>
+    <image id="n7_dauk" name="n7" src="dauka" fileName="Atlas/PointIcon.png" xy="1007,991" pivot="0.5,0.5" anchor="true" size="50,60" group="n9_dauk"/>
+    <image id="n8_dauk" name="n8" src="dauka" fileName="Atlas/PointIcon.png" xy="1067,991" pivot="0.5,0.5" anchor="true" size="50,60" group="n9_dauk"/>
+    <group id="n9_dauk" name="n9" xy="922,961" size="170,60" advanced="true" layout="hz" colGap="10" excludeInvisibles="true"/>
+  </displayList>
+  <transition name="LoadingAni" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n6_dauk" value="1.3,1.3"/>
+    <item time="6" type="Scale" target="n6_dauk" value="1,1"/>
+    <item time="6" type="Scale" target="n7_dauk" value="1.3,1.3"/>
+    <item time="12" type="Scale" target="n7_dauk" value="1,1"/>
+    <item time="12" type="Scale" target="n8_dauk" value="1.3,1.3"/>
+    <item time="18" type="Scale" target="n8_dauk" value="1,1"/>
+    <item time="36" type="Scale" target="n6_dauk" value="1,1"/>
+    <item time="36" type="Scale" target="n7_dauk" value="1,1"/>
+    <item time="36" type="Scale" target="n8_dauk" value="1,1"/>
+  </transition>
+</component>

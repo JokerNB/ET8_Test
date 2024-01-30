@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,100">
+  <displayList>
+    <component id="n0_dauk" name="Progress1" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="491,22" size="55,55" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n11_dauk" name="Progress2" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="564,20" size="60,60" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n12_dauk" name="Progress3" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="642,17" size="65,65" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n13_dauk" name="Progress4" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="725,15" size="70,70" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n14_dauk" name="Progress5" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="813,12" size="75,75" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n15_dauk" name="Progress6" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="906,10" size="80,80" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n16_dauk" name="Progress7" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="1004,7" size="85,85" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n17_dauk" name="Progress8" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="1107,5" size="90,90" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n18_dauk" name="Progress9" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="1215,2" size="95,95" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n19_dauk" name="Progress10" src="dauk7" fileName="UILoadingPanelItem/UILoadingPanel_ProgressItem.xml" xy="1328,0" size="100,100" group="n10_dauk" aspect="true">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <group id="n10_dauk" name="n10" xy="491,0" size="937,100" advanced="true" layout="hz" colGap="18" excludeInvisibles="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

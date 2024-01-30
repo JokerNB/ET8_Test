@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="gjwdnji0">
+  <resources>
+    <image id="dauk0" name="Progress1.png" path="/Atlas/" exported="true"/>
+    <image id="dauk1" name="Progress2.png" path="/Atlas/" exported="true"/>
+    <image id="dauk2" name="LoadingBG.png" path="/BG/" exported="true"/>
+    <image id="dauk3" name="LoadingBG1.png" path="/BG/" exported="true"/>
+    <image id="dauk4" name="LoadingBG2.png" path="/BG/" exported="true"/>
+    <image id="dauk5" name="LoadingBG3.png" path="/BG/" exported="true"/>
+    <component id="dauk6" name="UILoadingPanel.xml" path="/" exported="true"/>
+    <component id="dauk7" name="UILoadingPanel_ProgressItem.xml" path="/UILoadingPanelItem/" exported="true"/>
+    <component id="dauk8" name="UILoadingPanel_Progress.xml" path="/UILoadingPanelItem/" exported="true"/>
+    <image id="dauk9" name="LoadingIcon.png" path="/Atlas/" exported="true"/>
+    <image id="dauka" name="PointIcon.png" path="/Atlas/" exported="true"/>
+    <image id="daukb" name="LoadingBG4.png" path="/BG/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

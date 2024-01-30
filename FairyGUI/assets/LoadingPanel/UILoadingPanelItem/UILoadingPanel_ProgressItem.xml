@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <controller name="State" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_dauk" name="n0" src="dauk0" fileName="Atlas/Progress1.png" xy="0,0">
+      <gearDisplay controller="State" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_dauk" name="n1" src="dauk1" fileName="Atlas/Progress2.png" xy="0,0">
+      <gearDisplay controller="State" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>
