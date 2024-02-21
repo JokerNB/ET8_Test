@@ -5,7 +5,7 @@ using FairyGUI;
 namespace ET.Client;
 
 [ComponentOf(typeof (Unit))]
-public class HeadBarComponent: Entity, IAwake, IUpdate
+public class HeadBarComponent: Entity, IAwake, IUpdate , IDestroy
 {
     public FUI_UIHearBarPanel FuiUIHearBarPanel;
 }

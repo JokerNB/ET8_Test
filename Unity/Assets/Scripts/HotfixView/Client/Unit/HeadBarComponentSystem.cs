@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace ET.Client;
 
-[EntitySystemOf(typeof (HeadBarComponent))]
-[FriendOf(typeof (HeadBarComponent))]
+[EntitySystemOf(typeof(HeadBarComponent))]
+[FriendOf(typeof(HeadBarComponent))]
 public static partial class HeadBarComponentSystem
 {
     [EntitySystem]
@@ -19,6 +19,13 @@ public static partial class HeadBarComponentSystem
     {
         UpdateHeadBarPanelPos(self);
     }
+    
+    [EntitySystem]
+    private static void Destroy(this ET.Client.HeadBarComponent self)
+    {
+        self.FuiUIHearBarPanel.Dispose();
+        self.FuiUIHearBarPanel = null;
+    }
 
     private static async ETTask LoadHeadBraPanelUI(HeadBarComponent self)
     {
@@ -31,14 +38,14 @@ public static partial class HeadBarComponentSystem
 
     private static void UpdateHeadBarPanelPos(HeadBarComponent self)
     {
-        if(self.FuiUIHearBarPanel == null)
+        if (self.FuiUIHearBarPanel == null)
             return;
         var unit = self.Parent as Unit;
         //获取人物位置 3d=>2d
         var screenPoint = Camera.main.WorldToScreenPoint(unit.Position);
         screenPoint.y = Screen.height - screenPoint.y;
         var pt = GRoot.inst.GlobalToLocal(screenPoint);
-        
-        self.FuiUIHearBarPanel.SetXY(pt.x,pt.y - 50);
+
+        self.FuiUIHearBarPanel.SetXY(pt.x, pt.y - 50);
     }
 }

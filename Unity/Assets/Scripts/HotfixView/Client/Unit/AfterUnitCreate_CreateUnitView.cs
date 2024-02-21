@@ -20,7 +20,7 @@ namespace ET.Client
             go.transform.position = unit.Position;
             unit.AddComponent<GameObjectComponent>().GameObject = go;
             unit.AddComponent<AnimatorComponent>();
-            await scene.Root().GetComponent<TimerComponent>().WaitAsync(1000);
+            // await scene.Root().GetComponent<TimerComponent>().WaitAsync(1000);
             unit.AddComponent<HeadBarComponent>();
             await ETTask.CompletedTask;
         }
