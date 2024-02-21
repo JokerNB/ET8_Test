@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,50" pivot="0.5,0.5" anchor="true" remark="Common">
+  <displayList>
+    <text id="n1_oq3p" name="NickName" xy="0,0" size="150,20" fontSize="13" color="#ff0000" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="NickName">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n2_h05l" name="HP" src="h05l1" fileName="HP.xml" xy="0,20" size="150,18">
+      <relation target="" sidePair="width-width"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n3_h05l" name="MP" src="h05l2" fileName="MP.xml" xy="0,38" size="150,12">
+      <relation target="" sidePair="width-width"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+  </displayList>
+</component>

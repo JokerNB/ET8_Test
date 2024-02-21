@@ -11,5 +11,5 @@ public class FUIAssetComponent: Entity, IAwake<bool>, IDestroy, IUIAssetManagerC
     public IUIPackageHelper PackageHelper { get; set; }
     public IUIAssetLoader AssetLoader { get; set; }
     public bool UnloadUnusedUIPackageImmediately { get; set; }
-    public string FUIPath = "Assets/Bundles/FUI";
+    public string FUIPath { get; } = "Assets/Bundles/FUI";
 }

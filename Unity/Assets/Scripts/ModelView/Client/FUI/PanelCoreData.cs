@@ -2,6 +2,8 @@ namespace ET.Client;
 
 public enum UIPanelType
 {
+    Hurt,      //伤害
+    HeadBar,   //血条
     Normal,    // 普通主界面
     Fixed,     // 固定窗口
     PopUp,     // 弹出窗口

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1ddu8vqp">
+  <resources>
+    <component id="oq3p0" name="UIHeadBarPanel.xml" path="/" exported="true"/>
+    <component id="h05l1" name="HP.xml" path="/" exported="true"/>
+    <component id="h05l2" name="MP.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

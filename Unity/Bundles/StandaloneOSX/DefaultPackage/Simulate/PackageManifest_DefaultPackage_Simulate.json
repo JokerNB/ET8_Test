@@ -233,7 +233,7 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/HUDPanel/HUDPanel_fui.bytes",
+            "AssetPath": "Assets/Bundles/FUI/HeadBarPanel/HeadBarPanel_fui.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 4,
@@ -1762,7 +1762,7 @@
             "ReferenceIDs": []
         },
         {
-            "BundleName": "assets_bundles_fui_hudpanel_hudpanel_fui.bundle",
+            "BundleName": "assets_bundles_fui_headbarpanel_headbarpanel_fui.bundle",
             "FileHash": "00000000000000000000000000000000",
             "FileCRC": "00000000",
             "FileSize": 0,

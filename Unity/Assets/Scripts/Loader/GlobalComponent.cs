@@ -13,6 +13,14 @@ namespace ET
             self.Unit = GameObject.Find("/Global/Unit").transform;
             self.GlobalConfig = Resources.Load<GlobalConfig>("GlobalConfig");
             
+            self.HurtRoot = new GComponent();
+            self.HurtRoot.gameObjectName = "HurtGRoot";
+            FairyGUI.GRoot.inst.AddChild(self.HurtRoot);
+            
+            self.HeadBarRoot = new GComponent();
+            self.HeadBarRoot.gameObjectName = "HeadBarRoot";
+            FairyGUI.GRoot.inst.AddChild(self.HeadBarRoot);
+            
             self.NormalGRoot = new GComponent();
             self.NormalGRoot.gameObjectName = "NormalGRoot";
             FairyGUI.GRoot.inst.AddChild(self.NormalGRoot);
@@ -37,6 +45,8 @@ namespace ET
         public Transform Global;
         public Transform Unit { get; set; }
         public GComponent GRoot{ get; set; }
+        public GComponent HeadBarRoot { get; set; }
+        public GComponent HurtRoot { get; set; }
         public GComponent NormalGRoot{ get; set; }
         public GComponent PopUpGRoot{ get; set; }
         public GComponent FixedGRoot{ get; set; }

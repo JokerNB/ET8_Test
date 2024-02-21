@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="300,100" remark="Common">
-  <displayList>
-    <text id="n1_oq3p" name="NickName" xy="0,0" size="300,100" fontSize="41" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="NickName"/>
-  </displayList>
-</component>

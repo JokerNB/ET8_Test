@@ -21,7 +21,8 @@ namespace ET.Client
                 //await SceneManager.LoadSceneAsync(currentScene.Name);
 
                 currentScene.AddComponent<OperaComponent>();
-                currentScene.AddComponent<MainMapTransferPointComponent>();
+                if(currentScene.Name == "Map1")
+                    currentScene.AddComponent<MainMapTransferPointComponent>();
             }
             catch (Exception e)
             {
