@@ -34,7 +34,8 @@
         public Unit Unit;
     }
     
-    public struct RegisterFinish
+    public struct AfterChooseModelDifficulty
     {
+        
     }
 }

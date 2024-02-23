@@ -45,10 +45,15 @@ namespace ET.Client
 
 		private static async ETTask OnClickEnd(int modelId, int difficultyType, Scene scene)
 		{
-			scene.GetComponent<FUIComponent>().ClosePanel(PanelId.UIChooseDifficulty);
 			//发送选择模式及难度消息
-			
-			await scene.GetComponent<ClientSenderCompnent>().Call(new C2M_TransferMap());
+			var response = await scene.GetComponent<ClientSenderCompnent>().Call(new C2M_ChooseModelDifficulty() { Model = modelId, Difficulty = difficultyType }) as M2C_ChooseModelDifficulty;
+			if (response.Error != ErrorCode.ERR_Success)
+			{
+				Log.Error(response.Error.ToString());
+				scene.GetComponent<FUIComponent>().ClosePanel(PanelId.UIChooseDifficulty);
+				return;
+			}
+			EventSystem.Instance.Publish(scene,new AfterChooseModelDifficulty());
 		}
 
 		private static void RenderListDifficultyItem(int index, GObject item)

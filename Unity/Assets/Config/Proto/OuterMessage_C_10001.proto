@@ -250,3 +250,18 @@ message G2C_ChangeNickName // ISessionResponse
 	int32 Error = 2;
 	string Message = 3;
 }
+
+//ResponseType M2C_ChooseModelDifficulty
+message C2M_ChooseModelDifficulty // ILocationRequest
+{
+	int32 RpcId = 1;
+	int32 Model = 2;
+	int32 Difficulty = 3;
+}
+
+message M2C_ChooseModelDifficulty // ILocationResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+}

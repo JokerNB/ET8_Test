@@ -1,6 +1,4 @@
-﻿using ET.Client.HUDPanel;
-using FairyGUI;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ET.Client
 {

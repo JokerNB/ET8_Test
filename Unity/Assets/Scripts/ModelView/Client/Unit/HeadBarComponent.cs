@@ -1,11 +1,9 @@
-using System.Numerics;
-using ET.Client.HUDPanel;
-using FairyGUI;
+using ET.Client.HeadBarPanel;
 
 namespace ET.Client;
 
 [ComponentOf(typeof (Unit))]
 public class HeadBarComponent: Entity, IAwake, IUpdate , IDestroy
 {
-    public FUI_UIHearBarPanel FuiUIHearBarPanel;
+    public FUI_UIHeadBarPanel FuiUIHearBarPanel;
 }

@@ -4,11 +4,11 @@ using FairyGUI;
 
 namespace ET.Client
 {
-	public class HUDPanelBinder
+	public class HeadBarPanelBinder
 	{
 		public static void BindAll()
 		{
-			UIObjectFactory.SetPackageItemExtension(ET.Client.HUDPanel.FUI_UIHearBarPanel.URL, typeof(ET.Client.HUDPanel.FUI_UIHearBarPanel));
+			UIObjectFactory.SetPackageItemExtension(ET.Client.HeadBarPanel.FUI_UIHeadBarPanel.URL, typeof(ET.Client.HeadBarPanel.FUI_UIHeadBarPanel));
 		}
 	}
 }

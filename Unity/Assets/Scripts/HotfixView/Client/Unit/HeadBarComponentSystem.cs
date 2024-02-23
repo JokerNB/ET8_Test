@@ -1,4 +1,4 @@
-using ET.Client.HUDPanel;
+using ET.Client.HeadBarPanel;
 using FairyGUI;
 using UnityEngine;
 
@@ -31,7 +31,7 @@ public static partial class HeadBarComponentSystem
     {
         var headBarPanel = await self.Root().GetComponent<FUIAssetComponent>().CreateObjectAsync("HeadBarPanel", "UIHeadBarPanel");
         FUIRootHelper.GetTargetRoot(UIPanelType.HeadBar, self.Root()).AddChild(headBarPanel);
-        self.FuiUIHearBarPanel = headBarPanel as FUI_UIHearBarPanel;
+        self.FuiUIHearBarPanel = headBarPanel as FUI_UIHeadBarPanel;
         self.FuiUIHearBarPanel.NickName.text = self.Root().GetComponent<PlayerComponent>().NickName;
         UpdateHeadBarPanelPos(self);
     }

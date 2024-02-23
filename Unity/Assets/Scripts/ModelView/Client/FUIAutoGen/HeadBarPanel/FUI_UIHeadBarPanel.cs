@@ -3,18 +3,18 @@
 using FairyGUI;
 using FairyGUI.Utils;
 
-namespace ET.Client.HUDPanel
+namespace ET.Client.HeadBarPanel
 {
-	public partial class FUI_UIHearBarPanel: GComponent
+	public partial class FUI_UIHeadBarPanel: GComponent
 	{
 		public GTextField NickName;
 		public GProgressBar HP;
 		public GProgressBar MP;
 		public const string URL = "ui://1ddu8vqpoq3p0";
 
-		public static FUI_UIHearBarPanel CreateInstance()
+		public static FUI_UIHeadBarPanel CreateInstance()
 		{
-			return (FUI_UIHearBarPanel)UIPackage.CreateObject("HUDPanel", "UIHearBarPanel");
+			return (FUI_UIHeadBarPanel)UIPackage.CreateObject("HeadBarPanel", "UIHeadBarPanel");
 		}
 
 		public override void ConstructFromXML(XML xml)

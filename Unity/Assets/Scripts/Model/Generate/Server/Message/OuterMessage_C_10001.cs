@@ -1038,6 +1038,67 @@ namespace ET
 
 	}
 
+	[ResponseType(nameof(M2C_ChooseModelDifficulty))]
+	[Message(OuterMessage.C2M_ChooseModelDifficulty)]
+	[MemoryPackable]
+	public partial class C2M_ChooseModelDifficulty: MessageObject, ILocationRequest
+	{
+		public static C2M_ChooseModelDifficulty Create(bool isFromPool = true) 
+		{ 
+			return ObjectPool.Instance.Fetch(typeof(C2M_ChooseModelDifficulty), isFromPool) as C2M_ChooseModelDifficulty; 
+		}
+
+		[MemoryPackOrder(0)]
+		public int RpcId { get; set; }
+
+		[MemoryPackOrder(1)]
+		public int Model { get; set; }
+
+		[MemoryPackOrder(2)]
+		public int Difficulty { get; set; }
+
+		public override void Dispose() 
+		{
+			if (!this.IsFromPool) return;
+			this.RpcId = default;
+			this.Model = default;
+			this.Difficulty = default;
+			
+			ObjectPool.Instance.Recycle(this); 
+		}
+
+	}
+
+	[Message(OuterMessage.M2C_ChooseModelDifficulty)]
+	[MemoryPackable]
+	public partial class M2C_ChooseModelDifficulty: MessageObject, ILocationResponse
+	{
+		public static M2C_ChooseModelDifficulty Create(bool isFromPool = true) 
+		{ 
+			return ObjectPool.Instance.Fetch(typeof(M2C_ChooseModelDifficulty), isFromPool) as M2C_ChooseModelDifficulty; 
+		}
+
+		[MemoryPackOrder(0)]
+		public int RpcId { get; set; }
+
+		[MemoryPackOrder(1)]
+		public int Error { get; set; }
+
+		[MemoryPackOrder(2)]
+		public string Message { get; set; }
+
+		public override void Dispose() 
+		{
+			if (!this.IsFromPool) return;
+			this.RpcId = default;
+			this.Error = default;
+			this.Message = default;
+			
+			ObjectPool.Instance.Recycle(this); 
+		}
+
+	}
+
 	public static class OuterMessage
 	{
 		 public const ushort HttpGetRouterResponse = 10002;
@@ -1076,5 +1137,7 @@ namespace ET
 		 public const ushort G2C_Benchmark = 10035;
 		 public const ushort C2G_ChangeNickName = 10036;
 		 public const ushort G2C_ChangeNickName = 10037;
+		 public const ushort C2M_ChooseModelDifficulty = 10038;
+		 public const ushort M2C_ChooseModelDifficulty = 10039;
 	}
 }
