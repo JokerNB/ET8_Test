@@ -176,7 +176,6 @@ namespace ET
                     FileHelper.CopyDirectory("../Config/Excel/c/GameConfig", clientProtoDir);
 				
                     AssetDatabase.Refresh();
-                    Log.Error("ExcelExporter Success!!!");
                 }
             }
             EditorGUILayout.EndHorizontal();

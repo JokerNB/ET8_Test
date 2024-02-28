@@ -1,0 +1,13 @@
+[
+  {
+    "Id": 1,
+    "HeroName": "星辰少女",
+    "HP": 1000,
+    "Atk": 1000,
+    "PhysicalDef": 10,
+    "MagicDef": 10,
+    "AtkInterval": 1,
+    "AtkRange": 200,
+    "AtkType": 1
+  }
+]

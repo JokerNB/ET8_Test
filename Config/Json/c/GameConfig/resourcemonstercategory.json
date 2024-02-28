@@ -1,0 +1,79 @@
+[
+  {
+    "Id": 1,
+    "HP": 160,
+    "Atk": 0,
+    "PhysicalDef": 1,
+    "MagicDef": 0,
+    "AtkInterval": 1,
+    "AtkRange": 100,
+    "OpenExtraBossNum": 300,
+    "ExtraBossConfigId": 1
+  },
+  {
+    "Id": 2,
+    "HP": 1000,
+    "Atk": 20,
+    "PhysicalDef": 5,
+    "MagicDef": 3,
+    "AtkInterval": 1,
+    "AtkRange": 100,
+    "OpenExtraBossNum": 300,
+    "ExtraBossConfigId": 2
+  },
+  {
+    "Id": 3,
+    "HP": 10000,
+    "Atk": 50,
+    "PhysicalDef": 10,
+    "MagicDef": 6,
+    "AtkInterval": 1,
+    "AtkRange": 100,
+    "OpenExtraBossNum": 300,
+    "ExtraBossConfigId": 3
+  },
+  {
+    "Id": 4,
+    "HP": 20000,
+    "Atk": 500,
+    "PhysicalDef": 20,
+    "MagicDef": 12,
+    "AtkInterval": 1,
+    "AtkRange": 100,
+    "OpenExtraBossNum": 300,
+    "ExtraBossConfigId": 4
+  },
+  {
+    "Id": 5,
+    "HP": 120000,
+    "Atk": 2000,
+    "PhysicalDef": 50,
+    "MagicDef": 30,
+    "AtkInterval": 1,
+    "AtkRange": 100,
+    "OpenExtraBossNum": 300,
+    "ExtraBossConfigId": 5
+  },
+  {
+    "Id": 6,
+    "HP": 300000,
+    "Atk": 4000,
+    "PhysicalDef": 50,
+    "MagicDef": 30,
+    "AtkInterval": 1,
+    "AtkRange": 100,
+    "OpenExtraBossNum": 300,
+    "ExtraBossConfigId": 6
+  },
+  {
+    "Id": 7,
+    "HP": 2000000,
+    "Atk": 10000,
+    "PhysicalDef": 100,
+    "MagicDef": 60,
+    "AtkInterval": 1,
+    "AtkRange": 100,
+    "OpenExtraBossNum": 300,
+    "ExtraBossConfigId": 7
+  }
+]

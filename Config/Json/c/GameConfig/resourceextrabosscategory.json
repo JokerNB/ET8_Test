@@ -1,0 +1,11 @@
+[
+  {
+    "Id": 1,
+    "HP": 6000,
+    "Atk": 0,
+    "PhysicalDef": 10,
+    "MagicDef": 6,
+    "AtkInterval": 1,
+    "AtkRange": 300
+  }
+]

@@ -31,7 +31,7 @@ namespace ET.Client
 		{
 			Scene root = self.Root();
 			root.GetComponent<FUIComponent>().ClosePanel(PanelId.UILobby);
-			await root.GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UILoadingPanel);
+			await LoadingPanelHelper.OpenSetLoading(root,10);
 			await EnterMapHelper.EnterMapAsync(root);
 		}
 	}

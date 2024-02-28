@@ -7,6 +7,7 @@ namespace ET.Client
 	{
 		private FUI_UILoadingPanel _fuiUILoadingPanel;
 		public FUI_UILoadingPanel_ProgressItem[] items;
+		public uint CurProgress;
 
 		public FUI_UILoadingPanel FUIUILoadingPanel
 		{

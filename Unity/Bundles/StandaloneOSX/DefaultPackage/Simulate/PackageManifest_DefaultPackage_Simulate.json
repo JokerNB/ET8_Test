@@ -153,6 +153,14 @@
         },
         {
             "Address": "",
+            "AssetPath": "Assets/Bundles/Config/herocategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
             "AssetPath": "Assets/Bundles/Config/localizeconfig_excel_chscategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
@@ -210,6 +218,22 @@
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Config/randomnamecategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/resourceextrabosscategory.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Config/resourcemonstercategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2,
