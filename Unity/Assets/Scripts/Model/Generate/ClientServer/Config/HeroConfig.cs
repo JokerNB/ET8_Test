@@ -24,7 +24,9 @@ public sealed partial class HeroConfig : ProtoObject
         MagicDef = _buf.ReadInt();
         AtkInterval = _buf.ReadFloat();
         AtkRange = _buf.ReadInt();
-        AtkType = _buf.ReadInt();
+        Speed = _buf.ReadInt();
+        AOIRange = _buf.ReadInt();
+        ResourceName = _buf.ReadString();
         this.EndInit();
     }
 
@@ -66,9 +68,17 @@ public sealed partial class HeroConfig : ProtoObject
     /// </summary>
     public int AtkRange { get; set; }
     /// <summary>
-    /// 攻击类型
+    /// 移动速度
     /// </summary>
-    public int AtkType { get; set; }
+    public int Speed { get; set; }
+    /// <summary>
+    /// 视野范围
+    /// </summary>
+    public int AOIRange { get; set; }
+    /// <summary>
+    /// 资源名称
+    /// </summary>
+    public string ResourceName { get; set; }
 
     public const int __ID__ = -563759108;
     public int GetTypeId() => __ID__;

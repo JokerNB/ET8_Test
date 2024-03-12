@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using ET.Client.Lobby;
 
 namespace ET.Client
@@ -11,5 +12,7 @@ namespace ET.Client
 		{
 			get => _fuiUILobby ??= (FUI_UILobby)this.GetParent<FUIEntity>().GComponent;
 		}
+
+		public int ServerZone = -1;
 	}
 }

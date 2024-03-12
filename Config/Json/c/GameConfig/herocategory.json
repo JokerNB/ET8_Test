@@ -8,6 +8,8 @@
     "MagicDef": 10,
     "AtkInterval": 1,
     "AtkRange": 200,
-    "AtkType": 1
+    "Speed": 10,
+    "AOIRange": 15,
+    "ResourceName": "Unit"
   }
 ]

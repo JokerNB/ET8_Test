@@ -3,6 +3,7 @@
   <resources>
     <component id="koj00" name="UILobby.xml" path="/" exported="true"/>
     <component id="koj01" name="Button_EntryMap.xml" path="/" exported="true"/>
+    <component id="r7j21" name="UISeverInfoItem.xml" path="/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

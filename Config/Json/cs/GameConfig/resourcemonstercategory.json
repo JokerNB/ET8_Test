@@ -7,10 +7,13 @@
     "MagicDef": 0,
     "AtkInterval": 1,
     "AtkRange": 100,
+    "Speed": 10,
+    "AOIRange": 15,
     "Coin": 4,
     "Exp": 3,
     "OpenExtraBossNum": 300,
-    "ExtraBossConfigId": 1
+    "ExtraBossConfigId": 1,
+    "ResourceName": "Unit"
   },
   {
     "Id": 2,
@@ -20,10 +23,13 @@
     "MagicDef": 3,
     "AtkInterval": 1,
     "AtkRange": 100,
+    "Speed": 10,
+    "AOIRange": 15,
     "Coin": 6,
     "Exp": 4,
     "OpenExtraBossNum": 300,
-    "ExtraBossConfigId": 2
+    "ExtraBossConfigId": 2,
+    "ResourceName": "Unit"
   },
   {
     "Id": 3,
@@ -33,10 +39,13 @@
     "MagicDef": 6,
     "AtkInterval": 1,
     "AtkRange": 100,
+    "Speed": 10,
+    "AOIRange": 15,
     "Coin": 8,
     "Exp": 6,
     "OpenExtraBossNum": 300,
-    "ExtraBossConfigId": 3
+    "ExtraBossConfigId": 3,
+    "ResourceName": "Unit"
   },
   {
     "Id": 4,
@@ -46,10 +55,13 @@
     "MagicDef": 12,
     "AtkInterval": 1,
     "AtkRange": 100,
+    "Speed": 10,
+    "AOIRange": 15,
     "Coin": 12,
     "Exp": 8,
     "OpenExtraBossNum": 300,
-    "ExtraBossConfigId": 4
+    "ExtraBossConfigId": 4,
+    "ResourceName": "Unit"
   },
   {
     "Id": 5,
@@ -59,10 +71,13 @@
     "MagicDef": 30,
     "AtkInterval": 1,
     "AtkRange": 100,
+    "Speed": 10,
+    "AOIRange": 15,
     "Coin": 16,
     "Exp": 10,
     "OpenExtraBossNum": 300,
-    "ExtraBossConfigId": 5
+    "ExtraBossConfigId": 5,
+    "ResourceName": "Unit"
   },
   {
     "Id": 6,
@@ -72,10 +87,13 @@
     "MagicDef": 30,
     "AtkInterval": 1,
     "AtkRange": 100,
+    "Speed": 10,
+    "AOIRange": 15,
     "Coin": 20,
     "Exp": 10,
     "OpenExtraBossNum": 300,
-    "ExtraBossConfigId": 6
+    "ExtraBossConfigId": 6,
+    "ResourceName": "Unit"
   },
   {
     "Id": 7,
@@ -85,9 +103,12 @@
     "MagicDef": 60,
     "AtkInterval": 1,
     "AtkRange": 100,
+    "Speed": 10,
+    "AOIRange": 15,
     "Coin": 30,
     "Exp": 10,
     "OpenExtraBossNum": 300,
-    "ExtraBossConfigId": 7
+    "ExtraBossConfigId": 7,
+    "ResourceName": "Unit"
   }
 ]

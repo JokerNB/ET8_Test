@@ -23,10 +23,13 @@ public sealed partial class ResourceMonsterConfig : ProtoObject
         MagicDef = _buf.ReadInt();
         AtkInterval = _buf.ReadFloat();
         AtkRange = _buf.ReadInt();
+        Speed = _buf.ReadInt();
+        AOIRange = _buf.ReadInt();
         Coin = _buf.ReadInt();
         Exp = _buf.ReadInt();
         OpenExtraBossNum = _buf.ReadInt();
         ExtraBossConfigId = _buf.ReadInt();
+        ResourceName = _buf.ReadString();
         this.EndInit();
     }
 
@@ -64,6 +67,14 @@ public sealed partial class ResourceMonsterConfig : ProtoObject
     /// </summary>
     public int AtkRange { get; set; }
     /// <summary>
+    /// 移动速度
+    /// </summary>
+    public int Speed { get; set; }
+    /// <summary>
+    /// 视野范围
+    /// </summary>
+    public int AOIRange { get; set; }
+    /// <summary>
     /// 击杀奖励金币
     /// </summary>
     public int Coin { get; set; }
@@ -73,6 +84,7 @@ public sealed partial class ResourceMonsterConfig : ProtoObject
     public int Exp { get; set; }
     public int OpenExtraBossNum { get; set; }
     public int ExtraBossConfigId { get; set; }
+    public string ResourceName { get; set; }
 
     public const int __ID__ = 877342254;
     public int GetTypeId() => __ID__;

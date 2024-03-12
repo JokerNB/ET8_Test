@@ -6,6 +6,9 @@
     "PhysicalDef": 10,
     "MagicDef": 6,
     "AtkInterval": 1,
-    "AtkRange": 300
+    "AtkRange": 300,
+    "Speed": 10,
+    "AOIRange": 15,
+    "ResourceName": "Unit"
   }
 ]

@@ -13,6 +13,7 @@ namespace ET.Client
             root.AddComponent<ResourcesLoaderComponent>();
             root.AddComponent<PlayerComponent>();
             root.AddComponent<CurrentScenesComponent>();
+            root.AddComponent<ServerInfosComponent>();
             
             World.Instance.AddSingleton<FUIEventSingleTon>();
             root.AddComponent<LocalizeComponent>();

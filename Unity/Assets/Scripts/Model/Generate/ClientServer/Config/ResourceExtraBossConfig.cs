@@ -23,8 +23,11 @@ public sealed partial class ResourceExtraBossConfig : ProtoObject
         MagicDef = _buf.ReadInt();
         AtkInterval = _buf.ReadFloat();
         AtkRange = _buf.ReadInt();
+        Speed = _buf.ReadInt();
+        AOIRange = _buf.ReadInt();
         Coin = _buf.ReadInt();
         Exp = _buf.ReadInt();
+        ResourceName = _buf.ReadString();
         this.EndInit();
     }
 
@@ -62,6 +65,14 @@ public sealed partial class ResourceExtraBossConfig : ProtoObject
     /// </summary>
     public int AtkRange { get; set; }
     /// <summary>
+    /// 移动速度
+    /// </summary>
+    public int Speed { get; set; }
+    /// <summary>
+    /// 视野范围
+    /// </summary>
+    public int AOIRange { get; set; }
+    /// <summary>
     /// 击杀奖励金币
     /// </summary>
     public int Coin { get; set; }
@@ -69,6 +80,10 @@ public sealed partial class ResourceExtraBossConfig : ProtoObject
     /// 击杀奖励经验值
     /// </summary>
     public int Exp { get; set; }
+    /// <summary>
+    /// 资源名称
+    /// </summary>
+    public string ResourceName { get; set; }
 
     public const int __ID__ = -727011535;
     public int GetTypeId() => __ID__;

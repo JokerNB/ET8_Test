@@ -7,7 +7,10 @@
     "MagicDef": 6,
     "AtkInterval": 1,
     "AtkRange": 300,
+    "Speed": 10,
+    "AOIRange": 15,
     "Coin": 4,
-    "Exp": 3
+    "Exp": 3,
+    "ResourceName": "Unit"
   }
 ]

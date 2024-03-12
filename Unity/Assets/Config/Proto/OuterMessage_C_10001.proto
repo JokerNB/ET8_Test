@@ -265,3 +265,24 @@ message M2C_ChooseModelDifficulty // ILocationResponse
 	int32 Error = 2;
 	string Message = 3;
 }
+
+message ServerListInfo
+{
+	int32 Zone = 1;
+	string Name = 2;
+	int32 Status = 3;
+}
+
+//ResponseType R2C_GetServerList
+message C2R_GetServerList // IRequest
+{
+	int32 RpcId = 1;
+}
+
+message R2C_GetServerList // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+	repeated ServerListInfo ServerListInfos = 4;
+}

@@ -1,4 +1,3 @@
-using ET.Server;
 using FairyGUI;
 
 namespace ET.Client

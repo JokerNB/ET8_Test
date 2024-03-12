@@ -23,6 +23,8 @@ public sealed partial class ResourceExtraBossConfig : ProtoObject
         MagicDef = _buf.ReadInt();
         AtkInterval = _buf.ReadFloat();
         AtkRange = _buf.ReadInt();
+        Speed = _buf.ReadInt();
+        AOIRange = _buf.ReadInt();
         Coin = _buf.ReadInt();
         Exp = _buf.ReadInt();
         this.EndInit();
@@ -61,6 +63,14 @@ public sealed partial class ResourceExtraBossConfig : ProtoObject
     /// 攻击范围
     /// </summary>
     public int AtkRange { get; set; }
+    /// <summary>
+    /// 移动速度
+    /// </summary>
+    public int Speed { get; set; }
+    /// <summary>
+    /// 视野范围
+    /// </summary>
+    public int AOIRange { get; set; }
     /// <summary>
     /// 击杀奖励金币
     /// </summary>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,120" extention="Button" remark="Common">
+  <controller name="States" pages="0,,1," selected="0"/>
+  <controller name="SelectStates" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n2_r7j2" name="n2" xy="0,0" size="300,120" type="rect" lineColor="#00000000">
+      <gearColor controller="SelectStates" pages="1" values="#ffffcc" default="#ffffff"/>
+    </graph>
+    <graph id="n0_r7j2" name="n0" xy="12,30" size="59,60" type="eclipse" lineColor="#02000000" fillColor="#ff00ff00">
+      <gearColor controller="States" pages="1" values="#ff0000" default="#00ff00"/>
+    </graph>
+    <text id="n1_r7j2" name="ServerName" xy="91,21" size="188,78" fontSize="12" autoSize="none" text=""/>
+  </displayList>
+  <Button/>
+</component>

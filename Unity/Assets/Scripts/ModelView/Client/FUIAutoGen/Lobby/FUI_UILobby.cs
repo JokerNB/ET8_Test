@@ -8,6 +8,7 @@ namespace ET.Client.Lobby
 	public partial class FUI_UILobby: GComponent
 	{
 		public ET.Client.Lobby.FUI_Button_EntryMap Button_EntryMap;
+		public GList ServerInfoList;
 		public const string URL = "ui://5ldhuisnkoj00";
 
 		public static FUI_UILobby CreateInstance()
@@ -20,6 +21,7 @@ namespace ET.Client.Lobby
 			base.ConstructFromXML(xml);
 
 			Button_EntryMap = (ET.Client.Lobby.FUI_Button_EntryMap)GetChildAt(0);
+			ServerInfoList = (GList)GetChildAt(1);
 		}
 	}
 }

@@ -2,8 +2,16 @@
 <component size="1920,1080" remark="Main">
   <displayList>
     <component id="n0_koj0" name="Button_EntryMap" src="koj01" fileName="Button_EntryMap.xml" xy="693,860" size="533,220">
-      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
       <Button title="进入地图" titleFontSize="48"/>
     </component>
+    <list id="n1_r7j2" name="ServerInfoList" xy="210,432" size="1500,300" layout="flow_hz" overflow="scroll" scrollBarFlags="4" lineGap="40" colGap="100" lineItemCount="4" defaultItem="ui://5ldhuisnr7j21" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
   </displayList>
 </component>
