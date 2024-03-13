@@ -6,11 +6,8 @@
         "Unity.Core",
         "HybridCLR.Runtime",
         "MemoryPack",
-        "BetterStreamingAssets",
         "YooAsset",
-        "FairyGUI.Dyanmic",
-        "FairyGUI",
-        "spine-unity"
+        "YooAsset.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

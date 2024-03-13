@@ -1,7 +1,4 @@
-﻿using System;
-using UnityEditor;
-
-namespace ET
+﻿namespace ET
 {
     public static class ToolsEditor
     {

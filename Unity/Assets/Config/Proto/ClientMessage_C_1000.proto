@@ -1,15 +1,14 @@
 syntax = "proto3";
-// using 
 
 package ET;
 
-//ResponseType NetClient2Main_Login
+// ResponseType NetClient2Main_Login
 message Main2NetClient_Login // IRequest
 {
 	int32 RpcId = 1;
 	int32 OwnerFiberId = 2;
-	string Account = 3;
-	string Password = 4;
+	string Account = 3;		// 账号
+	string Password = 4; 	// 密码
 }
 
 message NetClient2Main_Login // IResponse
