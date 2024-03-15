@@ -179,6 +179,7 @@ struct EntryU5BU5D_t81FACE1E301FDE5854554AC4D5BF4CF544F1179A;
 struct EntryU5BU5D_tC7DABB867AAF5E383374C583EDA07FF600FB5535;
 struct AtlasAssetBaseU5BU5D_t6D8EAEA3267D1DFC3FBFAA3ECE699B48E92E5C82;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct EventBridgeU5BU5D_tD0C4CC4D7ABC619AE8904ACD7BCA753B6FBF161D;
@@ -743,57 +744,6 @@ struct GPath_tAF52CF45E8A5C3B7B4A077CE2FEBDA25FCFBDF96  : public RuntimeObject
 struct GTween_tA8D53FA8C906F1A5F56145D2A0490BAAC6AAFAB7  : public RuntimeObject
 {
 };
-struct GTweener_tEB2D017E52D45DCFE0E48F080CF6451FAC53D64B  : public RuntimeObject
-{
-	RuntimeObject* ____target;
-	int32_t ____propType;
-	bool ____killed;
-	bool ____paused;
-	float ____delay;
-	float ____duration;
-	float ____breakpoint;
-	int32_t ____easeType;
-	float ____easeOvershootOrAmplitude;
-	float ____easePeriod;
-	int32_t ____repeat;
-	bool ____yoyo;
-	float ____timeScale;
-	bool ____ignoreEngineTimeScale;
-	bool ____snapping;
-	RuntimeObject* ____userData;
-	GPath_tAF52CF45E8A5C3B7B4A077CE2FEBDA25FCFBDF96* ____path;
-	CustomEase_t3F00882308AABD5627720647E68CE986B97548C8* ____customEase;
-	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onUpdate;
-	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onStart;
-	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onComplete;
-	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onUpdate1;
-	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onStart1;
-	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onComplete1;
-	RuntimeObject* ____listener;
-	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____startValue;
-	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____endValue;
-	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____value;
-	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____deltaValue;
-	int32_t ____valueSize;
-	bool ____started;
-	int32_t ____ended;
-	float ____elapsedTime;
-	float ____normalizedTime;
-	int32_t ____smoothStart;
-};
-struct InputEvent_t3DE6DA06EBF73975975333281AF59089CA5A1274  : public RuntimeObject
-{
-	float ___U3CxU3Ek__BackingField;
-	float ___U3CyU3Ek__BackingField;
-	int32_t ___U3CkeyCodeU3Ek__BackingField;
-	Il2CppChar ___U3CcharacterU3Ek__BackingField;
-	int32_t ___U3CmodifiersU3Ek__BackingField;
-	float ___U3CmouseWheelDeltaU3Ek__BackingField;
-	int32_t ___U3CtouchIdU3Ek__BackingField;
-	int32_t ___U3CbuttonU3Ek__BackingField;
-	int32_t ___U3CclickCountU3Ek__BackingField;
-	float ___U3CholdTimeU3Ek__BackingField;
-};
 struct ShaderConfig_t8B9BD906FB860DE86587ED680EC85673A7C5C889  : public RuntimeObject
 {
 };
@@ -868,44 +818,6 @@ struct Timers_t84E793737CE23907B3D741BD126DA18A48CE8B9C  : public RuntimeObject
 struct TouchScreenKeyboard_t3180F9A2FCEBEC7B87860624F0D6C49DF4759B45  : public RuntimeObject
 {
 	TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* ____keyboard;
-};
-struct TrackEntry_t1496EC4C0D889FEFFA9170033055B7CF70FA43EB  : public RuntimeObject
-{
-	Animation_tD27D05B1F34A664CFD328E44F1FB594E82757D62* ___animation;
-	TrackEntry_t1496EC4C0D889FEFFA9170033055B7CF70FA43EB* ___next;
-	TrackEntry_t1496EC4C0D889FEFFA9170033055B7CF70FA43EB* ___mixingFrom;
-	TrackEntry_t1496EC4C0D889FEFFA9170033055B7CF70FA43EB* ___mixingTo;
-	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___Start;
-	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___Interrupt;
-	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___End;
-	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___Dispose;
-	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___Complete;
-	TrackEntryEventDelegate_tC73115975F60CA3AE0364B9EB9901B89E30359F3* ___Event;
-	int32_t ___trackIndex;
-	bool ___loop;
-	bool ___holdPrevious;
-	float ___eventThreshold;
-	float ___attachmentThreshold;
-	float ___drawOrderThreshold;
-	float ___animationStart;
-	float ___animationEnd;
-	float ___animationLast;
-	float ___nextAnimationLast;
-	float ___delay;
-	float ___trackTime;
-	float ___trackLast;
-	float ___nextTrackLast;
-	float ___trackEnd;
-	float ___timeScale;
-	float ___alpha;
-	float ___mixTime;
-	float ___mixDuration;
-	float ___interruptAlpha;
-	float ___totalAlpha;
-	int32_t ___mixBlend;
-	ExposedList_1_t78C35B13C09679E167D37A21B1793179083457D5* ___timelineMode;
-	ExposedList_1_t19DC027924CCEBF55B52280A831270C82F0F7B9E* ___timelineHoldMix;
-	ExposedList_1_tD73D23BD855506DEC8EFBB0A8EAA86A1F2053245* ___timelinesRotation;
 };
 struct TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E  : public RuntimeObject
 {
@@ -1071,6 +983,15 @@ struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F
 {
 	double ___m_value;
 };
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
 struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
 {
 	int16_t ___m_value;
@@ -1178,13 +1099,6 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 {
 	float ___m_Seconds;
 };
-struct Segment_tD719ABEA2D5B8536EC70009AF9DC3694F377BE95 
-{
-	int32_t ___type;
-	float ___length;
-	int32_t ___ptStart;
-	int32_t ___ptCount;
-};
 struct CharPosition_t53B9EBF13A9B027B0312E14AC057135050473524 
 {
 	int32_t ___charIndex;
@@ -1239,6 +1153,22 @@ struct Nullable_1_t5070FF5B4129C859CA3EFC7B94E615A818E11144
 	bool ___hasValue;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___value;
 };
+struct AlignType_tAF0EBC1B9D65424A6043B03ED04A8AC1E5C0BD22 
+{
+	int32_t ___value__;
+};
+struct AutoSizeType_t7E3E3AF5B95D1CC961AF36D5A854BE056172380D 
+{
+	int32_t ___value__;
+};
+struct BlendMode_tB365E02BBC13B515218F7BBA24349DF72BF14C03 
+{
+	int32_t ___value__;
+};
+struct ChildrenRenderOrder_t9DBC026B06A79783A8129A9869549CA41BA74FD0 
+{
+	int32_t ___value__;
+};
 struct Delegate_t  : public RuntimeObject
 {
 	intptr_t ___method_ptr;
@@ -1287,54 +1217,17 @@ struct Delegate_t_marshaled_com
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
 };
-struct DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
+struct DestroyMethod_t8268BE278E578B6C3D78266B7CD24EF18ED506D9 
 {
-	String_t* ___name;
-	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ___U3CparentU3Ek__BackingField;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CgameObjectU3Ek__BackingField;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___U3CcachedTransformU3Ek__BackingField;
-	NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB* ___U3CgraphicsU3Ek__BackingField;
-	NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB* ___U3CpaintingGraphicsU3Ek__BackingField;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onPaint;
-	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ___gOwner;
-	uint32_t ___id;
-	bool ____visible;
-	bool ____touchable;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____pivot;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____pivotOffset;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____rotation;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____skew;
-	int32_t ____renderingOrder;
-	float ____alpha;
-	bool ____grayed;
-	int32_t ____blendMode;
-	RuntimeObject* ____filter;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____home;
-	String_t* ____cursor;
-	bool ____perspective;
-	int32_t ____focalLength;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____pixelPerfectAdjustment;
-	int32_t ____checkPixelPerfect;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onClick;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRightClick;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchBegin;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchMove;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchEnd;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRollOver;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRollOut;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onMouseWheel;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onAddedToStage;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRemovedFromStage;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onKeyDown;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onClickLink;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onFocusIn;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onFocusOut;
-	int32_t ____paintingMode;
-	PaintingInfo_t8FC33893AEA02FB51037145D7AE4E1B9A7B6F2FC* ____paintingInfo;
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____contentRect;
-	VertexMatrix_t3B40116F1F9038EACBED60F7AA757E2FF4DCB51C* ____vertexMatrix;
-	int32_t ____flags;
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____batchingBounds;
+	int32_t ___value__;
+};
+struct EaseType_tEEB04F998E0CA67A1BEE4379C02B5EFEA32367FD 
+{
+	int32_t ___value__;
+};
+struct EventModifiers_t48244B043FBB42CDD555C6AC43279EC7158777AC 
+{
+	int32_t ___value__;
 };
 struct Exception_t  : public RuntimeObject
 {
@@ -1393,29 +1286,21 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
-struct GPathPoint_t41DAEAECA5C0A74CA97CFBC4C76F72A6C2109073 
+struct FillType_t235D010D8D18FAACBE38575881A45EC4230EF213 
 {
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control1;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control2;
-	int32_t ___curveType;
-	bool ___smooth;
+	int32_t ___value__;
 };
-struct GPathPoint_t41DAEAECA5C0A74CA97CFBC4C76F72A6C2109073_marshaled_pinvoke
+struct FlipType_tFB7A4E663E73101D75D7D8E16CB5F7A0D8C898EE 
 {
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control1;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control2;
-	int32_t ___curveType;
-	int32_t ___smooth;
+	int32_t ___value__;
 };
-struct GPathPoint_t41DAEAECA5C0A74CA97CFBC4C76F72A6C2109073_marshaled_com
+struct HideFlags_tC514182ACEFD3B847988C45D5DB812FF6DB1BF4A 
 {
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control1;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control2;
-	int32_t ___curveType;
-	int32_t ___smooth;
+	int32_t ___value__;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
 };
 struct LongPressGesture_t4E5DA271415D3F09644F969D317BB0B58A23E635  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
 {
@@ -1435,54 +1320,9 @@ struct MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D  : public
 {
 	intptr_t ___m_Ptr;
 };
-struct NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB  : public RuntimeObject
+struct MixBlend_t116B57D71E0C1D266A187DDF3F8BE0C19D6D9245 
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CgameObjectU3Ek__BackingField;
-	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ___U3CmeshFilterU3Ek__BackingField;
-	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___U3CmeshRendererU3Ek__BackingField;
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___U3CmeshU3Ek__BackingField;
-	int32_t ___blendMode;
-	bool ___dontClip;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___meshModifier;
-	NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630* ____texture;
-	String_t* ____shader;
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ____material;
-	int32_t ____customMatarial;
-	MaterialManager_tE2AEFF9ED12CDA8AB453EFCD8ED321E123D025A7* ____manager;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____shaderKeywords;
-	int32_t ____materialFlags;
-	RuntimeObject* ____meshFactory;
-	float ____alpha;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____color;
-	bool ____meshDirty;
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____contentRect;
-	int32_t ____flip;
-	VertexMatrix_t3B40116F1F9038EACBED60F7AA757E2FF4DCB51C* ____vertexMatrix;
-	bool ___hasAlphaBackup;
-	List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B* ____alphaBackup;
-	int32_t ____maskFlag;
-	StencilEraser_t28F5096E9733B734300638D36168B1C781C343D3* ____stencilEraser;
-	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ____propertyBlock;
-	bool ____blockUpdated;
-};
-struct NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630  : public RuntimeObject
-{
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___uvRect;
-	bool ___rotated;
-	int32_t ___U3CrefCountU3Ek__BackingField;
-	float ___lastActive;
-	int32_t ___destroyMethod;
-	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onSizeChanged;
-	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onAcquire;
-	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onRelease;
-	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onDispose;
-	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ____nativeTexture;
-	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ____alphaTexture;
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____region;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____offset;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____originalSize;
-	NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630* ____root;
-	Dictionary_2_t9D257B68C0A19C0ADA560BA5DA9C670844688CFB* ____materialManagers;
+	int32_t ___value__;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
@@ -1495,6 +1335,18 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 	intptr_t ___m_CachedPtr;
+};
+struct ObjectType_tBCA9508A33261B4314EA4D79D55BAB4CBB89C30D 
+{
+	int32_t ___value__;
+};
+struct PackageItemType_t381976A8CE19B37567CF8AF2D2D5D054EA722383 
+{
+	int32_t ___value__;
+};
+struct RenderMode_tB63553E26C26A0B62C47B995F86AC41768494633 
+{
+	int32_t ___value__;
 };
 struct RotationGesture_t55C0A51ACFCA9188E83EF38DE6849B15A4D8E948  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
 {
@@ -1515,6 +1367,18 @@ struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5
 {
 	intptr_t ___value;
 };
+struct RuntimePlatform_t9A8AAF204603076FCAAECCCC05DA386AEE7BF66E 
+{
+	int32_t ___value__;
+};
+struct ScrollBarDisplayType_t8F46C0060B09B5E5D86FDBF5FB2D590F669A8D3B 
+{
+	int32_t ___value__;
+};
+struct SpriteMaskInteraction_tC888A8071B3F72BFCCC7717F292C303839070D42 
+{
+	int32_t ___value__;
+};
 struct SwipeGesture_t4C31543221CAA47B09F1025585E0D9DEC98F2438  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
 {
 	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ___U3ChostU3Ek__BackingField;
@@ -1533,28 +1397,45 @@ struct SwipeGesture_t4C31543221CAA47B09F1025585E0D9DEC98F2438  : public EventDis
 	bool ____started;
 	bool ____touchBegan;
 };
-struct TextFormat_t627E6C0284BF6635A4D1C7A67C37D664B3299091  : public RuntimeObject
-{
-	int32_t ___size;
-	String_t* ___font;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
-	int32_t ___lineSpacing;
-	int32_t ___letterSpacing;
-	bool ___bold;
-	bool ___underline;
-	bool ___italic;
-	bool ___strikethrough;
-	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___gradientColor;
-	int32_t ___align;
-	int32_t ___specialStyle;
-	float ___outline;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___outlineColor;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___shadowOffset;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___shadowColor;
-};
 struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A  : public RuntimeObject
 {
 	intptr_t ___m_Ptr;
+};
+struct TouchScreenKeyboardType_t3F5A06315B263282460BE67DE01393B6FB3780C1 
+{
+	int32_t ___value__;
+};
+struct TweenPropType_t1DB9750D9CF2646EC76E9923847D37DE231B9C07 
+{
+	int32_t ___value__;
+};
+struct UpdateMode_t3F2A909DE2682AEDBDF54EAFDD1A065FB1E5384A 
+{
+	int32_t ___value__;
+};
+struct VertAlignType_tAC0AB58EAE358F77C924EDBCBD2C7F80630CB53A 
+{
+	int32_t ___value__;
+};
+struct Flags_tF0DEB5FEBF9DE65EBF3CC5BC2185B88A7BEA66CC 
+{
+	int32_t ___value__;
+};
+struct CurveType_t0D29F8362D0B4DF360F12E4DF6B6CE8029828BFE 
+{
+	int32_t ___value__;
+};
+struct DirectionType_t13F9FBC8F3BB26D22FA532DE87C5FD8A595C2204 
+{
+	int32_t ___value__;
+};
+struct SpecialStyle_t0038BBC06122D595E8D8F380BA1828B8CDB333C0 
+{
+	int32_t ___value__;
+};
+struct Status_t3F8904FBDC6FAD87099A6DF12FBE1510671D995E 
+{
+	int32_t ___value__;
 };
 struct ClipInfo_tAD0084BC1A3E6FABF55257C2ABE3F15CFF270AE1 
 {
@@ -1592,22 +1473,54 @@ struct ClipInfo_tAD0084BC1A3E6FABF55257C2ABE3F15CFF270AE1_marshaled_com
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
-struct Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
+struct DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
 {
-	int32_t ___renderMode;
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___renderCamera;
-	bool ___opaque;
-	Nullable_1_t5070FF5B4129C859CA3EFC7B94E615A818E11144 ___clipSoftness;
-	RuntimeObject* ___hitArea;
-	bool ___touchChildren;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onUpdate;
-	bool ___reversedMask;
-	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____children;
-	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____mask;
-	Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 ____clipRect;
-	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____descendants;
-	int32_t ____panelOrder;
-	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____lastFocus;
+	String_t* ___name;
+	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ___U3CparentU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CgameObjectU3Ek__BackingField;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___U3CcachedTransformU3Ek__BackingField;
+	NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB* ___U3CgraphicsU3Ek__BackingField;
+	NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB* ___U3CpaintingGraphicsU3Ek__BackingField;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onPaint;
+	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ___gOwner;
+	uint32_t ___id;
+	bool ____visible;
+	bool ____touchable;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____pivot;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____pivotOffset;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____rotation;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____skew;
+	int32_t ____renderingOrder;
+	float ____alpha;
+	bool ____grayed;
+	int32_t ____blendMode;
+	RuntimeObject* ____filter;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____home;
+	String_t* ____cursor;
+	bool ____perspective;
+	int32_t ____focalLength;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____pixelPerfectAdjustment;
+	int32_t ____checkPixelPerfect;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onClick;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRightClick;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchBegin;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchMove;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchEnd;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRollOver;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRollOut;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onMouseWheel;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onAddedToStage;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRemovedFromStage;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onKeyDown;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onClickLink;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onFocusIn;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onFocusOut;
+	int32_t ____paintingMode;
+	PaintingInfo_t8FC33893AEA02FB51037145D7AE4E1B9A7B6F2FC* ____paintingInfo;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____contentRect;
+	VertexMatrix_t3B40116F1F9038EACBED60F7AA757E2FF4DCB51C* ____vertexMatrix;
+	int32_t ____flags;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____batchingBounds;
 };
 struct GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
 {
@@ -1680,30 +1593,83 @@ struct GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF  : public EventDispatch
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____dragTouchStartPos;
 	bool ____dragTesting;
 };
+struct GPathPoint_t41DAEAECA5C0A74CA97CFBC4C76F72A6C2109073 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control2;
+	int32_t ___curveType;
+	bool ___smooth;
+};
+struct GPathPoint_t41DAEAECA5C0A74CA97CFBC4C76F72A6C2109073_marshaled_pinvoke
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control2;
+	int32_t ___curveType;
+	int32_t ___smooth;
+};
+struct GPathPoint_t41DAEAECA5C0A74CA97CFBC4C76F72A6C2109073_marshaled_com
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___control2;
+	int32_t ___curveType;
+	int32_t ___smooth;
+};
+struct GTweener_tEB2D017E52D45DCFE0E48F080CF6451FAC53D64B  : public RuntimeObject
+{
+	RuntimeObject* ____target;
+	int32_t ____propType;
+	bool ____killed;
+	bool ____paused;
+	float ____delay;
+	float ____duration;
+	float ____breakpoint;
+	int32_t ____easeType;
+	float ____easeOvershootOrAmplitude;
+	float ____easePeriod;
+	int32_t ____repeat;
+	bool ____yoyo;
+	float ____timeScale;
+	bool ____ignoreEngineTimeScale;
+	bool ____snapping;
+	RuntimeObject* ____userData;
+	GPath_tAF52CF45E8A5C3B7B4A077CE2FEBDA25FCFBDF96* ____path;
+	CustomEase_t3F00882308AABD5627720647E68CE986B97548C8* ____customEase;
+	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onUpdate;
+	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onStart;
+	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onComplete;
+	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onUpdate1;
+	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onStart1;
+	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onComplete1;
+	RuntimeObject* ____listener;
+	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____startValue;
+	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____endValue;
+	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____value;
+	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____deltaValue;
+	int32_t ____valueSize;
+	bool ____started;
+	int32_t ____ended;
+	float ____elapsedTime;
+	float ____normalizedTime;
+	int32_t ____smoothStart;
+};
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
-struct GoWrapper_tEEA59E1025DB3C4163074C02FF7784498CA02E30  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
+struct InputEvent_t3DE6DA06EBF73975975333281AF59089CA5A1274  : public RuntimeObject
 {
-	bool ___supportStencil;
-	Action_1_t8A885296D913CC7A1CAE7DC16C8101A0AB90EC14* ___onUpdate;
-	Action_1_tEC47AB9DC2A94EE7A4E645155E1AE8217E835FAD* ___customCloneMaterials;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___customRecoverMaterials;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____wrapTarget;
-	List_1_tBA32ED878B930EF8E6D6ACB51450B10541BB92EB* ____renderers;
-	Dictionary_2_t7B0F5D63DDA1E532530982C8043F0A132FF9745F* ____materialsBackup;
-	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ____canvas;
-	bool ____cloneMaterial;
-	bool ____shouldCloneMaterial;
-	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___helperMaterials;
-};
-struct Image_t10E09437BE58918518E709D606DEDF49110CC58F  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
-{
-	Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 ____scale9Grid;
-	bool ____scaleByTile;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____textureScale;
-	int32_t ____tileGridIndice;
-	FillMesh_t720B17CF003E0A769EB510BC2EC9C0C38A18C21F* ____fillMesh;
+	float ___U3CxU3Ek__BackingField;
+	float ___U3CyU3Ek__BackingField;
+	int32_t ___U3CkeyCodeU3Ek__BackingField;
+	Il2CppChar ___U3CcharacterU3Ek__BackingField;
+	int32_t ___U3CmodifiersU3Ek__BackingField;
+	float ___U3CmouseWheelDeltaU3Ek__BackingField;
+	int32_t ___U3CtouchIdU3Ek__BackingField;
+	int32_t ___U3CbuttonU3Ek__BackingField;
+	int32_t ___U3CclickCountU3Ek__BackingField;
+	float ___U3CholdTimeU3Ek__BackingField;
 };
 struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -1722,6 +1688,55 @@ struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvo
 struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
+};
+struct NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB  : public RuntimeObject
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CgameObjectU3Ek__BackingField;
+	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ___U3CmeshFilterU3Ek__BackingField;
+	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___U3CmeshRendererU3Ek__BackingField;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___U3CmeshU3Ek__BackingField;
+	int32_t ___blendMode;
+	bool ___dontClip;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___meshModifier;
+	NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630* ____texture;
+	String_t* ____shader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ____material;
+	int32_t ____customMatarial;
+	MaterialManager_tE2AEFF9ED12CDA8AB453EFCD8ED321E123D025A7* ____manager;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____shaderKeywords;
+	int32_t ____materialFlags;
+	RuntimeObject* ____meshFactory;
+	float ____alpha;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____color;
+	bool ____meshDirty;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____contentRect;
+	int32_t ____flip;
+	VertexMatrix_t3B40116F1F9038EACBED60F7AA757E2FF4DCB51C* ____vertexMatrix;
+	bool ___hasAlphaBackup;
+	List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B* ____alphaBackup;
+	int32_t ____maskFlag;
+	StencilEraser_t28F5096E9733B734300638D36168B1C781C343D3* ____stencilEraser;
+	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ____propertyBlock;
+	bool ____blockUpdated;
+};
+struct NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630  : public RuntimeObject
+{
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___uvRect;
+	bool ___rotated;
+	int32_t ___U3CrefCountU3Ek__BackingField;
+	float ___lastActive;
+	int32_t ___destroyMethod;
+	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onSizeChanged;
+	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onAcquire;
+	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onRelease;
+	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onDispose;
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ____nativeTexture;
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ____alphaTexture;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____region;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____offset;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____originalSize;
+	NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630* ____root;
+	Dictionary_2_t9D257B68C0A19C0ADA560BA5DA9C670844688CFB* ____materialManagers;
 };
 struct PackageItem_t93A2F2C2794F75EB09486CC05A681593080BFE07  : public RuntimeObject
 {
@@ -1765,35 +1780,65 @@ struct Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692  : public Object_tC12DEC
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
 };
-struct TextField_t49E23DE9C9B02311CA83E360847B8CF6A5723363  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
+struct TextFormat_t627E6C0284BF6635A4D1C7A67C37D664B3299091  : public RuntimeObject
 {
-	int32_t ____verticalAlign;
-	TextFormat_t627E6C0284BF6635A4D1C7A67C37D664B3299091* ____textFormat;
-	bool ____input;
-	String_t* ____text;
-	int32_t ____autoSize;
-	bool ____wordWrap;
-	bool ____singleLine;
-	bool ____html;
-	int32_t ____textDirection;
-	int32_t ____maxWidth;
-	List_1_t5E43CD4B0CFDDE4C180B2D57D2C0F8BF1426F4C6* ____elements;
-	List_1_t1C6BABE649C3BA595B73AD616F45AFAC9ED7E6F5* ____lines;
-	List_1_t202EC815FF4873FC3CADBE0B192E3045BFCAF7C4* ____charPositions;
-	BaseFont_t10C191D2741D81A5F22D174D65A364009F8BE9E4* ____font;
-	float ____textWidth;
-	float ____textHeight;
-	bool ____textChanged;
-	float ____yOffset;
-	float ____fontSizeScale;
-	float ____renderScale;
-	int32_t ____fontVersion;
-	String_t* ____parsedText;
-	int32_t ____ellipsisCharIndex;
-	RichTextField_t2D5DE92484F3CF754A5CE5BC51A2395402DC60AC* ____richTextField;
+	int32_t ___size;
+	String_t* ___font;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
+	int32_t ___lineSpacing;
+	int32_t ___letterSpacing;
+	bool ___bold;
+	bool ___underline;
+	bool ___italic;
+	bool ___strikethrough;
+	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___gradientColor;
+	int32_t ___align;
+	int32_t ___specialStyle;
+	float ___outline;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___outlineColor;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___shadowOffset;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___shadowColor;
 };
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
+};
+struct TrackEntry_t1496EC4C0D889FEFFA9170033055B7CF70FA43EB  : public RuntimeObject
+{
+	Animation_tD27D05B1F34A664CFD328E44F1FB594E82757D62* ___animation;
+	TrackEntry_t1496EC4C0D889FEFFA9170033055B7CF70FA43EB* ___next;
+	TrackEntry_t1496EC4C0D889FEFFA9170033055B7CF70FA43EB* ___mixingFrom;
+	TrackEntry_t1496EC4C0D889FEFFA9170033055B7CF70FA43EB* ___mixingTo;
+	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___Start;
+	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___Interrupt;
+	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___End;
+	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___Dispose;
+	TrackEntryDelegate_tC534B015761F6771D522A1894DFC271421A4A05C* ___Complete;
+	TrackEntryEventDelegate_tC73115975F60CA3AE0364B9EB9901B89E30359F3* ___Event;
+	int32_t ___trackIndex;
+	bool ___loop;
+	bool ___holdPrevious;
+	float ___eventThreshold;
+	float ___attachmentThreshold;
+	float ___drawOrderThreshold;
+	float ___animationStart;
+	float ___animationEnd;
+	float ___animationLast;
+	float ___nextAnimationLast;
+	float ___delay;
+	float ___trackTime;
+	float ___trackLast;
+	float ___nextTrackLast;
+	float ___trackEnd;
+	float ___timeScale;
+	float ___alpha;
+	float ___mixTime;
+	float ___mixDuration;
+	float ___interruptAlpha;
+	float ___totalAlpha;
+	int32_t ___mixBlend;
+	ExposedList_1_t78C35B13C09679E167D37A21B1793179083457D5* ___timelineMode;
+	ExposedList_1_t19DC027924CCEBF55B52280A831270C82F0F7B9E* ___timelineHoldMix;
+	ExposedList_1_tD73D23BD855506DEC8EFBB0A8EAA86A1F2053245* ___timelinesRotation;
 };
 struct UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0  : public RuntimeObject
 {
@@ -1807,6 +1852,13 @@ struct UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0  : public Runtime
 	int32_t ___stencilCompareValue;
 	float ___alpha;
 	bool ___grayed;
+};
+struct Segment_tD719ABEA2D5B8536EC70009AF9DC3694F377BE95 
+{
+	int32_t ___type;
+	float ___length;
+	int32_t ___ptStart;
+	int32_t ___ptCount;
 };
 struct Action_1_tEC47AB9DC2A94EE7A4E645155E1AE8217E835FAD  : public MulticastDelegate_t
 {
@@ -1825,6 +1877,23 @@ struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public Multica
 };
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
+};
+struct Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
+{
+	int32_t ___renderMode;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___renderCamera;
+	bool ___opaque;
+	Nullable_1_t5070FF5B4129C859CA3EFC7B94E615A818E11144 ___clipSoftness;
+	RuntimeObject* ___hitArea;
+	bool ___touchChildren;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onUpdate;
+	bool ___reversedMask;
+	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____children;
+	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____mask;
+	Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 ____clipRect;
+	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____descendants;
+	int32_t ____panelOrder;
+	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____lastFocus;
 };
 struct EventCallback0_t6889C44FA931066A5173F82D8ABBBB358214386B  : public MulticastDelegate_t
 {
@@ -1888,6 +1957,101 @@ struct GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49  : public Multic
 struct GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417  : public MulticastDelegate_t
 {
 };
+struct GoWrapper_tEEA59E1025DB3C4163074C02FF7784498CA02E30  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
+{
+	bool ___supportStencil;
+	Action_1_t8A885296D913CC7A1CAE7DC16C8101A0AB90EC14* ___onUpdate;
+	Action_1_tEC47AB9DC2A94EE7A4E645155E1AE8217E835FAD* ___customCloneMaterials;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___customRecoverMaterials;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____wrapTarget;
+	List_1_tBA32ED878B930EF8E6D6ACB51450B10541BB92EB* ____renderers;
+	Dictionary_2_t7B0F5D63DDA1E532530982C8043F0A132FF9745F* ____materialsBackup;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ____canvas;
+	bool ____cloneMaterial;
+	bool ____shouldCloneMaterial;
+	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___helperMaterials;
+};
+struct Image_t10E09437BE58918518E709D606DEDF49110CC58F  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
+{
+	Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 ____scale9Grid;
+	bool ____scaleByTile;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____textureScale;
+	int32_t ____tileGridIndice;
+	FillMesh_t720B17CF003E0A769EB510BC2EC9C0C38A18C21F* ____fillMesh;
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct SkeletonDataAsset_tCA945F8ACCDEEE8C8424D2A6513D1C5FEFB8809F  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	AtlasAssetBaseU5BU5D_t6D8EAEA3267D1DFC3FBFAA3ECE699B48E92E5C82* ___atlasAssets;
+	float ___scale;
+	TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* ___skeletonJSON;
+	bool ___isUpgradingBlendModeMaterials;
+	BlendModeMaterials_t3DA4B85DB36B60D661B6403BD49E7D62F56B81D8* ___blendModeMaterials;
+	List_1_tBFA73B26AF72BABC85549F091C4BA5A95B9FB412* ___skeletonDataModifiers;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___fromAnimation;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___toAnimation;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___duration;
+	float ___defaultMix;
+	RuntimeAnimatorController_t6F7C753402B42EC23C163099CF935C5E0D7A7254* ___controller;
+	SkeletonData_t9C91D0DD00FAB7BC1C97343490070F3F8ACD517B* ___skeletonData;
+	AnimationStateData_t59A6A8CA553459E329D55049B38C027F09CA8D62* ___stateData;
+};
+struct TextField_t49E23DE9C9B02311CA83E360847B8CF6A5723363  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
+{
+	int32_t ____verticalAlign;
+	TextFormat_t627E6C0284BF6635A4D1C7A67C37D664B3299091* ____textFormat;
+	bool ____input;
+	String_t* ____text;
+	int32_t ____autoSize;
+	bool ____wordWrap;
+	bool ____singleLine;
+	bool ____html;
+	int32_t ____textDirection;
+	int32_t ____maxWidth;
+	List_1_t5E43CD4B0CFDDE4C180B2D57D2C0F8BF1426F4C6* ____elements;
+	List_1_t1C6BABE649C3BA595B73AD616F45AFAC9ED7E6F5* ____lines;
+	List_1_t202EC815FF4873FC3CADBE0B192E3045BFCAF7C4* ____charPositions;
+	BaseFont_t10C191D2741D81A5F22D174D65A364009F8BE9E4* ____font;
+	float ____textWidth;
+	float ____textHeight;
+	bool ____textChanged;
+	float ____yOffset;
+	float ____fontSizeScale;
+	float ____renderScale;
+	int32_t ____fontVersion;
+	String_t* ____parsedText;
+	int32_t ____ellipsisCharIndex;
+	RichTextField_t2D5DE92484F3CF754A5CE5BC51A2395402DC60AC* ____richTextField;
+};
+struct TimerCallback_tE1D6E72CC067568AD242CDA20DFF1BAEEAE890BF  : public MulticastDelegate_t
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct GRichTextField_t08C5EBFB2B38BAFFF0A537C6D68F9D56952CAB1F  : public GTextField_t61FE5369AE5679FF13EF7A1A053F78C71701F321
+{
+	RichTextField_t2D5DE92484F3CF754A5CE5BC51A2395402DC60AC* ___U3CrichTextFieldU3Ek__BackingField;
+};
+struct GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED  : public GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132
+{
+	GGraph_t1839034064DDE84E24C8BE74D717774DE157F9E0* ____modalLayer;
+	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____modalWaitPane;
+	List_1_tB003F27D9B2DD7E40BA8084EB9BD5B9861C3A51F* ____popupStack;
+	List_1_tB003F27D9B2DD7E40BA8084EB9BD5B9861C3A51F* ____justClosedPopups;
+	HashSet_1_tA49957A429F23BEB9CB80AC5D6993A99235DE8DD* ____specialPopups;
+	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____tooltipWin;
+	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____defaultTooltipWin;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
 struct MovieClip_t7FE4D7AAFB3623597D4D4F0BB0C46D28CD8B1444  : public Image_t10E09437BE58918518E709D606DEDF49110CC58F
 {
 	float ___interval;
@@ -1911,34 +2075,12 @@ struct MovieClip_t7FE4D7AAFB3623597D4D4F0BB0C46D28CD8B1444  : public Image_t10E0
 	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onPlayEnd;
 	MovieClipItem_tF1156D2D00E20135B2C122767B8EF54460878F67* ____movieClipItem;
 };
-struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
-{
-};
 struct RichTextField_t2D5DE92484F3CF754A5CE5BC51A2395402DC60AC  : public Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025
 {
 	RuntimeObject* ___U3ChtmlPageContextU3Ek__BackingField;
 	HtmlParseOptions_tE0C2774AC204A82D828FDB88992E77CEBB74A39D* ___U3ChtmlParseOptionsU3Ek__BackingField;
 	Dictionary_2_tFC4140AD762B82C3DEFF50BC9BDD65B0AF7C7858* ___U3CemojiesU3Ek__BackingField;
 	TextField_t49E23DE9C9B02311CA83E360847B8CF6A5723363* ___U3CtextFieldU3Ek__BackingField;
-};
-struct SkeletonDataAsset_tCA945F8ACCDEEE8C8424D2A6513D1C5FEFB8809F  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
-{
-	AtlasAssetBaseU5BU5D_t6D8EAEA3267D1DFC3FBFAA3ECE699B48E92E5C82* ___atlasAssets;
-	float ___scale;
-	TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* ___skeletonJSON;
-	bool ___isUpgradingBlendModeMaterials;
-	BlendModeMaterials_t3DA4B85DB36B60D661B6403BD49E7D62F56B81D8* ___blendModeMaterials;
-	List_1_tBFA73B26AF72BABC85549F091C4BA5A95B9FB412* ___skeletonDataModifiers;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___fromAnimation;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___toAnimation;
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___duration;
-	float ___defaultMix;
-	RuntimeAnimatorController_t6F7C753402B42EC23C163099CF935C5E0D7A7254* ___controller;
-	SkeletonData_t9C91D0DD00FAB7BC1C97343490070F3F8ACD517B* ___skeletonData;
-	AnimationStateData_t59A6A8CA553459E329D55049B38C027F09CA8D62* ___stateData;
 };
 struct Stage_tE68B1AB9F551137EB67B94FC1DB56C0E4485EA98  : public Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025
 {
@@ -1969,30 +2111,6 @@ struct Stage_tE68B1AB9F551137EB67B94FC1DB56C0E4485EA98  : public Container_t24FD
 	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ____nextFocus;
 	Dictionary_2_t6FA79F9D283C5A78D8076BEA8D208847298F95E8* ____cursors;
 	String_t* ____currentCursor;
-};
-struct TimerCallback_tE1D6E72CC067568AD242CDA20DFF1BAEEAE890BF  : public MulticastDelegate_t
-{
-};
-struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
-{
-};
-struct GRichTextField_t08C5EBFB2B38BAFFF0A537C6D68F9D56952CAB1F  : public GTextField_t61FE5369AE5679FF13EF7A1A053F78C71701F321
-{
-	RichTextField_t2D5DE92484F3CF754A5CE5BC51A2395402DC60AC* ___U3CrichTextFieldU3Ek__BackingField;
-};
-struct GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED  : public GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132
-{
-	GGraph_t1839034064DDE84E24C8BE74D717774DE157F9E0* ____modalLayer;
-	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____modalWaitPane;
-	List_1_tB003F27D9B2DD7E40BA8084EB9BD5B9861C3A51F* ____popupStack;
-	List_1_tB003F27D9B2DD7E40BA8084EB9BD5B9861C3A51F* ____justClosedPopups;
-	HashSet_1_tA49957A429F23BEB9CB80AC5D6993A99235DE8DD* ____specialPopups;
-	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____tooltipWin;
-	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____defaultTooltipWin;
-};
-struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
-{
-	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
 };
 struct SkeletonRenderer_t6D14A218C3A502F075DC4C4423EE2ACEBFEB620A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -2218,11 +2336,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector;
 };
-struct DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8_StaticFields
-{
-	uint32_t ____gInstanceCounter;
-	int32_t ___hideFlags;
-};
 struct Exception_t_StaticFields
 {
 	RuntimeObject* ___s_EDILock;
@@ -2231,11 +2344,6 @@ struct LongPressGesture_t4E5DA271415D3F09644F969D317BB0B58A23E635_StaticFields
 {
 	float ___TRIGGER;
 	float ___INTERVAL;
-};
-struct NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630_StaticFields
-{
-	Action_1_t29B51564E49F5100689191ED6A9BFFC2081294EB* ___CustomDestroyMethod;
-	NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630* ____empty;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 {
@@ -2249,6 +2357,11 @@ struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A_StaticField
 {
 	bool ___U3CdisableInPlaceEditingU3Ek__BackingField;
 };
+struct DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8_StaticFields
+{
+	uint32_t ____gInstanceCounter;
+	int32_t ___hideFlags;
+};
 struct GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF_StaticFields
 {
 	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ___U3CdraggingObjectU3Ek__BackingField;
@@ -2256,6 +2369,23 @@ struct GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF_StaticFields
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___sGlobalDragStart;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___sGlobalRect;
 	bool ___sUpdateInDragging;
+};
+struct NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630_StaticFields
+{
+	Action_1_t29B51564E49F5100689191ED6A9BFFC2081294EB* ___CustomDestroyMethod;
+	NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630* ____empty;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	int32_t ___GenerateAllMips;
+};
+struct UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0_StaticFields
+{
+	UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0* ___current;
+	bool ___working;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnBegin;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnEnd;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____tmpBegin;
 };
 struct GoWrapper_tEEA59E1025DB3C4163074C02FF7784498CA02E30_StaticFields
 {
@@ -2275,17 +2405,9 @@ struct TextField_t49E23DE9C9B02311CA83E360847B8CF6A5723363_StaticFields
 	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___STROKE_OFFSET;
 	List_1_t688E1BBB00AA12BD5A49562D119173A3ACA550E0* ___sLineChars;
 };
-struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+struct GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED_StaticFields
 {
-	int32_t ___GenerateAllMips;
-};
-struct UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0_StaticFields
-{
-	UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0* ___current;
-	bool ___working;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnBegin;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnEnd;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____tmpBegin;
+	GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED* ____inst;
 };
 struct Stage_tE68B1AB9F551137EB67B94FC1DB56C0E4485EA98_StaticFields
 {
@@ -2298,10 +2420,6 @@ struct Stage_tE68B1AB9F551137EB67B94FC1DB56C0E4485EA98_StaticFields
 	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ___sTempList1;
 	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___sTempList2;
 	Dictionary_2_t1A4804CA9724B6CE01D6ECABE81CE0848CBA80B4* ___sTempDict;
-};
-struct GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED_StaticFields
-{
-	GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED* ____inst;
 };
 struct SkeletonRenderer_t6D14A218C3A502F075DC4C4423EE2ACEBFEB620A_StaticFields
 {
@@ -3895,6 +4013,14 @@ IL_0039:
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -16223,6 +16349,14 @@ IL_001e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomEase__ctor_mCC1E3CCCD5D6407C53523362505228CFAABD2124 (CustomEase_t3F00882308AABD5627720647E68CE986B97548C8* __this, int32_t ___0_pointDensity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16752,6 +16886,14 @@ IL2CPP_EXTERN_C  void GPathPoint__ctor_m149F60B40CBD287BAD4544B1D138733377EC9A2D
 	_thisAdjusted = reinterpret_cast<GPathPoint_t41DAEAECA5C0A74CA97CFBC4C76F72A6C2109073*>(__this + _offset);
 	GPathPoint__ctor_m149F60B40CBD287BAD4544B1D138733377EC9A2D(_thisAdjusted, ___0_pos, ___1_curveType, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

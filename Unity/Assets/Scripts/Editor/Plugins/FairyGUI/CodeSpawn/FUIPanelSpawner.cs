@@ -34,6 +34,7 @@ namespace FUIEditor
             sb.AppendLine($"namespace {FUICodeSpawner.NameSpace}");
             sb.AppendLine("{");
             sb.AppendLine("\t[ChildOf]");
+            sb.AppendLine(FUICodeSpawner.AttributeName);
             sb.AppendLine($"\tpublic class {componentName}: Entity, IAwake<FUI_{componentName}>");
             sb.AppendLine("\t{");
             

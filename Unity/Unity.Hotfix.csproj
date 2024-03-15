@@ -11,7 +11,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace />
+    <RootNamespace>ET</RootNamespace>
     <ProjectGuid>{52f66610-896a-c4d1-9881-1a19df7ab80e}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
@@ -24,13 +24,13 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\Unity.Rider.Editor\</OutputPath>
-    <DefineConstants>UNITY_EDITOR</DefineConstants>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.Hotfix\</OutputPath>
+    <DefineConstants>UNITY_2022_3_17;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY;ENABLE_VIEW;FAIRYGUI_SPINE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -41,16 +41,617 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/Share.SourceGenerator.dll" />
+    <Analyzer Include="/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.cysharp.memorypack@2554e81f03/Runtime/MemoryPack.Generator/MemoryPack.Generator.Roslyn3.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Move/MoveComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/FiberInit_BenchmarkServer.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/RobotCase/RobotCaseComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Unit/UnitHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Demo/CheckRegexMatchComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Move/M2C_PathfindingResultHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Robot/Console/CreateRobotConsoleHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/EntryEvent2_InitServer.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Module/Message/ClientSessionErrorComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Room/C2Room_CheckHashHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/AOI/ChangePosition_NotifyAOI.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/UnitHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/C2Room_ChangeSceneFinishHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/RouterCheckComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/AI/AIComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Scene/M2C_StartSceneChangeHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/R2G_GetLoginKeyHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/GateSessionKeyComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Transfer/C2M_TransferMapHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Scene/SceneChangeHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Robot/RobotManagerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/HttpClientHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/OneFrameInputsHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Unit/UnitSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/LockStep/LSUnitFactory.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/ConstValue.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Main2NetClient_LoginHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Ping/PingComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Gate/C2G_MatchHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/AOISeeCheckHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Plugins/Example/HotfixShare.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Unit/UnitEnterSightRange_NotifyClient.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/Message/A2NetInner_RequestHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/LockStep/RoomSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/NetComponentOnReadInvoker_BenchmarkServer.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/C2G_PingHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/Message/ProcessOuterSenderSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/LocationProxyComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/C2G_EnterMapHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/ClientSenderComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/FiberInit_Location.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/C2G_BenchmarkHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/BenchmarkServerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Actor/MailBoxType_UnOrderedMessageHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/RouterAddressComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/Match2Map_GetRoomHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/Room2C_EnterMapHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/RobotCase/ARobotCase.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/Http/HttpComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/Router/FiberInit_RouterManager.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/DB/DBComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/C2R_ChangeNickNameHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/M2C_CreateUnitsHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Recast/PathfindingComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Console/ReloadDllConsoleHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Move/M2C_StopHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/FrameMessageHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/FiberInit_Gate.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/FiberInit_BenchmarkClient.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/A2NetClient_MessageHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/UnitFactory.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Login/EnterMapHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/AOIEntitySystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/Room2C_AdjustUpdateTimeHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/MessageLocationSenderComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/Room2C_CheckHashFailHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Watcher/WatcherComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Actor/MailBoxType_OrderedMessageHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/GateMapFactory.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/MailBoxType_GateSessionHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/LocationOneTypeSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/Message/MessageSenderSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/G2C_ReconnectHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/AI/AI_Attack.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/NetComponentOnReadInvoker_Realm.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Message/SessionAcceptTimeoutComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/PlayerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Module/Message/NetComponentOnReadInvoker_NetClient.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/M2C_RemoveUnitsHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/BenchmarkClientComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Match/G2Match_MatchHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/MessageLocationSenderSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Console/ConsoleComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Scene/CurrentSceneFactory.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/ObjectRemoveRequestHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Unit/UnitComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/C2M_TestRobotCaseHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/MessageLocationHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/RouterHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/AOIHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Numeric/NumericWatcher_Hp_ShowUI.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Demo/EntryEvent1_InitShare.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/C2G_LoginGateHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Transfer/M2M_UnitTransferRequestHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Move/MoveHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/ObjectLockRequestHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/C2R_GetServerListHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Scene/CurrentScenesComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/C2R_LoginHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Move/C2M_PathfindingResultHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Unit/UnitLeaveSightRange_NotifyClient.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Unit/UnitFactory.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Match/FiberInit_Match.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/ObjectUnLockRequestHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/DB/DBManagerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Watcher/WatcherHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Router/HttpGetRouterHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Move/C2M_StopHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/AI/AI_XunLuo.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/FiberInit_Realm.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Console/ReloadConfigConsoleHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/G2C_ChangeSceneHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Room/LSServerUpdaterSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/LSReplayUpdaterSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/ObjectGetRequestHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/NetComponentOnReadInvoker_BenchmarkClient.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/RouterConnectorSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/G2M_SessionDisconnectHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Numeric/NumericChangeEvent_NotifyWatcher.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/Router/RouterNodeSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Match/MatchComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/Message/A2NetInner_MessageHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Message/NetComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/NetClient2Main_SessionDisposeHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Login/ServerInfosComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Transfer/TransferHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/RealmGateAddressHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/LSClientUpdaterSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Room/G2Room_ReconnectHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/RoomServerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/LSClientHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/FiberInit_NetClient.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Gate/Match2G_NotifyMatchSuccessHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/M2C_CreateMyUnitHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/BattleMap/C2M_ChooseModelDifficultyHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/SessionPlayerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/CellSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/FiberInit_Main.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/A2NetClient_RequestHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/LoginHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/RoomMessageHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/Router/FiberInit_Router.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Move/MoveHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/ObjectAddRequestHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Robot/RobotConsoleHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/Router/RouterComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Room/RoomManager2Room_InitHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/HttpHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/LockStep/LSInputComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/AOIManagerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Plugins/Example/HotfixServer.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/FiberInit_Map.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Room/FiberInit_RoomRoot.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Message/SessionIdleCheckerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/LSSceneChangeHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/MapMessageHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Plugins/Example/HotfixClient.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/AI/XunLuoPathComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Robot/FiberInit_Robot.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/PlayerSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Module/NetInner/FiberInit_NetInner.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/NetComponentOnReadInvoker_Gate.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Module/Actor/MessageHandler.cs" />
     <None Include="Assets/Scripts/Hotfix/Unity.Hotfix.asmdef" />
-    <Reference Include="UnityEngine">
-      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    <Reference Include="NLog">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/NLog.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    <Reference Include="SharpCompress">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/SharpCompress.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/System.Text.Encoding.CodePages.dll</HintPath>
     </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="dnlib">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.code-philosophy.hybridclr@51da1d4c43/Plugins/dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandLine">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/CommandLine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Libmongocrypt">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Libmongocrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/MongoDB/MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="MemoryPack">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/MemoryPack.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.ThirdParty.csproj">
+      <Project>{d2ad5be1-263a-9a30-ab0f-dc5b08044350}</Project>
+      <Name>Unity.ThirdParty</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Core.csproj">
+      <Project>{770e9beb-b313-3761-faa2-76daf4b34ada}</Project>
+      <Name>Unity.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Loader.csproj">
+      <Project>{32b76b98-b8f4-f864-d1f9-50cf255042d8}</Project>
+      <Name>Unity.Loader</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Model.csproj">
+      <Project>{9498bfb4-d9f5-c441-13e3-3f26f7700e29}</Project>
+      <Name>Unity.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
@@ -60,10 +661,17 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <Target Name="AfterBuild" />
   <ItemGroup>
     <ProjectReference Include="..\Share\Analyzer\Share.Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false">
       <Project>{d1f2986b-b296-4a2d-8f12-be9f470014c3}</Project>
+      <Name>Analyzer</Name>
     </ProjectReference>
   </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Copy SourceFiles="$(TargetDir)/$(TargetName).dll" DestinationFiles="$(ProjectDir)/Assets/Bundles/Code/$(TargetName).dll.bytes" ContinueOnError="false" />
+    <Copy SourceFiles="$(TargetDir)/$(TargetName).pdb" DestinationFiles="$(ProjectDir)/Assets/Bundles/Code/$(TargetName).pdb.bytes" ContinueOnError="false" />
+    <Copy SourceFiles="$(TargetDir)/$(TargetName).dll" DestinationFiles="$(ProjectDir)/Temp/Bin/Debug/$(TargetName).dll" ContinueOnError="false" />
+    <Copy SourceFiles="$(TargetDir)/$(TargetName).pdb" DestinationFiles="$(ProjectDir)/Temp/Bin/Debug/$(TargetName).pdb" ContinueOnError="false" />
+  </Target>
+
 </Project>

@@ -11,6 +11,7 @@
 
 
 
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DownloadHandlerMovieTexture_t047526B1C59FC7C031900A8F819FA88418DB90A0;
 struct GUIElement_t374514E36250F54B88A85781BA9219071D387AEA;
 struct GUILayer_t595003AC2E9DA25ABF516421FE9D104318070D31;
@@ -78,6 +79,15 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
 struct IDataWatchHandle_tF3A810B5562D65518BC6FC9CC080299F28C7C6DA 
 {
 	union
@@ -108,6 +118,34 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
+struct BlendWeights_t0B279AA14C0B5D1D93DB7854BA5D64C6DE96180F 
+{
+	int32_t ___value__;
+};
+struct D3DHDRDisplayBitDepth_t689799DBB82D32960B072F13D3D86E5DBA30A98A 
+{
+	int32_t ___value__;
+};
+struct ProceduralCacheSize_t56112C23E0BC2001F0A98266E778746630E495A2 
+{
+	int32_t ___value__;
+};
+struct ProceduralLoadingBehavior_t468A761EC9934B8B55EC2A6CE185FCCF9A06BA8D 
+{
+	int32_t ___value__;
+};
+struct ProceduralOutputType_t67A1E7C658221189F9E12F4944CBDD257334943D 
+{
+	int32_t ___value__;
+};
+struct ProceduralProcessorUsage_tF4C16D5BDD854EE9F2A94A2B02019D7983DB8295 
+{
+	int32_t ___value__;
+};
+struct ProceduralPropertyType_t75D7F02ADEC0DBCC6D17DF592FD78849D108D0B0 
+{
+	int32_t ___value__;
+};
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -115,6 +153,22 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -210,6 +264,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProceduralMaterial__ctor_m58E68BF840CABD
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

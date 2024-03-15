@@ -675,10 +675,6 @@ struct ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A  : public RuntimeObje
 	int32_t ____version;
 	RuntimeObject* ____syncRoot;
 };
-struct BaseArchiveStorage_t27B892AD1A8C1207089B8957AACCFE3B18A77C97  : public RuntimeObject
-{
-	int32_t ___updateMode_;
-};
 struct Crc32_t0827417B45870A6749C94A6BE6C47291A2EBA2ED  : public RuntimeObject
 {
 	uint32_t ___crc;
@@ -907,27 +903,6 @@ struct StringBuilder_t  : public RuntimeObject
 	int32_t ___m_ChunkOffset;
 	int32_t ___m_MaxCapacity;
 };
-struct SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8  : public RuntimeObject
-{
-	int32_t ___BlockSizeValue;
-	int32_t ___FeedbackSizeValue;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___IVValue;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___KeyValue;
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___LegalBlockSizesValue;
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___LegalKeySizesValue;
-	int32_t ___KeySizeValue;
-	int32_t ___ModeValue;
-	int32_t ___PaddingValue;
-};
-struct TestStatus_tEF814546A773E2C90608ACD52ACC04971EE6BAB4  : public RuntimeObject
-{
-	ZipFile_t8623A6B24F047EE8218B35FA81651F841B83974B* ___file_;
-	ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC* ___entry_;
-	bool ___entryValid_;
-	int32_t ___errorCount_;
-	int64_t ___bytesTested_;
-	int32_t ___operation_;
-};
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
 };
@@ -949,28 +924,6 @@ struct ZipAESTransform_t81E0F17E8B4E0D3470F5D5A46D6DE031DDBC5C2C  : public Runti
 	bool ____finalised;
 	bool ____writeMode;
 };
-struct ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC  : public RuntimeObject
-{
-	uint8_t ___known;
-	int32_t ___externalFileAttributes;
-	uint16_t ___versionMadeBy;
-	String_t* ___name;
-	uint64_t ___size;
-	uint64_t ___compressedSize;
-	uint16_t ___versionToExtract;
-	uint32_t ___crc;
-	uint32_t ___dosTime;
-	int32_t ___method;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___extra;
-	String_t* ___comment;
-	int32_t ___flags;
-	int64_t ___zipFileIndex;
-	int64_t ___offset;
-	bool ___forceZip64_;
-	uint8_t ___cryptoCheckValue_;
-	int32_t ____aesVer;
-	int32_t ____aesEncryptionStrength;
-};
 struct ZipExtraData_t3206C63BF6C6D3B75C84167436D7728F9606FEC7  : public RuntimeObject
 {
 	int32_t ____index;
@@ -978,32 +931,6 @@ struct ZipExtraData_t3206C63BF6C6D3B75C84167436D7728F9606FEC7  : public RuntimeO
 	int32_t ____readValueLength;
 	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* ____newEntry;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____data;
-};
-struct ZipFile_t8623A6B24F047EE8218B35FA81651F841B83974B  : public RuntimeObject
-{
-	KeysRequiredEventHandler_t598C3F03F5132474D50EAA659C58CAC9A27BF494* ___KeysRequired;
-	bool ___isDisposed_;
-	String_t* ___name_;
-	String_t* ___comment_;
-	String_t* ___rawPassword_;
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___baseStream_;
-	bool ___isStreamOwner;
-	int64_t ___offsetOfFirstEntry;
-	ZipEntryU5BU5D_tB17684D9BD6B973A8C391D8DCA4A7BCDF51450A6* ___entries_;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___key;
-	bool ___isNewArchive_;
-	int32_t ___useZip64_;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___updates_;
-	int64_t ___updateCount_;
-	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___updateIndex_;
-	RuntimeObject* ___archiveStorage_;
-	RuntimeObject* ___updateDataSource_;
-	bool ___contentsEdited_;
-	int32_t ___bufferSize_;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___copyBuffer_;
-	ZipString_t293652CB4F9B41911E8F675AB6B3D267F09C8B7B* ___newComment_;
-	bool ___commentEdited_;
-	RuntimeObject* ___updateEntryFactory_;
 };
 struct ZipNameTransform_t06A574C1FA3323BA612D8D586DB13714A8FCF34B  : public RuntimeObject
 {
@@ -1023,17 +950,6 @@ struct ZipString_t293652CB4F9B41911E8F675AB6B3D267F09C8B7B  : public RuntimeObje
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___rawComment_;
 	bool ___isSourceString_;
 };
-struct ZipUpdate_tD54ACB59C2A3D697FAF21A8E13BE6186B73DBE34  : public RuntimeObject
-{
-	ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC* ___entry_;
-	ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC* ___outEntry_;
-	int32_t ___command_;
-	RuntimeObject* ___dataSource_;
-	String_t* ___filename_;
-	int64_t ___sizePatchOffset_;
-	int64_t ___crcPatchOffset_;
-	int64_t ____offsetBasedSize;
-};
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
 	bool ___m_value;
@@ -1050,15 +966,18 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D
 {
 	uint64_t ____dateData;
 };
-struct DiskArchiveStorage_t9C62B098B1D8035C5168CB1719E63687581E2590  : public BaseArchiveStorage_t27B892AD1A8C1207089B8957AACCFE3B18A77C97
-{
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___temporaryStream_;
-	String_t* ___fileName_;
-	String_t* ___temporaryName_;
-};
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
 	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
 {
@@ -1081,33 +1000,10 @@ struct KeysRequiredEventArgs_t243BDFEB3766479FE1D93965DD5D27BDA6F19BE1  : public
 	String_t* ___fileName;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___key;
 };
-struct MemoryArchiveStorage_tBF2E744CCF488F960B1AFDC6A55F2FB0C495127F  : public BaseArchiveStorage_t27B892AD1A8C1207089B8957AACCFE3B18A77C97
-{
-	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* ___temporaryStream_;
-	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* ___finalStream_;
-};
-struct PkzipClassic_tFBEEDDCE7A3840AB2B8ABA2387B818EFA1963851  : public SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8
-{
-};
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
 	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask;
 	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	RuntimeObject* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
 };
 struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
 {
@@ -1135,41 +1031,17 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
-struct FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 
+struct CipherMode_t932070F221590D5F955DE31430C6EAA91B97F027 
 {
-	int32_t ___Flags;
-	int32_t ___Mode;
-	uint32_t ___Uid;
-	uint32_t ___Gid;
-	int64_t ___Size;
-	int64_t ___ATime;
-	int64_t ___ATimeNsec;
-	int64_t ___MTime;
-	int64_t ___MTimeNsec;
-	int64_t ___CTime;
-	int64_t ___CTimeNsec;
-	int64_t ___BirthTime;
-	int64_t ___BirthTimeNsec;
-	int64_t ___Dev;
-	int64_t ___Ino;
-	uint32_t ___UserFlags;
+	int32_t ___value__;
 };
-struct CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+struct CompressionMethod_t3080019EF0D860519526E08295BAC98B3434C55C 
 {
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
-	RuntimeObject* ____transform;
-	int32_t ____transformMode;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____inputBuffer;
-	int32_t ____inputBufferIndex;
-	int32_t ____inputBlockSize;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____outputBuffer;
-	int32_t ____outputBufferIndex;
-	int32_t ____outputBlockSize;
-	bool ____canRead;
-	bool ____canWrite;
-	bool ____finalBlockTransformed;
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____lazyAsyncActiveSemaphore;
-	bool ____leaveOpen;
+	int32_t ___value__;
+};
+struct CryptoStreamMode_tAA7DB9F0207503C36099611FC91D688AF0FA26A6 
+{
+	int32_t ___value__;
 };
 struct DeflaterOutputStream_t1A33D4BC42D9AF34A523563436A1C6A1136CE259  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
@@ -1287,54 +1159,29 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
-struct ExtendedUnixData_t4628153EE9253EBC2A4935ACA6D02643ACA95D09  : public RuntimeObject
+struct FileAccess_t3992FF4CCC61971B804DD291F06F696C3CF33C30 
 {
-	uint8_t ____flags;
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____modificationTime;
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____lastAccessTime;
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____createTime;
+	int32_t ___value__;
 };
-struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
+struct FileAttributes_t307E067EF44503B262F446FFD18E6230AF91AA5F 
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
-	int32_t ____fileStatusInitialized;
-	bool ___U3CInitiallyDirectoryU3Ek__BackingField;
-	bool ____isDirectory;
-	bool ____exists;
+	int32_t ___value__;
 };
-struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
+struct FileMode_t111B48D5347628AEFCBF9A0EC2833827A302ECBA 
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
-	int32_t ____fileStatusInitialized;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
-	int32_t ____isDirectory;
-	int32_t ____exists;
+	int32_t ___value__;
 };
-struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
+struct FileShare_t0A0E9739F5AB44D6B8026C9D2A2F1CEEE442733A 
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
-	int32_t ____fileStatusInitialized;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
-	int32_t ____isDirectory;
-	int32_t ____exists;
+	int32_t ___value__;
 };
-struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+struct FileUpdateMode_tAC9194E2EEF13D34DEC37A00E66FEF6041524E51 
 {
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
-	String_t* ___name;
-	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
-	bool ___isExposed;
-	int64_t ___append_startpos;
-	int32_t ___access;
-	bool ___owner;
-	bool ___async;
-	bool ___canseek;
-	bool ___anonymous;
-	bool ___buf_dirty;
-	int32_t ___buf_size;
-	int32_t ___buf_length;
-	int32_t ___buf_offset;
-	int64_t ___buf_start;
+	int32_t ___value__;
+};
+struct HostSystemID_t820E553A18D38DEE52324233E6F4BEEA324FE725 
+{
+	int32_t ___value__;
 };
 struct InflaterInputStream_t25453CA4D454447A9D30F0011CCE23037B465EA2  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
@@ -1364,23 +1211,50 @@ struct NTTaggedData_t000AFF8AF4BAF0F8EAD354C0BB6A55699F435568  : public RuntimeO
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____lastModificationTime;
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____createTime;
 };
-struct PkzipClassicManaged_tC3A9C9A5CC6D9FDD958207518E982E5C54080DAB  : public PkzipClassic_tFBEEDDCE7A3840AB2B8ABA2387B818EFA1963851
+struct PaddingMode_t938E0AB76C80739DB1BB44D7D6B9B94C03B72E1D 
 {
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___key_;
+	int32_t ___value__;
 };
-struct ZipEntryFactory_t8C34D693244579DAEFD66F94B4463A4E2942B3FE  : public RuntimeObject
+struct SeekOrigin_t7EB9AD0EDF26368A40F48FA2098F02160B1E8000 
 {
-	RuntimeObject* ___nameTransform_;
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___fixedDateTime_;
-	int32_t ___timeSetting_;
-	bool ___isUnicodeText_;
-	int32_t ___getAttributes_;
-	int32_t ___setAttributes_;
+	int32_t ___value__;
+};
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
+{
+	int32_t ___value__;
+};
+struct TestOperation_t23C1AF911EFEBA968827462711E768C3821DBF20 
+{
+	int32_t ___value__;
+};
+struct TestStrategy_tD14A056C1A22C01B69A27B9B52213903E2CC41C7 
+{
+	int32_t ___value__;
+};
+struct UseZip64_t268DA51667CDD80AD9F43196F1542E9FDB0174EE 
+{
+	int32_t ___value__;
 };
 struct ZipHelperStream_t56E706DF19FEB0E42C3C9C27A52E370A929F36EB  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	bool ___isOwner_;
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___stream_;
+};
+struct Flags_t702DF54D5AD09DC9430CFC9A33E98B2E753D07A4 
+{
+	uint8_t ___value__;
+};
+struct Known_t94DFCD259B53A01381EA52CE4A4E4E39F9EA99EC 
+{
+	uint8_t ___value__;
+};
+struct TimeSetting_t88030EEC38782A40F917829440460B06783B9363 
+{
+	int32_t ___value__;
+};
+struct HeaderTest_t65814B833B9A8C26E1DD4B7DE5C46CA09816D8FE 
+{
+	int32_t ___value__;
 };
 struct PartialInputStream_tDC3BB7937B579A89F94C24C388DC000DB6888F26  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
@@ -1395,15 +1269,62 @@ struct UncompressedStream_tF875CFDA2CF17063CECC998C19FBA10CB3EA214D  : public St
 {
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___baseStream_;
 };
+struct UpdateCommand_tE6D8E02AA404C16256AFDFAC30488BC718B99753 
+{
+	int32_t ___value__;
+};
+struct FileStatusFlags_tB53E2B9A54305CDCEA49884DEEDB8C62C8ACC9C9 
+{
+	int32_t ___value__;
+};
 struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
 {
 };
-struct FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+struct BaseArchiveStorage_t27B892AD1A8C1207089B8957AACCFE3B18A77C97  : public RuntimeObject
 {
-	FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 ____fileStatus;
-	String_t* ___FullPath;
-	String_t* ___OriginalPath;
-	String_t* ____name;
+	int32_t ___updateMode_;
+};
+struct CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
+	RuntimeObject* ____transform;
+	int32_t ____transformMode;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____inputBuffer;
+	int32_t ____inputBufferIndex;
+	int32_t ____inputBlockSize;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____outputBuffer;
+	int32_t ____outputBufferIndex;
+	int32_t ____outputBlockSize;
+	bool ____canRead;
+	bool ____canWrite;
+	bool ____finalBlockTransformed;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____lazyAsyncActiveSemaphore;
+	bool ____leaveOpen;
+};
+struct ExtendedUnixData_t4628153EE9253EBC2A4935ACA6D02643ACA95D09  : public RuntimeObject
+{
+	uint8_t ____flags;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____modificationTime;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____lastAccessTime;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____createTime;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
+	String_t* ___name;
+	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
+	bool ___isExposed;
+	int64_t ___append_startpos;
+	int32_t ___access;
+	bool ___owner;
+	bool ___async;
+	bool ___canseek;
+	bool ___anonymous;
+	bool ___buf_dirty;
+	int32_t ___buf_size;
+	int32_t ___buf_length;
+	int32_t ___buf_offset;
+	int64_t ___buf_start;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -1417,17 +1338,101 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
 };
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
+{
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8  : public RuntimeObject
+{
+	int32_t ___BlockSizeValue;
+	int32_t ___FeedbackSizeValue;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___IVValue;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___KeyValue;
+	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___LegalBlockSizesValue;
+	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___LegalKeySizesValue;
+	int32_t ___KeySizeValue;
+	int32_t ___ModeValue;
+	int32_t ___PaddingValue;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
 };
-struct ZipAESStream_t9CB50BCC4129C9B2D9EF26F8FE10CB1933AB0226  : public CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65
+struct TestStatus_tEF814546A773E2C90608ACD52ACC04971EE6BAB4  : public RuntimeObject
 {
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
-	ZipAESTransform_t81E0F17E8B4E0D3470F5D5A46D6DE031DDBC5C2C* ____transform;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____slideBuffer;
-	int32_t ____slideBufStartPos;
-	int32_t ____slideBufFreePos;
-	int32_t ____blockAndAuth;
+	ZipFile_t8623A6B24F047EE8218B35FA81651F841B83974B* ___file_;
+	ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC* ___entry_;
+	bool ___entryValid_;
+	int32_t ___errorCount_;
+	int64_t ___bytesTested_;
+	int32_t ___operation_;
+};
+struct ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC  : public RuntimeObject
+{
+	uint8_t ___known;
+	int32_t ___externalFileAttributes;
+	uint16_t ___versionMadeBy;
+	String_t* ___name;
+	uint64_t ___size;
+	uint64_t ___compressedSize;
+	uint16_t ___versionToExtract;
+	uint32_t ___crc;
+	uint32_t ___dosTime;
+	int32_t ___method;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___extra;
+	String_t* ___comment;
+	int32_t ___flags;
+	int64_t ___zipFileIndex;
+	int64_t ___offset;
+	bool ___forceZip64_;
+	uint8_t ___cryptoCheckValue_;
+	int32_t ____aesVer;
+	int32_t ____aesEncryptionStrength;
+};
+struct ZipEntryFactory_t8C34D693244579DAEFD66F94B4463A4E2942B3FE  : public RuntimeObject
+{
+	RuntimeObject* ___nameTransform_;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___fixedDateTime_;
+	int32_t ___timeSetting_;
+	bool ___isUnicodeText_;
+	int32_t ___getAttributes_;
+	int32_t ___setAttributes_;
+};
+struct ZipFile_t8623A6B24F047EE8218B35FA81651F841B83974B  : public RuntimeObject
+{
+	KeysRequiredEventHandler_t598C3F03F5132474D50EAA659C58CAC9A27BF494* ___KeysRequired;
+	bool ___isDisposed_;
+	String_t* ___name_;
+	String_t* ___comment_;
+	String_t* ___rawPassword_;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___baseStream_;
+	bool ___isStreamOwner;
+	int64_t ___offsetOfFirstEntry;
+	ZipEntryU5BU5D_tB17684D9BD6B973A8C391D8DCA4A7BCDF51450A6* ___entries_;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___key;
+	bool ___isNewArchive_;
+	int32_t ___useZip64_;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___updates_;
+	int64_t ___updateCount_;
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___updateIndex_;
+	RuntimeObject* ___archiveStorage_;
+	RuntimeObject* ___updateDataSource_;
+	bool ___contentsEdited_;
+	int32_t ___bufferSize_;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___copyBuffer_;
+	ZipString_t293652CB4F9B41911E8F675AB6B3D267F09C8B7B* ___newComment_;
+	bool ___commentEdited_;
+	RuntimeObject* ___updateEntryFactory_;
 };
 struct ZipInputStream_t28E1C3A0D16AF934AE233FA6264BDA9BD44BF294  : public InflaterInputStream_t25453CA4D454447A9D30F0011CCE23037B465EA2
 {
@@ -1454,6 +1459,36 @@ struct ZipOutputStream_t72373D271802A21FE40589791BFB62A19ABA50A7  : public Defla
 	int64_t ___sizePatchPos;
 	int32_t ___useZip64_;
 };
+struct ZipUpdate_tD54ACB59C2A3D697FAF21A8E13BE6186B73DBE34  : public RuntimeObject
+{
+	ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC* ___entry_;
+	ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC* ___outEntry_;
+	int32_t ___command_;
+	RuntimeObject* ___dataSource_;
+	String_t* ___filename_;
+	int64_t ___sizePatchOffset_;
+	int64_t ___crcPatchOffset_;
+	int64_t ____offsetBasedSize;
+};
+struct FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 
+{
+	int32_t ___Flags;
+	int32_t ___Mode;
+	uint32_t ___Uid;
+	uint32_t ___Gid;
+	int64_t ___Size;
+	int64_t ___ATime;
+	int64_t ___ATimeNsec;
+	int64_t ___MTime;
+	int64_t ___MTimeNsec;
+	int64_t ___CTime;
+	int64_t ___CTimeNsec;
+	int64_t ___BirthTime;
+	int64_t ___BirthTimeNsec;
+	int64_t ___Dev;
+	int64_t ___Ino;
+	uint32_t ___UserFlags;
+};
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 	String_t* ____paramName;
@@ -1461,11 +1496,35 @@ struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public Sys
 struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
 {
 };
-struct DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
+struct DiskArchiveStorage_t9C62B098B1D8035C5168CB1719E63687581E2590  : public BaseArchiveStorage_t27B892AD1A8C1207089B8957AACCFE3B18A77C97
 {
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___temporaryStream_;
+	String_t* ___fileName_;
+	String_t* ___temporaryName_;
 };
-struct FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
 {
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	bool ___U3CInitiallyDirectoryU3Ek__BackingField;
+	bool ____isDirectory;
+	bool ____exists;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
+	int32_t ____isDirectory;
+	int32_t ____exists;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
+	int32_t ____isDirectory;
+	int32_t ____exists;
 };
 struct IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -1473,11 +1532,28 @@ struct IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910  : public SystemExc
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
+struct MemoryArchiveStorage_tBF2E744CCF488F960B1AFDC6A55F2FB0C495127F  : public BaseArchiveStorage_t27B892AD1A8C1207089B8957AACCFE3B18A77C97
+{
+	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* ___temporaryStream_;
+	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* ___finalStream_;
+};
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct PkzipClassic_tFBEEDDCE7A3840AB2B8ABA2387B818EFA1963851  : public SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8
 {
 };
 struct SharpZipBaseException_t1C56A0584338F84B653352995CA5718A5BF2EB75  : public ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A
 {
+};
+struct ZipAESStream_t9CB50BCC4129C9B2D9EF26F8FE10CB1933AB0226  : public CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
+	ZipAESTransform_t81E0F17E8B4E0D3470F5D5A46D6DE031DDBC5C2C* ____transform;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____slideBuffer;
+	int32_t ____slideBufStartPos;
+	int32_t ____slideBufFreePos;
+	int32_t ____blockAndAuth;
 };
 struct ZipTestResultHandler_tA1B07F67F119D0D7E1F4491C00D3171D64DCDDD4  : public MulticastDelegate_t
 {
@@ -1498,6 +1574,13 @@ struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : 
 struct EndOfStreamException_t6B6A2609418A69523CBEF305228B18E0E5778028  : public IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910
 {
 };
+struct FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+{
+	FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 ____fileStatus;
+	String_t* ___FullPath;
+	String_t* ___OriginalPath;
+	String_t* ____name;
+};
 struct ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB  : public InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB
 {
 	String_t* ____objectName;
@@ -1505,7 +1588,17 @@ struct ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB  : publ
 struct PathTooLongException_tAF7644094546C2BD93B829405B0199BF3B3FC2E5  : public IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910
 {
 };
+struct PkzipClassicManaged_tC3A9C9A5CC6D9FDD958207518E982E5C54080DAB  : public PkzipClassic_tFBEEDDCE7A3840AB2B8ABA2387B818EFA1963851
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___key_;
+};
 struct ZipException_t96D0219AEA3A9ACA11F3DD018FDAA302995E720F  : public SharpZipBaseException_t1C56A0584338F84B653352995CA5718A5BF2EB75
+{
+};
+struct DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
+{
+};
+struct FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
 {
 };
 struct Crc32_t0827417B45870A6749C94A6BE6C47291A2EBA2ED_StaticFields
@@ -2183,6 +2276,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipExtraData_AddData_mE871A33775EEF91272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeflaterOutputStream_InitializeAESPassword_m19F735060FA456C11D80CD3B1580CEE9B19FC00C (DeflaterOutputStream_t1A33D4BC42D9AF34A523563436A1C6A1136CE259* __this, ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC* ___0_entry, String_t* ___1_rawPassword, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** ___2_salt, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** ___3_pwdVerifier, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeflaterOutputStream_Write_mBC058CC3F0D438D734256F8790860DE200DAAEA1 (DeflaterOutputStream_t1A33D4BC42D9AF34A523563436A1C6A1136CE259* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, int32_t ___1_offset, int32_t ___2_count, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipOutputStream_CopyAndEncrypt_mC974327E8C61BB77680932C988B0EDADD1E52DB6 (ZipOutputStream_t72373D271802A21FE40589791BFB62A19ABA50A7* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, int32_t ___1_offset, int32_t ___2_count, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -4199,6 +4300,14 @@ IL_0056:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipEntryFactory__ctor_m0AA9F161DC2643A231E5F163E9A396E4BA7A88ED (ZipEntryFactory_t8C34D693244579DAEFD66F94B4463A4E2942B3FE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4905,6 +5014,14 @@ IL_0102:
 		return L_46;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -5678,6 +5795,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExtendedUnixData__ctor_mFD9E7F7991336A44
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -7273,6 +7398,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeysRequiredEventArgs_set_Key_m4BEC97A62
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestStatus__ctor_mE9A1EDB9C073D1E9DD94546BA6590D6D6FEFE448 (TestStatus_tEF814546A773E2C90608ACD52ACC04971EE6BAB4* __this, ZipFile_t8623A6B24F047EE8218B35FA81651F841B83974B* ___0_file, const RuntimeMethod* method) 
 {
 	{
@@ -7479,6 +7620,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipTestResultHandler_EndInvoke_m5AEB3580
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -16518,6 +16667,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeysRequiredEventHandler_EndInvoke_mC1F9
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

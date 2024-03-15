@@ -1,36 +1,37 @@
-namespace ET.Server;
-
-[MessageLocationHandler(SceneType.Map)]
-public class C2M_ChooseModelDifficultyHandler: MessageLocationHandler<Unit, C2M_ChooseModelDifficulty, M2C_ChooseModelDifficulty>
+namespace ET.Server
 {
-    protected override async ETTask Run(Unit unit, C2M_ChooseModelDifficulty request, M2C_ChooseModelDifficulty response)
+    [MessageLocationHandler(SceneType.Map)]
+    public class C2M_ChooseModelDifficultyHandler: MessageLocationHandler<Unit, C2M_ChooseModelDifficulty, M2C_ChooseModelDifficulty>
     {
-        var modelConfig = ModelCategory.Instance.GetOrDefault(request.Model);
-        if (modelConfig == null)
+        protected override async ETTask Run(Unit unit, C2M_ChooseModelDifficulty request, M2C_ChooseModelDifficulty response)
         {
-            response.Error = ErrorCode.ERR_ChooseModelTypeError;
-            return;
-        }
-
-        if (modelConfig.DifficultyType == 1)
-        {
-            var config = DifficultyNormalCategory.Instance.GetOrDefault(request.Difficulty);
-            if (config == null)
+            var modelConfig = ModelCategory.Instance.GetOrDefault(request.Model);
+            if (modelConfig == null)
             {
-                response.Error = ErrorCode.ERR_ChooseDifficultyTypeError;
+                response.Error = ErrorCode.ERR_ChooseModelTypeError;
                 return;
             }
-        }
-        else if (modelConfig.DifficultyType == 1)
-        {
-            var config = DifficultyHappyCategroy.Instance.Get(request.Difficulty);
-            if (config == null)
-            {
-                response.Error = ErrorCode.ERR_ChooseDifficultyTypeError;
-                return;
-            }
-        }
 
-        await ETTask.CompletedTask;
+            if (modelConfig.DifficultyType == 1)
+            {
+                var config = DifficultyNormalCategory.Instance.GetOrDefault(request.Difficulty);
+                if (config == null)
+                {
+                    response.Error = ErrorCode.ERR_ChooseDifficultyTypeError;
+                    return;
+                }
+            }
+            else if (modelConfig.DifficultyType == 1)
+            {
+                var config = DifficultyHappyCategroy.Instance.Get(request.Difficulty);
+                if (config == null)
+                {
+                    response.Error = ErrorCode.ERR_ChooseDifficultyTypeError;
+                    return;
+                }
+            }
+
+            await ETTask.CompletedTask;
+        }
     }
 }

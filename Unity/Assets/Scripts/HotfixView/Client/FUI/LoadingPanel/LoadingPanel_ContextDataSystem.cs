@@ -1,12 +1,13 @@
-namespace ET.Client;
-
-[EntitySystemOf(typeof(LoadingPanel_ContextData))]
-[FriendOf(typeof(LoadingPanel_ContextData))]
-public static partial class LoadingPanel_ContextDataSystem
+namespace ET.Client
 {
-    [EntitySystem]
-    private static void Awake(this ET.Client.LoadingPanel_ContextData self, uint args2)
+    [EntitySystemOf(typeof(LoadingPanel_ContextData))]
+    [FriendOf(typeof(LoadingPanel_ContextData))]
+    public static partial class LoadingPanel_ContextDataSystem
     {
-        self.totalTime = args2;
+        [EntitySystem]
+        private static void Awake(this ET.Client.LoadingPanel_ContextData self, uint args2)
+        {
+            self.totalTime = args2;
+        }
     }
 }

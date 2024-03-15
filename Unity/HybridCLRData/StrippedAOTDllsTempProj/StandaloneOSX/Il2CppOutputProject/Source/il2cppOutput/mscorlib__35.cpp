@@ -1332,27 +1332,6 @@ struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472  : public Runt
 	bool ___validForParseAsNumber;
 	bool ___validForParseAsCurrency;
 };
-struct SortKey_tFE5594FAAAFF330066735114D1021DB0D5273740  : public RuntimeObject
-{
-	String_t* ___source;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___key;
-	int32_t ___options;
-	int32_t ___lcid;
-};
-struct SortKey_tFE5594FAAAFF330066735114D1021DB0D5273740_marshaled_pinvoke
-{
-	char* ___source;
-	Il2CppSafeArray* ___key;
-	int32_t ___options;
-	int32_t ___lcid;
-};
-struct SortKey_tFE5594FAAAFF330066735114D1021DB0D5273740_marshaled_com
-{
-	Il2CppChar* ___source;
-	Il2CppSafeArray* ___key;
-	int32_t ___options;
-	int32_t ___lcid;
-};
 struct String_t  : public RuntimeObject
 {
 	int32_t ____stringLength;
@@ -1373,18 +1352,6 @@ struct StringInfo_t8A671BFDE97BD19715A63576C5CAEE822973EEDB  : public RuntimeObj
 {
 	String_t* ___m_str;
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___m_indexes;
-};
-struct TextElementEnumerator_t6A909A8647A1F26E2B787CAB06EC50BB64CD5458  : public RuntimeObject
-{
-	String_t* ___str;
-	int32_t ___index;
-	int32_t ___startIndex;
-	int32_t ___strLen;
-	int32_t ___currTextElementLen;
-	int32_t ___uc;
-	int32_t ___charLen;
-	int32_t ___endIndex;
-	int32_t ___nextTextElementLen;
 };
 struct TextInfoToLowerData_tCE2447B8B81C36524942850B5CAF014C0849DA3A  : public RuntimeObject
 {
@@ -1519,21 +1486,6 @@ struct OrdinalComparer_tBB06915E213A5D4C8C617ED5478E8BF30C2B2170  : public Strin
 {
 	bool ____ignoreCase;
 };
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	RuntimeObject* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
 struct TaiwanCalendar_tFC159D82844A64A93FE1EB3363CC64DE933EE64B  : public Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B
 {
 	GregorianCalendarHelper_tC77507376E36EEDABC1786237BADF1BF459F9723* ___helper;
@@ -1608,9 +1560,29 @@ struct ByReference_1_t7BA5A6CA164F770BC688F21C5978D368716465F5
 {
 	intptr_t ____value;
 };
+struct CalendarAlgorithmType_tA4CD73D6657F2D2C82954C1A37813D360AA640EE 
+{
+	int32_t ___value__;
+};
 struct CalendarId_t49E457FB03B25B4F062CDCF875E46EAEEC5A18E3 
 {
 	uint16_t ___value__;
+};
+struct CalendarWeekRule_t6C9073E0B7CDE5CC663290F3449209D53D92DD9A 
+{
+	int32_t ___value__;
+};
+struct CompareOptions_tE5E7275E1FCBD5F8F3B53CC0038A11CABE120B00 
+{
+	int32_t ___value__;
+};
+struct DayOfWeek_t726DBD527FF9B9D2A0352FB80C55EE2EBE56783D 
+{
+	int32_t ___value__;
+};
+struct DigitShapes_tA53DC9D005F47AC190271F7ECFD7E8C1D452A5A4 
+{
+	int32_t ___value__;
 };
 struct Exception_t  : public RuntimeObject
 {
@@ -1678,12 +1650,20 @@ struct GregorianCalendarHelper_tC77507376E36EEDABC1786237BADF1BF459F9723  : publ
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___m_eras;
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___m_minDate;
 };
+struct GregorianCalendarTypes_t9A62C461D39468C1355F53D0B4D4848773C62C2E 
+{
+	int32_t ___value__;
+};
 struct JapaneseLunisolarCalendar_t64A28C7513533FE6CC0708C32B3EDD225A4D735E  : public EastAsianLunisolarCalendar_tCE021DC910FAA315351B0182132E0716C3078C80
 {
 	GregorianCalendarHelper_tC77507376E36EEDABC1786237BADF1BF459F9723* ___helper;
 };
 struct KoreanLunisolarCalendar_t27E305C9ECCA9CC182DCC024D9A6993814EEF004  : public EastAsianLunisolarCalendar_tCE021DC910FAA315351B0182132E0716C3078C80
 {
+};
+struct NumberStyles_t567C6CBC2A2B5B5A2C43B2855D158949984A810C 
+{
+	int32_t ___value__;
 };
 struct OrdinalIgnoreCaseComparer_t8BAE11990A4C855D3BCBBFB42F4EF8D45088FBB0  : public OrdinalComparer_tBB06915E213A5D4C8C617ED5478E8BF30C2B2170
 {
@@ -1695,6 +1675,18 @@ struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
 	intptr_t ___value;
+};
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
+{
+	int32_t ___value__;
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
 };
 struct TaiwanLunisolarCalendar_tCE77FE5A9830E969F52634A510048D1261ABC1FD  : public EastAsianLunisolarCalendar_tCE021DC910FAA315351B0182132E0716C3078C80
 {
@@ -1712,6 +1704,10 @@ struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4  : public RuntimeObjec
 	int32_t ___m_nDataItem;
 	bool ___m_useUserOverride;
 	int32_t ___m_win32LangID;
+};
+struct UnicodeCategory_tC5D046642FA3366AD265B73F3F43140D8CD9CB2A 
+{
+	int32_t ___value__;
 };
 struct DateMapping_tD71D0AF5C7C6CB4F9517C292B1B61D7AF7CFCCFD 
 {
@@ -1738,8 +1734,56 @@ struct Span_1_tEDDF15FCF9EC6DEBA0F696BAACDDBAB9D92C252D
 	ByReference_1_t7BA5A6CA164F770BC688F21C5978D368716465F5 ____pointer;
 	int32_t ____length;
 };
+struct SortKey_tFE5594FAAAFF330066735114D1021DB0D5273740  : public RuntimeObject
+{
+	String_t* ___source;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___key;
+	int32_t ___options;
+	int32_t ___lcid;
+};
+struct SortKey_tFE5594FAAAFF330066735114D1021DB0D5273740_marshaled_pinvoke
+{
+	char* ___source;
+	Il2CppSafeArray* ___key;
+	int32_t ___options;
+	int32_t ___lcid;
+};
+struct SortKey_tFE5594FAAAFF330066735114D1021DB0D5273740_marshaled_com
+{
+	Il2CppChar* ___source;
+	Il2CppSafeArray* ___key;
+	int32_t ___options;
+	int32_t ___lcid;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
+{
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
+};
+struct TextElementEnumerator_t6A909A8647A1F26E2B787CAB06EC50BB64CD5458  : public RuntimeObject
+{
+	String_t* ___str;
+	int32_t ___index;
+	int32_t ___startIndex;
+	int32_t ___strLen;
+	int32_t ___currTextElementLen;
+	int32_t ___uc;
+	int32_t ___charLen;
+	int32_t ___endIndex;
+	int32_t ___nextTextElementLen;
 };
 struct Type_t  : public MemberInfo_t
 {
@@ -2850,6 +2894,14 @@ inline void ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_inlin
 {
 	((  void (*) (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1*, Il2CppChar*, int32_t, const RuntimeMethod*))ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_gshared_inline)(__this, ___0_ptr, ___1_length, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

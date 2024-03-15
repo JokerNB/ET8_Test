@@ -24,7 +24,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
+    <Optimize>true</Optimize>
     <OutputPath>Temp\Bin\Debug\Unity.Rider.Editor\</OutputPath>
     <DefineConstants>UNITY_EDITOR</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -57,6 +57,7 @@
     <None Include="Assets/Bundles/Spine/Goblins/goblins.atlas.txt" />
     <None Include="Assets/Bundles/Spine/Hero/hero-pro.atlas.txt" />
     <None Include="Assets/Bundles/Spine/whirlyblendmodes/whirlyblendmodes.atlas.txt" />
+    <None Include="Assets/Settings/IgnoreAsmdef/README.txt" />
     <None Include="Assets/Bundles/Spine/Stretchyman/stretchyman-diffuse-pma.atlas.txt" />
     <None Include="Assets/Bundles/Spine/Spineunitygirl/Doi.atlas.txt" />
     <None Include="Assets/Bundles/Shaders/FairyGUI-BMFont.shader" />
@@ -81,16 +82,16 @@
     <None Include="Assets/Bundles/Shaders/FairyGUI-Image.shader" />
     <None Include="Assets/Bundles/Spine/FootSoldier/Equipment/Equipment.atlas.txt" />
     <None Include="Assets/Bundles/Spine/FootSoldier/license.txt" />
+    <None Include="Assets/Config/Excel/Defines/builtin.xml" />
     <None Include="Assets/Bundles/Spine/Gauge/Gauge.json" />
-    <None Include="Assets/Config/Excel/Defines/__root__.xml" />
     <Reference Include="UnityEngine">
-      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.13f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

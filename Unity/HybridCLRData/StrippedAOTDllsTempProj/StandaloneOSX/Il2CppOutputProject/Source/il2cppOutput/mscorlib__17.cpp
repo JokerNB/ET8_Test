@@ -727,12 +727,6 @@ IL2CPP_EXTERN_C_END
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-struct ActivationContext_tE4A92D122914000A97CCE75611D65D0C3F43B83E  : public RuntimeObject
-{
-	ApplicationIdentity_t9777922DFFCD263603086BAC4B2D85D3461F6D35* ____appid;
-	int32_t ____form;
-	bool ____disposed;
-};
 struct AllMembershipCondition_t6E395AB2A29A8B1DD4AE1E897CB60F1276603EC4  : public RuntimeObject
 {
 	int32_t ___version;
@@ -757,63 +751,6 @@ struct Assembly_t_marshaled_pinvoke
 };
 struct Assembly_t_marshaled_com
 {
-};
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2  : public RuntimeObject
-{
-	String_t* ___name;
-	String_t* ___codebase;
-	int32_t ___major;
-	int32_t ___minor;
-	int32_t ___build;
-	int32_t ___revision;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___cultureinfo;
-	int32_t ___flags;
-	int32_t ___hashalg;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___publicKey;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keyToken;
-	int32_t ___versioncompat;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
-	int32_t ___processor_architecture;
-	int32_t ___contentType;
-};
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_pinvoke
-{
-	char* ___name;
-	char* ___codebase;
-	int32_t ___major;
-	int32_t ___minor;
-	int32_t ___build;
-	int32_t ___revision;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___cultureinfo;
-	int32_t ___flags;
-	int32_t ___hashalg;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
-	Il2CppSafeArray* ___publicKey;
-	Il2CppSafeArray* ___keyToken;
-	int32_t ___versioncompat;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
-	int32_t ___processor_architecture;
-	int32_t ___contentType;
-};
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_com
-{
-	Il2CppChar* ___name;
-	Il2CppChar* ___codebase;
-	int32_t ___major;
-	int32_t ___minor;
-	int32_t ___build;
-	int32_t ___revision;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___cultureinfo;
-	int32_t ___flags;
-	int32_t ___hashalg;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
-	Il2CppSafeArray* ___publicKey;
-	Il2CppSafeArray* ___keyToken;
-	int32_t ___versioncompat;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
-	int32_t ___processor_architecture;
-	int32_t ___contentType;
 };
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
 {
@@ -967,15 +904,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D  : public RuntimeObje
 	RuntimeObject* ____keycomparer;
 	RuntimeObject* ____syncRoot;
 };
-struct KeyContainerPermissionAccessEntry_t45BAD23F2A994C88DA1665931F044E6D21CB5096  : public RuntimeObject
-{
-	int32_t ____flags;
-	String_t* ____containerName;
-	int32_t ____spec;
-	String_t* ____store;
-	String_t* ____providerName;
-	int32_t ____type;
-};
 struct KeyContainerPermissionAccessEntryCollection_tB23D4DAF72B3AD7ED358F4A519C5BEC6EEAB559E  : public RuntimeObject
 {
 	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ____list;
@@ -1004,31 +932,6 @@ struct MembershipConditionHelper_t04677B41635049121388C71B834EBDC67C8F4CCD  : pu
 };
 struct MonoTrustManager_tE18523623FD5CC636489E7053C193E05C658EE61  : public RuntimeObject
 {
-};
-struct PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240  : public RuntimeObject
-{
-	int32_t ___state;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___list;
-	PolicyLevel_tFB4CCD3D57997042AD30AD3D95BE54D89E4D3C89* ____policyLevel;
-	bool ____declsec;
-	bool ____readOnly;
-	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ____ignored;
-};
-struct PolicyLevel_tFB4CCD3D57997042AD30AD3D95BE54D89E4D3C89  : public RuntimeObject
-{
-	String_t* ___label;
-	CodeGroup_t6B4266B514409D1D133613ACB3916F21D9F143E4* ___root_code_group;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___full_trust_assemblies;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___named_permission_sets;
-	String_t* ____location;
-	int32_t ____type;
-	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___fullNames;
-	SecurityElement_tA7337C2977BEC2323B0A3EE95C1C6422013F4E55* ___xml;
-};
-struct PolicyStatement_tBC9D692567EF20995DEAD637B82F8408E5406181  : public RuntimeObject
-{
-	PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240* ___perms;
-	int32_t ___attrs;
 };
 struct PrincipalPermission_tAF276728F1F006CE78E9B41F3DF3877DF358CAA9  : public RuntimeObject
 {
@@ -1100,15 +1003,6 @@ struct StrongNamePublicKeyBlob_t27042D558750F600F94772A8D9A4C2F482833D53  : publ
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___pubkey;
 };
-struct TrustManagerContext_t7779258C61E48DE8C0A4A402E43F9645CD999B87  : public RuntimeObject
-{
-	bool ____ignorePersistedDecision;
-	bool ____noPrompt;
-	bool ____keepAlive;
-	bool ____persist;
-	ApplicationIdentity_t9777922DFFCD263603086BAC4B2D85D3461F6D35* ____previousId;
-	int32_t ____ui;
-};
 struct Uri_tDE16110D04BB22922863F9FB4735F61CD0175923  : public RuntimeObject
 {
 	bool ___isUnixFilePath;
@@ -1151,11 +1045,6 @@ struct Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7  : public RuntimeObject
 	int32_t ____Minor;
 	int32_t ____Build;
 	int32_t ____Revision;
-};
-struct ZoneMembershipCondition_tD01ED1966591E2826000901CC095D572A3311A39  : public RuntimeObject
-{
-	int32_t ___version;
-	int32_t ___zone;
 };
 struct ReservedNames_t7D3332C3DB63C06C4949A0F63ED445A8E0ADE62C  : public RuntimeObject
 {
@@ -1217,30 +1106,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
 {
 };
-struct EnvironmentPermission_t247956283B0AAEF7F88ED670FE2DAADF5E49F116  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ____state;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___readList;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___writeList;
-};
-struct FileCodeGroup_t0F0DB4877A3D5F372230DFFA011BC63008C07A8A  : public CodeGroup_t6B4266B514409D1D133613ACB3916F21D9F143E4
-{
-	int32_t ___m_access;
-};
-struct FileDialogPermission_tB3BDF82D6DD1332525D4874B1798EDE2860F06EF  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ____access;
-};
-struct FileIOPermission_tB05EA95DF21FD768E01A7F5E59348AFC7880B40F  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	bool ___m_Unrestricted;
-	int32_t ___m_AllFilesAccess;
-	int32_t ___m_AllLocalFilesAccess;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___readList;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___writeList;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___appendList;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___pathList;
-};
 struct FirstMatchCodeGroup_t35AE5CCC08A1F1730B89B26A1F0BC04DE33AFFDF  : public CodeGroup_t6B4266B514409D1D133613ACB3916F21D9F143E4
 {
 };
@@ -1257,10 +1122,6 @@ struct Hash_tB521DD0895C95437828DB6F7D83C5E3ADEE13C82  : public EvidenceBase_tBE
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____md5;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____sha1;
 };
-struct HostProtectionPermission_t39CBA69CBDE9FF37252C79977D3BAE01A8CE6D43  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ____resources;
-};
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
 	int32_t ___m_value;
@@ -1273,26 +1134,8 @@ struct IntPtr_t
 {
 	void* ___m_value;
 };
-struct IsolatedStoragePermission_tA3118785FCFF33501F57EBB1C325D7FBF5EB66FC  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int64_t ___m_userQuota;
-	int64_t ___m_machineQuota;
-	int64_t ___m_expirationDays;
-	bool ___m_permanentData;
-	int32_t ___m_allowed;
-};
-struct KeyContainerPermission_tC65ACB0E34BCCB4B26B0C2A37967860757ACDED4  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	KeyContainerPermissionAccessEntryCollection_tB23D4DAF72B3AD7ED358F4A519C5BEC6EEAB559E* ____accessEntries;
-	int32_t ____flags;
-};
 struct MD5_t808E6AE387D5FCC368DBB86576572C1564D17E5A  : public HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D
 {
-};
-struct NamedPermissionSet_tE1762DB096B3A45291DA354EC7DD1C5A1F74B97C  : public PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240
-{
-	String_t* ___name;
-	String_t* ___description;
 };
 struct NetCodeGroup_t0F9C391E393DF635209D801434F32BA2E0A8FB66  : public CodeGroup_t6B4266B514409D1D133613ACB3916F21D9F143E4
 {
@@ -1305,34 +1148,14 @@ struct PermissionRequestEvidence_tA61C668FA22BADFFF6B2CFB4BF22EF70D7BC2FCD  : pu
 	PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240* ___optional;
 	PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240* ___denied;
 };
-struct ReflectionPermission_t2027B79053C870ADD27747695AB5DB8628D69CC0  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ___flags;
-};
-struct RegistryPermission_t717887191C74F22FF3256833E366F77D50B5B9E0  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ____state;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___createList;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___readList;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___writeList;
-};
 struct SHA1_t0612ADACADC25FB4C22525A579B30354586F0CEE  : public HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D
 {
-};
-struct SecurityAttribute_tB79F828B77F1B081DD57CEF810E748C7C871D7C5  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	int32_t ___m_Action;
-	bool ___m_Unrestricted;
 };
 struct SecurityParser_t864EA1971E964BFA84720CA7C3FB2D7AC5E9B652  : public SmallXmlParser_tA3B98D88B89ED52CBE3AD0637C8912934A4C9DBB
 {
 	SecurityElement_tA7337C2977BEC2323B0A3EE95C1C6422013F4E55* ___root;
 	SecurityElement_tA7337C2977BEC2323B0A3EE95C1C6422013F4E55* ___current;
 	Stack_tBD60B0E3125691193FBFC8DA8FFDD6630CB2CB47* ___stack;
-};
-struct SecurityPermission_t3D031F3D02A241DA751E50E18C5977E59405FF70  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ___flags;
 };
 struct Site_tFC736027D939D82F5C6279D6644350B9692C0EC7  : public EvidenceBase_tBE31E679AFC7051B507BFCBA8312B3B095651E2C
 {
@@ -1347,31 +1170,11 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefOb
 	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask;
 	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore;
 };
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	RuntimeObject* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
 struct StrongName_tDCF25EBE1AA0210E04E0A8160A3B8B30B24C5C57  : public EvidenceBase_tBE31E679AFC7051B507BFCBA8312B3B095651E2C
 {
 	StrongNamePublicKeyBlob_t27042D558750F600F94772A8D9A4C2F482833D53* ___publickey;
 	String_t* ___name;
 	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
-};
-struct StrongNameIdentityPermission_t5A1E6BA9BA2E3C319867C349357F2165C82AA511  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ____state;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ____list;
 };
 struct TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
@@ -1381,11 +1184,6 @@ struct TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3  : public MarshalByR
 	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___CoreNewLine;
 	String_t* ___CoreNewLineStr;
 	RuntimeObject* ____internalFormatProvider;
-};
-struct UIPermission_tAE7D9CE4AB29EAD142396A9B5AE019351BE14922  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ____window;
-	int32_t ____clipboard;
 };
 struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
 {
@@ -1412,16 +1210,29 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
-struct Zone_t59538DACE016576CAE7FD2E321E918B854676014  : public EvidenceBase_tBE31E679AFC7051B507BFCBA8312B3B095651E2C
+struct AccessControlActions_t4777A53C4F8BE6CE92FC2331E586040160BB5500 
 {
-	int32_t ___zone;
+	int32_t ___value__;
 };
-struct ZoneIdentityPermission_tF360C410B3EC4C116590B0A1773A8033EF7FD385  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+struct AssemblyContentType_tE0A2224D247DD97616065CB0ECB16912B756D745 
 {
-	int32_t ___zone;
+	int32_t ___value__;
 };
-struct CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE  : public SecurityAttribute_tB79F828B77F1B081DD57CEF810E748C7C871D7C5
+struct AssemblyHashAlgorithm_t6202395EA0C9A01D6342348A9535DF4CA47010D1 
 {
+	int32_t ___value__;
+};
+struct AssemblyNameFlags_t48EB44AFB7A3310746DD78ACC3DC5AE6D3D91122 
+{
+	int32_t ___value__;
+};
+struct AssemblyVersionCompatibility_t1E27EE4AB4137C64EE164A25A184E844AC722159 
+{
+	int32_t ___value__;
+};
+struct BuiltInToken_tAFBD9005289F07F1A7D5814AD155AB2A4BCEF6FD 
+{
+	int32_t ___value__;
 };
 struct CspParameters_t9004F77295A57F5D917C723ACBC835E9C54D18B3  : public RuntimeObject
 {
@@ -1433,6 +1244,10 @@ struct CspParameters_t9004F77295A57F5D917C723ACBC835E9C54D18B3  : public Runtime
 	CryptoKeySecurity_tEFFD9D03832C8DD8A184B0FA143E85C6C4C3BAC7* ___m_cryptoKeySecurity;
 	SecureString_t6FBEB334D455CA90093BD446BBEBA47FE5B20C6C* ___m_keyPassword;
 	intptr_t ___m_parentWindowHandle;
+};
+struct EnvironmentPermissionAccess_t6F547AC279E2D10EE0B07A0FADCEBD9949A15D74 
+{
+	int32_t ___value__;
 };
 struct Exception_t  : public RuntimeObject
 {
@@ -1491,26 +1306,57 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
-struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+struct FileAccess_t3992FF4CCC61971B804DD291F06F696C3CF33C30 
 {
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
-	String_t* ___name;
-	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
-	bool ___isExposed;
-	int64_t ___append_startpos;
-	int32_t ___access;
-	bool ___owner;
-	bool ___async;
-	bool ___canseek;
-	bool ___anonymous;
-	bool ___buf_dirty;
-	int32_t ___buf_size;
-	int32_t ___buf_length;
-	int32_t ___buf_offset;
-	int64_t ___buf_start;
+	int32_t ___value__;
 };
-struct IsolatedStorageFilePermission_t37607F2CAFD3172D2ECA947B7B68BC9515070D85  : public IsolatedStoragePermission_tA3118785FCFF33501F57EBB1C325D7FBF5EB66FC
+struct FileDialogPermissionAccess_t638480B2D343DF188064C9874027125B1A9AD588 
 {
+	int32_t ___value__;
+};
+struct FileIOPermissionAccess_t32C5D7A92A74223564ABC3F60779889EBD1CB1C2 
+{
+	int32_t ___value__;
+};
+struct FileMode_t111B48D5347628AEFCBF9A0EC2833827A302ECBA 
+{
+	int32_t ___value__;
+};
+struct HostProtectionResource_t5080FB24329E38DE70C0D96C1ECE28420EF4992B 
+{
+	int32_t ___value__;
+};
+struct IsolatedStorageContainment_tFF53455D8F94D9E75F433A5390344B91B5C3157E 
+{
+	int32_t ___value__;
+};
+struct KeyContainerPermissionFlags_t8909B8A0BC8F29F799BC16E9F026EDDB98EE8820 
+{
+	int32_t ___value__;
+};
+struct PermissionState_tBA97464FBBAF437426AAFD72AE10F12B79AE84E5 
+{
+	int32_t ___value__;
+};
+struct PolicyLevelType_t5A2DF15EEDBF9195261B1330CD79D7A2EA85154D 
+{
+	int32_t ___value__;
+};
+struct PolicyStatementAttribute_t0479E6E1CD5DE68457C1F96081B76B38DA0A0250 
+{
+	int32_t ___value__;
+};
+struct ProcessorArchitecture_t549C86643DDABC4E0C6DC968F0C74A707ADCAD9B 
+{
+	int32_t ___value__;
+};
+struct ReflectionPermissionFlag_t86538548910EB79555334611DF5CBFDB16F9C383 
+{
+	int32_t ___value__;
+};
+struct RegistryPermissionAccess_t10712F28EB8060DE077B815D4F5351E353F3CBF6 
+{
+	int32_t ___value__;
 };
 struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
 {
@@ -1526,6 +1372,18 @@ struct SHA1Managed_t0BFAB012F0F70D6BF95BD98D86449A97A8468478  : public SHA1_t061
 	int64_t ____count;
 	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ____stateSHA1;
 	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ____expandedBuffer;
+};
+struct SecurityAction_t2CD17B1338BAB13BA5099DB75B7B5FAF0B48BB84 
+{
+	int32_t ___value__;
+};
+struct SecurityPermissionFlag_tFFD7E83DDD60A5C42624E5F35EF78BB007AD6FA8 
+{
+	int32_t ___value__;
+};
+struct SecurityZone_t81540FBFF0C570EE35C049FF5AE06E3A6945940E 
+{
+	int32_t ___value__;
 };
 struct StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B  : public TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7
 {
@@ -1558,6 +1416,314 @@ struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4  : public TextWrit
 	bool ____haveWrittenPreamble;
 	bool ____closable;
 	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ____asyncWriteTask;
+};
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
+struct TrustManagerUIContext_tFAF892E5366BCECB4A64E15FB32ABED26743044A 
+{
+	int32_t ___value__;
+};
+struct UIPermissionClipboard_t75389C0E75F9467C9D6F8699E740E727D23EBD99 
+{
+	int32_t ___value__;
+};
+struct UIPermissionWindow_tB38D87B0BF570C115457E3F70244D1ACA799A610 
+{
+	int32_t ___value__;
+};
+struct ContextForm_tE69329077FB2C93585AEDD1E099906D1FB1DFC48 
+{
+	int32_t ___value__;
+};
+struct Key_t30A4CC6617F62A547891502CC981AE771DBDDE79 
+{
+	int32_t ___value__;
+};
+struct ActivationContext_tE4A92D122914000A97CCE75611D65D0C3F43B83E  : public RuntimeObject
+{
+	ApplicationIdentity_t9777922DFFCD263603086BAC4B2D85D3461F6D35* ____appid;
+	int32_t ____form;
+	bool ____disposed;
+};
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2  : public RuntimeObject
+{
+	String_t* ___name;
+	String_t* ___codebase;
+	int32_t ___major;
+	int32_t ___minor;
+	int32_t ___build;
+	int32_t ___revision;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___cultureinfo;
+	int32_t ___flags;
+	int32_t ___hashalg;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___publicKey;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keyToken;
+	int32_t ___versioncompat;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
+	int32_t ___processor_architecture;
+	int32_t ___contentType;
+};
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_pinvoke
+{
+	char* ___name;
+	char* ___codebase;
+	int32_t ___major;
+	int32_t ___minor;
+	int32_t ___build;
+	int32_t ___revision;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___cultureinfo;
+	int32_t ___flags;
+	int32_t ___hashalg;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
+	Il2CppSafeArray* ___publicKey;
+	Il2CppSafeArray* ___keyToken;
+	int32_t ___versioncompat;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
+	int32_t ___processor_architecture;
+	int32_t ___contentType;
+};
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_com
+{
+	Il2CppChar* ___name;
+	Il2CppChar* ___codebase;
+	int32_t ___major;
+	int32_t ___minor;
+	int32_t ___build;
+	int32_t ___revision;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___cultureinfo;
+	int32_t ___flags;
+	int32_t ___hashalg;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair;
+	Il2CppSafeArray* ___publicKey;
+	Il2CppSafeArray* ___keyToken;
+	int32_t ___versioncompat;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version;
+	int32_t ___processor_architecture;
+	int32_t ___contentType;
+};
+struct EnvironmentPermission_t247956283B0AAEF7F88ED670FE2DAADF5E49F116  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ____state;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___readList;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___writeList;
+};
+struct FileCodeGroup_t0F0DB4877A3D5F372230DFFA011BC63008C07A8A  : public CodeGroup_t6B4266B514409D1D133613ACB3916F21D9F143E4
+{
+	int32_t ___m_access;
+};
+struct FileDialogPermission_tB3BDF82D6DD1332525D4874B1798EDE2860F06EF  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ____access;
+};
+struct FileIOPermission_tB05EA95DF21FD768E01A7F5E59348AFC7880B40F  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	bool ___m_Unrestricted;
+	int32_t ___m_AllFilesAccess;
+	int32_t ___m_AllLocalFilesAccess;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___readList;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___writeList;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___appendList;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___pathList;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
+	String_t* ___name;
+	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
+	bool ___isExposed;
+	int64_t ___append_startpos;
+	int32_t ___access;
+	bool ___owner;
+	bool ___async;
+	bool ___canseek;
+	bool ___anonymous;
+	bool ___buf_dirty;
+	int32_t ___buf_size;
+	int32_t ___buf_length;
+	int32_t ___buf_offset;
+	int64_t ___buf_start;
+};
+struct HostProtectionPermission_t39CBA69CBDE9FF37252C79977D3BAE01A8CE6D43  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ____resources;
+};
+struct IsolatedStoragePermission_tA3118785FCFF33501F57EBB1C325D7FBF5EB66FC  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int64_t ___m_userQuota;
+	int64_t ___m_machineQuota;
+	int64_t ___m_expirationDays;
+	bool ___m_permanentData;
+	int32_t ___m_allowed;
+};
+struct KeyContainerPermission_tC65ACB0E34BCCB4B26B0C2A37967860757ACDED4  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	KeyContainerPermissionAccessEntryCollection_tB23D4DAF72B3AD7ED358F4A519C5BEC6EEAB559E* ____accessEntries;
+	int32_t ____flags;
+};
+struct KeyContainerPermissionAccessEntry_t45BAD23F2A994C88DA1665931F044E6D21CB5096  : public RuntimeObject
+{
+	int32_t ____flags;
+	String_t* ____containerName;
+	int32_t ____spec;
+	String_t* ____store;
+	String_t* ____providerName;
+	int32_t ____type;
+};
+struct PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240  : public RuntimeObject
+{
+	int32_t ___state;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___list;
+	PolicyLevel_tFB4CCD3D57997042AD30AD3D95BE54D89E4D3C89* ____policyLevel;
+	bool ____declsec;
+	bool ____readOnly;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ____ignored;
+};
+struct PolicyLevel_tFB4CCD3D57997042AD30AD3D95BE54D89E4D3C89  : public RuntimeObject
+{
+	String_t* ___label;
+	CodeGroup_t6B4266B514409D1D133613ACB3916F21D9F143E4* ___root_code_group;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___full_trust_assemblies;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___named_permission_sets;
+	String_t* ____location;
+	int32_t ____type;
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___fullNames;
+	SecurityElement_tA7337C2977BEC2323B0A3EE95C1C6422013F4E55* ___xml;
+};
+struct PolicyStatement_tBC9D692567EF20995DEAD637B82F8408E5406181  : public RuntimeObject
+{
+	PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240* ___perms;
+	int32_t ___attrs;
+};
+struct ReflectionPermission_t2027B79053C870ADD27747695AB5DB8628D69CC0  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ___flags;
+};
+struct RegistryPermission_t717887191C74F22FF3256833E366F77D50B5B9E0  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ____state;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___createList;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___readList;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___writeList;
+};
+struct SecurityAttribute_tB79F828B77F1B081DD57CEF810E748C7C871D7C5  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___m_Action;
+	bool ___m_Unrestricted;
+};
+struct SecurityPermission_t3D031F3D02A241DA751E50E18C5977E59405FF70  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ___flags;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
+{
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StrongNameIdentityPermission_t5A1E6BA9BA2E3C319867C349357F2165C82AA511  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ____state;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ____list;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct TrustManagerContext_t7779258C61E48DE8C0A4A402E43F9645CD999B87  : public RuntimeObject
+{
+	bool ____ignorePersistedDecision;
+	bool ____noPrompt;
+	bool ____keepAlive;
+	bool ____persist;
+	ApplicationIdentity_t9777922DFFCD263603086BAC4B2D85D3461F6D35* ____previousId;
+	int32_t ____ui;
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct UIPermission_tAE7D9CE4AB29EAD142396A9B5AE019351BE14922  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ____window;
+	int32_t ____clipboard;
+};
+struct Zone_t59538DACE016576CAE7FD2E321E918B854676014  : public EvidenceBase_tBE31E679AFC7051B507BFCBA8312B3B095651E2C
+{
+	int32_t ___zone;
+};
+struct ZoneIdentityPermission_tF360C410B3EC4C116590B0A1773A8033EF7FD385  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ___zone;
+};
+struct ZoneMembershipCondition_tD01ED1966591E2826000901CC095D572A3311A39  : public RuntimeObject
+{
+	int32_t ___version;
+	int32_t ___zone;
+};
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ____paramName;
+};
+struct CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE  : public SecurityAttribute_tB79F828B77F1B081DD57CEF810E748C7C871D7C5
+{
+};
+struct FormatException_tCD210E92627903FFEDAAA706C08FB6222B4D012B  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct IsolatedStorageFilePermission_t37607F2CAFD3172D2ECA947B7B68BC9515070D85  : public IsolatedStoragePermission_tA3118785FCFF33501F57EBB1C325D7FBF5EB66FC
+{
+};
+struct NamedPermissionSet_tE1762DB096B3A45291DA354EC7DD1C5A1F74B97C  : public PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240
+{
+	String_t* ___name;
+	String_t* ___description;
+};
+struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct PolicyException_tAEC34EE7C24CF786ED571940395B425F8AF8BED4  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct SecurityException_t025CB4C23107E67E07CF085826B40EDE72F8165C  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ___permissionState;
+	Type_t* ___permissionType;
+	String_t* ____granted;
+	String_t* ____refused;
+	RuntimeObject* ____demanded;
+	RuntimeObject* ____firstperm;
+	MethodInfo_t* ____method;
+	int32_t ____action;
+	RuntimeObject* ____denyset;
+	RuntimeObject* ____permitset;
+	AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* ____assembly;
+	String_t* ____url;
+	int32_t ____zone;
+};
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+};
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+	RuntimeObject* ____actualValue;
 };
 struct EnvironmentPermissionAttribute_t6F56F2AA5E00F0558396993C4D462F215E38C144  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
 {
@@ -1609,54 +1775,8 @@ struct PermissionSetAttribute_t49FE2DCD091F27022470AF275BC740445339E0B9  : publi
 	String_t* ___xml;
 	String_t* ___hex;
 };
-struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
-{
-};
-struct Type_t  : public MemberInfo_t
-{
-	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
-};
-struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-	String_t* ____paramName;
-};
-struct FormatException_tCD210E92627903FFEDAAA706C08FB6222B4D012B  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
 struct IsolatedStorageFilePermissionAttribute_t091ED7201255838733F005CBB4E2A1693ECF6750  : public IsolatedStoragePermissionAttribute_t6C676F4ADC491A809B198F864DD7DAFF36CEA8D5
 {
-};
-struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-struct PolicyException_tAEC34EE7C24CF786ED571940395B425F8AF8BED4  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-struct SecurityException_t025CB4C23107E67E07CF085826B40EDE72F8165C  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-	String_t* ___permissionState;
-	Type_t* ___permissionType;
-	String_t* ____granted;
-	String_t* ____refused;
-	RuntimeObject* ____demanded;
-	RuntimeObject* ____firstperm;
-	MethodInfo_t* ____method;
-	int32_t ____action;
-	RuntimeObject* ____denyset;
-	RuntimeObject* ____permitset;
-	AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* ____assembly;
-	String_t* ____url;
-	int32_t ____zone;
-};
-struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
-{
-};
-struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
-{
-	RuntimeObject* ____actualValue;
 };
 struct CodeConnectAccess_t33D3317A4B33E9DB2CF02E3EB0272EAAF12D0456_StaticFields
 {
@@ -1700,11 +1820,6 @@ struct MembershipConditionHelper_t04677B41635049121388C71B834EBDC67C8F4CCD_Stati
 {
 	String_t* ___XmlTag;
 };
-struct PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240_StaticFields
-{
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___psUnrestricted;
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___action;
-};
 struct SecurityElement_tA7337C2977BEC2323B0A3EE95C1C6422013F4E55_StaticFields
 {
 	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___invalid_tag_chars;
@@ -1744,11 +1859,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 {
 	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray;
 };
-struct FileIOPermission_tB05EA95DF21FD768E01A7F5E59348AFC7880B40F_StaticFields
-{
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___BadPathNameCharacters;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___BadFileNameCharacters;
-};
 struct NetCodeGroup_t0F9C391E393DF635209D801434F32BA2E0A8FB66_StaticFields
 {
 	String_t* ___AbsentOriginScheme;
@@ -1761,10 +1871,6 @@ struct SiteIdentityPermission_t70730B0EA2980EBFC188FFC9AB07B84B3CB8353C_StaticFi
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 {
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null;
-};
-struct StrongNameIdentityPermission_t5A1E6BA9BA2E3C319867C349357F2165C82AA511_StaticFields
-{
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___defaultVersion;
 };
 struct TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7_StaticFields
 {
@@ -1779,11 +1885,6 @@ struct Exception_t_StaticFields
 {
 	RuntimeObject* ___s_EDILock;
 };
-struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
-{
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle;
-	RuntimeObject* ___buf_recycle_lock;
-};
 struct StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B_StaticFields
 {
 	StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* ___Null;
@@ -1791,6 +1892,25 @@ struct StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B_StaticFields
 struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4_StaticFields
 {
 	StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* ___Null;
+};
+struct FileIOPermission_tB05EA95DF21FD768E01A7F5E59348AFC7880B40F_StaticFields
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___BadPathNameCharacters;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___BadFileNameCharacters;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle;
+	RuntimeObject* ___buf_recycle_lock;
+};
+struct PermissionSet_t1E1A3526A8CB8CF06B47C292D349FC06F93A0240_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___psUnrestricted;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___action;
+};
+struct StrongNameIdentityPermission_t5A1E6BA9BA2E3C319867C349357F2165C82AA511_StaticFields
+{
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___defaultVersion;
 };
 struct Type_t_StaticFields
 {
@@ -3722,6 +3842,14 @@ IL_00c4:
 		return (bool)0;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -14905,6 +15033,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrustManagerContext_set_UIContext_mD71E0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnionCodeGroup__ctor_mC7230AD1463F855498A0DD2EC05649C195147DFA (UnionCodeGroup_t700E48BFC246BF4142DBE18E6C80C1D07428D375* __this, RuntimeObject* ___0_membershipCondition, PolicyStatement_tBC9D692567EF20995DEAD637B82F8408E5406181* ___1_policy, const RuntimeMethod* method) 
 {
 	{
@@ -17048,6 +17184,70 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SecurityElement_tA7337C2977BEC2323B0A3EE95C1C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CodeAccessSecurityAttribute__ctor_mC4EB601DAE9787003AB1A2D8BDE8B3A9CB3BEE72 (CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE* __this, int32_t ___0_action, const RuntimeMethod* method) 
 {
 	{
@@ -18731,6 +18931,14 @@ IL_0088:
 		return L_28;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -21804,6 +22012,14 @@ IL_0098:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileIOPermissionAttribute__ctor_m597960AB3856429323D5F1BD9E549A9A4392E4D8 (FileIOPermissionAttribute_t87BCC3A603D4B52128296DF9107FD5D698E1FDC9* __this, int32_t ___0_action, const RuntimeMethod* method) 
 {
 	{
@@ -22949,6 +23165,14 @@ IL_001e:
 		return G_B4_0;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -25623,6 +25847,14 @@ IL_0032:
 		return (bool)1;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

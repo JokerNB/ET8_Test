@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.RegisterPanel
 {
+	[EnableClass]
 	public partial class FUI_UIRegister: GComponent
 	{
 		public GLoader3D GLoad_1;

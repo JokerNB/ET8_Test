@@ -4,6 +4,7 @@ using FairyGUI;
 
 namespace ET.Client
 {
+	[EnableClass]
 	public class RegisterPanelBinder
 	{
 		public static void BindAll()

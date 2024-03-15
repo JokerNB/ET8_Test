@@ -1,31 +1,31 @@
-namespace ET;
-
-[EntitySystemOf(typeof(ServerInfosComponent))]
-[FriendOf(typeof(ServerInfosComponent))]
-[FriendOfAttribute(typeof(ET.ServerInfo))]
-public static partial class ServerInfosComponentSystem
+namespace ET
 {
-    [EntitySystem]
-    private static void Awake(this ET.ServerInfosComponent self)
+    [EntitySystemOf(typeof(ServerInfosComponent))]
+    [FriendOf(typeof(ServerInfosComponent))]
+    [FriendOfAttribute(typeof(ET.ServerInfo))]
+    public static partial class ServerInfosComponentSystem
     {
-
-    }
-
-    public static void ClearServerInfo(this ServerInfosComponent self)
-    {
-        foreach (ServerInfo serverInfo in self.ServerInfosList)
+        private static void Awake(this ET.ServerInfosComponent self)
         {
-            serverInfo?.Dispose();
-        }
-        self.ServerInfosList.Clear();
-    }
 
-    public static void AddServerInfo(this ServerInfosComponent self, ServerListInfo serverListInfo)
-    {
-        var serverInfo = self.AddChild<ServerInfo>();
-        serverInfo.ServerZone = serverListInfo.Zone;
-        serverInfo.Name = serverListInfo.Name;
-        serverInfo.Status = serverListInfo.Status;
-        self.ServerInfosList.Add(serverInfo);
+        }
+
+        public static void ClearServerInfo(this ServerInfosComponent self)
+        {
+            foreach (ServerInfo serverInfo in self.ServerInfosList)
+            {
+                serverInfo?.Dispose();
+            }
+            self.ServerInfosList.Clear();
+        }
+
+        public static void AddServerInfo(this ServerInfosComponent self, ServerListInfo serverListInfo)
+        {
+            var serverInfo = self.AddChild<ServerInfo>();
+            serverInfo.ServerZone = serverListInfo.Zone;
+            serverInfo.Name = serverListInfo.Name;
+            serverInfo.Status = serverListInfo.Status;
+            self.ServerInfosList.Add(serverInfo);
+        }
     }
 }

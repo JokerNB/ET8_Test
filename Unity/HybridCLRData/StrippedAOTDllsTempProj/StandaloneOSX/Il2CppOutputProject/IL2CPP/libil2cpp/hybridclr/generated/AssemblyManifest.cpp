@@ -5,10 +5,10 @@ namespace hybridclr
 	const char* g_placeHolderAssemblies[] =
 	{
 		//!!!{{PLACE_HOLDER
-		"Model",
-		"Hotfix",
-		"Unity.AllHotfix",
-		"Unity.AllModel",
+		"Unity.Model",
+		"Unity.Hotfix",
+		"Unity.ModelView",
+		"Unity.HotfixView",
 
 		//!!!}}PLACE_HOLDER
 		nullptr,

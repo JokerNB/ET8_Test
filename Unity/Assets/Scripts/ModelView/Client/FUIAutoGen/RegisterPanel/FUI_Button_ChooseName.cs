@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.RegisterPanel
 {
+	[EnableClass]
 	public partial class FUI_Button_ChooseName: GButton
 	{
 		public const string URL = "ui://1ohm0ryslxtc1";

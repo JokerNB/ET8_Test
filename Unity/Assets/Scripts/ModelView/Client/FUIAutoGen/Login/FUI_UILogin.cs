@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.Login
 {
+	[EnableClass]
 	public partial class FUI_UILogin: GComponent
 	{
 		public GTextInput Account;

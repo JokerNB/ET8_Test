@@ -4,6 +4,7 @@ using FairyGUI;
 
 namespace ET.Client
 {
+	[EnableClass]
 	public class LobbyBinder
 	{
 		public static void BindAll()

@@ -166,6 +166,15 @@ struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F
 {
 	double ___m_value;
 };
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
 struct Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 
 {
 	uint64_t ___u64_0;
@@ -272,51 +281,6 @@ struct __StaticArrayInitTypeSizeU3D32_tF5E240ACF4B30B5A5F8C77E9E49CC2F8559D76D9
 struct PreserveAttribute_tA1799B67558808CC16DE11D04CC1D42AAA569133  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 };
-struct FormatOptions_tBD49C0C9CC14282D1249620565FC537D4D4AFB84 
-{
-	uint8_t ___Kind;
-	int8_t ___AlignAndSize;
-	uint8_t ___Specifier;
-	bool ___Lowercase;
-};
-struct FormatOptions_tBD49C0C9CC14282D1249620565FC537D4D4AFB84_marshaled_pinvoke
-{
-	uint8_t ___Kind;
-	int8_t ___AlignAndSize;
-	uint8_t ___Specifier;
-	int32_t ___Lowercase;
-};
-struct FormatOptions_tBD49C0C9CC14282D1249620565FC537D4D4AFB84_marshaled_com
-{
-	uint8_t ___Kind;
-	int8_t ___AlignAndSize;
-	uint8_t ___Specifier;
-	int32_t ___Lowercase;
-};
-struct NumberBuffer_tF09E8463D840202ECA50F50BE6D57729C18213B4 
-{
-	uint8_t* ____buffer;
-	int32_t ___Kind;
-	int32_t ___DigitsCount;
-	int32_t ___Scale;
-	bool ___IsNegative;
-};
-struct NumberBuffer_tF09E8463D840202ECA50F50BE6D57729C18213B4_marshaled_pinvoke
-{
-	uint8_t* ____buffer;
-	int32_t ___Kind;
-	int32_t ___DigitsCount;
-	int32_t ___Scale;
-	int32_t ___IsNegative;
-};
-struct NumberBuffer_tF09E8463D840202ECA50F50BE6D57729C18213B4_marshaled_com
-{
-	uint8_t* ____buffer;
-	int32_t ___Kind;
-	int32_t ___DigitsCount;
-	int32_t ___Scale;
-	int32_t ___IsNegative;
-};
 struct PreserveAttribute_t54BBA699FC0C1DD99BED77D21CADC33A352E1999  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 };
@@ -386,11 +350,9 @@ struct U3Cm_blocksU3Ee__FixedBuffer_tBBE20C4EF7009465021F0375E2128D5DCFF59F7C
 		uint8_t U3Cm_blocksU3Ee__FixedBuffer_tBBE20C4EF7009465021F0375E2128D5DCFF59F7C__padding[140];
 	};
 };
-struct BurstCompileAttribute_t35957F7418CF3B99A40C9E1C66CD3C56094A2C9D  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
 {
-	int32_t ___U3CFloatModeU3Ek__BackingField;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____disableSafetyChecks;
-	int32_t ___U3COptimizeForU3Ek__BackingField;
+	int32_t ___value__;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -440,8 +402,16 @@ struct Delegate_t_marshaled_com
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
 };
+struct FloatMode_tDC3F356BC27E1F5679A5E086A0F21FFC5F0C26D3 
+{
+	int32_t ___value__;
+};
 struct MethodInfo_t  : public MethodBase_t
 {
+};
+struct OptimizeFor_t339A85AACF023BDAE526D08DF6DF26BC91D819A0 
+{
+	int32_t ___value__;
 };
 struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
 {
@@ -451,10 +421,32 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 {
 	intptr_t ___value;
 };
+struct BurstLogType_t32BAD4D4FA2FDDC811A5259BE8EDB83420F37651 
+{
+	int32_t ___value__;
+};
+struct CutoffMode_tD217C369361D912E502CBA1D5D85FE6E0DA0393E 
+{
+	int32_t ___value__;
+};
+struct NumberBufferKind_t73D318B7611BA8F3C16006DDDBB90959AD1C3B86 
+{
+	int32_t ___value__;
+};
+struct NumberFormatKind_t0CCF7872121CBA35A7D6296565B4A7554FB275E4 
+{
+	uint8_t ___value__;
+};
 struct tBigInt_t6A436AD3913A2950571338A5018B48B299987358 
 {
 	int32_t ___m_length;
 	U3Cm_blocksU3Ee__FixedBuffer_tBBE20C4EF7009465021F0375E2128D5DCFF59F7C ___m_blocks;
+};
+struct BurstCompileAttribute_t35957F7418CF3B99A40C9E1C66CD3C56094A2C9D  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___U3CFloatModeU3Ek__BackingField;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____disableSafetyChecks;
+	int32_t ___U3COptimizeForU3Ek__BackingField;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -471,6 +463,51 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct FormatOptions_tBD49C0C9CC14282D1249620565FC537D4D4AFB84 
+{
+	uint8_t ___Kind;
+	int8_t ___AlignAndSize;
+	uint8_t ___Specifier;
+	bool ___Lowercase;
+};
+struct FormatOptions_tBD49C0C9CC14282D1249620565FC537D4D4AFB84_marshaled_pinvoke
+{
+	uint8_t ___Kind;
+	int8_t ___AlignAndSize;
+	uint8_t ___Specifier;
+	int32_t ___Lowercase;
+};
+struct FormatOptions_tBD49C0C9CC14282D1249620565FC537D4D4AFB84_marshaled_com
+{
+	uint8_t ___Kind;
+	int8_t ___AlignAndSize;
+	uint8_t ___Specifier;
+	int32_t ___Lowercase;
+};
+struct NumberBuffer_tF09E8463D840202ECA50F50BE6D57729C18213B4 
+{
+	uint8_t* ____buffer;
+	int32_t ___Kind;
+	int32_t ___DigitsCount;
+	int32_t ___Scale;
+	bool ___IsNegative;
+};
+struct NumberBuffer_tF09E8463D840202ECA50F50BE6D57729C18213B4_marshaled_pinvoke
+{
+	uint8_t* ____buffer;
+	int32_t ___Kind;
+	int32_t ___DigitsCount;
+	int32_t ___Scale;
+	int32_t ___IsNegative;
+};
+struct NumberBuffer_tF09E8463D840202ECA50F50BE6D57729C18213B4_marshaled_com
+{
+	uint8_t* ____buffer;
+	int32_t ___Kind;
+	int32_t ___DigitsCount;
+	int32_t ___Scale;
+	int32_t ___IsNegative;
 };
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
 {
@@ -777,6 +814,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FormatOptions_ToString_m96B89E42F1553D5D3B78D7238443ACC628EFB488 (FormatOptions_tBD49C0C9CC14282D1249620565FC537D4D4AFB84* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Hash128__ctor_m0B61E717B3FF7D7BBD8FF12C8C8327C18A2AAAF3 (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40* __this, uint64_t ___0_u64_0, uint64_t ___1_u64_1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* BurstCompilerService_GetOrCreateSharedMemory_m1293EB3119CBEE41DBCC0E3B2235601BD927BFE6 (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40* ___0_key, uint32_t ___1_size_of, uint32_t ___2_alignment, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -7101,6 +7154,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreserveAttribute__ctor_mBA1653B32D31972
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C void NumberBuffer_tF09E8463D840202ECA50F50BE6D57729C18213B4_marshal_pinvoke(const NumberBuffer_tF09E8463D840202ECA50F50BE6D57729C18213B4& unmarshaled, NumberBuffer_tF09E8463D840202ECA50F50BE6D57729C18213B4_marshaled_pinvoke& marshaled)
 {
 	marshaled.____buffer = unmarshaled.____buffer;
@@ -7194,6 +7255,14 @@ IL2CPP_EXTERN_C  uint8_t* NumberBuffer_GetDigitsPointer_m877C617CEE264BE12DE38D7
 	_returnValue = NumberBuffer_GetDigitsPointer_m877C617CEE264BE12DE38D7289D741ED39B99846_inline(_thisAdjusted, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -7563,6 +7632,14 @@ IL2CPP_EXTERN_C  void tBigInt_SetU32_m9EF2E1018CDA89AED4F0FA625E91878BF1772233_A
 	_thisAdjusted = reinterpret_cast<tBigInt_t6A436AD3913A2950571338A5018B48B299987358*>(__this + _offset);
 	tBigInt_SetU32_m9EF2E1018CDA89AED4F0FA625E91878BF1772233(_thisAdjusted, ___0_val, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

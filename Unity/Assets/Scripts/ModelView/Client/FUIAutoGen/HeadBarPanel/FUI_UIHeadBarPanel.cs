@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.HeadBarPanel
 {
+	[EnableClass]
 	public partial class FUI_UIHeadBarPanel: GComponent
 	{
 		public GTextField NickName;

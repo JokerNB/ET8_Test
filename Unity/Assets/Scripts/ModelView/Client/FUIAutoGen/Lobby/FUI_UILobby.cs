@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.Lobby
 {
+	[EnableClass]
 	public partial class FUI_UILobby: GComponent
 	{
 		public ET.Client.Lobby.FUI_Button_EntryMap Button_EntryMap;

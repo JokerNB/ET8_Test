@@ -1,9 +1,10 @@
-namespace ET.Server;
-
-[ChildOf(typeof(AccountInfosComponent))]
-public class AccountInfo : Entity,IAwake
+namespace ET.Server
 {
-    public string Account;
-    public string Password;
-    public string NickName;
+    [ChildOf(typeof(AccountInfosComponent))]
+    public class AccountInfo : Entity,IAwake
+    {
+        public string Account;
+        public string Password;
+        public string NickName;
+    }
 }

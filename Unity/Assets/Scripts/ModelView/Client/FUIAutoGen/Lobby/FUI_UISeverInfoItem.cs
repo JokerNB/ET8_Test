@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.Lobby
 {
+	[EnableClass]
 	public partial class FUI_UISeverInfoItem: GButton
 	{
 		public Controller States;

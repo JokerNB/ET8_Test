@@ -11,7 +11,9 @@
         "Unity.Hotfix",
         "Unity.ModelView",
         "YooAsset",
-        "spine-unity"
+        "spine-unity",
+        "FairyGUI",
+        "FairyGUI.Dyanmic"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

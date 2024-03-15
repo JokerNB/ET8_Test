@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.Lobby
 {
+	[EnableClass]
 	public partial class FUI_Button_EntryMap: GButton
 	{
 		public const string URL = "ui://5ldhuisnkoj01";

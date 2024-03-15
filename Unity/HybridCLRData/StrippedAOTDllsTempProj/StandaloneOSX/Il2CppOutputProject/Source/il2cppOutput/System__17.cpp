@@ -1408,14 +1408,6 @@ struct NetworkCredential_tC8E2931557131BA3E6F42A8E1E2A10EC62567313  : public Run
 struct SSPIHandleCache_tEC23B4D911068A5663F39BD23EE0F2708C9C7119  : public RuntimeObject
 {
 };
-struct SecurityBuffer_t70570BCF95F8F18A147D64B27DF3954FFD25CA4E  : public RuntimeObject
-{
-	int32_t ___size;
-	int32_t ___type;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___token;
-	SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* ___unmanagedToken;
-	int32_t ___offset;
-};
 struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37  : public RuntimeObject
 {
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_members;
@@ -1431,72 +1423,8 @@ struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37  : public Run
 	bool ___isAssemblyNameSetExplicit;
 	bool ___requireSameTokenInPartialTrust;
 };
-struct Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E  : public RuntimeObject
-{
-	CachedEventArgs_tF0692E89962FD1A045B17BC985F838C11FB6822C* ____cachedTaskEventArgs;
-	bool ___is_closed;
-	bool ___is_listening;
-	bool ___useOverlappedIO;
-	int32_t ___linger_timeout;
-	int32_t ___addressFamily;
-	int32_t ___socketType;
-	int32_t ___protocolType;
-	SafeSocketHandle_t5A597D30D951E736B750ED09D5B3AB72F98407EE* ___m_Handle;
-	EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* ___seed_endpoint;
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ___ReadSem;
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ___WriteSem;
-	bool ___is_blocking;
-	bool ___is_bound;
-	bool ___is_connected;
-	int32_t ___m_IntCleanedUp;
-	bool ___connect_in_progress;
-	int32_t ___ID;
-};
-struct SslAuthenticationOptions_tE0F69275DF65478BFE9CCBB6BCEDA67D6665C2F9  : public RuntimeObject
-{
-	bool ___U3CAllowRenegotiationU3Ek__BackingField;
-	String_t* ___U3CTargetHostU3Ek__BackingField;
-	X509CertificateCollection_t2900D71D188EDCA7DEB5077D36103EE5DA6805CE* ___U3CClientCertificatesU3Ek__BackingField;
-	List_1_tA978339DE9FC9825476585DD52ED874FBC575EC1* ___U3CApplicationProtocolsU3Ek__BackingField;
-	bool ___U3CIsServerU3Ek__BackingField;
-	RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___U3CRemoteCertificateValidationCallbackU3Ek__BackingField;
-	LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* ___U3CLocalCertificateSelectionCallbackU3Ek__BackingField;
-	X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___U3CServerCertificateU3Ek__BackingField;
-	int32_t ___U3CEnabledSslProtocolsU3Ek__BackingField;
-	int32_t ___U3CCertificateRevocationCheckModeU3Ek__BackingField;
-	int32_t ___U3CEncryptionPolicyU3Ek__BackingField;
-	bool ___U3CRemoteCertRequiredU3Ek__BackingField;
-	bool ___U3CCheckCertNameU3Ek__BackingField;
-	RemoteCertValidationCallback_t39221C3396E26C20BC15142F2C02FAAD52764B7E* ___U3CCertValidationDelegateU3Ek__BackingField;
-	LocalCertSelectionCallback_t3AB79A8AA642074A3EF886118963EEA3CCABABE2* ___U3CCertSelectionDelegateU3Ek__BackingField;
-	ServerCertSelectionCallback_t653386CAEAE0236FCF61A92963AB1646BB23C654* ___U3CServerCertSelectionDelegateU3Ek__BackingField;
-};
-struct SslClientAuthenticationOptions_tA5277DAACAFB33887D2513D9399C5154B0D5CBC9  : public RuntimeObject
-{
-	int32_t ____encryptionPolicy;
-	int32_t ____checkCertificateRevocation;
-	int32_t ____enabledSslProtocols;
-	bool ____allowRenegotiation;
-	LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* ___U3CLocalCertificateSelectionCallbackU3Ek__BackingField;
-	RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___U3CRemoteCertificateValidationCallbackU3Ek__BackingField;
-	List_1_tA978339DE9FC9825476585DD52ED874FBC575EC1* ___U3CApplicationProtocolsU3Ek__BackingField;
-	String_t* ___U3CTargetHostU3Ek__BackingField;
-	X509CertificateCollection_t2900D71D188EDCA7DEB5077D36103EE5DA6805CE* ___U3CClientCertificatesU3Ek__BackingField;
-};
 struct SslClientAuthenticationOptionsExtensions_t1A5BB5861BCD09F6D3AD80EDC6C03010C8B1D29E  : public RuntimeObject
 {
-};
-struct SslServerAuthenticationOptions_tB71339A38CEE0BA50AA270950FA76FD79E4B76B4  : public RuntimeObject
-{
-	int32_t ____checkCertificateRevocation;
-	int32_t ____enabledSslProtocols;
-	int32_t ____encryptionPolicy;
-	bool ____allowRenegotiation;
-	bool ___U3CClientCertificateRequiredU3Ek__BackingField;
-	List_1_tA978339DE9FC9825476585DD52ED874FBC575EC1* ___U3CApplicationProtocolsU3Ek__BackingField;
-	RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___U3CRemoteCertificateValidationCallbackU3Ek__BackingField;
-	ServerCertificateSelectionCallback_t1F64DB44DD65FFF0C96A44AF8D2F9AEAAA6909BA* ___U3CServerCertificateSelectionCallbackU3Ek__BackingField;
-	X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___U3CServerCertificateU3Ek__BackingField;
 };
 struct String_t  : public RuntimeObject
 {
@@ -1535,16 +1463,6 @@ struct Timeout_tDBB45B56C59D1AF9A6B1EC5F1E3200D12AB18E41  : public RuntimeObject
 struct TransportContext_t8E75C0028C35B0299B6A316F510DCEE36D214CD4  : public RuntimeObject
 {
 };
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
-{
-	String_t* ___m_String;
-	String_t* ___m_originalUnicodeString;
-	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax;
-	String_t* ___m_DnsSafeHost;
-	uint64_t ___m_Flags;
-	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info;
-	bool ___m_iriParsing;
-};
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
 };
@@ -1559,12 +1477,6 @@ struct WebSocket_tE3DEAFF0F68BD5AF9A526D29D56B6E5C6E24C3A1  : public RuntimeObje
 };
 struct WebSocketContext_t113E01458E26DF51C5751B97F2C6C876237805ED  : public RuntimeObject
 {
-};
-struct WebSocketHandle_t9C8D33BD3D8553B1FD363A68ABDF5B81FC089F50  : public RuntimeObject
-{
-	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____abortSource;
-	int32_t ____state;
-	WebSocket_tE3DEAFF0F68BD5AF9A526D29D56B6E5C6E24C3A1* ____webSocket;
 };
 struct WriteStateInfoBase_tE946153D402BD9CBFBE92EF2153ABA93272AF302  : public RuntimeObject
 {
@@ -1582,14 +1494,6 @@ struct X509Certificate2Enumerator_t22D702E84069BAFE855F2A160A391D77A05090EC  : p
 struct X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5  : public RuntimeObject
 {
 	X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* ___impl;
-};
-struct X509Store_t19E126FCB4003D01A2DE6CE2C35E9E71E97D08E6  : public RuntimeObject
-{
-	String_t* ____name;
-	int32_t ____location;
-	X509Certificate2Collection_t703D5135E74BA606B564EF174E08964B9C3DADEB* ___list;
-	int32_t ____flags;
-	X509Store_tC2D674DE1D07619474A1D17B132DDA911F9FD661* ___store;
 };
 struct DefaultWebProxy_tE68B709175115D650A1E17167B8D42EEED3825C6  : public RuntimeObject
 {
@@ -1624,14 +1528,6 @@ struct MimePartContext_t716B4C9BDF0CC4B693921B0333A265D0DD25BEAB  : public Runti
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer;
 	bool ____completed;
 	bool ____completedSynchronously;
-};
-struct U3CU3Ec__DisplayClass69_0_tD1E341B71A1080C2249E1F57D3BBD8B6C5C21D2A  : public RuntimeObject
-{
-	NegotiateStream_tA3AC3B6632144B3D25DB19E952AEFF4E910015E5* ___U3CU3E4__this;
-	NetworkCredential_tC8E2931557131BA3E6F42A8E1E2A10EC62567313* ___credential;
-	String_t* ___targetName;
-	int32_t ___requiredProtectionLevel;
-	int32_t ___allowedImpersonationLevel;
 };
 struct U3CU3Ec__DisplayClass21_0_t651FDD00AC35BAE47495F8C7D934432BEC7A178C  : public RuntimeObject
 {
@@ -1738,16 +1634,6 @@ struct Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01
 {
 	bool ___hasValue;
 	bool ___value;
-};
-struct Nullable_1_t9A98093485034F2B86BC66B725022122E0E5B2A4 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_t4936015D54B4E5C3191E452324F5F52BD55E1284 
-{
-	bool ___hasValue;
-	int32_t ___value;
 };
 struct ReadOnlyMemory_1_t63F301BF893B0AB689953D86A641168CA66D2399 
 {
@@ -1942,40 +1828,10 @@ struct OrdinalComparer_tBB06915E213A5D4C8C617ED5478E8BF30C2B2170  : public Strin
 struct SHA1_t0612ADACADC25FB4C22525A579B30354586F0CEE  : public HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D
 {
 };
-struct SecurityStatusPal_t6B278DE9D48F48DEA8E0242EBBDAF48F3E96119F 
-{
-	int32_t ___ErrorCode;
-	Exception_t* ___Exception;
-};
-struct SecurityStatusPal_t6B278DE9D48F48DEA8E0242EBBDAF48F3E96119F_marshaled_pinvoke
-{
-	int32_t ___ErrorCode;
-	Exception_t_marshaled_pinvoke* ___Exception;
-};
-struct SecurityStatusPal_t6B278DE9D48F48DEA8E0242EBBDAF48F3E96119F_marshaled_com
-{
-	int32_t ___ErrorCode;
-	Exception_t_marshaled_com* ___Exception;
-};
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
 	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask;
 	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	RuntimeObject* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
 };
 struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
 {
@@ -2006,11 +1862,6 @@ struct ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F
 	int16_t ____token;
 	bool ____continueOnCapturedContext;
 };
-struct ValueWebSocketReceiveResult_tF522CA3AD4EF7C410B08C77195408C5F82454E05 
-{
-	uint32_t ____countAndEndOfMessage;
-	int32_t ____messageType;
-};
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
 {
 	union
@@ -2038,13 +1889,6 @@ struct ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled
 {
 	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task;
 	int32_t ___m_continueOnCapturedContext;
-};
-struct MessageHeader_tE18ECF225BF4676569B3F11CD425FF3EF6DF80F0 
-{
-	uint8_t ___Opcode;
-	bool ___Fin;
-	int64_t ___PayloadLength;
-	int32_t ___Mask;
 };
 struct MimePartAsyncResult_t86DA2CCEAE1B7FCB0E0101DD0FC447E6B1418DC6  : public LazyAsyncResult_t60F482D5C9A613C3ED0567BEC367D54A5459716B
 {
@@ -2112,17 +1956,18 @@ struct Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC
 	bool ___hasValue;
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___value;
 };
-struct ValueTask_1_t17A48313E72CC0BA25340C6413AFEEA87DE49EE1 
+struct AddressFamily_t01AA8C9FD15E4727B241F1F453D88444337C7524 
 {
-	RuntimeObject* ____obj;
-	ValueWebSocketReceiveResult_tF522CA3AD4EF7C410B08C77195408C5F82454E05 ____result;
-	int16_t ____token;
-	bool ____continueOnCapturedContext;
+	int32_t ___value__;
 };
 struct AuthenticatedStream_t8DCF41E151F705E2494FC7836F5E2EF7C539FA39  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____InnerStream;
 	bool ____LeaveStreamOpen;
+};
+struct AuthenticationLevel_tD91F6CE700057352B4F45FC290E35B9E936DECAF 
+{
+	int32_t ___value__;
 };
 struct CancellationTokenRegistration_tC925A8BC86C629A2A3DA73765FA964A95FC83389 
 {
@@ -2139,6 +1984,10 @@ struct CancellationTokenRegistration_tC925A8BC86C629A2A3DA73765FA964A95FC83389_m
 	CancellationCallbackInfo_tC8BE558ED1E173434DD1919D574C9FAFE501E22D* ___m_callbackInfo;
 	SparselyPopulatedArrayAddInfo_1_t3C73DC53EB2CF8545348E3275C09690FFA1E5359 ___m_registrationInfo;
 };
+struct CipherAlgorithmType_tE6ADFA10102C064ED2676C6ACF0281E313F7F9F8 
+{
+	int32_t ___value__;
+};
 struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C 
 {
 	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___m_configuredTaskAwaiter;
@@ -2150,6 +1999,10 @@ struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C_marshal
 struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C_marshaled_com
 {
 	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled_com ___m_configuredTaskAwaiter;
+};
+struct ContextFlagsPal_t839E2C6FD7D2EC079B3670C8B81DDAC546389643 
+{
+	int32_t ___value__;
 };
 struct CriticalHandle_t9BAF9AE811FE6EADA3E61F3F04CBB238960CFA52  : public CriticalFinalizerObject_t1DCAB623CAEA6529A96F5F3EDE3C7048A6E313C9
 {
@@ -2209,6 +2062,10 @@ struct DelegatedStream_tE9CDC41D236705FF7C3AE48785F1A5FC9701CE76  : public Strea
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
 	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* ____netStream;
 };
+struct EncryptionPolicy_t5BCDD1A5A1B42E3843DBD8B55A1BECBD2A523D99 
+{
+	int32_t ___value__;
+};
 struct Exception_t  : public RuntimeObject
 {
 	String_t* ____className;
@@ -2266,33 +2123,33 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct ExceptionArgument_t60E7F8D9DE5362CBE9365893983C30302D83B778 
+{
+	int32_t ___value__;
+};
+struct ExchangeAlgorithmType_tD749C4726985B9B18DDA62264A5F2A6261326330 
+{
+	int32_t ___value__;
+};
+struct HashAlgorithmType_t2C8D31F078403890365F86C877EF54AC00993927 
+{
+	int32_t ___value__;
+};
 struct HeaderCollection_tA39C89A549E084718E27A5A0DEE818F1F07540FD  : public NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7
 {
 	MimeBasePart_t94D3B272B2B62621998124CBF84706FB3E37B3BB* ____part;
 };
-struct ManagedWebSocket_tFE006AE2E3A7EFDD703AAA7AC6FC035F65695F58  : public WebSocket_tE3DEAFF0F68BD5AF9A526D29D56B6E5C6E24C3A1
+struct MailHeaderID_t18EF837464AFFBD71872ECCB20294964C14F63A4 
 {
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
-	bool ____isServer;
-	String_t* ____subprotocol;
-	Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00* ____keepAliveTimer;
-	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____abortSource;
-	Memory_1_tB7CEF4416F5014E364267478CEF016A4AC5C0036 ____receiveBuffer;
-	Utf8MessageState_tAC717AAC548FCA700FE47E9DF4FFCC61E55AF91D* ____utf8TextState;
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____sendFrameAsyncLock;
-	int32_t ____state;
-	bool ____disposed;
-	bool ____sentCloseFrame;
-	bool ____receivedCloseFrame;
-	Nullable_1_t4936015D54B4E5C3191E452324F5F52BD55E1284 ____closeStatus;
-	String_t* ____closeStatusDescription;
-	MessageHeader_tE18ECF225BF4676569B3F11CD425FF3EF6DF80F0 ____lastReceiveHeader;
-	int32_t ____receiveBufferOffset;
-	int32_t ____receiveBufferCount;
-	int32_t ____receivedMaskOffsetOffset;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____sendBuffer;
-	bool ____lastSendWasFragment;
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ____lastReceiveAsync;
+	int32_t ___value__;
+};
+struct MimeMultiPartType_tC3A20C7EDDAE26EEA672DA617C76E5A74CD188AA 
+{
+	int32_t ___value__;
+};
+struct MonoSslPolicyErrors_t064CCA79859C39247FA94E7DA8DCBD327C650BB7 
+{
+	int32_t ___value__;
 };
 struct NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
@@ -2305,8 +2162,28 @@ struct NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0  : public Stream_
 	int32_t ____currentReadTimeout;
 	int32_t ____currentWriteTimeout;
 };
+struct NormalizationForm_t000C9151F649215BBA45A3AC3FB73C317B86EE7B 
+{
+	int32_t ___value__;
+};
+struct NumberStyles_t567C6CBC2A2B5B5A2C43B2855D158949984A810C 
+{
+	int32_t ___value__;
+};
+struct OpenFlags_t36A7F7746910A2D056E64475F8DE926B5AE2BF00 
+{
+	int32_t ___value__;
+};
 struct OrdinalIgnoreCaseComparer_t8BAE11990A4C855D3BCBBFB42F4EF8D45088FBB0  : public OrdinalComparer_tBB06915E213A5D4C8C617ED5478E8BF30C2B2170
 {
+};
+struct ProtectionLevel_tA6D0828807ABFA9A81D83464BDE45A30846A865A 
+{
+	int32_t ___value__;
+};
+struct ProtocolType_t104D087F8C40460E0FE8D38659949AEA910CD20A 
+{
+	int32_t ___value__;
 };
 struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
 {
@@ -2323,11 +2200,27 @@ struct SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7  : public CriticalFi
 	bool ____ownsHandle;
 	bool ____fullyInitialized;
 };
+struct SecurityBufferType_t7FBA3CC99E2BFFCC77261130018A94FCC2370D35 
+{
+	int32_t ___value__;
+};
+struct SecurityStatusPalErrorCode_tD9C691E6DDCFA33E145B73B73579C272EA54083A 
+{
+	int32_t ___value__;
+};
+struct SeekOrigin_t7EB9AD0EDF26368A40F48FA2098F02160B1E8000 
+{
+	int32_t ___value__;
+};
 struct SmtpDateTime_tC7C7203AFB8B520E52166CD6F3438FCBE639F47B  : public RuntimeObject
 {
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____date;
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ____timeZone;
 	bool ____unknownTimeZone;
+};
+struct SocketType_tEFAA48791CC7B43043CE5B1DE7A54F15DCFE3C52 
+{
+	int32_t ___value__;
 };
 struct SslApplicationProtocol_tB40F12F1093EE37CAE5E107A0D0F709B2F689700 
 {
@@ -2341,12 +2234,41 @@ struct SslApplicationProtocol_tB40F12F1093EE37CAE5E107A0D0F709B2F689700_marshale
 {
 	ReadOnlyMemory_1_t63F301BF893B0AB689953D86A641168CA66D2399 ____readOnlyProtocol;
 };
-struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0  : public RuntimeObject
+struct SslPolicyErrors_t92DF45EC5BA5BEFF38EF53C2C8488B27385EBB08 
 {
-	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___m_defaultCancellationToken;
-	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_defaultScheduler;
-	int32_t ___m_defaultCreationOptions;
-	int32_t ___m_defaultContinuationOptions;
+	int32_t ___value__;
+};
+struct SslProtocols_t21FADB874FCAEC5039AE593AA3544639C938C77E 
+{
+	int32_t ___value__;
+};
+struct StoreLocation_t1B4292CC32103A252CD439258A6C7F766857D620 
+{
+	int32_t ___value__;
+};
+struct StoreName_t9A66D4BB10141BBD14BC206C94CE9928F7259A17 
+{
+	int32_t ___value__;
+};
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
+{
+	int32_t ___value__;
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
+struct TaskContinuationOptions_tF334758E3027B6DCFA9A814B17CE878029537814 
+{
+	int32_t ___value__;
+};
+struct TaskCreationOptions_tB15CB42D61B8958640A7C702A79097B56D5C7ABA 
+{
+	int32_t ___value__;
 };
 struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8  : public RuntimeObject
 {
@@ -2358,20 +2280,37 @@ struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8  : public RuntimeO
 	bool ____supportsDaylightSavingTime;
 	AdjustmentRuleU5BU5D_tE06E08FC55F09158CD673CE867C3771D92906DFA* ____adjustmentRules;
 };
-struct WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8  : public NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7
+struct TlsProtocols_tCC009DAEEFCA5769448145AD24A1193CD5E8541B 
 {
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_CommonHeaders;
-	int32_t ___m_NumCommonHeaders;
-	NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* ___m_InnerCollection;
-	uint16_t ___m_Type;
+	int32_t ___value__;
 };
-struct WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C  : public RuntimeObject
+struct TokenImpersonationLevel_t2DEE263354E7DBC241ED96A71C632A3FAB92013D 
 {
-	int32_t ___U3CCountU3Ek__BackingField;
-	bool ___U3CEndOfMessageU3Ek__BackingField;
-	int32_t ___U3CMessageTypeU3Ek__BackingField;
-	Nullable_1_t4936015D54B4E5C3191E452324F5F52BD55E1284 ___U3CCloseStatusU3Ek__BackingField;
-	String_t* ___U3CCloseStatusDescriptionU3Ek__BackingField;
+	int32_t ___value__;
+};
+struct TransferEncoding_tFC3FEC2F1922AB5DFC03C2D0222A7B23B01CC862 
+{
+	int32_t ___value__;
+};
+struct UriIdnScope_t001CC97A6F977E9BB7DB855CC6BA415A7F47491F 
+{
+	int32_t ___value__;
+};
+struct WebHeaderCollectionType_tC1655E670BE2631562B873B63682846CB798A692 
+{
+	uint16_t ___value__;
+};
+struct WebSocketCloseStatus_tED432212F88FCCA42F59AAA6BCF82962A2CFF4DF 
+{
+	int32_t ___value__;
+};
+struct WebSocketError_tEC1353C241C6481FE77428ABEB57E39B8E6E7672 
+{
+	int32_t ___value__;
+};
+struct WebSocketMessageType_t7EA078C3F0E1D384B2F3B09BDA8CFD61406A9EC9 
+{
+	int32_t ___value__;
 };
 struct WebSocketState_tDA525C32450C7EA01B5D22DAB7A6DAB08AADBF25 
 {
@@ -2393,6 +2332,18 @@ struct X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4  : public Runti
 struct X509Certificate2Collection_t703D5135E74BA606B564EF174E08964B9C3DADEB  : public X509CertificateCollection_t2900D71D188EDCA7DEB5077D36103EE5DA6805CE
 {
 };
+struct X509FindType_t498D1CC078663253211BEC2E671771106253C482 
+{
+	int32_t ___value__;
+};
+struct X509KeyUsageFlags_tA8507F67CB3F1DF68E2126C9D40A62CCF27065BA 
+{
+	int32_t ___value__;
+};
+struct X509RevocationMode_t952728D003111036C0DF94B0F66FF02B7DB04E62 
+{
+	int32_t ___value__;
+};
 struct RawData_t37CAF2D3F74B7723974ED7CEEE9B297D8FA64ED0  : public RuntimeObject
 {
 	intptr_t ___Bounds;
@@ -2411,17 +2362,44 @@ struct RawData_t37CAF2D3F74B7723974ED7CEEE9B297D8FA64ED0_marshaled_com
 	intptr_t ___Count;
 	uint8_t ___Data;
 };
+struct InternalState_t0FF4513504A03CC62A92C9E5D1C095FB70A82905 
+{
+	int32_t ___value__;
+};
+struct MessageOpcode_t1C95E00757D25B320970B2BAF415B7537D337C18 
+{
+	uint8_t ___value__;
+};
+struct Operation_tC35F3423442F066D3B3CB2E5FCC61CEA2D618017 
+{
+	int32_t ___value__;
+};
+struct Flags_t47CF4DB4036A6A539AFA6EE39C75F772E865E897 
+{
+	uint64_t ___value__;
+};
 struct GssBuffer_t6AC970A87594CCF44E5314574627238AD7D7A990 
 {
 	uint64_t ____length;
 	intptr_t ____data;
 };
-struct AsyncValueTaskMethodBuilder_1_t7310F93C43E4A601A50D797E93D81CB94F7E3FA4 
+struct GssFlags_t8D3A70492C472C99E8FE7FBEE1796D56DC88F2B6 
 {
-	AsyncTaskMethodBuilder_1_t6EA1CE6D929CE5C3420646942E8F20D411F6E433 ____methodBuilder;
-	ValueWebSocketReceiveResult_tF522CA3AD4EF7C410B08C77195408C5F82454E05 ____result;
-	bool ____haveResult;
-	bool ____useBuilder;
+	uint32_t ___value__;
+};
+struct Status_t6729DF5CC21822712C5C4D1B2DDF9747D93EB287 
+{
+	uint32_t ___value__;
+};
+struct Nullable_1_t9A98093485034F2B86BC66B725022122E0E5B2A4 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t4936015D54B4E5C3191E452324F5F52BD55E1284 
+{
+	bool ___hasValue;
+	int32_t ___value;
 };
 struct ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D 
 {
@@ -2499,27 +2477,6 @@ struct MobileAuthenticatedStream_tD0306DC2B0CDA3C7DB261C19FFA35CA8EE24309E  : pu
 	String_t* ___U3CTargetHostU3Ek__BackingField;
 	int32_t ___ID;
 };
-struct MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0  : public RuntimeObject
-{
-	MonoRemoteCertificateValidationCallback_t1A389B61998873F6B9A2EE7A11C36333A8AECCA0* ___U3CRemoteCertificateValidationCallbackU3Ek__BackingField;
-	MonoLocalCertificateSelectionCallback_t34F7772BA5ECE38E6CBD4C311F579DD1D4724DE3* ___U3CClientCertificateSelectionCallbackU3Ek__BackingField;
-	Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC ___U3CCertificateValidationTimeU3Ek__BackingField;
-	X509CertificateCollection_t2900D71D188EDCA7DEB5077D36103EE5DA6805CE* ___U3CTrustAnchorsU3Ek__BackingField;
-	RuntimeObject* ___U3CUserSettingsU3Ek__BackingField;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CCertificateSearchPathsU3Ek__BackingField;
-	bool ___U3CSendCloseNotifyU3Ek__BackingField;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CClientCertificateIssuersU3Ek__BackingField;
-	bool ___U3CDisallowUnauthenticatedCertificateRequestU3Ek__BackingField;
-	Nullable_1_t9A98093485034F2B86BC66B725022122E0E5B2A4 ___U3CEnabledProtocolsU3Ek__BackingField;
-	CipherSuiteCodeU5BU5D_t61EC0E6F53394985FFC36DEB587C70F4EE26D435* ___U3CEnabledCiphersU3Ek__BackingField;
-	bool ___cloned;
-	bool ___checkCertName;
-	bool ___checkCertRevocationStatus;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___useServicePointManagerCallback;
-	bool ___skipSystemValidators;
-	bool ___callbackNeedsChain;
-	RuntimeObject* ___certificateValidator;
-};
 struct MulticastDelegate_t  : public Delegate_t
 {
 	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
@@ -2568,6 +2525,93 @@ struct SafeGssNameHandle_tB473EDBBAC685229D4B5691696A774936D8F694B  : public Saf
 struct SafeHandleZeroOrMinusOneIsInvalid_tC152552D137451170B3B1A304227B0ECADB65629  : public SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7
 {
 };
+struct SecurityBuffer_t70570BCF95F8F18A147D64B27DF3954FFD25CA4E  : public RuntimeObject
+{
+	int32_t ___size;
+	int32_t ___type;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___token;
+	SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* ___unmanagedToken;
+	int32_t ___offset;
+};
+struct SecurityStatusPal_t6B278DE9D48F48DEA8E0242EBBDAF48F3E96119F 
+{
+	int32_t ___ErrorCode;
+	Exception_t* ___Exception;
+};
+struct SecurityStatusPal_t6B278DE9D48F48DEA8E0242EBBDAF48F3E96119F_marshaled_pinvoke
+{
+	int32_t ___ErrorCode;
+	Exception_t_marshaled_pinvoke* ___Exception;
+};
+struct SecurityStatusPal_t6B278DE9D48F48DEA8E0242EBBDAF48F3E96119F_marshaled_com
+{
+	int32_t ___ErrorCode;
+	Exception_t_marshaled_com* ___Exception;
+};
+struct Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E  : public RuntimeObject
+{
+	CachedEventArgs_tF0692E89962FD1A045B17BC985F838C11FB6822C* ____cachedTaskEventArgs;
+	bool ___is_closed;
+	bool ___is_listening;
+	bool ___useOverlappedIO;
+	int32_t ___linger_timeout;
+	int32_t ___addressFamily;
+	int32_t ___socketType;
+	int32_t ___protocolType;
+	SafeSocketHandle_t5A597D30D951E736B750ED09D5B3AB72F98407EE* ___m_Handle;
+	EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* ___seed_endpoint;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ___ReadSem;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ___WriteSem;
+	bool ___is_blocking;
+	bool ___is_bound;
+	bool ___is_connected;
+	int32_t ___m_IntCleanedUp;
+	bool ___connect_in_progress;
+	int32_t ___ID;
+};
+struct SslAuthenticationOptions_tE0F69275DF65478BFE9CCBB6BCEDA67D6665C2F9  : public RuntimeObject
+{
+	bool ___U3CAllowRenegotiationU3Ek__BackingField;
+	String_t* ___U3CTargetHostU3Ek__BackingField;
+	X509CertificateCollection_t2900D71D188EDCA7DEB5077D36103EE5DA6805CE* ___U3CClientCertificatesU3Ek__BackingField;
+	List_1_tA978339DE9FC9825476585DD52ED874FBC575EC1* ___U3CApplicationProtocolsU3Ek__BackingField;
+	bool ___U3CIsServerU3Ek__BackingField;
+	RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___U3CRemoteCertificateValidationCallbackU3Ek__BackingField;
+	LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* ___U3CLocalCertificateSelectionCallbackU3Ek__BackingField;
+	X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___U3CServerCertificateU3Ek__BackingField;
+	int32_t ___U3CEnabledSslProtocolsU3Ek__BackingField;
+	int32_t ___U3CCertificateRevocationCheckModeU3Ek__BackingField;
+	int32_t ___U3CEncryptionPolicyU3Ek__BackingField;
+	bool ___U3CRemoteCertRequiredU3Ek__BackingField;
+	bool ___U3CCheckCertNameU3Ek__BackingField;
+	RemoteCertValidationCallback_t39221C3396E26C20BC15142F2C02FAAD52764B7E* ___U3CCertValidationDelegateU3Ek__BackingField;
+	LocalCertSelectionCallback_t3AB79A8AA642074A3EF886118963EEA3CCABABE2* ___U3CCertSelectionDelegateU3Ek__BackingField;
+	ServerCertSelectionCallback_t653386CAEAE0236FCF61A92963AB1646BB23C654* ___U3CServerCertSelectionDelegateU3Ek__BackingField;
+};
+struct SslClientAuthenticationOptions_tA5277DAACAFB33887D2513D9399C5154B0D5CBC9  : public RuntimeObject
+{
+	int32_t ____encryptionPolicy;
+	int32_t ____checkCertificateRevocation;
+	int32_t ____enabledSslProtocols;
+	bool ____allowRenegotiation;
+	LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* ___U3CLocalCertificateSelectionCallbackU3Ek__BackingField;
+	RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___U3CRemoteCertificateValidationCallbackU3Ek__BackingField;
+	List_1_tA978339DE9FC9825476585DD52ED874FBC575EC1* ___U3CApplicationProtocolsU3Ek__BackingField;
+	String_t* ___U3CTargetHostU3Ek__BackingField;
+	X509CertificateCollection_t2900D71D188EDCA7DEB5077D36103EE5DA6805CE* ___U3CClientCertificatesU3Ek__BackingField;
+};
+struct SslServerAuthenticationOptions_tB71339A38CEE0BA50AA270950FA76FD79E4B76B4  : public RuntimeObject
+{
+	int32_t ____checkCertificateRevocation;
+	int32_t ____enabledSslProtocols;
+	int32_t ____encryptionPolicy;
+	bool ____allowRenegotiation;
+	bool ___U3CClientCertificateRequiredU3Ek__BackingField;
+	List_1_tA978339DE9FC9825476585DD52ED874FBC575EC1* ___U3CApplicationProtocolsU3Ek__BackingField;
+	RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___U3CRemoteCertificateValidationCallbackU3Ek__BackingField;
+	ServerCertificateSelectionCallback_t1F64DB44DD65FFF0C96A44AF8D2F9AEAAA6909BA* ___U3CServerCertificateSelectionCallbackU3Ek__BackingField;
+	X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___U3CServerCertificateU3Ek__BackingField;
+};
 struct SslStream_t19A079881850F9CAD7BAA6FB625BBC4647ED5A27  : public AuthenticatedStream_t8DCF41E151F705E2494FC7836F5E2EF7C539FA39
 {
 	MobileTlsProvider_tD60D82BEBF267F50F388A026DBB092C7188BB017* ___provider;
@@ -2577,12 +2621,62 @@ struct SslStream_t19A079881850F9CAD7BAA6FB625BBC4647ED5A27  : public Authenticat
 	MobileAuthenticatedStream_tD0306DC2B0CDA3C7DB261C19FFA35CA8EE24309E* ___impl;
 	bool ___explicitSettings;
 };
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
+{
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
+};
+struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0  : public RuntimeObject
+{
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___m_defaultCancellationToken;
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_defaultScheduler;
+	int32_t ___m_defaultCreationOptions;
+	int32_t ___m_defaultContinuationOptions;
 };
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
+{
+	String_t* ___m_String;
+	String_t* ___m_originalUnicodeString;
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax;
+	String_t* ___m_DnsSafeHost;
+	uint64_t ___m_Flags;
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info;
+	bool ___m_iriParsing;
+};
+struct ValueWebSocketReceiveResult_tF522CA3AD4EF7C410B08C77195408C5F82454E05 
+{
+	uint32_t ____countAndEndOfMessage;
+	int32_t ____messageType;
+};
+struct WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8  : public NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_CommonHeaders;
+	int32_t ___m_NumCommonHeaders;
+	NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* ___m_InnerCollection;
+	uint16_t ___m_Type;
+};
+struct WebSocketHandle_t9C8D33BD3D8553B1FD363A68ABDF5B81FC089F50  : public RuntimeObject
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____abortSource;
+	int32_t ____state;
+	WebSocket_tE3DEAFF0F68BD5AF9A526D29D56B6E5C6E24C3A1* ____webSocket;
 };
 struct X509Certificate2_t2BEAEA485A3CEA81D191B12A341675DBC54CDD2D  : public X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4
 {
@@ -2594,6 +2688,29 @@ struct X509Certificate2_t2BEAEA485A3CEA81D191B12A341675DBC54CDD2D  : public X509
 	PublicKey_t489DEA83CED0412BF5E066D3BC4527361DCFC405* ___lazyPublicKey;
 	AsymmetricAlgorithm_t5E7E9D26CE0EDCAABD84F616A44E476473BA2AF8* ___lazyPrivateKey;
 	X509ExtensionCollection_t03E0B5DD255DCFF3FE91FE55C5127BC834ABF4D0* ___lazyExtensions;
+};
+struct X509Store_t19E126FCB4003D01A2DE6CE2C35E9E71E97D08E6  : public RuntimeObject
+{
+	String_t* ____name;
+	int32_t ____location;
+	X509Certificate2Collection_t703D5135E74BA606B564EF174E08964B9C3DADEB* ___list;
+	int32_t ____flags;
+	X509Store_tC2D674DE1D07619474A1D17B132DDA911F9FD661* ___store;
+};
+struct MessageHeader_tE18ECF225BF4676569B3F11CD425FF3EF6DF80F0 
+{
+	uint8_t ___Opcode;
+	bool ___Fin;
+	int64_t ___PayloadLength;
+	int32_t ___Mask;
+};
+struct U3CU3Ec__DisplayClass69_0_tD1E341B71A1080C2249E1F57D3BBD8B6C5C21D2A  : public RuntimeObject
+{
+	NegotiateStream_tA3AC3B6632144B3D25DB19E952AEFF4E910015E5* ___U3CU3E4__this;
+	NetworkCredential_tC8E2931557131BA3E6F42A8E1E2A10EC62567313* ___credential;
+	String_t* ___targetName;
+	int32_t ___requiredProtectionLevel;
+	int32_t ___allowedImpersonationLevel;
 };
 struct U3CConnectSocketAsyncU3Ed__27_tE39C047F536654B30666CD6A91E2DE96F3BC3FBF 
 {
@@ -2646,6 +2763,13 @@ struct Action_1_t8AE9CB3E5DC764211C9FEAC59DE7B65AD1444780  : public MulticastDel
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDelegate_t
 {
 };
+struct AsyncValueTaskMethodBuilder_1_t7310F93C43E4A601A50D797E93D81CB94F7E3FA4 
+{
+	AsyncTaskMethodBuilder_1_t6EA1CE6D929CE5C3420646942E8F20D411F6E433 ____methodBuilder;
+	ValueWebSocketReceiveResult_tF522CA3AD4EF7C410B08C77195408C5F82454E05 ____result;
+	bool ____haveResult;
+	bool ____useBuilder;
+};
 struct Func_3_t37EC932F9834D7F9E1C44B6BC6C01F409AE93BA7  : public MulticastDelegate_t
 {
 };
@@ -2654,6 +2778,13 @@ struct Func_5_tA03DD09AC204AF6C0C325FFC6F9813E0B932EF50  : public MulticastDeleg
 };
 struct Predicate_1_tEB15485FDAFC48C82EE54427A8DBDB401213706C  : public MulticastDelegate_t
 {
+};
+struct ValueTask_1_t17A48313E72CC0BA25340C6413AFEEA87DE49EE1 
+{
+	RuntimeObject* ____obj;
+	ValueWebSocketReceiveResult_tF522CA3AD4EF7C410B08C77195408C5F82454E05 ____result;
+	int16_t ____token;
+	bool ____continueOnCapturedContext;
 };
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -2683,11 +2814,56 @@ struct LocalCertSelectionCallback_t3AB79A8AA642074A3EF886118963EEA3CCABABE2  : p
 struct LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859  : public MulticastDelegate_t
 {
 };
+struct ManagedWebSocket_tFE006AE2E3A7EFDD703AAA7AC6FC035F65695F58  : public WebSocket_tE3DEAFF0F68BD5AF9A526D29D56B6E5C6E24C3A1
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
+	bool ____isServer;
+	String_t* ____subprotocol;
+	Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00* ____keepAliveTimer;
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____abortSource;
+	Memory_1_tB7CEF4416F5014E364267478CEF016A4AC5C0036 ____receiveBuffer;
+	Utf8MessageState_tAC717AAC548FCA700FE47E9DF4FFCC61E55AF91D* ____utf8TextState;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____sendFrameAsyncLock;
+	int32_t ____state;
+	bool ____disposed;
+	bool ____sentCloseFrame;
+	bool ____receivedCloseFrame;
+	Nullable_1_t4936015D54B4E5C3191E452324F5F52BD55E1284 ____closeStatus;
+	String_t* ____closeStatusDescription;
+	MessageHeader_tE18ECF225BF4676569B3F11CD425FF3EF6DF80F0 ____lastReceiveHeader;
+	int32_t ____receiveBufferOffset;
+	int32_t ____receiveBufferCount;
+	int32_t ____receivedMaskOffsetOffset;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____sendBuffer;
+	bool ____lastSendWasFragment;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ____lastReceiveAsync;
+};
 struct MonoLocalCertificateSelectionCallback_t34F7772BA5ECE38E6CBD4C311F579DD1D4724DE3  : public MulticastDelegate_t
 {
 };
 struct MonoRemoteCertificateValidationCallback_t1A389B61998873F6B9A2EE7A11C36333A8AECCA0  : public MulticastDelegate_t
 {
+};
+struct MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0  : public RuntimeObject
+{
+	MonoRemoteCertificateValidationCallback_t1A389B61998873F6B9A2EE7A11C36333A8AECCA0* ___U3CRemoteCertificateValidationCallbackU3Ek__BackingField;
+	MonoLocalCertificateSelectionCallback_t34F7772BA5ECE38E6CBD4C311F579DD1D4724DE3* ___U3CClientCertificateSelectionCallbackU3Ek__BackingField;
+	Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC ___U3CCertificateValidationTimeU3Ek__BackingField;
+	X509CertificateCollection_t2900D71D188EDCA7DEB5077D36103EE5DA6805CE* ___U3CTrustAnchorsU3Ek__BackingField;
+	RuntimeObject* ___U3CUserSettingsU3Ek__BackingField;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CCertificateSearchPathsU3Ek__BackingField;
+	bool ___U3CSendCloseNotifyU3Ek__BackingField;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CClientCertificateIssuersU3Ek__BackingField;
+	bool ___U3CDisallowUnauthenticatedCertificateRequestU3Ek__BackingField;
+	Nullable_1_t9A98093485034F2B86BC66B725022122E0E5B2A4 ___U3CEnabledProtocolsU3Ek__BackingField;
+	CipherSuiteCodeU5BU5D_t61EC0E6F53394985FFC36DEB587C70F4EE26D435* ___U3CEnabledCiphersU3Ek__BackingField;
+	bool ___cloned;
+	bool ___checkCertName;
+	bool ___checkCertRevocationStatus;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___useServicePointManagerCallback;
+	bool ___skipSystemValidators;
+	bool ___callbackNeedsChain;
+	RuntimeObject* ___certificateValidator;
 };
 struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -2728,6 +2904,14 @@ struct ServerCertSelectionCallback_t653386CAEAE0236FCF61A92963AB1646BB23C654  : 
 struct ServerCertificateSelectionCallback_t1F64DB44DD65FFF0C96A44AF8D2F9AEAAA6909BA  : public MulticastDelegate_t
 {
 };
+struct WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C  : public RuntimeObject
+{
+	int32_t ___U3CCountU3Ek__BackingField;
+	bool ___U3CEndOfMessageU3Ek__BackingField;
+	int32_t ___U3CMessageTypeU3Ek__BackingField;
+	Nullable_1_t4936015D54B4E5C3191E452324F5F52BD55E1284 ___U3CCloseStatusU3Ek__BackingField;
+	String_t* ___U3CCloseStatusDescriptionU3Ek__BackingField;
+};
 struct U3CConnectAsyncCoreU3Ed__16_t0DC5BA58BD375E677A00AC19236A24E28A7E956F 
 {
 	int32_t ___U3CU3E1__state;
@@ -2739,16 +2923,6 @@ struct U3CConnectAsyncCoreU3Ed__16_t0DC5BA58BD375E677A00AC19236A24E28A7E956F
 };
 struct ValidateAndParseValue_t446D7DB36C58BE4734F70093E09CA56D8C8EC6AB  : public MulticastDelegate_t
 {
-};
-struct U3CReceiveAsyncU3Ed__14_tA0E6468BA8DD1FE26FB305E3EDBA2811DCA18844 
-{
-	int32_t ___U3CU3E1__state;
-	AsyncValueTaskMethodBuilder_1_t7310F93C43E4A601A50D797E93D81CB94F7E3FA4 ___U3CU3Et__builder;
-	Memory_1_tB7CEF4416F5014E364267478CEF016A4AC5C0036 ___buffer;
-	WebSocket_tE3DEAFF0F68BD5AF9A526D29D56B6E5C6E24C3A1* ___U3CU3E4__this;
-	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___cancellationToken;
-	ConfiguredTaskAwaiter_t4EFA3DD09B588E38CD1E52A3287FE250E38849D5 ___U3CU3Eu__1;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CarrayU3E5__2;
 };
 struct U3CSendWithArrayPoolAsyncU3Ed__16_t1AA104015D0C3118F3BCD94F71B5FAF5B0829926 
 {
@@ -2795,6 +2969,16 @@ struct PlatformNotSupportedException_tD2BD7EB9278518AA5FE8AE75AD5D0D4298A4631A  
 struct Win32Exception_t15A75629914EB77C816D8219D93ED78E50C74BE9  : public ExternalException_t419875A3CD3C551692EDBBC99E4927E69F2E1F4C
 {
 	int32_t ___nativeErrorCode;
+};
+struct U3CReceiveAsyncU3Ed__14_tA0E6468BA8DD1FE26FB305E3EDBA2811DCA18844 
+{
+	int32_t ___U3CU3E1__state;
+	AsyncValueTaskMethodBuilder_1_t7310F93C43E4A601A50D797E93D81CB94F7E3FA4 ___U3CU3Et__builder;
+	Memory_1_tB7CEF4416F5014E364267478CEF016A4AC5C0036 ___buffer;
+	WebSocket_tE3DEAFF0F68BD5AF9A526D29D56B6E5C6E24C3A1* ___U3CU3E4__this;
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___cancellationToken;
+	ConfiguredTaskAwaiter_t4EFA3DD09B588E38CD1E52A3287FE250E38849D5 ___U3CU3Eu__1;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CarrayU3E5__2;
 };
 struct WebSocketException_t7ED58EA50E372ED89E1469A44379C2FB097A6263  : public Win32Exception_t15A75629914EB77C816D8219D93ED78E50C74BE9
 {
@@ -2933,37 +3117,6 @@ struct SSPIHandleCache_tEC23B4D911068A5663F39BD23EE0F2708C9C7119_StaticFields
 	SafeCredentialReferenceU5BU5D_t18903EFA0154E3E25C408E1B412017895C0F99A3* ___s_cacheSlots;
 	int32_t ___s_current;
 };
-struct Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E_StaticFields
-{
-	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___AcceptCompletedHandler;
-	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___ReceiveCompletedHandler;
-	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___SendCompletedHandler;
-	TaskSocketAsyncEventArgs_1_tEB937620E5B15D91E5BFEFFA707CF800930F8401* ___s_rentedSocketSentinel;
-	Int32TaskSocketAsyncEventArgs_t36C5FC82499ED9DAFE7F05C38EF92D77A0B248E9* ___s_rentedInt32Sentinel;
-	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ___s_zeroTask;
-	RuntimeObject* ___s_InternalSyncObject;
-	bool ___s_SupportsIPv4;
-	bool ___s_SupportsIPv6;
-	bool ___s_OSSupportsIPv6;
-	bool ___s_Initialized;
-	bool ___s_LoggingEnabled;
-	bool ___s_PerfCountersEnabled;
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___AcceptAsyncCallback;
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginAcceptCallback;
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginAcceptReceiveCallback;
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ConnectAsyncCallback;
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginConnectCallback;
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___DisconnectAsyncCallback;
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginDisconnectCallback;
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ReceiveAsyncCallback;
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveCallback;
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveGenericCallback;
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ReceiveFromAsyncCallback;
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveFromCallback;
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___SendAsyncCallback;
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginSendGenericCallback;
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___SendToAsyncCallback;
-};
 struct String_t_StaticFields
 {
 	String_t* ___Empty;
@@ -2998,39 +3151,6 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
 struct Timeout_tDBB45B56C59D1AF9A6B1EC5F1E3200D12AB18E41_StaticFields
 {
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___InfiniteTimeSpan;
-};
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
-{
-	String_t* ___UriSchemeFile;
-	String_t* ___UriSchemeFtp;
-	String_t* ___UriSchemeGopher;
-	String_t* ___UriSchemeHttp;
-	String_t* ___UriSchemeHttps;
-	String_t* ___UriSchemeWs;
-	String_t* ___UriSchemeWss;
-	String_t* ___UriSchemeMailto;
-	String_t* ___UriSchemeNews;
-	String_t* ___UriSchemeNntp;
-	String_t* ___UriSchemeNetTcp;
-	String_t* ___UriSchemeNetPipe;
-	String_t* ___SchemeDelimiter;
-	bool ___s_ConfigInitialized;
-	bool ___s_ConfigInitializing;
-	int32_t ___s_IdnScope;
-	bool ___s_IriParsing;
-	bool ___useDotNetRelativeOrAbsolute;
-	bool ___IsWindowsFileSystem;
-	RuntimeObject* ___s_initLock;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars;
-};
-struct WebSocketHandle_t9C8D33BD3D8553B1FD363A68ABDF5B81FC089F50_StaticFields
-{
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___s_defaultHttpEncoding;
-};
-struct WebSocketHandle_t9C8D33BD3D8553B1FD363A68ABDF5B81FC089F50_ThreadStaticFields
-{
-	StringBuilder_t* ___t_cachedStringBuilder;
 };
 struct DefaultWebProxy_tE68B709175115D650A1E17167B8D42EEED3825C6_StaticFields
 {
@@ -3142,23 +3262,9 @@ struct AsyncTaskMethodBuilder_1_t6EA1CE6D929CE5C3420646942E8F20D411F6E433_Static
 {
 	Task_1_t609852E573F3A2C6764915D4DDE70579701A22D1* ___s_defaultResultTask;
 };
-struct ValueTask_1_t17A48313E72CC0BA25340C6413AFEEA87DE49EE1_StaticFields
-{
-	Task_1_t609852E573F3A2C6764915D4DDE70579701A22D1* ___s_canceledTask;
-};
 struct Exception_t_StaticFields
 {
 	RuntimeObject* ___s_EDILock;
-};
-struct ManagedWebSocket_tFE006AE2E3A7EFDD703AAA7AC6FC035F65695F58_StaticFields
-{
-	RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3* ___s_random;
-	UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* ___s_textEncoding;
-	WebSocketStateU5BU5D_t3998D3C6855D91A27627D1D6135ADC884B2E4C1B* ___s_validSendStates;
-	WebSocketStateU5BU5D_t3998D3C6855D91A27627D1D6135ADC884B2E4C1B* ___s_validReceiveStates;
-	WebSocketStateU5BU5D_t3998D3C6855D91A27627D1D6135ADC884B2E4C1B* ___s_validCloseOutputStates;
-	WebSocketStateU5BU5D_t3998D3C6855D91A27627D1D6135ADC884B2E4C1B* ___s_validCloseStates;
-	Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* ___s_cachedCloseTask;
 };
 struct SmtpDateTime_tC7C7203AFB8B520E52166CD6F3438FCBE639F47B_StaticFields
 {
@@ -3181,14 +3287,6 @@ struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8_StaticFields
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxOffset;
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinOffset;
 };
-struct WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8_StaticFields
-{
-	HeaderInfoTable_tD651971044220ED52EACB30E89A49178FA32D91F* ___HInfo;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_CommonHeaderNames;
-	SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913* ___s_CommonHeaderHints;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HttpTrimCharacters;
-	RfcCharU5BU5D_t8D79A380C46398F9D1F442FDEE0A27F77B7D1B4C* ___RfcCharMap;
-};
 struct X509Certificate2Collection_t703D5135E74BA606B564EF174E08964B9C3DADEB_StaticFields
 {
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___newline_split;
@@ -3207,10 +3305,6 @@ struct MobileAuthenticatedStream_tD0306DC2B0CDA3C7DB261C19FFA35CA8EE24309E_Stati
 	int32_t ___uniqueNameInteger;
 	int32_t ___nextId;
 };
-struct MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0_StaticFields
-{
-	MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0* ___defaultSettings;
-};
 struct QEncodedStream_tC7BBC8B066EF921384885C074CEFD2D8042275D2_StaticFields
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_hexDecodeMap;
@@ -3221,6 +3315,37 @@ struct QuotedPrintableStream_tF453CA883F1B5067B217A584F85CFC43ED471BC9_StaticFie
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_hexDecodeMap;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_hexEncodeMap;
 };
+struct Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E_StaticFields
+{
+	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___AcceptCompletedHandler;
+	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___ReceiveCompletedHandler;
+	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___SendCompletedHandler;
+	TaskSocketAsyncEventArgs_1_tEB937620E5B15D91E5BFEFFA707CF800930F8401* ___s_rentedSocketSentinel;
+	Int32TaskSocketAsyncEventArgs_t36C5FC82499ED9DAFE7F05C38EF92D77A0B248E9* ___s_rentedInt32Sentinel;
+	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ___s_zeroTask;
+	RuntimeObject* ___s_InternalSyncObject;
+	bool ___s_SupportsIPv4;
+	bool ___s_SupportsIPv6;
+	bool ___s_OSSupportsIPv6;
+	bool ___s_Initialized;
+	bool ___s_LoggingEnabled;
+	bool ___s_PerfCountersEnabled;
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___AcceptAsyncCallback;
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginAcceptCallback;
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginAcceptReceiveCallback;
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ConnectAsyncCallback;
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginConnectCallback;
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___DisconnectAsyncCallback;
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginDisconnectCallback;
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ReceiveAsyncCallback;
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveCallback;
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveGenericCallback;
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ReceiveFromAsyncCallback;
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveFromCallback;
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___SendAsyncCallback;
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginSendGenericCallback;
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___SendToAsyncCallback;
+};
 struct Type_t_StaticFields
 {
 	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
@@ -3230,6 +3355,65 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
+{
+	String_t* ___UriSchemeFile;
+	String_t* ___UriSchemeFtp;
+	String_t* ___UriSchemeGopher;
+	String_t* ___UriSchemeHttp;
+	String_t* ___UriSchemeHttps;
+	String_t* ___UriSchemeWs;
+	String_t* ___UriSchemeWss;
+	String_t* ___UriSchemeMailto;
+	String_t* ___UriSchemeNews;
+	String_t* ___UriSchemeNntp;
+	String_t* ___UriSchemeNetTcp;
+	String_t* ___UriSchemeNetPipe;
+	String_t* ___SchemeDelimiter;
+	bool ___s_ConfigInitialized;
+	bool ___s_ConfigInitializing;
+	int32_t ___s_IdnScope;
+	bool ___s_IriParsing;
+	bool ___useDotNetRelativeOrAbsolute;
+	bool ___IsWindowsFileSystem;
+	RuntimeObject* ___s_initLock;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars;
+};
+struct WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8_StaticFields
+{
+	HeaderInfoTable_tD651971044220ED52EACB30E89A49178FA32D91F* ___HInfo;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_CommonHeaderNames;
+	SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913* ___s_CommonHeaderHints;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HttpTrimCharacters;
+	RfcCharU5BU5D_t8D79A380C46398F9D1F442FDEE0A27F77B7D1B4C* ___RfcCharMap;
+};
+struct WebSocketHandle_t9C8D33BD3D8553B1FD363A68ABDF5B81FC089F50_StaticFields
+{
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___s_defaultHttpEncoding;
+};
+struct WebSocketHandle_t9C8D33BD3D8553B1FD363A68ABDF5B81FC089F50_ThreadStaticFields
+{
+	StringBuilder_t* ___t_cachedStringBuilder;
+};
+struct ValueTask_1_t17A48313E72CC0BA25340C6413AFEEA87DE49EE1_StaticFields
+{
+	Task_1_t609852E573F3A2C6764915D4DDE70579701A22D1* ___s_canceledTask;
+};
+struct ManagedWebSocket_tFE006AE2E3A7EFDD703AAA7AC6FC035F65695F58_StaticFields
+{
+	RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3* ___s_random;
+	UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* ___s_textEncoding;
+	WebSocketStateU5BU5D_t3998D3C6855D91A27627D1D6135ADC884B2E4C1B* ___s_validSendStates;
+	WebSocketStateU5BU5D_t3998D3C6855D91A27627D1D6135ADC884B2E4C1B* ___s_validReceiveStates;
+	WebSocketStateU5BU5D_t3998D3C6855D91A27627D1D6135ADC884B2E4C1B* ___s_validCloseOutputStates;
+	WebSocketStateU5BU5D_t3998D3C6855D91A27627D1D6135ADC884B2E4C1B* ___s_validCloseStates;
+	Task_1_t7A5D3E6F94872974689076E6A3A64E3104677A40* ___s_cachedCloseTask;
+};
+struct MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0_StaticFields
+{
+	MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0* ___defaultSettings;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -4641,6 +4825,14 @@ inline bool SpanHelpers_SequenceEqual_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D09
 {
 	return ((  bool (*) (uint8_t*, uint8_t*, int32_t, const RuntimeMethod*))SpanHelpers_SequenceEqual_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mFD8AD32B5F2EBF9489593A1FA99B57E7764E6735_gshared)(___0_first, ___1_second, ___2_length, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -10299,6 +10491,14 @@ IL2CPP_EXTERN_C  void U3CSendWithArrayPoolAsyncU3Ed__16_SetStateMachine_m4FA1E26
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebSocketContext__ctor_mD16FD302319BCAB85DC15FD861E5F2267E6CCB85 (WebSocketContext_t113E01458E26DF51C5751B97F2C6C876237805ED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10306,6 +10506,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebSocketContext__ctor_mD16FD302319BCAB8
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -10761,6 +10969,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebSocketException_Succeeded_mD4CDEB2018
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebSocketReceiveResult__ctor_m67E99C6CF0702FA8BA419E86CFA14A929D3B8517 (WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* __this, int32_t ___0_count, int32_t ___1_messageType, bool ___2_endOfMessage, const RuntimeMethod* method) 
 {
 	Nullable_1_t4936015D54B4E5C3191E452324F5F52BD55E1284 V_0;
@@ -10842,6 +11058,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WebSocketReceiveResult_get_CloseSta
 		return L_0;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -13166,6 +13390,14 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SslClientAuthenticationOptions_tA5277DAACAFB33887D2513D9399C5154B0D5CBC9* SslClientAuthenticationOptionsExtensions_ShallowClone_mC5E93AFE3CD7F4D7B88DD2FC15E7BA3DF8216769 (SslClientAuthenticationOptions_tA5277DAACAFB33887D2513D9399C5154B0D5CBC9* ___0_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15335,6 +15567,30 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* LocalCertificateSelectionCallback_Invoke_mED43EE6E88B8C653C7D68966F86751B70907591C_Multicast(LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* __this, RuntimeObject* ___0_sender, String_t* ___1_targetHost, X509CertificateCollection_t2900D71D188EDCA7DEB5077D36103EE5DA6805CE* ___2_localCertificates, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___3_remoteCertificate, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___4_acceptableIssuers, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates->max_length;
@@ -16205,6 +16461,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RemoteCertificateValidationCallback_EndI
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 	return *(bool*)UnBox ((RuntimeObject*)__result);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -26959,6 +27223,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MimePartContext__ctor_m8E88EA86FF32D5861
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.LoadingPanel
 {
+	[EnableClass]
 	public partial class FUI_UILoadingPanel: GComponent
 	{
 		public Controller BG;

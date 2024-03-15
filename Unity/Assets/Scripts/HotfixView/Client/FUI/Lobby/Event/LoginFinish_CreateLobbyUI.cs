@@ -1,13 +1,14 @@
-namespace ET.Client;
-
-[Event(SceneType.Demo)]
-public class LoginFinish_CreateLobbyUI: AEvent<Scene, LoginFinish>
+namespace ET.Client
 {
-    protected override async ETTask Run(Scene scene, LoginFinish a)
+    [Event(SceneType.Demo)]
+    public class LoginFinish_CreateLobbyUI: AEvent<Scene, LoginFinish>
     {
-        if (a.isNewPlayer || string.IsNullOrEmpty(scene.GetComponent<PlayerComponent>().NickName))
-            await scene.GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UIRegister);
-        else
-            await scene.GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UILobby);
+        protected override async ETTask Run(Scene scene, LoginFinish a)
+        {
+            if (a.isNewPlayer || string.IsNullOrEmpty(scene.GetComponent<PlayerComponent>().NickName))
+                await scene.GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UIRegister);
+            else
+                await scene.GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UILobby);
+        }
     }
 }

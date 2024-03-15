@@ -1,29 +1,31 @@
 using System.Collections.Generic;
-using Bright.Serialization;
 using FairyGUI.Dynamic;
+using Luban;
 
-namespace ET.Client;
-
-public sealed class UIPackageMapping : IUIPackageHelper
+namespace ET.Client
 {
-    private readonly Dictionary<string, string> m_PackageIdToNameMap;
-
-    public UIPackageMapping(byte[] mappingData)
+    [EnableClass]
+    public sealed class UIPackageMapping : IUIPackageHelper
     {
-        ByteBuf br = new ByteBuf(mappingData);
-        int count = br.ReadInt();
+        private readonly Dictionary<string, string> m_PackageIdToNameMap;
 
-        Dictionary<string, string> mappingDict = new Dictionary<string, string>(count);
-        for (int i = 0; i < count; i++)
+        public UIPackageMapping(byte[] mappingData)
         {
-            mappingDict.Add(br.ReadString(), br.ReadString());
-        }
+            ByteBuf br = new ByteBuf(mappingData);
+            int count = br.ReadInt();
+
+            Dictionary<string, string> mappingDict = new Dictionary<string, string>(count);
+            for (int i = 0; i < count; i++)
+            {
+                mappingDict.Add(br.ReadString(), br.ReadString());
+            }
             
-        m_PackageIdToNameMap = mappingDict;
-    }
+            m_PackageIdToNameMap = mappingDict;
+        }
         
-    public string GetPackageNameById(string id)
-    {
-        return m_PackageIdToNameMap.TryGetValue(id, out var packageName) ? packageName : null;
+        public string GetPackageNameById(string id)
+        {
+            return m_PackageIdToNameMap.TryGetValue(id, out var packageName) ? packageName : null;
+        }
     }
 }

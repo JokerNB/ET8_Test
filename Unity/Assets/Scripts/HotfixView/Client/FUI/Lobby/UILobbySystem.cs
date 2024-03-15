@@ -51,7 +51,7 @@ namespace ET.Client
         public static void OnItemRender(UILobby self, int index, GObject item)
         {
             var serverInfosList = self.Root().GetComponent<ServerInfosComponent>().ServerInfosList;
-            var itemData = serverInfosList[index];
+            ServerInfo itemData = serverInfosList[index];
             var uiSeverInfoItem = item as FUI_UISeverInfoItem;
             uiSeverInfoItem.ServerName.text = itemData.Name;
             uiSeverInfoItem.States.selectedIndex = itemData.Status;
@@ -62,7 +62,7 @@ namespace ET.Client
             var uiSeverInfoItem = context.data as FUI_UISeverInfoItem;
             int idx = self.FUIUILobby.ServerInfoList.GetChildIndex(context.data as GObject);
             var serverInfosList = self.Root().GetComponent<ServerInfosComponent>().ServerInfosList;
-            var itemData = serverInfosList[idx];
+            ServerInfo itemData = serverInfosList[idx];
             self.ServerZone = itemData.ServerZone;
             uiSeverInfoItem.SelectStates.selectedIndex = 1;
         }

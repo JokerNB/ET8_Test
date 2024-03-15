@@ -35,7 +35,7 @@ namespace ET.Client
 
         public static void ChooseRandomNickName(UIRegister self)
         {
-            var configs = RandomNameCategory.Instance.GetAll();
+            var configs = RandomNameCategory.Instance.DataMap;
             var count = configs.Count;
             var key = RandomGenerator.RandomNumber(1, count);
             var randomName = configs[key];
@@ -73,7 +73,10 @@ namespace ET.Client
         {
             string newNickName = self.FUIUIRegister.Input.text;
             string Account = self.Root().GetComponent<PlayerComponent>().Account;
-            G2C_ChangeNickName g2CChangeNickName = await self.Root().GetComponent<ClientSenderCompnent>().Call(new C2G_ChangeNickName() { NewNickName = newNickName,Account = Account}) as G2C_ChangeNickName;
+            C2G_ChangeNickName changeNickName = C2G_ChangeNickName.Create();
+            changeNickName.NewNickName = newNickName;
+            changeNickName.Account = Account;
+            G2C_ChangeNickName g2CChangeNickName = await self.Root().GetComponent<ClientSenderComponent>().Call(changeNickName) as G2C_ChangeNickName;
             if(g2CChangeNickName.Error != ErrorCode.ERR_Success)
                 return;
             self.Root().GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UILobby).Coroutine();

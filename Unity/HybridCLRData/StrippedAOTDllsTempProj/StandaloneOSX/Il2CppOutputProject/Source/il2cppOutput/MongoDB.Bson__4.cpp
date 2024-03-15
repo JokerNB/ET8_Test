@@ -1063,26 +1063,6 @@ struct AttributeConventionPack_t298C139784BEF55F5867D185BAEC575B1EAA1F08  : publ
 struct BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27  : public RuntimeObject
 {
 };
-struct BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691  : public RuntimeObject
-{
-	int32_t ____guidRepresentation;
-};
-struct BsonBinaryReaderContext_tED3DA5A7DED8BAC47692C993611CFE2FCEB00B05  : public RuntimeObject
-{
-	BsonBinaryReaderContext_tED3DA5A7DED8BAC47692C993611CFE2FCEB00B05* ____parentContext;
-	int32_t ____contextType;
-	int64_t ____startPosition;
-	int64_t ____size;
-	String_t* ____currentElementName;
-	int32_t ____currentArrayIndex;
-};
-struct BsonBinaryWriterContext_tBF53CBFC0B50E2714789E1622CFDB3E5B6084F20  : public RuntimeObject
-{
-	BsonBinaryWriterContext_tBF53CBFC0B50E2714789E1622CFDB3E5B6084F20* ____parentContext;
-	int32_t ____contextType;
-	int64_t ____startPosition;
-	int32_t ____index;
-};
 struct BsonChunkPool_t44C3D1ED9DDFAC00DD132FA5E9E657C1DD54D202  : public RuntimeObject
 {
 	Stack_1_tB491214C6161BF9414937C3249253CA66FD98D15* ____chunks;
@@ -1133,14 +1113,6 @@ struct BsonDeserializationContext_t5F7E1FC7931267D13A2D167FE150067FF2792206  : p
 	RuntimeObject* ____dynamicDocumentSerializer;
 	RuntimeObject* ____reader;
 };
-struct BsonDocumentReaderContext_t733B6B5A9BB0588AAFFAF420026A5CE3058C5E1B  : public RuntimeObject
-{
-	BsonDocumentReaderContext_t733B6B5A9BB0588AAFFAF420026A5CE3058C5E1B* ____parentContext;
-	int32_t ____contextType;
-	BsonDocument_t6DE4446E9A71EA570845CAFC17BBB48887C15839* ____document;
-	BsonArray_t2404AAE5E742E65283EA15D047AC919E5B5962A4* ____array;
-	int32_t ____index;
-};
 struct BsonMemberMap_tD517252EE48884E6D73C11B2DF8D3366296A5EF4  : public RuntimeObject
 {
 	BsonClassMap_tBF5B03C073E35C127B35F82BA80D87B5D3B4FBC1* ____classMap;
@@ -1165,46 +1137,8 @@ struct BsonMemberMap_tD517252EE48884E6D73C11B2DF8D3366296A5EF4  : public Runtime
 struct BsonObjectIdGenerator_t3B47D7DCE5A4392D0160FCF598AE70175EE42B1B  : public RuntimeObject
 {
 };
-struct BsonReader_tCB2740332DC33A84386CA5EE3807EF72038ACBBC  : public RuntimeObject
-{
-	bool ____disposed;
-	BsonReaderSettings_tF2549A56EBD77929BD8AE8CC0E5C96DCE3430B6B* ____settings;
-	int32_t ____state;
-	int32_t ____currentBsonType;
-	String_t* ____currentName;
-	Stack_1_t2D4ED07EAFAB0A94D306827AD3211436AADCF1B7* ____settingsStack;
-};
-struct BsonReaderBookmark_t10E55834D20478063264E53F1E24931A506AC45F  : public RuntimeObject
-{
-	int32_t ____state;
-	int32_t ____currentBsonType;
-	String_t* ____currentName;
-};
-struct BsonReaderSettings_tF2549A56EBD77929BD8AE8CC0E5C96DCE3430B6B  : public RuntimeObject
-{
-	int32_t ____guidRepresentation;
-	bool ____isFrozen;
-};
 struct BsonValue_t919AEE7422C1180C2107D15023100323F32D94C5  : public RuntimeObject
 {
-};
-struct BsonWriter_t8903FD851DFB94AEF75BF3B21FD410BD8B5D3715  : public RuntimeObject
-{
-	bool ____disposed;
-	bool ____useChildValidator;
-	RuntimeObject* ____elementNameValidator;
-	Stack_1_tEAD8CF8A394FD076589FBCB58CAFC5C231E73B8D* ____elementNameValidatorStack;
-	BsonWriterSettings_tEF90321A6E901B5AE2ECC493EC635CB618A847A0* ____settings;
-	Stack_1_tA0B1BAAF734BBB7308746E95C245FDCB31DA87EA* ____settingsStack;
-	int32_t ____state;
-	String_t* ____name;
-	int32_t ____serializationDepth;
-};
-struct BsonWriterSettings_tEF90321A6E901B5AE2ECC493EC635CB618A847A0  : public RuntimeObject
-{
-	int32_t ____guidRepresentation;
-	bool ____isFrozen;
-	int32_t ____maxSerializationDepth;
 };
 struct CombGuidGenerator_tD2FA1BE1F61224B6D8F16CD8EE9F3E5364F603C5  : public RuntimeObject
 {
@@ -1308,33 +1242,6 @@ struct ObjectDiscriminatorConvention_t1D1531DA87E548FF17B16AFAA5CB8B83A77D6461  
 };
 struct ObjectIdGenerator_tE6E89112301A70558D3D0ED3FCD9EC681E25F440  : public RuntimeObject
 {
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	RuntimeObject* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	String_t* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	char* ___NameImpl;
-	int32_t ___PositionImpl;
-};
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
-{
-	int32_t ___AttrsImpl;
-	Type_t* ___ClassImpl;
-	Il2CppIUnknown* ___DefaultValueImpl;
-	MemberInfo_t* ___MemberImpl;
-	Il2CppChar* ___NameImpl;
-	int32_t ___PositionImpl;
 };
 struct RepresentationConverter_tFAF3C43A47F1A3FE8A9A068470C9A831644EC635  : public RuntimeObject
 {
@@ -1459,11 +1366,6 @@ struct Enumerator_t9AB6B03D162210237EA4153269008A90FA0548EA
 	int32_t ____version;
 	ConventionPackContainer_t2B83C2338DB559B2E9F88843918D96A7CAA340AF* ____current;
 };
-struct Nullable_1_tC13569C95438309C230194D121A2E5CF9345D927 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
 struct SealedClassSerializerBase_1_tF1295B4C452930CF1235ED20F920CFB17529860C  : public SerializerBase_1_t6E373C55576937929FE25704B7740DC9242D31CE
 {
 };
@@ -1483,42 +1385,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 struct BsonArray_t2404AAE5E742E65283EA15D047AC919E5B5962A4  : public BsonValue_t919AEE7422C1180C2107D15023100323F32D94C5
 {
 	List_1_t0F942D162C274C3E27A72D17C633EF6F3598C0EF* ____values;
-};
-struct BsonBinaryData_tBE8CA6CB5DE6E313EF628B34BC5548B9D2EA6A45  : public BsonValue_t919AEE7422C1180C2107D15023100323F32D94C5
-{
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____bytes;
-	int32_t ____subType;
-	int32_t ____guidRepresentation;
-};
-struct BsonBinaryReader_t1D7FC0E3CB1DFE3391F27ABC9643417BF1A3E782  : public BsonReader_tCB2740332DC33A84386CA5EE3807EF72038ACBBC
-{
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____baseStream;
-	BsonStream_tCD2E9102A0A482A1B59F1F9A25176516E4215B6F* ____bsonStream;
-	BsonBinaryReaderContext_tED3DA5A7DED8BAC47692C993611CFE2FCEB00B05* ____context;
-};
-struct BsonBinaryReaderBookmark_t4CF55B2E23686CDC7F1D4E4FBE94505863CAE3EE  : public BsonReaderBookmark_t10E55834D20478063264E53F1E24931A506AC45F
-{
-	BsonBinaryReaderContext_tED3DA5A7DED8BAC47692C993611CFE2FCEB00B05* ____context;
-	int64_t ____position;
-};
-struct BsonBinaryReaderSettings_tE9DF14C6C1D4C3A3668D345A45F385FD0255A843  : public BsonReaderSettings_tF2549A56EBD77929BD8AE8CC0E5C96DCE3430B6B
-{
-	UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* ____encoding;
-	bool ____fixOldBinarySubTypeOnInput;
-	bool ____fixOldDateTimeMaxValueOnInput;
-	int32_t ____maxDocumentSize;
-};
-struct BsonBinaryWriter_t4F8BEAD1068DE185231E443BB2382B17AB8B98AD  : public BsonWriter_t8903FD851DFB94AEF75BF3B21FD410BD8B5D3715
-{
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____baseStream;
-	BsonStream_tCD2E9102A0A482A1B59F1F9A25176516E4215B6F* ____bsonStream;
-	BsonBinaryWriterContext_tBF53CBFC0B50E2714789E1622CFDB3E5B6084F20* ____context;
-};
-struct BsonBinaryWriterSettings_t7137A7566B5B54CC04F186EBE6E65D65915F68B7  : public BsonWriterSettings_tEF90321A6E901B5AE2ECC493EC635CB618A847A0
-{
-	UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* ____encoding;
-	bool ____fixOldBinarySubTypeOnOutput;
-	int32_t ____maxDocumentSize;
 };
 struct BsonConstructorAttribute_tD7FD8E5CC61FE579BEF8CB9D39C4132878C12F9A  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -1546,19 +1412,6 @@ struct BsonDocument_t6DE4446E9A71EA570845CAFC17BBB48887C15839  : public BsonValu
 	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ____indexes;
 	bool ____allowDuplicateNames;
 };
-struct BsonDocumentReader_t00B4C6A9B29B9C1ECE902DB69BFAC7087BD104E3  : public BsonReader_tCB2740332DC33A84386CA5EE3807EF72038ACBBC
-{
-	BsonDocumentReaderContext_t733B6B5A9BB0588AAFFAF420026A5CE3058C5E1B* ____context;
-	BsonValue_t919AEE7422C1180C2107D15023100323F32D94C5* ____currentValue;
-};
-struct BsonDocumentReaderBookmark_t0884CCD952442604FCA3AF96EAF02F89841DD225  : public BsonReaderBookmark_t10E55834D20478063264E53F1E24931A506AC45F
-{
-	BsonDocumentReaderContext_t733B6B5A9BB0588AAFFAF420026A5CE3058C5E1B* ____context;
-	BsonValue_t919AEE7422C1180C2107D15023100323F32D94C5* ____currentValue;
-};
-struct BsonDocumentReaderSettings_t66FEF76B6E068236B79C03155317E13C41231920  : public BsonReaderSettings_tF2549A56EBD77929BD8AE8CC0E5C96DCE3430B6B
-{
-};
 struct BsonElement_t0DCEBECB4E82A9AB1E18351EF68B6B2B0FE2056D 
 {
 	String_t* ____name;
@@ -1585,10 +1438,6 @@ struct BsonExtraElementsAttribute_t48AF5E174E5126C10B12D340E2BB44FC1C1DC5CB  : p
 struct BsonFactoryMethodAttribute_t18BAA9F06718C369D14AF71DE3D50BA000855CCC  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____argumentNames;
-};
-struct BsonGuidRepresentationAttribute_t92A1CBA1B9FA6451C5CF6B622CF1F90B168FB5F6  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	int32_t ____guidRepresentation;
 };
 struct BsonIdAttribute_tC77CF1D4A23EF6731509D1F49C856FC7C16BDF87  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -1699,10 +1548,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
 {
 };
-struct EnumRepresentationConvention_tBB122C59B8CFD17B0C4001D5202B8AD912CAA90F  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
-{
-	int32_t ____representation;
-};
 struct FieldInfo_t  : public MemberInfo_t
 {
 };
@@ -1768,18 +1613,6 @@ struct MemberNameElementNameConvention_tE292DE45648B5B0F4FF80161C67DAD065FB454AE
 struct MethodBase_t  : public MemberInfo_t
 {
 };
-struct NamedExtraElementsMemberConvention_t2F32FFAE1C799821C294816AED6D0AFD8BA1CA5B  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
-{
-	RuntimeObject* ____names;
-	int32_t ____memberTypes;
-	int32_t ____bindingFlags;
-};
-struct NamedIdMemberConvention_t2B5E30E4CA86C570475615A70074DFFE4321026D  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
-{
-	RuntimeObject* ____names;
-	int32_t ____memberTypes;
-	int32_t ____bindingFlags;
-};
 struct NamedParameterCreatorMapConvention_t2EB77DEF2F8CA1AA8A6ACBF1882C14779282D2E8  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
 {
 };
@@ -1798,11 +1631,6 @@ struct OrdinalComparer_tBB06915E213A5D4C8C617ED5478E8BF30C2B2170  : public Strin
 };
 struct PropertyInfo_t  : public MemberInfo_t
 {
-};
-struct ReadWriteMemberFinderConvention_t582E087D72779C94D68F93F6393B6199BB8E872B  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
-{
-	int32_t ____bindingFlags;
-	int32_t ____memberTypes;
 };
 struct ResetClassMapConvention_tC429E2F9130E06436447F40EBC2E46E0370FD057  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
 {
@@ -1862,19 +1690,13 @@ struct U3CU3Ec__DisplayClass3_0_t17036490F991AF1623CC29DCA1D5106C2A9AD9E8
 {
 	PropertyInfo_t* ___propertyInfo;
 };
-struct BsonValueSerializerBase_1_tAE79FFD5BE84247AB8536A8CF001F000D740231A  : public SerializerBase_1_t4167DE6A599195F55D9465321FBE6BF741D6705D
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
 {
-	Nullable_1_tC13569C95438309C230194D121A2E5CF9345D927 ____bsonType;
+	int32_t ___value__;
 };
-struct BsonDateTimeOptionsAttribute_t8E69224AA857A4C03F1B72AE7A7B7F11DBF0730A  : public BsonSerializationOptionsAttribute_t5E5B02282C83927762F8E32A3C01E3956E571F68
+struct BsonBinarySubType_tB9FA1B160C0E540C813BB05128569C1B92AADE2E 
 {
-	bool ____dateOnly;
-	int32_t ____kind;
-	int32_t ____representation;
-};
-struct BsonDictionaryOptionsAttribute_t4BF3D3385AE6FF20C0A55C46595CCD923399892D  : public BsonSerializationOptionsAttribute_t5E5B02282C83927762F8E32A3C01E3956E571F68
-{
-	int32_t ____representation;
+	int32_t ___value__;
 };
 struct BsonJavaScriptWithScope_tFAE218E005DA357DBB848B0BB84113CFBF916CC8  : public BsonJavaScript_t2D7526B25F5F29DB06E3993C0F86641E8D18FB26
 {
@@ -1888,19 +1710,12 @@ struct BsonReaderState_t640413EE6B8FF6138F662F774F31739D0C09C977
 {
 	int32_t ___value__;
 };
-struct BsonRepresentationAttribute_t206132F6600AC7099796217D651714F9CFC531E1  : public BsonSerializationOptionsAttribute_t5E5B02282C83927762F8E32A3C01E3956E571F68
-{
-	int32_t ____representation;
-	bool ____allowOverflow;
-	bool ____allowTruncation;
-};
 struct BsonStream_tCD2E9102A0A482A1B59F1F9A25176516E4215B6F  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 };
-struct BsonTimeSpanOptionsAttribute_t72002DF1084E4A07A8AA1EAF1AF87BDA16D5F6B1  : public BsonSerializationOptionsAttribute_t5E5B02282C83927762F8E32A3C01E3956E571F68
+struct BsonType_t2B49B3209AF4D74B1271D30959133965CF9B9630 
 {
-	int32_t ____representation;
-	int32_t ____units;
+	int32_t ___value__;
 };
 struct BsonWriterState_tA348C9BC1897BC63E485F0E2CE9BB8877ED86B89 
 {
@@ -1913,13 +1728,9 @@ struct ContextType_t02C7E3350E5542C9F9199E48487A16109556E7C3
 {
 	int32_t ___value__;
 };
-struct DateTimeSerializer_t9E615758F7EC9C0B82CCBBD3B95B9F6ED12DC0D5  : public StructSerializerBase_1_t6642BF488E8BAA80505B3336E16CFAF7A145C528
+struct DateTimeKind_t3AD6DA06BEF8955A740777163FFB481C19089BBC 
 {
-	bool ____dateOnly;
-	SerializerHelper_t813240F765C7C071F0A947A46841741323DAD8F0* ____helper;
-	Int64Serializer_t23A09595BDF32112F8E17F604615A05BF55CE681* ____int64Serializer;
-	int32_t ____kind;
-	int32_t ____representation;
+	int32_t ___value__;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -1968,6 +1779,10 @@ struct Delegate_t_marshaled_com
 	MethodInfo_t* ___original_method_info;
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
+};
+struct DictionaryRepresentation_t14AE727C6FD457C140AE6C51DD6B4251F1A0DB1F 
+{
+	int32_t ___value__;
 };
 struct Exception_t  : public RuntimeObject
 {
@@ -2026,16 +1841,243 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
-struct GuidSerializer_tFBD3C20DCF4491FF957636C0E5DD75B8080C945D  : public StructSerializerBase_1_tA8457122AF9FE04C71B9D33438FA351625EA7AEA
+struct GuidRepresentation_tC5BC87AE9090FDA8062E383B1DF55E32B557EC5E 
 {
-	int32_t ____guidRepresentation;
-	int32_t ____representation;
+	int32_t ___value__;
+};
+struct GuidRepresentationMode_t0F6591A6D488BF9B49F438AC988B4654F7A30405 
+{
+	int32_t ___value__;
+};
+struct MemberTypes_t26BAB0893BEC9328F2F64E8BACDA967C445632E5 
+{
+	int32_t ___value__;
 };
 struct MethodInfo_t  : public MethodBase_t
 {
 };
 struct OrdinalIgnoreCaseComparer_t8BAE11990A4C855D3BCBBFB42F4EF8D45088FBB0  : public OrdinalComparer_tBB06915E213A5D4C8C617ED5478E8BF30C2B2170
 {
+};
+struct ParameterAttributes_tDAEC8B3C5986B042F8F9B0845505D0FC15F92E68 
+{
+	int32_t ___value__;
+};
+struct ProcessPriorityClass_t7824AB2503136BC226813395DE876A6B146B5F8F 
+{
+	int32_t ___value__;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct SecurityAction_t2CD17B1338BAB13BA5099DB75B7B5FAF0B48BB84 
+{
+	int32_t ___value__;
+};
+struct SecurityZone_t81540FBFF0C570EE35C049FF5AE06E3A6945940E 
+{
+	int32_t ___value__;
+};
+struct SeekOrigin_t7EB9AD0EDF26368A40F48FA2098F02160B1E8000 
+{
+	int32_t ___value__;
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct TimeSpanUnits_t1A6CA00685BC00131D826D1A33B1EF2766891626 
+{
+	int32_t ___value__;
+};
+struct StreamReadMode_t9BB209E11ECE790AE4D08C4534C3499DA966B4E2 
+{
+	int32_t ___value__;
+};
+struct Nullable_1_tC13569C95438309C230194D121A2E5CF9345D927 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct BsonBinaryData_tBE8CA6CB5DE6E313EF628B34BC5548B9D2EA6A45  : public BsonValue_t919AEE7422C1180C2107D15023100323F32D94C5
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____bytes;
+	int32_t ____subType;
+	int32_t ____guidRepresentation;
+};
+struct BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691  : public RuntimeObject
+{
+	int32_t ____guidRepresentation;
+};
+struct BsonBinaryReaderContext_tED3DA5A7DED8BAC47692C993611CFE2FCEB00B05  : public RuntimeObject
+{
+	BsonBinaryReaderContext_tED3DA5A7DED8BAC47692C993611CFE2FCEB00B05* ____parentContext;
+	int32_t ____contextType;
+	int64_t ____startPosition;
+	int64_t ____size;
+	String_t* ____currentElementName;
+	int32_t ____currentArrayIndex;
+};
+struct BsonBinaryWriterContext_tBF53CBFC0B50E2714789E1622CFDB3E5B6084F20  : public RuntimeObject
+{
+	BsonBinaryWriterContext_tBF53CBFC0B50E2714789E1622CFDB3E5B6084F20* ____parentContext;
+	int32_t ____contextType;
+	int64_t ____startPosition;
+	int32_t ____index;
+};
+struct BsonDateTimeOptionsAttribute_t8E69224AA857A4C03F1B72AE7A7B7F11DBF0730A  : public BsonSerializationOptionsAttribute_t5E5B02282C83927762F8E32A3C01E3956E571F68
+{
+	bool ____dateOnly;
+	int32_t ____kind;
+	int32_t ____representation;
+};
+struct BsonDictionaryOptionsAttribute_t4BF3D3385AE6FF20C0A55C46595CCD923399892D  : public BsonSerializationOptionsAttribute_t5E5B02282C83927762F8E32A3C01E3956E571F68
+{
+	int32_t ____representation;
+};
+struct BsonDocumentReaderContext_t733B6B5A9BB0588AAFFAF420026A5CE3058C5E1B  : public RuntimeObject
+{
+	BsonDocumentReaderContext_t733B6B5A9BB0588AAFFAF420026A5CE3058C5E1B* ____parentContext;
+	int32_t ____contextType;
+	BsonDocument_t6DE4446E9A71EA570845CAFC17BBB48887C15839* ____document;
+	BsonArray_t2404AAE5E742E65283EA15D047AC919E5B5962A4* ____array;
+	int32_t ____index;
+};
+struct BsonException_t2F6F2C14F6A9FAC81756A685AC50B521686B267B  : public Exception_t
+{
+};
+struct BsonGuidRepresentationAttribute_t92A1CBA1B9FA6451C5CF6B622CF1F90B168FB5F6  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ____guidRepresentation;
+};
+struct BsonReader_tCB2740332DC33A84386CA5EE3807EF72038ACBBC  : public RuntimeObject
+{
+	bool ____disposed;
+	BsonReaderSettings_tF2549A56EBD77929BD8AE8CC0E5C96DCE3430B6B* ____settings;
+	int32_t ____state;
+	int32_t ____currentBsonType;
+	String_t* ____currentName;
+	Stack_1_t2D4ED07EAFAB0A94D306827AD3211436AADCF1B7* ____settingsStack;
+};
+struct BsonReaderBookmark_t10E55834D20478063264E53F1E24931A506AC45F  : public RuntimeObject
+{
+	int32_t ____state;
+	int32_t ____currentBsonType;
+	String_t* ____currentName;
+};
+struct BsonReaderSettings_tF2549A56EBD77929BD8AE8CC0E5C96DCE3430B6B  : public RuntimeObject
+{
+	int32_t ____guidRepresentation;
+	bool ____isFrozen;
+};
+struct BsonRepresentationAttribute_t206132F6600AC7099796217D651714F9CFC531E1  : public BsonSerializationOptionsAttribute_t5E5B02282C83927762F8E32A3C01E3956E571F68
+{
+	int32_t ____representation;
+	bool ____allowOverflow;
+	bool ____allowTruncation;
+};
+struct BsonStreamAdapter_tFE36ED39AE15AFCA41210E0FA1E87B2CF8DAAB87  : public BsonStream_tCD2E9102A0A482A1B59F1F9A25176516E4215B6F
+{
+	bool ____disposed;
+	bool ____ownsStream;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____temp;
+};
+struct BsonTimeSpanOptionsAttribute_t72002DF1084E4A07A8AA1EAF1AF87BDA16D5F6B1  : public BsonSerializationOptionsAttribute_t5E5B02282C83927762F8E32A3C01E3956E571F68
+{
+	int32_t ____representation;
+	int32_t ____units;
+};
+struct BsonWriter_t8903FD851DFB94AEF75BF3B21FD410BD8B5D3715  : public RuntimeObject
+{
+	bool ____disposed;
+	bool ____useChildValidator;
+	RuntimeObject* ____elementNameValidator;
+	Stack_1_tEAD8CF8A394FD076589FBCB58CAFC5C231E73B8D* ____elementNameValidatorStack;
+	BsonWriterSettings_tEF90321A6E901B5AE2ECC493EC635CB618A847A0* ____settings;
+	Stack_1_tA0B1BAAF734BBB7308746E95C245FDCB31DA87EA* ____settingsStack;
+	int32_t ____state;
+	String_t* ____name;
+	int32_t ____serializationDepth;
+};
+struct BsonWriterSettings_tEF90321A6E901B5AE2ECC493EC635CB618A847A0  : public RuntimeObject
+{
+	int32_t ____guidRepresentation;
+	bool ____isFrozen;
+	int32_t ____maxSerializationDepth;
+};
+struct DateTimeSerializer_t9E615758F7EC9C0B82CCBBD3B95B9F6ED12DC0D5  : public StructSerializerBase_1_t6642BF488E8BAA80505B3336E16CFAF7A145C528
+{
+	bool ____dateOnly;
+	SerializerHelper_t813240F765C7C071F0A947A46841741323DAD8F0* ____helper;
+	Int64Serializer_t23A09595BDF32112F8E17F604615A05BF55CE681* ____int64Serializer;
+	int32_t ____kind;
+	int32_t ____representation;
+};
+struct EnumRepresentationConvention_tBB122C59B8CFD17B0C4001D5202B8AD912CAA90F  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
+{
+	int32_t ____representation;
+};
+struct GuidSerializer_tFBD3C20DCF4491FF957636C0E5DD75B8080C945D  : public StructSerializerBase_1_tA8457122AF9FE04C71B9D33438FA351625EA7AEA
+{
+	int32_t ____guidRepresentation;
+	int32_t ____representation;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct NamedExtraElementsMemberConvention_t2F32FFAE1C799821C294816AED6D0AFD8BA1CA5B  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
+{
+	RuntimeObject* ____names;
+	int32_t ____memberTypes;
+	int32_t ____bindingFlags;
+};
+struct NamedIdMemberConvention_t2B5E30E4CA86C570475615A70074DFFE4321026D  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
+{
+	RuntimeObject* ____names;
+	int32_t ____memberTypes;
+	int32_t ____bindingFlags;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	RuntimeObject* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	String_t* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	char* ___NameImpl;
+	int32_t ___PositionImpl;
+};
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
+{
+	int32_t ___AttrsImpl;
+	Type_t* ___ClassImpl;
+	Il2CppIUnknown* ___DefaultValueImpl;
+	MemberInfo_t* ___MemberImpl;
+	Il2CppChar* ___NameImpl;
+	int32_t ___PositionImpl;
 };
 struct Process_tF74794C64BCE464912BF158980B347CE66AF203B  : public Component_t7DA251DAA9E59801CC5FE8E27F37027143BED083
 {
@@ -2082,50 +2124,22 @@ struct Process_tF74794C64BCE464912BF158980B347CE66AF203B  : public Component_t7D
 	bool ___pendingErrorRead;
 	String_t* ___process_name;
 };
-struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+struct ReadWriteMemberFinderConvention_t582E087D72779C94D68F93F6393B6199BB8E872B  : public ConventionBase_t92FE5AF1EB04A8A2F938B510301B07466EB2EB73
 {
-	intptr_t ___value;
-};
-struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
-{
-	intptr_t ___value;
+	int32_t ____bindingFlags;
+	int32_t ____memberTypes;
 };
 struct StringSerializer_t091CB9519DF2794C8799B571C9ED5B664495EBF2  : public SealedClassSerializerBase_1_tF1295B4C452930CF1235ED20F920CFB17529860C
 {
 	int32_t ____representation;
 };
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
 struct TimeSpanSerializer_t879C0DBBC5BCBD6EA8682A68298FB1508FAF1ED8  : public StructSerializerBase_1_t0D69EEC0CC445433F758AE04798CBA938609F82F
 {
 	int32_t ____representation;
 	int32_t ____units;
-};
-struct BsonException_t2F6F2C14F6A9FAC81756A685AC50B521686B267B  : public Exception_t
-{
-};
-struct BsonStreamAdapter_tFE36ED39AE15AFCA41210E0FA1E87B2CF8DAAB87  : public BsonStream_tCD2E9102A0A482A1B59F1F9A25176516E4215B6F
-{
-	bool ____disposed;
-	bool ____ownsStream;
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____temp;
-};
-struct BsonValueSerializer_t1953FE83BF6276D83A3FDBF680AFD1388A47753A  : public BsonValueSerializerBase_1_tAE79FFD5BE84247AB8536A8CF001F000D740231A
-{
-};
-struct MulticastDelegate_t  : public Delegate_t
-{
-	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
-};
-struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
-{
-	Delegate_t_marshaled_pinvoke** ___delegates;
-};
-struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
-{
-	Delegate_t_marshaled_com** ___delegates;
-};
-struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
-{
 };
 struct Type_t  : public MemberInfo_t
 {
@@ -2145,6 +2159,10 @@ struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDel
 };
 struct Action_1_t95C8995463814FD0CB2234EC0E89FFF7F9F8DD69  : public MulticastDelegate_t
 {
+};
+struct BsonValueSerializerBase_1_tAE79FFD5BE84247AB8536A8CF001F000D740231A  : public SerializerBase_1_t4167DE6A599195F55D9465321FBE6BF741D6705D
+{
+	Nullable_1_tC13569C95438309C230194D121A2E5CF9345D927 ____bsonType;
 };
 struct Func_2_tF6129E3FCA6ED33F8F8E12A8400002C078A325FA  : public MulticastDelegate_t
 {
@@ -2185,6 +2203,49 @@ struct Predicate_1_t4AC0675F7783AE04B33049D76E5E01646FA38BA1  : public Multicast
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 	String_t* ____paramName;
+};
+struct BsonBinaryReader_t1D7FC0E3CB1DFE3391F27ABC9643417BF1A3E782  : public BsonReader_tCB2740332DC33A84386CA5EE3807EF72038ACBBC
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____baseStream;
+	BsonStream_tCD2E9102A0A482A1B59F1F9A25176516E4215B6F* ____bsonStream;
+	BsonBinaryReaderContext_tED3DA5A7DED8BAC47692C993611CFE2FCEB00B05* ____context;
+};
+struct BsonBinaryReaderBookmark_t4CF55B2E23686CDC7F1D4E4FBE94505863CAE3EE  : public BsonReaderBookmark_t10E55834D20478063264E53F1E24931A506AC45F
+{
+	BsonBinaryReaderContext_tED3DA5A7DED8BAC47692C993611CFE2FCEB00B05* ____context;
+	int64_t ____position;
+};
+struct BsonBinaryReaderSettings_tE9DF14C6C1D4C3A3668D345A45F385FD0255A843  : public BsonReaderSettings_tF2549A56EBD77929BD8AE8CC0E5C96DCE3430B6B
+{
+	UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* ____encoding;
+	bool ____fixOldBinarySubTypeOnInput;
+	bool ____fixOldDateTimeMaxValueOnInput;
+	int32_t ____maxDocumentSize;
+};
+struct BsonBinaryWriter_t4F8BEAD1068DE185231E443BB2382B17AB8B98AD  : public BsonWriter_t8903FD851DFB94AEF75BF3B21FD410BD8B5D3715
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____baseStream;
+	BsonStream_tCD2E9102A0A482A1B59F1F9A25176516E4215B6F* ____bsonStream;
+	BsonBinaryWriterContext_tBF53CBFC0B50E2714789E1622CFDB3E5B6084F20* ____context;
+};
+struct BsonBinaryWriterSettings_t7137A7566B5B54CC04F186EBE6E65D65915F68B7  : public BsonWriterSettings_tEF90321A6E901B5AE2ECC493EC635CB618A847A0
+{
+	UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* ____encoding;
+	bool ____fixOldBinarySubTypeOnOutput;
+	int32_t ____maxDocumentSize;
+};
+struct BsonDocumentReader_t00B4C6A9B29B9C1ECE902DB69BFAC7087BD104E3  : public BsonReader_tCB2740332DC33A84386CA5EE3807EF72038ACBBC
+{
+	BsonDocumentReaderContext_t733B6B5A9BB0588AAFFAF420026A5CE3058C5E1B* ____context;
+	BsonValue_t919AEE7422C1180C2107D15023100323F32D94C5* ____currentValue;
+};
+struct BsonDocumentReaderBookmark_t0884CCD952442604FCA3AF96EAF02F89841DD225  : public BsonReaderBookmark_t10E55834D20478063264E53F1E24931A506AC45F
+{
+	BsonDocumentReaderContext_t733B6B5A9BB0588AAFFAF420026A5CE3058C5E1B* ____context;
+	BsonValue_t919AEE7422C1180C2107D15023100323F32D94C5* ____currentValue;
+};
+struct BsonDocumentReaderSettings_t66FEF76B6E068236B79C03155317E13C41231920  : public BsonReaderSettings_tF2549A56EBD77929BD8AE8CC0E5C96DCE3430B6B
+{
 };
 struct BsonInternalException_t65ECB351D930BD4B6BAA3B23DCD60083E059FB65  : public BsonException_t2F6F2C14F6A9FAC81756A685AC50B521686B267B
 {
@@ -2229,6 +2290,9 @@ struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
 {
 	RuntimeObject* ____actualValue;
+};
+struct BsonValueSerializer_t1953FE83BF6276D83A3FDBF680AFD1388A47753A  : public BsonValueSerializerBase_1_tAE79FFD5BE84247AB8536A8CF001F000D740231A
+{
 };
 struct ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB  : public InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB
 {
@@ -2283,15 +2347,6 @@ struct AttributeConventionPack_t298C139784BEF55F5867D185BAEC575B1EAA1F08_StaticF
 struct BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_StaticFields
 {
 	bool ___IsLittleEndian;
-};
-struct BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691_StaticFields
-{
-	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____csharpLegacyInstance;
-	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____javaLegacyInstance;
-	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____pythonLegacyInstance;
-	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____standardInstance;
-	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____unspecifiedInstance;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* _____emptyGuidBytes;
 };
 struct BsonChunkPool_t44C3D1ED9DDFAC00DD132FA5E9E657C1DD54D202_StaticFields
 {
@@ -2405,18 +2460,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 	String_t* ___TrueString;
 	String_t* ___FalseString;
 };
-struct BsonBinaryReaderSettings_tE9DF14C6C1D4C3A3668D345A45F385FD0255A843_StaticFields
-{
-	BsonBinaryReaderSettings_tE9DF14C6C1D4C3A3668D345A45F385FD0255A843* _____defaults;
-};
-struct BsonBinaryWriterSettings_t7137A7566B5B54CC04F186EBE6E65D65915F68B7_StaticFields
-{
-	BsonBinaryWriterSettings_t7137A7566B5B54CC04F186EBE6E65D65915F68B7* _____defaults;
-};
-struct BsonDocumentReaderSettings_t66FEF76B6E068236B79C03155317E13C41231920_StaticFields
-{
-	BsonDocumentReaderSettings_t66FEF76B6E068236B79C03155317E13C41231920* _____defaults;
-};
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1;
@@ -2475,24 +2518,29 @@ struct ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB_StaticFields
 	String_t* ___ConstructorName;
 	String_t* ___TypeConstructorName;
 };
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691_StaticFields
+{
+	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____csharpLegacyInstance;
+	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____javaLegacyInstance;
+	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____pythonLegacyInstance;
+	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____standardInstance;
+	BsonBinaryDataGuidGenerator_t882D50F934AD2036455484D611B07AC95DFFE691* _____unspecifiedInstance;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* _____emptyGuidBytes;
+};
 struct DateTimeSerializer_t9E615758F7EC9C0B82CCBBD3B95B9F6ED12DC0D5_StaticFields
 {
 	DateTimeSerializer_t9E615758F7EC9C0B82CCBBD3B95B9F6ED12DC0D5* _____dateOnlyInstance;
 	DateTimeSerializer_t9E615758F7EC9C0B82CCBBD3B95B9F6ED12DC0D5* _____localInstance;
 	DateTimeSerializer_t9E615758F7EC9C0B82CCBBD3B95B9F6ED12DC0D5* _____utcInstance;
 };
-struct Exception_t_StaticFields
-{
-	RuntimeObject* ___s_EDILock;
-};
 struct Process_tF74794C64BCE464912BF158980B347CE66AF203B_StaticFields
 {
 	TraceSwitch_t199A0DB240149B5CDCF2754FC0E11CCBF51224B4* ___processTracing;
 	ProcessModule_t7CCBC3E3C3382F1A431C2CE645F06224FC47BC16* ___current_main_module;
-};
-struct BsonValueSerializer_t1953FE83BF6276D83A3FDBF680AFD1388A47753A_StaticFields
-{
-	BsonValueSerializer_t1953FE83BF6276D83A3FDBF680AFD1388A47753A* _____instance;
 };
 struct Type_t_StaticFields
 {
@@ -2503,6 +2551,22 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct BsonBinaryReaderSettings_tE9DF14C6C1D4C3A3668D345A45F385FD0255A843_StaticFields
+{
+	BsonBinaryReaderSettings_tE9DF14C6C1D4C3A3668D345A45F385FD0255A843* _____defaults;
+};
+struct BsonBinaryWriterSettings_t7137A7566B5B54CC04F186EBE6E65D65915F68B7_StaticFields
+{
+	BsonBinaryWriterSettings_t7137A7566B5B54CC04F186EBE6E65D65915F68B7* _____defaults;
+};
+struct BsonDocumentReaderSettings_t66FEF76B6E068236B79C03155317E13C41231920_StaticFields
+{
+	BsonDocumentReaderSettings_t66FEF76B6E068236B79C03155317E13C41231920* _____defaults;
+};
+struct BsonValueSerializer_t1953FE83BF6276D83A3FDBF680AFD1388A47753A_StaticFields
+{
+	BsonValueSerializer_t1953FE83BF6276D83A3FDBF680AFD1388A47753A* _____instance;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -3764,6 +3828,14 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 {
 	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

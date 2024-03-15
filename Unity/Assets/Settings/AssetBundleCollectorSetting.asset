@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: AssetBundleCollectorSetting
   m_EditorClassIdentifier: 
   ShowPackageView: 0
-  EnableAddressable: 0
-  LocationToLower: 0
-  IncludeAssetGUID: 0
-  UniqueBundleName: 0
   ShowEditorAlias: 1
+  UniqueBundleName: 0
   Packages:
   - PackageName: DefaultPackage
     PackageDesc: 
+    EnableAddressable: 0
+    LocationToLower: 0
+    IncludeAssetGUID: 0
+    IgnoreDefaultType: 1
+    AutoCollectShaders: 1
     Groups:
     - GroupName: AotDlls
       GroupDesc: 
@@ -61,27 +63,6 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags: 
         UserData: 
-    - GroupName: UI
-      GroupDesc: 
-      AssetTags: 
-      ActiveRuleName: EnableGroup
-      Collectors:
-      - CollectPath: Assets/Bundles/FUI
-        CollectorGUID: 3a57d524d1e0d7543828b2ac7273f608
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackSeparately
-        FilterRuleName: CollectBytes
-        AssetTags: 
-        UserData: 
-      - CollectPath: Assets/Bundles/FUI
-        CollectorGUID: 3a57d524d1e0d7543828b2ac7273f608
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackDirectory
-        FilterRuleName: CollectAtlas
-        AssetTags: 
-        UserData: 
     - GroupName: Unit
       GroupDesc: 
       AssetTags: 
@@ -115,6 +96,19 @@ MonoBehaviour:
       Collectors:
       - CollectPath: Assets/Bundles/Spine
         CollectorGUID: d40d9c3377d3d4482a3950fa894f15a2
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: FUI
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Bundles/FUI
+        CollectorGUID: 3a57d524d1e0d7543828b2ac7273f608
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory

@@ -1,7 +1,8 @@
-namespace ET;
-
-[ComponentOf(typeof(Scene))]
-public class MainMapTransferPointComponent : Entity,IAwake
+namespace ET
 {
-    public BoxColliderTrigger TransferPont_ChooseDifficulty;
+    [ComponentOf(typeof(Scene))]
+    public class MainMapTransferPointComponent : Entity,IAwake
+    {
+        public BoxColliderTrigger TransferPont_ChooseDifficulty;
+    }
 }

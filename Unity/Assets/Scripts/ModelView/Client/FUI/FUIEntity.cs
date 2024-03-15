@@ -1,41 +1,42 @@
 using FairyGUI;
 using UnityEngine;
 
-namespace ET.Client;
-
-[ChildOf(typeof(FUIComponent))]
-public class FUIEntity : Entity,IAwake,IDestroy
+namespace ET.Client
 {
-    public bool IsPreLoad
+    [ChildOf(typeof(FUIComponent))]
+    public class FUIEntity : Entity,IAwake,IDestroy
     {
-        get
+        public bool IsPreLoad
         {
-            return this.GComponent != null;
-        }
-    }
-        
-    public PanelId PanelId
-    {
-        get
-        {
-            if (this.panelId == PanelId.Invalid)
+            get
             {
-                Log.Error("panel id is " + PanelId.Invalid);
+                return this.GComponent != null;
             }
-            return this.panelId;
         }
-        set { this.panelId = value; }
-    }
+        
+        public PanelId PanelId
+        {
+            get
+            {
+                if (this.panelId == PanelId.Invalid)
+                {
+                    Log.Error("panel id is " + PanelId.Invalid);
+                }
+                return this.panelId;
+            }
+            set { this.panelId = value; }
+        }
       
-    private PanelId panelId = PanelId.Invalid;
+        private PanelId panelId = PanelId.Invalid;
 
-    public GComponent GComponent { get; set; }
+        public GComponent GComponent { get; set; }
 
-    public PanelCoreData PanelCoreData { get; set; }
+        public PanelCoreData PanelCoreData { get; set; }
 
-    public EntityRef<Entity> ContextData { get; set; }
+        public EntityRef<Entity> ContextData { get; set; }
 
-    public SystemLanguage Language { get; set; }
+        public SystemLanguage Language { get; set; }
 
-    public bool IsUsingStack;
+        public bool IsUsingStack;
+    }
 }

@@ -1,8 +1,9 @@
 using UnityEngine;
 
-namespace ET.Client;
-
-public struct SwitchLanguage
+namespace ET.Client
 {
-    public SystemLanguage Language;
+    public struct SwitchLanguage
+    {
+        public SystemLanguage Language;
+    }
 }

@@ -83,6 +83,7 @@ struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
 struct List_1_t9F4F8EB487AD8634210B33C2FD40A9DB5604EDB3;
 struct List_1_t151A1BC1807DD3664F9A0AD5F5D74FF992C57A4C;
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct IEnlistmentNotificationU5BU5D_t43C61449FC3AA7F3AC02A1E6FE315C31416357F4;
 struct ISinglePhaseNotificationU5BU5D_tBCC1EA9782E893D8F493B8983F1B686826558207;
@@ -327,6 +328,15 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D
 {
 	uint64_t ____dateData;
 };
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
 struct Guid_t 
 {
 	int32_t ____a;
@@ -364,21 +374,6 @@ struct SinglePhaseEnlistment_t7AA936D444F929C7355B1D02E9A9B6B2B55D135C  : public
 {
 	Transaction_tB36D4D179023FCFA37362B3BC0C4DC533D2EE1AD* ___tx;
 	RuntimeObject* ___abortingEnlisted;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	RuntimeObject* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
 };
 struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
 {
@@ -457,6 +452,10 @@ struct Delegate_t_marshaled_com
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
 };
+struct EnterpriseServicesInteropOption_t0A2C0A9058C1FEC5AC7176A3CA52E9486F2739CC 
+{
+	int32_t ___value__;
+};
 struct Exception_t  : public RuntimeObject
 {
 	String_t* ____className;
@@ -514,33 +513,13 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
-struct Transaction_tB36D4D179023FCFA37362B3BC0C4DC533D2EE1AD  : public RuntimeObject
+struct IsolationLevel_t11CCBA6EC4AB4CECA2F9BE8AA326340F6E391414 
 {
-	int32_t ___level;
-	TransactionInformation_tFB7D26BBE9CEB8F44CAC3930B739922628AD17EA* ___info;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___dependents;
-	List_1_t9F4F8EB487AD8634210B33C2FD40A9DB5604EDB3* ___volatiles;
-	List_1_t151A1BC1807DD3664F9A0AD5F5D74FF992C57A4C* ___durables;
-	RuntimeObject* ___pspe;
-	bool ___committing;
-	bool ___committed;
-	bool ___aborted;
-	TransactionScope_tB6032DAC900A60B7BC491532717C3707414B9BC4* ___scope;
-	Exception_t* ___innerException;
-	Guid_t ___tag;
-	TransactionCompletedEventHandler_tE63F4C59FFEDF5500FAD819D585CBCAE192CE3DB* ___TransactionCompletedInternal;
+	int32_t ___value__;
 };
-struct TransactionInformation_tFB7D26BBE9CEB8F44CAC3930B739922628AD17EA  : public RuntimeObject
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
 {
-	String_t* ___local_id;
-	Guid_t ___dtcId;
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___creation_time;
-	int32_t ___status;
-};
-struct TransactionOptions_tF977EA80CD543D25883B20A41B8EBAD0E39D21AD 
-{
-	int32_t ___level;
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___timeout;
+	int32_t ___value__;
 };
 struct TransactionScope_tB6032DAC900A60B7BC491532717C3707414B9BC4  : public RuntimeObject
 {
@@ -555,6 +534,18 @@ struct TransactionScope_tB6032DAC900A60B7BC491532717C3707414B9BC4  : public Runt
 	bool ___aborted;
 	bool ___isRoot;
 	bool ___asyncFlowEnabled;
+};
+struct TransactionScopeAsyncFlowOption_tC3E59BEBFF78D482F46DD40E0572EAF71F00D26C 
+{
+	int32_t ___value__;
+};
+struct TransactionScopeOption_t2E1501BA91D467410E8E16351498BD6E99A1A351 
+{
+	int32_t ___value__;
+};
+struct TransactionStatus_tBC9BC3EE11624F12DE229BF1EAC5D9496F9E513F 
+{
+	int32_t ___value__;
 };
 struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
@@ -589,8 +580,51 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
 };
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
+{
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
+};
+struct Transaction_tB36D4D179023FCFA37362B3BC0C4DC533D2EE1AD  : public RuntimeObject
+{
+	int32_t ___level;
+	TransactionInformation_tFB7D26BBE9CEB8F44CAC3930B739922628AD17EA* ___info;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___dependents;
+	List_1_t9F4F8EB487AD8634210B33C2FD40A9DB5604EDB3* ___volatiles;
+	List_1_t151A1BC1807DD3664F9A0AD5F5D74FF992C57A4C* ___durables;
+	RuntimeObject* ___pspe;
+	bool ___committing;
+	bool ___committed;
+	bool ___aborted;
+	TransactionScope_tB6032DAC900A60B7BC491532717C3707414B9BC4* ___scope;
+	Exception_t* ___innerException;
+	Guid_t ___tag;
+	TransactionCompletedEventHandler_tE63F4C59FFEDF5500FAD819D585CBCAE192CE3DB* ___TransactionCompletedInternal;
+};
+struct TransactionInformation_tFB7D26BBE9CEB8F44CAC3930B739922628AD17EA  : public RuntimeObject
+{
+	String_t* ___local_id;
+	Guid_t ___dtcId;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___creation_time;
+	int32_t ___status;
+};
+struct TransactionOptions_tF977EA80CD543D25883B20A41B8EBAD0E39D21AD 
+{
+	int32_t ___level;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___timeout;
 };
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -696,10 +730,6 @@ struct Exception_t_StaticFields
 {
 	RuntimeObject* ___s_EDILock;
 };
-struct Transaction_tB36D4D179023FCFA37362B3BC0C4DC533D2EE1AD_ThreadStaticFields
-{
-	Transaction_tB36D4D179023FCFA37362B3BC0C4DC533D2EE1AD* ___ambient;
-};
 struct TransactionScope_tB6032DAC900A60B7BC491532717C3707414B9BC4_StaticFields
 {
 	TransactionOptions_tF977EA80CD543D25883B20A41B8EBAD0E39D21AD ___defaultOptions;
@@ -707,6 +737,10 @@ struct TransactionScope_tB6032DAC900A60B7BC491532717C3707414B9BC4_StaticFields
 struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
 {
 	intptr_t ___InvalidHandle;
+};
+struct Transaction_tB36D4D179023FCFA37362B3BC0C4DC533D2EE1AD_ThreadStaticFields
+{
+	Transaction_tB36D4D179023FCFA37362B3BC0C4DC533D2EE1AD* ___ambient;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -1030,6 +1064,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enlistment__ctor_m8A01B2DCBBE2F2BB4CD040
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3597,6 +3647,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransactionScope__cctor_m3EFA247165D4145
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

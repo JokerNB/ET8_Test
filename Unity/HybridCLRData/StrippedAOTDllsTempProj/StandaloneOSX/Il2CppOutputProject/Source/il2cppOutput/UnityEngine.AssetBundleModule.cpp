@@ -26,6 +26,7 @@ struct Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB;
 struct IEnumerable_1_t0CE813292C3A54130BF53CF4FF72785A5E0F6BA5;
 struct AssetBundleU5BU5D_t6C135EB4786508F050C22921096F7BDBE1EF0644;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A;
@@ -151,30 +152,18 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 {
 	bool ___m_value;
 };
-struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 
-{
-	int32_t ____compression;
-	int32_t ____level;
-	uint32_t ____blockSize;
-	bool ____enableProtect;
-};
-struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_marshaled_pinvoke
-{
-	int32_t ____compression;
-	int32_t ____level;
-	uint32_t ____blockSize;
-	int32_t ____enableProtect;
-};
-struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_marshaled_com
-{
-	int32_t ____compression;
-	int32_t ____level;
-	uint32_t ____blockSize;
-	int32_t ____enableProtect;
-};
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
 {
 	uint8_t ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 
 {
@@ -212,6 +201,10 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
+struct AssetBundleLoadResult_t7294882F626A1A1E10EF63AAAB04BA4D488B8688 
+{
+	int32_t ___value__;
+};
 struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
 {
 	intptr_t ___m_Ptr;
@@ -226,6 +219,14 @@ struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com : 
 {
 	intptr_t ___m_Ptr;
 	Il2CppMethodPointer ___m_completeCallback;
+};
+struct CompressionLevel_tCD6544F3979540F73AC7D227CA97297B99D07D69 
+{
+	int32_t ___value__;
+};
+struct CompressionType_t45F859A1C8A79B10639EE6D8A9545A22612E4E68 
+{
+	int32_t ___value__;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -348,6 +349,10 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 {
 	intptr_t ___value;
 };
+struct ThreadPriority_t1C33D8EAA0B5FF3DE02FEDF88E13D5A6E9C30F88 
+{
+	int32_t ___value__;
+};
 struct AssetBundle_tB38418819A49060CD738CB21541649340F082943  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
@@ -380,6 +385,27 @@ struct AssetBundleUnloadOperation_tB96802FE8BBAC2B74D933BAF5F502EF9112095FD_mars
 };
 struct AssetBundleUnloadOperation_tB96802FE8BBAC2B74D933BAF5F502EF9112095FD_marshaled_com : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com
 {
+};
+struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 
+{
+	int32_t ____compression;
+	int32_t ____level;
+	uint32_t ____blockSize;
+	bool ____enableProtect;
+};
+struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_marshaled_pinvoke
+{
+	int32_t ____compression;
+	int32_t ____level;
+	uint32_t ____blockSize;
+	int32_t ____enableProtect;
+};
+struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_marshaled_com
+{
+	int32_t ____compression;
+	int32_t ____level;
+	uint32_t ____blockSize;
+	int32_t ____enableProtect;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -446,14 +472,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 	String_t* ___TrueString;
 	String_t* ___FalseString;
 };
-struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_StaticFields
-{
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___Uncompressed;
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZ4;
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZMA;
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___UncompressedRuntime;
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZ4Runtime;
-};
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 {
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null;
@@ -461,6 +479,14 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 {
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_StaticFields
+{
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___Uncompressed;
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZ4;
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZMA;
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___UncompressedRuntime;
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZ4Runtime;
 };
 struct Type_t_StaticFields
 {
@@ -654,6 +680,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetBundleLoadingCache_set_blockCount_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetBundleLoadingCache_set_maxBlocksPerFile_mDA170E8B6A4A8A84F93C73DBF2896AA1A72A4F02 (uint32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetBundleManifest_GetAssetBundleHash_Injected_mE92D11CD83E3B3B165CBBEBA395D777F291AA92D (AssetBundleManifest_t85F250E5A0E0F954DA386C0CEF27BA7622A323A7* __this, String_t* ___0_assetBundleName, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40* ___1_ret, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceRequest__ctor_m11F59D90927F0F2598D8776E2CB64CD106D54FAC (ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

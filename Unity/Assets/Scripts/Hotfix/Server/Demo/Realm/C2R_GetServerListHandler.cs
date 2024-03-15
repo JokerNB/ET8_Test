@@ -1,10 +1,11 @@
-namespace ET.Server;
-
-[MessageHandler(SceneType.Realm)]
-public class C2R_GetServerListHandler : MessageHandler<Scene,C2R_GetServerList,R2C_GetServerList>
+namespace ET.Server
 {
-    protected override async ETTask Run(Scene unit, C2R_GetServerList request, R2C_GetServerList response)
+    [MessageHandler(SceneType.Realm)]
+    public class C2R_GetServerListHandler : MessageHandler<Scene,C2R_GetServerList,R2C_GetServerList>
     {
-        await ETTask.CompletedTask;
+        protected override async ETTask Run(Scene unit, C2R_GetServerList request, R2C_GetServerList response)
+        {
+            await ETTask.CompletedTask;
+        }
     }
 }

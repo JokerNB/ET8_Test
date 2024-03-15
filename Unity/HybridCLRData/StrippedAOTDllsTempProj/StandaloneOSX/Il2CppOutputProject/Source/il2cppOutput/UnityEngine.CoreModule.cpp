@@ -915,81 +915,6 @@ struct AsyncReadManagerMetricsFilters_t8345AB04A9736805407C88046E48E05CE9CEB626_
 	int32_t* ___PriorityLevels;
 	int32_t* ___Subsystems;
 };
-struct AsyncReadManagerSummaryMetrics_t6966444257D63705ED391CADAEE69D564FBA5AEB  : public RuntimeObject
-{
-	uint64_t ___U3CTotalBytesReadU3Ek__BackingField;
-	float ___U3CAverageBandwidthMBPerSecondU3Ek__BackingField;
-	float ___U3CAverageReadSizeInBytesU3Ek__BackingField;
-	float ___U3CAverageWaitTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CAverageReadTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CAverageTotalRequestTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CAverageThroughputMBPerSecondU3Ek__BackingField;
-	float ___U3CLongestWaitTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CLongestReadTimeMicrosecondsU3Ek__BackingField;
-	uint64_t ___U3CLongestReadAssetTypeU3Ek__BackingField;
-	uint64_t ___U3CLongestWaitAssetTypeU3Ek__BackingField;
-	int32_t ___U3CLongestReadSubsystemU3Ek__BackingField;
-	int32_t ___U3CLongestWaitSubsystemU3Ek__BackingField;
-	int32_t ___U3CNumberOfInProgressRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfCompletedRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfFailedRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfWaitingRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfCanceledRequestsU3Ek__BackingField;
-	int32_t ___U3CTotalNumberOfRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfCachedReadsU3Ek__BackingField;
-	int32_t ___U3CNumberOfAsyncReadsU3Ek__BackingField;
-	int32_t ___U3CNumberOfSyncReadsU3Ek__BackingField;
-};
-struct AsyncReadManagerSummaryMetrics_t6966444257D63705ED391CADAEE69D564FBA5AEB_marshaled_pinvoke
-{
-	uint64_t ___U3CTotalBytesReadU3Ek__BackingField;
-	float ___U3CAverageBandwidthMBPerSecondU3Ek__BackingField;
-	float ___U3CAverageReadSizeInBytesU3Ek__BackingField;
-	float ___U3CAverageWaitTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CAverageReadTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CAverageTotalRequestTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CAverageThroughputMBPerSecondU3Ek__BackingField;
-	float ___U3CLongestWaitTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CLongestReadTimeMicrosecondsU3Ek__BackingField;
-	uint64_t ___U3CLongestReadAssetTypeU3Ek__BackingField;
-	uint64_t ___U3CLongestWaitAssetTypeU3Ek__BackingField;
-	int32_t ___U3CLongestReadSubsystemU3Ek__BackingField;
-	int32_t ___U3CLongestWaitSubsystemU3Ek__BackingField;
-	int32_t ___U3CNumberOfInProgressRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfCompletedRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfFailedRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfWaitingRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfCanceledRequestsU3Ek__BackingField;
-	int32_t ___U3CTotalNumberOfRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfCachedReadsU3Ek__BackingField;
-	int32_t ___U3CNumberOfAsyncReadsU3Ek__BackingField;
-	int32_t ___U3CNumberOfSyncReadsU3Ek__BackingField;
-};
-struct AsyncReadManagerSummaryMetrics_t6966444257D63705ED391CADAEE69D564FBA5AEB_marshaled_com
-{
-	uint64_t ___U3CTotalBytesReadU3Ek__BackingField;
-	float ___U3CAverageBandwidthMBPerSecondU3Ek__BackingField;
-	float ___U3CAverageReadSizeInBytesU3Ek__BackingField;
-	float ___U3CAverageWaitTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CAverageReadTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CAverageTotalRequestTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CAverageThroughputMBPerSecondU3Ek__BackingField;
-	float ___U3CLongestWaitTimeMicrosecondsU3Ek__BackingField;
-	float ___U3CLongestReadTimeMicrosecondsU3Ek__BackingField;
-	uint64_t ___U3CLongestReadAssetTypeU3Ek__BackingField;
-	uint64_t ___U3CLongestWaitAssetTypeU3Ek__BackingField;
-	int32_t ___U3CLongestReadSubsystemU3Ek__BackingField;
-	int32_t ___U3CLongestWaitSubsystemU3Ek__BackingField;
-	int32_t ___U3CNumberOfInProgressRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfCompletedRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfFailedRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfWaitingRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfCanceledRequestsU3Ek__BackingField;
-	int32_t ___U3CTotalNumberOfRequestsU3Ek__BackingField;
-	int32_t ___U3CNumberOfCachedReadsU3Ek__BackingField;
-	int32_t ___U3CNumberOfAsyncReadsU3Ek__BackingField;
-	int32_t ___U3CNumberOfSyncReadsU3Ek__BackingField;
-};
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
 {
 };
@@ -1160,12 +1085,6 @@ struct JobValidationInternal_t41D146B4053B60D57E59B25E8C575932CED3F3CF  : public
 struct JobsUtility_t912A22C375F804D687A2EFC9F4FC5D33C54B9A9C  : public RuntimeObject
 {
 };
-struct Logger_t608FFEA1E140B6BE2CCB01C86ACB219533C172A0  : public RuntimeObject
-{
-	RuntimeObject* ___U3ClogHandlerU3Ek__BackingField;
-	bool ___U3ClogEnabledU3Ek__BackingField;
-	int32_t ___U3CfilterLogTypeU3Ek__BackingField;
-};
 struct MemberInfo_t  : public RuntimeObject
 {
 };
@@ -1290,13 +1209,6 @@ struct Expression_t24E9476A15D0D7F6495CF8292DA48C63C871E4B7  : public RuntimeObj
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___rpnTokens;
 	bool ___hasVariables;
 };
-struct Operator_t67823DD2798306C80A6C9639041F09E952694007  : public RuntimeObject
-{
-	int32_t ___op;
-	int32_t ___precedence;
-	int32_t ___associativity;
-	int32_t ___inputs;
-};
 struct U3CU3Ec__DisplayClass95_0_t226A9B7DE69B229B5BDA21391D53A7DF95AAD6DD  : public RuntimeObject
 {
 	Action_1_tD7D5CE7F2FAEACB3761C239E9D66C15DFB9151C5* ___value;
@@ -1319,27 +1231,11 @@ struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A
 	int32_t ____version;
 	RuntimeObject* ____current;
 };
-struct NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
-struct NativeArray_1_t84C22AC03FE6517D060874E39A444D03469DD2F0 
-{
-	void* ___m_Buffer;
-	int32_t ___m_Length;
-	int32_t ___m_AllocatorLabel;
-};
 struct NativeSlice_1_t7591FC942F923C6C3D5066DBCE25E2B91AAD3BD8 
 {
 	uint8_t* ___m_Buffer;
 	int32_t ___m_Stride;
 	int32_t ___m_Length;
-};
-struct ApplicationMemoryUsageChange_t6D0E5F815818103331E6C5B0D42E006408D4FFC1 
-{
-	int32_t ___U3CmemoryUsageU3Ek__BackingField;
 };
 struct ArchiveFileInfo_t051019338FB580F17B7DA49693024E09572EF9CC 
 {
@@ -1360,66 +1256,8 @@ struct ArchiveHandle_tECB0188191D0D3519C85970E537865D8F0E49CAA
 {
 	uint64_t ___Handle;
 };
-struct AssertionConditionAttribute_tCA796FC74CB86BBB26240062E674BA72164BCA79  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	int32_t ___U3CConditionTypeU3Ek__BackingField;
-};
 struct AssertionMethodAttribute_tF53B50FC6A7D295468C339536FBADBCD3F7FD296  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-};
-struct AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13 
-{
-	String_t* ___U3CAssetNameU3Ek__BackingField;
-	String_t* ___U3CFileNameU3Ek__BackingField;
-	uint64_t ___U3COffsetBytesU3Ek__BackingField;
-	uint64_t ___U3CSizeBytesU3Ek__BackingField;
-	uint64_t ___U3CAssetTypeIdU3Ek__BackingField;
-	uint64_t ___U3CCurrentBytesReadU3Ek__BackingField;
-	uint32_t ___U3CBatchReadCountU3Ek__BackingField;
-	bool ___U3CIsBatchReadU3Ek__BackingField;
-	int32_t ___U3CStateU3Ek__BackingField;
-	int32_t ___U3CReadTypeU3Ek__BackingField;
-	int32_t ___U3CPriorityLevelU3Ek__BackingField;
-	int32_t ___U3CSubsystemU3Ek__BackingField;
-	double ___U3CRequestTimeMicrosecondsU3Ek__BackingField;
-	double ___U3CTimeInQueueMicrosecondsU3Ek__BackingField;
-	double ___U3CTotalTimeMicrosecondsU3Ek__BackingField;
-};
-struct AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13_marshaled_pinvoke
-{
-	char* ___U3CAssetNameU3Ek__BackingField;
-	char* ___U3CFileNameU3Ek__BackingField;
-	uint64_t ___U3COffsetBytesU3Ek__BackingField;
-	uint64_t ___U3CSizeBytesU3Ek__BackingField;
-	uint64_t ___U3CAssetTypeIdU3Ek__BackingField;
-	uint64_t ___U3CCurrentBytesReadU3Ek__BackingField;
-	uint32_t ___U3CBatchReadCountU3Ek__BackingField;
-	int32_t ___U3CIsBatchReadU3Ek__BackingField;
-	int32_t ___U3CStateU3Ek__BackingField;
-	int32_t ___U3CReadTypeU3Ek__BackingField;
-	int32_t ___U3CPriorityLevelU3Ek__BackingField;
-	int32_t ___U3CSubsystemU3Ek__BackingField;
-	double ___U3CRequestTimeMicrosecondsU3Ek__BackingField;
-	double ___U3CTimeInQueueMicrosecondsU3Ek__BackingField;
-	double ___U3CTotalTimeMicrosecondsU3Ek__BackingField;
-};
-struct AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13_marshaled_com
-{
-	Il2CppChar* ___U3CAssetNameU3Ek__BackingField;
-	Il2CppChar* ___U3CFileNameU3Ek__BackingField;
-	uint64_t ___U3COffsetBytesU3Ek__BackingField;
-	uint64_t ___U3CSizeBytesU3Ek__BackingField;
-	uint64_t ___U3CAssetTypeIdU3Ek__BackingField;
-	uint64_t ___U3CCurrentBytesReadU3Ek__BackingField;
-	uint32_t ___U3CBatchReadCountU3Ek__BackingField;
-	int32_t ___U3CIsBatchReadU3Ek__BackingField;
-	int32_t ___U3CStateU3Ek__BackingField;
-	int32_t ___U3CReadTypeU3Ek__BackingField;
-	int32_t ___U3CPriorityLevelU3Ek__BackingField;
-	int32_t ___U3CSubsystemU3Ek__BackingField;
-	double ___U3CRequestTimeMicrosecondsU3Ek__BackingField;
-	double ___U3CTimeInQueueMicrosecondsU3Ek__BackingField;
-	double ___U3CTotalTimeMicrosecondsU3Ek__BackingField;
 };
 struct BaseTypeRequiredAttribute_t9A430E10B7ECF719AB5B503EB36678B334675A3F  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -1428,27 +1266,6 @@ struct BaseTypeRequiredAttribute_t9A430E10B7ECF719AB5B503EB36678B334675A3F  : pu
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
 	bool ___m_value;
-};
-struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 
-{
-	int32_t ____compression;
-	int32_t ____level;
-	uint32_t ____blockSize;
-	bool ____enableProtect;
-};
-struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_marshaled_pinvoke
-{
-	int32_t ____compression;
-	int32_t ____level;
-	uint32_t ____blockSize;
-	int32_t ____enableProtect;
-};
-struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_marshaled_com
-{
-	int32_t ____compression;
-	int32_t ____level;
-	uint32_t ____blockSize;
-	int32_t ____enableProtect;
 };
 struct BurstAuthorizedExternalMethodAttribute_tFAB0BE8E2E70F74A109878D577FB49F57CE3E131  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -1503,10 +1320,6 @@ struct CannotApplyEqualityOperatorAttribute_t7196F645B89B91977BCD3878572E377B1AF
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17 
 {
 	Il2CppChar ___m_value;
-};
-struct CollectionAccessAttribute_tEB7D6D615F8586CD6E770A0937E51DEC845023AD  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	int32_t ___U3CCollectionAccessTypeU3Ek__BackingField;
 };
 struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
 {
@@ -1624,11 +1437,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
 struct FieldInfo_t  : public MemberInfo_t
 {
 };
-struct FileInfoResult_tC5B9FE5CAEBE6DEA820B5428E75C830163F91477 
-{
-	int64_t ___FileSize;
-	int32_t ___FileState;
-};
 struct GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49  : public Stack_tBD60B0E3125691193FBFC8DA8FFDD6630CB2CB47
 {
 };
@@ -1740,11 +1548,6 @@ struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6
 	float ___m23;
 	float ___m33;
 };
-struct MeansImplicitUseAttribute_t9A60BC7D0532920A70E431E65B9BA4808F038077  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	int32_t ___U3CUseKindFlagsU3Ek__BackingField;
-	int32_t ___U3CTargetFlagsU3Ek__BackingField;
-};
 struct MethodBase_t  : public MemberInfo_t
 {
 };
@@ -1754,11 +1557,6 @@ struct MonoPInvokeCallbackAttribute_t3C659C8B8852BD4E98F7B63E73D36AEE20666527  :
 struct MustUseReturnValueAttribute_tF31248FAD29D0E1AE1534C00D4E383AEA301E52E  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 	String_t* ___U3CJustificationU3Ek__BackingField;
-};
-struct NativeArrayDispose_t2E2EF752F7DFB28A2F9F74355156A3BF0D420229 
-{
-	void* ___m_Buffer;
-	int32_t ___m_AllocatorLabel;
 };
 struct NativeContainerAttribute_tCB9EE7FAE6DC2A02429230C41A40D1CA97F05D21  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -2036,11 +1834,6 @@ struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF
 struct UIntPtr_t 
 {
 	void* ____pointer;
-};
-struct UsedImplicitlyAttribute_t946B34060EC17A9CFDBFBDA5A8B934CC0042F2CC  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	int32_t ___U3CUseKindFlagsU3Ek__BackingField;
-	int32_t ___U3CTargetFlagsU3Ek__BackingField;
 };
 struct ValueProviderAttribute_t6495998164B60138FAE8659C3514136F141AFD93  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -2602,29 +2395,6 @@ struct Baselib_Timer_TickToNanosecondConversionRatio_t64DE2B2F0ED01B729E9723D420
 	uint64_t ___ticksToNanosecondsNumerator;
 	uint64_t ___ticksToNanosecondsDenominator;
 };
-struct GateFitParameters_t9964912882DBB033DA0C8A46C0E69115C094AFF0 
-{
-	int32_t ___U3CmodeU3Ek__BackingField;
-	float ___U3CaspectU3Ek__BackingField;
-};
-struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A 
-{
-	int32_t ___m_CameraRenderMode;
-	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_ResultRT;
-	int32_t ___m_OutputSpace;
-};
-struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A_marshaled_pinvoke
-{
-	int32_t ___m_CameraRenderMode;
-	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_ResultRT;
-	int32_t ___m_OutputSpace;
-};
-struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A_marshaled_com
-{
-	int32_t ___m_CameraRenderMode;
-	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_ResultRT;
-	int32_t ___m_OutputSpace;
-};
 struct U3ClayerCullDistancesU3Ee__FixedBuffer_t899804C5038AB391CB8F8C17638A02661B106C3F 
 {
 	union
@@ -2690,6 +2460,10 @@ struct U3Cm_LayerFarCullDistancesU3Ee__FixedBuffer_tD64F550B6761957A5DA6A33A171B
 		uint8_t U3Cm_LayerFarCullDistancesU3Ee__FixedBuffer_tD64F550B6761957A5DA6A33A171BBF4FB4EB667D__padding[128];
 	};
 };
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354  : public RuntimeObject
 {
 	intptr_t ___m_Ptr;
@@ -2701,6 +2475,26 @@ struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_pinvok
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com
 {
 	intptr_t ___m_Ptr;
+};
+struct ApplicationInstallMode_tC04028D1A53D6C33BFE4678D81B891F6214C7CDA 
+{
+	int32_t ___value__;
+};
+struct ApplicationMemoryUsage_t1845D90DBC323D79B941A7E832A138BDE29A5FD0 
+{
+	int32_t ___value__;
+};
+struct ApplicationSandboxType_t3058117491B3DE848142D7DD913E6BBBA03D1157 
+{
+	int32_t ___value__;
+};
+struct ArchiveStatus_tD0D7BB96EC9216DFE26037523A6D69A028DD1931 
+{
+	int32_t ___value__;
+};
+struct AssertionConditionType_tCE59E5E10D5A62E5E7F1B9CF7EE825DBC3844C04 
+{
+	int32_t ___value__;
 };
 struct AssetLoadingSubsystem_t16CE02097A0BE1FAB24960335EB524629CD31473 
 {
@@ -2720,6 +2514,14 @@ struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com : 
 {
 	intptr_t ___m_Ptr;
 	Il2CppMethodPointer ___m_completeCallback;
+};
+struct AudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B 
+{
+	int32_t ___value__;
+};
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
+{
+	int32_t ___value__;
 };
 struct BootConfigData_tCD60A463C9C4303D9A7205910F391759BAEFFE23  : public RuntimeObject
 {
@@ -2749,6 +2551,14 @@ struct CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91_marshaled_com
 {
 	Il2CppChar* ___m_Name;
 	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash;
+};
+struct CameraClearFlags_t91B921013F611457A09B92EF9C6B218CECF67202 
+{
+	int32_t ___value__;
+};
+struct CameraEvent_tAB9B803B9C806EC265ADB328417F41AD0FBD10FE 
+{
+	int32_t ___value__;
 };
 struct CameraProperties_t9318B43C06A9BAC4CD8BC5EFCC9FE6882D296D57 
 {
@@ -2785,15 +2595,43 @@ struct CameraProperties_t9318B43C06A9BAC4CD8BC5EFCC9FE6882D296D57
 	int32_t ___projectionIsOblique;
 	int32_t ___isImplicitProjectionMatrix;
 };
+struct CameraType_tCA1017DBE96964E1D967942FB98F152F14121FCD 
+{
+	int32_t ___value__;
+};
+struct CaptureFlags_tF147C5ECD7C5FA8B033088ACF3DE86EF7ABB65E2 
+{
+	uint32_t ___value__;
+};
+struct CollectionAccessType_tFDAA797C7EF730F4326E5F7F647E6BAEE477E02E 
+{
+	int32_t ___value__;
+};
 struct CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7  : public RuntimeObject
 {
 	intptr_t ___m_Ptr;
+};
+struct CompressionLevel_tCD6544F3979540F73AC7D227CA97297B99D07D69 
+{
+	int32_t ___value__;
+};
+struct CompressionType_t45F859A1C8A79B10639EE6D8A9545A22612E4E68 
+{
+	int32_t ___value__;
+};
+struct ComputeQueueType_tE51DE975A4C73ADD975651F3811BA03FDF226288 
+{
+	int32_t ___value__;
 };
 struct CrashReport_t36D091898C4979588CA6CCC9BBBAA0CF7090935A  : public RuntimeObject
 {
 	String_t* ___id;
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___time;
 	String_t* ___text;
+};
+struct CubemapFace_t300D6E2CD7DF60D44AA28338748B607677ED1D1B 
+{
+	int32_t ___value__;
 };
 struct CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7  : public RuntimeObject
 {
@@ -2810,12 +2648,13 @@ struct CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7_marshaled_com
 	intptr_t ___m_Ptr;
 	Il2CppMethodPointer ___m_OnStateChanged;
 };
-struct DebugScreenCapture_t66F30F7F0A78BD584ABBDDF3BD927F4B4239D992 
+struct CullingOptions_t94DE290A993D1671AE0E2CAC416FD9F37222B812 
 {
-	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___U3CRawImageDataReferenceU3Ek__BackingField;
-	int32_t ___U3CImageFormatU3Ek__BackingField;
-	int32_t ___U3CWidthU3Ek__BackingField;
-	int32_t ___U3CHeightU3Ek__BackingField;
+	int32_t ___value__;
+};
+struct CullingQueryOptions_tED08C2B5579FB6D78A5EEDE9192B0029FB519D1C 
+{
+	int32_t ___value__;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -2864,6 +2703,14 @@ struct Delegate_t_marshaled_com
 	MethodInfo_t* ___original_method_info;
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
+};
+struct DepthTextureMode_t64422B6053A3474607EEBAB848B2049ECE39472D 
+{
+	int32_t ___value__;
+};
+struct DeviceType_tEC9DF281BE5EA013E3F57441442CCE5A2DFF44C4 
+{
+	int32_t ___value__;
 };
 struct DiagnosticSwitch_tAE0C76FAF862A896635161E04F86BE637513D294  : public RuntimeObject
 {
@@ -2938,12 +2785,44 @@ struct ExposedPropertyResolver_t36858D4008B8D0B871FA67479EEF97D0ECE24E9B
 {
 	intptr_t ___table;
 };
+struct FileAttributes_t307E067EF44503B262F446FFD18E6230AF91AA5F 
+{
+	int32_t ___value__;
+};
 struct FileHandle_t0A623D665717E2D78F9ED95869DFF58593FE81D0 
 {
 	intptr_t ___fileCommandPtr;
 	int32_t ___version;
 };
 struct FileReadType_tCFC31639640BDB1F65BD8CB109A722747C947145 
+{
+	int32_t ___value__;
+};
+struct FileState_tB52C77D0081B689600491B643391E66824ACDB4A 
+{
+	int32_t ___value__;
+};
+struct FileStatus_tC83E1B2540D97615B2807E948FDE18B2ACA1AB2B 
+{
+	int32_t ___value__;
+};
+struct ForcedCrashCategory_tBCCE1CD16E1B26A3851C19EEAB637998FA414129 
+{
+	int32_t ___value__;
+};
+struct GITextureType_t9CCF52545048E6C8A76A056C2D4B15858368A734 
+{
+	int32_t ___value__;
+};
+struct ImplicitUseKindFlags_t743E1F043BD8F9D35C2A24DF7722611B84C45488 
+{
+	int32_t ___value__;
+};
+struct ImplicitUseTargetFlags_tFB69F6BC8EDBC8BCE9497534B57303E38D02C38D 
+{
+	int32_t ___value__;
+};
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
 {
 	int32_t ___value__;
 };
@@ -2954,6 +2833,10 @@ struct JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3
 	int32_t ___TotalIterationCount;
 	intptr_t ___StartEndIndex;
 };
+struct JobType_t30F62DD4FCF966066F7D478CF25AAF84C9BC46C6 
+{
+	int32_t ___value__;
+};
 struct LODParameters_t54D2AA0FD8E53BCF51D7A42BC1A72FCA8C78A08A 
 {
 	int32_t ___m_IsOrthographic;
@@ -2962,12 +2845,48 @@ struct LODParameters_t54D2AA0FD8E53BCF51D7A42BC1A72FCA8C78A08A
 	float ___m_OrthoSize;
 	int32_t ___m_CameraPixelHeight;
 };
+struct LeakCategory_tE021F3E55FD2F61A7026FDC5A9069E1212A3B3F4 
+{
+	int32_t ___value__;
+};
+struct LightmapType_t393E35407E8D2DC61003BCE20AC375480084671E 
+{
+	int32_t ___value__;
+};
+struct LoadSceneMode_t3E17ADA25A3C4F14ECF6026741219437DA054963 
+{
+	int32_t ___value__;
+};
+struct LogOption_tC04900F6CDCBB3F160311F35CB275752FA3A1DE1 
+{
+	int32_t ___value__;
+};
+struct LogType_t9CC0F1B620DFBF3A01E8C2D2316A850D745EF331 
+{
+	int32_t ___value__;
+};
+struct MarkerFlags_t58228A99AC6567F565911ED792189DBBDFF83E30 
+{
+	uint16_t ___value__;
+};
+struct MemorylessMode_t65C11C1693E43161434CC8AEA19E3DA21092E33A 
+{
+	int32_t ___value__;
+};
 struct MethodInfo_t  : public MethodBase_t
 {
 };
-struct NativeArrayDisposeJob_tC4C226F42B67C01224F186D06868C7BCB828E9FB 
+struct NativeArrayOptions_t3E979EEF4B4840228A7692A97DA07553C6465F1D 
 {
-	NativeArrayDispose_t2E2EF752F7DFB28A2F9F74355156A3BF0D420229 ___Data;
+	int32_t ___value__;
+};
+struct NativeLeakDetectionMode_t0221097EEE0DE19551CB405BCA0E0CC331E2F090 
+{
+	int32_t ___value__;
+};
+struct NetworkReachability_tBAA4C61FCCBE7809DBDD06AE02510392A22E2366 
+{
+	int32_t ___value__;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
@@ -2981,6 +2900,14 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 	intptr_t ___m_CachedPtr;
 };
+struct OpaqueSortMode_tBF053A349A61D37C9D45A1DBC339259F20E98E83 
+{
+	int32_t ___value__;
+};
+struct PrimitiveType_t72F3E6BA10E41F934F63C4F6DF88388E57911C44 
+{
+	int32_t ___value__;
+};
 struct Priority_t769409A2EFD44653EE7F1F47CAF002A6FAA12214 
 {
 	int32_t ___value__;
@@ -2988,6 +2915,10 @@ struct Priority_t769409A2EFD44653EE7F1F47CAF002A6FAA12214
 struct ProcessingState_t10820A0F2C4361EF738FC9F09881334C28700FD8 
 {
 	int32_t ___value__;
+};
+struct ProfilerCategoryColor_t67F7D6895008CCB351061BC8820560124C2AB3E1 
+{
+	uint16_t ___value__;
 };
 #pragma pack(push, tp, 1)
 struct ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28 
@@ -3074,9 +3005,29 @@ struct ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28
 	};
 };
 #pragma pack(pop, tp)
+struct ProfilerCategoryFlags_t9D2343DD813EE10470BDB37F421C4A8EC3C55D2C 
+{
+	uint16_t ___value__;
+};
+struct ProfilerCounterOptions_tA8DF3BEB57016991677DF3D3CF3B8D61F3378A52 
+{
+	uint16_t ___value__;
+};
+struct ProfilerFlowEventType_t630C7C72E129205091C926D8793B9A3BF8B36A5F 
+{
+	uint8_t ___value__;
+};
 struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
 {
 	intptr_t ___m_Ptr;
+};
+struct ProfilerMarkerDataType_t058474E0429A32A7A9074B222EE9F666223B81C5 
+{
+	uint8_t ___value__;
+};
+struct ProfilerMarkerDataUnit_t541C3F1456660AC98D107E8F64DA0E613A2F7753 
+{
+	uint8_t ___value__;
 };
 struct ProfilerMarkerWithStringData_t8891388A830D18F4155A14FC2F9AA54C0AA0BF94 
 {
@@ -3085,6 +3036,533 @@ struct ProfilerMarkerWithStringData_t8891388A830D18F4155A14FC2F9AA54C0AA0BF94
 struct ProfilerRecorderDebugView_t3038874E4671712E25FEF4730B3833739B321386  : public RuntimeObject
 {
 	ProfilerRecorder_t363D18B531351FF6D7A09072564EB5D8FC60E613 ___m_Recorder;
+};
+struct ProfilerRecorderOptions_t6FDB68D033AC9A5D8A8AF700E049EDA8DF6C9A12 
+{
+	int32_t ___value__;
+};
+struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction;
+};
+struct ReadHandle_t71C4E3C6D2A80E1A200DA2C22346363F9A5EBEBB 
+{
+	intptr_t ___ptr;
+	int32_t ___version;
+};
+struct ReadStatus_t487923C31D4271E65BBE851E9FFC5A840481E676 
+{
+	int32_t ___value__;
+};
+struct ReflectionProbeClearFlags_t75668474FD4C16EA40C8BB9AC0C303A3654963B5 
+{
+	int32_t ___value__;
+};
+struct ReflectionProbeMode_t12F6F00CFD705CCF8E7B74D71E47AEA99FF9C211 
+{
+	int32_t ___value__;
+};
+struct ReflectionProbeRefreshMode_tB0E2E262AF4202160FD065066BB6575EAF8911FC 
+{
+	int32_t ___value__;
+};
+struct ReflectionProbeSortingCriteria_tC7B547F11F4EF1259DB024027DD9562A19EA957E 
+{
+	int32_t ___value__;
+};
+struct ReflectionProbeTimeSlicingMode_t0723BE4458DAE8123010CD2D26836268CFDC8849 
+{
+	int32_t ___value__;
+};
+struct ReflectionProbeType_tD83FF16072EEEF120B981EC1A6D2CBCB91518857 
+{
+	int32_t ___value__;
+};
+struct RegexOptions_tE9DA9C4DF8FB26DD1C7E0F8AA022C1164A423F6B 
+{
+	int32_t ___value__;
+};
+struct RenderBuffer_tBE7B342979EF2FA36E24C8A7F9242212F5B89551 
+{
+	int32_t ___m_RenderTextureInstanceID;
+	intptr_t ___m_BufferPtr;
+};
+struct RenderingPath_t8FE80D49AAC236E30E65DAB2FCDB53A4151B654D 
+{
+	int32_t ___value__;
+};
+struct RuntimePlatform_t9A8AAF204603076FCAAECCCC05DA386AEE7BF66E 
+{
+	int32_t ___value__;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct ScheduleMode_t5181E0744D68573082AE34BA5B388ECB27DFD1E2 
+{
+	int32_t ___value__;
+};
+struct SendMessageOptions_t8C6881C01B06BF874EE578D27D8CF237EC2BFD54 
+{
+	int32_t ___value__;
+};
+struct Space_tF043E93E06B702DD05199C28C6F779049B38A969 
+{
+	int32_t ___value__;
+};
+struct StackTraceLogType_t2AD431F7181A4203AAE2D538963997CB3A917DF6 
+{
+	int32_t ___value__;
+};
+struct StereoTargetEyeMask_t938A55A4503B0E0F4673D0014089585B55865C93 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
+struct SystemLanguage_tDEDD64D7BFC2D67B538432ECAF8018FDCABAFD9E 
+{
+	int32_t ___value__;
+};
+struct TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D 
+{
+	int32_t ___value__;
+};
+struct ThreadPriority_t1C33D8EAA0B5FF3DE02FEDF88E13D5A6E9C30F88 
+{
+	int32_t ___value__;
+};
+struct TransparencySortMode_t37A2377DA9F8D6D10C927284BC4F27443D78FC02 
+{
+	int32_t ___value__;
+};
+struct TypeInferenceRules_tEFD8B0F1D39A1EA0A86C159333202C56FFD90B87 
+{
+	int32_t ___value__;
+};
+struct UserAuthorization_tD726D18E80FB80F5A0F64B477C260BC8495BC80F 
+{
+	int32_t ___value__;
+};
+struct WeightedMode_t107BDF241A7637F76F5E065BDE15342134CC2239 
+{
+	int32_t ___value__;
+};
+struct WrapMode_t6C6EABC32662DF078C3C977196618603C2F3A079 
+{
+	int32_t ___value__;
+};
+struct Flags_t2F87D61D75A7296FFACFC512A62E8E04DA4C65BD 
+{
+	int32_t ___value__;
+};
+struct Baselib_DynamicLibrary_Handle_tF64FC20EE620AC0C50A269A760214CF12B7BE20E 
+{
+	intptr_t ___handle;
+};
+struct Baselib_ErrorCode_t1B1D5455A1BE0378902B37B8C41D4B7E98C670D5 
+{
+	int32_t ___value__;
+};
+struct Baselib_ErrorState_ExplainVerbosity_t5B62E2985135E67EEDE18393CB42AB05337F30E9 
+{
+	int32_t ___value__;
+};
+struct Baselib_ErrorState_ExtraInformationType_t8B8C2933ADB0EF1E5BBA63E7FAB233E0A17CC49C 
+{
+	uint8_t ___value__;
+};
+struct Baselib_ErrorState_NativeErrorCodeType_t26F7501977F2034AFBC7BFAC7AEF671DD251F6F0 
+{
+	uint8_t ___value__;
+};
+struct Baselib_FileIO_AsyncFile_t1E4271FF938E988F3878F52FF69D02FA5596B0BA 
+{
+	intptr_t ___handle;
+};
+struct Baselib_FileIO_EventQueue_t5D2BECF738918EBE0DF9DFD4A865293A172692CA 
+{
+	intptr_t ___handle;
+};
+struct Baselib_FileIO_EventQueue_ResultType_t82E898D50BDBBCDC266677C1ABCAD88D5C984230 
+{
+	int32_t ___value__;
+};
+struct Baselib_FileIO_EventQueue_Result_Callback_tB2F315405F3EACD25C71ACCA9AE7ECCE3EE4D17F 
+{
+	intptr_t ___callback;
+};
+struct Baselib_FileIO_OpenFlags_tD99AA7F4D4B58053881783B3FF89E963717626A1 
+{
+	uint32_t ___value__;
+};
+struct Baselib_FileIO_Priority_t08D0F7B8EB4D8FBB1C744AF01A2C04357613AF06 
+{
+	int32_t ___value__;
+};
+struct Baselib_FileIO_ReadRequest_t7264C751DF3A965C933EA116B5111C1190A7ABB6 
+{
+	uint64_t ___offset;
+	intptr_t ___buffer;
+	uint64_t ___size;
+};
+struct Baselib_FileIO_SyncFile_t2CDE3D787D76DC09E6268D609F08BCE04E93CC6D 
+{
+	intptr_t ___handle;
+};
+struct Baselib_Memory_PageAllocation_t2CB618461078D185B36114A1AEC2B62D127827A1 
+{
+	intptr_t ___ptr;
+	uint64_t ___pageSize;
+	uint64_t ___pageCount;
+};
+struct Baselib_Memory_PageState_tF3E4B2A870C89389F75BF49E87525B53CA0D38A3 
+{
+	int32_t ___value__;
+};
+struct Baselib_NetworkAddress_AddressReuse_tA16039D18722F35170547528767675EC4C0D6AFE 
+{
+	int32_t ___value__;
+};
+struct Baselib_NetworkAddress_Family_t62C948CBCBB7691185B3A8DADC193D72C4E57ECD 
+{
+	int32_t ___value__;
+};
+struct Baselib_RegisteredNetwork_BufferSlice_tBEE9A8BFFB4625CEE8B4AD97E30DFE397D34F273 
+{
+	intptr_t ___id;
+	intptr_t ___data;
+	uint32_t ___size;
+	uint32_t ___offset;
+};
+struct Baselib_RegisteredNetwork_CompletionQueueStatus_t729834B6D2E3CAD9F046C0D20E6FE0ED814FF213 
+{
+	int32_t ___value__;
+};
+struct Baselib_RegisteredNetwork_CompletionStatus_t641158FAD66BA4045ABBCFEB080AC2397346D6C7 
+{
+	int32_t ___value__;
+};
+struct Baselib_RegisteredNetwork_ProcessStatus_t35913616FE53BFF1644D25FA74A4626A98B03DBB 
+{
+	int32_t ___value__;
+};
+struct Baselib_RegisteredNetwork_Socket_UDP_t56202AB2B03941A065A7D8382591DD253115192A 
+{
+	intptr_t ___handle;
+};
+struct Baselib_Socket_Handle_t5BB40490AAC0DA7C5B3CAA9C93447B28D6474FA1 
+{
+	intptr_t ___handle;
+};
+struct Baselib_Socket_Message_t03BC1D03E7D0C309FFEFC6020DA0CFA2DACAEA40 
+{
+	Baselib_NetworkAddress_t2F4AF92B4EEFE31182BADF512CA004AFF48128E0* ___address;
+	intptr_t ___data;
+	uint32_t ___dataLen;
+};
+struct Baselib_Socket_PollEvents_t7A70D6ACAE98EB9490220C9F5DBF8EC490120AD5 
+{
+	int32_t ___value__;
+};
+struct Baselib_Socket_Protocol_t8BF0E7DB9008928B718DE33091B87FBEB26C5E61 
+{
+	int32_t ___value__;
+};
+struct BurstLogType_t32BAD4D4FA2FDDC811A5259BE8EDB83420F37651 
+{
+	int32_t ___value__;
+};
+struct FieldOfViewAxis_tB66D98E9F330B81EFF99390DFA6FE65AEE0B9D46 
+{
+	int32_t ___value__;
+};
+struct GateFitMode_tF23898CD8CAC571648EC68C62D28FF17852C830C 
+{
+	int32_t ___value__;
+};
+struct MonoOrStereoscopicEye_t081A39BC8F4F6989A7575C6A8D3AC64ACBD4E6DA 
+{
+	int32_t ___value__;
+};
+struct ProjectionMatrixMode_t3DE2625CEE6A1D76C49DB56978B7BA843395D7ED 
+{
+	int32_t ___value__;
+};
+struct RenderRequestMode_t660E12F8EBA39A0449633A31AA8DEFC97D366ED0 
+{
+	int32_t ___value__;
+};
+struct RenderRequestOutputSpace_tF55D7C0ABB4514D5FBF1695B9E71644C2256D329 
+{
+	int32_t ___value__;
+};
+struct SceneViewFilterMode_t1CA260F0E329D1E4B13C03368C5346FCF7CF9C3A 
+{
+	int32_t ___value__;
+};
+struct StereoscopicEye_t30CC7EDE30A53D77DA8D865A2C52A86F2F625008 
+{
+	int32_t ___value__;
+};
+struct Flags_t859A8068F343596C06713982E1BE077266F0591A 
+{
+	int32_t ___value__;
+};
+struct Associativity_t20A80D4F91A46922FC798ED1341D70C0F1FB566E 
+{
+	int32_t ___value__;
+};
+struct Op_t9892DDA1A936D8AEA51A144C856F571E04E54BE0 
+{
+	int32_t ___value__;
+};
+struct JobScheduleParameters_tBA5415DA68E52ABC80373CD13D66C9AFAF8F542B 
+{
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___Dependency;
+	int32_t ___ScheduleMode;
+	intptr_t ___ReflectionData;
+	intptr_t ___JobDataPtr;
+};
+struct AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 
+{
+	intptr_t ___m_Ptr;
+};
+struct AutoScope_t0F2F7529A08F25C459CC541CA6875C21EF7F9AFF 
+{
+	intptr_t ____marker;
+};
+struct ControlOptions_tC98CCC0378550A112751B4590929DF000D4A270D 
+{
+	int32_t ___value__;
+};
+struct CountOptions_tE48785BE229A3CA706B667476CCA1C52B67D32AA 
+{
+	int32_t ___value__;
+};
+struct ReflectionProbeEvent_t6F4AF47FB87736A85A188CA241AA156F37EB6517 
+{
+	int32_t ___value__;
+};
+struct NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t84C22AC03FE6517D060874E39A444D03469DD2F0 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct ApplicationMemoryUsageChange_t6D0E5F815818103331E6C5B0D42E006408D4FFC1 
+{
+	int32_t ___U3CmemoryUsageU3Ek__BackingField;
+};
+struct AssertionConditionAttribute_tCA796FC74CB86BBB26240062E674BA72164BCA79  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___U3CConditionTypeU3Ek__BackingField;
+};
+struct AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13 
+{
+	String_t* ___U3CAssetNameU3Ek__BackingField;
+	String_t* ___U3CFileNameU3Ek__BackingField;
+	uint64_t ___U3COffsetBytesU3Ek__BackingField;
+	uint64_t ___U3CSizeBytesU3Ek__BackingField;
+	uint64_t ___U3CAssetTypeIdU3Ek__BackingField;
+	uint64_t ___U3CCurrentBytesReadU3Ek__BackingField;
+	uint32_t ___U3CBatchReadCountU3Ek__BackingField;
+	bool ___U3CIsBatchReadU3Ek__BackingField;
+	int32_t ___U3CStateU3Ek__BackingField;
+	int32_t ___U3CReadTypeU3Ek__BackingField;
+	int32_t ___U3CPriorityLevelU3Ek__BackingField;
+	int32_t ___U3CSubsystemU3Ek__BackingField;
+	double ___U3CRequestTimeMicrosecondsU3Ek__BackingField;
+	double ___U3CTimeInQueueMicrosecondsU3Ek__BackingField;
+	double ___U3CTotalTimeMicrosecondsU3Ek__BackingField;
+};
+struct AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13_marshaled_pinvoke
+{
+	char* ___U3CAssetNameU3Ek__BackingField;
+	char* ___U3CFileNameU3Ek__BackingField;
+	uint64_t ___U3COffsetBytesU3Ek__BackingField;
+	uint64_t ___U3CSizeBytesU3Ek__BackingField;
+	uint64_t ___U3CAssetTypeIdU3Ek__BackingField;
+	uint64_t ___U3CCurrentBytesReadU3Ek__BackingField;
+	uint32_t ___U3CBatchReadCountU3Ek__BackingField;
+	int32_t ___U3CIsBatchReadU3Ek__BackingField;
+	int32_t ___U3CStateU3Ek__BackingField;
+	int32_t ___U3CReadTypeU3Ek__BackingField;
+	int32_t ___U3CPriorityLevelU3Ek__BackingField;
+	int32_t ___U3CSubsystemU3Ek__BackingField;
+	double ___U3CRequestTimeMicrosecondsU3Ek__BackingField;
+	double ___U3CTimeInQueueMicrosecondsU3Ek__BackingField;
+	double ___U3CTotalTimeMicrosecondsU3Ek__BackingField;
+};
+struct AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13_marshaled_com
+{
+	Il2CppChar* ___U3CAssetNameU3Ek__BackingField;
+	Il2CppChar* ___U3CFileNameU3Ek__BackingField;
+	uint64_t ___U3COffsetBytesU3Ek__BackingField;
+	uint64_t ___U3CSizeBytesU3Ek__BackingField;
+	uint64_t ___U3CAssetTypeIdU3Ek__BackingField;
+	uint64_t ___U3CCurrentBytesReadU3Ek__BackingField;
+	uint32_t ___U3CBatchReadCountU3Ek__BackingField;
+	int32_t ___U3CIsBatchReadU3Ek__BackingField;
+	int32_t ___U3CStateU3Ek__BackingField;
+	int32_t ___U3CReadTypeU3Ek__BackingField;
+	int32_t ___U3CPriorityLevelU3Ek__BackingField;
+	int32_t ___U3CSubsystemU3Ek__BackingField;
+	double ___U3CRequestTimeMicrosecondsU3Ek__BackingField;
+	double ___U3CTimeInQueueMicrosecondsU3Ek__BackingField;
+	double ___U3CTotalTimeMicrosecondsU3Ek__BackingField;
+};
+struct AsyncReadManagerSummaryMetrics_t6966444257D63705ED391CADAEE69D564FBA5AEB  : public RuntimeObject
+{
+	uint64_t ___U3CTotalBytesReadU3Ek__BackingField;
+	float ___U3CAverageBandwidthMBPerSecondU3Ek__BackingField;
+	float ___U3CAverageReadSizeInBytesU3Ek__BackingField;
+	float ___U3CAverageWaitTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CAverageReadTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CAverageTotalRequestTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CAverageThroughputMBPerSecondU3Ek__BackingField;
+	float ___U3CLongestWaitTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CLongestReadTimeMicrosecondsU3Ek__BackingField;
+	uint64_t ___U3CLongestReadAssetTypeU3Ek__BackingField;
+	uint64_t ___U3CLongestWaitAssetTypeU3Ek__BackingField;
+	int32_t ___U3CLongestReadSubsystemU3Ek__BackingField;
+	int32_t ___U3CLongestWaitSubsystemU3Ek__BackingField;
+	int32_t ___U3CNumberOfInProgressRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfCompletedRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfFailedRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfWaitingRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfCanceledRequestsU3Ek__BackingField;
+	int32_t ___U3CTotalNumberOfRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfCachedReadsU3Ek__BackingField;
+	int32_t ___U3CNumberOfAsyncReadsU3Ek__BackingField;
+	int32_t ___U3CNumberOfSyncReadsU3Ek__BackingField;
+};
+struct AsyncReadManagerSummaryMetrics_t6966444257D63705ED391CADAEE69D564FBA5AEB_marshaled_pinvoke
+{
+	uint64_t ___U3CTotalBytesReadU3Ek__BackingField;
+	float ___U3CAverageBandwidthMBPerSecondU3Ek__BackingField;
+	float ___U3CAverageReadSizeInBytesU3Ek__BackingField;
+	float ___U3CAverageWaitTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CAverageReadTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CAverageTotalRequestTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CAverageThroughputMBPerSecondU3Ek__BackingField;
+	float ___U3CLongestWaitTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CLongestReadTimeMicrosecondsU3Ek__BackingField;
+	uint64_t ___U3CLongestReadAssetTypeU3Ek__BackingField;
+	uint64_t ___U3CLongestWaitAssetTypeU3Ek__BackingField;
+	int32_t ___U3CLongestReadSubsystemU3Ek__BackingField;
+	int32_t ___U3CLongestWaitSubsystemU3Ek__BackingField;
+	int32_t ___U3CNumberOfInProgressRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfCompletedRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfFailedRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfWaitingRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfCanceledRequestsU3Ek__BackingField;
+	int32_t ___U3CTotalNumberOfRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfCachedReadsU3Ek__BackingField;
+	int32_t ___U3CNumberOfAsyncReadsU3Ek__BackingField;
+	int32_t ___U3CNumberOfSyncReadsU3Ek__BackingField;
+};
+struct AsyncReadManagerSummaryMetrics_t6966444257D63705ED391CADAEE69D564FBA5AEB_marshaled_com
+{
+	uint64_t ___U3CTotalBytesReadU3Ek__BackingField;
+	float ___U3CAverageBandwidthMBPerSecondU3Ek__BackingField;
+	float ___U3CAverageReadSizeInBytesU3Ek__BackingField;
+	float ___U3CAverageWaitTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CAverageReadTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CAverageTotalRequestTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CAverageThroughputMBPerSecondU3Ek__BackingField;
+	float ___U3CLongestWaitTimeMicrosecondsU3Ek__BackingField;
+	float ___U3CLongestReadTimeMicrosecondsU3Ek__BackingField;
+	uint64_t ___U3CLongestReadAssetTypeU3Ek__BackingField;
+	uint64_t ___U3CLongestWaitAssetTypeU3Ek__BackingField;
+	int32_t ___U3CLongestReadSubsystemU3Ek__BackingField;
+	int32_t ___U3CLongestWaitSubsystemU3Ek__BackingField;
+	int32_t ___U3CNumberOfInProgressRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfCompletedRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfFailedRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfWaitingRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfCanceledRequestsU3Ek__BackingField;
+	int32_t ___U3CTotalNumberOfRequestsU3Ek__BackingField;
+	int32_t ___U3CNumberOfCachedReadsU3Ek__BackingField;
+	int32_t ___U3CNumberOfAsyncReadsU3Ek__BackingField;
+	int32_t ___U3CNumberOfSyncReadsU3Ek__BackingField;
+};
+struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 
+{
+	int32_t ____compression;
+	int32_t ____level;
+	uint32_t ____blockSize;
+	bool ____enableProtect;
+};
+struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_marshaled_pinvoke
+{
+	int32_t ____compression;
+	int32_t ____level;
+	uint32_t ____blockSize;
+	int32_t ____enableProtect;
+};
+struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_marshaled_com
+{
+	int32_t ____compression;
+	int32_t ____level;
+	uint32_t ____blockSize;
+	int32_t ____enableProtect;
+};
+struct CollectionAccessAttribute_tEB7D6D615F8586CD6E770A0937E51DEC845023AD  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___U3CCollectionAccessTypeU3Ek__BackingField;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct FileInfoResult_tC5B9FE5CAEBE6DEA820B5428E75C830163F91477 
+{
+	int64_t ___FileSize;
+	int32_t ___FileState;
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Logger_t608FFEA1E140B6BE2CCB01C86ACB219533C172A0  : public RuntimeObject
+{
+	RuntimeObject* ___U3ClogHandlerU3Ek__BackingField;
+	bool ___U3ClogEnabledU3Ek__BackingField;
+	int32_t ___U3CfilterLogTypeU3Ek__BackingField;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MeansImplicitUseAttribute_t9A60BC7D0532920A70E431E65B9BA4808F038077  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___U3CUseKindFlagsU3Ek__BackingField;
+	int32_t ___U3CTargetFlagsU3Ek__BackingField;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct NativeArrayDispose_t2E2EF752F7DFB28A2F9F74355156A3BF0D420229 
+{
+	void* ___m_Buffer;
+	int32_t ___m_AllocatorLabel;
 };
 #pragma pack(push, tp, 1)
 struct ProfilerRecorderDescription_t297485A3B4ACDA282AD652B53135D20AD70F4575 
@@ -3183,16 +3661,6 @@ struct ProfilerRecorderDescription_t297485A3B4ACDA282AD652B53135D20AD70F4575
 	};
 };
 #pragma pack(pop, tp)
-struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
-{
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction;
-};
-struct ReadHandle_t71C4E3C6D2A80E1A200DA2C22346363F9A5EBEBB 
-{
-	intptr_t ___ptr;
-	int32_t ___version;
-};
 struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772  : public RuntimeObject
 {
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___internalMatchTimeout;
@@ -3207,123 +3675,6 @@ struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772  : public RuntimeObject
 	WeakReference_1_tDC6E83496181D1BAFA3B89CBC00BCD0B64450257* ____replref;
 	RegexCode_tA23175D9DA02AD6A79B073E10EC5D225372ED6C7* ____code;
 	bool ____refsInitialized;
-};
-struct RenderBuffer_tBE7B342979EF2FA36E24C8A7F9242212F5B89551 
-{
-	int32_t ___m_RenderTextureInstanceID;
-	intptr_t ___m_BufferPtr;
-};
-struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
-{
-	intptr_t ___value;
-};
-struct Baselib_DynamicLibrary_Handle_tF64FC20EE620AC0C50A269A760214CF12B7BE20E 
-{
-	intptr_t ___handle;
-};
-struct Baselib_ErrorState_t9A3CC4D46155662AAC822300993DA278B19A1D1E 
-{
-	Baselib_SourceLocation_tF95EB643DECFDB7A2AB5C6C0AFFD8B215B1FD073 ___sourceLocation;
-	uint64_t ___nativeErrorCode;
-	uint64_t ___extraInformation;
-	int32_t ___code;
-	uint8_t ___nativeErrorCodeType;
-	uint8_t ___extraInformationType;
-};
-struct Baselib_FileIO_AsyncFile_t1E4271FF938E988F3878F52FF69D02FA5596B0BA 
-{
-	intptr_t ___handle;
-};
-struct Baselib_FileIO_EventQueue_t5D2BECF738918EBE0DF9DFD4A865293A172692CA 
-{
-	intptr_t ___handle;
-};
-struct Baselib_FileIO_EventQueue_Result_Callback_tB2F315405F3EACD25C71ACCA9AE7ECCE3EE4D17F 
-{
-	intptr_t ___callback;
-};
-struct Baselib_FileIO_ReadRequest_t7264C751DF3A965C933EA116B5111C1190A7ABB6 
-{
-	uint64_t ___offset;
-	intptr_t ___buffer;
-	uint64_t ___size;
-};
-struct Baselib_FileIO_SyncFile_t2CDE3D787D76DC09E6268D609F08BCE04E93CC6D 
-{
-	intptr_t ___handle;
-};
-struct Baselib_Memory_PageAllocation_t2CB618461078D185B36114A1AEC2B62D127827A1 
-{
-	intptr_t ___ptr;
-	uint64_t ___pageSize;
-	uint64_t ___pageCount;
-};
-struct Baselib_RegisteredNetwork_BufferSlice_tBEE9A8BFFB4625CEE8B4AD97E30DFE397D34F273 
-{
-	intptr_t ___id;
-	intptr_t ___data;
-	uint32_t ___size;
-	uint32_t ___offset;
-};
-struct Baselib_RegisteredNetwork_CompletionResult_t4C07F67F2F155FE19DBE7A41393038A154301CC7 
-{
-	int32_t ___status;
-	uint32_t ___bytesTransferred;
-	intptr_t ___requestUserdata;
-};
-struct Baselib_RegisteredNetwork_Socket_UDP_t56202AB2B03941A065A7D8382591DD253115192A 
-{
-	intptr_t ___handle;
-};
-struct Baselib_Socket_Handle_t5BB40490AAC0DA7C5B3CAA9C93447B28D6474FA1 
-{
-	intptr_t ___handle;
-};
-struct Baselib_Socket_Message_t03BC1D03E7D0C309FFEFC6020DA0CFA2DACAEA40 
-{
-	Baselib_NetworkAddress_t2F4AF92B4EEFE31182BADF512CA004AFF48128E0* ___address;
-	intptr_t ___data;
-	uint32_t ___dataLen;
-};
-struct JobScheduleParameters_tBA5415DA68E52ABC80373CD13D66C9AFAF8F542B 
-{
-	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___Dependency;
-	int32_t ___ScheduleMode;
-	intptr_t ___ReflectionData;
-	intptr_t ___JobDataPtr;
-};
-struct AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 
-{
-	intptr_t ___m_Ptr;
-};
-struct AutoScope_t0F2F7529A08F25C459CC541CA6875C21EF7F9AFF 
-{
-	intptr_t ____marker;
-};
-struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-struct ErrorState_t683E93EFB52FEC540F5B5F264CA1140D180245F0 
-{
-	Baselib_ErrorState_t9A3CC4D46155662AAC822300993DA278B19A1D1E ___nativeErrorState;
-};
-struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-struct MulticastDelegate_t  : public Delegate_t
-{
-	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
-};
-struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
-{
-	Delegate_t_marshaled_pinvoke** ___delegates;
-};
-struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
-{
-	Delegate_t_marshaled_com** ___delegates;
 };
 struct ScriptableCullingParameters_tD9539440A4A7DA4C7578CCE16F24466A5DC89899 
 {
@@ -3432,6 +3783,184 @@ struct UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067  : public Except
 {
 	String_t* ___unityStackTrace;
 };
+struct UsedImplicitlyAttribute_t946B34060EC17A9CFDBFBDA5A8B934CC0042F2CC  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___U3CUseKindFlagsU3Ek__BackingField;
+	int32_t ___U3CTargetFlagsU3Ek__BackingField;
+};
+struct Baselib_ErrorState_t9A3CC4D46155662AAC822300993DA278B19A1D1E 
+{
+	Baselib_SourceLocation_tF95EB643DECFDB7A2AB5C6C0AFFD8B215B1FD073 ___sourceLocation;
+	uint64_t ___nativeErrorCode;
+	uint64_t ___extraInformation;
+	int32_t ___code;
+	uint8_t ___nativeErrorCodeType;
+	uint8_t ___extraInformationType;
+};
+struct Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42 
+{
+	intptr_t ___id;
+	Baselib_Memory_PageAllocation_t2CB618461078D185B36114A1AEC2B62D127827A1 ___allocation;
+};
+struct Baselib_RegisteredNetwork_CompletionResult_t4C07F67F2F155FE19DBE7A41393038A154301CC7 
+{
+	int32_t ___status;
+	uint32_t ___bytesTransferred;
+	intptr_t ___requestUserdata;
+};
+struct Baselib_RegisteredNetwork_Endpoint_t9A38585FFD3425455A7E0AFC10F16BCD13B1F32C 
+{
+	Baselib_RegisteredNetwork_BufferSlice_tBEE9A8BFFB4625CEE8B4AD97E30DFE397D34F273 ___slice;
+};
+struct Baselib_Socket_PollFd_tB835CD8601271C319526D4A6CE1C14A21B4268A6 
+{
+	Baselib_Socket_Handle_t5BB40490AAC0DA7C5B3CAA9C93447B28D6474FA1 ___handle;
+	int32_t ___requestedEvents;
+	int32_t ___resultEvents;
+	Baselib_ErrorState_t9A3CC4D46155662AAC822300993DA278B19A1D1E* ___errorState;
+};
+struct GateFitParameters_t9964912882DBB033DA0C8A46C0E69115C094AFF0 
+{
+	int32_t ___U3CmodeU3Ek__BackingField;
+	float ___U3CaspectU3Ek__BackingField;
+};
+struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A 
+{
+	int32_t ___m_CameraRenderMode;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_ResultRT;
+	int32_t ___m_OutputSpace;
+};
+struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A_marshaled_pinvoke
+{
+	int32_t ___m_CameraRenderMode;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_ResultRT;
+	int32_t ___m_OutputSpace;
+};
+struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A_marshaled_com
+{
+	int32_t ___m_CameraRenderMode;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_ResultRT;
+	int32_t ___m_OutputSpace;
+};
+struct Operator_t67823DD2798306C80A6C9639041F09E952694007  : public RuntimeObject
+{
+	int32_t ___op;
+	int32_t ___precedence;
+	int32_t ___associativity;
+	int32_t ___inputs;
+};
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C  : public MulticastDelegate_t
+{
+};
+struct Action_1_tD7D5CE7F2FAEACB3761C239E9D66C15DFB9151C5  : public MulticastDelegate_t
+{
+};
+struct Action_1_t73DDB95B444644A3C36475D55244D23E26A68A71  : public MulticastDelegate_t
+{
+};
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDelegate_t
+{
+};
+struct Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A  : public MulticastDelegate_t
+{
+};
+struct Action_1_t29B51564E49F5100689191ED6A9BFFC2081294EB  : public MulticastDelegate_t
+{
+};
+struct Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915  : public MulticastDelegate_t
+{
+};
+struct Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B  : public MulticastDelegate_t
+{
+};
+struct Action_2_tECD5D9B0D67D486B802E231F6C4D4B0870A6FE72  : public MulticastDelegate_t
+{
+};
+struct Action_2_t79388C33CD9A9EDFE5BE17BE73F59AB95415B00A  : public MulticastDelegate_t
+{
+};
+struct Comparison_1_t3C9311519BDB97A076F698C56728387D1CC5A3AE  : public MulticastDelegate_t
+{
+};
+struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457  : public MulticastDelegate_t
+{
+};
+struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4  : public MulticastDelegate_t
+{
+};
+struct Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C  : public MulticastDelegate_t
+{
+};
+struct Func_2_t0528488FE9A91F8158DA57209F0F877B3FC1C506  : public MulticastDelegate_t
+{
+};
+struct Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D  : public MulticastDelegate_t
+{
+};
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ____paramName;
+};
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Cubemap_t4F2DFF70696A5CB5C1695DF8947CC60D718C4A1C  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct DebugScreenCapture_t66F30F7F0A78BD584ABBDDF3BD927F4B4239D992 
+{
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___U3CRawImageDataReferenceU3Ek__BackingField;
+	int32_t ___U3CImageFormatU3Ek__BackingField;
+	int32_t ___U3CWidthU3Ek__BackingField;
+	int32_t ___U3CHeightU3Ek__BackingField;
+};
+struct ErrorState_t683E93EFB52FEC540F5B5F264CA1140D180245F0 
+{
+	Baselib_ErrorState_t9A3CC4D46155662AAC822300993DA278B19A1D1E ___nativeErrorState;
+};
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct NativeArrayDisposeJob_tC4C226F42B67C01224F186D06868C7BCB828E9FB 
+{
+	NativeArrayDispose_t2E2EF752F7DFB28A2F9F74355156A3BF0D420229 ___Data;
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+};
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7  : public MulticastDelegate_t
+{
+};
+struct AdvertisingIdentifierCallback_t67404493BC40D4B8AFD6CBA48475774EE1D5FD82  : public MulticastDelegate_t
+{
+};
+struct LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413  : public MulticastDelegate_t
+{
+};
+struct LowMemoryCallback_tF685A8AA4A24BB7603D190EB750E61C3F963026F  : public MulticastDelegate_t
+{
+};
+struct MemoryUsageChangedCallback_t2C3B85C19E7620327958BA77A7B603C544AD1188  : public MulticastDelegate_t
+{
+};
 struct Baselib_FileIO_EventQueue_Result_t1541E59C246CCD8902DD40F9A0BF3106796F0418 
 {
 	union
@@ -3508,129 +4037,6 @@ struct Baselib_FileIO_EventQueue_Result_t1541E59C246CCD8902DD40F9A0BF3106796F041
 		};
 	};
 };
-struct Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42 
-{
-	intptr_t ___id;
-	Baselib_Memory_PageAllocation_t2CB618461078D185B36114A1AEC2B62D127827A1 ___allocation;
-};
-struct Baselib_RegisteredNetwork_Endpoint_t9A38585FFD3425455A7E0AFC10F16BCD13B1F32C 
-{
-	Baselib_RegisteredNetwork_BufferSlice_tBEE9A8BFFB4625CEE8B4AD97E30DFE397D34F273 ___slice;
-};
-struct Baselib_Socket_PollFd_tB835CD8601271C319526D4A6CE1C14A21B4268A6 
-{
-	Baselib_Socket_Handle_t5BB40490AAC0DA7C5B3CAA9C93447B28D6474FA1 ___handle;
-	int32_t ___requestedEvents;
-	int32_t ___resultEvents;
-	Baselib_ErrorState_t9A3CC4D46155662AAC822300993DA278B19A1D1E* ___errorState;
-};
-struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C  : public MulticastDelegate_t
-{
-};
-struct Action_1_tD7D5CE7F2FAEACB3761C239E9D66C15DFB9151C5  : public MulticastDelegate_t
-{
-};
-struct Action_1_t73DDB95B444644A3C36475D55244D23E26A68A71  : public MulticastDelegate_t
-{
-};
-struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDelegate_t
-{
-};
-struct Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A  : public MulticastDelegate_t
-{
-};
-struct Action_1_t29B51564E49F5100689191ED6A9BFFC2081294EB  : public MulticastDelegate_t
-{
-};
-struct Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915  : public MulticastDelegate_t
-{
-};
-struct Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B  : public MulticastDelegate_t
-{
-};
-struct Action_2_tECD5D9B0D67D486B802E231F6C4D4B0870A6FE72  : public MulticastDelegate_t
-{
-};
-struct Action_2_t79388C33CD9A9EDFE5BE17BE73F59AB95415B00A  : public MulticastDelegate_t
-{
-};
-struct Action_3_t477276C2D01726A5BA92C3B882C9BEB268903DD9  : public MulticastDelegate_t
-{
-};
-struct Action_3_t90DD6A782A62FFF74C7420C60BEF8C451FDA8B90  : public MulticastDelegate_t
-{
-};
-struct Comparison_1_t3C9311519BDB97A076F698C56728387D1CC5A3AE  : public MulticastDelegate_t
-{
-};
-struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457  : public MulticastDelegate_t
-{
-};
-struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4  : public MulticastDelegate_t
-{
-};
-struct Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C  : public MulticastDelegate_t
-{
-};
-struct Func_2_t0528488FE9A91F8158DA57209F0F877B3FC1C506  : public MulticastDelegate_t
-{
-};
-struct Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D  : public MulticastDelegate_t
-{
-};
-struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
-{
-};
-struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-	String_t* ____paramName;
-};
-struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
-{
-};
-struct BaselibException_t66DF59484B0563F15D6B0DB1E2E053EC26CF7508  : public Exception_t
-{
-	ErrorState_t683E93EFB52FEC540F5B5F264CA1140D180245F0 ___errorState;
-};
-struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
-{
-};
-struct Cubemap_t4F2DFF70696A5CB5C1695DF8947CC60D718C4A1C  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
-{
-};
-struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-struct NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-struct RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
-{
-};
-struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
-{
-};
-struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
-{
-};
-struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7  : public MulticastDelegate_t
-{
-};
-struct AdvertisingIdentifierCallback_t67404493BC40D4B8AFD6CBA48475774EE1D5FD82  : public MulticastDelegate_t
-{
-};
-struct LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413  : public MulticastDelegate_t
-{
-};
-struct LowMemoryCallback_tF685A8AA4A24BB7603D190EB750E61C3F963026F  : public MulticastDelegate_t
-{
-};
-struct MemoryUsageChangedCallback_t2C3B85C19E7620327958BA77A7B603C544AD1188  : public MulticastDelegate_t
-{
-};
 struct Baselib_RegisteredNetwork_Request_t6AF2E70EE04D8C3608FB27091CDE9B4A25A9A4FE 
 {
 	Baselib_RegisteredNetwork_BufferSlice_tBEE9A8BFFB4625CEE8B4AD97E30DFE397D34F273 ___payload;
@@ -3655,12 +4061,22 @@ struct PanicFunction__t9B5243C52C7988A1D3B5A297CF2D7B4C63CF0E02  : public Multic
 struct LayerCallback_tE0D9868CE18C54C82CD871D1BB0D408DBCD992E8  : public MulticastDelegate_t
 {
 };
+struct Action_3_t477276C2D01726A5BA92C3B882C9BEB268903DD9  : public MulticastDelegate_t
+{
+};
+struct Action_3_t90DD6A782A62FFF74C7420C60BEF8C451FDA8B90  : public MulticastDelegate_t
+{
+};
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
 {
 };
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
 {
 	RuntimeObject* ____actualValue;
+};
+struct BaselibException_t66DF59484B0563F15D6B0DB1E2E053EC26CF7508  : public Exception_t
+{
+	ErrorState_t683E93EFB52FEC540F5B5F264CA1140D180245F0 ___errorState;
 };
 struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
@@ -3815,14 +4231,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 	String_t* ___TrueString;
 	String_t* ___FalseString;
 };
-struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_StaticFields
-{
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___Uncompressed;
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZ4;
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZMA;
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___UncompressedRuntime;
-	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZ4Runtime;
-};
 struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_StaticFields
 {
 	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_actionToActionObjShunt;
@@ -3916,6 +4324,14 @@ struct Exception_t_StaticFields
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 {
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31_StaticFields
+{
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___Uncompressed;
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZ4;
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZMA;
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___UncompressedRuntime;
+	BuildCompression_tE1D8A62AD9BBC04679BE0857096D54A0F537DA31 ___LZ4Runtime;
 };
 struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_StaticFields
 {
@@ -6187,6 +6603,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderSettings__ctor_m5C04886C1DD402BD0A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GIDebugVisualisation_ResetRuntimeInputTextures_m6A862623CFFFB5FD8C0E9805B2FA6D8CCC12056F (const RuntimeMethod* method) 
 {
 	typedef void (*GIDebugVisualisation_ResetRuntimeInputTextures_m6A862623CFFFB5FD8C0E9805B2FA6D8CCC12056F_ftn) ();
@@ -6270,6 +6694,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GIDebugVisualisation_set_texType_m9D6625
 	_il2cpp_icall_func = (GIDebugVisualisation_set_texType_m9D662597A934B5CB80A43EEC3CE23A73F13FF2DC_ftn)il2cpp_codegen_resolve_icall ("UnityEngineInternal.GIDebugVisualisation::set_texType(UnityEngineInternal.GITextureType)");
 	_il2cpp_icall_func(___0_value);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -6383,6 +6815,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphicsDeviceDebug_set_settings_Injecte
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MathfInternal__cctor_m405C235849BE19E6F82F403A518E0E2958F043AE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6427,6 +6867,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void APIUpdaterRuntimeServices__ctor_m05B7C4F
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -8375,6 +8823,62 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Binding_Baselib_Timer_GetTicksToNanoseco
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 void EventQueueCallback_Invoke_mC17BDE303B1CAB3962028B84B1FB8AEB99DCFA8F_Multicast(EventQueueCallback_t67E3577952E782ABDD046F3F003801D5205B9BF9* __this, uint64_t ___0_arg0, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates->max_length;
@@ -8452,6 +8956,70 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventQueueCallback_EndInvoke_m70364EABF8
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -9069,6 +9637,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobProducerTypeAttribute__ctor_m562A2FC6
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -10055,6 +10639,22 @@ IL_000a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ProfilerMarker_get_Handle_mE228BCE74751B66026EBC49DE7F1A440EDE7B845 (ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10363,6 +10963,30 @@ IL2CPP_EXTERN_C  void AutoScope_Dispose_mED763F3F51261EF8FB79DB32CD06E0A3F6C4048
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProfilerMarkerWithStringData_t8891388A830D18F4155A14FC2F9AA54C0AA0BF94 ProfilerMarkerWithStringData_Create_m23AE47B11E56D00EFEC275CD8FC2FA104563F5AB (String_t* ___0_name, String_t* ___1_parameterName, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -10580,6 +11204,14 @@ IL2CPP_EXTERN_C  void AutoScope_Dispose_mA8E3FC844323F46B66BD99BF2EC573EC84718D2
 	_thisAdjusted = reinterpret_cast<AutoScope_t0F2F7529A08F25C459CC541CA6875C21EF7F9AFF*>(__this + _offset);
 	AutoScope_Dispose_mA8E3FC844323F46B66BD99BF2EC573EC84718D2A_inline(_thisAdjusted, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -11815,6 +12447,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProfilerRecorder_CopyTo_Pointer_Injec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerRecorderDebugView__ctor_mEBB2893DB224E23784AA230D271D794EB7DD3DE5 (ProfilerRecorderDebugView_t3038874E4671712E25FEF4730B3833739B321386* __this, ProfilerRecorder_t363D18B531351FF6D7A09072564EB5D8FC60E613 ___0_r, const RuntimeMethod* method) 
 {
 	{
@@ -11965,6 +12613,22 @@ IL2CPP_EXTERN_C  void DebugScreenCapture_set_Height_m079B049644D69F95F746269B437
 	_thisAdjusted = reinterpret_cast<DebugScreenCapture_t66F30F7F0A78BD584ABBDDF3BD927F4B4239D992*>(__this + _offset);
 	DebugScreenCapture_set_Height_m079B049644D69F95F746269B437D8DEBEC3701E7_inline(_thisAdjusted, ___0_value, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -12807,6 +13471,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerUnsafeUtility_get_TimestampToNan
 	_il2cpp_icall_func = (ProfilerUnsafeUtility_get_TimestampToNanosecondsConversionRatio_Injected_mF2155BA0BF55323C2F78BBA681D666FFA05DC1CC_ftn)il2cpp_codegen_resolve_icall ("Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::get_TimestampToNanosecondsConversionRatio_Injected(Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility/TimestampConversionRatio&)");
 	_il2cpp_icall_func(___0_ret);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -13732,6 +14404,46 @@ IL_006e:
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -14833,6 +15545,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncReadManager_CloseCachedFileAsync_In
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C void AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13_marshal_pinvoke(const AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13& unmarshaled, AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13_marshaled_pinvoke& marshaled)
 {
 	marshaled.___U3CAssetNameU3Ek__BackingField = il2cpp_codegen_marshal_string(unmarshaled.___U3CAssetNameU3Ek__BackingField);
@@ -15645,6 +16373,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AsyncReadManagerMetrics_GetTotalSize
 	uint64_t icallRetVal = _il2cpp_icall_func(___0_emptyAfterRead);
 	return icallRetVal;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -16663,6 +17399,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VirtualFileSystem_ToLogicalPath_m43
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C void ArchiveFileInfo_t051019338FB580F17B7DA49693024E09572EF9CC_marshal_pinvoke(const ArchiveFileInfo_t051019338FB580F17B7DA49693024E09572EF9CC& unmarshaled, ArchiveFileInfo_t051019338FB580F17B7DA49693024E09572EF9CC_marshaled_pinvoke& marshaled)
 {
 	marshaled.___Filename = il2cpp_codegen_marshal_string(unmarshaled.___Filename);
@@ -17583,6 +18327,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeDisableParallelForRestrictionAttri
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLeakDetection_get_Mode_m87AEF9399BA462FF2D0859FD0DC6C10D50827BC0 (const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -17643,6 +18411,14 @@ IL_001c:
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -19104,6 +19880,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExtractCompilerFlags_EndInvoke_m6D259EEE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanBeNullAttribute__ctor_mA155D2A988E88AD5FD4DB3FDD7704203BFDD41DF (CanBeNullAttribute_t99CC786E4B2E46440D2A90CFE0FC0E1B3A37BCF7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19486,6 +20270,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeansImplicitUseAttribute_get_TargetF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PublicAPIAttribute__ctor_m00BB74981C563F1DADA77D463838FB1D3AE498C3 (PublicAPIAttribute_t6349F7C6AB1CE686520CFFB11A4C81BBC9D3C0C5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19728,6 +20528,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CollectionAccessAttribute_get_Collect
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssertionMethodAttribute__ctor_m5D6BF0F3054AE062207CC64DF99ED70A1F2F582C (AssertionMethodAttribute_tF53B50FC6A7D295468C339536FBADBCD3F7FD296* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19759,6 +20567,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AssertionConditionAttribute_get_Condi
 		return L_0;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -20121,6 +20937,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayerCallback_EndInvoke_mEB39A90DB004D9B
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -20550,6 +21374,14 @@ IL2CPP_EXTERN_C  void Keyframe_set_tangentModeInternal_mFBB7A65C2E7D7D84B1937D99
 	_thisAdjusted = reinterpret_cast<Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0*>(__this + _offset);
 	Keyframe_set_tangentModeInternal_mFBB7A65C2E7D7D84B1937D99CE6B71A2C8574E9F(_thisAdjusted, ___0_value, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -24856,6 +25688,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LogCallback_EndInvoke_m808D9E39EC9A63627
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ApplicationMemoryUsageChange_get_memoryUsage_mF76ED739CF0CE3D6671C1E7A058E1437F5198987 (ApplicationMemoryUsageChange_t6D0E5F815818103331E6C5B0D42E006408D4FFC1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24902,6 +25742,118 @@ IL2CPP_EXTERN_C  void ApplicationMemoryUsageChange__ctor_mD1B7299FCDDF14B479AF66
 	_thisAdjusted = reinterpret_cast<ApplicationMemoryUsageChange_t6D0E5F815818103331E6C5B0D42E006408D4FFC1*>(__this + _offset);
 	ApplicationMemoryUsageChange__ctor_mD1B7299FCDDF14B479AF66AFDDFC2D710AC6A3C0(_thisAdjusted, ___0_usage, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -29683,6 +30635,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_SetStereoViewMatrix_Injected_m902
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GateFitParameters_get_mode_mC10DD5C5536754C9FA818473CB8219F2C4AE052C (GateFitParameters_t9964912882DBB033DA0C8A46C0E69115C094AFF0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29762,6 +30738,46 @@ IL2CPP_EXTERN_C  void GateFitParameters__ctor_m995BBE393E994FC41DD03B5190BCADF63
 	_thisAdjusted = reinterpret_cast<GateFitParameters_t9964912882DBB033DA0C8A46C0E69115C094AFF0*>(__this + _offset);
 	GateFitParameters__ctor_m995BBE393E994FC41DD03B5190BCADF63EA0E67D(_thisAdjusted, ___0_mode, ___1_aspect, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -30059,6 +31075,14 @@ IL2CPP_EXTERN_C  void BoundingSphere__ctor_m34F42C36BE1CBC11EBCD5FFFBA11A97FFFA1
 	_thisAdjusted = reinterpret_cast<BoundingSphere_t2DDB3D1711A6920C0ECA9217D3E4E14AFF03C010*>(__this + _offset);
 	BoundingSphere__ctor_m34F42C36BE1CBC11EBCD5FFFBA11A97FFFA14E9A(_thisAdjusted, ___0_packedSphere, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -31871,6 +32895,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionProbe_get_defaultTextureHDRDec
 	_il2cpp_icall_func = (ReflectionProbe_get_defaultTextureHDRDecodeValues_Injected_m66A7B22748CE2851947FAC80B8CA93869C384742_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ReflectionProbe::get_defaultTextureHDRDecodeValues_Injected(UnityEngine.Vector4&)");
 	_il2cpp_icall_func(___0_ret);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -34165,6 +35197,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DiagnosticSwitch_get_needsRestart_mAF4A1
 		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -36750,6 +37790,22 @@ IL2CPP_EXTERN_C  void PcgRandom_Step_m0C0C0E3BED534CFC75FC9DF507A708043B1278B0_A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Operator__ctor_m110EBC47E0EBC2AC1D40E3737BA9A164222B9C71 (Operator_t67823DD2798306C80A6C9639041F09E952694007* __this, int32_t ___0_op, int32_t ___1_precedence, int32_t ___2_inputs, int32_t ___3_associativity, const RuntimeMethod* method) 
 {
 	{
@@ -36834,6 +37890,22 @@ IL_0011:
 		return (bool)G_B3_0;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

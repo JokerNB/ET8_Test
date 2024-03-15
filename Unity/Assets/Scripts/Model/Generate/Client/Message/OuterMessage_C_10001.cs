@@ -722,6 +722,12 @@ namespace ET
         [MemoryPackOrder(5)]
         public long GateId { get; set; }
 
+        [MemoryPackOrder(6)]
+        public bool IsNewPlayer { get; set; }
+
+        [MemoryPackOrder(7)]
+        public string NickName { get; set; }
+
         public override void Dispose()
         {
             if (!this.IsFromPool)
@@ -735,6 +741,8 @@ namespace ET
             this.Address = default;
             this.Key = default;
             this.GateId = default;
+            this.IsNewPlayer = default;
+            this.NickName = default;
 
             ObjectPool.Instance.Recycle(this);
         }
@@ -1082,6 +1090,236 @@ namespace ET
         }
     }
 
+    [MemoryPackable]
+    [Message(OuterMessage.C2G_ChangeNickName)]
+    [ResponseType(nameof(G2C_ChangeNickName))]
+    public partial class C2G_ChangeNickName : MessageObject, ISessionRequest
+    {
+        public static C2G_ChangeNickName Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(C2G_ChangeNickName), isFromPool) as C2G_ChangeNickName;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public string Account { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string NewNickName { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Account = default;
+            this.NewNickName = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(OuterMessage.G2C_ChangeNickName)]
+    public partial class G2C_ChangeNickName : MessageObject, ISessionResponse
+    {
+        public static G2C_ChangeNickName Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(G2C_ChangeNickName), isFromPool) as G2C_ChangeNickName;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Error { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string Message { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Error = default;
+            this.Message = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(OuterMessage.C2M_ChooseModelDifficulty)]
+    [ResponseType(nameof(M2C_ChooseModelDifficulty))]
+    public partial class C2M_ChooseModelDifficulty : MessageObject, ILocationRequest
+    {
+        public static C2M_ChooseModelDifficulty Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(C2M_ChooseModelDifficulty), isFromPool) as C2M_ChooseModelDifficulty;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Model { get; set; }
+
+        [MemoryPackOrder(2)]
+        public int Difficulty { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Model = default;
+            this.Difficulty = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(OuterMessage.M2C_ChooseModelDifficulty)]
+    public partial class M2C_ChooseModelDifficulty : MessageObject, ILocationResponse
+    {
+        public static M2C_ChooseModelDifficulty Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(M2C_ChooseModelDifficulty), isFromPool) as M2C_ChooseModelDifficulty;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Error { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string Message { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Error = default;
+            this.Message = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(OuterMessage.ServerListInfo)]
+    public partial class ServerListInfo : MessageObject
+    {
+        public static ServerListInfo Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(ServerListInfo), isFromPool) as ServerListInfo;
+        }
+
+        [MemoryPackOrder(0)]
+        public int Zone { get; set; }
+
+        [MemoryPackOrder(1)]
+        public string Name { get; set; }
+
+        [MemoryPackOrder(2)]
+        public int Status { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.Zone = default;
+            this.Name = default;
+            this.Status = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(OuterMessage.C2R_GetServerList)]
+    [ResponseType(nameof(R2C_GetServerList))]
+    public partial class C2R_GetServerList : MessageObject, IRequest
+    {
+        public static C2R_GetServerList Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(C2R_GetServerList), isFromPool) as C2R_GetServerList;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(OuterMessage.R2C_GetServerList)]
+    public partial class R2C_GetServerList : MessageObject, IResponse
+    {
+        public static R2C_GetServerList Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(R2C_GetServerList), isFromPool) as R2C_GetServerList;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Error { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string Message { get; set; }
+
+        [MemoryPackOrder(3)]
+        public List<ServerListInfo> ServerListInfos { get; set; } = new();
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Error = default;
+            this.Message = default;
+            this.ServerListInfos.Clear();
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
     public static class OuterMessage
     {
         public const ushort HttpGetRouterResponse = 10002;
@@ -1118,5 +1356,12 @@ namespace ET
         public const ushort M2C_TransferMap = 10033;
         public const ushort C2G_Benchmark = 10034;
         public const ushort G2C_Benchmark = 10035;
+        public const ushort C2G_ChangeNickName = 10036;
+        public const ushort G2C_ChangeNickName = 10037;
+        public const ushort C2M_ChooseModelDifficulty = 10038;
+        public const ushort M2C_ChooseModelDifficulty = 10039;
+        public const ushort ServerListInfo = 10040;
+        public const ushort C2R_GetServerList = 10041;
+        public const ushort R2C_GetServerList = 10042;
     }
 }

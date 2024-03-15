@@ -1200,10 +1200,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com
 struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377  : public RuntimeObject
 {
 };
-struct Filter_tD9DA93BE65E8EBA35B771E5B853EBE1E3BA4A9DC  : public RuntimeObject
-{
-	int32_t ___U3CActionU3Ek__BackingField;
-};
 struct GDC_t0B573DF0C40DF8DD9BCB008B00A1A57E2A444680  : public RuntimeObject
 {
 };
@@ -1212,17 +1208,6 @@ struct GlobalDiagnosticsContext_t9B45034FD992DB80EB01EE3A6D4F8E15D27BE2C1  : pub
 };
 struct ILoggerExtensions_t66DDE2B215C1595D46FF9495D405E7DA7FA77D9A  : public RuntimeObject
 {
-};
-struct Layout_tA25350804288ADB7D9CE7828DBC7259982993221  : public RuntimeObject
-{
-	bool ___IsInitialized;
-	bool ____scannedForObjects;
-	bool ___U3CThreadAgnosticU3Ek__BackingField;
-	bool ___U3CThreadSafeU3Ek__BackingField;
-	bool ___U3CMutableUnsafeU3Ek__BackingField;
-	int32_t ___U3CStackTraceUsageU3Ek__BackingField;
-	int32_t ____maxRenderedLength;
-	LoggingConfiguration_tDFD8B0CD70AC99C266BE74899B1B79EBE1153C15* ___U3CLoggingConfigurationU3Ek__BackingField;
 };
 struct LayoutRenderer_t23167B70FC5E13EB180BD6C5474574B8B4ECFED0  : public RuntimeObject
 {
@@ -1280,17 +1265,6 @@ struct LoggingConfiguration_tDFD8B0CD70AC99C266BE74899B1B79EBE1153C15  : public 
 struct LoggingConfigurationFileLoader_t452821D2FA89F360D00DB97747B6CB94479B706F  : public RuntimeObject
 {
 	RuntimeObject* ____appEnvironment;
-};
-struct LoggingRule_tE7BA384C1B9B07B5F37FF900B866832408ABA700  : public RuntimeObject
-{
-	RuntimeObject* ____logLevelFilter;
-	LoggerNameMatcher_t5290BB4919F491828AD9E9081D63E3A3E445556D* ____loggerNameMatcher;
-	String_t* ___U3CRuleNameU3Ek__BackingField;
-	RuntimeObject* ___U3CTargetsU3Ek__BackingField;
-	RuntimeObject* ___U3CChildRulesU3Ek__BackingField;
-	RuntimeObject* ___U3CFiltersU3Ek__BackingField;
-	bool ___U3CFinalU3Ek__BackingField;
-	int32_t ___U3CDefaultFilterResultU3Ek__BackingField;
 };
 struct MDC_tFBF596641846A4DF99683832EBF7257262066FFF  : public RuntimeObject
 {
@@ -1449,23 +1423,6 @@ struct StringBuilder_t  : public RuntimeObject
 struct StringDictionary_t5E04D28BB2830FCBD04F7EB6092E5137EF8495FE  : public RuntimeObject
 {
 	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___contents;
-};
-struct Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4  : public RuntimeObject
-{
-	List_1_t695E6D1360A9E4C1DDAAED83EF2C4021E68E8AB8* ____allLayouts;
-	bool ____allLayoutsAreThreadAgnostic;
-	bool ____allLayoutsAreThreadSafe;
-	bool ____oneLayoutIsMutableUnsafe;
-	bool ____scannedForLayouts;
-	Exception_t* ____initializeException;
-	int32_t ___U3CStackTraceUsageU3Ek__BackingField;
-	String_t* ___U3CNameU3Ek__BackingField;
-	bool ___U3COptimizeBufferReuseU3Ek__BackingField;
-	RuntimeObject* ___U3CSyncRootU3Ek__BackingField;
-	LoggingConfiguration_tDFD8B0CD70AC99C266BE74899B1B79EBE1153C15* ___U3CLoggingConfigurationU3Ek__BackingField;
-	bool ____isInitialized;
-	ReusableBuilderCreator_t52E7958E824AC6541429328514982B4421D68B33* ___ReusableLayoutBuilder;
-	StringBuilderPool_t8263CADC0EE6412F00EC898FE820502BE75F68EE* ____precalculateStringBuilderPool;
 };
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
 {
@@ -1654,21 +1611,6 @@ struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28
 	bool ___hasValue;
 	int32_t ___value;
 };
-struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_tF2B7022D1C8CD3A12471786858519CD8336E9150 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_t992DB38649D01728EF9E611C2CA0D98E78264A4E 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
 struct AsyncLogEventInfo_t8A65414C3902B07B5644758409DEFBB9C9C023DF 
 {
 	LogEventInfo_t0D46B012CC61C9446F0D58F06158DB50C3011BB1* ___U3CLogEventU3Ek__BackingField;
@@ -1798,6 +1740,15 @@ struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F
 {
 	double ___m_value;
 };
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
 struct FuncLayoutRenderer_t9D2A012A0AF210B646BBDA489BA57623D639282C  : public LayoutRenderer_t23167B70FC5E13EB180BD6C5474574B8B4ECFED0
 {
 	Func_3_t5EFA5A5BF0D40589495E60FB7516C0CD1E53F15F* ____renderMethod;
@@ -1864,27 +1815,6 @@ struct MessageTemplateFormatMethodAttribute_t65B3DB9E91166DC3C4E71FDCA2E61639020
 {
 	String_t* ___U3CParameterNameU3Ek__BackingField;
 };
-struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845 
-{
-	String_t* ___U3CNameU3Ek__BackingField;
-	RuntimeObject* ___U3CValueU3Ek__BackingField;
-	String_t* ___U3CFormatU3Ek__BackingField;
-	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
-};
-struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845_marshaled_pinvoke
-{
-	char* ___U3CNameU3Ek__BackingField;
-	Il2CppIUnknown* ___U3CValueU3Ek__BackingField;
-	char* ___U3CFormatU3Ek__BackingField;
-	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
-};
-struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845_marshaled_com
-{
-	Il2CppChar* ___U3CNameU3Ek__BackingField;
-	Il2CppIUnknown* ___U3CValueU3Ek__BackingField;
-	Il2CppChar* ___U3CFormatU3Ek__BackingField;
-	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
-};
 struct MethodBase_t  : public MemberInfo_t
 {
 };
@@ -1898,21 +1828,6 @@ struct SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
 	float ___m_value;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	RuntimeObject* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
 };
 struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 
 {
@@ -1929,17 +1844,6 @@ struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_com
 struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
 {
 	int64_t ____ticks;
-};
-struct TraceListener_t68F67FE6DA11122166232DEE27441D3621AA0DFD  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
-{
-	int32_t ___indentLevel;
-	int32_t ___indentSize;
-	int32_t ___traceOptions;
-	bool ___needIndent;
-	String_t* ___listenerName;
-	TraceFilter_t0DF2FFFD5E1E66E7171924E3D64EC58DF84B8FDE* ___filter;
-	StringDictionary_t5E04D28BB2830FCBD04F7EB6092E5137EF8495FE* ___attributes;
-	String_t* ___initializeData;
 };
 struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
 {
@@ -2111,6 +2015,14 @@ struct CallSiteInformation_t76E27324FC35DFC9D9A01C9B9200DC8B7882BA07  : public R
 	String_t* ___U3CCallerFilePathU3Ek__BackingField;
 	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CCallerLineNumberU3Ek__BackingField;
 };
+struct CaptureType_t54B918E77372FE3F6241CDF068B3DBD63BAEF120 
+{
+	uint8_t ___value__;
+};
+struct DateTimeKind_t3AD6DA06BEF8955A740777163FFB481C19089BBC 
+{
+	int32_t ___value__;
+};
 struct Delegate_t  : public RuntimeObject
 {
 	intptr_t ___method_ptr;
@@ -2216,9 +2128,17 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct FilterResult_tDF7A31F4BB5C86885538F0923B4762FF26F2588E 
+{
+	int32_t ___value__;
+};
 struct GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC 
 {
 	intptr_t ___handle;
+};
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	int32_t ___value__;
 };
 struct LogEventInfo_t0D46B012CC61C9446F0D58F06158DB50C3011BB1  : public RuntimeObject
 {
@@ -2258,32 +2178,47 @@ struct LogFactory_t933D68299F1A2DF275C9B70CBC86B51B52609989  : public RuntimeObj
 struct MethodInfo_t  : public MethodBase_t
 {
 };
-struct NLogTraceListener_t5ABEA981A65ADEB215DFF1F39B39C6485C6E2668  : public TraceListener_t68F67FE6DA11122166232DEE27441D3621AA0DFD
-{
-	LogFactory_t933D68299F1A2DF275C9B70CBC86B51B52609989* ____logFactory;
-	LogLevel_t120BFA7C627102E6F8A946476E35549B9B4D6388* ____defaultLogLevel;
-	bool ____attributesLoaded;
-	bool ____autoLoggerName;
-	LogLevel_t120BFA7C627102E6F8A946476E35549B9B4D6388* ____forceLogLevel;
-	bool ____disableFlush;
-};
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
 	intptr_t ___value;
 };
-struct TargetWithFilterChain_tDC2035581960E0E8A368D220E8D4A418093DAA8C  : public RuntimeObject
+struct SecurityAction_t2CD17B1338BAB13BA5099DB75B7B5FAF0B48BB84 
 {
-	Nullable_1_tF2B7022D1C8CD3A12471786858519CD8336E9150 ____stackTraceUsage;
-	Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4* ___U3CTargetU3Ek__BackingField;
-	RuntimeObject* ___U3CFilterChainU3Ek__BackingField;
-	int32_t ___U3CDefaultResultU3Ek__BackingField;
-	TargetWithFilterChain_tDC2035581960E0E8A368D220E8D4A418093DAA8C* ___U3CNextInChainU3Ek__BackingField;
+	int32_t ___value__;
+};
+struct SecurityZone_t81540FBFF0C570EE35C049FF5AE06E3A6945940E 
+{
+	int32_t ___value__;
+};
+struct StackTraceUsage_tF55FB60C97397DAC95106109DCC8622FE1BFD5B2 
+{
+	int32_t ___value__;
+};
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
+{
+	int32_t ___value__;
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
 };
 struct TraceEventCache_t45E8BA27697FA8ABEC2199A264D502A35E6D41DF  : public RuntimeObject
 {
 	int64_t ___timeStamp;
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime;
 	String_t* ___stackTrace;
+};
+struct TraceEventType_tA5037D09B4D56FDF1186D2D22F5FD1E3F25EA2DD 
+{
+	int32_t ___value__;
+};
+struct TraceOptions_t256C93620607BD2F7B46463A33E789B10E91F454 
+{
+	int32_t ___value__;
+};
+struct TypeCode_tBEF9BE86C8BCF5A6B82F3381219738D27804EF79 
+{
+	int32_t ___value__;
 };
 struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
@@ -2318,6 +2253,21 @@ struct Enumerator_t3C775802B33D67B59292664142089F110CE55816
 {
 	Enumerator_t06A9DDA7FA9EA8BC40458E628EBAF7B3AA14EB62 ____enumerator;
 };
+struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_tF2B7022D1C8CD3A12471786858519CD8336E9150 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t992DB38649D01728EF9E611C2CA0D98E78264A4E 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
 struct ReadOnlySingleBucketDictionary_2_t7ED0947095D5D2397D9DD870932A32438C3E0C06 
 {
 	Nullable_1_t050436F54D661F800BB4141B0708D1F690113535 ____singleBucket;
@@ -2339,6 +2289,53 @@ struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshale
 struct EventWaitHandle_t18F2EB0161747B0646A9A406015A61A214A1EB7E  : public WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8
 {
 };
+struct Filter_tD9DA93BE65E8EBA35B771E5B853EBE1E3BA4A9DC  : public RuntimeObject
+{
+	int32_t ___U3CActionU3Ek__BackingField;
+};
+struct Layout_tA25350804288ADB7D9CE7828DBC7259982993221  : public RuntimeObject
+{
+	bool ___IsInitialized;
+	bool ____scannedForObjects;
+	bool ___U3CThreadAgnosticU3Ek__BackingField;
+	bool ___U3CThreadSafeU3Ek__BackingField;
+	bool ___U3CMutableUnsafeU3Ek__BackingField;
+	int32_t ___U3CStackTraceUsageU3Ek__BackingField;
+	int32_t ____maxRenderedLength;
+	LoggingConfiguration_tDFD8B0CD70AC99C266BE74899B1B79EBE1153C15* ___U3CLoggingConfigurationU3Ek__BackingField;
+};
+struct LoggingRule_tE7BA384C1B9B07B5F37FF900B866832408ABA700  : public RuntimeObject
+{
+	RuntimeObject* ____logLevelFilter;
+	LoggerNameMatcher_t5290BB4919F491828AD9E9081D63E3A3E445556D* ____loggerNameMatcher;
+	String_t* ___U3CRuleNameU3Ek__BackingField;
+	RuntimeObject* ___U3CTargetsU3Ek__BackingField;
+	RuntimeObject* ___U3CChildRulesU3Ek__BackingField;
+	RuntimeObject* ___U3CFiltersU3Ek__BackingField;
+	bool ___U3CFinalU3Ek__BackingField;
+	int32_t ___U3CDefaultFilterResultU3Ek__BackingField;
+};
+struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845 
+{
+	String_t* ___U3CNameU3Ek__BackingField;
+	RuntimeObject* ___U3CValueU3Ek__BackingField;
+	String_t* ___U3CFormatU3Ek__BackingField;
+	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
+};
+struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845_marshaled_pinvoke
+{
+	char* ___U3CNameU3Ek__BackingField;
+	Il2CppIUnknown* ___U3CValueU3Ek__BackingField;
+	char* ___U3CFormatU3Ek__BackingField;
+	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
+};
+struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845_marshaled_com
+{
+	Il2CppChar* ___U3CNameU3Ek__BackingField;
+	Il2CppIUnknown* ___U3CValueU3Ek__BackingField;
+	Il2CppChar* ___U3CFormatU3Ek__BackingField;
+	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
+};
 struct MulticastDelegate_t  : public Delegate_t
 {
 	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
@@ -2357,8 +2354,51 @@ struct NLogConfigurationException_t4B914099F729257095BEC0C61E1ED0819D55227F  : p
 struct NLogRuntimeException_t466C5604C6ACA73D996CE217CD31AA970FF34946  : public Exception_t
 {
 };
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
+{
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
+};
+struct Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4  : public RuntimeObject
+{
+	List_1_t695E6D1360A9E4C1DDAAED83EF2C4021E68E8AB8* ____allLayouts;
+	bool ____allLayoutsAreThreadAgnostic;
+	bool ____allLayoutsAreThreadSafe;
+	bool ____oneLayoutIsMutableUnsafe;
+	bool ____scannedForLayouts;
+	Exception_t* ____initializeException;
+	int32_t ___U3CStackTraceUsageU3Ek__BackingField;
+	String_t* ___U3CNameU3Ek__BackingField;
+	bool ___U3COptimizeBufferReuseU3Ek__BackingField;
+	RuntimeObject* ___U3CSyncRootU3Ek__BackingField;
+	LoggingConfiguration_tDFD8B0CD70AC99C266BE74899B1B79EBE1153C15* ___U3CLoggingConfigurationU3Ek__BackingField;
+	bool ____isInitialized;
+	ReusableBuilderCreator_t52E7958E824AC6541429328514982B4421D68B33* ___ReusableLayoutBuilder;
+	StringBuilderPool_t8263CADC0EE6412F00EC898FE820502BE75F68EE* ____precalculateStringBuilderPool;
+};
+struct TraceListener_t68F67FE6DA11122166232DEE27441D3621AA0DFD  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+{
+	int32_t ___indentLevel;
+	int32_t ___indentSize;
+	int32_t ___traceOptions;
+	bool ___needIndent;
+	String_t* ___listenerName;
+	TraceFilter_t0DF2FFFD5E1E66E7171924E3D64EC58DF84B8FDE* ___filter;
+	StringDictionary_t5E04D28BB2830FCBD04F7EB6092E5137EF8495FE* ___attributes;
+	String_t* ___initializeData;
 };
 struct Type_t  : public MemberInfo_t
 {
@@ -2456,6 +2496,15 @@ struct LogMessageGenerator_tA5F59D03D5122C0C37B8EA69E774729167993A14  : public M
 struct ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158  : public EventWaitHandle_t18F2EB0161747B0646A9A406015A61A214A1EB7E
 {
 };
+struct NLogTraceListener_t5ABEA981A65ADEB215DFF1F39B39C6485C6E2668  : public TraceListener_t68F67FE6DA11122166232DEE27441D3621AA0DFD
+{
+	LogFactory_t933D68299F1A2DF275C9B70CBC86B51B52609989* ____logFactory;
+	LogLevel_t120BFA7C627102E6F8A946476E35549B9B4D6388* ____defaultLogLevel;
+	bool ____attributesLoaded;
+	bool ____autoLoggerName;
+	LogLevel_t120BFA7C627102E6F8A946476E35549B9B4D6388* ____forceLogLevel;
+	bool ____disableFlush;
+};
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
@@ -2474,6 +2523,14 @@ struct SecurityException_t025CB4C23107E67E07CF085826B40EDE72F8165C  : public Sys
 	AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* ____assembly;
 	String_t* ____url;
 	int32_t ____zone;
+};
+struct TargetWithFilterChain_tDC2035581960E0E8A368D220E8D4A418093DAA8C  : public RuntimeObject
+{
+	Nullable_1_tF2B7022D1C8CD3A12471786858519CD8336E9150 ____stackTraceUsage;
+	Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4* ___U3CTargetU3Ek__BackingField;
+	RuntimeObject* ___U3CFilterChainU3Ek__BackingField;
+	int32_t ___U3CDefaultResultU3Ek__BackingField;
+	TargetWithFilterChain_tDC2035581960E0E8A368D220E8D4A418093DAA8C* ___U3CNextInChainU3Ek__BackingField;
 };
 struct TimeoutException_t7552449BA7E0911AEA1B6C7D1BEAC6534819305F  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {

@@ -3,18 +3,18 @@ using System;
 using System.Text;
 using UnityEngine;
 
-namespace ET.Client.Module;
-
-[EntitySystemOf(typeof(LocalizeComponent))]
-public static partial class LocalizeComponentSystem
+namespace ET.Client.Module
 {
-    [EntitySystem]
-    private static void Awake(this ET.LocalizeComponent self)
+    [EntitySystemOf(typeof(LocalizeComponent))]
+    public static partial class LocalizeComponentSystem
     {
-        self.CurrentLanguage = SystemLanguage.ChineseSimplified;
-    }
+        [EntitySystem]
+        private static void Awake(this ET.LocalizeComponent self)
+        {
+            self.CurrentLanguage = SystemLanguage.ChineseSimplified;
+        }
     
-    public static bool SwitchLanguage(this LocalizeComponent self, SystemLanguage language)
+        public static bool SwitchLanguage(this LocalizeComponent self, SystemLanguage language)
         {
             if (self.CurrentLanguage == language)
             {
@@ -97,4 +97,5 @@ public static partial class LocalizeComponentSystem
             sb.Replace("\\r", "\r");
             return sb.ToString();
         }
+    }
 }

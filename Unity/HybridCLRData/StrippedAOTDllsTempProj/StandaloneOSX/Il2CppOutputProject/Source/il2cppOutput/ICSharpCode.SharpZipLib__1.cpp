@@ -664,26 +664,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObjec
 struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377  : public RuntimeObject
 {
 };
-struct FastZip_t657F63230A2A778A3A7CDB909E827F8298A69368  : public RuntimeObject
-{
-	bool ___continueRunning_;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer_;
-	ZipOutputStream_t72373D271802A21FE40589791BFB62A19ABA50A7* ___outputStream_;
-	ZipFile_t8623A6B24F047EE8218B35FA81651F841B83974B* ___zipFile_;
-	String_t* ___sourceDirectory_;
-	NameFilter_tAD1377BF7D2CE982AB1BE3D85FBCBE616FDFBE69* ___fileFilter_;
-	NameFilter_tAD1377BF7D2CE982AB1BE3D85FBCBE616FDFBE69* ___directoryFilter_;
-	int32_t ___overwrite_;
-	ConfirmOverwriteDelegate_tECABC456A4C853ACB974FF3C432117B7A91FF0A1* ___confirmDelegate_;
-	bool ___restoreDateTimeOnExtract_;
-	bool ___restoreAttributesOnExtract_;
-	bool ___createEmptyDirectories_;
-	FastZipEvents_t46580F733DF9C5FA114F9D8252509E972CCBDA67* ___events_;
-	RuntimeObject* ___entryFactory_;
-	RuntimeObject* ___extractNameTransform_;
-	int32_t ___useZip64_;
-	String_t* ___password_;
-};
 struct FileSystemScanner_tB7BA8655B0D2CD588B821E82F4BB97C2DF6E807F  : public RuntimeObject
 {
 	ProcessDirectoryHandler_t0215D39A6EB19F0BBE60469911E082434079DEBB* ___ProcessDirectory;
@@ -833,54 +813,6 @@ struct WindowsNameTransform_t0D604134CAF185A3F50D1EE4C1768F1EE56C1267  : public 
 struct ZipConstants_t06B9A6455D4B1D14CC54F7BDD0C9FE38424FF1F1  : public RuntimeObject
 {
 };
-struct ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC  : public RuntimeObject
-{
-	uint8_t ___known;
-	int32_t ___externalFileAttributes;
-	uint16_t ___versionMadeBy;
-	String_t* ___name;
-	uint64_t ___size;
-	uint64_t ___compressedSize;
-	uint16_t ___versionToExtract;
-	uint32_t ___crc;
-	uint32_t ___dosTime;
-	int32_t ___method;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___extra;
-	String_t* ___comment;
-	int32_t ___flags;
-	int64_t ___zipFileIndex;
-	int64_t ___offset;
-	bool ___forceZip64_;
-	uint8_t ___cryptoCheckValue_;
-	int32_t ____aesVer;
-	int32_t ____aesEncryptionStrength;
-};
-struct ZipFile_t8623A6B24F047EE8218B35FA81651F841B83974B  : public RuntimeObject
-{
-	KeysRequiredEventHandler_t598C3F03F5132474D50EAA659C58CAC9A27BF494* ___KeysRequired;
-	bool ___isDisposed_;
-	String_t* ___name_;
-	String_t* ___comment_;
-	String_t* ___rawPassword_;
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___baseStream_;
-	bool ___isStreamOwner;
-	int64_t ___offsetOfFirstEntry;
-	ZipEntryU5BU5D_tB17684D9BD6B973A8C391D8DCA4A7BCDF51450A6* ___entries_;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___key;
-	bool ___isNewArchive_;
-	int32_t ___useZip64_;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___updates_;
-	int64_t ___updateCount_;
-	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___updateIndex_;
-	RuntimeObject* ___archiveStorage_;
-	RuntimeObject* ___updateDataSource_;
-	bool ___contentsEdited_;
-	int32_t ___bufferSize_;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___copyBuffer_;
-	ZipString_t293652CB4F9B41911E8F675AB6B3D267F09C8B7B* ___newComment_;
-	bool ___commentEdited_;
-	RuntimeObject* ___updateEntryFactory_;
-};
 struct ZipNameTransform_t06A574C1FA3323BA612D8D586DB13714A8FCF34B  : public RuntimeObject
 {
 	String_t* ___trimPrefix_;
@@ -920,38 +852,21 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D
 {
 	uint64_t ____dateData;
 };
-struct DeflaterEngine_tE4F7D61146664C338CBDFC20B089EC4AB235959C  : public DeflaterConstants_tD3FBAF8D770A898E0C9CBB07684FF9F3CC045629
-{
-	int32_t ___ins_h;
-	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___head;
-	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___prev;
-	int32_t ___matchStart;
-	int32_t ___matchLen;
-	bool ___prevAvailable;
-	int32_t ___blockStart;
-	int32_t ___strstart;
-	int32_t ___lookahead;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___window;
-	int32_t ___strategy;
-	int32_t ___max_chain;
-	int32_t ___max_lazy;
-	int32_t ___niceLength;
-	int32_t ___goodLength;
-	int32_t ___compressionFunction;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___inputBuf;
-	int64_t ___totalIn;
-	int32_t ___inputOff;
-	int32_t ___inputEnd;
-	DeflaterPending_tC4C25BD0FC4D0215D31953050D4B3A874482C027* ___pending;
-	DeflaterHuffman_t67A9B70BA07FE9C885D7B89C5F28EDF3F618AE92* ___huffman;
-	Adler32_t3C87E4FAF7E69D4379B00B6883FFD286EF5916DD* ___adler;
-};
 struct DeflaterPending_tC4C25BD0FC4D0215D31953050D4B3A874482C027  : public PendingBuffer_t30F75EAA3D50010548071FBBF085B11BDCEBE427
 {
 };
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
 	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
 {
@@ -1014,24 +929,13 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
-struct FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 
+struct CompressionMethod_t3080019EF0D860519526E08295BAC98B3434C55C 
 {
-	int32_t ___Flags;
-	int32_t ___Mode;
-	uint32_t ___Uid;
-	uint32_t ___Gid;
-	int64_t ___Size;
-	int64_t ___ATime;
-	int64_t ___ATimeNsec;
-	int64_t ___MTime;
-	int64_t ___MTimeNsec;
-	int64_t ___CTime;
-	int64_t ___CTimeNsec;
-	int64_t ___BirthTime;
-	int64_t ___BirthTimeNsec;
-	int64_t ___Dev;
-	int64_t ___Ino;
-	uint32_t ___UserFlags;
+	int32_t ___value__;
+};
+struct DeflateStrategy_t3AACAC4C3DF75840BB6E07F79892D7AD4FD599DB 
+{
+	int32_t ___value__;
 };
 struct DeflaterOutputStream_t1A33D4BC42D9AF34A523563436A1C6A1136CE259  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
@@ -1095,6 +999,10 @@ struct Delegate_t_marshaled_com
 struct DirectoryEventArgs_t6C077EFA0C8190EB788F7BB28041F31E1A1B6832  : public ScanEventArgs_t38DBEDFC95FDEB9550B5CE065B23C69C66A0A695
 {
 	bool ___hasMatchingFiles_;
+};
+struct EncryptionAlgorithm_t62E53F281FE70EA0FB641A0A18662D2522912F09 
+{
+	int32_t ___value__;
 };
 struct Exception_t  : public RuntimeObject
 {
@@ -1163,51 +1071,33 @@ struct FastZipEvents_t46580F733DF9C5FA114F9D8252509E972CCBDA67  : public Runtime
 	FileFailureHandler_tA4DBFD3E4839C5BC2747400B2B2CFE314AE5614D* ___FileFailure;
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___progressInterval_;
 };
-struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
+struct FileAccess_t3992FF4CCC61971B804DD291F06F696C3CF33C30 
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
-	int32_t ____fileStatusInitialized;
-	bool ___U3CInitiallyDirectoryU3Ek__BackingField;
-	bool ____isDirectory;
-	bool ____exists;
+	int32_t ___value__;
 };
-struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
+struct FileAttributes_t307E067EF44503B262F446FFD18E6230AF91AA5F 
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
-	int32_t ____fileStatusInitialized;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
-	int32_t ____isDirectory;
-	int32_t ____exists;
+	int32_t ___value__;
 };
-struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
+struct FileMode_t111B48D5347628AEFCBF9A0EC2833827A302ECBA 
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
-	int32_t ____fileStatusInitialized;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
-	int32_t ____isDirectory;
-	int32_t ____exists;
+	int32_t ___value__;
 };
-struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+struct FileShare_t0A0E9739F5AB44D6B8026C9D2A2F1CEEE442733A 
 {
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
-	String_t* ___name;
-	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
-	bool ___isExposed;
-	int64_t ___append_startpos;
-	int32_t ___access;
-	bool ___owner;
-	bool ___async;
-	bool ___canseek;
-	bool ___anonymous;
-	bool ___buf_dirty;
-	int32_t ___buf_size;
-	int32_t ___buf_length;
-	int32_t ___buf_offset;
-	int64_t ___buf_start;
+	int32_t ___value__;
+};
+struct GeneralBitFlags_tC8DDF488BB99242BA23D657E7ACE2907F9D1E0EE 
+{
+	int32_t ___value__;
 };
 struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
 {
 	intptr_t ___value;
+};
+struct SeekOrigin_t7EB9AD0EDF26368A40F48FA2098F02160B1E8000 
+{
+	int32_t ___value__;
 };
 struct TarHeader_t1D533D0E9E7A2A893EFAD7C07287592D59B6E2FB  : public RuntimeObject
 {
@@ -1263,24 +1153,92 @@ struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4  : public RuntimeObjec
 	bool ___m_useUserOverride;
 	int32_t ___m_win32LangID;
 };
-struct ZipEntryFactory_t8C34D693244579DAEFD66F94B4463A4E2942B3FE  : public RuntimeObject
+struct UseZip64_t268DA51667CDD80AD9F43196F1542E9FDB0174EE 
 {
-	RuntimeObject* ___nameTransform_;
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___fixedDateTime_;
-	int32_t ___timeSetting_;
-	bool ___isUnicodeText_;
-	int32_t ___getAttributes_;
-	int32_t ___setAttributes_;
+	int32_t ___value__;
+};
+struct Overwrite_t18170638E77E2D2BF3AAFAA5EDB7DE278E7CA362 
+{
+	int32_t ___value__;
+};
+struct Known_t94DFCD259B53A01381EA52CE4A4E4E39F9EA99EC 
+{
+	uint8_t ___value__;
+};
+struct TimeSetting_t88030EEC38782A40F917829440460B06783B9363 
+{
+	int32_t ___value__;
+};
+struct FileStatusFlags_tB53E2B9A54305CDCEA49884DEEDB8C62C8ACC9C9 
+{
+	int32_t ___value__;
 };
 struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
 {
 };
-struct FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+struct DeflaterEngine_tE4F7D61146664C338CBDFC20B089EC4AB235959C  : public DeflaterConstants_tD3FBAF8D770A898E0C9CBB07684FF9F3CC045629
 {
-	FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 ____fileStatus;
-	String_t* ___FullPath;
-	String_t* ___OriginalPath;
-	String_t* ____name;
+	int32_t ___ins_h;
+	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___head;
+	Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___prev;
+	int32_t ___matchStart;
+	int32_t ___matchLen;
+	bool ___prevAvailable;
+	int32_t ___blockStart;
+	int32_t ___strstart;
+	int32_t ___lookahead;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___window;
+	int32_t ___strategy;
+	int32_t ___max_chain;
+	int32_t ___max_lazy;
+	int32_t ___niceLength;
+	int32_t ___goodLength;
+	int32_t ___compressionFunction;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___inputBuf;
+	int64_t ___totalIn;
+	int32_t ___inputOff;
+	int32_t ___inputEnd;
+	DeflaterPending_tC4C25BD0FC4D0215D31953050D4B3A874482C027* ___pending;
+	DeflaterHuffman_t67A9B70BA07FE9C885D7B89C5F28EDF3F618AE92* ___huffman;
+	Adler32_t3C87E4FAF7E69D4379B00B6883FFD286EF5916DD* ___adler;
+};
+struct FastZip_t657F63230A2A778A3A7CDB909E827F8298A69368  : public RuntimeObject
+{
+	bool ___continueRunning_;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer_;
+	ZipOutputStream_t72373D271802A21FE40589791BFB62A19ABA50A7* ___outputStream_;
+	ZipFile_t8623A6B24F047EE8218B35FA81651F841B83974B* ___zipFile_;
+	String_t* ___sourceDirectory_;
+	NameFilter_tAD1377BF7D2CE982AB1BE3D85FBCBE616FDFBE69* ___fileFilter_;
+	NameFilter_tAD1377BF7D2CE982AB1BE3D85FBCBE616FDFBE69* ___directoryFilter_;
+	int32_t ___overwrite_;
+	ConfirmOverwriteDelegate_tECABC456A4C853ACB974FF3C432117B7A91FF0A1* ___confirmDelegate_;
+	bool ___restoreDateTimeOnExtract_;
+	bool ___restoreAttributesOnExtract_;
+	bool ___createEmptyDirectories_;
+	FastZipEvents_t46580F733DF9C5FA114F9D8252509E972CCBDA67* ___events_;
+	RuntimeObject* ___entryFactory_;
+	RuntimeObject* ___extractNameTransform_;
+	int32_t ___useZip64_;
+	String_t* ___password_;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
+	String_t* ___name;
+	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
+	bool ___isExposed;
+	int64_t ___append_startpos;
+	int32_t ___access;
+	bool ___owner;
+	bool ___async;
+	bool ___canseek;
+	bool ___anonymous;
+	bool ___buf_dirty;
+	int32_t ___buf_size;
+	int32_t ___buf_length;
+	int32_t ___buf_offset;
+	int64_t ___buf_start;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -1297,6 +1255,63 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
 };
+struct ZipEntry_t483CBFA9890036FAA5A865C33732D292A8F06BCC  : public RuntimeObject
+{
+	uint8_t ___known;
+	int32_t ___externalFileAttributes;
+	uint16_t ___versionMadeBy;
+	String_t* ___name;
+	uint64_t ___size;
+	uint64_t ___compressedSize;
+	uint16_t ___versionToExtract;
+	uint32_t ___crc;
+	uint32_t ___dosTime;
+	int32_t ___method;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___extra;
+	String_t* ___comment;
+	int32_t ___flags;
+	int64_t ___zipFileIndex;
+	int64_t ___offset;
+	bool ___forceZip64_;
+	uint8_t ___cryptoCheckValue_;
+	int32_t ____aesVer;
+	int32_t ____aesEncryptionStrength;
+};
+struct ZipEntryFactory_t8C34D693244579DAEFD66F94B4463A4E2942B3FE  : public RuntimeObject
+{
+	RuntimeObject* ___nameTransform_;
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___fixedDateTime_;
+	int32_t ___timeSetting_;
+	bool ___isUnicodeText_;
+	int32_t ___getAttributes_;
+	int32_t ___setAttributes_;
+};
+struct ZipFile_t8623A6B24F047EE8218B35FA81651F841B83974B  : public RuntimeObject
+{
+	KeysRequiredEventHandler_t598C3F03F5132474D50EAA659C58CAC9A27BF494* ___KeysRequired;
+	bool ___isDisposed_;
+	String_t* ___name_;
+	String_t* ___comment_;
+	String_t* ___rawPassword_;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___baseStream_;
+	bool ___isStreamOwner;
+	int64_t ___offsetOfFirstEntry;
+	ZipEntryU5BU5D_tB17684D9BD6B973A8C391D8DCA4A7BCDF51450A6* ___entries_;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___key;
+	bool ___isNewArchive_;
+	int32_t ___useZip64_;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___updates_;
+	int64_t ___updateCount_;
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___updateIndex_;
+	RuntimeObject* ___archiveStorage_;
+	RuntimeObject* ___updateDataSource_;
+	bool ___contentsEdited_;
+	int32_t ___bufferSize_;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___copyBuffer_;
+	ZipString_t293652CB4F9B41911E8F675AB6B3D267F09C8B7B* ___newComment_;
+	bool ___commentEdited_;
+	RuntimeObject* ___updateEntryFactory_;
+};
 struct ZipOutputStream_t72373D271802A21FE40589791BFB62A19ABA50A7  : public DeflaterOutputStream_t1A33D4BC42D9AF34A523563436A1C6A1136CE259
 {
 	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___entries;
@@ -1312,6 +1327,25 @@ struct ZipOutputStream_t72373D271802A21FE40589791BFB62A19ABA50A7  : public Defla
 	int64_t ___sizePatchPos;
 	int32_t ___useZip64_;
 };
+struct FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 
+{
+	int32_t ___Flags;
+	int32_t ___Mode;
+	uint32_t ___Uid;
+	uint32_t ___Gid;
+	int64_t ___Size;
+	int64_t ___ATime;
+	int64_t ___ATimeNsec;
+	int64_t ___MTime;
+	int64_t ___MTimeNsec;
+	int64_t ___CTime;
+	int64_t ___CTimeNsec;
+	int64_t ___BirthTime;
+	int64_t ___BirthTimeNsec;
+	int64_t ___Dev;
+	int64_t ___Ino;
+	uint32_t ___UserFlags;
+};
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 	String_t* ____paramName;
@@ -1325,14 +1359,32 @@ struct CompletedFileHandler_t14375DCC578AA6A60125D678FDFA297CBA08644D  : public 
 struct DirectoryFailureHandler_tC78F5B207DE108AB3836E23A0A74C98DA3C3DAF3  : public MulticastDelegate_t
 {
 };
-struct DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
-{
-};
 struct FileFailureHandler_tA4DBFD3E4839C5BC2747400B2B2CFE314AE5614D  : public MulticastDelegate_t
 {
 };
-struct FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
 {
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	bool ___U3CInitiallyDirectoryU3Ek__BackingField;
+	bool ____isDirectory;
+	bool ____exists;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
+	int32_t ____isDirectory;
+	int32_t ____exists;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
+	int32_t ____isDirectory;
+	int32_t ____exists;
 };
 struct IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -1365,6 +1417,13 @@ struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : 
 {
 	RuntimeObject* ____actualValue;
 };
+struct FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+{
+	FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 ____fileStatus;
+	String_t* ___FullPath;
+	String_t* ___OriginalPath;
+	String_t* ____name;
+};
 struct PathTooLongException_tAF7644094546C2BD93B829405B0199BF3B3FC2E5  : public IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910
 {
 };
@@ -1372,6 +1431,12 @@ struct TarException_tEE3B999E2F869A6562F3141D42E67AA864FA84DE  : public SharpZip
 {
 };
 struct ZipException_t96D0219AEA3A9ACA11F3DD018FDAA302995E720F  : public SharpZipBaseException_t1C56A0584338F84B653352995CA5718A5BF2EB75
+{
+};
+struct DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
+{
+};
+struct FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
 {
 };
 struct InvalidHeaderException_tA35CBA084C9099F90902CC382D970CB5A57B1B58  : public TarException_tEE3B999E2F869A6562F3141D42E67AA864FA84DE
@@ -1520,11 +1585,6 @@ struct Exception_t_StaticFields
 {
 	RuntimeObject* ___s_EDILock;
 };
-struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
-{
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle;
-	RuntimeObject* ___buf_recycle_lock;
-};
 struct TarHeader_t1D533D0E9E7A2A893EFAD7C07287592D59B6E2FB_StaticFields
 {
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime1970;
@@ -1540,6 +1600,11 @@ struct TarHeader_t1D533D0E9E7A2A893EFAD7C07287592D59B6E2FB_StaticFields
 struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4_StaticFields
 {
 	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___s_Invariant;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle;
+	RuntimeObject* ___buf_recycle_lock;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -10188,6 +10253,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeflaterConstants__cctor_m4B05D2F8E6116D
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -20075,6 +20148,14 @@ IL_001b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 bool ConfirmOverwriteDelegate_Invoke_m6132ADEC7FAB8EF19A41F84EE46421A2ED8B5F2E_Multicast(ConfirmOverwriteDelegate_tECABC456A4C853ACB974FF3C432117B7A91FF0A1* __this, String_t* ___0_fileName, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates->max_length;
@@ -20816,6 +20897,38 @@ IL_003c:
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

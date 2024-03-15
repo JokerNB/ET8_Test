@@ -43,7 +43,8 @@ namespace FUIEditor
     {
         // 名字空间
         public static string NameSpace = "ET.Client";
-        
+
+        public static string AttributeName = "[EnableClass]";
         // 类名前缀
         public static string ClassNamePrefix = "FUI_";
         

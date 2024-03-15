@@ -928,12 +928,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObjec
 	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback;
 	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback;
 };
-struct FromBase64Transform_t68C4AF0FEDE3A60EC99713B2382DD3A2CD76F473  : public RuntimeObject
-{
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____inputBuffer;
-	int32_t ____inputIndex;
-	int32_t ____whitespaces;
-};
 struct HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D  : public RuntimeObject
 {
 	bool ____disposed;
@@ -976,12 +970,6 @@ struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_marshaled_co
 struct MemberInfo_t  : public RuntimeObject
 {
 };
-struct ObjectSecurity_tC25ABE3A292A86C4AF07B2A3E25D6FECE093376B  : public RuntimeObject
-{
-	CommonSecurityDescriptor_tEC6200743C4FA13ED063CF70DD5339E95F81B00A* ___descriptor;
-	int32_t ___sections_modified;
-	ReaderWriterLock_tBA6D275E19444C911C8681A576EB0CBB12B16B5B* ___rw_lock;
-};
 struct Parser_t6A7CE2538ABB8199316C04EA7019A63D2F863378  : public RuntimeObject
 {
 	SecurityDocument_t1EF9C739012187A2E853E30DA404D76829A108AE* ____doc;
@@ -990,10 +978,6 @@ struct Parser_t6A7CE2538ABB8199316C04EA7019A63D2F863378  : public RuntimeObject
 struct PrincipalPermission_tAF276728F1F006CE78E9B41F3DF3877DF358CAA9  : public RuntimeObject
 {
 	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___principals;
-};
-struct RSASignaturePadding_tB51A784FBDFCE129FB190C5A42C13D5182AFF25C  : public RuntimeObject
-{
-	int32_t ____mode;
 };
 struct RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3  : public RuntimeObject
 {
@@ -1053,33 +1037,6 @@ struct StringBuilder_t  : public RuntimeObject
 struct StrongNamePublicKeyBlob_t27042D558750F600F94772A8D9A4C2F482833D53  : public RuntimeObject
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___pubkey;
-};
-struct SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8  : public RuntimeObject
-{
-	int32_t ___BlockSizeValue;
-	int32_t ___FeedbackSizeValue;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___IVValue;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___KeyValue;
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___LegalBlockSizesValue;
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___LegalKeySizesValue;
-	int32_t ___KeySizeValue;
-	int32_t ___ModeValue;
-	int32_t ___PaddingValue;
-};
-struct SymmetricTransform_tDD1D096506ADC83C468EE253DE76D1EB315DAC43  : public RuntimeObject
-{
-	SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8* ___algo;
-	bool ___encrypt;
-	int32_t ___BlockSizeByte;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___temp;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___temp2;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___workBuff;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___workout;
-	int32_t ___padmode;
-	int32_t ___FeedBackByte;
-	bool ___m_disposed;
-	bool ___lastBlock;
-	RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3* ____rng;
 };
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
 {
@@ -1183,9 +1140,6 @@ struct ValueTask_1_t823DE87C36EA952D24C4E64F532E9D4425B72F21
 	int16_t ____token;
 	bool ____continueOnCapturedContext;
 };
-struct Aes_tC72E711D7751C8AEAF59C51CA0E61A3857068047  : public SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8
-{
-};
 struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF 
 {
 	RuntimeObject* ___m_stateMachine;
@@ -1224,18 +1178,6 @@ struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_marshaled_com
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17 
 {
 	Il2CppChar ___m_value;
-};
-struct CommonObjectSecurity_t0AEE21110EEAC4504D124AB89F967A07BEFBAD4D  : public ObjectSecurity_tC25ABE3A292A86C4AF07B2A3E25D6FECE093376B
-{
-};
-struct DES_t4155628A71AAB12F38CF629C8CDDD21540E84315  : public SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8
-{
-};
-struct DESTransform_t21EBB144507716F8F203791A1D3ED0A26C4CCB14  : public SymmetricTransform_tDD1D096506ADC83C468EE253DE76D1EB315DAC43
-{
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keySchedule;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___byteBuff;
-	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___dwordBuff;
 };
 struct DSA_tB12EE3AEA99FBD41DE318E2A371878CA94653E41  : public AsymmetricAlgorithm_t5E7E9D26CE0EDCAABD84F616A44E476473BA2AF8
 {
@@ -1347,26 +1289,6 @@ struct PublisherIdentityPermission_tA80A44013259A9BE7B42D531C2425A09DE94F1B1  : 
 struct RSA_tDDE9BD4C9806074FA9B1C6A5C93523A97116F21A  : public AsymmetricAlgorithm_t5E7E9D26CE0EDCAABD84F616A44E476473BA2AF8
 {
 };
-struct ReflectionPermission_t2027B79053C870ADD27747695AB5DB8628D69CC0  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ___flags;
-};
-struct RegistryPermission_t717887191C74F22FF3256833E366F77D50B5B9E0  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ____state;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___createList;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___readList;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___writeList;
-};
-struct SecurityAttribute_tB79F828B77F1B081DD57CEF810E748C7C871D7C5  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	int32_t ___m_Action;
-	bool ___m_Unrestricted;
-};
-struct SecurityPermission_t3D031F3D02A241DA751E50E18C5977E59405FF70  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ___flags;
-};
 struct SiteIdentityPermission_t70730B0EA2980EBFC188FFC9AB07B84B3CB8353C  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
 {
 	String_t* ____site;
@@ -1375,26 +1297,6 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefOb
 {
 	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask;
 	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
-{
-	RuntimeObject* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
-{
-	Il2CppIUnknown* ___m_additionalContext;
-	int32_t ___m_state;
-};
-struct StrongNameIdentityPermission_t5A1E6BA9BA2E3C319867C349357F2165C82AA511  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ____state;
-	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ____list;
 };
 struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 
 {
@@ -1407,11 +1309,6 @@ struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_pinvoke
 struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_com
 {
 	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task;
-};
-struct UIPermission_tAE7D9CE4AB29EAD142396A9B5AE019351BE14922  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ____window;
-	int32_t ____clipboard;
 };
 struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
 {
@@ -1444,10 +1341,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		};
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
-};
-struct ZoneIdentityPermission_tF360C410B3EC4C116590B0A1773A8033EF7FD385  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
-{
-	int32_t ___zone;
 };
 struct SNIP_t4D35D86E557C50B72DE1EE007B3478ADD582D000 
 {
@@ -1489,25 +1382,21 @@ struct ValueTaskAwaiter_1_t1C9A07171B9A06106B5B2C67A0C0ADD0FD79A814
 {
 	ValueTask_1_t823DE87C36EA952D24C4E64F532E9D4425B72F21 ____value;
 };
-struct CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE  : public SecurityAttribute_tB79F828B77F1B081DD57CEF810E748C7C871D7C5
+struct AccessControlActions_t4777A53C4F8BE6CE92FC2331E586040160BB5500 
 {
+	int32_t ___value__;
 };
-struct CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+struct AccessControlSections_t592AAFFEA19704DD8DAC11AF32F5289AAE8C0BEB 
 {
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
-	RuntimeObject* ____transform;
-	int32_t ____transformMode;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____inputBuffer;
-	int32_t ____inputBufferIndex;
-	int32_t ____inputBlockSize;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____outputBuffer;
-	int32_t ____outputBufferIndex;
-	int32_t ____outputBlockSize;
-	bool ____canRead;
-	bool ____canWrite;
-	bool ____finalBlockTransformed;
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____lazyAsyncActiveSemaphore;
-	bool ____leaveOpen;
+	int32_t ___value__;
+};
+struct CipherMode_t932070F221590D5F955DE31430C6EAA91B97F027 
+{
+	int32_t ___value__;
+};
+struct CryptoStreamMode_tAA7DB9F0207503C36099611FC91D688AF0FA26A6 
+{
+	int32_t ___value__;
 };
 struct CspParameters_t9004F77295A57F5D917C723ACBC835E9C54D18B3  : public RuntimeObject
 {
@@ -1520,8 +1409,9 @@ struct CspParameters_t9004F77295A57F5D917C723ACBC835E9C54D18B3  : public Runtime
 	SecureString_t6FBEB334D455CA90093BD446BBEBA47FE5B20C6C* ___m_keyPassword;
 	intptr_t ___m_parentWindowHandle;
 };
-struct DESCryptoServiceProvider_t4EC0DFBCDF6CACBDDBF82DBE378785799C966F9E  : public DES_t4155628A71AAB12F38CF629C8CDDD21540E84315
+struct CspProviderFlags_tE84737C4FE8BB969ADE9D11702DB91D3165D668F 
 {
+	int32_t ___value__;
 };
 struct DSACryptoServiceProvider_tB418CD8E85D69D879C7298E4A6A7D8CFAC09D79E  : public DSA_tB12EE3AEA99FBD41DE318E2A371878CA94653E41
 {
@@ -1637,6 +1527,10 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct FromBase64TransformMode_tA0766CADF5766958510E04C82C1F80886344ABE9 
+{
+	int32_t ___value__;
+};
 struct HMAC_tD2DDF5CB02E7064020823E8EE01DA127E46E1684  : public KeyedHashAlgorithm_t782AD417BF829DAD1267A7AE4F9B553537CCF263
 {
 	int32_t ___blockSizeValue;
@@ -1647,15 +1541,21 @@ struct HMAC_tD2DDF5CB02E7064020823E8EE01DA127E46E1684  : public KeyedHashAlgorit
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___m_outer;
 	bool ___m_hashing;
 };
-struct NativeObjectSecurity_t53C11F56D3F42C2FF26344A07CCE6267E9D83650  : public CommonObjectSecurity_t0AEE21110EEAC4504D124AB89F967A07BEFBAD4D
+struct KeyNumber_tDE50A69031CC34CF3A6A2F7D46558FCBC25BFDA0 
 {
-	ExceptionFromErrorCode_t99664FA608F50993014037310291163535C21BB0* ___exception_from_error_code;
+	int32_t ___value__;
 };
-struct PbeParameters_tD14B56E1B4791D42F78E61C96F62E1E7E96305F0  : public RuntimeObject
+struct PaddingMode_t938E0AB76C80739DB1BB44D7D6B9B94C03B72E1D 
 {
-	int32_t ___U3CEncryptionAlgorithmU3Ek__BackingField;
-	HashAlgorithmName_t7FCDC65C37365F7AFAAA96952D14F51676480A3F ___U3CHashAlgorithmU3Ek__BackingField;
-	int32_t ___U3CIterationCountU3Ek__BackingField;
+	int32_t ___value__;
+};
+struct PbeEncryptionAlgorithm_t73EC74F4D9AF2012980F5BDDC8CA5C1C957396A4 
+{
+	int32_t ___value__;
+};
+struct PermissionState_tBA97464FBBAF437426AAFD72AE10F12B79AE84E5 
+{
+	int32_t ___value__;
 };
 struct RNGCryptoServiceProvider_tAD9D75EFF3D2ED0929EEE27A53BE82AB83D78170  : public RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3
 {
@@ -1670,10 +1570,21 @@ struct RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C  : pub
 	bool ___m_disposed;
 	RSAManaged_t897B29EF76C459408E11A42680C942716D809001* ___rsa;
 };
-struct RSAEncryptionPadding_t6B5A26CB95013612A694FE0B9C39093E75FF6E09  : public RuntimeObject
+struct RSAEncryptionPaddingMode_t33EF63BEEB666863026FF3B378FE71C3175E45CC 
 {
-	int32_t ____mode;
-	HashAlgorithmName_t7FCDC65C37365F7AFAAA96952D14F51676480A3F ____oaepHashAlgorithm;
+	int32_t ___value__;
+};
+struct RSASignaturePaddingMode_t4997C6AD166ED41B3F064BB12711D6EEB3292856 
+{
+	int32_t ___value__;
+};
+struct ReflectionPermissionFlag_t86538548910EB79555334611DF5CBFDB16F9C383 
+{
+	int32_t ___value__;
+};
+struct RegistryPermissionAccess_t10712F28EB8060DE077B815D4F5351E353F3CBF6 
+{
+	int32_t ___value__;
 };
 struct Rfc2898DeriveBytes_t0614FA7A5D23F6A9C781F7CA38E07BD8295256FB  : public DeriveBytes_t385A92C1BE5732BD434FBD449B8BFA1A7702A179
 {
@@ -1696,6 +1607,38 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 {
 	intptr_t ___value;
 };
+struct SecurityAction_t2CD17B1338BAB13BA5099DB75B7B5FAF0B48BB84 
+{
+	int32_t ___value__;
+};
+struct SecurityPermissionFlag_tFFD7E83DDD60A5C42624E5F35EF78BB007AD6FA8 
+{
+	int32_t ___value__;
+};
+struct SecurityZone_t81540FBFF0C570EE35C049FF5AE06E3A6945940E 
+{
+	int32_t ___value__;
+};
+struct SeekOrigin_t7EB9AD0EDF26368A40F48FA2098F02160B1E8000 
+{
+	int32_t ___value__;
+};
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
+struct UIPermissionClipboard_t75389C0E75F9467C9D6F8699E740E727D23EBD99 
+{
+	int32_t ___value__;
+};
+struct UIPermissionWindow_tB38D87B0BF570C115457E3F70244D1ACA799A610 
+{
+	int32_t ___value__;
+};
 struct ValueTaskAwaiter_t8A53759F995F1786E132CA010D1D215B55F3101A 
 {
 	ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F ____value;
@@ -1707,6 +1650,10 @@ struct ValueTaskAwaiter_t8A53759F995F1786E132CA010D1D215B55F3101A_marshaled_pinv
 struct ValueTaskAwaiter_t8A53759F995F1786E132CA010D1D215B55F3101A_marshaled_com
 {
 	ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F ____value;
+};
+struct ValueTaskSourceStatus_t9F496A09D3BF95F42C0C5366D8DEBA49F08C4FD3 
+{
+	int32_t ___value__;
 };
 struct X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4  : public RuntimeObject
 {
@@ -1766,8 +1713,28 @@ struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshale
 {
 	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder;
 };
-struct CryptoKeySecurity_tEFFD9D03832C8DD8A184B0FA143E85C6C4C3BAC7  : public NativeObjectSecurity_t53C11F56D3F42C2FF26344A07CCE6267E9D83650
+struct CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
+	RuntimeObject* ____transform;
+	int32_t ____transformMode;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____inputBuffer;
+	int32_t ____inputBufferIndex;
+	int32_t ____inputBlockSize;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____outputBuffer;
+	int32_t ____outputBufferIndex;
+	int32_t ____outputBlockSize;
+	bool ____canRead;
+	bool ____canWrite;
+	bool ____finalBlockTransformed;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____lazyAsyncActiveSemaphore;
+	bool ____leaveOpen;
+};
+struct FromBase64Transform_t68C4AF0FEDE3A60EC99713B2382DD3A2CD76F473  : public RuntimeObject
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____inputBuffer;
+	int32_t ____inputIndex;
+	int32_t ____whitespaces;
 };
 struct HMACSHA1_t40AB10160C7F8F11EA26E038FD7A335383987030  : public HMAC_tD2DDF5CB02E7064020823E8EE01DA127E46E1684
 {
@@ -1795,46 +1762,93 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
 };
-struct PrincipalPermissionAttribute_t0FCCA687BC336E09C859A511B78F5427B5B8209A  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+struct ObjectSecurity_tC25ABE3A292A86C4AF07B2A3E25D6FECE093376B  : public RuntimeObject
 {
-	bool ___authenticated;
-	String_t* ___name;
-	String_t* ___role;
+	CommonSecurityDescriptor_tEC6200743C4FA13ED063CF70DD5339E95F81B00A* ___descriptor;
+	int32_t ___sections_modified;
+	ReaderWriterLock_tBA6D275E19444C911C8681A576EB0CBB12B16B5B* ___rw_lock;
 };
-struct PublisherIdentityPermissionAttribute_tA18CF6218955FFFB130CAEFE924B374C9AB016F8  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+struct PbeParameters_tD14B56E1B4791D42F78E61C96F62E1E7E96305F0  : public RuntimeObject
 {
-	String_t* ___certFile;
-	String_t* ___signedFile;
-	String_t* ___x509data;
+	int32_t ___U3CEncryptionAlgorithmU3Ek__BackingField;
+	HashAlgorithmName_t7FCDC65C37365F7AFAAA96952D14F51676480A3F ___U3CHashAlgorithmU3Ek__BackingField;
+	int32_t ___U3CIterationCountU3Ek__BackingField;
 };
-struct ReflectionPermissionAttribute_t6E53E0E81F1E1718C3795F96B1F8FBD4E753CCF2  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+struct RSAEncryptionPadding_t6B5A26CB95013612A694FE0B9C39093E75FF6E09  : public RuntimeObject
+{
+	int32_t ____mode;
+	HashAlgorithmName_t7FCDC65C37365F7AFAAA96952D14F51676480A3F ____oaepHashAlgorithm;
+};
+struct RSASignaturePadding_tB51A784FBDFCE129FB190C5A42C13D5182AFF25C  : public RuntimeObject
+{
+	int32_t ____mode;
+};
+struct ReflectionPermission_t2027B79053C870ADD27747695AB5DB8628D69CC0  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
 {
 	int32_t ___flags;
-	bool ___memberAccess;
-	bool ___reflectionEmit;
-	bool ___typeInfo;
 };
-struct RegistryPermissionAttribute_tA6C0D0B55E30641A0C5934FA6E87E74F06A962B4  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+struct RegistryPermission_t717887191C74F22FF3256833E366F77D50B5B9E0  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
 {
-	String_t* ___create;
-	String_t* ___read;
-	String_t* ___write;
-	String_t* ___changeAccessControl;
-	String_t* ___viewAccessControl;
+	int32_t ____state;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___createList;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___readList;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___writeList;
 };
-struct SecurityPermissionAttribute_t3CBDD72507EB28AEF9515B673096C7D2581CEA4F  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+struct SecurityAttribute_tB79F828B77F1B081DD57CEF810E748C7C871D7C5  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	int32_t ___m_Flags;
+	int32_t ___m_Action;
+	bool ___m_Unrestricted;
 };
-struct SiteIdentityPermissionAttribute_t3D5EE7AB6FCA38645FC85E3DBFA0A1B7A936F605  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+struct SecurityPermission_t3D031F3D02A241DA751E50E18C5977E59405FF70  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
 {
-	String_t* ___site;
+	int32_t ___flags;
 };
-struct StrongNameIdentityPermissionAttribute_tBAA40DCD6FB44ED654F3074873236DE251D8B16D  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
 {
-	String_t* ___name;
-	String_t* ___key;
-	String_t* ___version;
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StrongNameIdentityPermission_t5A1E6BA9BA2E3C319867C349357F2165C82AA511  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
+{
+	int32_t ____state;
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ____list;
+};
+struct SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8  : public RuntimeObject
+{
+	int32_t ___BlockSizeValue;
+	int32_t ___FeedbackSizeValue;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___IVValue;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___KeyValue;
+	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___LegalBlockSizesValue;
+	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___LegalKeySizesValue;
+	int32_t ___KeySizeValue;
+	int32_t ___ModeValue;
+	int32_t ___PaddingValue;
+};
+struct SymmetricTransform_tDD1D096506ADC83C468EE253DE76D1EB315DAC43  : public RuntimeObject
+{
+	SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8* ___algo;
+	bool ___encrypt;
+	int32_t ___BlockSizeByte;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___temp;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___temp2;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___workBuff;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___workout;
+	int32_t ___padmode;
+	int32_t ___FeedBackByte;
+	bool ___m_disposed;
+	bool ___lastBlock;
+	RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3* ____rng;
 };
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
@@ -1843,16 +1857,12 @@ struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
 };
-struct UIPermissionAttribute_tB998A3AA8200420949C52D9D6CFBE023CCCDD59C  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+struct UIPermission_tAE7D9CE4AB29EAD142396A9B5AE019351BE14922  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
 {
-	int32_t ___clipboard;
-	int32_t ___window;
+	int32_t ____window;
+	int32_t ____clipboard;
 };
-struct UrlIdentityPermissionAttribute_tA42781316DA3927830336BD63DF10CE956EEEC92  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
-{
-	String_t* ___url;
-};
-struct ZoneIdentityPermissionAttribute_tD66018434F9A4F214EBF4EF2690D74231DB48348  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+struct ZoneIdentityPermission_tF360C410B3EC4C116590B0A1773A8033EF7FD385  : public CodeAccessPermission_t6BE947E3C453E05B6C9DC30B8FA33A29DEB5209A
 {
 	int32_t ___zone;
 };
@@ -1895,6 +1905,9 @@ struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4  : public MulticastDeleg
 struct Func_1_t687B04A8AAD2D43E760426531E3BB1C269F9F093  : public MulticastDelegate_t
 {
 };
+struct Aes_tC72E711D7751C8AEAF59C51CA0E61A3857068047  : public SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8
+{
+};
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 	String_t* ____paramName;
@@ -1902,8 +1915,23 @@ struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public Sys
 struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
 {
 };
+struct CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE  : public SecurityAttribute_tB79F828B77F1B081DD57CEF810E748C7C871D7C5
+{
+};
+struct CommonObjectSecurity_t0AEE21110EEAC4504D124AB89F967A07BEFBAD4D  : public ObjectSecurity_tC25ABE3A292A86C4AF07B2A3E25D6FECE093376B
+{
+};
 struct CryptographicException_tF1AE59E97557B5241330D5998C4D95B6D9D6669F  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
+};
+struct DES_t4155628A71AAB12F38CF629C8CDDD21540E84315  : public SymmetricAlgorithm_t8C631E4E7B9073CCBD856F8D559A62EB5616BBE8
+{
+};
+struct DESTransform_t21EBB144507716F8F203791A1D3ED0A26C4CCB14  : public SymmetricTransform_tDD1D096506ADC83C468EE253DE76D1EB315DAC43
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keySchedule;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___byteBuff;
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___dwordBuff;
 };
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -1957,11 +1985,75 @@ struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : 
 struct CryptographicUnexpectedOperationException_t095FC6568619B47AC96204DE0D6C774B4EB7F810  : public CryptographicException_tF1AE59E97557B5241330D5998C4D95B6D9D6669F
 {
 };
+struct DESCryptoServiceProvider_t4EC0DFBCDF6CACBDDBF82DBE378785799C966F9E  : public DES_t4155628A71AAB12F38CF629C8CDDD21540E84315
+{
+};
+struct NativeObjectSecurity_t53C11F56D3F42C2FF26344A07CCE6267E9D83650  : public CommonObjectSecurity_t0AEE21110EEAC4504D124AB89F967A07BEFBAD4D
+{
+	ExceptionFromErrorCode_t99664FA608F50993014037310291163535C21BB0* ___exception_from_error_code;
+};
 struct ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB  : public InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB
 {
 	String_t* ____objectName;
 };
 struct PlatformNotSupportedException_tD2BD7EB9278518AA5FE8AE75AD5D0D4298A4631A  : public NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A
+{
+};
+struct PrincipalPermissionAttribute_t0FCCA687BC336E09C859A511B78F5427B5B8209A  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	bool ___authenticated;
+	String_t* ___name;
+	String_t* ___role;
+};
+struct PublisherIdentityPermissionAttribute_tA18CF6218955FFFB130CAEFE924B374C9AB016F8  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	String_t* ___certFile;
+	String_t* ___signedFile;
+	String_t* ___x509data;
+};
+struct ReflectionPermissionAttribute_t6E53E0E81F1E1718C3795F96B1F8FBD4E753CCF2  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	int32_t ___flags;
+	bool ___memberAccess;
+	bool ___reflectionEmit;
+	bool ___typeInfo;
+};
+struct RegistryPermissionAttribute_tA6C0D0B55E30641A0C5934FA6E87E74F06A962B4  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	String_t* ___create;
+	String_t* ___read;
+	String_t* ___write;
+	String_t* ___changeAccessControl;
+	String_t* ___viewAccessControl;
+};
+struct SecurityPermissionAttribute_t3CBDD72507EB28AEF9515B673096C7D2581CEA4F  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	int32_t ___m_Flags;
+};
+struct SiteIdentityPermissionAttribute_t3D5EE7AB6FCA38645FC85E3DBFA0A1B7A936F605  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	String_t* ___site;
+};
+struct StrongNameIdentityPermissionAttribute_tBAA40DCD6FB44ED654F3074873236DE251D8B16D  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	String_t* ___name;
+	String_t* ___key;
+	String_t* ___version;
+};
+struct UIPermissionAttribute_tB998A3AA8200420949C52D9D6CFBE023CCCDD59C  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	int32_t ___clipboard;
+	int32_t ___window;
+};
+struct UrlIdentityPermissionAttribute_tA42781316DA3927830336BD63DF10CE956EEEC92  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	String_t* ___url;
+};
+struct ZoneIdentityPermissionAttribute_tD66018434F9A4F214EBF4EF2690D74231DB48348  : public CodeAccessSecurityAttribute_tE7EEC93676A4CB9CEE9050F6CC2B97E1C2E210CE
+{
+	int32_t ___zone;
+};
+struct CryptoKeySecurity_tEFFD9D03832C8DD8A184B0FA143E85C6C4C3BAC7  : public NativeObjectSecurity_t53C11F56D3F42C2FF26344A07CCE6267E9D83650
 {
 };
 struct ArrayPool_1_t645A9854926DCA747C654687A362AD03D55D2C07_StaticFields
@@ -2000,11 +2092,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 {
 	ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* ___s_serializationInfoTable;
-};
-struct RSASignaturePadding_tB51A784FBDFCE129FB190C5A42C13D5182AFF25C_StaticFields
-{
-	RSASignaturePadding_tB51A784FBDFCE129FB190C5A42C13D5182AFF25C* ___s_pkcs1;
-	RSASignaturePadding_tB51A784FBDFCE129FB190C5A42C13D5182AFF25C* ___s_pss;
 };
 struct SecurityElement_tA7337C2977BEC2323B0A3EE95C1C6422013F4E55_StaticFields
 {
@@ -2057,11 +2144,6 @@ struct ValueTask_1_t823DE87C36EA952D24C4E64F532E9D4425B72F21_StaticFields
 {
 	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ___s_canceledTask;
 };
-struct Aes_tC72E711D7751C8AEAF59C51CA0E61A3857068047_StaticFields
-{
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalBlockSizes;
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalKeySizes;
-};
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
 	String_t* ___TrueString;
@@ -2074,24 +2156,6 @@ struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_StaticFields
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1;
-};
-struct DES_t4155628A71AAB12F38CF629C8CDDD21540E84315_StaticFields
-{
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalBlockSizes;
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalKeySizes;
-};
-struct DESTransform_t21EBB144507716F8F203791A1D3ED0A26C4CCB14_StaticFields
-{
-	int32_t ___KEY_BIT_SIZE;
-	int32_t ___KEY_BYTE_SIZE;
-	int32_t ___BLOCK_BIT_SIZE;
-	int32_t ___BLOCK_BYTE_SIZE;
-	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___spBoxes;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PC1;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___leftRotTotal;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PC2;
-	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___ipTab;
-	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___fpTab;
 };
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 {
@@ -2108,10 +2172,6 @@ struct SiteIdentityPermission_t70730B0EA2980EBFC188FFC9AB07B84B3CB8353C_StaticFi
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 {
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null;
-};
-struct StrongNameIdentityPermission_t5A1E6BA9BA2E3C319867C349357F2165C82AA511_StaticFields
-{
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___defaultVersion;
 };
 struct ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F_StaticFields
 {
@@ -2137,6 +2197,14 @@ struct RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C_Static
 {
 	int32_t ___s_UseMachineKeyStore;
 };
+struct ValueTaskAwaiter_t8A53759F995F1786E132CA010D1D215B55F3101A_StaticFields
+{
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_invokeActionDelegate;
+};
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFields
+{
+	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_cachedCompleted;
+};
 struct RSAEncryptionPadding_t6B5A26CB95013612A694FE0B9C39093E75FF6E09_StaticFields
 {
 	RSAEncryptionPadding_t6B5A26CB95013612A694FE0B9C39093E75FF6E09* ___s_pkcs1;
@@ -2145,13 +2213,14 @@ struct RSAEncryptionPadding_t6B5A26CB95013612A694FE0B9C39093E75FF6E09_StaticFiel
 	RSAEncryptionPadding_t6B5A26CB95013612A694FE0B9C39093E75FF6E09* ___s_oaepSHA384;
 	RSAEncryptionPadding_t6B5A26CB95013612A694FE0B9C39093E75FF6E09* ___s_oaepSHA512;
 };
-struct ValueTaskAwaiter_t8A53759F995F1786E132CA010D1D215B55F3101A_StaticFields
+struct RSASignaturePadding_tB51A784FBDFCE129FB190C5A42C13D5182AFF25C_StaticFields
 {
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_invokeActionDelegate;
+	RSASignaturePadding_tB51A784FBDFCE129FB190C5A42C13D5182AFF25C* ___s_pkcs1;
+	RSASignaturePadding_tB51A784FBDFCE129FB190C5A42C13D5182AFF25C* ___s_pss;
 };
-struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFields
+struct StrongNameIdentityPermission_t5A1E6BA9BA2E3C319867C349357F2165C82AA511_StaticFields
 {
-	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_cachedCompleted;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___defaultVersion;
 };
 struct Type_t_StaticFields
 {
@@ -2162,6 +2231,29 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct Aes_tC72E711D7751C8AEAF59C51CA0E61A3857068047_StaticFields
+{
+	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalBlockSizes;
+	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalKeySizes;
+};
+struct DES_t4155628A71AAB12F38CF629C8CDDD21540E84315_StaticFields
+{
+	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalBlockSizes;
+	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalKeySizes;
+};
+struct DESTransform_t21EBB144507716F8F203791A1D3ED0A26C4CCB14_StaticFields
+{
+	int32_t ___KEY_BIT_SIZE;
+	int32_t ___KEY_BYTE_SIZE;
+	int32_t ___BLOCK_BIT_SIZE;
+	int32_t ___BLOCK_BYTE_SIZE;
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___spBoxes;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PC1;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___leftRotTotal;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PC2;
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___ipTab;
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___fpTab;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -6902,6 +6994,14 @@ IL_0059:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SecurityAttribute__ctor_mE4386E30DF29467B3D8F19D431D3E502C3090360 (SecurityAttribute_tB79F828B77F1B081DD57CEF810E748C7C871D7C5* __this, int32_t ___0_action, const RuntimeMethod* method) 
 {
 	{
@@ -7911,6 +8011,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SecurityPermissionAttribute_set_Flags_m7
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -14755,6 +14863,14 @@ IL_012b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CryptoStream__ctor_mFCB7E1F2B96287E968978AC12DC1B1F4E44851B6 (CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65* __this, Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___0_stream, RuntimeObject* ___1_transform, int32_t ___2_mode, const RuntimeMethod* method) 
 {
 	{
@@ -18309,6 +18425,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E739549
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_DISABLE_OPTIMIZATIONS
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool CryptographicOperations_FixedTimeEquals_m9BE4EB0E7D5D306C65191BA92F1F60FE6929E241 (ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___0_left, ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___1_right, const RuntimeMethod* method) 
 {
@@ -19866,6 +19990,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RSAEncryptionPadding__ctor_m5DCB9A679505
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RSASignaturePadding__ctor_m2F5FBFB2893475ABB5BAFF4D94B60DF1F47CBBB1 (RSASignaturePadding_tB51A784FBDFCE129FB190C5A42C13D5182AFF25C* __this, int32_t ___0_mode, const RuntimeMethod* method) 
 {
 	{
@@ -20055,6 +20187,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RSASignaturePadding__ctor_m357BD4C0A388D
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -20641,6 +20781,14 @@ IL_000e:
 		return L_6;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -21678,6 +21826,22 @@ IL_0010:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KeySizes_get_MinSize_mFB9B5A4214BCA81BBB9B08860999041FDC22C4A4 (KeySizes_t4AE3EB919A5788F0545B70517859944B65712CB4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21999,6 +22163,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CryptographicUnexpectedOperationExceptio
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

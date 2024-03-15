@@ -12,7 +12,7 @@ namespace ET.Client
 			var listModel = self.FUIUIChooseDifficulty.List_Model;
 			listModel.itemRenderer = RenderModelListItem;
 			listModel.onClickItem.Add(context => OnClickListModelItem(self,context));
-			var configs = ModelCategory.Instance.GetAll();
+			var configs = ModelCategory.Instance.DataList;
 			listModel.numItems = configs.Count;
 
 			var listDifficulty = self.FUIUIChooseDifficulty.List_Difficulty;
@@ -45,7 +45,10 @@ namespace ET.Client
 		private static async ETTask OnClickEnd(int modelId, int difficultyType, Scene scene)
 		{
 			//发送选择模式及难度消息
-			var response = await scene.GetComponent<ClientSenderCompnent>().Call(new C2M_ChooseModelDifficulty() { Model = modelId, Difficulty = difficultyType }) as M2C_ChooseModelDifficulty;
+			C2M_ChooseModelDifficulty c2MChooseModelDifficulty = C2M_ChooseModelDifficulty.Create();
+			c2MChooseModelDifficulty.Model = modelId;
+			c2MChooseModelDifficulty.Difficulty = difficultyType;
+			var response = await scene.GetComponent<ClientSenderComponent>().Call(c2MChooseModelDifficulty) as M2C_ChooseModelDifficulty;
 			if (response.Error != ErrorCode.ERR_Success)
 			{
 				Log.Error(response.Error.ToString());
@@ -82,7 +85,7 @@ namespace ET.Client
 			UIChooseDifficulty.ModelType = config.DifficultyType;
 			UIChooseDifficulty.ModelId = config.Id;
 			uiChooseDifficulty.FUIUIChooseDifficulty.c1.SetSelectedIndex(1);
-			int count = UIChooseDifficulty.ModelType == 1? DifficultyNormalCategory.Instance.GetAll().Count : DifficultyHappyCategroy.Instance.GetAll().Count;
+			int count = UIChooseDifficulty.ModelType == 1? DifficultyNormalCategory.Instance.DataList.Count : DifficultyHappyCategroy.Instance.DataList.Count;
 			uiChooseDifficulty.FUIUIChooseDifficulty.List_Difficulty.numItems = count;
 		}
 

@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.Login
 {
+	[EnableClass]
 	public partial class FUI_Button_Register: GButton
 	{
 		public const string URL = "ui://ykcsql7plxtc7";

@@ -177,6 +177,7 @@ struct EntryU5BU5D_tEEEB516113B5F01C99162D5BFECC9AF22F5C8FEE;
 struct SlotU5BU5D_t8B8EE191EEC1575F1F0CAC91A208DBFDF2821D01;
 struct AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
@@ -492,15 +493,6 @@ struct DelegateUIAssetLoader_t9ECBCECDD48F12A70F71695835F9514DDD660335  : public
 struct MemberInfo_t  : public RuntimeObject
 {
 };
-struct NAudioClip_t17CB2BFC0CC41C9FDE0ED6D78119CF6862D3DB6B  : public RuntimeObject
-{
-	int32_t ___destroyMethod;
-	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___nativeClip;
-	int32_t ___refCount;
-	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onAcquire;
-	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onRelease;
-	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onDispose;
-};
 struct String_t  : public RuntimeObject
 {
 	int32_t ____stringLength;
@@ -545,13 +537,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 };
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
-};
-struct DisplayListItem_tAB0DC3A28414748A92EB2C92E721BBCDE604C285  : public RuntimeObject
-{
-	PackageItem_t93A2F2C2794F75EB09486CC05A681593080BFE07* ___packageItem;
-	int32_t ___type;
-	int32_t ___childCount;
-	int32_t ___listItemCount;
 };
 struct U3CU3Ec__DisplayClass10_0_tD8316F228AEEA511240B7A44285C32B706176D1D  : public RuntimeObject
 {
@@ -636,6 +621,15 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
 {
 	uint8_t ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
@@ -726,6 +720,10 @@ struct Delegate_t_marshaled_com
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
 };
+struct DestroyMethod_t8268BE278E578B6C3D78266B7CD24EF18ED506D9 
+{
+	int32_t ___value__;
+};
 struct Exception_t  : public RuntimeObject
 {
 	String_t* ____className;
@@ -783,24 +781,13 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
-struct NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630  : public RuntimeObject
+struct FitScreen_tDB146F1C15E5ED57A165F9BCF4A686EF44A3EEAC 
 {
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___uvRect;
-	bool ___rotated;
-	int32_t ___U3CrefCountU3Ek__BackingField;
-	float ___lastActive;
-	int32_t ___destroyMethod;
-	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onSizeChanged;
-	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onAcquire;
-	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onRelease;
-	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onDispose;
-	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ____nativeTexture;
-	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ____alphaTexture;
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____region;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____offset;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____originalSize;
-	NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630* ____root;
-	Dictionary_2_t9D257B68C0A19C0ADA560BA5DA9C670844688CFB* ____materialManagers;
+	int32_t ___value__;
+};
+struct HitTestMode_tA67C0E6D93BA50DB8B0162BDAEF31CBE9458DDCF 
+{
+	int32_t ___value__;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
@@ -813,6 +800,18 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 	intptr_t ___m_CachedPtr;
+};
+struct ObjectType_tBCA9508A33261B4314EA4D79D55BAB4CBB89C30D 
+{
+	int32_t ___value__;
+};
+struct PackageItemType_t381976A8CE19B37567CF8AF2D2D5D054EA722383 
+{
+	int32_t ___value__;
+};
+struct RenderMode_tB63553E26C26A0B62C47B995F86AC41768494633 
+{
+	int32_t ___value__;
 };
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
@@ -837,6 +836,34 @@ struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvo
 struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
+};
+struct NAudioClip_t17CB2BFC0CC41C9FDE0ED6D78119CF6862D3DB6B  : public RuntimeObject
+{
+	int32_t ___destroyMethod;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___nativeClip;
+	int32_t ___refCount;
+	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onAcquire;
+	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onRelease;
+	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onDispose;
+};
+struct NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630  : public RuntimeObject
+{
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___uvRect;
+	bool ___rotated;
+	int32_t ___U3CrefCountU3Ek__BackingField;
+	float ___lastActive;
+	int32_t ___destroyMethod;
+	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onSizeChanged;
+	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onAcquire;
+	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onRelease;
+	Action_1_t5298231EC04C9D4B1029E77D247678FC1659EDC5* ___onDispose;
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ____nativeTexture;
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ____alphaTexture;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____region;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____offset;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____originalSize;
+	NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630* ____root;
+	Dictionary_2_t9D257B68C0A19C0ADA560BA5DA9C670844688CFB* ____materialManagers;
 };
 struct PackageItem_t93A2F2C2794F75EB09486CC05A681593080BFE07  : public RuntimeObject
 {
@@ -883,6 +910,13 @@ struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DE
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct DisplayListItem_tAB0DC3A28414748A92EB2C92E721BBCDE604C285  : public RuntimeObject
+{
+	PackageItem_t93A2F2C2794F75EB09486CC05A681593080BFE07* ___packageItem;
+	int32_t ___type;
+	int32_t ___childCount;
+	int32_t ___listItemCount;
 };
 struct Action_1_t69E801E113BF186E6CD0C9C5233B3F71AEF42ADC  : public MulticastDelegate_t
 {
@@ -1013,10 +1047,6 @@ struct List_1_t0C08114D8CC04005F3AD02E1E3506D02B7F0A6CC_StaticFields
 {
 	DisplayListItemU5BU5D_t538DBFA407069C2F09613099A3A6D322FD9E5A3C* ___s_emptyArray;
 };
-struct NAudioClip_t17CB2BFC0CC41C9FDE0ED6D78119CF6862D3DB6B_StaticFields
-{
-	Action_1_t69E801E113BF186E6CD0C9C5233B3F71AEF42ADC* ___CustomDestroyMethod;
-};
 struct String_t_StaticFields
 {
 	String_t* ___Empty;
@@ -1054,14 +1084,18 @@ struct Exception_t_StaticFields
 {
 	RuntimeObject* ___s_EDILock;
 };
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct NAudioClip_t17CB2BFC0CC41C9FDE0ED6D78119CF6862D3DB6B_StaticFields
+{
+	Action_1_t69E801E113BF186E6CD0C9C5233B3F71AEF42ADC* ___CustomDestroyMethod;
+};
 struct NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630_StaticFields
 {
 	Action_1_t29B51564E49F5100689191ED6A9BFFC2081294EB* ___CustomDestroyMethod;
 	NTexture_tB2A671E5C4DDCC266B210950CD4AAD2337688630* ____empty;
-};
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
 };
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
 {

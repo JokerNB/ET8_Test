@@ -1422,12 +1422,6 @@ struct RcAtomicLong_tE88E0D7E1DB7C8186923EDB665203C7E413212E0  : public RuntimeO
 {
 	int64_t ____location;
 };
-struct RcByteBuffer_t627B6DEE7DBE628B1F16292E927AE3A8073792A1  : public RuntimeObject
-{
-	int32_t ____order;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____bytes;
-	int32_t ____position;
-};
 struct RcConfig_tDC31170F32F9155C1A21061B0DF5C6D4512AC0EB  : public RuntimeObject
 {
 	int32_t ___Partition;
@@ -1463,12 +1457,6 @@ struct RcConfig_tDC31170F32F9155C1A21061B0DF5C6D4512AC0EB  : public RuntimeObjec
 struct RcHeightfieldLayerSet_t5304F24FF1E6773A03B96E4D1EF9AAC102E94850  : public RuntimeObject
 {
 	RcHeightfieldLayerU5BU5D_t04F190D1FCC30925A62664EEDE3319C4631C4B7E* ___layers;
-};
-struct RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C  : public RuntimeObject
-{
-	int32_t ___EnumType;
-	int32_t ___Value;
-	String_t* ___Name;
 };
 struct RcPolyMeshDetail_tBF2D7344870F34AB195CF5A8E40B19F2BF5C7E13  : public RuntimeObject
 {
@@ -1730,26 +1718,20 @@ struct DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49
 struct DtTileCacheLayerHeaderWriter_tCC78B1D4ED804F56A37DDABA22EEC154592ED57C  : public DtWriter_t6BA6D35BAAE231A1F029A6B2E3F3C3E09781828F
 {
 };
-struct DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC 
-{
-	int32_t ___Order;
-	bool ___Compatibility;
-};
-struct DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC_marshaled_pinvoke
-{
-	int32_t ___Order;
-	int32_t ___Compatibility;
-};
-struct DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC_marshaled_com
-{
-	int32_t ___Order;
-	int32_t ___Compatibility;
-};
 struct DtTileCacheWriter_tDDA4FAFA0DFE7539235A2C66419D9F6C2C1BC83A  : public DtWriter_t6BA6D35BAAE231A1F029A6B2E3F3C3E09781828F
 {
 	DtNavMeshParamWriter_tA8456F871252F14FDCDABB3DB47FE597529514DC* ___paramWriter;
 	DtTileCacheBuilder_t03686843EDC68EF6910F63CB3B2885EF6A8B6007* ___builder;
 	RuntimeObject* ____compFactory;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
 {
@@ -1773,11 +1755,6 @@ struct JumpTrajectory_tE7F61C53B82978AC8159F93AFC2811055C46F681  : public Trajec
 };
 struct NavMeshGroundSampler_t954412F32D97A300FADDAFDF74F8AF0C35B2AB84  : public AbstractGroundSampler_t011A0178EC7372E51A0342C5B664D31DDDC91C9B
 {
-};
-struct ObstacleRequest_t7D6E2BFA2337A577A0A78F3E56E0B02988FC3B45 
-{
-	int32_t ___action;
-	int64_t ___refs;
 };
 struct RcVec2f_t397602E81F487237CAEBD26AB03C4F0A1E3BDA46 
 {
@@ -1917,32 +1894,6 @@ struct DtCrowd_t3D6A63EAA4C8468903BDE5FC5D0344D77DE3DB4A  : public RuntimeObject
 	DtCrowdTelemetry_t239E473EE4071FF7C9DFBA469112D9896DC4D254* ____telemetry;
 	int32_t ____velocitySampleCount;
 };
-struct DtCrowdAgent_t52D46F5914B3CDF406ED1B1931797BAA1AEECF53  : public RuntimeObject
-{
-	int64_t ___idx;
-	int32_t ___state;
-	bool ___partial;
-	DtPathCorridor_tD2B6503B5C4E7A1F2ECC789D545390609F76C471* ___corridor;
-	DtLocalBoundary_t01F0D1965D27E61A6F2688B3F0C05BBB89E372D6* ___boundary;
-	float ___topologyOptTime;
-	List_1_tEEEA7E633516C0CCE39125B680E2CD030D13D4C4* ___neis;
-	float ___desiredSpeed;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___npos;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___disp;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___dvel;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___nvel;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___vel;
-	DtCrowdAgentParams_tD8696CFD01D7507AE364E8ABC0F8CA3D65C535C2* ___option;
-	List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* ___corners;
-	int32_t ___targetState;
-	int64_t ___targetRef;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___targetPos;
-	DtPathQueryResult_t4D57CC8DB66F0BFBFA89CAC1F94FF90D8020661C* ___targetPathQueryResult;
-	bool ___targetReplan;
-	float ___targetReplanTime;
-	float ___targetReplanWaitTime;
-	DtCrowdAgentAnimation_t3C1DD90751E558C3BC4377B938750958FF5290B4* ___animation;
-};
 struct DtCrowdAgentAnimation_t3C1DD90751E558C3BC4377B938750958FF5290B4  : public RuntimeObject
 {
 	bool ___active;
@@ -1959,6 +1910,10 @@ struct DtCrowdAgentDebugInfo_t14067288843655F9591103898A37C32D8ABA60A6  : public
 	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___optStart;
 	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___optEnd;
 	DtObstacleAvoidanceDebugData_t65B4B2746892FECB2835E6BAAF0C0EE07A9CE30C* ___vod;
+};
+struct DtCrowdAgentState_tCBD3E845AEDE16ADBBE0D5841A52B35266054348 
+{
+	int32_t ___value__;
 };
 struct DtLocalBoundary_t01F0D1965D27E61A6F2688B3F0C05BBB89E372D6  : public RuntimeObject
 {
@@ -1990,6 +1945,10 @@ struct DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1  : public RuntimeO
 	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmin;
 	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmax;
 	float ___bvQuantFactor;
+};
+struct DtMoveRequestState_t025B59A21440190C2A04B1366DC15A4D87DD008D 
+{
+	int32_t ___value__;
 };
 struct DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11  : public RuntimeObject
 {
@@ -2032,6 +1991,10 @@ struct DtNavMeshParams_t481FE8D854BF70067F56C4D561B60905C262BB61
 	float ___tileHeight;
 	int32_t ___maxTiles;
 	int32_t ___maxPolys;
+};
+struct DtObstacleState_t46C6CD0F518DC3CFE29CC9847131F2F7CD626765 
+{
+	int32_t ___value__;
 };
 struct DtPathCorridor_tD2B6503B5C4E7A1F2ECC789D545390609F76C471  : public RuntimeObject
 {
@@ -2103,24 +2066,6 @@ struct DtTileCacheLayerHeader_t90130AF43DB523036F39A509A9BF9D195DF785E0  : publi
 	int32_t ___maxx;
 	int32_t ___miny;
 	int32_t ___maxy;
-};
-struct DtTileCacheObstacle_t1551EEF4483BD324DBDE4ABD2FB258B0B4CAC002  : public RuntimeObject
-{
-	int32_t ___index;
-	int32_t ___type;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___pos;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmin;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmax;
-	float ___radius;
-	float ___height;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___center;
-	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___extents;
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___rotAux;
-	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___touched;
-	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___pending;
-	int32_t ___salt;
-	int32_t ___state;
-	DtTileCacheObstacle_t1551EEF4483BD324DBDE4ABD2FB258B0B4CAC002* ___next;
 };
 struct DtTileCacheParams_t1BB02F6895CFFA9C58EB52789387079BCDC7772B 
 {
@@ -2202,23 +2147,13 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
-struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+struct FileAccess_t3992FF4CCC61971B804DD291F06F696C3CF33C30 
 {
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
-	String_t* ___name;
-	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
-	bool ___isExposed;
-	int64_t ___append_startpos;
-	int32_t ___access;
-	bool ___owner;
-	bool ___async;
-	bool ___canseek;
-	bool ___anonymous;
-	bool ___buf_dirty;
-	int32_t ___buf_size;
-	int32_t ___buf_length;
-	int32_t ___buf_offset;
-	int64_t ___buf_start;
+	int32_t ___value__;
+};
+struct FileMode_t111B48D5347628AEFCBF9A0EC2833827A302ECBA 
+{
+	int32_t ___value__;
 };
 struct GroundSample_tD0666D19DBEE734984F72E246A1893968C869D57  : public RuntimeObject
 {
@@ -2237,6 +2172,14 @@ struct JumpEdge_tAC8B64E98859AAD437E519A7130487A92D1315F1  : public RuntimeObjec
 {
 	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___sp;
 	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___sq;
+};
+struct ObstacleRequestAction_t0C49A297BE5E756E877A753E92874609A2504AB4 
+{
+	int32_t ___value__;
+};
+struct RcByteOrder_tF0F5C9D6D40EC1E87EEE2B19493168946E4F1327 
+{
+	int32_t ___value__;
 };
 struct RcHeightfield_t2A0C625C5EC86100D28B88EAFF19C1A012461325  : public RuntimeObject
 {
@@ -2266,6 +2209,10 @@ struct RcHeightfieldLayer_tEA4CACD06EA237F4A0E3CC011EC8557D2BDBA75F  : public Ru
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___heights;
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___areas;
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___cons;
+};
+struct RcPartition_t42E75931322144E167F9CEB64B3C857029AED950 
+{
+	int32_t ___value__;
 };
 struct RcPolyMesh_tEA97770D7445B50A1065D1E8D40B82704FF87CF5  : public RuntimeObject
 {
@@ -2324,12 +2271,17 @@ struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4  : public TextWrit
 	bool ____closable;
 	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ____asyncWriteTask;
 };
-struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0  : public RuntimeObject
+struct TaskContinuationOptions_tF334758E3027B6DCFA9A814B17CE878029537814 
 {
-	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___m_defaultCancellationToken;
-	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_defaultScheduler;
-	int32_t ___m_defaultCreationOptions;
-	int32_t ___m_defaultContinuationOptions;
+	int32_t ___value__;
+};
+struct TaskCreationOptions_tB15CB42D61B8958640A7C702A79097B56D5C7ABA 
+{
+	int32_t ___value__;
+};
+struct TileCacheObstacleType_t84BE06876A7A2A4B2F644AE3D67F34B26FF2258E 
+{
+	int32_t ___value__;
 };
 struct VoxelFile_tEB78755F96BDDBB58BF7B3958AF21C9A7DB23FF9  : public RuntimeObject
 {
@@ -2396,13 +2348,6 @@ struct RawData_t37CAF2D3F74B7723974ED7CEEE9B297D8FA64ED0_marshaled_com
 	intptr_t ___Count;
 	uint8_t ___Data;
 };
-struct U3CU3Ec__DisplayClass4_0_t7E77951E294B5B3E388C5DF8D682B95DE16A2758  : public RuntimeObject
-{
-	DtTileCacheLayerBuilder_t8CB77E5EEF4AD2D84B1D9D63EE31628AE5BA0A0E* ___U3CU3E4__this;
-	RuntimeObject* ___geom;
-	RcConfig_tDC31170F32F9155C1A21061B0DF5C6D4512AC0EB* ___cfg;
-	DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC ___storageParams;
-};
 struct U3CU3Ec__DisplayClass2_0_tE1867DE25B81026D084D22A5E16C27FFE5391ACC  : public RuntimeObject
 {
 	DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* ___navMeshQuery;
@@ -2415,6 +2360,32 @@ struct Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305
 {
 	ByReference_1_t9C85BCCAAF8C525B6C06B07E922D8D217BE8D6FC ____pointer;
 	int32_t ____length;
+};
+struct DtCrowdAgent_t52D46F5914B3CDF406ED1B1931797BAA1AEECF53  : public RuntimeObject
+{
+	int64_t ___idx;
+	int32_t ___state;
+	bool ___partial;
+	DtPathCorridor_tD2B6503B5C4E7A1F2ECC789D545390609F76C471* ___corridor;
+	DtLocalBoundary_t01F0D1965D27E61A6F2688B3F0C05BBB89E372D6* ___boundary;
+	float ___topologyOptTime;
+	List_1_tEEEA7E633516C0CCE39125B680E2CD030D13D4C4* ___neis;
+	float ___desiredSpeed;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___npos;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___disp;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___dvel;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___nvel;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___vel;
+	DtCrowdAgentParams_tD8696CFD01D7507AE364E8ABC0F8CA3D65C535C2* ___option;
+	List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* ___corners;
+	int32_t ___targetState;
+	int64_t ___targetRef;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___targetPos;
+	DtPathQueryResult_t4D57CC8DB66F0BFBFA89CAC1F94FF90D8020661C* ___targetPathQueryResult;
+	bool ___targetReplan;
+	float ___targetReplanTime;
+	float ___targetReplanWaitTime;
+	DtCrowdAgentAnimation_t3C1DD90751E558C3BC4377B938750958FF5290B4* ___animation;
 };
 struct DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED  : public RuntimeObject
 {
@@ -2437,26 +2408,23 @@ struct DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201  : public Runtim
 	DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* ___m_openList;
 	DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D ___m_query;
 };
-struct DtTileCache_tEF4946F4232AA6F07883685FA5E2E17C55538286  : public RuntimeObject
+struct DtTileCacheObstacle_t1551EEF4483BD324DBDE4ABD2FB258B0B4CAC002  : public RuntimeObject
 {
-	int32_t ___m_tileLutSize;
-	int32_t ___m_tileLutMask;
-	DtCompressedTileU5BU5D_t01A18AD4B12F44717F06AFF2252A8D3CE3317456* ___m_posLookup;
-	DtCompressedTile_tCEA19110BB239B22CAA61E1E58A7DE00A54E03D7* ___m_nextFreeTile;
-	DtCompressedTileU5BU5D_t01A18AD4B12F44717F06AFF2252A8D3CE3317456* ___m_tiles;
-	int32_t ___m_saltBits;
-	int32_t ___m_tileBits;
-	DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* ___m_navmesh;
-	DtTileCacheParams_t1BB02F6895CFFA9C58EB52789387079BCDC7772B ___m_params;
-	DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC ___m_storageParams;
-	RuntimeObject* ___m_tcomp;
-	RuntimeObject* ___m_tmproc;
-	List_1_t964350CD6AA2D3D4E9BA5BE872212EEAAB622E58* ___m_obstacles;
-	DtTileCacheObstacle_t1551EEF4483BD324DBDE4ABD2FB258B0B4CAC002* ___m_nextFreeObstacle;
-	List_1_t02A28F67A9CBE979535EE38F0068731AFD9CA115* ___m_reqs;
-	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___m_update;
-	DtTileCacheBuilder_t03686843EDC68EF6910F63CB3B2885EF6A8B6007* ___builder;
-	DtTileCacheLayerHeaderReader_tA98A620CC4B825AE8E7A9965060F4DCFC78DB452* ___tileReader;
+	int32_t ___index;
+	int32_t ___type;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___pos;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmin;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmax;
+	float ___radius;
+	float ___height;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___center;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___extents;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___rotAux;
+	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___touched;
+	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___pending;
+	int32_t ___salt;
+	int32_t ___state;
+	DtTileCacheObstacle_t1551EEF4483BD324DBDE4ABD2FB258B0B4CAC002* ___next;
 };
 struct DtTileCacheSetHeader_tAD14C22E30295C4C08179E21B849B25B3624CAC1 
 {
@@ -2465,6 +2433,21 @@ struct DtTileCacheSetHeader_tAD14C22E30295C4C08179E21B849B25B3624CAC1
 	int32_t ___numTiles;
 	DtNavMeshParams_t481FE8D854BF70067F56C4D561B60905C262BB61 ___meshParams;
 	DtTileCacheParams_t1BB02F6895CFFA9C58EB52789387079BCDC7772B ___cacheParams;
+};
+struct DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC 
+{
+	int32_t ___Order;
+	bool ___Compatibility;
+};
+struct DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC_marshaled_pinvoke
+{
+	int32_t ___Order;
+	int32_t ___Compatibility;
+};
+struct DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC_marshaled_com
+{
+	int32_t ___Order;
+	int32_t ___Compatibility;
 };
 struct DynamicNavMesh_t28923AC2C70556220A7F98B2FEB21DA68407C3C4  : public RuntimeObject
 {
@@ -2478,6 +2461,24 @@ struct DynamicNavMesh_t28923AC2C70556220A7F98B2FEB21DA68407C3C4  : public Runtim
 	DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* ____navMesh;
 	bool ___dirty;
 };
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
+	String_t* ___name;
+	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
+	bool ___isExposed;
+	int64_t ___append_startpos;
+	int32_t ___access;
+	bool ___owner;
+	bool ___async;
+	bool ___canseek;
+	bool ___anonymous;
+	bool ___buf_dirty;
+	int32_t ___buf_size;
+	int32_t ___buf_length;
+	int32_t ___buf_offset;
+	int64_t ___buf_start;
+};
 struct MulticastDelegate_t  : public Delegate_t
 {
 	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
@@ -2490,8 +2491,32 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
 };
+struct ObstacleRequest_t7D6E2BFA2337A577A0A78F3E56E0B02988FC3B45 
+{
+	int32_t ___action;
+	int64_t ___refs;
+};
+struct RcByteBuffer_t627B6DEE7DBE628B1F16292E927AE3A8073792A1  : public RuntimeObject
+{
+	int32_t ____order;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____bytes;
+	int32_t ____position;
+};
+struct RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C  : public RuntimeObject
+{
+	int32_t ___EnumType;
+	int32_t ___Value;
+	String_t* ___Name;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
+};
+struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0  : public RuntimeObject
+{
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___m_defaultCancellationToken;
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_defaultScheduler;
+	int32_t ___m_defaultCreationOptions;
+	int32_t ___m_defaultContinuationOptions;
 };
 struct Action_3_t66A655B3248B2343A8099483D5D19AD809C2F3A0  : public MulticastDelegate_t
 {
@@ -2554,6 +2579,27 @@ struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public Sys
 struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
 {
 };
+struct DtTileCache_tEF4946F4232AA6F07883685FA5E2E17C55538286  : public RuntimeObject
+{
+	int32_t ___m_tileLutSize;
+	int32_t ___m_tileLutMask;
+	DtCompressedTileU5BU5D_t01A18AD4B12F44717F06AFF2252A8D3CE3317456* ___m_posLookup;
+	DtCompressedTile_tCEA19110BB239B22CAA61E1E58A7DE00A54E03D7* ___m_nextFreeTile;
+	DtCompressedTileU5BU5D_t01A18AD4B12F44717F06AFF2252A8D3CE3317456* ___m_tiles;
+	int32_t ___m_saltBits;
+	int32_t ___m_tileBits;
+	DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* ___m_navmesh;
+	DtTileCacheParams_t1BB02F6895CFFA9C58EB52789387079BCDC7772B ___m_params;
+	DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC ___m_storageParams;
+	RuntimeObject* ___m_tcomp;
+	RuntimeObject* ___m_tmproc;
+	List_1_t964350CD6AA2D3D4E9BA5BE872212EEAAB622E58* ___m_obstacles;
+	DtTileCacheObstacle_t1551EEF4483BD324DBDE4ABD2FB258B0B4CAC002* ___m_nextFreeObstacle;
+	List_1_t02A28F67A9CBE979535EE38F0068731AFD9CA115* ___m_reqs;
+	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___m_update;
+	DtTileCacheBuilder_t03686843EDC68EF6910F63CB3B2885EF6A8B6007* ___builder;
+	DtTileCacheLayerHeaderReader_tA98A620CC4B825AE8E7A9965060F4DCFC78DB452* ___tileReader;
+};
 struct IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
@@ -2562,6 +2608,13 @@ struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8  : publ
 };
 struct ComputeNavMeshHeight_t23CAA5A270F5634D2E2F147E32C70FC83CF379AF  : public MulticastDelegate_t
 {
+};
+struct U3CU3Ec__DisplayClass4_0_t7E77951E294B5B3E388C5DF8D682B95DE16A2758  : public RuntimeObject
+{
+	DtTileCacheLayerBuilder_t8CB77E5EEF4AD2D84B1D9D63EE31628AE5BA0A0E* ___U3CU3E4__this;
+	RuntimeObject* ___geom;
+	RcConfig_tDC31170F32F9155C1A21061B0DF5C6D4512AC0EB* ___cfg;
+	DtTileCacheStorageParams_tEE61475A417DA3938B0CFEEFF258C8968F4828EC ___storageParams;
 };
 struct ConcurrentDictionary_2_t0B779EE006D79C099B84F47FA0C36A8114FC2E54_StaticFields
 {
@@ -2687,13 +2740,6 @@ struct JumpLinkType_tB0B11D67113EE9318DC0D44685A6E05E4CBC40D3_StaticFields
 	JumpLinkType_tB0B11D67113EE9318DC0D44685A6E05E4CBC40D3* ___EDGE_CLIMB_DOWN;
 	JumpLinkType_tB0B11D67113EE9318DC0D44685A6E05E4CBC40D3* ___EDGE_JUMP_OVER;
 };
-struct RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C_StaticFields
-{
-	RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C* ___WATERSHED;
-	RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C* ___MONOTONE;
-	RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C* ___LAYERS;
-	RcPartitionTypeU5BU5D_tAFCBAE6B37B7F7061149F742133A8C31CCB600CD* ___Values;
-};
 struct String_t_StaticFields
 {
 	String_t* ___Empty;
@@ -2800,11 +2846,6 @@ struct DtPathCorridor_tD2B6503B5C4E7A1F2ECC789D545390609F76C471_StaticFields
 {
 	float ___MIN_TARGET_DIST;
 };
-struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
-{
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle;
-	RuntimeObject* ___buf_recycle_lock;
-};
 struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4_StaticFields
 {
 	StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* ___Null;
@@ -2812,6 +2853,18 @@ struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4_StaticFields
 struct VoxelFile_tEB78755F96BDDBB58BF7B3958AF21C9A7DB23FF9_StaticFields
 {
 	int32_t ___PREFERRED_BYTE_ORDER;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle;
+	RuntimeObject* ___buf_recycle_lock;
+};
+struct RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C_StaticFields
+{
+	RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C* ___WATERSHED;
+	RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C* ___MONOTONE;
+	RcPartitionType_t9736B8123C891E66CA51D5E4AE1BF11B93523F9C* ___LAYERS;
+	RcPartitionTypeU5BU5D_tAFCBAE6B37B7F7061149F742133A8C31CCB600CD* ___Values;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -5387,6 +5440,22 @@ IL2CPP_EXTERN_C  void ObstacleRequest__ctor_mBDE97541288A6C97EF3D029FDF5C0D53C59
 	_thisAdjusted = reinterpret_cast<ObstacleRequest_t7D6E2BFA2337A577A0A78F3E56E0B02988FC3B45*>(__this + _offset);
 	ObstacleRequest__ctor_mBDE97541288A6C97EF3D029FDF5C0D53C5945976(_thisAdjusted, ___0_action, ___1_refs, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

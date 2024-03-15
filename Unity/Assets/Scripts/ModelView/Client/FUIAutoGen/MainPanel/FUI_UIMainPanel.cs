@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.MainPanel
 {
+	[EnableClass]
 	public partial class FUI_UIMainPanel: GComponent
 	{
 		public ET.Client.MainPanel.FUI_Button_Back Button_Back;

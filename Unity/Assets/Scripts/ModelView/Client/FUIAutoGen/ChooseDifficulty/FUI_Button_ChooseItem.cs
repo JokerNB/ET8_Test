@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.ChooseDifficulty
 {
+	[EnableClass]
 	public partial class FUI_Button_ChooseItem: GButton
 	{
 		public const string URL = "ui://59f6nlxfkoj02";

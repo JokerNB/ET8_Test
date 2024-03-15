@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.LoadingPanel
 {
+	[EnableClass]
 	public partial class FUI_UILoadingPanel_Progress: GComponent
 	{
 		public ET.Client.LoadingPanel.FUI_UILoadingPanel_ProgressItem Progress1;

@@ -11,6 +11,7 @@
 
 
 
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
 struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
@@ -138,6 +139,15 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
 	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct Il2CppEagerStaticClassConstructionAttribute_t01F60DE85CC3427802A892466A27D5245AEA1BAF  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -616,6 +626,14 @@ struct uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A
 	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___c1;
 	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___c2;
 	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___c3;
+};
+struct RotationOrder_t59C18AB67483D3D89CDFE295521729C7617295AC 
+{
+	uint8_t ___value__;
+};
+struct ShuffleComponent_tDFCD9336E34F0462FDD14083ECEB678321553D67 
+{
+	uint8_t ___value__;
 };
 struct String_t_StaticFields
 {
@@ -1632,6 +1650,22 @@ IL2CPP_EXTERN_C  String_t* bool2_ToString_mBB7BC458D3C5F3427EBE7EFD5323DCDCECBB1
 	_returnValue = bool2_ToString_mBB7BC458D3C5F3427EBE7EFD5323DCDCECBB14FD_inline(_thisAdjusted, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

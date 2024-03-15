@@ -1,14 +1,16 @@
-namespace ET.Client;
-
-[Event(SceneType.Demo)]
-public class AfterChooseModelDifficulty_Transfer : AEvent<Scene,AfterChooseModelDifficulty>
+namespace ET.Client
 {
-    protected override async ETTask Run(Scene scene, AfterChooseModelDifficulty a)
+    [Event(SceneType.Demo)]
+    public class AfterChooseModelDifficulty_Transfer : AEvent<Scene,AfterChooseModelDifficulty>
     {
-        LoadingPanelHelper.OpenSetLoading(scene, 20).Coroutine();
-        await scene.GetComponent<ClientSenderCompnent>().Call(new C2M_TransferMap());
-        scene.GetComponent<FUIComponent>().ClosePanel(PanelId.UIChooseDifficulty);
-        //添加资源怪组件
+        protected override async ETTask Run(Scene scene, AfterChooseModelDifficulty a)
+        {
+            LoadingPanelHelper.OpenSetLoading(scene, 20).Coroutine();
+            C2M_TransferMap c2MTransferMap = C2M_TransferMap.Create();
+            await scene.GetComponent<ClientSenderComponent>().Call(c2MTransferMap);
+            scene.GetComponent<FUIComponent>().ClosePanel(PanelId.UIChooseDifficulty);
+            //添加资源怪组件
         
+        }
     }
 }

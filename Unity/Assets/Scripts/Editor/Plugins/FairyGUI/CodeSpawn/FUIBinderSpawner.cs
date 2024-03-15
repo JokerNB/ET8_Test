@@ -17,6 +17,7 @@ namespace FUIEditor
             sb.AppendLine("");
             sb.AppendLine($"namespace {FUICodeSpawner.NameSpace}");
             sb.AppendLine("{");
+            sb.AppendLine(FUICodeSpawner.AttributeName);
             sb.AppendLine("\tpublic static class FUIBinder");
             sb.AppendLine("\t{");
             sb.AppendLine("\t\tpublic static void BindAll()");
@@ -50,6 +51,7 @@ namespace FUIEditor
             sb.AppendFormat("namespace {0}", FUICodeSpawner.NameSpace);
             sb.AppendLine();
             sb.AppendLine("{");
+            sb.AppendLine(FUICodeSpawner.AttributeName);
             sb.AppendFormat("\tpublic class {0}Binder", packageInfo.Name);
             sb.AppendLine();
             sb.AppendLine("\t{");

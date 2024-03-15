@@ -777,15 +777,6 @@ struct DeflateInput_t2B14336DA722AB763438D93B71E5806ADB677DEE  : public RuntimeO
 	int32_t ___U3CCountU3Ek__BackingField;
 	int32_t ___U3CStartIndexU3Ek__BackingField;
 };
-struct DeflaterManaged_t2B547DBF81F9FE344C6F416FFE72EC528CDFC969  : public RuntimeObject
-{
-	FastEncoder_tDD471D1400491206E196B47CC04FB4732A2A270D* ____deflateEncoder;
-	CopyEncoder_t9CA4D8D6713D67D03A0F4C86D8DA465E94584F8B* ____copyEncoder;
-	DeflateInput_t2B14336DA722AB763438D93B71E5806ADB677DEE* ____input;
-	OutputBuffer_t5D36DAB9B0299B0AB2E5AF49E0E6D5DDF609178E* ____output;
-	int32_t ____processingState;
-	DeflateInput_t2B14336DA722AB763438D93B71E5806ADB677DEE* ____inputFromHistory;
-};
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
 {
 	int32_t ___m_codePage;
@@ -824,33 +815,6 @@ struct HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8  : public RuntimeOb
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____codeLengthArray;
 	int32_t ____tableMask;
 };
-struct InflaterManaged_t18F62ED334A0883579D4A944B8981903BCFA3F5D  : public RuntimeObject
-{
-	OutputWindow_t182AC9608F740FAA06B6D86D85C2070027F43A0E* ____output;
-	InputBuffer_tCF0AC072F38F520217425081F13BBA350159FECF* ____input;
-	HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8* ____literalLengthTree;
-	HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8* ____distanceTree;
-	int32_t ____state;
-	bool ____hasFormatReader;
-	int32_t ____bfinal;
-	int32_t ____blockType;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____blockLengthBuffer;
-	int32_t ____blockLength;
-	int32_t ____length;
-	int32_t ____distanceCode;
-	int32_t ____extraBits;
-	int32_t ____loopCounter;
-	int32_t ____literalLengthCodeCount;
-	int32_t ____distanceCodeCount;
-	int32_t ____codeLengthCodeCount;
-	int32_t ____codeArraySize;
-	int32_t ____lengthCode;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____codeList;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____codeLengthTreeCodeLength;
-	bool ____deflate64;
-	HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8* ____codeLengthTree;
-	RuntimeObject* ____formatReader;
-};
 struct InputBuffer_tCF0AC072F38F520217425081F13BBA350159FECF  : public RuntimeObject
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer;
@@ -873,13 +837,6 @@ struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_marshaled_pi
 struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_marshaled_com
 {
 	Il2CppIUnknown* ____identity;
-};
-struct Match_t7F905ADA9C3311890E31DDDDD14ADAC4D0BCC750  : public RuntimeObject
-{
-	int32_t ___U3CStateU3Ek__BackingField;
-	int32_t ___U3CPositionU3Ek__BackingField;
-	int32_t ___U3CLengthU3Ek__BackingField;
-	uint8_t ___U3CSymbolU3Ek__BackingField;
 };
 struct MemberInfo_t  : public RuntimeObject
 {
@@ -931,25 +888,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
-struct ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41  : public RuntimeObject
-{
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____archiveStream;
-	ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* ____archiveStreamOwner;
-	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ____archiveReader;
-	int32_t ____mode;
-	List_1_tA389B1109F43128C89C6358C6B56C819460CF5B3* ____entries;
-	ReadOnlyCollection_1_t15A54E961DBC027444DA89894B8AD689A38CE9AC* ____entriesCollection;
-	Dictionary_2_tA1C10CF9D35962FF0289095A43DEE774B7F13C47* ____entriesDictionary;
-	bool ____readEntries;
-	bool ____leaveOpen;
-	int64_t ____centralDirectoryStart;
-	bool ____isDisposed;
-	uint32_t ____numberOfThisDisk;
-	int64_t ____expectedNumberOfEntries;
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____backingStream;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____archiveComment;
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ____entryNameEncoding;
-};
 struct ZipHelper_tAAE365DFBB233C2CB0CC2B5E6186EE53B6E835C4  : public RuntimeObject
 {
 };
@@ -989,17 +927,7 @@ struct Enumerator_t98F67C047B8F8A31C81A1F6215953502F7EB019A
 	int32_t ____version;
 	ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* ____current;
 };
-struct Nullable_1_tAC8899D7718BEF36A8590184EFBCA842A1BC9AB1 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
 struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
 {
 	bool ___hasValue;
 	int32_t ___value;
@@ -1485,6 +1413,18 @@ struct Enumerator_t2D92D75412F1242E2A170461294E056FB3B324F2
 	int32_t ____version;
 	ZipGenericExtraField_t74ADD41AFA880CD4603E172E221B54B9CB9CF530 ____current;
 };
+struct BlockType_t37B3D27757F963ADAB279EB7D4BAEE3946532188 
+{
+	int32_t ___value__;
+};
+struct BrotliEncoderOperation_tDF2E95D5C1CD01C8A312BFE367D278CA9C619DC3 
+{
+	int32_t ___value__;
+};
+struct BrotliEncoderParameter_tF1DEDB9F87280CCF021AB0C19702A49D6DDF71B9 
+{
+	int32_t ___value__;
+};
 struct CheckSumAndSizeWriteStream_t69A40E103D248BD4612BF55A644FDAF64920BFC9  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____baseStream;
@@ -1499,6 +1439,14 @@ struct CheckSumAndSizeWriteStream_t69A40E103D248BD4612BF55A644FDAF64920BFC9  : p
 	ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* ____zipArchiveEntry;
 	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ____onClose;
 	Action_6_tAE6FFB353241CCD71E335810197E2A4784E4F9C3* ____saveCrcAndSizes;
+};
+struct CompressionLevel_t6077A887918BD6DACDD8D3F0D660D157A604B1E1 
+{
+	int32_t ___value__;
+};
+struct CompressionMode_t840C8957CF84ACFBF5C43E48AEAEB9DB5E64F3C5 
+{
+	int32_t ___value__;
 };
 struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C 
 {
@@ -1516,27 +1464,6 @@ struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4
 {
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____dateTime;
 	int16_t ____offsetMinutes;
-};
-struct DeflateManagedStream_tA9867C0BC7174D4838989D44CAE4F5BA0BDF8A97  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
-{
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
-	int32_t ____mode;
-	bool ____leaveOpen;
-	InflaterManaged_t18F62ED334A0883579D4A944B8981903BCFA3F5D* ____inflater;
-	DeflaterManaged_t2B547DBF81F9FE344C6F416FFE72EC528CDFC969* ____deflater;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer;
-	int32_t ____asyncOperations;
-	RuntimeObject* ____formatWriter;
-	bool ____wroteHeader;
-	bool ____wroteBytes;
-};
-struct DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
-{
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___base_stream;
-	int32_t ___mode;
-	bool ___leaveOpen;
-	bool ___disposed;
-	DeflateStreamNative_t06B674E1D2EFD46989197EFB1E33E0B6564793CD* ___native;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -1643,6 +1570,18 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct InflaterState_tB8DCFEF9AF0B12C2567C83BC6F5BC259F5770EEF 
+{
+	int32_t ___value__;
+};
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	int32_t ___value__;
+};
+struct MatchState_t06C839A904A48B646FCB2BE78E545A46E2B168BD 
+{
+	int32_t ___value__;
+};
 struct MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer;
@@ -1655,6 +1594,10 @@ struct MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2  : public Stream_t
 	bool ____exposable;
 	bool ____isOpen;
 	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask;
+};
+struct OperationStatus_t7FC6D4B4F4C4F20BE2F52301CAD11FFF310F56DF 
+{
+	int32_t ___value__;
 };
 struct PositionPreservingWriteOnlyStreamWrapper_t9A4E5F189D0031D563063A3D542C96E4880CFC8B  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
@@ -1675,6 +1618,10 @@ struct SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7  : public CriticalFi
 	int32_t ____state;
 	bool ____ownsHandle;
 	bool ____fullyInitialized;
+};
+struct SeekOrigin_t7EB9AD0EDF26368A40F48FA2098F02160B1E8000 
+{
+	int32_t ___value__;
 };
 struct SubReadStream_tEB96CAD88B64F09CBD888F18CF3A9460FCA8A132  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
@@ -1735,6 +1682,30 @@ struct Zip64ExtraField_t8AAAF24171D6643076361E4E1DBE73D22A600785_marshaled_com
 	Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 ____localHeaderOffset;
 	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ____startDiskNumber;
 };
+struct ZipArchiveMode_tD0AA40EAC5C26DBB24E9F4AA965A0C83AB003BCD 
+{
+	int32_t ___value__;
+};
+struct ZipVersionMadeByPlatform_t0188CEF15A70E487DF8FEF967B9C70FE536330BE 
+{
+	uint8_t ___value__;
+};
+struct ZipVersionNeededValues_tA5A8C9E6B35A8273F2C0272F71053147EA4F0F5C 
+{
+	uint16_t ___value__;
+};
+struct DeflaterState_tE8D39DAD134FCC603E7E6EF32F773247FB580787 
+{
+	int32_t ___value__;
+};
+struct BitFlagValues_tF0EF994D25EEFFA919B1774684312A68792BE372 
+{
+	uint16_t ___value__;
+};
+struct CompressionMethodValues_tC8C0E4F84E6CBF8501427A5A0CE2261859636BDC 
+{
+	uint16_t ___value__;
+};
 struct DirectToArchiveWriterStream_t65E1BFC3F220BCF012CB083F10BA14A90F5FF317  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	int64_t ____position;
@@ -1744,6 +1715,16 @@ struct DirectToArchiveWriterStream_t65E1BFC3F220BCF012CB083F10BA14A90F5FF317  : 
 	ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* ____entry;
 	bool ____usedZip64inLH;
 	bool ____canWrite;
+};
+struct Nullable_1_tAC8899D7718BEF36A8590184EFBCA842A1BC9AB1 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
+{
+	bool ___hasValue;
+	int32_t ___value;
 };
 struct ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D 
 {
@@ -1766,6 +1747,70 @@ struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshale
 struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_com
 {
 	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder;
+};
+struct DeflateManagedStream_tA9867C0BC7174D4838989D44CAE4F5BA0BDF8A97  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____stream;
+	int32_t ____mode;
+	bool ____leaveOpen;
+	InflaterManaged_t18F62ED334A0883579D4A944B8981903BCFA3F5D* ____inflater;
+	DeflaterManaged_t2B547DBF81F9FE344C6F416FFE72EC528CDFC969* ____deflater;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer;
+	int32_t ____asyncOperations;
+	RuntimeObject* ____formatWriter;
+	bool ____wroteHeader;
+	bool ____wroteBytes;
+};
+struct DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___base_stream;
+	int32_t ___mode;
+	bool ___leaveOpen;
+	bool ___disposed;
+	DeflateStreamNative_t06B674E1D2EFD46989197EFB1E33E0B6564793CD* ___native;
+};
+struct DeflaterManaged_t2B547DBF81F9FE344C6F416FFE72EC528CDFC969  : public RuntimeObject
+{
+	FastEncoder_tDD471D1400491206E196B47CC04FB4732A2A270D* ____deflateEncoder;
+	CopyEncoder_t9CA4D8D6713D67D03A0F4C86D8DA465E94584F8B* ____copyEncoder;
+	DeflateInput_t2B14336DA722AB763438D93B71E5806ADB677DEE* ____input;
+	OutputBuffer_t5D36DAB9B0299B0AB2E5AF49E0E6D5DDF609178E* ____output;
+	int32_t ____processingState;
+	DeflateInput_t2B14336DA722AB763438D93B71E5806ADB677DEE* ____inputFromHistory;
+};
+struct InflaterManaged_t18F62ED334A0883579D4A944B8981903BCFA3F5D  : public RuntimeObject
+{
+	OutputWindow_t182AC9608F740FAA06B6D86D85C2070027F43A0E* ____output;
+	InputBuffer_tCF0AC072F38F520217425081F13BBA350159FECF* ____input;
+	HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8* ____literalLengthTree;
+	HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8* ____distanceTree;
+	int32_t ____state;
+	bool ____hasFormatReader;
+	int32_t ____bfinal;
+	int32_t ____blockType;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____blockLengthBuffer;
+	int32_t ____blockLength;
+	int32_t ____length;
+	int32_t ____distanceCode;
+	int32_t ____extraBits;
+	int32_t ____loopCounter;
+	int32_t ____literalLengthCodeCount;
+	int32_t ____distanceCodeCount;
+	int32_t ____codeLengthCodeCount;
+	int32_t ____codeArraySize;
+	int32_t ____lengthCode;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____codeList;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____codeLengthTreeCodeLength;
+	bool ____deflate64;
+	HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8* ____codeLengthTree;
+	RuntimeObject* ____formatReader;
+};
+struct Match_t7F905ADA9C3311890E31DDDDD14ADAC4D0BCC750  : public RuntimeObject
+{
+	int32_t ___U3CStateU3Ek__BackingField;
+	int32_t ___U3CPositionU3Ek__BackingField;
+	int32_t ___U3CLengthU3Ek__BackingField;
+	uint8_t ___U3CSymbolU3Ek__BackingField;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -1792,34 +1837,24 @@ struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
 };
-struct ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4  : public RuntimeObject
+struct ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41  : public RuntimeObject
 {
-	ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* ____archive;
-	bool ____originallyInArchive;
-	int32_t ____diskNumberStart;
-	uint8_t ____versionMadeByPlatform;
-	uint16_t ____versionMadeBySpecification;
-	uint16_t ____versionToExtract;
-	uint16_t ____generalPurposeBitFlag;
-	uint16_t ____storedCompressionMethod;
-	DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ____lastModified;
-	int64_t ____compressedSize;
-	int64_t ____uncompressedSize;
-	int64_t ____offsetOfLocalHeader;
-	Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 ____storedOffsetOfCompressedData;
-	uint32_t ____crc32;
-	ByteU5BU5DU5BU5D_t19A0C6D66F22DF673E9CDB37DEF566FE0EC947FA* ____compressedBytes;
-	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* ____storedUncompressedData;
-	bool ____currentlyOpenForWrite;
-	bool ____everOpenedForWrite;
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____outstandingWriteStream;
-	uint32_t ____externalFileAttr;
-	String_t* ____storedEntryName;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____storedEntryNameBytes;
-	List_1_t0845A5AAFB6B816C6E2719A0588604CE3A080FDC* ____cdUnknownExtraFields;
-	List_1_t0845A5AAFB6B816C6E2719A0588604CE3A080FDC* ____lhUnknownExtraFields;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____fileComment;
-	Nullable_1_tAC8899D7718BEF36A8590184EFBCA842A1BC9AB1 ____compressionLevel;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____archiveStream;
+	ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4* ____archiveStreamOwner;
+	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* ____archiveReader;
+	int32_t ____mode;
+	List_1_tA389B1109F43128C89C6358C6B56C819460CF5B3* ____entries;
+	ReadOnlyCollection_1_t15A54E961DBC027444DA89894B8AD689A38CE9AC* ____entriesCollection;
+	Dictionary_2_tA1C10CF9D35962FF0289095A43DEE774B7F13C47* ____entriesDictionary;
+	bool ____readEntries;
+	bool ____leaveOpen;
+	int64_t ____centralDirectoryStart;
+	bool ____isDisposed;
+	uint32_t ____numberOfThisDisk;
+	int64_t ____expectedNumberOfEntries;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____backingStream;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____archiveComment;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ____entryNameEncoding;
 };
 struct U3CReadAsyncCoreU3Ed__40_t87428E9A1C5C794A1684B61DAF896086F25F90B0 
 {
@@ -1869,6 +1904,35 @@ struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : pu
 };
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
+};
+struct ZipArchiveEntry_tEFD75A0570102F8A3DF70A038302146B46071DD4  : public RuntimeObject
+{
+	ZipArchive_t6469B8DB5F18FB4C7E24F625D0E53EA635D31C41* ____archive;
+	bool ____originallyInArchive;
+	int32_t ____diskNumberStart;
+	uint8_t ____versionMadeByPlatform;
+	uint16_t ____versionMadeBySpecification;
+	uint16_t ____versionToExtract;
+	uint16_t ____generalPurposeBitFlag;
+	uint16_t ____storedCompressionMethod;
+	DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ____lastModified;
+	int64_t ____compressedSize;
+	int64_t ____uncompressedSize;
+	int64_t ____offsetOfLocalHeader;
+	Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 ____storedOffsetOfCompressedData;
+	uint32_t ____crc32;
+	ByteU5BU5DU5BU5D_t19A0C6D66F22DF673E9CDB37DEF566FE0EC947FA* ____compressedBytes;
+	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* ____storedUncompressedData;
+	bool ____currentlyOpenForWrite;
+	bool ____everOpenedForWrite;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____outstandingWriteStream;
+	uint32_t ____externalFileAttr;
+	String_t* ____storedEntryName;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____storedEntryNameBytes;
+	List_1_t0845A5AAFB6B816C6E2719A0588604CE3A080FDC* ____cdUnknownExtraFields;
+	List_1_t0845A5AAFB6B816C6E2719A0588604CE3A080FDC* ____lhUnknownExtraFields;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____fileComment;
+	Nullable_1_tAC8899D7718BEF36A8590184EFBCA842A1BC9AB1 ____compressionLevel;
 };
 struct U3CWriteAsyncCoreU3Ed__47_t58798F14E022290F009303A1E669D9EA51964B1E 
 {
@@ -1990,14 +2054,6 @@ struct HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8_StaticFields
 	HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8* ___U3CStaticLiteralLengthTreeU3Ek__BackingField;
 	HuffmanTree_t6D31E4F18B128B736CB2572685731300883634C8* ___U3CStaticDistanceTreeU3Ek__BackingField;
 };
-struct InflaterManaged_t18F62ED334A0883579D4A944B8981903BCFA3F5D_StaticFields
-{
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_extraLengthBits;
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_lengthBase;
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_distanceBasePosition;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_codeOrder;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_staticDistanceTreeTable;
-};
 struct Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_StaticFields
 {
 	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___InvalidPathChars;
@@ -2104,6 +2160,14 @@ struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
 struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFields
 {
 	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_cachedCompleted;
+};
+struct InflaterManaged_t18F62ED334A0883579D4A944B8981903BCFA3F5D_StaticFields
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_extraLengthBits;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_lengthBase;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_distanceBasePosition;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_codeOrder;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_staticDistanceTreeTable;
 };
 struct Type_t_StaticFields
 {
@@ -4343,6 +4407,30 @@ IL2CPP_EXTERN_C  int32_t BrotliEncoder_Compress_m7961246DE0986EAD0B7DA3B00EC32C1
 	_returnValue = BrotliEncoder_Compress_m7961246DE0986EAD0B7DA3B00EC32C18A444DF21(_thisAdjusted, ___0_source, ___1_destination, ___2_bytesConsumed, ___3_bytesWritten, ___4_operation, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -6968,6 +7056,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeflaterManaged_Dispose_mA33D6301ED85EFB
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -11108,6 +11204,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InflaterManaged__cctor_mF4C537F8692D8045
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputBuffer_get_AvailableBits_m9FF76B78FFAF3D5D866738682833C6564C934059 (InputBuffer_tCF0AC072F38F520217425081F13BBA350159FECF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11554,6 +11658,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Match_set_Symbol_mA37611C31D036D740C2EB1
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -17561,6 +17673,22 @@ IL_0070:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mFB0EA39E385CFFACC7A1E47673D4E1F267C19A74 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17663,6 +17791,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3COpenInUpdateModeU3Eb__73_0_mF
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -22063,6 +22199,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ZipHelper__cctor_mD61640F38D2D755F1FFBDC
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -565,12 +565,8 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/System.Xml.XmlSerializer.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/System.Xml.XPath.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/System.Xml.XPath.XDocument.dll
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/Unity.Android.Gradle.dll
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/Unity.Android.GradleProject.dll
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/Unity.Android.Types.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/Unity.Mathematics.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/Unity.ThirdParty.dll
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.Android.Extensions.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.CoreModule.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.DeviceSimulatorModule.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.DiagnosticsModule.dll
@@ -663,7 +659,6 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/System.CodeDom.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/MacOSCodeSigning.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/MacStandalonePlayerBuildProgram.Data.dll
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/AndroidPlayerBuildProgram.Data.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/NiceIO.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/System.Configuration.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/System.EnterpriseServices.dll
@@ -846,10 +841,12 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEngine.XRModule.xml
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/MacOSCodeSigning.pdb
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/MacStandalonePlayerBuildProgram.Data.pdb
-/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.iOS.Extensions.Xcode.pdb
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/obj/Debug/Unity.Core.csproj.AssemblyReference.cache
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/obj/Debug/Unity.Core.csproj.CoreCompileInputs.cache
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/obj/Debug/Unity.Core.csproj.CopyComplete
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/obj/Debug/Unity.Core.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/obj/Debug/Unity.Core.pdb
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/CsvHelper.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.iOS.Extensions.Common.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.iOS.Extensions.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/IOSCommonPlayerBuildProgram.Data.dll

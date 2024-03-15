@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b02dfa7aa9d4545b3417a18477fbee, type: 3}
+  m_Name: BuildinFileManifest
+  m_EditorClassIdentifier: 
+  BuildinFiles:
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_aotdlls_1306e4e7f2acff52a06bdf2d89f74875.bundle
+    FileCRC32: 7138c6b9
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_code_0280c23059d3ff9107f180dfef6fa218.bundle
+    FileCRC32: bdcfecd4
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_config_ef1d444d97eb16667e13669aa518f6d3.bundle
+    FileCRC32: 127102cc
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_fui_choosedifficulty_choosedifficulty_fui_91dfa223c0bfc15ca3a2c879e3b33ca2.bundle
+    FileCRC32: 19c4591d
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_fui_lobby_lobby_fui_5797fcaa68f703f45f3ef6fe3a6cfaae.bundle
+    FileCRC32: 79f3fb12
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_fui_login_7c7dc92de7f586ada280c66e42408801.bundle
+    FileCRC32: 9570859a
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_fui_login_login_fui_1a0e48ed61dd42977c7b73503a8cd03b.bundle
+    FileCRC32: 7f1a1624
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_fui_mainpanel_mainpanel_fui_eb9eedd966eea475c4f9ade7257f7e0b.bundle
+    FileCRC32: 33d1ba77
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_fui_registerpanel_ea4aa6a1f8486504172e7aefc370e018.bundle
+    FileCRC32: 1df87a84
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_fui_registerpanel_registerpanel_fui_0f4b0bcb364939f1e1509498e3689b39.bundle
+    FileCRC32: fc74dafc
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_fui_uipackagemapping_23475d0d6669e46f7e1e729c74c12295.bundle
+    FileCRC32: 3145f7c7
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_scenes_map1_91f4c7c4a2a8ec052c60e012fcb5ce3c.bundle
+    FileCRC32: 7cca954d
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_scenes_map2_8b5b9e4cb6fcf1b416c3aaf75dcd284b.bundle
+    FileCRC32: 467c0c72
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_scenes_map3_d698c910a68f9c22c758d9f285864adc.bundle
+    FileCRC32: f8fb0348
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_51b73cef15af419eb5db34d8c28ba972.bundle
+    FileCRC32: 3d98a7b1
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_dragon_98f6c07921a21127b5e98b3bc110fd7d.bundle
+    FileCRC32: 7ad794e2
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_eyes_7af91cb1f8a29916394846e4bc8c2bf4.bundle
+    FileCRC32: f4567ef4
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_footsoldier_80afd0b37cfc3fd8464837cad9614a99.bundle
+    FileCRC32: 78159e0b
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_footsoldier_equipment_60f62090fe2a8bf52c8d3d24c72e7fed.bundle
+    FileCRC32: f89afdf6
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_gauge_44bf6b4d3c22944961882f17b8c7b045.bundle
+    FileCRC32: 2e94940b
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_gauge_referenceassets_21395f39df19a887defb96a6f25dbf1b.bundle
+    FileCRC32: 60cd896c
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_goblins_82422306d164a971139fc459af7e41ba.bundle
+    FileCRC32: 05f07f8a
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_hero_7897945a92b2523753aac27189e074d6.bundle
+    FileCRC32: 94e21d01
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_hero_referenceassets_e8ab634778c89b978062023c77d50cba.bundle
+    FileCRC32: 3c9dd61a
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_mix-and-match_0367631118117f3cd724c2c3b2529fb3.bundle
+    FileCRC32: d8ef74ff
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_raggedy spineboy_c8aa79886e05979a378c3c847487a3b4.bundle
+    FileCRC32: 7cb8c02b
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_raptor-pro-and-mask_590c502ac56aad18b885c4172674970a.bundle
+    FileCRC32: 2b606f4c
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_raptor_28f6f05c75892eed9db32dc8bae2aa58.bundle
+    FileCRC32: 4b73911b
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_raptor_referenceassets_bb17fc52ef5e958c394daa6401890fb9.bundle
+    FileCRC32: 6f3630a7
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_spineboy-pro_c217bbf58fcac94342db1343fba09733.bundle
+    FileCRC32: ba6d6c8a
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_spineboy-pro_referenceassets_44f53e326093c30607d43eadb77e87b6.bundle
+    FileCRC32: 23093720
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_spineboy-unity_4e36f62774fea648f9f0c4440f4f2345.bundle
+    FileCRC32: 5175cd6f
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_spineboy-unity_equips_bfa2ea4912ea3c229879471490df3505.bundle
+    FileCRC32: 7271fdc0
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_spineboy-unity_referenceassets_99ed9ef70e05bff430907af27e84d90c.bundle
+    FileCRC32: 8dc47c3c
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_spineunitygirl_bbfcf84c8e6bed66e3031de311d4e344.bundle
+    FileCRC32: e334ec87
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_spineunitygirl_referenceassets_1cdf5d9473f3bf74e96e83ccecd628fd.bundle
+    FileCRC32: 21bc4a1c
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_stretchyman_2c43e028771b7e0ebdf95ec79479b7ef.bundle
+    FileCRC32: 89666e76
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_spine_whirlyblendmodes_708869ff323c057e2550e596d14a5101.bundle
+    FileCRC32: 7e5df135
+  - PackageName: DefaultPackage
+    FileName: assets_bundles_unit_unit_1fe8b01ffb213f6622be01192ff911b1.bundle
+    FileCRC32: 83117459
+  - PackageName: DefaultPackage
+    FileName: share_assets_bundles_scenes_3c2f94cd6bd5ff8a331a7086d7540605.bundle
+    FileCRC32: 69063312
+  - PackageName: DefaultPackage
+    FileName: share_assets_bundles_scenes_map1_0d67560c04617ee5f70baa7bd01cbcaf.bundle
+    FileCRC32: 34675a13
+  - PackageName: DefaultPackage
+    FileName: share_assets_res_mat_1f8d2d988b372fc2c479eff9a380477b.bundle
+    FileCRC32: 59b91466
+  - PackageName: DefaultPackage
+    FileName: share_packages_com_esotericsoftware_spine_spine-unity_editor_spine-unity_editor_gui_2de2f530ee97bf1db4a631d5ce649b2f.bundle
+    FileCRC32: 72bf12f1
+  - PackageName: DefaultPackage
+    FileName: share_packages_com_esotericsoftware_spine_spine-unity_runtime_spine-unity_skeletondatamodifierassets_blendmodematerials_a20abbaacf410f96fc32e71abc18dccb.bundle
+    FileCRC32: 33a6a1b4
+  - PackageName: DefaultPackage
+    FileName: unityshaders_2dd7d770d03602b668e338e73187cdb9.bundle
+    FileCRC32: 5355ce43

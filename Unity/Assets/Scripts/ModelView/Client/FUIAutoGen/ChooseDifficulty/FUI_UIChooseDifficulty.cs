@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.ChooseDifficulty
 {
+	[EnableClass]
 	public partial class FUI_UIChooseDifficulty: GComponent
 	{
 		public enum c1Page

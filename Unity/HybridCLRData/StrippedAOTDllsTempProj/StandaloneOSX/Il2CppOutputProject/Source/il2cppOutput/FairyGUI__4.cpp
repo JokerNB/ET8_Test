@@ -227,6 +227,7 @@ struct EntryU5BU5D_t5A9B1B34D41635CA322C6E30177C3D85F45ED0FD;
 struct EntryU5BU5D_tEA0133B78B9FF7045128C508FA50247E525A94D6;
 struct EntryU5BU5D_t1AF33AD0B7330843448956EC4277517081658AE7;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
 struct ControllerU5BU5D_tBBDE6C1B4829491AC2434746F914F1E6A10A2072;
 struct ControllerActionU5BU5D_t96AA16CA13BF6327DDC67344E45DE111B1992E43;
@@ -886,44 +887,6 @@ struct GObjectPool_tF8F6E64D1F17E091E58D084C2C096E3974711A1F  : public RuntimeOb
 	Dictionary_2_t80C81B241FD44182717C66F61AC1F29FE0544AF6* ____pool;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____manager;
 };
-struct GTweener_tEB2D017E52D45DCFE0E48F080CF6451FAC53D64B  : public RuntimeObject
-{
-	RuntimeObject* ____target;
-	int32_t ____propType;
-	bool ____killed;
-	bool ____paused;
-	float ____delay;
-	float ____duration;
-	float ____breakpoint;
-	int32_t ____easeType;
-	float ____easeOvershootOrAmplitude;
-	float ____easePeriod;
-	int32_t ____repeat;
-	bool ____yoyo;
-	float ____timeScale;
-	bool ____ignoreEngineTimeScale;
-	bool ____snapping;
-	RuntimeObject* ____userData;
-	GPath_tAF52CF45E8A5C3B7B4A077CE2FEBDA25FCFBDF96* ____path;
-	CustomEase_t3F00882308AABD5627720647E68CE986B97548C8* ____customEase;
-	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onUpdate;
-	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onStart;
-	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onComplete;
-	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onUpdate1;
-	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onStart1;
-	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onComplete1;
-	RuntimeObject* ____listener;
-	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____startValue;
-	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____endValue;
-	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____value;
-	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____deltaValue;
-	int32_t ____valueSize;
-	bool ____started;
-	int32_t ____ended;
-	float ____elapsedTime;
-	float ____normalizedTime;
-	int32_t ____smoothStart;
-};
 struct GearAnimationValue_tF88E60A4A3DE47FBD1C81B94FACD38D46A98302C  : public RuntimeObject
 {
 	bool ___playing;
@@ -951,16 +914,6 @@ struct GearSizeValue_t23F27D5094E141A5DD833F45B409BE7BF9F1B509  : public Runtime
 	float ___scaleX;
 	float ___scaleY;
 };
-struct GearTweenConfig_t8B9F719BE9230348B75B096586BF58735EB7F1BF  : public RuntimeObject
-{
-	bool ___tween;
-	int32_t ___easeType;
-	CustomEase_t3F00882308AABD5627720647E68CE986B97548C8* ___customEase;
-	float ___duration;
-	float ___delay;
-	uint32_t ____displayLockToken;
-	GTweener_tEB2D017E52D45DCFE0E48F080CF6451FAC53D64B* ____tweener;
-};
 struct GearXYValue_tB0220F86B5AA521F312288195FBD647FFF7C355B  : public RuntimeObject
 {
 	float ___x;
@@ -968,30 +921,8 @@ struct GearXYValue_tB0220F86B5AA521F312288195FBD647FFF7C355B  : public RuntimeOb
 	float ___px;
 	float ___py;
 };
-struct InputEvent_t3DE6DA06EBF73975975333281AF59089CA5A1274  : public RuntimeObject
-{
-	float ___U3CxU3Ek__BackingField;
-	float ___U3CyU3Ek__BackingField;
-	int32_t ___U3CkeyCodeU3Ek__BackingField;
-	Il2CppChar ___U3CcharacterU3Ek__BackingField;
-	int32_t ___U3CmodifiersU3Ek__BackingField;
-	float ___U3CmouseWheelDeltaU3Ek__BackingField;
-	int32_t ___U3CtouchIdU3Ek__BackingField;
-	int32_t ___U3CbuttonU3Ek__BackingField;
-	int32_t ___U3CclickCountU3Ek__BackingField;
-	float ___U3CholdTimeU3Ek__BackingField;
-};
 struct MemberInfo_t  : public RuntimeObject
 {
-};
-struct NAudioClip_t17CB2BFC0CC41C9FDE0ED6D78119CF6862D3DB6B  : public RuntimeObject
-{
-	int32_t ___destroyMethod;
-	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___nativeClip;
-	int32_t ___refCount;
-	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onAcquire;
-	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onRelease;
-	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onDispose;
 };
 struct PixelHitTest_t05ADC839D5D27CCEF551386E6D07162B42C0A0C9  : public RuntimeObject
 {
@@ -1123,13 +1054,6 @@ struct U3C_CreateObjectU3Ed__8_tE6596ED9D8A8B437826E9A5B467963584D4BCEF8  : publ
 	List_1_tB003F27D9B2DD7E40BA8084EB9BD5B9861C3A51F* ___U3CobjectPoolU3E5__5;
 	int32_t ___U3CiU3E5__6;
 };
-struct DisplayListItem_tAB0DC3A28414748A92EB2C92E721BBCDE604C285  : public RuntimeObject
-{
-	PackageItem_t93A2F2C2794F75EB09486CC05A681593080BFE07* ___packageItem;
-	int32_t ___type;
-	int32_t ___childCount;
-	int32_t ___listItemCount;
-};
 struct U3CU3Ec__DisplayClass70_0_t71D6AB4A4746E2B0E878BCC1E23D30C55746D7FE  : public RuntimeObject
 {
 	GButton_t996284E71B9A4CC9149F8AF21C729A90DC440AD9* ___U3CU3E4__this;
@@ -1203,6 +1127,15 @@ struct Controller_tDBAE884940B3491E779931BA79C579F8E27BC819  : public EventDispa
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
 	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 struct GearAnimation_t528103F2A15E545DD8870781DB946D4A7208BD7C  : public GearBase_t33FD4E1BBDF49C550CF194F8361700BD73D991FE
 {
@@ -1341,6 +1274,26 @@ struct Nullable_1_t5070FF5B4129C859CA3EFC7B94E615A818E11144
 	bool ___hasValue;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___value;
 };
+struct AlignType_tAF0EBC1B9D65424A6043B03ED04A8AC1E5C0BD22 
+{
+	int32_t ___value__;
+};
+struct AutoSizeType_t7E3E3AF5B95D1CC961AF36D5A854BE056172380D 
+{
+	int32_t ___value__;
+};
+struct BlendMode_tB365E02BBC13B515218F7BBA24349DF72BF14C03 
+{
+	int32_t ___value__;
+};
+struct ButtonMode_t7CFCCAA802F72F92C1BAC7A907542A3472CC2209 
+{
+	int32_t ___value__;
+};
+struct ChildrenRenderOrder_t9DBC026B06A79783A8129A9869549CA41BA74FD0 
+{
+	int32_t ___value__;
+};
 struct Delegate_t  : public RuntimeObject
 {
 	intptr_t ___method_ptr;
@@ -1389,54 +1342,17 @@ struct Delegate_t_marshaled_com
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
 };
-struct DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
+struct DestroyMethod_t8268BE278E578B6C3D78266B7CD24EF18ED506D9 
 {
-	String_t* ___name;
-	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ___U3CparentU3Ek__BackingField;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CgameObjectU3Ek__BackingField;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___U3CcachedTransformU3Ek__BackingField;
-	NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB* ___U3CgraphicsU3Ek__BackingField;
-	NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB* ___U3CpaintingGraphicsU3Ek__BackingField;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onPaint;
-	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ___gOwner;
-	uint32_t ___id;
-	bool ____visible;
-	bool ____touchable;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____pivot;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____pivotOffset;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____rotation;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____skew;
-	int32_t ____renderingOrder;
-	float ____alpha;
-	bool ____grayed;
-	int32_t ____blendMode;
-	RuntimeObject* ____filter;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____home;
-	String_t* ____cursor;
-	bool ____perspective;
-	int32_t ____focalLength;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____pixelPerfectAdjustment;
-	int32_t ____checkPixelPerfect;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onClick;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRightClick;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchBegin;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchMove;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchEnd;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRollOver;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRollOut;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onMouseWheel;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onAddedToStage;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRemovedFromStage;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onKeyDown;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onClickLink;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onFocusIn;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onFocusOut;
-	int32_t ____paintingMode;
-	PaintingInfo_t8FC33893AEA02FB51037145D7AE4E1B9A7B6F2FC* ____paintingInfo;
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____contentRect;
-	VertexMatrix_t3B40116F1F9038EACBED60F7AA757E2FF4DCB51C* ____vertexMatrix;
-	int32_t ____flags;
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____batchingBounds;
+	int32_t ___value__;
+};
+struct EaseType_tEEB04F998E0CA67A1BEE4379C02B5EFEA32367FD 
+{
+	int32_t ___value__;
+};
+struct EventModifiers_t48244B043FBB42CDD555C6AC43279EC7158777AC 
+{
+	int32_t ___value__;
 };
 struct Exception_t  : public RuntimeObject
 {
@@ -1495,10 +1411,46 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray* ___native_trace_ips;
 	int32_t ___caught_in_unmanaged;
 };
+struct FillMethod_t30CB1378BE71B74BB9074FDB0868B6F2501F0F56 
+{
+	int32_t ___value__;
+};
+struct FillType_t235D010D8D18FAACBE38575881A45EC4230EF213 
+{
+	int32_t ___value__;
+};
+struct FlipType_tFB7A4E663E73101D75D7D8E16CB5F7A0D8C898EE 
+{
+	int32_t ___value__;
+};
+struct FocusRule_tC704F7D233FA7FC5F0EA62DB8CD0E7772CE73E1D 
+{
+	int32_t ___value__;
+};
 struct GearColorValue_t9038514C12A1701CCA8BDD58B7948B44EE52F62D  : public RuntimeObject
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___strokeColor;
+};
+struct GroupLayoutType_t08516B5184073550D5EC9B5BDCBFBF79066BAC3F 
+{
+	int32_t ___value__;
+};
+struct HideFlags_tC514182ACEFD3B847988C45D5DB812FF6DB1BF4A 
+{
+	int32_t ___value__;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
+};
+struct ListLayoutType_t2D44FF9A0BCB4B31591022CF89E18D7CFADAACC1 
+{
+	int32_t ___value__;
+};
+struct ListSelectionMode_tC015BE600F77181A2DBFF0C5A504A8EFD0D7F2A1 
+{
+	int32_t ___value__;
 };
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
@@ -1512,92 +1464,93 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 	intptr_t ___m_CachedPtr;
 };
+struct ObjectType_tBCA9508A33261B4314EA4D79D55BAB4CBB89C30D 
+{
+	int32_t ___value__;
+};
+struct Origin180_t55930D57501294A92D25F51352B4782D01D36499 
+{
+	int32_t ___value__;
+};
+struct Origin360_tE880341C4D991E747F259F55863511B21C896C4B 
+{
+	int32_t ___value__;
+};
+struct Origin90_t142DB933487B717CD0483D9650BD64732CCD4B1B 
+{
+	int32_t ___value__;
+};
+struct OriginHorizontal_t532D75A957175F4D8BBF89B957AB0B8131E2A25A 
+{
+	int32_t ___value__;
+};
+struct OriginVertical_t4BD3F0DD7E65D08A1E26C3D5E32B851837735A2D 
+{
+	int32_t ___value__;
+};
+struct OverflowType_t2DDCCEAFF1BED3D3B595E5DAFE7C4D86DE747E4B 
+{
+	int32_t ___value__;
+};
+struct PackageItemType_t381976A8CE19B37567CF8AF2D2D5D054EA722383 
+{
+	int32_t ___value__;
+};
+struct PopupDirection_t84F65C3A94E85534EEE9FFFCBB7DBD9E514307D0 
+{
+	int32_t ___value__;
+};
+struct ProgressTitleType_t0B8A039066F6C168621905A298222236DF7DFB8E 
+{
+	int32_t ___value__;
+};
+struct RelationType_t2EDD97F500B130F8E6BF9B630273A986844AE989 
+{
+	int32_t ___value__;
+};
+struct RenderMode_tB63553E26C26A0B62C47B995F86AC41768494633 
+{
+	int32_t ___value__;
+};
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
 	intptr_t ___value;
 };
-struct ScrollPane_tCAEBE4FD279C633DE7F84F6A23D4DC148D0E0436  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
+struct ScrollBarDisplayType_t8F46C0060B09B5E5D86FDBF5FB2D590F669A8D3B 
 {
-	int32_t ____scrollType;
-	float ____scrollStep;
-	float ____decelerationRate;
-	Margin_t09493B7B70780AC156493FDEF59936CAF89C9C00 ____scrollBarMargin;
-	bool ____bouncebackEffect;
-	bool ____touchEffect;
-	bool ____scrollBarDisplayAuto;
-	bool ____vScrollNone;
-	bool ____hScrollNone;
-	bool ____needRefresh;
-	int32_t ____refreshBarAxis;
-	bool ____displayOnLeft;
-	bool ____snapToItem;
-	bool ____displayInDemand;
-	bool ____mouseWheelEnabled;
-	bool ____softnessOnTopOrLeftSide;
-	bool ____pageMode;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____pageSize;
-	bool ____inertiaDisabled;
-	bool ____maskDisabled;
-	bool ____floating;
-	bool ____dontClipMargin;
-	float ____xPos;
-	float ____yPos;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____viewSize;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____contentSize;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____overlapSize;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____containerPos;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____beginTouchPos;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____lastTouchPos;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____lastTouchGlobalPos;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____velocity;
-	float ____velocityScale;
-	float ____lastMoveTime;
-	bool ____dragged;
-	bool ____isHoldAreaDone;
-	int32_t ____aniFlag;
-	int32_t ____loop;
-	int32_t ____headerLockedSize;
-	int32_t ____footerLockedSize;
-	bool ____hover;
-	int32_t ____tweening;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____tweenStart;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____tweenChange;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____tweenTime;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____tweenDuration;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____refreshDelegate;
-	TimerCallback_tE1D6E72CC067568AD242CDA20DFF1BAEEAE890BF* ____tweenUpdateDelegate;
-	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____hideScrollBarDelegate;
-	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____owner;
-	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ____maskContainer;
-	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ____container;
-	GScrollBar_t19F77E1879FE22D5133CE2150E0AEF68F30A158B* ____hzScrollBar;
-	GScrollBar_t19F77E1879FE22D5133CE2150E0AEF68F30A158B* ____vtScrollBar;
-	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____header;
-	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____footer;
-	Controller_tDBAE884940B3491E779931BA79C579F8E27BC819* ____pageController;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onScroll;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onScrollEnd;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onPullDownRelease;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onPullUpRelease;
+	int32_t ___value__;
 };
-struct TextFormat_t627E6C0284BF6635A4D1C7A67C37D664B3299091  : public RuntimeObject
+struct ScrollType_t413CBF21A53DBCB0F81DC012765A9B8DD81F7626 
 {
-	int32_t ___size;
-	String_t* ___font;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
-	int32_t ___lineSpacing;
-	int32_t ___letterSpacing;
-	bool ___bold;
-	bool ___underline;
-	bool ___italic;
-	bool ___strikethrough;
-	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___gradientColor;
-	int32_t ___align;
-	int32_t ___specialStyle;
-	float ___outline;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___outlineColor;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___shadowOffset;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___shadowColor;
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
+struct TransitionActionType_tCE7928C85E6680B7B56922EE7A85C21296420CBE 
+{
+	int32_t ___value__;
+};
+struct TweenPropType_t1DB9750D9CF2646EC76E9923847D37DE231B9C07 
+{
+	int32_t ___value__;
+};
+struct VertAlignType_tAC0AB58EAE358F77C924EDBCBD2C7F80630CB53A 
+{
+	int32_t ___value__;
+};
+struct ActionType_tCCF616EE1D9CC7EB283454B5C1FAC6564D0559C0 
+{
+	int32_t ___value__;
+};
+struct Flags_tF0DEB5FEBF9DE65EBF3CC5BC2185B88A7BEA66CC 
+{
+	int32_t ___value__;
+};
+struct SpecialStyle_t0038BBC06122D595E8D8F380BA1828B8CDB333C0 
+{
+	int32_t ___value__;
 };
 struct ClipInfo_tAD0084BC1A3E6FABF55257C2ABE3F15CFF270AE1 
 {
@@ -1640,22 +1593,54 @@ struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20  : public Object_tC12
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
-struct Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
+struct DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
 {
-	int32_t ___renderMode;
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___renderCamera;
-	bool ___opaque;
-	Nullable_1_t5070FF5B4129C859CA3EFC7B94E615A818E11144 ___clipSoftness;
-	RuntimeObject* ___hitArea;
-	bool ___touchChildren;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onUpdate;
-	bool ___reversedMask;
-	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____children;
-	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____mask;
-	Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 ____clipRect;
-	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____descendants;
-	int32_t ____panelOrder;
-	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____lastFocus;
+	String_t* ___name;
+	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ___U3CparentU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CgameObjectU3Ek__BackingField;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___U3CcachedTransformU3Ek__BackingField;
+	NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB* ___U3CgraphicsU3Ek__BackingField;
+	NGraphics_t28A82A9DC549925D887B4EB639DF312CA85ABBBB* ___U3CpaintingGraphicsU3Ek__BackingField;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onPaint;
+	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ___gOwner;
+	uint32_t ___id;
+	bool ____visible;
+	bool ____touchable;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____pivot;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____pivotOffset;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____rotation;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____skew;
+	int32_t ____renderingOrder;
+	float ____alpha;
+	bool ____grayed;
+	int32_t ____blendMode;
+	RuntimeObject* ____filter;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____home;
+	String_t* ____cursor;
+	bool ____perspective;
+	int32_t ____focalLength;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____pixelPerfectAdjustment;
+	int32_t ____checkPixelPerfect;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onClick;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRightClick;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchBegin;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchMove;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onTouchEnd;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRollOver;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRollOut;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onMouseWheel;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onAddedToStage;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onRemovedFromStage;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onKeyDown;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onClickLink;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onFocusIn;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onFocusOut;
+	int32_t ____paintingMode;
+	PaintingInfo_t8FC33893AEA02FB51037145D7AE4E1B9A7B6F2FC* ____paintingInfo;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____contentRect;
+	VertexMatrix_t3B40116F1F9038EACBED60F7AA757E2FF4DCB51C* ____vertexMatrix;
+	int32_t ____flags;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____batchingBounds;
 };
 struct GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
 {
@@ -1728,8 +1713,69 @@ struct GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF  : public EventDispatch
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____dragTouchStartPos;
 	bool ____dragTesting;
 };
+struct GTweener_tEB2D017E52D45DCFE0E48F080CF6451FAC53D64B  : public RuntimeObject
+{
+	RuntimeObject* ____target;
+	int32_t ____propType;
+	bool ____killed;
+	bool ____paused;
+	float ____delay;
+	float ____duration;
+	float ____breakpoint;
+	int32_t ____easeType;
+	float ____easeOvershootOrAmplitude;
+	float ____easePeriod;
+	int32_t ____repeat;
+	bool ____yoyo;
+	float ____timeScale;
+	bool ____ignoreEngineTimeScale;
+	bool ____snapping;
+	RuntimeObject* ____userData;
+	GPath_tAF52CF45E8A5C3B7B4A077CE2FEBDA25FCFBDF96* ____path;
+	CustomEase_t3F00882308AABD5627720647E68CE986B97548C8* ____customEase;
+	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onUpdate;
+	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onStart;
+	GTweenCallback_tC5E93FD03B525E1A7623B4C000DD384AA20F7E49* ____onComplete;
+	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onUpdate1;
+	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onStart1;
+	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____onComplete1;
+	RuntimeObject* ____listener;
+	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____startValue;
+	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____endValue;
+	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____value;
+	TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ____deltaValue;
+	int32_t ____valueSize;
+	bool ____started;
+	int32_t ____ended;
+	float ____elapsedTime;
+	float ____normalizedTime;
+	int32_t ____smoothStart;
+};
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
+};
+struct GearTweenConfig_t8B9F719BE9230348B75B096586BF58735EB7F1BF  : public RuntimeObject
+{
+	bool ___tween;
+	int32_t ___easeType;
+	CustomEase_t3F00882308AABD5627720647E68CE986B97548C8* ___customEase;
+	float ___duration;
+	float ___delay;
+	uint32_t ____displayLockToken;
+	GTweener_tEB2D017E52D45DCFE0E48F080CF6451FAC53D64B* ____tweener;
+};
+struct InputEvent_t3DE6DA06EBF73975975333281AF59089CA5A1274  : public RuntimeObject
+{
+	float ___U3CxU3Ek__BackingField;
+	float ___U3CyU3Ek__BackingField;
+	int32_t ___U3CkeyCodeU3Ek__BackingField;
+	Il2CppChar ___U3CcharacterU3Ek__BackingField;
+	int32_t ___U3CmodifiersU3Ek__BackingField;
+	float ___U3CmouseWheelDeltaU3Ek__BackingField;
+	int32_t ___U3CtouchIdU3Ek__BackingField;
+	int32_t ___U3CbuttonU3Ek__BackingField;
+	int32_t ___U3CclickCountU3Ek__BackingField;
+	float ___U3CholdTimeU3Ek__BackingField;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -1742,6 +1788,15 @@ struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvo
 struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates;
+};
+struct NAudioClip_t17CB2BFC0CC41C9FDE0ED6D78119CF6862D3DB6B  : public RuntimeObject
+{
+	int32_t ___destroyMethod;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___nativeClip;
+	int32_t ___refCount;
+	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onAcquire;
+	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onRelease;
+	Action_1_tC0610899424B61CE913900621E5D1DE53611C27A* ___onDispose;
 };
 struct PackageItem_t93A2F2C2794F75EB09486CC05A681593080BFE07  : public RuntimeObject
 {
@@ -1770,8 +1825,91 @@ struct PackageItem_t93A2F2C2794F75EB09486CC05A681593080BFE07  : public RuntimeOb
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___skeletonAnchor;
 	RuntimeObject* ___skeletonAsset;
 };
+struct ScrollPane_tCAEBE4FD279C633DE7F84F6A23D4DC148D0E0436  : public EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB
+{
+	int32_t ____scrollType;
+	float ____scrollStep;
+	float ____decelerationRate;
+	Margin_t09493B7B70780AC156493FDEF59936CAF89C9C00 ____scrollBarMargin;
+	bool ____bouncebackEffect;
+	bool ____touchEffect;
+	bool ____scrollBarDisplayAuto;
+	bool ____vScrollNone;
+	bool ____hScrollNone;
+	bool ____needRefresh;
+	int32_t ____refreshBarAxis;
+	bool ____displayOnLeft;
+	bool ____snapToItem;
+	bool ____displayInDemand;
+	bool ____mouseWheelEnabled;
+	bool ____softnessOnTopOrLeftSide;
+	bool ____pageMode;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____pageSize;
+	bool ____inertiaDisabled;
+	bool ____maskDisabled;
+	bool ____floating;
+	bool ____dontClipMargin;
+	float ____xPos;
+	float ____yPos;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____viewSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____contentSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____overlapSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____containerPos;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____beginTouchPos;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____lastTouchPos;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____lastTouchGlobalPos;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____velocity;
+	float ____velocityScale;
+	float ____lastMoveTime;
+	bool ____dragged;
+	bool ____isHoldAreaDone;
+	int32_t ____aniFlag;
+	int32_t ____loop;
+	int32_t ____headerLockedSize;
+	int32_t ____footerLockedSize;
+	bool ____hover;
+	int32_t ____tweening;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____tweenStart;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____tweenChange;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____tweenTime;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____tweenDuration;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____refreshDelegate;
+	TimerCallback_tE1D6E72CC067568AD242CDA20DFF1BAEEAE890BF* ____tweenUpdateDelegate;
+	GTweenCallback1_tFB45D2011529039AFF92AB08EBBDA8314BC15417* ____hideScrollBarDelegate;
+	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____owner;
+	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ____maskContainer;
+	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ____container;
+	GScrollBar_t19F77E1879FE22D5133CE2150E0AEF68F30A158B* ____hzScrollBar;
+	GScrollBar_t19F77E1879FE22D5133CE2150E0AEF68F30A158B* ____vtScrollBar;
+	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____header;
+	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____footer;
+	Controller_tDBAE884940B3491E779931BA79C579F8E27BC819* ____pageController;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onScroll;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onScrollEnd;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onPullDownRelease;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onPullUpRelease;
+};
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
+};
+struct TextFormat_t627E6C0284BF6635A4D1C7A67C37D664B3299091  : public RuntimeObject
+{
+	int32_t ___size;
+	String_t* ___font;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
+	int32_t ___lineSpacing;
+	int32_t ___letterSpacing;
+	bool ___bold;
+	bool ___underline;
+	bool ___italic;
+	bool ___strikethrough;
+	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___gradientColor;
+	int32_t ___align;
+	int32_t ___specialStyle;
+	float ___outline;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___outlineColor;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___shadowOffset;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___shadowColor;
 };
 struct Type_t  : public MemberInfo_t
 {
@@ -1790,6 +1928,13 @@ struct UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0  : public Runtime
 	float ___alpha;
 	bool ___grayed;
 };
+struct DisplayListItem_tAB0DC3A28414748A92EB2C92E721BBCDE604C285  : public RuntimeObject
+{
+	PackageItem_t93A2F2C2794F75EB09486CC05A681593080BFE07* ___packageItem;
+	int32_t ___type;
+	int32_t ___childCount;
+	int32_t ___listItemCount;
+};
 struct Comparison_1_t955A7AC472ADF83A42F44E70969619CC8CD3CACB  : public MulticastDelegate_t
 {
 };
@@ -1805,6 +1950,23 @@ struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public Multica
 };
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
+};
+struct Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025  : public DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8
+{
+	int32_t ___renderMode;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___renderCamera;
+	bool ___opaque;
+	Nullable_1_t5070FF5B4129C859CA3EFC7B94E615A818E11144 ___clipSoftness;
+	RuntimeObject* ___hitArea;
+	bool ___touchChildren;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onUpdate;
+	bool ___reversedMask;
+	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____children;
+	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____mask;
+	Nullable_1_t13F9968C978BAF968F02BA5B41ABB481321A5440 ____clipRect;
+	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____descendants;
+	int32_t ____panelOrder;
+	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____lastFocus;
 };
 struct EventCallback0_t6889C44FA931066A5173F82D8ABBBB358214386B  : public MulticastDelegate_t
 {
@@ -1903,43 +2065,6 @@ struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public
 };
 struct PlayCompleteCallback_t788290904C0F4FDE5D7CF3BE5E2A75F060C0268C  : public MulticastDelegate_t
 {
-};
-struct RichTextField_t2D5DE92484F3CF754A5CE5BC51A2395402DC60AC  : public Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025
-{
-	RuntimeObject* ___U3ChtmlPageContextU3Ek__BackingField;
-	HtmlParseOptions_tE0C2774AC204A82D828FDB88992E77CEBB74A39D* ___U3ChtmlParseOptionsU3Ek__BackingField;
-	Dictionary_2_tFC4140AD762B82C3DEFF50BC9BDD65B0AF7C7858* ___U3CemojiesU3Ek__BackingField;
-	TextField_t49E23DE9C9B02311CA83E360847B8CF6A5723363* ___U3CtextFieldU3Ek__BackingField;
-};
-struct Stage_tE68B1AB9F551137EB67B94FC1DB56C0E4485EA98  : public Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025
-{
-	float ___U3CsoundVolumeU3Ek__BackingField;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___beforeUpdate;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___afterUpdate;
-	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____touchTarget;
-	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____focused;
-	InputTextField_tFAE087A989033AF41AB1A396C5FD40534722C6C8* ____lastInput;
-	bool ____IMEComposite;
-	UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0* ____updateContext;
-	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____rollOutChain;
-	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____rollOverChain;
-	TouchInfoU5BU5D_t3E0EBD49B515AA6613ED1882A8F03381650BDE4B* ____touches;
-	int32_t ____touchCount;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____touchPosition;
-	int32_t ____frameGotHitTarget;
-	int32_t ____frameGotTouchPosition;
-	bool ____customInput;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____customInputPos;
-	bool ____customInputButtonDown;
-	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ____audio;
-	List_1_tD9BAACAD479CAE800895266C91AAEFFFF041F1BD* ____toCollectTextures;
-	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onStageResized;
-	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____focusOutChain;
-	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____focusInChain;
-	List_1_tAA13484C7A5AA367D8ADB79F951DF1E590C590D9* ____focusHistory;
-	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ____nextFocus;
-	Dictionary_2_t6FA79F9D283C5A78D8076BEA8D208847298F95E8* ____cursors;
-	String_t* ____currentCursor;
 };
 struct TimerCallback_tE1D6E72CC067568AD242CDA20DFF1BAEEAE890BF  : public MulticastDelegate_t
 {
@@ -2066,6 +2191,62 @@ struct GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED  : public GComponent_t5D7
 	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____tooltipWin;
 	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____defaultTooltipWin;
 };
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct RichTextField_t2D5DE92484F3CF754A5CE5BC51A2395402DC60AC  : public Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025
+{
+	RuntimeObject* ___U3ChtmlPageContextU3Ek__BackingField;
+	HtmlParseOptions_tE0C2774AC204A82D828FDB88992E77CEBB74A39D* ___U3ChtmlParseOptionsU3Ek__BackingField;
+	Dictionary_2_tFC4140AD762B82C3DEFF50BC9BDD65B0AF7C7858* ___U3CemojiesU3Ek__BackingField;
+	TextField_t49E23DE9C9B02311CA83E360847B8CF6A5723363* ___U3CtextFieldU3Ek__BackingField;
+};
+struct Stage_tE68B1AB9F551137EB67B94FC1DB56C0E4485EA98  : public Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025
+{
+	float ___U3CsoundVolumeU3Ek__BackingField;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___beforeUpdate;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___afterUpdate;
+	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____touchTarget;
+	DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8* ____focused;
+	InputTextField_tFAE087A989033AF41AB1A396C5FD40534722C6C8* ____lastInput;
+	bool ____IMEComposite;
+	UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0* ____updateContext;
+	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____rollOutChain;
+	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____rollOverChain;
+	TouchInfoU5BU5D_t3E0EBD49B515AA6613ED1882A8F03381650BDE4B* ____touches;
+	int32_t ____touchCount;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____touchPosition;
+	int32_t ____frameGotHitTarget;
+	int32_t ____frameGotTouchPosition;
+	bool ____customInput;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____customInputPos;
+	bool ____customInputButtonDown;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ____audio;
+	List_1_tD9BAACAD479CAE800895266C91AAEFFFF041F1BD* ____toCollectTextures;
+	EventListener_t8F21FAAE9501F1E00350F60739BBEB8040633FAB* ____onStageResized;
+	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____focusOutChain;
+	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ____focusInChain;
+	List_1_tAA13484C7A5AA367D8ADB79F951DF1E590C590D9* ____focusHistory;
+	Container_t24FD8BC78F9697373801CC30CFE2F9F3F42BB025* ____nextFocus;
+	Dictionary_2_t6FA79F9D283C5A78D8076BEA8D208847298F95E8* ____cursors;
+	String_t* ____currentCursor;
+};
+struct Window_tD6BE1B5B1237739938085A8CB05EA3181EBE91BD  : public GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132
+{
+	bool ___bringToFontOnClick;
+	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____frame;
+	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____contentPane;
+	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____modalWaitPane;
+	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____closeButton;
+	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____dragArea;
+	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____contentArea;
+	bool ____modal;
+	List_1_t25382E488FE42388A46CDC27EDE6B730E1C50D70* ____uiSources;
+	bool ____inited;
+	bool ____loading;
+	int32_t ____requestingCmd;
+};
 struct InputTextField_tFAE087A989033AF41AB1A396C5FD40534722C6C8  : public RichTextField_t2D5DE92484F3CF754A5CE5BC51A2395402DC60AC
 {
 	int32_t ___U3CmaxLengthU3Ek__BackingField;
@@ -2096,25 +2277,6 @@ struct InputTextField_tFAE087A989033AF41AB1A396C5FD40534722C6C8  : public RichTe
 	Shape_t145FABDC11F99B17F4C13C811BF25D8B3B68EA9F* ____caret;
 	SelectionShape_tF2A6F9656EFCAB477C54A4FA4D2328536A0AD828* ____selectionShape;
 	float ____nextBlink;
-};
-struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
-{
-	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
-};
-struct Window_tD6BE1B5B1237739938085A8CB05EA3181EBE91BD  : public GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132
-{
-	bool ___bringToFontOnClick;
-	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____frame;
-	GComponent_t5D78A6740FFF5A3CDBDE299F7370A252FBB3D132* ____contentPane;
-	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____modalWaitPane;
-	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____closeButton;
-	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____dragArea;
-	GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF* ____contentArea;
-	bool ____modal;
-	List_1_t25382E488FE42388A46CDC27EDE6B730E1C50D70* ____uiSources;
-	bool ____inited;
-	bool ____loading;
-	int32_t ____requestingCmd;
 };
 struct UIConfig_tD794CD8001AA097FE3750563452CA952DC651B33  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -2200,10 +2362,6 @@ struct EventDispatcher_tB600BCA83513984B86872DFE0FDC7F266B5A1FEB_StaticFields
 struct GearBase_t33FD4E1BBDF49C550CF194F8361700BD73D991FE_StaticFields
 {
 	bool ___disableAllTweenEffect;
-};
-struct NAudioClip_t17CB2BFC0CC41C9FDE0ED6D78119CF6862D3DB6B_StaticFields
-{
-	Action_1_t69E801E113BF186E6CD0C9C5233B3F71AEF42ADC* ___CustomDestroyMethod;
 };
 struct Stats_tF8963B3ADB671D7C636863C2C19450F4ECAA93AC_StaticFields
 {
@@ -2302,11 +2460,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector;
 };
-struct DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8_StaticFields
-{
-	uint32_t ____gInstanceCounter;
-	int32_t ___hideFlags;
-};
 struct Exception_t_StaticFields
 {
 	RuntimeObject* ___s_EDILock;
@@ -2315,13 +2468,10 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 {
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
 };
-struct ScrollPane_tCAEBE4FD279C633DE7F84F6A23D4DC148D0E0436_StaticFields
+struct DisplayObject_t262D6EB9D867BE0A5C9F8B110FFAB76B1B8B6CB8_StaticFields
 {
-	ScrollPane_tCAEBE4FD279C633DE7F84F6A23D4DC148D0E0436* ___U3CdraggingPaneU3Ek__BackingField;
-	int32_t ____gestureFlag;
-	float ___TWEEN_TIME_GO;
-	float ___TWEEN_TIME_DEFAULT;
-	float ___PULL_RATIO;
+	uint32_t ____gInstanceCounter;
+	int32_t ___hideFlags;
 };
 struct GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF_StaticFields
 {
@@ -2330,6 +2480,18 @@ struct GObject_tD5DECB73919C41E2DD5ED0864274EF86B413D1BF_StaticFields
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___sGlobalDragStart;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___sGlobalRect;
 	bool ___sUpdateInDragging;
+};
+struct NAudioClip_t17CB2BFC0CC41C9FDE0ED6D78119CF6862D3DB6B_StaticFields
+{
+	Action_1_t69E801E113BF186E6CD0C9C5233B3F71AEF42ADC* ___CustomDestroyMethod;
+};
+struct ScrollPane_tCAEBE4FD279C633DE7F84F6A23D4DC148D0E0436_StaticFields
+{
+	ScrollPane_tCAEBE4FD279C633DE7F84F6A23D4DC148D0E0436* ___U3CdraggingPaneU3Ek__BackingField;
+	int32_t ____gestureFlag;
+	float ___TWEEN_TIME_GO;
+	float ___TWEEN_TIME_DEFAULT;
+	float ___PULL_RATIO;
 };
 struct Type_t_StaticFields
 {
@@ -2349,6 +2511,10 @@ struct UpdateContext_tD48546B01B971DD5D23493FEE7DC66947DD942D0_StaticFields
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnEnd;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____tmpBegin;
 };
+struct GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED_StaticFields
+{
+	GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED* ____inst;
+};
 struct Stage_tE68B1AB9F551137EB67B94FC1DB56C0E4485EA98_StaticFields
 {
 	bool ____touchScreen;
@@ -2360,10 +2526,6 @@ struct Stage_tE68B1AB9F551137EB67B94FC1DB56C0E4485EA98_StaticFields
 	List_1_t8FBD4B40763D6FD604B81398E2FE59C3008320EB* ___sTempList1;
 	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___sTempList2;
 	Dictionary_2_t1A4804CA9724B6CE01D6ECABE81CE0848CBA80B4* ___sTempDict;
-};
-struct GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED_StaticFields
-{
-	GRoot_t68110073FE96E0FA973310C586060B0DDBD625ED* ____inst;
 };
 struct InputTextField_tFAE087A989033AF41AB1A396C5FD40534722C6C8_StaticFields
 {
@@ -4264,6 +4426,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TweenEngine__ctor_mAC9321E9A84F322EF21EE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TweenPropTypeUtils_SetProps_mD768C5573280ABDB5DF4EB237703D57CEB246680 (RuntimeObject* ___0_target, int32_t ___1_propType, TweenValue_tD3220916AC5C31436C4ABFE63847F5A23A98447E* ___2_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5268,6 +5438,14 @@ IL_0056:
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -8541,6 +8719,214 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EMRenderSupport__cctor_mE4312729688DB532
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

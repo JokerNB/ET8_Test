@@ -5,6 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET.Client.MainPanel
 {
+	[EnableClass]
 	public partial class FUI_Button_TopUp: GButton
 	{
 		public const string URL = "ui://512337h5koj05";

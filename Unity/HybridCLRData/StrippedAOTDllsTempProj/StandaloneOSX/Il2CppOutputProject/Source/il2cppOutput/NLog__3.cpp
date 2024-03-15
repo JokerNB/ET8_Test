@@ -1251,17 +1251,6 @@ struct JsonSerializeOptions_t45217B410213A90B6E30745C3479B1992ACD8AC8  : public 
 	bool ___U3CSanitizeDictionaryKeysU3Ek__BackingField;
 	int32_t ___U3CMaxRecursionLimitU3Ek__BackingField;
 };
-struct Layout_tA25350804288ADB7D9CE7828DBC7259982993221  : public RuntimeObject
-{
-	bool ___IsInitialized;
-	bool ____scannedForObjects;
-	bool ___U3CThreadAgnosticU3Ek__BackingField;
-	bool ___U3CThreadSafeU3Ek__BackingField;
-	bool ___U3CMutableUnsafeU3Ek__BackingField;
-	int32_t ___U3CStackTraceUsageU3Ek__BackingField;
-	int32_t ____maxRenderedLength;
-	LoggingConfiguration_tDFD8B0CD70AC99C266BE74899B1B79EBE1153C15* ___U3CLoggingConfigurationU3Ek__BackingField;
-};
 struct LayoutParser_tFC2CECBC446C35D4B18C465111DFDADA5F90E0FD  : public RuntimeObject
 {
 };
@@ -1335,23 +1324,6 @@ struct StringBuilder_t  : public RuntimeObject
 };
 struct StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06  : public RuntimeObject
 {
-};
-struct Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4  : public RuntimeObject
-{
-	List_1_t695E6D1360A9E4C1DDAAED83EF2C4021E68E8AB8* ____allLayouts;
-	bool ____allLayoutsAreThreadAgnostic;
-	bool ____allLayoutsAreThreadSafe;
-	bool ____oneLayoutIsMutableUnsafe;
-	bool ____scannedForLayouts;
-	Exception_t* ____initializeException;
-	int32_t ___U3CStackTraceUsageU3Ek__BackingField;
-	String_t* ___U3CNameU3Ek__BackingField;
-	bool ___U3COptimizeBufferReuseU3Ek__BackingField;
-	RuntimeObject* ___U3CSyncRootU3Ek__BackingField;
-	LoggingConfiguration_tDFD8B0CD70AC99C266BE74899B1B79EBE1153C15* ___U3CLoggingConfigurationU3Ek__BackingField;
-	bool ____isInitialized;
-	ReusableBuilderCreator_t52E7958E824AC6541429328514982B4421D68B33* ___ReusableLayoutBuilder;
-	StringBuilderPool_t8263CADC0EE6412F00EC898FE820502BE75F68EE* ____precalculateStringBuilderPool;
 };
 struct Template_t61F5EED46705EB208539A4D339FEA05E0D6C1CCB  : public RuntimeObject
 {
@@ -1499,17 +1471,7 @@ struct Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01
 	bool ___hasValue;
 	bool ___value;
 };
-struct Nullable_1_tBD7D507E49FE6F029149A51E5475663C21767BEB 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
 struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 
-{
-	bool ___hasValue;
-	int32_t ___value;
-};
-struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
 {
 	bool ___hasValue;
 	int32_t ___value;
@@ -1564,14 +1526,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17
 {
 	Il2CppChar ___m_value;
 };
-struct CompoundLayout_tA2CA31E03369ADC2D7D9EE6CB7EA44E986376FB4  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
-{
-	RuntimeObject* ___U3CLayoutsU3Ek__BackingField;
-};
-struct CompoundTargetBase_t24C8E29B3295EE3EF7A0ED328BC3AA5752C14E7E  : public Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4
-{
-	RuntimeObject* ___U3CTargetsU3Ek__BackingField;
-};
 struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
 {
 	uint64_t ____dateData;
@@ -1622,30 +1576,6 @@ struct FuncLayoutRenderer_t9D2A012A0AF210B646BBDA489BA57623D639282C  : public La
 	String_t* ___U3CLayoutRendererNameU3Ek__BackingField;
 	String_t* ___U3CFormatU3Ek__BackingField;
 };
-struct Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE 
-{
-	String_t* ___Name;
-	String_t* ___Format;
-	uint8_t ___CaptureType;
-	int16_t ___Index;
-	int16_t ___Alignment;
-};
-struct Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshaled_pinvoke
-{
-	char* ___Name;
-	char* ___Format;
-	uint8_t ___CaptureType;
-	int16_t ___Index;
-	int16_t ___Alignment;
-};
-struct Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshaled_com
-{
-	Il2CppChar* ___Name;
-	Il2CppChar* ___Format;
-	uint8_t ___CaptureType;
-	int16_t ___Index;
-	int16_t ___Alignment;
-};
 struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
 {
 	int16_t ___m_value;
@@ -1662,12 +1592,6 @@ struct LayoutRendererFactory_t080DB814E3BC5EFC20A43AB4FBDFF1C9AC081ECD  : public
 {
 	Dictionary_2_t5D2FA1F194EF1CEEBCB9C0EB1CE3B5D899AAFF8B* ____funcRenderers;
 };
-struct LayoutWithHeaderAndFooter_tA74510FA8F3356B8319D6D31640760AD7ABC7252  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
-{
-	Layout_tA25350804288ADB7D9CE7828DBC7259982993221* ___U3CLayoutU3Ek__BackingField;
-	Layout_tA25350804288ADB7D9CE7828DBC7259982993221* ___U3CHeaderU3Ek__BackingField;
-	Layout_tA25350804288ADB7D9CE7828DBC7259982993221* ___U3CFooterU3Ek__BackingField;
-};
 struct Literal_t311D128D895660C1E9BC78753D47BD95FE543E59 
 {
 	int32_t ___Print;
@@ -1676,10 +1600,6 @@ struct Literal_t311D128D895660C1E9BC78753D47BD95FE543E59
 struct LiteralLayoutRenderer_t0A3A84224BC60C0033A2D242390180CEF50317D4  : public LayoutRenderer_t23167B70FC5E13EB180BD6C5474574B8B4ECFED0
 {
 	String_t* ___U3CTextU3Ek__BackingField;
-};
-struct Log4JXmlEventLayout_t268BF0B16A8876FF6C098E625A71855231498CCB  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
-{
-	Log4JXmlEventLayoutRenderer_t814E12A48FF4648970225CFFF19B83B437248EC5* ___U3CRendererU3Ek__BackingField;
 };
 struct Log4JXmlEventLayoutRenderer_t814E12A48FF4648970225CFFF19B83B437248EC5  : public LayoutRenderer_t23167B70FC5E13EB180BD6C5474574B8B4ECFED0
 {
@@ -1700,27 +1620,6 @@ struct Log4JXmlEventLayoutRenderer_t814E12A48FF4648970225CFFF19B83B437248EC5  : 
 	XmlWriterSettings_t4C33BC8989A2AF592E88EAE69930915E6D960674* ____xmlWriterSettings;
 	RuntimeObject* ___U3CParametersU3Ek__BackingField;
 };
-struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845 
-{
-	String_t* ___U3CNameU3Ek__BackingField;
-	RuntimeObject* ___U3CValueU3Ek__BackingField;
-	String_t* ___U3CFormatU3Ek__BackingField;
-	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
-};
-struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845_marshaled_pinvoke
-{
-	char* ___U3CNameU3Ek__BackingField;
-	Il2CppIUnknown* ___U3CValueU3Ek__BackingField;
-	char* ___U3CFormatU3Ek__BackingField;
-	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
-};
-struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845_marshaled_com
-{
-	Il2CppChar* ___U3CNameU3Ek__BackingField;
-	Il2CppIUnknown* ___U3CValueU3Ek__BackingField;
-	Il2CppChar* ___U3CFormatU3Ek__BackingField;
-	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
-};
 struct MethodBase_t  : public MemberInfo_t
 {
 };
@@ -1734,16 +1633,6 @@ struct OrdinalComparer_tBB06915E213A5D4C8C617ED5478E8BF30C2B2170  : public Strin
 };
 struct PropertyInfo_t  : public MemberInfo_t
 {
-};
-struct SimpleLayout_t2BC4489CCCA8E6CE378D43CA7885F845F6C1F826  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
-{
-	String_t* ____fixedText;
-	String_t* ____layoutText;
-	RuntimeObject* ____rawValueRenderer;
-	RuntimeObject* ____stringValueRenderer;
-	ConfigurationItemFactory_t9FBC36B927AA49E555DF844C919679B1BF42C228* ____configurationItemFactory;
-	String_t* ___U3COriginalTextU3Ek__BackingField;
-	ReadOnlyCollection_1_t92A40110C72943B9286CC083F2CF8EE2EBBC6662* ___U3CRenderersU3Ek__BackingField;
 };
 struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
 {
@@ -1766,35 +1655,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 struct WrapperLayoutRendererBase_tADD5BDE6C849E3DD814B5C197DCCFEA0846FD34D  : public LayoutRenderer_t23167B70FC5E13EB180BD6C5474574B8B4ECFED0
 {
 	Layout_tA25350804288ADB7D9CE7828DBC7259982993221* ___U3CInnerU3Ek__BackingField;
-};
-struct WrapperTargetBase_t65ECBD4415EC583862A8496BC2F574C9226E0B06  : public Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4
-{
-	Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4* ___U3CWrappedTargetU3Ek__BackingField;
-};
-struct XmlElementBase_t51D6DF1860C2C6D099F0375ED3D81EC1570C72E7  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
-{
-	String_t* ____elementNameInternal;
-	XmlEncodeLayoutRendererWrapper_t8E2CD0499C35214C407338B12A2358488FB773B9* ___LayoutWrapper;
-	bool ___U3CIndentXmlU3Ek__BackingField;
-	RuntimeObject* ___U3CElementsU3Ek__BackingField;
-	RuntimeObject* ___U3CAttributesU3Ek__BackingField;
-	bool ___U3CIncludeEmptyValueU3Ek__BackingField;
-	bool ___U3CIncludeMdcU3Ek__BackingField;
-	bool ___U3CIncludeMdlcU3Ek__BackingField;
-	bool ___U3CIncludeAllPropertiesU3Ek__BackingField;
-	RuntimeObject* ___U3CExcludePropertiesU3Ek__BackingField;
-	String_t* ____propertiesElementName;
-	bool ____propertiesElementNameHasFormat;
-	String_t* ___U3CPropertiesElementKeyAttributeU3Ek__BackingField;
-	String_t* ___U3CPropertiesElementValueAttributeU3Ek__BackingField;
-	String_t* ___U3CPropertiesCollectionItemNameU3Ek__BackingField;
-	int32_t ___U3CMaxRecursionLimitU3Ek__BackingField;
-	ObjectReflectionCache_tEFA784743B93DC0042CA63101F31C778CAF6FEC6* ____objectReflectionCache;
-};
-struct CsvHeaderLayout_t1F221EB563D09AB643E43C6E6F61BD4D8775531C  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
-{
-	CsvLayout_tECAC1451B5A35C43F1D30554149DFA0B136956C5* ____parent;
-	String_t* ____headerOutput;
 };
 struct DictionaryEntryEnumerator_tCDF17FB90C22C456589472E05FD1DD55DC036578 
 {
@@ -1844,25 +1704,6 @@ struct ItemHolder_tCCB0361EB2CF9E4D30F372E212E37F616DB59BD5_marshaled_com
 	StringBuilderPool_t8263CADC0EE6412F00EC898FE820502BE75F68EE* ____owner;
 	int32_t ____poolIndex;
 };
-struct FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 
-{
-	int32_t ___Flags;
-	int32_t ___Mode;
-	uint32_t ___Uid;
-	uint32_t ___Gid;
-	int64_t ___Size;
-	int64_t ___ATime;
-	int64_t ___ATimeNsec;
-	int64_t ___MTime;
-	int64_t ___MTimeNsec;
-	int64_t ___CTime;
-	int64_t ___CTimeNsec;
-	int64_t ___BirthTime;
-	int64_t ___BirthTimeNsec;
-	int64_t ___Dev;
-	int64_t ___Ino;
-	uint32_t ___UserFlags;
-};
 struct Enumerator_t49AE3550582C7B9C26CB721FE202FFEEE461A955 
 {
 	RuntimeObject* ____owner;
@@ -1887,24 +1728,6 @@ struct Enumerator_t49AE3550582C7B9C26CB721FE202FFEEE461A955_marshaled_com
 	RuntimeObject* ____enumerator;
 	int32_t ____index;
 };
-struct PropertyValue_t1FF507D1D5F5A2968C8D10FC76767825AE51D437 
-{
-	String_t* ___Name;
-	RuntimeObject* ___Value;
-	int32_t ____typecode;
-};
-struct PropertyValue_t1FF507D1D5F5A2968C8D10FC76767825AE51D437_marshaled_pinvoke
-{
-	char* ___Name;
-	Il2CppIUnknown* ___Value;
-	int32_t ____typecode;
-};
-struct PropertyValue_t1FF507D1D5F5A2968C8D10FC76767825AE51D437_marshaled_com
-{
-	Il2CppChar* ___Name;
-	Il2CppIUnknown* ___Value;
-	int32_t ____typecode;
-};
 struct AmbientPropertyAttribute_t5437DD209A30EB91D4CDB2735AB4D0D2DD807843  : public NameBaseAttribute_t813F51FADBA64E4CF4691F09C5DA910917E17E39
 {
 };
@@ -1923,6 +1746,10 @@ struct AppendBuilderCreator_t26C63A90E18D74B01876AF68C900C5969153DC14_marshaled_
 	Il2CppChar* ____appendTarget;
 	ItemHolder_tCCB0361EB2CF9E4D30F372E212E37F616DB59BD5_marshaled_com ____builder;
 };
+struct ArchiveNumberingMode_tD9A4FB2C1E02C25F78C609B8B7AD9F04FBEE0D2A 
+{
+	int32_t ___value__;
+};
 struct CallSiteInformation_t76E27324FC35DFC9D9A01C9B9200DC8B7882BA07  : public RuntimeObject
 {
 	int32_t ___U3CUserStackFrameNumberU3Ek__BackingField;
@@ -1933,23 +1760,17 @@ struct CallSiteInformation_t76E27324FC35DFC9D9A01C9B9200DC8B7882BA07  : public R
 	String_t* ___U3CCallerFilePathU3Ek__BackingField;
 	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CCallerLineNumberU3Ek__BackingField;
 };
-struct CsvColumn_t0C00462D329F7B2D898D052CA99EAE9143FF7D2C  : public RuntimeObject
+struct CaptureType_t54B918E77372FE3F6241CDF068B3DBD63BAEF120 
 {
-	String_t* ___U3CNameU3Ek__BackingField;
-	Layout_tA25350804288ADB7D9CE7828DBC7259982993221* ___U3CLayoutU3Ek__BackingField;
-	Nullable_1_tBD7D507E49FE6F029149A51E5475663C21767BEB ____quoting;
+	uint8_t ___value__;
 };
-struct CsvLayout_tECAC1451B5A35C43F1D30554149DFA0B136956C5  : public LayoutWithHeaderAndFooter_tA74510FA8F3356B8319D6D31640760AD7ABC7252
+struct CsvColumnDelimiterMode_t7C645E3FC72224E19C6A9CCD2126331A635B7826 
 {
-	String_t* ____actualColumnDelimiter;
-	String_t* ____doubleQuoteChar;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____quotableCharacters;
-	RuntimeObject* ___U3CColumnsU3Ek__BackingField;
-	bool ___U3CWithHeaderU3Ek__BackingField;
-	int32_t ___U3CDelimiterU3Ek__BackingField;
-	int32_t ___U3CQuotingU3Ek__BackingField;
-	String_t* ___U3CQuoteCharU3Ek__BackingField;
-	String_t* ___U3CCustomColumnDelimiterU3Ek__BackingField;
+	int32_t ___value__;
+};
+struct CsvQuotingMode_t1AC1F3C4F25291B911CB7FB7028C346C1851E8AF 
+{
+	int32_t ___value__;
 };
 struct DateAndSequenceArchive_tF98D77AAD3F7946978154CD34E500E403E12E63E  : public RuntimeObject
 {
@@ -1957,6 +1778,14 @@ struct DateAndSequenceArchive_tF98D77AAD3F7946978154CD34E500E403E12E63E  : publi
 	String_t* ___U3CFileNameU3Ek__BackingField;
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___U3CDateU3Ek__BackingField;
 	int32_t ___U3CSequenceU3Ek__BackingField;
+};
+struct DateTimeKind_t3AD6DA06BEF8955A740777163FFB481C19089BBC 
+{
+	int32_t ___value__;
+};
+struct DateTimeStyles_t68D2C41B347837759F064D04F256AC268AF50465 
+{
+	int32_t ___value__;
 };
 struct Delegate_t  : public RuntimeObject
 {
@@ -2069,69 +1898,22 @@ struct FileArchiveModeBase_t2A072FCD170AB05C9EFEA7208131C035503D7003  : public R
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ____oldestArchiveFileDate;
 	bool ___U3CIsArchiveCleanupEnabledU3Ek__BackingField;
 };
-struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
-{
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
-	int32_t ____fileStatusInitialized;
-	bool ___U3CInitiallyDirectoryU3Ek__BackingField;
-	bool ____isDirectory;
-	bool ____exists;
-};
-struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
-{
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
-	int32_t ____fileStatusInitialized;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
-	int32_t ____isDirectory;
-	int32_t ____exists;
-};
-struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
-{
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
-	int32_t ____fileStatusInitialized;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
-	int32_t ____isDirectory;
-	int32_t ____exists;
-};
 struct FuncThreadAgnosticLayoutRenderer_tE2F1332796BAB40739DE270AA23F8701B5195C14  : public FuncLayoutRenderer_t9D2A012A0AF210B646BBDA489BA57623D639282C
 {
 };
 struct FuncThreadSafeLayoutRenderer_t1401B36F21948AA70EEAFDBEF1F55709D20BC094  : public FuncLayoutRenderer_t9D2A012A0AF210B646BBDA489BA57623D639282C
 {
 };
-struct JsonLayout_t5CDBE58CB3B8EEE86DD177E1C10E5D60396B2506  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
 {
-	LimitRecursionJsonConvert_t56076995BA2CC77C95B9DBDFB0AEE42AD25877F0* ____jsonConverter;
-	RuntimeObject* ____valueFormatter;
-	RuntimeObject* ___U3CAttributesU3Ek__BackingField;
-	bool ___U3CSuppressSpacesU3Ek__BackingField;
-	bool ___U3CRenderEmptyObjectU3Ek__BackingField;
-	bool ___U3CIncludeGdcU3Ek__BackingField;
-	bool ___U3CIncludeMdcU3Ek__BackingField;
-	bool ___U3CIncludeMdlcU3Ek__BackingField;
-	bool ___U3CIncludeAllPropertiesU3Ek__BackingField;
-	bool ___U3CExcludeEmptyPropertiesU3Ek__BackingField;
-	RuntimeObject* ___U3CExcludePropertiesU3Ek__BackingField;
-	int32_t ___U3CMaxRecursionLimitU3Ek__BackingField;
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____escapeForwardSlashInternal;
+	int32_t ___value__;
 };
 struct LayoutAttribute_tBE35537D5923F456D3BBD0DC9325198B16540998  : public NameBaseAttribute_t813F51FADBA64E4CF4691F09C5DA910917E17E39
 {
 };
-struct LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141 
+struct LayoutRenderOptions_tF68EF21B7592811660F9904B2AE7A1A27DF46B6E 
 {
-	Literal_t311D128D895660C1E9BC78753D47BD95FE543E59 ___Literal;
-	Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE ___Hole;
-};
-struct LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141_marshaled_pinvoke
-{
-	Literal_t311D128D895660C1E9BC78753D47BD95FE543E59 ___Literal;
-	Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshaled_pinvoke ___Hole;
-};
-struct LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141_marshaled_com
-{
-	Literal_t311D128D895660C1E9BC78753D47BD95FE543E59 ___Literal;
-	Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshaled_com ___Hole;
+	int32_t ___value__;
 };
 struct LogEventInfo_t0D46B012CC61C9446F0D58F06158DB50C3011BB1  : public RuntimeObject
 {
@@ -2152,22 +1934,16 @@ struct LogEventInfo_t0D46B012CC61C9446F0D58F06158DB50C3011BB1  : public RuntimeO
 struct MethodInfo_t  : public MethodBase_t
 {
 };
+struct MidpointRounding_tD36CC4DADEF14C2D917E671961CEF65DB159DC30 
+{
+	int32_t ___value__;
+};
+struct NumberStyles_t567C6CBC2A2B5B5A2C43B2855D158949984A810C 
+{
+	int32_t ___value__;
+};
 struct OrdinalIgnoreCaseComparer_t8BAE11990A4C855D3BCBBFB42F4EF8D45088FBB0  : public OrdinalComparer_tBB06915E213A5D4C8C617ED5478E8BF30C2B2170
 {
-};
-struct RepeatingTargetWrapper_t6E9717979845B8DB1A28240BD779023495284932  : public WrapperTargetBase_t65ECBD4415EC583862A8496BC2F574C9226E0B06
-{
-	int32_t ___U3CRepeatCountU3Ek__BackingField;
-};
-struct RetryingTargetWrapper_t04E2618351D79FB372B84D6E92C7B0CCC6650EC1  : public WrapperTargetBase_t65ECBD4415EC583862A8496BC2F574C9226E0B06
-{
-	int32_t ___U3CRetryCountU3Ek__BackingField;
-	int32_t ___U3CRetryDelayMillisecondsU3Ek__BackingField;
-	RuntimeObject* ____retrySyncObject;
-};
-struct RoundRobinGroupTarget_t1DB75EB4EA3ED4AD14458D11AFC8D8665B887A25  : public CompoundTargetBase_t24C8E29B3295EE3EF7A0ED328BC3AA5752C14E7E
-{
-	int32_t ____currentTarget;
 };
 struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
 {
@@ -2177,8 +1953,17 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 {
 	intptr_t ___value;
 };
-struct SplitGroupTarget_t2872717E2D5D38B4339E347FC0B4905D0C62D5E9  : public CompoundTargetBase_t24C8E29B3295EE3EF7A0ED328BC3AA5752C14E7E
+struct StackTraceUsage_tF55FB60C97397DAC95106109DCC8622FE1BFD5B2 
 {
+	int32_t ___value__;
+};
+struct StringComparison_tE14A55CCFA001A5AC85D754179BF2888F45CC94D 
+{
+	int32_t ___value__;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
 };
 struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4  : public RuntimeObject
 {
@@ -2193,19 +1978,17 @@ struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4  : public RuntimeObjec
 	bool ___m_useUserOverride;
 	int32_t ___m_win32LangID;
 };
-struct WrapperLayoutRendererBuilderBase_tD2B684F87E7ADC7C691BDD44B77EB8C01A9309E3  : public WrapperLayoutRendererBase_tADD5BDE6C849E3DD814B5C197DCCFEA0846FD34D
+struct TypeCode_tBEF9BE86C8BCF5A6B82F3381219738D27804EF79 
 {
+	int32_t ___value__;
 };
-struct XmlElement_tE01508DD4C97C032F8FED50A6BF851A1548C5A8F  : public XmlElementBase_t51D6DF1860C2C6D099F0375ED3D81EC1570C72E7
+struct WrapperLayoutRendererBuilderBase_tD2B684F87E7ADC7C691BDD44B77EB8C01A9309E3  : public WrapperLayoutRendererBase_tADD5BDE6C849E3DD814B5C197DCCFEA0846FD34D
 {
 };
 struct XmlEncodeLayoutRendererWrapper_t8E2CD0499C35214C407338B12A2358488FB773B9  : public WrapperLayoutRendererBase_tADD5BDE6C849E3DD814B5C197DCCFEA0846FD34D
 {
 	bool ___U3CXmlEncodeU3Ek__BackingField;
 	bool ___U3CXmlEncodeNewlinesU3Ek__BackingField;
-};
-struct XmlLayout_tADA6FD0DE1372AB04D33A4DE8A06E5F514171745  : public XmlElementBase_t51D6DF1860C2C6D099F0375ED3D81EC1570C72E7
-{
 };
 struct U3CU3Ec__DisplayClass7_0_t6A7E401C6EE7EA544F3093ED96A39C3F87691EBF  : public RuntimeObject
 {
@@ -2218,6 +2001,20 @@ struct U3CU3Ec__DisplayClass14_0_t20BAEFA0118CBD8DDC80255B7D27D3A4436FC87E  : pu
 	int32_t ___counter;
 	RetryingTargetWrapper_t04E2618351D79FB372B84D6E92C7B0CCC6650EC1* ___U3CU3E4__this;
 	AsyncContinuation_tC47CF007B38ABE211301C5051668E3580F234DC1* ___continuation;
+};
+struct FileStatusFlags_tB53E2B9A54305CDCEA49884DEEDB8C62C8ACC9C9 
+{
+	int32_t ___value__;
+};
+struct Nullable_1_tBD7D507E49FE6F029149A51E5475663C21767BEB 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
+{
+	bool ___hasValue;
+	int32_t ___value;
 };
 struct FileArchiveModeDate_tB29A5067893AB4353A1933D401B749965E274E4A  : public FileArchiveModeBase_t2A072FCD170AB05C9EFEA7208131C035503D7003
 {
@@ -2237,18 +2034,67 @@ struct FileArchiveModeSequence_tB593F2D5CC8948D8A8777BD736A1632A27C8F935  : publ
 {
 	String_t* ____archiveDateFormat;
 };
-struct FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+struct Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE 
 {
-	FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 ____fileStatus;
-	String_t* ___FullPath;
-	String_t* ___OriginalPath;
-	String_t* ____name;
+	String_t* ___Name;
+	String_t* ___Format;
+	uint8_t ___CaptureType;
+	int16_t ___Index;
+	int16_t ___Alignment;
+};
+struct Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshaled_pinvoke
+{
+	char* ___Name;
+	char* ___Format;
+	uint8_t ___CaptureType;
+	int16_t ___Index;
+	int16_t ___Alignment;
+};
+struct Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshaled_com
+{
+	Il2CppChar* ___Name;
+	Il2CppChar* ___Format;
+	uint8_t ___CaptureType;
+	int16_t ___Index;
+	int16_t ___Alignment;
 };
 struct JsonEncodeLayoutRendererWrapper_t50C920E0F8CACA3657929C86BC944E8402DF82CD  : public WrapperLayoutRendererBuilderBase_tD2B684F87E7ADC7C691BDD44B77EB8C01A9309E3
 {
 	bool ___U3CJsonEncodeU3Ek__BackingField;
 	bool ___U3CEscapeUnicodeU3Ek__BackingField;
 	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___EscapeForwardSlashInternal;
+};
+struct Layout_tA25350804288ADB7D9CE7828DBC7259982993221  : public RuntimeObject
+{
+	bool ___IsInitialized;
+	bool ____scannedForObjects;
+	bool ___U3CThreadAgnosticU3Ek__BackingField;
+	bool ___U3CThreadSafeU3Ek__BackingField;
+	bool ___U3CMutableUnsafeU3Ek__BackingField;
+	int32_t ___U3CStackTraceUsageU3Ek__BackingField;
+	int32_t ____maxRenderedLength;
+	LoggingConfiguration_tDFD8B0CD70AC99C266BE74899B1B79EBE1153C15* ___U3CLoggingConfigurationU3Ek__BackingField;
+};
+struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845 
+{
+	String_t* ___U3CNameU3Ek__BackingField;
+	RuntimeObject* ___U3CValueU3Ek__BackingField;
+	String_t* ___U3CFormatU3Ek__BackingField;
+	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
+};
+struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845_marshaled_pinvoke
+{
+	char* ___U3CNameU3Ek__BackingField;
+	Il2CppIUnknown* ___U3CValueU3Ek__BackingField;
+	char* ___U3CFormatU3Ek__BackingField;
+	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
+};
+struct MessageTemplateParameter_t945681C78A7E7286E137B1C2FDA13A2D052FE845_marshaled_com
+{
+	Il2CppChar* ___U3CNameU3Ek__BackingField;
+	Il2CppIUnknown* ___U3CValueU3Ek__BackingField;
+	Il2CppChar* ___U3CFormatU3Ek__BackingField;
+	uint8_t ___U3CCaptureTypeU3Ek__BackingField;
 };
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -2268,29 +2114,22 @@ struct NLogConfigurationException_t4B914099F729257095BEC0C61E1ED0819D55227F  : p
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
 };
-struct TemplateEnumerator_t098CB342184246D74AA8EF9A40EBDCD907A6EF60 
+struct Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4  : public RuntimeObject
 {
-	String_t* ____template;
-	int32_t ____length;
-	int32_t ____position;
-	int32_t ____literalLength;
-	LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141 ____current;
-};
-struct TemplateEnumerator_t098CB342184246D74AA8EF9A40EBDCD907A6EF60_marshaled_pinvoke
-{
-	char* ____template;
-	int32_t ____length;
-	int32_t ____position;
-	int32_t ____literalLength;
-	LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141_marshaled_pinvoke ____current;
-};
-struct TemplateEnumerator_t098CB342184246D74AA8EF9A40EBDCD907A6EF60_marshaled_com
-{
-	Il2CppChar* ____template;
-	int32_t ____length;
-	int32_t ____position;
-	int32_t ____literalLength;
-	LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141_marshaled_com ____current;
+	List_1_t695E6D1360A9E4C1DDAAED83EF2C4021E68E8AB8* ____allLayouts;
+	bool ____allLayoutsAreThreadAgnostic;
+	bool ____allLayoutsAreThreadSafe;
+	bool ____oneLayoutIsMutableUnsafe;
+	bool ____scannedForLayouts;
+	Exception_t* ____initializeException;
+	int32_t ___U3CStackTraceUsageU3Ek__BackingField;
+	String_t* ___U3CNameU3Ek__BackingField;
+	bool ___U3COptimizeBufferReuseU3Ek__BackingField;
+	RuntimeObject* ___U3CSyncRootU3Ek__BackingField;
+	LoggingConfiguration_tDFD8B0CD70AC99C266BE74899B1B79EBE1153C15* ___U3CLoggingConfigurationU3Ek__BackingField;
+	bool ____isInitialized;
+	ReusableBuilderCreator_t52E7958E824AC6541429328514982B4421D68B33* ___ReusableLayoutBuilder;
+	StringBuilderPool_t8263CADC0EE6412F00EC898FE820502BE75F68EE* ____precalculateStringBuilderPool;
 };
 struct TemplateParserException_t1B7C8991BE0576FAE29AAB42053F7B11F42DC6F2  : public Exception_t
 {
@@ -2300,6 +2139,43 @@ struct TemplateParserException_t1B7C8991BE0576FAE29AAB42053F7B11F42DC6F2  : publ
 struct Type_t  : public MemberInfo_t
 {
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 
+{
+	int32_t ___Flags;
+	int32_t ___Mode;
+	uint32_t ___Uid;
+	uint32_t ___Gid;
+	int64_t ___Size;
+	int64_t ___ATime;
+	int64_t ___ATimeNsec;
+	int64_t ___MTime;
+	int64_t ___MTimeNsec;
+	int64_t ___CTime;
+	int64_t ___CTimeNsec;
+	int64_t ___BirthTime;
+	int64_t ___BirthTimeNsec;
+	int64_t ___Dev;
+	int64_t ___Ino;
+	uint32_t ___UserFlags;
+};
+struct PropertyValue_t1FF507D1D5F5A2968C8D10FC76767825AE51D437 
+{
+	String_t* ___Name;
+	RuntimeObject* ___Value;
+	int32_t ____typecode;
+};
+struct PropertyValue_t1FF507D1D5F5A2968C8D10FC76767825AE51D437_marshaled_pinvoke
+{
+	char* ___Name;
+	Il2CppIUnknown* ___Value;
+	int32_t ____typecode;
+};
+struct PropertyValue_t1FF507D1D5F5A2968C8D10FC76767825AE51D437_marshaled_com
+{
+	Il2CppChar* ___Name;
+	Il2CppIUnknown* ___Value;
+	int32_t ____typecode;
 };
 struct Comparison_1_t4320037F788852405E4EA4A8AEDFC78675ED7DEE  : public MulticastDelegate_t
 {
@@ -2359,11 +2235,43 @@ struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public Sys
 struct AsyncContinuation_tC47CF007B38ABE211301C5051668E3580F234DC1  : public MulticastDelegate_t
 {
 };
-struct DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
+struct CompoundLayout_tA2CA31E03369ADC2D7D9EE6CB7EA44E986376FB4  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
 {
+	RuntimeObject* ___U3CLayoutsU3Ek__BackingField;
 };
-struct FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
+struct CompoundTargetBase_t24C8E29B3295EE3EF7A0ED328BC3AA5752C14E7E  : public Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4
 {
+	RuntimeObject* ___U3CTargetsU3Ek__BackingField;
+};
+struct CsvColumn_t0C00462D329F7B2D898D052CA99EAE9143FF7D2C  : public RuntimeObject
+{
+	String_t* ___U3CNameU3Ek__BackingField;
+	Layout_tA25350804288ADB7D9CE7828DBC7259982993221* ___U3CLayoutU3Ek__BackingField;
+	Nullable_1_tBD7D507E49FE6F029149A51E5475663C21767BEB ____quoting;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	bool ___U3CInitiallyDirectoryU3Ek__BackingField;
+	bool ____isDirectory;
+	bool ____exists;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
+	int32_t ____isDirectory;
+	int32_t ____exists;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
+	int32_t ____isDirectory;
+	int32_t ____exists;
 };
 struct FormatException_tCD210E92627903FFEDAAA706C08FB6222B4D012B  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -2371,10 +2279,162 @@ struct FormatException_tCD210E92627903FFEDAAA706C08FB6222B4D012B  : public Syste
 struct IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
+struct JsonLayout_t5CDBE58CB3B8EEE86DD177E1C10E5D60396B2506  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
+{
+	LimitRecursionJsonConvert_t56076995BA2CC77C95B9DBDFB0AEE42AD25877F0* ____jsonConverter;
+	RuntimeObject* ____valueFormatter;
+	RuntimeObject* ___U3CAttributesU3Ek__BackingField;
+	bool ___U3CSuppressSpacesU3Ek__BackingField;
+	bool ___U3CRenderEmptyObjectU3Ek__BackingField;
+	bool ___U3CIncludeGdcU3Ek__BackingField;
+	bool ___U3CIncludeMdcU3Ek__BackingField;
+	bool ___U3CIncludeMdlcU3Ek__BackingField;
+	bool ___U3CIncludeAllPropertiesU3Ek__BackingField;
+	bool ___U3CExcludeEmptyPropertiesU3Ek__BackingField;
+	RuntimeObject* ___U3CExcludePropertiesU3Ek__BackingField;
+	int32_t ___U3CMaxRecursionLimitU3Ek__BackingField;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____escapeForwardSlashInternal;
+};
+struct LayoutWithHeaderAndFooter_tA74510FA8F3356B8319D6D31640760AD7ABC7252  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
+{
+	Layout_tA25350804288ADB7D9CE7828DBC7259982993221* ___U3CLayoutU3Ek__BackingField;
+	Layout_tA25350804288ADB7D9CE7828DBC7259982993221* ___U3CHeaderU3Ek__BackingField;
+	Layout_tA25350804288ADB7D9CE7828DBC7259982993221* ___U3CFooterU3Ek__BackingField;
+};
+struct LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141 
+{
+	Literal_t311D128D895660C1E9BC78753D47BD95FE543E59 ___Literal;
+	Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE ___Hole;
+};
+struct LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141_marshaled_pinvoke
+{
+	Literal_t311D128D895660C1E9BC78753D47BD95FE543E59 ___Literal;
+	Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshaled_pinvoke ___Hole;
+};
+struct LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141_marshaled_com
+{
+	Literal_t311D128D895660C1E9BC78753D47BD95FE543E59 ___Literal;
+	Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshaled_com ___Hole;
+};
+struct Log4JXmlEventLayout_t268BF0B16A8876FF6C098E625A71855231498CCB  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
+{
+	Log4JXmlEventLayoutRenderer_t814E12A48FF4648970225CFFF19B83B437248EC5* ___U3CRendererU3Ek__BackingField;
+};
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
+struct SimpleLayout_t2BC4489CCCA8E6CE378D43CA7885F845F6C1F826  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
+{
+	String_t* ____fixedText;
+	String_t* ____layoutText;
+	RuntimeObject* ____rawValueRenderer;
+	RuntimeObject* ____stringValueRenderer;
+	ConfigurationItemFactory_t9FBC36B927AA49E555DF844C919679B1BF42C228* ____configurationItemFactory;
+	String_t* ___U3COriginalTextU3Ek__BackingField;
+	ReadOnlyCollection_1_t92A40110C72943B9286CC083F2CF8EE2EBBC6662* ___U3CRenderersU3Ek__BackingField;
+};
+struct WrapperTargetBase_t65ECBD4415EC583862A8496BC2F574C9226E0B06  : public Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4
+{
+	Target_t5232EA59E5CD86604CFF3F01F0CB89071485B1D4* ___U3CWrappedTargetU3Ek__BackingField;
+};
+struct XmlElementBase_t51D6DF1860C2C6D099F0375ED3D81EC1570C72E7  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
+{
+	String_t* ____elementNameInternal;
+	XmlEncodeLayoutRendererWrapper_t8E2CD0499C35214C407338B12A2358488FB773B9* ___LayoutWrapper;
+	bool ___U3CIndentXmlU3Ek__BackingField;
+	RuntimeObject* ___U3CElementsU3Ek__BackingField;
+	RuntimeObject* ___U3CAttributesU3Ek__BackingField;
+	bool ___U3CIncludeEmptyValueU3Ek__BackingField;
+	bool ___U3CIncludeMdcU3Ek__BackingField;
+	bool ___U3CIncludeMdlcU3Ek__BackingField;
+	bool ___U3CIncludeAllPropertiesU3Ek__BackingField;
+	RuntimeObject* ___U3CExcludePropertiesU3Ek__BackingField;
+	String_t* ____propertiesElementName;
+	bool ____propertiesElementNameHasFormat;
+	String_t* ___U3CPropertiesElementKeyAttributeU3Ek__BackingField;
+	String_t* ___U3CPropertiesElementValueAttributeU3Ek__BackingField;
+	String_t* ___U3CPropertiesCollectionItemNameU3Ek__BackingField;
+	int32_t ___U3CMaxRecursionLimitU3Ek__BackingField;
+	ObjectReflectionCache_tEFA784743B93DC0042CA63101F31C778CAF6FEC6* ____objectReflectionCache;
+};
+struct CsvHeaderLayout_t1F221EB563D09AB643E43C6E6F61BD4D8775531C  : public Layout_tA25350804288ADB7D9CE7828DBC7259982993221
+{
+	CsvLayout_tECAC1451B5A35C43F1D30554149DFA0B136956C5* ____parent;
+	String_t* ____headerOutput;
+};
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+};
+struct CsvLayout_tECAC1451B5A35C43F1D30554149DFA0B136956C5  : public LayoutWithHeaderAndFooter_tA74510FA8F3356B8319D6D31640760AD7ABC7252
+{
+	String_t* ____actualColumnDelimiter;
+	String_t* ____doubleQuoteChar;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____quotableCharacters;
+	RuntimeObject* ___U3CColumnsU3Ek__BackingField;
+	bool ___U3CWithHeaderU3Ek__BackingField;
+	int32_t ___U3CDelimiterU3Ek__BackingField;
+	int32_t ___U3CQuotingU3Ek__BackingField;
+	String_t* ___U3CQuoteCharU3Ek__BackingField;
+	String_t* ___U3CCustomColumnDelimiterU3Ek__BackingField;
+};
+struct FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+{
+	FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 ____fileStatus;
+	String_t* ___FullPath;
+	String_t* ___OriginalPath;
+	String_t* ____name;
+};
+struct RepeatingTargetWrapper_t6E9717979845B8DB1A28240BD779023495284932  : public WrapperTargetBase_t65ECBD4415EC583862A8496BC2F574C9226E0B06
+{
+	int32_t ___U3CRepeatCountU3Ek__BackingField;
+};
+struct RetryingTargetWrapper_t04E2618351D79FB372B84D6E92C7B0CCC6650EC1  : public WrapperTargetBase_t65ECBD4415EC583862A8496BC2F574C9226E0B06
+{
+	int32_t ___U3CRetryCountU3Ek__BackingField;
+	int32_t ___U3CRetryDelayMillisecondsU3Ek__BackingField;
+	RuntimeObject* ____retrySyncObject;
+};
+struct RoundRobinGroupTarget_t1DB75EB4EA3ED4AD14458D11AFC8D8665B887A25  : public CompoundTargetBase_t24C8E29B3295EE3EF7A0ED328BC3AA5752C14E7E
+{
+	int32_t ____currentTarget;
+};
+struct SplitGroupTarget_t2872717E2D5D38B4339E347FC0B4905D0C62D5E9  : public CompoundTargetBase_t24C8E29B3295EE3EF7A0ED328BC3AA5752C14E7E
+{
+};
+struct TemplateEnumerator_t098CB342184246D74AA8EF9A40EBDCD907A6EF60 
+{
+	String_t* ____template;
+	int32_t ____length;
+	int32_t ____position;
+	int32_t ____literalLength;
+	LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141 ____current;
+};
+struct TemplateEnumerator_t098CB342184246D74AA8EF9A40EBDCD907A6EF60_marshaled_pinvoke
+{
+	char* ____template;
+	int32_t ____length;
+	int32_t ____position;
+	int32_t ____literalLength;
+	LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141_marshaled_pinvoke ____current;
+};
+struct TemplateEnumerator_t098CB342184246D74AA8EF9A40EBDCD907A6EF60_marshaled_com
+{
+	Il2CppChar* ____template;
+	int32_t ____length;
+	int32_t ____position;
+	int32_t ____literalLength;
+	LiteralHole_t15CAC81D5FAD0131C7F8BCC14438EAD549E6B141_marshaled_com ____current;
+};
+struct XmlElement_tE01508DD4C97C032F8FED50A6BF851A1548C5A8F  : public XmlElementBase_t51D6DF1860C2C6D099F0375ED3D81EC1570C72E7
+{
+};
+struct XmlLayout_tADA6FD0DE1372AB04D33A4DE8A06E5F514171745  : public XmlElementBase_t51D6DF1860C2C6D099F0375ED3D81EC1570C72E7
+{
+};
+struct DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
+{
+};
+struct FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
 {
 };
 struct EmptyArray_1_t81141446900572C5BAF5A93CB38B498950E668E7_StaticFields
@@ -2614,10 +2674,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue;
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue;
 };
-struct XmlElementBase_t51D6DF1860C2C6D099F0375ED3D81EC1570C72E7_StaticFields
-{
-	RuntimeObject* ____referenceEqualsComparer;
-};
 struct ObjectPropertyList_tEFBA1A32B982FAA4FCE25D00D3B3589065222FFE_StaticFields
 {
 	StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06* ___NameComparer;
@@ -2646,11 +2702,6 @@ struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4_StaticFields
 {
 	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___s_Invariant;
 };
-struct TemplateEnumerator_t098CB342184246D74AA8EF9A40EBDCD907A6EF60_StaticFields
-{
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HoleDelimiters;
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___TextDelimiters;
-};
 struct Type_t_StaticFields
 {
 	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
@@ -2660,6 +2711,15 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct XmlElementBase_t51D6DF1860C2C6D099F0375ED3D81EC1570C72E7_StaticFields
+{
+	RuntimeObject* ____referenceEqualsComparer;
+};
+struct TemplateEnumerator_t098CB342184246D74AA8EF9A40EBDCD907A6EF60_StaticFields
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HoleDelimiters;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___TextDelimiters;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -10081,6 +10141,14 @@ IL_0046:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C void Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshal_pinvoke(const Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE& unmarshaled, Hole_tD61A83747654D1441CD57C7740BE12FDC84493DE_marshaled_pinvoke& marshaled)
 {
 	marshaled.___Name = il2cpp_codegen_marshal_string(unmarshaled.___Name);
@@ -16218,6 +16286,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CsvColumn_set_Quoting_mDC2F8A31F1B307E95
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CsvLayout__ctor_m7A66809413777ED7402E25704B0FFF78B8CCA5B1 (CsvLayout_tECAC1451B5A35C43F1D30554149DFA0B136956C5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17193,6 +17269,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CToStringU3Eb__36_0_m882E
 		return L_1;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -23394,6 +23478,14 @@ IL_000e:
 		return (bool)1;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
