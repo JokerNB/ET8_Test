@@ -2,7 +2,7 @@ namespace ET.Server
 {
     [MessageSessionHandler(SceneType.Gate)]
     [FriendOfAttribute(typeof(ET.Server.AccountInfo))]
-    public class C2R_ChangeNickNameHandler : MessageSessionHandler<C2G_ChangeNickName,G2C_ChangeNickName>
+    public class C2G_ChangeNickNameHandler : MessageSessionHandler<C2G_ChangeNickName,G2C_ChangeNickName>
     {
         protected override async ETTask Run(Session session, C2G_ChangeNickName request, G2C_ChangeNickName response)
         {

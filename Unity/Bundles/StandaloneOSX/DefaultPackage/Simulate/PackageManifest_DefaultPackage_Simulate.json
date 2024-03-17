@@ -87,34 +87,6 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Code/Hotfix.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/Code/Hotfix.pdb.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/Code/Model.dll.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/Code/Model.pdb.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 1
-        },
-        {
-            "Address": "",
             "AssetPath": "Assets/Bundles/Code/Unity.Hotfix.dll.bytes",
             "AssetGUID": "",
             "AssetTags": [],
@@ -178,91 +150,49 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/difficultyhappycategroy.bytes",
+            "AssetPath": "Assets/Bundles/Config/DifficultyHappyCategroy.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/difficultynormalcategory.bytes",
+            "AssetPath": "Assets/Bundles/Config/DifficultyNormalCategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/herocategory.bytes",
+            "AssetPath": "Assets/Bundles/Config/HeroCategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/localizeconfig_excel_chscategory.bytes",
+            "AssetPath": "Assets/Bundles/Config/ModelCategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/localizeconfig_excel_chtcategory.bytes",
+            "AssetPath": "Assets/Bundles/Config/RandomNameCategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/localizeconfig_excel_encategory.bytes",
+            "AssetPath": "Assets/Bundles/Config/ResourceExtraBossCategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/localizeconfig_ui_chscategory.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 2
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/Config/localizeconfig_ui_chtcategory.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 2
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/Config/localizeconfig_ui_encategory.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 2
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/Config/modelcategory.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 2
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/Config/randomnamecategory.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 2
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/Config/resourceextrabosscategory.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 2
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/Config/resourcemonstercategory.bytes",
+            "AssetPath": "Assets/Bundles/Config/ResourceMonsterCategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 2
@@ -1590,7 +1520,7 @@
             "UnityCRC": 0,
             "FileHash": "0599e55fc290679a00917188a9ae55be",
             "FileCRC": "00000000",
-            "FileSize": 14380544,
+            "FileSize": 14374400,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -1600,7 +1530,7 @@
             "UnityCRC": 0,
             "FileHash": "5816e44a2c151f7d61a751556d9b4194",
             "FileCRC": "00000000",
-            "FileSize": 2176260,
+            "FileSize": 1010224,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -1610,7 +1540,7 @@
             "UnityCRC": 0,
             "FileHash": "db2d5a40de474f9da488508573a024d2",
             "FileCRC": "00000000",
-            "FileSize": 262770,
+            "FileSize": 259842,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

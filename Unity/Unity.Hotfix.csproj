@@ -77,6 +77,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Ping/PingComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Gate/C2G_MatchHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/AOISeeCheckHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/C2G_ChangeNickNameHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Plugins/Example/HotfixShare.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Unit/UnitEnterSightRange_NotifyClient.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Message/A2NetInner_RequestHandler.cs" />
@@ -98,7 +99,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Http/HttpComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Router/FiberInit_RouterManager.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/DB/DBComponentSystem.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/C2R_ChangeNickNameHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/M2C_CreateUnitsHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Recast/PathfindingComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Console/ReloadDllConsoleHandler.cs" />

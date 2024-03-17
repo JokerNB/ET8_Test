@@ -22,6 +22,9 @@ namespace ET.Server
                     self.AService = new KService(address, NetworkProtocol.UDP, ServiceType.Inner);
                     break;
                 }
+                default:
+                    Log.Error("AService is NULL!!!");
+                    break;
             }
                 
             self.AService.AcceptCallback = self.OnAccept;
