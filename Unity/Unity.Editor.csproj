@@ -380,6 +380,9 @@
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="CsvHelper">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/Editor/CsvHelper.dll</HintPath>
     </Reference>

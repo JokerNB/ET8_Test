@@ -850,3 +850,5 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.iOS.Extensions.Common.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.iOS.Extensions.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/IOSCommonPlayerBuildProgram.Data.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/UnityEditor.WindowsStandalone.Extensions.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Core/WinPlayerBuildProgram.Data.dll
