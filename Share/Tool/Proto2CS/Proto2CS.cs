@@ -113,8 +113,8 @@ namespace ET
                     isMsgStart = true;
 
                     string parentClass = "";
-                    msgName = newline.Split(splitChars, System.StringSplitOptions.RemoveEmptyEntries)[1];
-                    string[] ss = newline.Split(["//"], System.StringSplitOptions.RemoveEmptyEntries);
+                    msgName = newline.Split(splitChars, StringSplitOptions.RemoveEmptyEntries)[1];
+                    string[] ss = newline.Split(["//"], StringSplitOptions.RemoveEmptyEntries);
                     if (ss.Length == 2)
                     {
                         parentClass = ss[1].Trim();
@@ -304,7 +304,6 @@ namespace ET
                 "int64" => "long",
                 "uint64" => "ulong",
                 "uint16" => "ushort",
-                "bool" => "bool",
                 _ => type
             };
         }

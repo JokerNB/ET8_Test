@@ -6,5 +6,6 @@
         public long MyId { get; set; }
         public string Account { get; set; }
         public string NickName { get; set; }
+        public bool isNewPlayer { get; set; }
     }
 }

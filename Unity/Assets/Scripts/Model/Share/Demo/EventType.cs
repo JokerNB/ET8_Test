@@ -22,7 +22,6 @@
 
     public struct LoginFinish
     {
-        public bool isNewPlayer;
     }
 
     public struct EnterMapFinish

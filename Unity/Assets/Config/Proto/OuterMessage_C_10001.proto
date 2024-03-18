@@ -158,8 +158,6 @@ message R2C_Login // ISessionResponse
 	string Address = 4;
 	int64 Key = 5;
 	int64 GateId = 6;
-	bool IsNewPlayer = 7;
-	string NickName = 8;
 }
 
 // ResponseType G2C_LoginGate
@@ -234,55 +232,4 @@ message G2C_Benchmark // ISessionResponse
 	int32 RpcId = 1;
 	int32 Error = 2;
 	string Message = 3;
-}
-
-//ResponseType G2C_ChangeNickName
-message C2G_ChangeNickName // ISessionRequest
-{
-	int32 RpcId = 1;
-	string Account = 2;
-	string NewNickName = 3;
-}
-
-message G2C_ChangeNickName // ISessionResponse
-{
-	int32 RpcId = 1;
-	int32 Error = 2;
-	string Message = 3;
-}
-
-//ResponseType M2C_ChooseModelDifficulty
-message C2M_ChooseModelDifficulty // ILocationRequest
-{
-	int32 RpcId = 1;
-	int32 Model = 2;
-	int32 Difficulty = 3;
-}
-
-message M2C_ChooseModelDifficulty // ILocationResponse
-{
-	int32 RpcId = 1;
-	int32 Error = 2;
-	string Message = 3;
-}
-
-message ServerListInfo
-{
-	int32 Zone = 1;
-	string Name = 2;
-	int32 Status = 3;
-}
-
-//ResponseType R2C_GetServerList
-message C2R_GetServerList // IRequest
-{
-	int32 RpcId = 1;
-}
-
-message R2C_GetServerList // IResponse
-{
-	int32 RpcId = 1;
-	int32 Error = 2;
-	string Message = 3;
-	repeated ServerListInfo ServerListInfos = 4;
 }

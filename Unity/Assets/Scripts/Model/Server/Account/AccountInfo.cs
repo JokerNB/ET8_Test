@@ -6,5 +6,6 @@ namespace ET.Server
         public string Account;
         public string Password;
         public string NickName;
+        public bool isNewPlayer;
     }
 }
