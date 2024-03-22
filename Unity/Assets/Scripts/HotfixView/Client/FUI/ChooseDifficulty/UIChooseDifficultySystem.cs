@@ -46,8 +46,8 @@ namespace ET.Client
 		{
 			//发送选择模式及难度消息
 			C2M_ChooseModelDifficulty c2MChooseModelDifficulty = C2M_ChooseModelDifficulty.Create();
-			c2MChooseModelDifficulty.Model = modelId;
-			c2MChooseModelDifficulty.Difficulty = difficultyType;
+			c2MChooseModelDifficulty.ModelId = modelId;
+			c2MChooseModelDifficulty.DifficultyId = difficultyType;
 			var response = await scene.GetComponent<ClientSenderComponent>().Call(c2MChooseModelDifficulty) as M2C_ChooseModelDifficulty;
 			if (response.Error != ErrorCode.ERR_Success)
 			{

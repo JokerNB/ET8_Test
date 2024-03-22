@@ -7,18 +7,4 @@ namespace ET
         public string Name;
         public int Status;
     }
-
-    public enum ServerStatus
-    {
-        Active = 0,
-        Close = 1
-    }
-
-    public enum ZoneType
-    {
-        None,
-        Game,
-        Robot,
-        Router
-    }
 }

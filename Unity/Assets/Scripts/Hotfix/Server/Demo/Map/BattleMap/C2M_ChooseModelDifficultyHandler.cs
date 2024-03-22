@@ -5,7 +5,7 @@ namespace ET.Server
     {
         protected override async ETTask Run(Unit unit, C2M_ChooseModelDifficulty request, M2C_ChooseModelDifficulty response)
         {
-            var modelConfig = ModelCategory.Instance.GetOrDefault(request.Model);
+            var modelConfig = ModelCategory.Instance.GetOrDefault(request.ModelId);
             if (modelConfig == null)
             {
                 response.Error = ErrorCode.ERR_ChooseModelTypeError;
@@ -14,7 +14,7 @@ namespace ET.Server
 
             if (modelConfig.DifficultyType == 1)
             {
-                var config = DifficultyNormalCategory.Instance.GetOrDefault(request.Difficulty);
+                var config = DifficultyNormalCategory.Instance.GetOrDefault(request.DifficultyId);
                 if (config == null)
                 {
                     response.Error = ErrorCode.ERR_ChooseDifficultyTypeError;
@@ -23,7 +23,7 @@ namespace ET.Server
             }
             else if (modelConfig.DifficultyType == 1)
             {
-                var config = DifficultyHappyCategroy.Instance.Get(request.Difficulty);
+                var config = DifficultyHappyCategroy.Instance.Get(request.DifficultyId);
                 if (config == null)
                 {
                     response.Error = ErrorCode.ERR_ChooseDifficultyTypeError;

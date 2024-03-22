@@ -105,6 +105,7 @@
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/StartProcessConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Unit/UnitEventType.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/FrameBuffer.cs" />
+    <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/ZoneType.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/AOI/AOIManagerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/AOI/AOIEntity.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Message/SessionAcceptTimeoutComponent.cs" />
@@ -133,6 +134,7 @@
     <Compile Include="Assets/Scripts/Model/Server/Demo/Robot/Case/RobotCase_SecondCase.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Demo/AI/XunLuoPathComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Demo/Login/ServerInfo.cs" />
+    <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/ZoneStatus.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Numeric/INumericWatcher.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/AOI/Cell.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSUnit.cs" />

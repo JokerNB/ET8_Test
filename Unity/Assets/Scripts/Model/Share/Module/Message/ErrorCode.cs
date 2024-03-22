@@ -18,5 +18,6 @@ namespace ET
         public const int ERR_ChooseModelTypeError = 200004;
         public const int ERR_ChooseDifficultyTypeError = 200005;
         public const int ERR_ChangeNickNameError = 200006;
+        public const int ERR_GetServerInfoListNull = 200007;
     }
 }

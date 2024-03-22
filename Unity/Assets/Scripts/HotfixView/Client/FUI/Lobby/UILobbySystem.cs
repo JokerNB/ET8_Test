@@ -19,12 +19,12 @@ namespace ET.Client
             {
                 self.EnterMap().Coroutine();
             });
-            // var serverInfoList = self.FUIUILobby.ServerInfoList;
-            // serverInfoList.itemRenderer = (index, item) => OnItemRender(self, index, item);
-            // serverInfoList.onClickItem.Add(context => OnClickItem(self, context));
-            // serverInfoList.numItems = self.Root().GetComponent<ServerInfosComponent>().ServerInfosList.Count;
-            // //默认选择第一个
-            // serverInfoList.selectedIndex = 0;
+            var serverInfoList = self.FUIUILobby.ServerInfoList;
+            serverInfoList.itemRenderer = (index, item) => OnItemRender(self, index, item);
+            serverInfoList.onClickItem.Add(context => OnClickItem(self, context));
+            serverInfoList.numItems = self.Root().GetComponent<ServerInfosComponent>().ServerInfosList.Count;
+            //默认选择第一个
+            serverInfoList.selectedIndex = 0;
         }
 
         public static void OnShow(this UILobby self, Entity contextData = null)

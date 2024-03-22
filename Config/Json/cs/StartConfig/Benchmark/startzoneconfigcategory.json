@@ -1,8 +1,26 @@
 [
   {
     "Id": 1,
+    "ZoneName": "游戏区",
+    "Type": 0,
+    "Status": 0,
     "DBConnection": "mongodb://127.0.0.1",
-    "DBName": "ET1",
-    "Desc": "游戏区"
+    "DBName": "ET1"
+  },
+  {
+    "Id": 2,
+    "ZoneName": "游戏区",
+    "Type": 0,
+    "Status": 1,
+    "DBConnection": "mongodb://127.0.0.1",
+    "DBName": "ET2"
+  },
+  {
+    "Id": 3,
+    "ZoneName": "游戏区",
+    "Type": 0,
+    "Status": 1,
+    "DBConnection": "mongodb://127.0.0.1",
+    "DBName": "ET3"
   }
 ]
