@@ -77,6 +77,7 @@
     <Compile Include="Assets/Scripts/Model/Share/MongoRegister.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/RandomNameCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/UnitConfig.cs" />
+    <Compile Include="Assets/Scripts/Model/Share/Monster/ResourceMonster/ResourceMonsterComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Move/MoveComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Message/InnerMessage_S_20001.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Benchmark/BenchmarkClientComponent.cs" />
@@ -129,6 +130,7 @@
     <Compile Include="Assets/Scripts/Model/Client/Demo/Main/Move/Wait_UnitStop.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Demo/NetClient/Ping/PingComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyNormalCategory.cs" />
+    <Compile Include="Assets/Scripts/Model/Share/Monster/MonsterType.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/Http/IHttpHandler.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/StartZoneConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Robot/Case/RobotCase_SecondCase.cs" />
@@ -137,6 +139,7 @@
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/ZoneStatus.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Numeric/INumericWatcher.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/AOI/Cell.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Demo/Realm/SessionLockingComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSUnit.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSUpdater.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Message/LogMsg.cs" />
@@ -147,7 +150,6 @@
     <Compile Include="Assets/Scripts/Model/Client/LockStep/EventType.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Demo/Main/Scene/Wait_CreateMyUnit.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/ModelConfig.cs" />
-    <Compile Include="Assets/Scripts/Model/Share/ResourceMonster/MonsterType.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Message/ISessionMessage.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/ResourceMonsterConfig.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/RobotCase/RobotCase.cs" />
@@ -158,10 +160,8 @@
     <Compile Include="Assets/Scripts/Model/Share/Module/ObjectWait/ObjectWait.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/FixedTimeCounter.cs" />
     <Compile Include="Assets/Scripts/Model/Client/LockStep/LSReplayUpdater.cs" />
-    <Compile Include="Assets/Scripts/Model/Share/ResourceMonster/ResourceMonsterComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/LockStep/Map/RoomManagerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/LockStep/Map/RoomPlayer.cs" />
-    <Compile Include="Assets/Scripts/Model/Server/Account/AccountInfosComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/ConstFiberId.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Message/IMessageSessionHandler.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Robot/RobotCaseType.cs" />

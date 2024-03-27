@@ -10,7 +10,7 @@ dotnet %LUBAN_DLL% ^
     -c cs-bin ^
     -d bin ^
     -d json ^
-    --conf %CONF_ROOT%\__luban__.conf ^
+    --conf %CONF_ROOT%\Data\__luban__.conf ^
     -x outputCodeDir=%WORKSPACE%\Unity\Assets\Scripts\Model\Generate\Client\Config ^
     -x bin.outputDataDir=%WORKSPACE%\Config\Excel\c ^
     -x json.outputDataDir=%WORKSPACE%\Config\Json\c ^
@@ -32,7 +32,7 @@ dotnet %LUBAN_DLL% ^
     -c cs-bin ^
     -d bin ^
     -d json ^
-    --conf %CONF_ROOT%\__luban__.conf ^
+    --conf %CONF_ROOT%\Data\__luban__.conf ^
     -x outputCodeDir=%WORKSPACE%\Unity\Assets\Scripts\Model\Generate\Server\Config ^
     -x bin.outputDataDir=%WORKSPACE%\Config\Excel\s ^
     -x json.outputDataDir=%WORKSPACE%\Config\Json\s ^

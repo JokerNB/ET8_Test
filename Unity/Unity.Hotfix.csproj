@@ -63,7 +63,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/RouterCheckComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/AI/AIComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Scene/M2C_StartSceneChangeHandler.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/R2G_GetLoginKeyHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/GateSessionKeyComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Transfer/C2M_TransferMapHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Scene/SceneChangeHelper.cs" />
@@ -146,7 +145,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/ObjectLockRequestHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/C2R_GetServerListHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Scene/CurrentScenesComponentSystem.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/C2R_LoginHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Move/C2M_PathfindingResultHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Unit/UnitLeaveSightRange_NotifyClient.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Unit/UnitFactory.cs" />
@@ -201,6 +199,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Plugins/Example/HotfixServer.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/FiberInit_Map.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Room/FiberInit_RoomRoot.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/DisconnectHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Message/SessionIdleCheckerComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/LSSceneChangeHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/MapMessageHelper.cs" />

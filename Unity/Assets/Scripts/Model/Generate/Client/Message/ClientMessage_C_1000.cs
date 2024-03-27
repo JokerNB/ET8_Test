@@ -69,13 +69,10 @@ namespace ET
         public long PlayerId { get; set; }
 
         [MemoryPackOrder(4)]
-        public string Token { get; set; }
+        public long Token { get; set; }
 
         [MemoryPackOrder(5)]
         public string NickName { get; set; }
-
-        [MemoryPackOrder(6)]
-        public bool IsNewPlayer { get; set; }
 
         public override void Dispose()
         {
@@ -90,7 +87,6 @@ namespace ET
             this.PlayerId = default;
             this.Token = default;
             this.NickName = default;
-            this.IsNewPlayer = default;
 
             ObjectPool.Instance.Recycle(this);
         }

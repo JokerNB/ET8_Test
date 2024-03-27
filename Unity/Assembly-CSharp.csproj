@@ -82,7 +82,7 @@
     <None Include="Assets/Bundles/Shaders/FairyGUI-Image.shader" />
     <None Include="Assets/Bundles/Spine/FootSoldier/Equipment/Equipment.atlas.txt" />
     <None Include="Assets/Bundles/Spine/FootSoldier/license.txt" />
-    <None Include="Assets/Config/Excel/Defines/builtin.xml" />
+    <None Include="Assets/Config/Excel/Data/Defines/builtin.xml" />
     <None Include="Assets/Bundles/Spine/Gauge/Gauge.json" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/liuwei/Desktop/UnityVersion/2022.3.17f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

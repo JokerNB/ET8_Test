@@ -22,9 +22,9 @@ namespace ET
         public static void AddServerInfo(this ServerInfosComponent self, ServerListInfo serverListInfo)
         {
             var serverInfo = self.AddChild<ServerInfo>();
-            serverInfo.ServerZone = serverListInfo.Zone;
+            serverInfo.GateAddress = serverListInfo.GateAddress;
             serverInfo.Name = serverListInfo.Name;
-            serverInfo.Status = serverListInfo.Status;
+            serverInfo.Status = (ZoneStatus)serverListInfo.Status;
             self.ServerInfosList.Add(serverInfo);
         }
     }

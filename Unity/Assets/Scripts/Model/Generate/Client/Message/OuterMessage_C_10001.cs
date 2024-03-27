@@ -62,73 +62,6 @@ namespace ET
     }
 
     [MemoryPackable]
-    [Message(OuterMessage.C2M_TestRequest)]
-    [ResponseType(nameof(M2C_TestResponse))]
-    public partial class C2M_TestRequest : MessageObject, ILocationRequest
-    {
-        public static C2M_TestRequest Create(bool isFromPool = false)
-        {
-            return ObjectPool.Instance.Fetch(typeof(C2M_TestRequest), isFromPool) as C2M_TestRequest;
-        }
-
-        [MemoryPackOrder(0)]
-        public int RpcId { get; set; }
-
-        [MemoryPackOrder(1)]
-        public string request { get; set; }
-
-        public override void Dispose()
-        {
-            if (!this.IsFromPool)
-            {
-                return;
-            }
-
-            this.RpcId = default;
-            this.request = default;
-
-            ObjectPool.Instance.Recycle(this);
-        }
-    }
-
-    [MemoryPackable]
-    [Message(OuterMessage.M2C_TestResponse)]
-    public partial class M2C_TestResponse : MessageObject, IResponse
-    {
-        public static M2C_TestResponse Create(bool isFromPool = false)
-        {
-            return ObjectPool.Instance.Fetch(typeof(M2C_TestResponse), isFromPool) as M2C_TestResponse;
-        }
-
-        [MemoryPackOrder(0)]
-        public int RpcId { get; set; }
-
-        [MemoryPackOrder(1)]
-        public int Error { get; set; }
-
-        [MemoryPackOrder(2)]
-        public string Message { get; set; }
-
-        [MemoryPackOrder(3)]
-        public string response { get; set; }
-
-        public override void Dispose()
-        {
-            if (!this.IsFromPool)
-            {
-                return;
-            }
-
-            this.RpcId = default;
-            this.Error = default;
-            this.Message = default;
-            this.response = default;
-
-            ObjectPool.Instance.Recycle(this);
-        }
-    }
-
-    [MemoryPackable]
     [Message(OuterMessage.C2G_EnterMap)]
     [ResponseType(nameof(G2C_EnterMap))]
     public partial class C2G_EnterMap : MessageObject, ISessionRequest
@@ -568,27 +501,6 @@ namespace ET
     }
 
     [MemoryPackable]
-    [Message(OuterMessage.G2C_Test)]
-    public partial class G2C_Test : MessageObject, ISessionMessage
-    {
-        public static G2C_Test Create(bool isFromPool = false)
-        {
-            return ObjectPool.Instance.Fetch(typeof(G2C_Test), isFromPool) as G2C_Test;
-        }
-
-        public override void Dispose()
-        {
-            if (!this.IsFromPool)
-            {
-                return;
-            }
-
-            
-            ObjectPool.Instance.Recycle(this);
-        }
-    }
-
-    [MemoryPackable]
     [Message(OuterMessage.C2M_Reload)]
     [ResponseType(nameof(M2C_Reload))]
     public partial class C2M_Reload : MessageObject, ISessionRequest
@@ -656,99 +568,6 @@ namespace ET
     }
 
     [MemoryPackable]
-    [Message(OuterMessage.C2R_Login)]
-    [ResponseType(nameof(R2C_Login))]
-    public partial class C2R_Login : MessageObject, ISessionRequest
-    {
-        public static C2R_Login Create(bool isFromPool = false)
-        {
-            return ObjectPool.Instance.Fetch(typeof(C2R_Login), isFromPool) as C2R_Login;
-        }
-
-        [MemoryPackOrder(0)]
-        public int RpcId { get; set; }
-
-        /// <summary>
-        /// 帐号
-        /// </summary>
-        [MemoryPackOrder(1)]
-        public string Account { get; set; }
-
-        /// <summary>
-        /// 密码
-        /// </summary>
-        [MemoryPackOrder(2)]
-        public string Password { get; set; }
-
-        public override void Dispose()
-        {
-            if (!this.IsFromPool)
-            {
-                return;
-            }
-
-            this.RpcId = default;
-            this.Account = default;
-            this.Password = default;
-
-            ObjectPool.Instance.Recycle(this);
-        }
-    }
-
-    [MemoryPackable]
-    [Message(OuterMessage.R2C_Login)]
-    public partial class R2C_Login : MessageObject, ISessionResponse
-    {
-        public static R2C_Login Create(bool isFromPool = false)
-        {
-            return ObjectPool.Instance.Fetch(typeof(R2C_Login), isFromPool) as R2C_Login;
-        }
-
-        [MemoryPackOrder(0)]
-        public int RpcId { get; set; }
-
-        [MemoryPackOrder(1)]
-        public int Error { get; set; }
-
-        [MemoryPackOrder(2)]
-        public string Message { get; set; }
-
-        [MemoryPackOrder(3)]
-        public string Address { get; set; }
-
-        [MemoryPackOrder(4)]
-        public long Key { get; set; }
-
-        [MemoryPackOrder(5)]
-        public long GateId { get; set; }
-
-        [MemoryPackOrder(6)]
-        public string NickName { get; set; }
-
-        [MemoryPackOrder(7)]
-        public bool IsNewPlayer { get; set; }
-
-        public override void Dispose()
-        {
-            if (!this.IsFromPool)
-            {
-                return;
-            }
-
-            this.RpcId = default;
-            this.Error = default;
-            this.Message = default;
-            this.Address = default;
-            this.Key = default;
-            this.GateId = default;
-            this.NickName = default;
-            this.IsNewPlayer = default;
-
-            ObjectPool.Instance.Recycle(this);
-        }
-    }
-
-    [MemoryPackable]
     [Message(OuterMessage.C2R_LoginAccount)]
     [ResponseType(nameof(R2C_LoginAccount))]
     public partial class C2R_LoginAccount : MessageObject, ISessionRequest
@@ -807,13 +626,10 @@ namespace ET
         public string Message { get; set; }
 
         [MemoryPackOrder(3)]
-        public string Token { get; set; }
+        public long Token { get; set; }
 
-        [MemoryPackOrder(5)]
+        [MemoryPackOrder(4)]
         public string NickName { get; set; }
-
-        [MemoryPackOrder(6)]
-        public bool IsNewPlayer { get; set; }
 
         public override void Dispose()
         {
@@ -827,7 +643,6 @@ namespace ET
             this.Message = default;
             this.Token = default;
             this.NickName = default;
-            this.IsNewPlayer = default;
 
             ObjectPool.Instance.Recycle(this);
         }
@@ -846,14 +661,11 @@ namespace ET
         [MemoryPackOrder(0)]
         public int RpcId { get; set; }
 
-        /// <summary>
-        /// 帐号
-        /// </summary>
         [MemoryPackOrder(1)]
-        public long Key { get; set; }
+        public long Token { get; set; }
 
         [MemoryPackOrder(2)]
-        public long GateId { get; set; }
+        public string Account { get; set; }
 
         public override void Dispose()
         {
@@ -863,8 +675,8 @@ namespace ET
             }
 
             this.RpcId = default;
-            this.Key = default;
-            this.GateId = default;
+            this.Token = default;
+            this.Account = default;
 
             ObjectPool.Instance.Recycle(this);
         }
@@ -902,31 +714,6 @@ namespace ET
             this.Error = default;
             this.Message = default;
             this.PlayerId = default;
-
-            ObjectPool.Instance.Recycle(this);
-        }
-    }
-
-    [MemoryPackable]
-    [Message(OuterMessage.G2C_TestHotfixMessage)]
-    public partial class G2C_TestHotfixMessage : MessageObject, ISessionMessage
-    {
-        public static G2C_TestHotfixMessage Create(bool isFromPool = false)
-        {
-            return ObjectPool.Instance.Fetch(typeof(G2C_TestHotfixMessage), isFromPool) as G2C_TestHotfixMessage;
-        }
-
-        [MemoryPackOrder(0)]
-        public string Info { get; set; }
-
-        public override void Dispose()
-        {
-            if (!this.IsFromPool)
-            {
-                return;
-            }
-
-            this.Info = default;
 
             ObjectPool.Instance.Recycle(this);
         }
@@ -1319,7 +1106,7 @@ namespace ET
         }
 
         [MemoryPackOrder(0)]
-        public int Zone { get; set; }
+        public string GateAddress { get; set; }
 
         [MemoryPackOrder(1)]
         public string Name { get; set; }
@@ -1334,7 +1121,7 @@ namespace ET
                 return;
             }
 
-            this.Zone = default;
+            this.GateAddress = default;
             this.Name = default;
             this.Status = default;
 
@@ -1355,6 +1142,9 @@ namespace ET
         [MemoryPackOrder(0)]
         public int RpcId { get; set; }
 
+        [MemoryPackOrder(1)]
+        public string Account { get; set; }
+
         public override void Dispose()
         {
             if (!this.IsFromPool)
@@ -1363,6 +1153,7 @@ namespace ET
             }
 
             this.RpcId = default;
+            this.Account = default;
 
             ObjectPool.Instance.Recycle(this);
         }
@@ -1409,46 +1200,40 @@ namespace ET
     {
         public const ushort HttpGetRouterResponse = 10002;
         public const ushort RouterSync = 10003;
-        public const ushort C2M_TestRequest = 10004;
-        public const ushort M2C_TestResponse = 10005;
-        public const ushort C2G_EnterMap = 10006;
-        public const ushort G2C_EnterMap = 10007;
-        public const ushort MoveInfo = 10008;
-        public const ushort UnitInfo = 10009;
-        public const ushort M2C_CreateUnits = 10010;
-        public const ushort M2C_CreateMyUnit = 10011;
-        public const ushort M2C_StartSceneChange = 10012;
-        public const ushort M2C_RemoveUnits = 10013;
-        public const ushort C2M_PathfindingResult = 10014;
-        public const ushort C2M_Stop = 10015;
-        public const ushort M2C_PathfindingResult = 10016;
-        public const ushort M2C_Stop = 10017;
-        public const ushort C2G_Ping = 10018;
-        public const ushort G2C_Ping = 10019;
-        public const ushort G2C_Test = 10020;
-        public const ushort C2M_Reload = 10021;
-        public const ushort M2C_Reload = 10022;
-        public const ushort C2R_Login = 10023;
-        public const ushort R2C_Login = 10024;
-        public const ushort C2R_LoginAccount = 10025;
-        public const ushort R2C_LoginAccount = 10026;
-        public const ushort C2G_LoginGate = 10027;
-        public const ushort G2C_LoginGate = 10028;
-        public const ushort G2C_TestHotfixMessage = 10029;
-        public const ushort C2M_TestRobotCase = 10030;
-        public const ushort M2C_TestRobotCase = 10031;
-        public const ushort C2M_TestRobotCase2 = 10032;
-        public const ushort M2C_TestRobotCase2 = 10033;
-        public const ushort C2M_TransferMap = 10034;
-        public const ushort M2C_TransferMap = 10035;
-        public const ushort C2G_Benchmark = 10036;
-        public const ushort G2C_Benchmark = 10037;
-        public const ushort C2G_ChangeNickName = 10038;
-        public const ushort G2C_ChangeNickName = 10039;
-        public const ushort C2M_ChooseModelDifficulty = 10040;
-        public const ushort M2C_ChooseModelDifficulty = 10041;
-        public const ushort ServerListInfo = 10042;
-        public const ushort C2R_GetServerList = 10043;
-        public const ushort R2C_GetServerList = 10044;
+        public const ushort C2G_EnterMap = 10004;
+        public const ushort G2C_EnterMap = 10005;
+        public const ushort MoveInfo = 10006;
+        public const ushort UnitInfo = 10007;
+        public const ushort M2C_CreateUnits = 10008;
+        public const ushort M2C_CreateMyUnit = 10009;
+        public const ushort M2C_StartSceneChange = 10010;
+        public const ushort M2C_RemoveUnits = 10011;
+        public const ushort C2M_PathfindingResult = 10012;
+        public const ushort C2M_Stop = 10013;
+        public const ushort M2C_PathfindingResult = 10014;
+        public const ushort M2C_Stop = 10015;
+        public const ushort C2G_Ping = 10016;
+        public const ushort G2C_Ping = 10017;
+        public const ushort C2M_Reload = 10018;
+        public const ushort M2C_Reload = 10019;
+        public const ushort C2R_LoginAccount = 10020;
+        public const ushort R2C_LoginAccount = 10021;
+        public const ushort C2G_LoginGate = 10022;
+        public const ushort G2C_LoginGate = 10023;
+        public const ushort C2M_TestRobotCase = 10024;
+        public const ushort M2C_TestRobotCase = 10025;
+        public const ushort C2M_TestRobotCase2 = 10026;
+        public const ushort M2C_TestRobotCase2 = 10027;
+        public const ushort C2M_TransferMap = 10028;
+        public const ushort M2C_TransferMap = 10029;
+        public const ushort C2G_Benchmark = 10030;
+        public const ushort G2C_Benchmark = 10031;
+        public const ushort C2G_ChangeNickName = 10032;
+        public const ushort G2C_ChangeNickName = 10033;
+        public const ushort C2M_ChooseModelDifficulty = 10034;
+        public const ushort M2C_ChooseModelDifficulty = 10035;
+        public const ushort ServerListInfo = 10036;
+        public const ushort C2R_GetServerList = 10037;
+        public const ushort R2C_GetServerList = 10038;
     }
 }

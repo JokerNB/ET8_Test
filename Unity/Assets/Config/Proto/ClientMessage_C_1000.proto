@@ -17,7 +17,6 @@ message NetClient2Main_Login // IResponse
 	int32 Error = 2;
 	string Message = 3;
 	int64 PlayerId = 4;
-	string Token = 5;
+	int64 Token = 5;
 	string NickName = 6;
-	bool IsNewPlayer = 7;
 }

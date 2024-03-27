@@ -13,21 +13,6 @@ message RouterSync
 	string Address = 2;
 }
 
-// ResponseType M2C_TestResponse
-message C2M_TestRequest // ILocationRequest
-{
-	int32 RpcId = 1;
-	string request = 2;
-}
-
-message M2C_TestResponse // IResponse
-{
-	int32 RpcId = 1;
-	int32 Error = 2;
-	string Message = 3;
-	string response = 4;
-}
-
 // ResponseType G2C_EnterMap
 message C2G_EnterMap // ISessionRequest
 {
@@ -122,11 +107,6 @@ message G2C_Ping // ISessionResponse
 	int64 Time = 4;
 }
 
-
-message G2C_Test // ISessionMessage
-{
-}
-
 // ResponseType M2C_Reload
 message C2M_Reload // ISessionRequest
 {
@@ -142,26 +122,6 @@ message M2C_Reload // ISessionResponse
 	string Message = 3;
 }
 
-// ResponseType R2C_Login
-message C2R_Login // ISessionRequest
-{
-	int32 RpcId = 1;
-	string  Account = 2;  // 帐号
-	string  Password = 3;  // 密码
-}
-
-message R2C_Login // ISessionResponse
-{
-	int32 RpcId = 1;
-	int32 Error = 2;
-	string Message = 3;
-	string Address = 4;
-	int64 Key = 5;
-	int64 GateId = 6;
-	string NickName = 7;
-	bool IsNewPlayer = 8;
-}
-
 // ResponseType R2C_LoginAccount
 message C2R_LoginAccount // ISessionRequest
 {
@@ -175,17 +135,16 @@ message R2C_LoginAccount // ISessionResponse
 	int32 RpcId = 1;
 	int32 Error = 2;
 	string Message = 3;
-	string Token = 4;
-	string NickName = 6;
-	bool IsNewPlayer = 7;
+	int64 Token = 4;
+	string NickName = 5;
 }
 
 // ResponseType G2C_LoginGate
 message C2G_LoginGate // ISessionRequest
 {
 	int32 RpcId = 1;
-	int64 Key = 2;  // 帐号
-	int64 GateId = 3;
+	int64 Token = 2;
+	string Account = 3;
 }
 
 message G2C_LoginGate // ISessionResponse
@@ -194,11 +153,6 @@ message G2C_LoginGate // ISessionResponse
 	int32 Error = 2;
 	string Message = 3;
 	int64 PlayerId = 4;
-}
-
-message G2C_TestHotfixMessage // ISessionMessage
-{
-	string Info = 1;
 }
 
 // ResponseType M2C_TestRobotCase
@@ -286,7 +240,7 @@ message M2C_ChooseModelDifficulty // ILocationResponse
 
 message ServerListInfo
 {
-	int32 Zone = 1;
+	string GateAddress = 1;
 	string Name = 2;
 	int32 Status = 3;
 }
@@ -295,6 +249,7 @@ message ServerListInfo
 message C2R_GetServerList // ISessionRequest
 {
 	int32 RpcId = 1;
+	string Account = 2;
 }
 
 message R2C_GetServerList // ISessionResponse

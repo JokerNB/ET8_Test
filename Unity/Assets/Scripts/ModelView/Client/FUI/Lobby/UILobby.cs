@@ -13,6 +13,7 @@ namespace ET.Client
 			get => _fuiUILobby ??= (FUI_UILobby)this.GetParent<FUIEntity>().GComponent;
 		}
 
-		public int ServerZone = -1;
+		public EntityRef<ServerInfo> _ServerInfo = null;
+		public int _curSelectIdx = -1;
 	}
 }

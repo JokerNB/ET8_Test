@@ -19,5 +19,7 @@ namespace ET
         public const int ERR_ChooseDifficultyTypeError = 200005;
         public const int ERR_ChangeNickNameError = 200006;
         public const int ERR_GetServerInfoListNull = 200007;
+        public const int ERR_RequestRepeatedly = 200008;
+        public const int ERR_AccountInBlackListError = 200009;
     }
 }

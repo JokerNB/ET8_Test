@@ -17,32 +17,19 @@ namespace ET.Client
             }
 
             Log.Debug("请求登陆成功！！");
-            string Token = response.Token;
+            long Token = response.Token;
             
             //获取服务器列表
-            var errorCode = await LoginHelper.GetServerList(root);
+            var errorCode = await GetServerList(root);
             if (errorCode != ErrorCode.ERR_Success)
             {
                 Log.Error($"获取服务器列表出错 ： {errorCode}");
                 return;
             }
             
-            // C2R_GetServerList c2RGetServerList = C2R_GetServerList.Create();
-            // R2C_GetServerList r2CGetServerList = (R2C_GetServerList)await clientSenderComponent.Call(c2RGetServerList);
-            // if (r2CGetServerList.Error != ErrorCode.ERR_Success)
-            // {
-            //     Log.Error($"r2CGetServerList Error : {r2CGetServerList.Error}");
-            //     return;
-            // }
-            //
-            // if (r2CGetServerList.ServerListInfos.Count <= 0)
-            // {
-            //     Log.Error($"r2CGetServerList Error : {ErrorCode.ERR_GetServerInfoListNull}");
-            //     return;
-            // }
-
             var playerComponent = root.GetComponent<PlayerComponent>();
             playerComponent.MyId = response.PlayerId;
+            playerComponent.Token = response.Token;
             playerComponent.Account = account;
             playerComponent.NickName = response.NickName;
             await EventSystem.Instance.PublishAsync(root, new LoginFinish());
@@ -50,7 +37,9 @@ namespace ET.Client
 
         public static async ETTask<int> GetServerList(Scene root)
         {
-            var r2CGetServerList = (R2C_GetServerList)await root.GetComponent<SessionComponent>().Session.Call(C2R_GetServerList.Create());
+            var c2RGetServerList = C2R_GetServerList.Create();
+            c2RGetServerList.Account = root.GetComponent<PlayerComponent>().Account;
+            var r2CGetServerList = (R2C_GetServerList)await root.GetComponent<ClientSenderComponent>().Call(c2RGetServerList);
             if (r2CGetServerList.Error != ErrorCode.ERR_Success)
             {
                 Log.Error($"获取服务器区服列表错误 R2C_GetServerList Error : {r2CGetServerList.Error}");

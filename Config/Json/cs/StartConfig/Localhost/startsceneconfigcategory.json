@@ -12,7 +12,7 @@
     "Process": 1,
     "Zone": 1,
     "SceneType": "Gate",
-    "Name": "Gate1",
+    "Name": "Gate_Game1",
     "Port": 30003
   },
   {
@@ -20,11 +20,43 @@
     "Process": 1,
     "Zone": 1,
     "SceneType": "Gate",
-    "Name": "Gate2",
+    "Name": "Gate_Game2",
     "Port": 30004
   },
   {
     "Id": 4,
+    "Process": 1,
+    "Zone": 2,
+    "SceneType": "Gate",
+    "Name": "Gate_Game3",
+    "Port": 30005
+  },
+  {
+    "Id": 5,
+    "Process": 1,
+    "Zone": 3,
+    "SceneType": "Gate",
+    "Name": "Gate_Game4",
+    "Port": 30006
+  },
+  {
+    "Id": 6,
+    "Process": 1,
+    "Zone": 4,
+    "SceneType": "Gate",
+    "Name": "Gate_Robot",
+    "Port": 30007
+  },
+  {
+    "Id": 7,
+    "Process": 1,
+    "Zone": 5,
+    "SceneType": "Gate",
+    "Name": "Gate_Router",
+    "Port": 30008
+  },
+  {
+    "Id": 8,
     "Process": 1,
     "Zone": 1,
     "SceneType": "Location",
@@ -32,7 +64,7 @@
     "Port": 0
   },
   {
-    "Id": 5,
+    "Id": 9,
     "Process": 1,
     "Zone": 1,
     "SceneType": "Match",
@@ -40,7 +72,7 @@
     "Port": 0
   },
   {
-    "Id": 6,
+    "Id": 10,
     "Process": 1,
     "Zone": 1,
     "SceneType": "Map",
@@ -48,7 +80,7 @@
     "Port": 0
   },
   {
-    "Id": 7,
+    "Id": 11,
     "Process": 1,
     "Zone": 1,
     "SceneType": "Map",

@@ -42,7 +42,7 @@ namespace ET.Client
             }
 
             response.Token = r2CLogin.Token;
-            response.IsNewPlayer = r2CLogin.IsNewPlayer;
+            response.Error = r2CLogin.Error;
             response.NickName = r2CLogin.NickName;
         }
     }

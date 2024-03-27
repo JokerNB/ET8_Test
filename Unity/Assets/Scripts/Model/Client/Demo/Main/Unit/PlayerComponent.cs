@@ -7,5 +7,6 @@
         public string Account { get; set; }
         public string NickName { get; set; }
         public bool isNewPlayer { get; set; }
+        public long Token { get; set; }
     }
 }
