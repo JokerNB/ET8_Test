@@ -64,7 +64,6 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/RegisterPanel/UIRegisterSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Scene/SceneChangeStart_AddComponent.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/LSSceneInitFinish_Finish.cs" />
-    <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/LoginFinish_ShowUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Scene/EnterMapFinish_CreateMainUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Login/UILoginSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Scene/AfterCreateCurrentScene_AddComponent.cs" />
@@ -72,6 +71,7 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/HeadBarComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Login/Event/LoginFinish_RemoveLoginUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/LoadingPanel/LoadingPanel_ContextDataSystem.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/LoginGateFinish_ShowUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/LSSceneChangeStart_AddComponent.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/GameObjectComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/UILobbyEventHandler.cs" />
@@ -89,6 +89,7 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/Scene/AfterCreateClientScene_LSAddComponent.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/LoadingPanel/UILoadingPanelSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/AnimatorComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/LoginAccountFinish_ShowUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Module/LocalizeComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/LoadingPanel/Event/UILoadingPanelEventHandler.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/ChangeRotation_SyncGameObjectRotation.cs" />

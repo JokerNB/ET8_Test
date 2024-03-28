@@ -20,7 +20,11 @@
     {
     }
 
-    public struct LoginFinish
+    public struct LoginAccountFinish
+    {
+    }
+    
+    public struct LoginGateFinish
     {
     }
 

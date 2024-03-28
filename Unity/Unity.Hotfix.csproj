@@ -86,6 +86,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/C2G_PingHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Message/ProcessOuterSenderSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/LocationProxyComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/Main2NetClient_LoginGateHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/C2G_EnterMapHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/ClientSenderComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/FiberInit_Location.cs" />

@@ -31,8 +31,9 @@ namespace ET.Client
             playerComponent.MyId = response.PlayerId;
             playerComponent.Token = response.Token;
             playerComponent.Account = account;
+            playerComponent.Password = password;
             playerComponent.NickName = response.NickName;
-            await EventSystem.Instance.PublishAsync(root, new LoginFinish());
+            await EventSystem.Instance.PublishAsync(root, new LoginAccountFinish());
         }
 
         public static async ETTask<int> GetServerList(Scene root)
@@ -53,6 +54,15 @@ namespace ET.Client
             }
             await ETTask.CompletedTask;
             return ErrorCode.ERR_Success;
+        }
+
+        public static async ETTask LoginGate(Scene scene, string account, string password, string address, long token)
+        {
+            NetClient2Main_LoginGate response = await scene.GetComponent<ClientSenderComponent>().LoginGateAsync(account, password,address,token);
+            if (response.Error != ErrorCode.ERR_Success)
+                return;
+
+            await EventSystem.Instance.PublishAsync(scene, new LoginGateFinish());
         }
     }
 }

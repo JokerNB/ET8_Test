@@ -7,7 +7,6 @@ namespace ET.Server
     {
         protected override async ETTask Run(Session session, C2R_GetServerList request, R2C_GetServerList response)
         {
-            session.RemoveComponent<SessionAcceptTimeoutComponent>();
             foreach (StartZoneConfig zoneConfig in StartZoneConfigCategory.Instance.DataList)
             {
                 var zone = zoneConfig.Id;
@@ -23,6 +22,7 @@ namespace ET.Server
                     response.ServerListInfos.Add(serverListInfo);
                 }
             }
+            session.Diconnect().Coroutine();
             await ETTask.CompletedTask;
         }
     }

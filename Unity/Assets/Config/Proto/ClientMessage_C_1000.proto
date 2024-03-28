@@ -20,3 +20,20 @@ message NetClient2Main_Login // IResponse
 	int64 Token = 5;
 	string NickName = 6;
 }
+
+// ResponseType NetClient2Main_LoginGate
+message Main2NetClient_LoginGate // IRequest
+{
+	int32 RpcId = 1;
+	string Account = 2;		// 账号
+	string Password = 3; 	// 密码
+	string GateAddress = 4;
+	int64 Token = 5;
+}
+
+message NetClient2Main_LoginGate // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+}

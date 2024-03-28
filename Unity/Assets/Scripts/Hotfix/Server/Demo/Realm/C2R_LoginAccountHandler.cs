@@ -76,10 +76,10 @@ namespace ET.Server
                     }
                 }
             }
+            
             long token = RandomGenerator.RandInt64();
             response.Token = token;
             response.NickName = accountInfo.NickName;
-            // session.Diconnect().Coroutine();
         }
     }
 }

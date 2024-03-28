@@ -51,18 +51,10 @@ namespace ET.Client
                 return;
             }
             //TODO:登录Gate
-            var c2GLoginGate = C2G_LoginGate.Create();
-            c2GLoginGate.Account = self.Root().GetComponent<PlayerComponent>().Account;
-            c2GLoginGate.Token = self.Root().GetComponent<PlayerComponent>().Token;
-            var g2CLoginGate = (G2C_LoginGate)await self.Root().GetComponent<ClientSenderComponent>().Call(c2GLoginGate);
-            if (g2CLoginGate.Error != ErrorCode.ERR_Success)
-            {
-                Log.Error($"Login Gate Error == {g2CLoginGate.Error}");
-                return;
-            }
-            self.Root().GetComponent<FUIComponent>().ClosePanel(PanelId.UILobby);
-            await LoadingPanelHelper.OpenSetLoading(self.Root(), 10);
-            await EnterMapHelper.EnterMapAsync(self.Root());
+            var account = self.Root().GetComponent<PlayerComponent>().Account;
+            var password = self.Root().GetComponent<PlayerComponent>().Password;
+            var token = self.Root().GetComponent<PlayerComponent>().Token;
+            await LoginHelper.LoginGate(self.Root(), account, password, serverInfo.GateAddress, token);
         }
 
         public static void OnItemRender(UILobby self, int index, GObject item)

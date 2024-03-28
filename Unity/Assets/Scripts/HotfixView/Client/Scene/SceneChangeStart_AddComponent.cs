@@ -15,7 +15,7 @@ namespace ET.Client
                 ResourcesLoaderComponent resourcesLoaderComponent = currentScene.GetComponent<ResourcesLoaderComponent>();
             
                 // 加载场景资源
-                await resourcesLoaderComponent.LoadSceneAsync($"Assets/Bundles/Scenes/{currentScene.Name}.unity", LoadSceneMode.Single);
+                await resourcesLoaderComponent.LoadSceneAsync($"Assets/Bundles/Scenes/{currentScene.Name}/{currentScene.Name}.unity", LoadSceneMode.Single);
                 currentScene.AddComponent<OperaComponent>();
                 if(currentScene.Name == "Map1")
                     currentScene.AddComponent<MainMapTransferPointComponent>();
