@@ -2,9 +2,9 @@ namespace ET.Server
 {
     [MessageSessionHandler(SceneType.LoginCenter)]
     [FriendOfAttribute(typeof(ET.Server.AccountInfo))]
-    public class C2R_LoginAccountHandler : MessageSessionHandler<C2R_LoginAccount, R2C_LoginAccount>
+    public class C2L_LoginAccountHandler : MessageSessionHandler<C2L_LoginAccount, L2C_LoginAccount>
     {
-        protected override async ETTask Run(Session session, C2R_LoginAccount request, R2C_LoginAccount response)
+        protected override async ETTask Run(Session session, C2L_LoginAccount request, L2C_LoginAccount response)
         {
             session.RemoveComponent<SessionAcceptTimeoutComponent>();
             if (session.GetComponent<SessionLockingComponent>() != null)

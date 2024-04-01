@@ -70,7 +70,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Robot/RobotManagerComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/HttpClientHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/OneFrameInputsHandler.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/C2R_LoginAccountHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Unit/UnitSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/LockStep/LSUnitFactory.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/ConstValue.cs" />
@@ -206,6 +205,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Message/SessionIdleCheckerComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/LSSceneChangeHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/MapMessageHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/LoginCenter/C2L_LoginAccountHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Plugins/Example/HotfixClient.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/AI/XunLuoPathComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Robot/FiberInit_Robot.cs" />

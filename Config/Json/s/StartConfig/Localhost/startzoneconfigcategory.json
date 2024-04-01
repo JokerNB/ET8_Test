@@ -45,6 +45,6 @@
     "Type": 3,
     "Status": 0,
     "DBConnection": "mongodb://127.0.0.1",
-    "DBName": "ET1000"
+    "DBName": "ETCommon"
   }
 ]

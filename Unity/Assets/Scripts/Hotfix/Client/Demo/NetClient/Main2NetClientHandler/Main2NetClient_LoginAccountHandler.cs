@@ -25,14 +25,14 @@ namespace ET.Client
             // IPEndPoint realmAddress = routerAddressComponent.GetRealmAddress(account);
             IPEndPoint LoginCenterAddress = new IPEndPoint(IPAddress.Parse(ConstValue.LoginCenterHttpHost), ConstValue.LoginCenterHttpPort);
 
-            R2C_LoginAccount r2CLogin;
+            L2C_LoginAccount r2CLogin;
             // Session session = await netComponent.CreateRouterSession(realmAddress, account, password);
             Session session = await netComponent.CreateRouterSession(LoginCenterAddress, account, password);
             
-            C2R_LoginAccount c2RLogin = C2R_LoginAccount.Create();
+            C2L_LoginAccount c2RLogin = C2L_LoginAccount.Create();
             c2RLogin.Account = account;
             c2RLogin.Password = password;
-            r2CLogin = (R2C_LoginAccount)await session.Call(c2RLogin);
+            r2CLogin = (L2C_LoginAccount)await session.Call(c2RLogin);
 
             
 

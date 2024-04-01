@@ -568,13 +568,13 @@ namespace ET
     }
 
     [MemoryPackable]
-    [Message(OuterMessage.C2R_LoginAccount)]
-    [ResponseType(nameof(R2C_LoginAccount))]
-    public partial class C2R_LoginAccount : MessageObject, ISessionRequest
+    [Message(OuterMessage.C2L_LoginAccount)]
+    [ResponseType(nameof(L2C_LoginAccount))]
+    public partial class C2L_LoginAccount : MessageObject, ISessionRequest
     {
-        public static C2R_LoginAccount Create(bool isFromPool = false)
+        public static C2L_LoginAccount Create(bool isFromPool = false)
         {
-            return ObjectPool.Instance.Fetch(typeof(C2R_LoginAccount), isFromPool) as C2R_LoginAccount;
+            return ObjectPool.Instance.Fetch(typeof(C2L_LoginAccount), isFromPool) as C2L_LoginAccount;
         }
 
         [MemoryPackOrder(0)]
@@ -608,12 +608,12 @@ namespace ET
     }
 
     [MemoryPackable]
-    [Message(OuterMessage.R2C_LoginAccount)]
-    public partial class R2C_LoginAccount : MessageObject, ISessionResponse
+    [Message(OuterMessage.L2C_LoginAccount)]
+    public partial class L2C_LoginAccount : MessageObject, ISessionResponse
     {
-        public static R2C_LoginAccount Create(bool isFromPool = false)
+        public static L2C_LoginAccount Create(bool isFromPool = false)
         {
-            return ObjectPool.Instance.Fetch(typeof(R2C_LoginAccount), isFromPool) as R2C_LoginAccount;
+            return ObjectPool.Instance.Fetch(typeof(L2C_LoginAccount), isFromPool) as L2C_LoginAccount;
         }
 
         [MemoryPackOrder(0)]
@@ -1216,8 +1216,8 @@ namespace ET
         public const ushort G2C_Ping = 10017;
         public const ushort C2M_Reload = 10018;
         public const ushort M2C_Reload = 10019;
-        public const ushort C2R_LoginAccount = 10020;
-        public const ushort R2C_LoginAccount = 10021;
+        public const ushort C2L_LoginAccount = 10020;
+        public const ushort L2C_LoginAccount = 10021;
         public const ushort C2G_LoginGate = 10022;
         public const ushort G2C_LoginGate = 10023;
         public const ushort C2M_TestRobotCase = 10024;
