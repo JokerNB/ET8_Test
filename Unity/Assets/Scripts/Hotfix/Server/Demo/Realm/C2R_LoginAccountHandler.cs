@@ -1,6 +1,6 @@
 namespace ET.Server
 {
-    [MessageSessionHandler(SceneType.Realm)]
+    [MessageSessionHandler(SceneType.LoginCenter)]
     [FriendOfAttribute(typeof(ET.Server.AccountInfo))]
     public class C2R_LoginAccountHandler : MessageSessionHandler<C2R_LoginAccount, R2C_LoginAccount>
     {
@@ -42,7 +42,7 @@ namespace ET.Server
                     if (accountInfos != null && accountInfos.Count > 0)
                     {
                         accountInfo = accountInfos[0];
-                        session.AddChild<AccountInfo>();
+                        session.AddChild(accountInfo);
                         if (accountInfo.accountType == (int)AccountType.BlackList)
                         {
                             response.Error = ErrorCode.ERR_AccountInBlackListError;

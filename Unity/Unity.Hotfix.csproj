@@ -62,6 +62,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/C2Room_ChangeSceneFinishHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/RouterCheckComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/AI/AIComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/LoginCenter/FiberInit_LoginCenter.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Scene/M2C_StartSceneChangeHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/GateSessionKeyComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Transfer/C2M_TransferMapHandler.cs" />
@@ -73,10 +74,11 @@
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Unit/UnitSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/LockStep/LSUnitFactory.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/ConstValue.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Main2NetClient_LoginHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Ping/PingComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Gate/C2G_MatchHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/A2NetClientHandler/A2NetClient_RequestHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/AOISeeCheckHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Main2NetClientHandler/Main2NetClient_LoginGateHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/C2G_ChangeNickNameHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Plugins/Example/HotfixShare.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Unit/UnitEnterSightRange_NotifyClient.cs" />
@@ -86,7 +88,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/C2G_PingHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Message/ProcessOuterSenderSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/LocationProxyComponentSystem.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/Main2NetClient_LoginGateHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/C2G_EnterMapHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/ClientSenderComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/FiberInit_Location.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Http/HttpComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Router/FiberInit_RouterManager.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/DB/DBComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/A2NetClientHandler/A2NetClient_MessageHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/M2C_CreateUnitsHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Recast/PathfindingComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Console/ReloadDllConsoleHandler.cs" />
@@ -107,7 +109,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/FrameMessageHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/FiberInit_Gate.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/FiberInit_BenchmarkClient.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/A2NetClient_MessageHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/UnitFactory.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Login/EnterMapHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/AOIEntitySystem.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/NetComponentOnReadInvoker_Realm.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Message/SessionAcceptTimeoutComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/PlayerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/LoginCenter/NetComponentOnReadInvoker_LoginCenter.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Module/Message/NetComponentOnReadInvoker_NetClient.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/M2C_RemoveUnitsHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/BenchmarkClientComponentSystem.cs" />
@@ -138,6 +140,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/MessageLocationHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/RouterHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/AOIHelper.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Main2NetClientHandler/Main2NetClient_LoginAccountHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Numeric/NumericWatcher_Hp_ShowUI.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Demo/EntryEvent1_InitShare.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/C2G_LoginGateHandler.cs" />
@@ -185,7 +188,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/SessionPlayerComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/CellSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/FiberInit_Main.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/A2NetClient_RequestHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/LoginHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/RoomMessageHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Router/FiberInit_Router.cs" />

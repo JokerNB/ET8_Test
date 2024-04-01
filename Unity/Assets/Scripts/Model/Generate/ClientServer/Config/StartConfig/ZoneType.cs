@@ -26,5 +26,10 @@ namespace ET
         /// </summary>
         Router = 2,
 
+        /// <summary>
+        /// 公共区
+        /// </summary>
+        Common = 3,
+
     }
 }

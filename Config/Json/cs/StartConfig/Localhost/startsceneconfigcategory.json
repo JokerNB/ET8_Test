@@ -1,13 +1,5 @@
 [
   {
-    "Id": 1,
-    "Process": 1,
-    "Zone": 1,
-    "SceneType": "Realm",
-    "Name": "Realm",
-    "Port": 30002
-  },
-  {
     "Id": 2,
     "Process": 1,
     "Zone": 1,
@@ -126,5 +118,21 @@
     "SceneType": "Router",
     "Name": "Router04",
     "Port": 30304
+  },
+  {
+    "Id": 401,
+    "Process": 1,
+    "Zone": 1000,
+    "SceneType": "LoginCenter",
+    "Name": "LoginCenter",
+    "Port": 31000
+  },
+  {
+    "Id": 402,
+    "Process": 1,
+    "Zone": 1000,
+    "SceneType": "Realm",
+    "Name": "Realm",
+    "Port": 30002
   }
 ]

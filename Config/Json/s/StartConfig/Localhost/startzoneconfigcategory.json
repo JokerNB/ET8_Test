@@ -38,5 +38,13 @@
     "Status": 1,
     "DBConnection": "mongodb://127.0.0.1",
     "DBName": "ETRouter"
+  },
+  {
+    "Id": 1000,
+    "ZoneName": "公共服",
+    "Type": 3,
+    "Status": 0,
+    "DBConnection": "mongodb://127.0.0.1",
+    "DBName": "ET1000"
   }
 ]
