@@ -9,7 +9,8 @@
         "Unity.Model",
         "YooAsset",
         "FairyGUI.Dyanmic",
-        "FairyGUI"
+        "FairyGUI",
+        "Cinemachine"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

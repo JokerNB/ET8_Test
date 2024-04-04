@@ -12,10 +12,11 @@ namespace ET.Client
 			self.Camera = Camera.main;
 			self.Camera.transform.rotation = Quaternion.Euler(new Vector3(20, 0, 0));
 		}
-		
+
 		[EntitySystem]
 		private static void LateUpdate(this LSCameraComponent self)
 		{
+			Log.Error("LateUpdate");
 			// 摄像机每帧更新位置
 			Room room = self.GetParent<Room>();
 			if (room.IsReplay)

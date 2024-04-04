@@ -904,3 +904,15 @@
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.HotfixView.pdb
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/UnityEditor.WindowsStandalone.Extensions.dll
 /Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/WinPlayerBuildProgram.Data.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Cinemachine.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.Timeline.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.RenderPipelines.Universal.Runtime.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.RenderPipelines.Core.Runtime.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.Burst.dll
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Cinemachine.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.Timeline.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.RenderPipelines.Universal.Runtime.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.RenderPipelines.Core.Runtime.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Temp/Bin/Debug/Unity.Editor/Unity.Burst.pdb

@@ -26,6 +26,7 @@ namespace ET
             Speed = _buf.ReadInt();
             AOIRange = _buf.ReadInt();
             ResourceName = _buf.ReadString();
+            ViewDistance = _buf.ReadLong();
 
             PostInit();
         }
@@ -85,6 +86,11 @@ namespace ET
         /// </summary>
         public readonly string ResourceName;
 
+        /// <summary>
+        /// 视野范围
+        /// </summary>
+        public readonly long ViewDistance;
+
         public const int __ID__ = -727011535;
 
         public override int GetTypeId() => __ID__;
@@ -102,6 +108,7 @@ namespace ET
             + "Speed:" + Speed + ","
             + "AOIRange:" + AOIRange + ","
             + "ResourceName:" + ResourceName + ","
+            + "ViewDistance:" + ViewDistance + ","
             + "}";
         }
 

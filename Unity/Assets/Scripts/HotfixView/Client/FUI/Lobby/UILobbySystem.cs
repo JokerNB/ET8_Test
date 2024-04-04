@@ -21,8 +21,8 @@ namespace ET.Client
                 self.EnterMap().Coroutine();
             });
             var serverInfoList = self.FUIUILobby.ServerInfoList;
-            serverInfoList.itemRenderer = (index, item) => OnItemRender(self, index, item);
-            serverInfoList.onClickItem.Add(context => OnClickItem(self, context));
+            serverInfoList.itemRenderer = self.OnItemRender;
+            serverInfoList.onClickItem.Add(self.OnClickItem);
             serverInfoList.numItems = self.Root().GetComponent<ServerInfosComponent>().ServerInfosList.Count;
             //默认选择第一个
             SelectItem(self,serverInfoList.GetChildAt(0) as FUI_UISeverInfoItem);
@@ -57,7 +57,7 @@ namespace ET.Client
             await LoginHelper.LoginGate(self.Root(), account, password, serverInfo.GateAddress, token);
         }
 
-        public static void OnItemRender(UILobby self, int index, GObject item)
+        public static void OnItemRender(this UILobby self, int index, GObject item)
         {
             var serverInfosList = self.Root().GetComponent<ServerInfosComponent>().ServerInfosList;
             ServerInfo itemData = serverInfosList[index];
@@ -66,13 +66,13 @@ namespace ET.Client
             uiSeverInfoItem.States.selectedIndex = (int)itemData.Status;
         }
 
-        private static void OnClickItem(UILobby self, EventContext context)
+        private static void OnClickItem(this UILobby self, EventContext context)
         {
             var uiSeverInfoItem = context.data as FUI_UISeverInfoItem;
-            SelectItem(self,uiSeverInfoItem);
+            self.SelectItem(uiSeverInfoItem);
         }
 
-        private static void SelectItem(UILobby self, FUI_UISeverInfoItem uiSeverInfoItem)
+        private static void SelectItem(this UILobby self, FUI_UISeverInfoItem uiSeverInfoItem)
         {
             int idx = self.FUIUILobby.ServerInfoList.GetChildIndex(uiSeverInfoItem);
             if(idx == self._curSelectIdx)

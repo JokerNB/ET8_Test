@@ -10,6 +10,7 @@
     "AtkRange": 200,
     "Speed": 10,
     "AOIRange": 15,
-    "ResourceName": "Unit"
+    "ResourceName": "Unit",
+    "ViewDistance": 9000
   }
 ]

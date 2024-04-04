@@ -3,15 +3,15 @@
     public struct SceneChangeStart
     {
     }
-    
+
     public struct SceneChangeFinish
     {
     }
-    
+
     public struct AfterCreateClientScene
     {
     }
-    
+
     public struct AfterCreateCurrentScene
     {
     }
@@ -23,7 +23,7 @@
     public struct LoginAccountFinish
     {
     }
-    
+
     public struct LoginGateFinish
     {
     }
@@ -36,9 +36,14 @@
     {
         public Unit Unit;
     }
-    
+
     public struct AfterChooseModelDifficulty
     {
-        
+
+    }
+
+    public struct ChangeCameraDistance
+    {
+        public float CameraDistance;
     }
 }

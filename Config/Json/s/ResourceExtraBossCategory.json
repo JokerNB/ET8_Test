@@ -11,6 +11,7 @@
     "AOIRange": 15,
     "Coin": 4,
     "Exp": 3,
-    "ResourceName": "Unit"
+    "ResourceName": "Unit",
+    "ViewDistance": 90000
   }
 ]

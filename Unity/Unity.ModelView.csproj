@@ -78,6 +78,7 @@
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/MainPanel/MainPanelBinder.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/RegisterPanel/FUI_Button_Close.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/MainPanel/FUI_Button_FirstCharge.cs" />
+    <Compile Include="Assets/Scripts/ModelView/Client/Camera/CameraFollowComponent.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/LockStep/LSOperaComponent.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/Module/Resource/ResourcesLoaderComponent.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUI/FUIAssetComponent.cs" />
@@ -785,6 +786,9 @@
     </Reference>
     <Reference Include="FairyGUI">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/FairyGUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>

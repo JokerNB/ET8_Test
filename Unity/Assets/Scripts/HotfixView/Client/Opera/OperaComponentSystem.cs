@@ -15,7 +15,7 @@ namespace ET.Client
         [EntitySystem]
         private static void Update(this OperaComponent self)
         {
-            if (Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(0))
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
@@ -26,12 +26,12 @@ namespace ET.Client
                     self.Root().GetComponent<ClientSenderComponent>().Send(c2MPathfindingResult);
                 }
             }
-            
+
             if (Input.GetKeyDown(KeyCode.Q))
             {
                 self.Test1().Coroutine();
             }
-                
+
             if (Input.GetKeyDown(KeyCode.W))
             {
                 self.Test2().Coroutine();
@@ -54,7 +54,7 @@ namespace ET.Client
 
             }
         }
-        
+
         private static async ETTask Test1(this OperaComponent self)
         {
             Log.Debug($"Croutine 1 start1 ");
@@ -65,7 +65,7 @@ namespace ET.Client
 
             Log.Debug($"Croutine 1 end1");
         }
-            
+
         private static async ETTask Test2(this OperaComponent self)
         {
             Log.Debug($"Croutine 2 start2");

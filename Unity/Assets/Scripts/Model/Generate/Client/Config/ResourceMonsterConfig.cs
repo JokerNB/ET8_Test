@@ -28,6 +28,7 @@ namespace ET
             OpenExtraBossNum = _buf.ReadInt();
             ExtraBossConfigId = _buf.ReadInt();
             ResourceName = _buf.ReadString();
+            ViewDistance = _buf.ReadLong();
 
             PostInit();
         }
@@ -88,6 +89,11 @@ namespace ET
 
         public readonly string ResourceName;
 
+        /// <summary>
+        /// 视野范围
+        /// </summary>
+        public readonly long ViewDistance;
+
         public const int __ID__ = 877342254;
 
         public override int GetTypeId() => __ID__;
@@ -107,6 +113,7 @@ namespace ET
             + "OpenExtraBossNum:" + OpenExtraBossNum + ","
             + "ExtraBossConfigId:" + ExtraBossConfigId + ","
             + "ResourceName:" + ResourceName + ","
+            + "ViewDistance:" + ViewDistance + ","
             + "}";
         }
 

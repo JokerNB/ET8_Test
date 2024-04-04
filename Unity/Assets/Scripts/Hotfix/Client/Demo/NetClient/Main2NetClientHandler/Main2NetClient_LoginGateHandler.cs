@@ -21,6 +21,8 @@ namespace ET.Client
             }
 
             response.Error = g2CLoginGate.Error;
+            response.PlayerId = g2CLoginGate.PlayerId;
+
             Log.Error("登录Gate成功！！！");
         }
     }

@@ -11,7 +11,7 @@ namespace ET.Client
         [EntitySystem]
         private static void Awake(this ET.Client.HeadBarComponent self)
         {
-            LoadHeadBraPanelUI(self).Coroutine();
+            self.LoadHeadBraPanelUI().Coroutine();
         }
 
         [EntitySystem]
@@ -19,7 +19,7 @@ namespace ET.Client
         {
             UpdateHeadBarPanelPos(self);
         }
-    
+
         [EntitySystem]
         private static void Destroy(this ET.Client.HeadBarComponent self)
         {
@@ -27,16 +27,16 @@ namespace ET.Client
             self.FuiUIHearBarPanel = null;
         }
 
-        private static async ETTask LoadHeadBraPanelUI(HeadBarComponent self)
+        private static async ETTask LoadHeadBraPanelUI(this HeadBarComponent self)
         {
             var headBarPanel = await self.Root().GetComponent<FUIAssetComponent>().CreateObjectAsync("HeadBarPanel", "UIHeadBarPanel");
             FUIRootHelper.GetTargetRoot(UIPanelType.HeadBar, self.Root()).AddChild(headBarPanel);
             self.FuiUIHearBarPanel = headBarPanel as FUI_UIHeadBarPanel;
             self.FuiUIHearBarPanel.NickName.text = self.Root().GetComponent<PlayerComponent>().NickName;
-            UpdateHeadBarPanelPos(self);
+            self.UpdateHeadBarPanelPos();
         }
 
-        private static void UpdateHeadBarPanelPos(HeadBarComponent self)
+        private static void UpdateHeadBarPanelPos(this HeadBarComponent self)
         {
             if (self.FuiUIHearBarPanel == null)
                 return;
@@ -46,7 +46,7 @@ namespace ET.Client
             screenPoint.y = Screen.height - screenPoint.y;
             var pt = GRoot.inst.GlobalToLocal(screenPoint);
 
-            self.FuiUIHearBarPanel.SetXY(pt.x, pt.y - 50);
+            self.FuiUIHearBarPanel.SetXY(pt.x, pt.y - 183);
         }
     }
 }

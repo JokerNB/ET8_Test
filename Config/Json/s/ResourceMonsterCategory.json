@@ -13,7 +13,8 @@
     "Exp": 3,
     "OpenExtraBossNum": 300,
     "ExtraBossConfigId": 1,
-    "ResourceName": "Unit"
+    "ResourceName": "Unit",
+    "ViewDistance": 5000
   },
   {
     "Id": 2,
@@ -29,7 +30,8 @@
     "Exp": 4,
     "OpenExtraBossNum": 300,
     "ExtraBossConfigId": 2,
-    "ResourceName": "Unit"
+    "ResourceName": "Unit",
+    "ViewDistance": 5000
   },
   {
     "Id": 3,
@@ -45,7 +47,8 @@
     "Exp": 6,
     "OpenExtraBossNum": 300,
     "ExtraBossConfigId": 3,
-    "ResourceName": "Unit"
+    "ResourceName": "Unit",
+    "ViewDistance": 5000
   },
   {
     "Id": 4,
@@ -61,7 +64,8 @@
     "Exp": 8,
     "OpenExtraBossNum": 300,
     "ExtraBossConfigId": 4,
-    "ResourceName": "Unit"
+    "ResourceName": "Unit",
+    "ViewDistance": 5000
   },
   {
     "Id": 5,
@@ -77,7 +81,8 @@
     "Exp": 10,
     "OpenExtraBossNum": 300,
     "ExtraBossConfigId": 5,
-    "ResourceName": "Unit"
+    "ResourceName": "Unit",
+    "ViewDistance": 5000
   },
   {
     "Id": 6,
@@ -93,7 +98,8 @@
     "Exp": 10,
     "OpenExtraBossNum": 300,
     "ExtraBossConfigId": 6,
-    "ResourceName": "Unit"
+    "ResourceName": "Unit",
+    "ViewDistance": 5000
   },
   {
     "Id": 7,
@@ -109,6 +115,7 @@
     "Exp": 10,
     "OpenExtraBossNum": 300,
     "ExtraBossConfigId": 7,
-    "ResourceName": "Unit"
+    "ResourceName": "Unit",
+    "ViewDistance": 5000
   }
 ]

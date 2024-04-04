@@ -65,9 +65,6 @@ namespace ET
         [MemoryPackOrder(2)]
         public string Message { get; set; }
 
-        [MemoryPackOrder(3)]
-        public long PlayerId { get; set; }
-
         [MemoryPackOrder(4)]
         public long Token { get; set; }
 
@@ -84,7 +81,6 @@ namespace ET
             this.RpcId = default;
             this.Error = default;
             this.Message = default;
-            this.PlayerId = default;
             this.Token = default;
             this.NickName = default;
 
@@ -158,6 +154,9 @@ namespace ET
         [MemoryPackOrder(2)]
         public string Message { get; set; }
 
+        [MemoryPackOrder(3)]
+        public long PlayerId { get; set; }
+
         public override void Dispose()
         {
             if (!this.IsFromPool)
@@ -168,6 +167,7 @@ namespace ET
             this.RpcId = default;
             this.Error = default;
             this.Message = default;
+            this.PlayerId = default;
 
             ObjectPool.Instance.Recycle(this);
         }

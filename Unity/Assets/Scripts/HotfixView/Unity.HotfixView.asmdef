@@ -13,7 +13,8 @@
         "YooAsset",
         "spine-unity",
         "FairyGUI",
-        "FairyGUI.Dyanmic"
+        "FairyGUI.Dyanmic",
+        "Cinemachine"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

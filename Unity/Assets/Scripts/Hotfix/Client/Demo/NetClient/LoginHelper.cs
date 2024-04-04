@@ -5,7 +5,7 @@ namespace ET.Client
         public static async ETTask Login(Scene root, string account, string password)
         {
             root.RemoveComponent<ClientSenderComponent>();
-            
+
             ClientSenderComponent clientSenderComponent = root.AddComponent<ClientSenderComponent>();
 
             NetClient2Main_Login response = await clientSenderComponent.LoginAsync(account, password);
@@ -18,7 +18,7 @@ namespace ET.Client
 
             Log.Debug("请求登陆成功！！");
             long Token = response.Token;
-            
+
             //获取服务器列表
             var errorCode = await GetServerList(root);
             if (errorCode != ErrorCode.ERR_Success)
@@ -26,9 +26,8 @@ namespace ET.Client
                 Log.Error($"获取服务器列表出错 ： {errorCode}");
                 return;
             }
-            
+
             var playerComponent = root.GetComponent<PlayerComponent>();
-            playerComponent.MyId = response.PlayerId;
             playerComponent.Token = response.Token;
             playerComponent.Account = account;
             playerComponent.Password = password;
@@ -46,7 +45,7 @@ namespace ET.Client
                 Log.Error($"获取服务器区服列表错误 R2C_GetServerList Error : {r2CGetServerList.Error}");
                 return r2CGetServerList.Error;
             }
-            
+
             root.GetComponent<ServerInfosComponent>().ClearServerInfo();
             foreach (ServerListInfo info in r2CGetServerList.ServerListInfos)
             {
@@ -61,6 +60,8 @@ namespace ET.Client
             NetClient2Main_LoginGate response = await scene.GetComponent<ClientSenderComponent>().LoginGateAsync(account, password,address,token);
             if (response.Error != ErrorCode.ERR_Success)
                 return;
+            var playerComponent = scene.GetComponent<PlayerComponent>();
+            playerComponent.MyId = response.PlayerId;
 
             await EventSystem.Instance.PublishAsync(scene, new LoginGateFinish());
         }
