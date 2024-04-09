@@ -68,9 +68,6 @@ namespace ET
         [MemoryPackOrder(4)]
         public long Token { get; set; }
 
-        [MemoryPackOrder(5)]
-        public string NickName { get; set; }
-
         public override void Dispose()
         {
             if (!this.IsFromPool)
@@ -82,7 +79,6 @@ namespace ET
             this.Error = default;
             this.Message = default;
             this.Token = default;
-            this.NickName = default;
 
             ObjectPool.Instance.Recycle(this);
         }

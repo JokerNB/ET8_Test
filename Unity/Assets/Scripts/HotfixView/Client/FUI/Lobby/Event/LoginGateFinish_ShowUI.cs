@@ -6,8 +6,13 @@ namespace ET.Client
         protected override async ETTask Run(Scene scene, LoginGateFinish a)
         {
             scene.Root().GetComponent<FUIComponent>().ClosePanel(PanelId.UILobby);
-            await LoadingPanelHelper.OpenSetLoading(scene, 10);
-            await EnterMapHelper.EnterMapAsync(scene);
+            if (string.IsNullOrEmpty(scene.Root().GetComponent<PlayerComponent>().NickName))
+                await scene.Root().GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UIRegister);
+            else
+            {
+                await LoadingPanelHelper.OpenSetLoading(scene, 10);
+                await EnterMapHelper.EnterMapAsync(scene);
+            }
         }
     }
 }

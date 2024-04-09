@@ -31,7 +31,6 @@ namespace ET.Client
             playerComponent.Token = response.Token;
             playerComponent.Account = account;
             playerComponent.Password = password;
-            playerComponent.NickName = response.NickName;
             await EventSystem.Instance.PublishAsync(root, new LoginAccountFinish());
         }
 

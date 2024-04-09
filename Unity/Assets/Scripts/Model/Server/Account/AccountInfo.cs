@@ -5,7 +5,6 @@ namespace ET.Server
     {
         public string Account;
         public string Password;
-        public string NickName;
         public int accountType;
         public long CreateTime;
     }

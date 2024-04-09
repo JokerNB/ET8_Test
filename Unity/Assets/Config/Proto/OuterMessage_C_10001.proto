@@ -136,7 +136,6 @@ message L2C_LoginAccount // ISessionResponse
 	int32 Error = 2;
 	string Message = 3;
 	int64 Token = 4;
-	string NickName = 5;
 }
 
 // ResponseType G2C_LoginGate
@@ -208,21 +207,6 @@ message G2C_Benchmark // ISessionResponse
 	string Message = 3;
 }
 
-// ResponseType G2C_ChangeNickName
-message C2G_ChangeNickName // ILocationRequest
-{
-	int32 RpcId = 1;
-	string Account = 2;
-	string NewNickName = 3;
-}
-
-message G2C_ChangeNickName // ILocationResponse
-{
-	int32 RpcId = 1;
-	int32 Error = 2;
-	string Message = 3;
-}
-
 // ResponseType M2C_ChooseModelDifficulty
 message C2M_ChooseModelDifficulty // ILocationRequest
 {
@@ -257,6 +241,21 @@ message R2C_GetServerList // ISessionResponse
 	int32 RpcId = 1;
 	int32 Error = 2;
 	string Message = 3;
-	
+
 	repeated ServerListInfo ServerListInfos = 4;
+}
+
+// ResponseType G2C_ChangeNickName
+message C2G_ChangeNickName // ISessionRequest
+{
+	int32 RpcId = 1;
+	string Account = 2;
+	string NewNickName = 3;
+}
+
+message G2C_ChangeNickName // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
 }

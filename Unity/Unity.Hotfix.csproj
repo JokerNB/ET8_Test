@@ -118,6 +118,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Actor/MailBoxType_OrderedMessageHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/GateMapFactory.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/MailBoxType_GateSessionHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/LoginCenter/Handler/C2L_LoginAccountHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/LocationOneTypeSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Message/MessageSenderSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/G2C_ReconnectHandler.cs" />
@@ -205,7 +206,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Message/SessionIdleCheckerComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/LSSceneChangeHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/MapMessageHelper.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/LoginCenter/C2L_LoginAccountHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Plugins/Example/HotfixClient.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/AI/XunLuoPathComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Robot/FiberInit_Robot.cs" />

@@ -50,7 +50,6 @@ namespace ET.Client
                 Log.Error("ServerInfo Error");
                 return;
             }
-            //TODO:登录Gate
             var account = self.Root().GetComponent<PlayerComponent>().Account;
             var password = self.Root().GetComponent<PlayerComponent>().Password;
             var token = self.Root().GetComponent<PlayerComponent>().Token;

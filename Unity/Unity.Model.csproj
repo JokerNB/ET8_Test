@@ -162,6 +162,7 @@
     <Compile Include="Assets/Scripts/Model/Client/LockStep/LSReplayUpdater.cs" />
     <Compile Include="Assets/Scripts/Model/Server/LockStep/Map/RoomManagerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/LockStep/Map/RoomPlayer.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Account/AccountPlayerInfo.cs" />
     <Compile Include="Assets/Scripts/Model/Share/ConstFiberId.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Message/IMessageSessionHandler.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Robot/RobotCaseType.cs" />

@@ -17,7 +17,6 @@ message NetClient2Main_Login // IResponse
 	int32 Error = 2;
 	string Message = 3;
 	int64 Token = 5;
-	string NickName = 6;
 }
 
 // ResponseType NetClient2Main_LoginGate

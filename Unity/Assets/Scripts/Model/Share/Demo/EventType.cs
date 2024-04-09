@@ -42,8 +42,7 @@
 
     }
 
-    public struct ChangeCameraDistance
+    public struct ChangeNickNameFinish
     {
-        public float CameraDistance;
     }
 }

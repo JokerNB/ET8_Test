@@ -12,17 +12,17 @@ namespace ET.Client
 
         public static void RegisterUIEvent(this UIRegister self)
         {
-            self.FUIUIRegister.Button_ChooseName.AddListner(() => ChooseRandomNickName(self));
+            self.FUIUIRegister.Button_ChooseName.AddListner(self.ChooseRandomNickName);
             self.FUIUIRegister.Button_EntryGame.AddListner(() =>
             {
-                EntryGame(self).Coroutine();
+                self.EntryGame().Coroutine();
             });
         }
 
         public static void OnShow(this UIRegister self, Entity contextData = null)
         {
-            SetLoader1(self).Coroutine();
-            SetLoader2(self).Coroutine();
+            self.SetLoader1().Coroutine();
+            self.SetLoader2().Coroutine();
         }
 
         public static void OnHide(this UIRegister self)
@@ -33,7 +33,7 @@ namespace ET.Client
         {
         }
 
-        public static void ChooseRandomNickName(UIRegister self)
+        public static void ChooseRandomNickName(this UIRegister self)
         {
             var configs = RandomNameCategory.Instance.DataMap;
             var count = configs.Count;
@@ -49,7 +49,7 @@ namespace ET.Client
             }
         }
 
-        public static async ETTask SetLoader1(UIRegister self)
+        public static async ETTask SetLoader1(this UIRegister self)
         {
             var skeletonDataAsset = await self.Root().GetComponent<ResourcesLoaderComponent>()
                     .LoadAssetAsync<SkeletonDataAsset>("Assets/Bundles/Spine/spineboy-pro/spineboy-pro_SkeletonData");
@@ -59,7 +59,7 @@ namespace ET.Client
             self.FUIUIRegister.GLoad_1.spineAnimation.Initialize(true);
         }
 
-        public static async ETTask SetLoader2(UIRegister self)
+        public static async ETTask SetLoader2(this UIRegister self)
         {
             var skeletonDataAsset = await self.Root().GetComponent<ResourcesLoaderComponent>()
                     .LoadAssetAsync<SkeletonDataAsset>("Assets/Bundles/Spine/Spineunitygirl/Doi_SkeletonData");
@@ -69,7 +69,7 @@ namespace ET.Client
             self.FUIUIRegister.GLoad_2.spineAnimation.Initialize(true);
         }
 
-        public static async ETTask EntryGame(UIRegister self)
+        public static async ETTask EntryGame(this UIRegister self)
         {
             string newNickName = self.FUIUIRegister.Input.text;
             string Account = self.Root().GetComponent<PlayerComponent>().Account;
@@ -79,8 +79,8 @@ namespace ET.Client
             G2C_ChangeNickName g2CChangeNickName = await self.Root().GetComponent<ClientSenderComponent>().Call(changeNickName) as G2C_ChangeNickName;
             if(g2CChangeNickName.Error != ErrorCode.ERR_Success)
                 return;
-            self.Root().GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UILobby).Coroutine();
-            self.Root().GetComponent<FUIComponent>().ClosePanel(PanelId.UIRegister);
+            self.Root().GetComponent<PlayerComponent>().NickName = newNickName;
+            EventSystem.Instance.Publish(self.Root(), new ChangeNickNameFinish());
         }
     }
 }

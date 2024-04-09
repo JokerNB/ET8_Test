@@ -50,7 +50,7 @@ namespace ET.Server
                             accountInfo?.Dispose();
                             return;
                         }
-                        
+
                         if (!accountInfo.Password.Equals(request.Password))
                         {
                             response.Error = ErrorCode.ERR_LoginPasswrodError;
@@ -76,10 +76,9 @@ namespace ET.Server
                     }
                 }
             }
-            
+
             long token = RandomGenerator.RandInt64();
             response.Token = token;
-            response.NickName = accountInfo.NickName;
         }
     }
 }
