@@ -122,27 +122,27 @@ message M2C_Reload // ISessionResponse
 	string Message = 3;
 }
 
-// ResponseType L2C_LoginAccount
-message C2L_LoginAccount // ISessionRequest
+// ResponseType R2C_LoginAccount
+message C2R_LoginAccount // ISessionRequest
 {
 	int32 RpcId = 1;
 	string  Account = 2;  // 帐号
 	string  Password = 3;  // 密码
 }
 
-message L2C_LoginAccount // ISessionResponse
+message R2C_LoginAccount // ISessionResponse
 {
 	int32 RpcId = 1;
 	int32 Error = 2;
 	string Message = 3;
-	int64 Token = 4;
+	string Token = 4;
 }
 
 // ResponseType G2C_LoginGate
 message C2G_LoginGate // ISessionRequest
 {
 	int32 RpcId = 1;
-	int64 Token = 2;
+	string Token = 2;
 	string Account = 3;
 }
 
@@ -152,33 +152,7 @@ message G2C_LoginGate // ISessionResponse
 	int32 Error = 2;
 	string Message = 3;
 	int64 PlayerId = 4;
-}
-
-// ResponseType M2C_TestRobotCase
-message C2M_TestRobotCase // ILocationRequest
-{
-	int32 RpcId = 1;
-	int32 N = 2;
-}
-
-message M2C_TestRobotCase // ILocationResponse
-{
-	int32 RpcId = 1;
-	int32 Error = 2;
-	string Message = 3;
-	int32 N = 4;
-}
-
-message C2M_TestRobotCase2 // ILocationMessage
-{
-	int32 RpcId = 1;
-	int32 N = 2;
-}
-
-message M2C_TestRobotCase2 // ILocationMessage
-{
-	int32 RpcId = 1;
-	int32 N = 2;
+	string NickName = 5;
 }
 
 // ResponseType M2C_TransferMap
@@ -222,11 +196,11 @@ message M2C_ChooseModelDifficulty // ILocationResponse
 	string Message = 3;
 }
 
-message ServerListInfo
+message ServerInfoProto
 {
-	string GateAddress = 1;
-	string Name = 2;
-	int32 Status = 3;
+	int32 Id = 1;
+	int32 Status = 2;
+	string ServerName = 3;
 }
 
 // ResponseType R2C_GetServerList
@@ -234,6 +208,7 @@ message C2R_GetServerList // ISessionRequest
 {
 	int32 RpcId = 1;
 	string Account = 2;
+	string Token = 3;
 }
 
 message R2C_GetServerList // ISessionResponse
@@ -242,7 +217,7 @@ message R2C_GetServerList // ISessionResponse
 	int32 Error = 2;
 	string Message = 3;
 
-	repeated ServerListInfo ServerListInfos = 4;
+	repeated ServerInfoProto ServerInfoList = 4;
 }
 
 // ResponseType G2C_ChangeNickName
@@ -254,6 +229,13 @@ message C2G_ChangeNickName // ISessionRequest
 }
 
 message G2C_ChangeNickName // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+}
+
+message A2C_Disconnect // ISessionMessage
 {
 	int32 RpcId = 1;
 	int32 Error = 2;

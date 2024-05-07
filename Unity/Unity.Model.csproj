@@ -97,6 +97,7 @@
     <Compile Include="Assets/Scripts/Model/Share/Module/Console/ConsoleDispatcher.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Entry.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Scene/CurrentScenesComponent.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Demo/Realm/TokenComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Gate/SessionPlayerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/AI/AIConfig.cs" />
     <Compile Include="Assets/Scripts/Model/Share/EntitySerializeRegister.cs" />
@@ -107,6 +108,8 @@
     <Compile Include="Assets/Scripts/Model/Share/Module/Unit/UnitEventType.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/FrameBuffer.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/ZoneType.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Demo/ServerInfo/ServerInfoManagerComponent.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Demo/Realm/AccountCheckOutTimeComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/AOI/AOIManagerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/AOI/AOIEntity.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Message/SessionAcceptTimeoutComponent.cs" />
@@ -126,16 +129,13 @@
     <Compile Include="Assets/Scripts/Model/Server/LockStep/Map/RoomServerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Benchmark/BenchmarkServerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Console/IConsoleHandler.cs" />
-    <Compile Include="Assets/Scripts/Model/Client/Demo/Login/ServerInfosComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Demo/Main/Move/Wait_UnitStop.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Demo/NetClient/Ping/PingComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyNormalCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Monster/MonsterType.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/Http/IHttpHandler.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/StartZoneConfigCategory.cs" />
-    <Compile Include="Assets/Scripts/Model/Server/Demo/Robot/Case/RobotCase_SecondCase.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Demo/AI/XunLuoPathComponent.cs" />
-    <Compile Include="Assets/Scripts/Model/Client/Demo/Login/ServerInfo.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/ZoneStatus.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Numeric/INumericWatcher.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/AOI/Cell.cs" />
@@ -177,6 +177,7 @@
     <Compile Include="Assets/Scripts/Model/Server/Demo/Gate/PlayerSessionComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/LockStep/Gate/PlayerRoomComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/ActorLocation/LocationComponent.cs" />
+    <Compile Include="Assets/Scripts/Model/Share/Demo/ServerInfo/ServerInfo.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/ResourceExtraBossConfig.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyHappyCategroy.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/ResourceMonsterCategory.cs" />
@@ -201,6 +202,7 @@
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Message/ClientMessage_C_1000.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Module/Message/ClientSessionErrorComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/Http/HttpHandlerAttribute.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Demo/Realm/AccountSessionComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Message/Session.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/AI/AIDispatcherComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Watcher/WatcherComponent.cs" />
@@ -213,6 +215,7 @@
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/Tables.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Plugins/Example/ModelClient.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/AIConfig.cs" />
+    <Compile Include="Assets\Scripts\Model\Client\ServerInfo\ServerInfoComponent.cs" />
     <None Include="Assets/Scripts/Model/Unity.Model.asmdef" />
     <Reference Include="NLog">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/NLog.dll</HintPath>

@@ -2,7 +2,7 @@ namespace ET.Server
 {
     public static class DisconnectHelper
     {
-        public static async ETTask Diconnect(this Session self)
+        public static async ETTask Disconnect(this Session self)
         {
             if (self == null || self.IsDisposed)
                 return;

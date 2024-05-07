@@ -8,6 +8,6 @@
         public string Password { get; set; }
         public string NickName { get; set; }
         public bool isNewPlayer { get; set; }
-        public long Token { get; set; }
+        public string Token { get; set; }
     }
 }

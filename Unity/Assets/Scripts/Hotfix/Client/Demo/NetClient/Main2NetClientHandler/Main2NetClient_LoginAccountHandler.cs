@@ -22,26 +22,22 @@ namespace ET.Client
 
             NetComponent netComponent = root.GetComponent<NetComponent>();
 
-            // IPEndPoint realmAddress = routerAddressComponent.GetRealmAddress(account);
-            IPEndPoint LoginCenterAddress = new IPEndPoint(IPAddress.Parse(ConstValue.LoginCenterHttpHost), ConstValue.LoginCenterHttpPort);
+            IPEndPoint realmAddress = routerAddressComponent.GetRealmAddress(account);
 
-            L2C_LoginAccount r2CLogin;
-            // Session session = await netComponent.CreateRouterSession(realmAddress, account, password);
-            Session session = await netComponent.CreateRouterSession(LoginCenterAddress, account, password);
+            R2C_LoginAccount r2CLogin;
+            Session session = await netComponent.CreateRouterSession(realmAddress, account, password);
 
-            C2L_LoginAccount c2RLogin = C2L_LoginAccount.Create();
+            C2R_LoginAccount c2RLogin = C2R_LoginAccount.Create();
             c2RLogin.Account = account;
             c2RLogin.Password = password;
-            r2CLogin = (L2C_LoginAccount)await session.Call(c2RLogin);
+            r2CLogin = (R2C_LoginAccount)await session.Call(c2RLogin);
 
 
 
             if (r2CLogin.Error == ErrorCode.ERR_Success)
             {
-                IPEndPoint realmAddress = routerAddressComponent.GetRealmAddress(account);
-                Session session_Realm = await netComponent.CreateRouterSession(realmAddress, account, password);
-                root.AddComponent<SessionComponent>().Session = session_Realm;
-                session.Diconnect().Coroutine();
+                root.AddComponent<SessionComponent>().Session = session;
+                // session.Diconnect().Coroutine();
             }
             else
             {

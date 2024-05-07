@@ -17,6 +17,10 @@ namespace ET.Server
             root.AddComponent<NetComponent, IPEndPoint, NetworkProtocol>(startSceneConfig.InnerIPPort, NetworkProtocol.UDP);
             root.AddComponent<DBManagerComponent>();
 
+            root.AddComponent<AccountSessionComponent>();
+            root.AddComponent<TokenComponent>();
+            root.AddComponent<ServerInfoManagerComponent>();
+
             await ETTask.CompletedTask;
         }
     }

@@ -22,7 +22,7 @@ namespace ET
         public StartSceneConfig Match;
 
         public StartSceneConfig Benchmark;
-        public StartSceneConfig LoginCenter;
+        public StartSceneConfig LoginCenterConfig;
 
         public List<StartSceneConfig> GetByProcess(int process)
         {
@@ -71,7 +71,7 @@ namespace ET
                         this.Benchmark = startSceneConfig;
                         break;
                     case SceneType.LoginCenter:
-                        this.LoginCenter = startSceneConfig;
+                        this.LoginCenterConfig = startSceneConfig;
                         break;
                 }
             }

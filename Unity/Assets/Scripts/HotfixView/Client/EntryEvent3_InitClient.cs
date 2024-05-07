@@ -13,18 +13,18 @@ namespace ET.Client
             root.AddComponent<ResourcesLoaderComponent>();
             root.AddComponent<PlayerComponent>();
             root.AddComponent<CurrentScenesComponent>();
-            root.AddComponent<ServerInfosComponent>();
-            
+            root.AddComponent<ServerInfoComponent>();
+
             World.Instance.AddSingleton<FUIEventSingleTon>();
             root.AddComponent<LocalizeComponent>();
             var fuiAssetComponent = root.AddComponent<FUIAssetComponent,bool>(false);
             await fuiAssetComponent.InitializeUIAssetManager();
             root.AddComponent<FUIComponent>();
-            
+
             // 根据配置修改掉Main Fiber的SceneType
             SceneType sceneType = EnumHelper.FromString<SceneType>(globalComponent.GlobalConfig.AppType.ToString());
             root.SceneType = sceneType;
-            
+
             await EventSystem.Instance.PublishAsync(root, new AppStartInitFinish());
         }
     }

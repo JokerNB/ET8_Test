@@ -11,7 +11,7 @@ namespace ET.Client
         {
 
         }
-        
+
         [EntitySystem]
         private static void Destroy(this ClientSenderComponent self)
         {
@@ -48,17 +48,6 @@ namespace ET.Client
             NetClient2Main_Login response = await self.Root().GetComponent<ProcessInnerSender>().Call(self.netClientActorId, main2NetClientLogin) as NetClient2Main_Login;
             return response;
         }
-        
-        public static async ETTask<NetClient2Main_LoginGate> LoginGateAsync(this ClientSenderComponent self, string account, string password,string address,long token)
-        {
-            Main2NetClient_LoginGate main2NetClientLogin = Main2NetClient_LoginGate.Create();
-            main2NetClientLogin.Account = account;
-            main2NetClientLogin.Password = password;
-            main2NetClientLogin.GateAddress = address;
-            main2NetClientLogin.Token = token;
-            NetClient2Main_LoginGate response = await self.Root().GetComponent<ProcessInnerSender>().Call(self.netClientActorId, main2NetClientLogin) as NetClient2Main_LoginGate;
-            return response;
-        }
 
         public static void Send(this ClientSenderComponent self, IMessage message)
         {
@@ -73,7 +62,7 @@ namespace ET.Client
             a2NetClientRequest.MessageObject = request;
             using A2NetClient_Response a2NetClientResponse = await self.Root().GetComponent<ProcessInnerSender>().Call(self.netClientActorId, a2NetClientRequest) as A2NetClient_Response;
             IResponse response = a2NetClientResponse.MessageObject;
-                        
+
             if (response.Error == ErrorCore.ERR_MessageTimeout)
             {
                 throw new RpcException(response.Error, $"Rpc error: request, 注意Actor消息超时，请注意查看是否死锁或者没有reply: {request}, response: {response}");

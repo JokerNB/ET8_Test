@@ -11,7 +11,7 @@ namespace ET.Server
 
     public enum AccountType
     {
-        Player,
+        General,
         BlackList,
         WhiteList,
         GM
