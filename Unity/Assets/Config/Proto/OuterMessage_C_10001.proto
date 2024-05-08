@@ -143,7 +143,8 @@ message C2G_LoginGate // ISessionRequest
 {
 	int32 RpcId = 1;
 	string Token = 2;
-	string Account = 3;
+	string AccountName = 3;
+	int64 Key = 4;
 }
 
 message G2C_LoginGate // ISessionResponse
@@ -240,4 +241,55 @@ message A2C_Disconnect // ISessionMessage
 	int32 RpcId = 1;
 	int32 Error = 2;
 	string Message = 3;
+}
+
+// ResponseType R2C_LoginGame
+message C2R_LoginGame // ISessionRequest
+{
+	int32 RpcId = 1;
+	string Token = 2;
+	string Account = 3;
+	int64 Id = 4;
+}
+
+message R2C_LoginGame // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+	int64 PlayerId = 4;
+	string NickName = 5;
+}
+
+// ResponseType R2C_GetRealmKey
+message C2R_GetRealmKey // ISessionRequest
+{
+	int32 RpcId = 1;
+	string Token = 2;
+	string Account = 3;
+	int32 ServerId = 4;
+}
+
+message R2C_GetRealmKey // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+	string Address = 4;
+	int64 Key = 5;
+	int64 GateId = 6;
+}
+
+// ResponseType G2C_EnterGame
+message C2G_EnterGame // ISessionRequest
+{
+	int32 RpcId = 1;
+}
+
+message G2C_EnterGame // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+	int64 MyUnitId = 4;
 }

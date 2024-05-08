@@ -1,9 +1,9 @@
 namespace ET.Client
 {
     [Event(SceneType.Demo)]
-    public class LoginGateFinish_ShowUI : AEvent<Scene, LoginGateFinish>
+    public class LoginGameFinish_ShowUI : AEvent<Scene, LoginGameFinish>
     {
-        protected override async ETTask Run(Scene scene, LoginGateFinish a)
+        protected override async ETTask Run(Scene scene, LoginGameFinish a)
         {
             scene.Root().GetComponent<FUIComponent>().ClosePanel(PanelId.UILobby);
             if (string.IsNullOrEmpty(scene.Root().GetComponent<PlayerComponent>().NickName))

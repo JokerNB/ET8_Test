@@ -125,7 +125,7 @@
     "Zone": 1000,
     "SceneType": "LoginCenter",
     "Name": "LoginCenter",
-    "Port": 31000
+    "Port": 0
   },
   {
     "Id": 402,

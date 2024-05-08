@@ -37,5 +37,15 @@ namespace ET.Client
             playerComponent.Password = password;
             await EventSystem.Instance.PublishAsync(root, new LoginAccountFinish());
         }
+
+        public static async ETTask<R2C_GetRealmKey> GetRealmKey(Scene root, string Token, string Account, int ServerId)
+        {
+            C2R_GetRealmKey c2RGetRealmKey = C2R_GetRealmKey.Create();
+            c2RGetRealmKey.Token = Token;
+            c2RGetRealmKey.Account = Account;
+            c2RGetRealmKey.ServerId = ServerId;
+            var r2CGetRealmKey = await root.GetComponent<ClientSenderComponent>().Call(c2RGetRealmKey) as R2C_GetRealmKey;
+            return r2CGetRealmKey;
+        }
     }
 }

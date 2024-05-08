@@ -47,6 +47,7 @@
     <Analyzer Include="/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.cysharp.memorypack@2554e81f03/Runtime/MemoryPack.Generator/MemoryPack.Generator.Roslyn3.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Model/Client/ServerInfo/ServerInfoComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Gate/GateMapComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Console/ConsoleComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/DB/DBComponent.cs" />
@@ -119,6 +120,7 @@
     <Compile Include="Assets/Scripts/Model/Client/Demo/NetClient/Router/RouterCheckComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/DB/IDBCollection.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Scene/FiberParentComponent.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Demo/LoginCenter/LoginInfoRecordComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/AOI/AOIEventType.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/AI/AAIHandler.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Numeric/NumericType.cs" />
@@ -215,7 +217,6 @@
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/Tables.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Plugins/Example/ModelClient.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/AIConfig.cs" />
-    <Compile Include="Assets\Scripts\Model\Client\ServerInfo\ServerInfoComponent.cs" />
     <None Include="Assets/Scripts/Model/Unity.Model.asmdef" />
     <Reference Include="NLog">
       <HintPath>/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Assets/Plugins/NLog.dll</HintPath>

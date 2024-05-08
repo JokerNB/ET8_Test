@@ -24,9 +24,8 @@ message Main2NetClient_LoginGame // IRequest
 {
 	int32 RpcId = 1;
 	string Account = 2;		// 账号
-	string Password = 3; 	// 密码
-	int32 Id = 4;
-	string Token = 5;
+	int64 RealmKey = 3;
+	string GateAddress = 4;
 }
 
 message NetClient2Main_LoginGame // IResponse
@@ -34,4 +33,7 @@ message NetClient2Main_LoginGame // IResponse
 	int32 RpcId = 1;
 	int32 Error = 2;
 	string Message = 3;
+
+	int64 PlayerId = 4;
+	string NickName = 5;
 }

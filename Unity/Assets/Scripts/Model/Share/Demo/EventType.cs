@@ -24,7 +24,7 @@
     {
     }
 
-    public struct LoginGateFinish
+    public struct LoginGameFinish
     {
     }
 

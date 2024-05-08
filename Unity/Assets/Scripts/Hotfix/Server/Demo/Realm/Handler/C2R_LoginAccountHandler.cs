@@ -1,6 +1,6 @@
 namespace ET.Server
 {
-    [MessageSessionHandler(SceneType.LoginCenter)]
+    [MessageSessionHandler(SceneType.Realm)]
     [FriendOfAttribute(typeof(ET.Server.AccountInfo))]
     public class C2R_LoginAccountHandler : MessageSessionHandler<C2R_LoginAccount, R2C_LoginAccount>
     {

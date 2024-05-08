@@ -789,6 +789,140 @@ namespace ET
         }
     }
 
+    [MemoryPackable]
+    [Message(InnerMessage.L2G_DisconnectGateUnit)]
+    [ResponseType(nameof(G2L_DisconnectGateUnit))]
+    public partial class L2G_DisconnectGateUnit : MessageObject, IRequest
+    {
+        public static L2G_DisconnectGateUnit Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(L2G_DisconnectGateUnit), isFromPool) as L2G_DisconnectGateUnit;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public string AccountName { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.AccountName = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(InnerMessage.G2L_DisconnectGateUnit)]
+    public partial class G2L_DisconnectGateUnit : MessageObject, IResponse
+    {
+        public static G2L_DisconnectGateUnit Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(G2L_DisconnectGateUnit), isFromPool) as G2L_DisconnectGateUnit;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Error { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string Message { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Error = default;
+            this.Message = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(InnerMessage.R2G_GetLoginKey)]
+    [ResponseType(nameof(G2R_GetLoginKey))]
+    public partial class R2G_GetLoginKey : MessageObject, IRequest
+    {
+        public static R2G_GetLoginKey Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(R2G_GetLoginKey), isFromPool) as R2G_GetLoginKey;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public string Account { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Account = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(InnerMessage.G2R_GetLoginKey)]
+    public partial class G2R_GetLoginKey : MessageObject, IResponse
+    {
+        public static G2R_GetLoginKey Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(G2R_GetLoginKey), isFromPool) as G2R_GetLoginKey;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Error { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string Message { get; set; }
+
+        [MemoryPackOrder(3)]
+        public long Key { get; set; }
+
+        [MemoryPackOrder(4)]
+        public long GateId { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Error = default;
+            this.Message = default;
+            this.Key = default;
+            this.GateId = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
     public static class InnerMessage
     {
         public const ushort ObjectQueryRequest = 20002;
@@ -814,5 +948,9 @@ namespace ET
         public const ushort M2M_UnitTransferResponse = 20022;
         public const ushort R2L_LoginAccountRequest = 20023;
         public const ushort L2R_LoginAccountResponse = 20024;
+        public const ushort L2G_DisconnectGateUnit = 20025;
+        public const ushort G2L_DisconnectGateUnit = 20026;
+        public const ushort R2G_GetLoginKey = 20027;
+        public const ushort G2R_GetLoginKey = 20028;
     }
 }

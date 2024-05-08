@@ -51,8 +51,25 @@ namespace ET.Client
                 return;
             }
             var account = self.Root().GetComponent<PlayerComponent>().Account;
-            var password = self.Root().GetComponent<PlayerComponent>().Password;
             var token = self.Root().GetComponent<PlayerComponent>().Token;
+            var r2CGetRealmKey = await LoginHelper.GetRealmKey(self.Root(), token, account, (int)serverInfo.Id);
+            if (r2CGetRealmKey.Error != ErrorCode.ERR_Success)
+            {
+                Log.Error($"获取RealmKey失败 {r2CGetRealmKey.Error}");
+                return;
+            }
+
+            var response = await self.Root().GetComponent<ClientSenderComponent>().LoginGameAsync(account, r2CGetRealmKey.Key, r2CGetRealmKey.Address);
+            if (response.Error != ErrorCode.ERR_Success)
+            {
+                Log.Error($"登录游戏失败 :{response.Error}");
+                return;
+            }
+
+            self.Root().GetComponent<PlayerComponent>().MyId = response.PlayerId;
+            self.Root().GetComponent<PlayerComponent>().NickName = response.NickName;
+
+            await EventSystem.Instance.PublishAsync(self.Root(), new LoginGameFinish());
         }
 
         public static void OnItemRender(this UILobby self, int index, GObject item)

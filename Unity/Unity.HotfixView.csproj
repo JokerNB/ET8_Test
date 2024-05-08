@@ -72,10 +72,10 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/HeadBarComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Login/Event/LoginFinish_RemoveLoginUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/LoadingPanel/LoadingPanel_ContextDataSystem.cs" />
-    <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/LoginGateFinish_ShowUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/LSSceneChangeStart_AddComponent.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/GameObjectComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/RegisterPanel/Event/ChangeNickNameFinish_EntryMap.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/LoginGameFinish_ShowUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/UILobbyEventHandler.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/Camera/LSCameraComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Plugins/FairyGUI/FUIHelper.cs" />
