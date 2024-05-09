@@ -13,7 +13,12 @@ namespace ET
         public uint RemainResourceMonsterNun = 5;
         //当前资源怪生成最大数量
         public uint MaxResourceMonsterNum = 10;
-    
+
         public MonsterType _MonsterType = MonsterType.ResourceMonster;
+
+        //s =》c 生成资源怪
+        //资源怪位置由客户端指定
+        //服务器通知客户端生成指定配置的资源怪
+        //
     }
 }

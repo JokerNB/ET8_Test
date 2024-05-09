@@ -36,6 +36,7 @@ namespace ET.Client
                 self.isEnableRotate = false;
             if (self.isEnableRotate)
                 self.RotateCameraView();
+            self.ScrollCameraView();
         }
 
         [EntitySystem]
@@ -69,6 +70,14 @@ namespace ET.Client
             if (angle > 360f)
                 angle -= 360f;
             return Mathf.Clamp(angle, min, max);
+        }
+
+        public static void ScrollCameraView(this CameraFollowComponent self)
+        {
+            self.CameraDistance -= Input.GetAxis("Mouse ScrollWheel") * 5f;
+            self.CameraDistance = Mathf.Clamp(self.CameraDistance, 5, 20);
+            self.CinemachineFramingTransposer.m_CameraDistance =
+                    Mathf.Lerp(self.CinemachineFramingTransposer.m_CameraDistance, self.CameraDistance, Time.deltaTime * 10f);
         }
     }
 }

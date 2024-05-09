@@ -146,8 +146,8 @@
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Main2NetClientHandler/Main2NetClient_LoginAccountHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Numeric/NumericWatcher_Hp_ShowUI.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Demo/EntryEvent1_InitShare.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Transfer/M2M_UnitTransferRequestHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/ServerInfo/ServerInfoManagerComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Transfer/M2M_UnitTransferRequestHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Move/MoveHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/ActorLocation/ObjectLockRequestHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Scene/CurrentScenesComponentSystem.cs" />

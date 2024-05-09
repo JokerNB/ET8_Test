@@ -72,13 +72,13 @@
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/StartMachineConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSConstValue.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/DB/DBManagerComponent.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Demo/Monster/ResourceMonster/ResourceMonsterComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSInput.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyNormalConfig.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSEntity.cs" />
     <Compile Include="Assets/Scripts/Model/Share/MongoRegister.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/RandomNameCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/UnitConfig.cs" />
-    <Compile Include="Assets/Scripts/Model/Share/Monster/ResourceMonster/ResourceMonsterComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Move/MoveComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Message/InnerMessage_S_20001.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Benchmark/BenchmarkClientComponent.cs" />

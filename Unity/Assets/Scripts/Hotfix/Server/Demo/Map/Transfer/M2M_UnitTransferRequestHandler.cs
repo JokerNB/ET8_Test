@@ -22,7 +22,7 @@ namespace ET.Server
 
             unit.AddComponent<MoveComponent>();
             unit.AddComponent<PathfindingComponent, string>(scene.Name);
-            unit.Position = new float3(30.55f, 10.52f, 43.4f);
+            unit.Position = new float3(30f, 10.65f, 45f);
 
             unit.AddComponent<MailBoxComponent, MailBoxType>(MailBoxType.OrderedMessage);
 

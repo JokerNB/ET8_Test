@@ -14,11 +14,11 @@ namespace ET.Client
 			self.Parameter = null;
 			self.Animator = null;
 		}
-			
+
 		[EntitySystem]
 		private static void Awake(this AnimatorComponent self)
 		{
-			Animator animator = self.GetParent<Unit>().GetComponent<GameObjectComponent>().GameObject.GetComponent<Animator>();
+			Animator animator = self.GetParent<Unit>().GetComponent<GameObjectComponent>().GameObject.GetComponentInChildren<Animator>();
 
 			if (animator == null)
 			{
@@ -44,7 +44,7 @@ namespace ET.Client
 				self.Parameter.Add(animatorControllerParameter.name);
 			}
 		}
-		
+
 		[EntitySystem]
 		private static void Update(this AnimatorComponent self)
 		{
