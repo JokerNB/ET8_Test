@@ -2,16 +2,16 @@
 <component size="1920,1080" remark="Main">
   <displayList>
     <image id="n10_lxtc" name="n10" src="lxtc6" fileName="Atlas/BG_Login.jpeg" xy="-160,-20" size="2240,1121" aspect="true">
-      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
     </image>
     <text id="n0_igj2" name="Account" xy="789,149" size="342,70" fontSize="30" color="#ff0000" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入账号" maxLength="10">
-      <relation target="" sidePair="center-center"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
     </text>
     <text id="n1_igj2" name="Password" xy="789,275" size="342,70" fontSize="30" color="#ff0000" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入密码" keyboardType="2" password="true">
-      <relation target="" sidePair="center-center"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
     </text>
     <component id="n3_igj2" name="Button_Login" src="igj22" fileName="Components/Button_Login.xml" xy="860,475">
-      <relation target="" sidePair="center-center"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
     </component>
   </displayList>
 </component>

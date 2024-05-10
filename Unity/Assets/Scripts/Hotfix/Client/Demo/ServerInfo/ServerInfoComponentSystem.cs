@@ -18,7 +18,7 @@ namespace ET.Client
             foreach (var serverInfoRef in self.ServerInfos)
             {
                 ServerInfo serverInfo = serverInfoRef;
-                serverInfo.Dispose();
+                serverInfo?.Dispose();
             }
 
             self.ServerInfos.Clear();

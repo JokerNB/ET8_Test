@@ -1,4 +1,4 @@
-using ET.Client.HeadBarPanel;
+using System.Threading.Tasks;
 using FairyGUI;
 using UnityEngine;
 
@@ -18,6 +18,7 @@ namespace ET.Client
         private static void Update(this ET.Client.HeadBarComponent self)
         {
             self.UpdateHeadBarPanel();
+            self.WaitUI();
         }
 
         [EntitySystem]
@@ -33,25 +34,17 @@ namespace ET.Client
         private static async ETTask LoadHeadBraPanelUI(this HeadBarComponent self)
         {
             self.MainCamera = Camera.main;
-            var parent = self.Root().GetComponent<GlobalComponent>().Unit;
-            GameObject go = new GameObject("HeadBarPoint");
-            go.transform.parent = parent;
-            UIPanel uiPanel = go.AddComponent<UIPanel>();
-            uiPanel.packageName = "HeadBarPanel";
-            uiPanel.componentName = "UIHeadBarPanel";
-            uiPanel.container.renderMode = RenderMode.WorldSpace;
-            uiPanel.container.renderCamera = StageCamera.main;
-            uiPanel.container.touchable = false;
-            uiPanel.container.cachedTransform.localScale = Vector3.one * 0.015f;
-            uiPanel.CreateUI();
-            self._UIPanel = uiPanel;
-            var gCom = uiPanel.ui;
+            Unit unit = self.GetParent<Unit>();
+            self._UIPanel = unit.GetComponent<GameObjectComponent>().GameObject.GetComponentInChildren<UIPanel>();
+            var gCom = self._UIPanel.ui;
             if (gCom == null)
             {
-                Log.Error("gCom == null");
+                self.isWaitUI = true;
             }
-            var gText_NickName = gCom.GetChild("NickName").asTextField;
-            gText_NickName.text = self.Root().GetComponent<PlayerComponent>().NickName;
+            else
+            {
+                gCom.GetChild("NickName").asTextField.text = self.Root().GetComponent<PlayerComponent>().NickName;
+            }
         }
 
         private static void UpdateHeadBarPanel(this HeadBarComponent self)
@@ -60,10 +53,21 @@ namespace ET.Client
                 return;
             if (self._UIPanel == null)
                 return;
-            self._UIPanel.container.cachedTransform.forward = self.MainCamera.transform.forward;
+            self._UIPanel.transform.forward = self.MainCamera.transform.forward;
             Unit unit = self.GetParent<Unit>();
             var pos = new Vector3(unit.Position.x, unit.Position.y + 2.45f, unit.Position.z);
-            self._UIPanel.container.cachedTransform.position = pos;
+            self._UIPanel.transform.position = pos;
+        }
+
+        private static void WaitUI(this HeadBarComponent self)
+        {
+            if(!self.isWaitUI)
+                return;
+            if (self._UIPanel.ui != null)
+            {
+                self._UIPanel.ui.GetChild("NickName").asTextField.text = self.Root().GetComponent<PlayerComponent>().NickName;
+                self.isWaitUI = false;
+            }
         }
     }
 }

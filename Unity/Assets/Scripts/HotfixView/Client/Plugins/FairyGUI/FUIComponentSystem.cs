@@ -39,7 +39,7 @@ namespace ET.Client
         }
 
         /// <summary>
-        /// 窗口是否是正在显示的 
+        /// 窗口是否是正在显示的
         /// </summary>
         /// <OtherParam name="id"></OtherParam>
         /// <returns></returns>

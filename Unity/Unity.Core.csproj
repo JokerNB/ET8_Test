@@ -63,8 +63,8 @@
     <Compile Include="Assets/Scripts/Core/Fiber/EntitySystem.cs" />
     <Compile Include="Assets/Scripts/Core/World/Module/Actor/MessageDispatcher.cs" />
     <Compile Include="Assets/Scripts/Core/Network/IKcpTransport.cs" />
-    <Compile Include="Assets/Scripts/Core/Entity/EntitySystemAttribute.cs" />
     <Compile Include="Assets/Scripts/Core/Object/HandlerObject.cs" />
+    <Compile Include="Assets/Scripts/Core/Entity/EntitySystemAttribute.cs" />
     <Compile Include="Assets/Scripts/Core/World/Module/Actor/MessageLocationHandlerAttribute.cs" />
     <Compile Include="Assets/Scripts/Core/Entity/EntityHelper.cs" />
     <Compile Include="Assets/Scripts/Core/Entity/ILateUpdateSystem.cs" />
