@@ -39,11 +39,17 @@ namespace ET.Server
 
             return unitInfo;
         }
-        
+
         // 获取看见unit的玩家，主要用于广播
         public static Dictionary<long, EntityRef<AOIEntity>> GetBeSeePlayers(this Unit self)
         {
             return self.GetComponent<AOIEntity>().GetBeSeePlayers();
+        }
+
+        public static Dictionary<long, EntityRef<AOIEntity>> GetBeSeeUnits(this Unit self)
+        {
+            return self.GetComponent<AOIEntity>().GetSeeUnits();
+
         }
     }
 }

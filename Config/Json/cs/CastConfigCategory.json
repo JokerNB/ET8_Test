@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "TotalTime": 1000,
+    "SelectType": 2,
+    "SelectParam": [
+      "5"
+    ],
+    "NoticeClientType": 2,
+    "HitAction": [
+      1001
+    ],
+    "HitActionTimes": [
+      0
+    ],
+    "SelfHitAction": [],
+    "SelfHitActionTimes": [],
+    "Buffs": [],
+    "SelfBuffs": [
+      2001
+    ],
+    "StartEffect": [],
+    "HitEffect": [
+      2
+    ],
+    "StartAnimation": 1,
+    "HitAnimation": 2
+  }
+]

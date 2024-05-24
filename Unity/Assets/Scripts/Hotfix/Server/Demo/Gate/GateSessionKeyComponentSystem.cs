@@ -5,8 +5,6 @@
     {
         public static void Add(this GateSessionKeyComponent self, long key, string account)
         {
-            Log.Error($"{key} : {account}");
-            Log.Error($"self.sessionKey == null ? {self.sessionKey == null}");
             self.sessionKey.Add(key, account);
             self.TimeoutRemoveKey(key).Coroutine();
         }

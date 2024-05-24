@@ -2,6 +2,7 @@
 {
     public struct SceneChangeStart
     {
+        public int mapConfigId;
     }
 
     public struct SceneChangeFinish
@@ -39,7 +40,7 @@
 
     public struct AfterChooseModelDifficulty
     {
-
+        public int MapConfigId;
     }
 
     public struct ChangeNickNameFinish

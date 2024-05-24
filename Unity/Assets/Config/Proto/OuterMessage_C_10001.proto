@@ -60,6 +60,7 @@ message M2C_StartSceneChange // IMessage
 {
 	int64 SceneInstanceId = 1;
 	string SceneName = 2;
+	int32 MapConfigId = 3;
 }
 
 message M2C_RemoveUnits // IMessage
@@ -160,6 +161,7 @@ message G2C_LoginGate // ISessionResponse
 message C2M_TransferMap // ILocationRequest
 {
 	int32 RpcId = 1;
+	int32 MapConfigId = 2;
 }
 
 message M2C_TransferMap // ILocationResponse
@@ -292,4 +294,94 @@ message G2C_EnterGame // ISessionResponse
 	int32 Error = 2;
 	string Message = 3;
 	int64 MyUnitId = 4;
+}
+
+//Cast开始
+message M2C_CastStart // IMessage
+{
+	int32 SceneId = 1;
+
+	int64 CastId = 2;
+	int64 CastConfigId = 3;
+	int64 CasterId = 4;
+	repeated int64 TargetsId = 5;
+}
+
+//Cast命中
+message M2C_CastHit // IMessage
+{
+	int64 SceneId = 1;
+	int64 CastId = 2;
+	repeated int64 TargetsId = 3;
+	int64 CasterId = 4;
+}
+
+//Cast结束
+message M2C_CastFinish // IMessage
+{
+	int64 SceneId = 1;
+	int64 CastId = 2;
+	int64 CasterId = 3;
+}
+
+//Cast打断
+message M2C_CastBreak // IMessage
+{
+	int64 SceneId = 1;
+	int64 CastId = 2;
+	int64 CasterId = 3;
+}
+
+message BuffProto
+{
+	int64 Id = 1;
+	int32 ConfigId = 2;
+	int64 ExpireTime = 3;
+	int64 CreateTime = 4;
+	bytes ExtraData = 5;
+}
+
+message M2C_BuffAdd // IMessage
+{
+		int64 UnitId = 1;
+		BuffProto BuffData = 2;
+}
+
+message M2C_BuffTick // IMessage
+{
+	int64 UnitId = 1;
+	int64 BuffId = 2;
+}
+
+message M2C_BuffUpdate // IMessage
+{
+	int64 UnitId = 1;
+	BuffProto BuffData = 2;
+}
+
+message M2C_BuffRemove // IMessage
+{
+	int64 UnitId = 1;
+	int64 BuffId = 2;
+}
+
+message M2C_BattleResult // IMessage
+{
+	int64 AttackerId = 1;
+	int64 TargetId = 2;
+	int64 Damage = 3;
+}
+
+// ResponseType M2C_TestCast
+message C2M_TestCast // ILocationRequest
+{
+	int32 RpcId = 1;
+	int32 CastConfigId = 2;
+}
+
+message M2C_TestCast // ILocationResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
 }

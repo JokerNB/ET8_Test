@@ -22,7 +22,10 @@ namespace ET.Server
 
             unit.AddComponent<MoveComponent>();
             unit.AddComponent<PathfindingComponent, string>(scene.Name);
-            unit.Position = new float3(30f, 10.65f, 45f);
+            //根据配置设置unit出生位置
+            var mapConfigComponent = scene.Root().GetComponent<MapConfigComponent>();
+            var curMapConfig = mapConfigComponent.CurMapConfig;
+            unit.Position = new float3(curMapConfig.BirthPosX, curMapConfig.BirthPosY, curMapConfig.BirthPosZ);
 
             unit.AddComponent<MailBoxComponent, MailBoxType>(MailBoxType.OrderedMessage);
 
@@ -30,6 +33,7 @@ namespace ET.Server
             M2C_StartSceneChange m2CStartSceneChange = M2C_StartSceneChange.Create();
             m2CStartSceneChange.SceneInstanceId = scene.InstanceId;
             m2CStartSceneChange.SceneName = scene.Name;
+            m2CStartSceneChange.MapConfigId = request.MapConfigId;
             MapMessageHelper.SendToClient(unit, m2CStartSceneChange);
 
             // 通知客户端创建My Unit
@@ -38,7 +42,8 @@ namespace ET.Server
             MapMessageHelper.SendToClient(unit, m2CCreateUnits);
 
             // 加入aoi
-            unit.AddComponent<AOIEntity, int, float3>(9 * 1000, unit.Position);
+            var heroConfig = HeroConfigCategory.Instance.Get(unit.Config().PropertyConfigId);
+            unit.AddComponent<AOIEntity, int, float3>(heroConfig.AOIRange * 1000, unit.Position);
 
             // 解锁location，可以接收发给Unit的消息
             await scene.Root().GetComponent<LocationProxyComponent>().UnLock(LocationType.Unit, unit.Id, request.OldActorId, unit.GetActorId());

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": 2001,
+    "NoticeClientType": 2,
+    "TotalTime": 1000,
+    "AddAction": [
+      1002
+    ],
+    "TickTime": 0,
+    "TickAction": [],
+    "RemoveAction": [
+      1002
+    ],
+    "OwnerEffect": [
+      1
+    ]
+  }
+]

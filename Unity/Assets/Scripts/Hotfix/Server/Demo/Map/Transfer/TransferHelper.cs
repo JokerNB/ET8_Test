@@ -5,24 +5,25 @@ namespace ET.Server
 {
     public static partial class TransferHelper
     {
-        public static async ETTask TransferAtFrameFinish(Unit unit, ActorId sceneInstanceId, string sceneName)
+        public static async ETTask TransferAtFrameFinish(Unit unit, ActorId sceneInstanceId, int mapConfigId)
         {
             await unit.Fiber().WaitFrameFinish();
 
-            await TransferHelper.Transfer(unit, sceneInstanceId, sceneName);
+            await TransferHelper.Transfer(unit, sceneInstanceId, mapConfigId);
         }
-        
 
-        public static async ETTask Transfer(Unit unit, ActorId sceneInstanceId, string sceneName)
+
+        public static async ETTask Transfer(Unit unit, ActorId sceneInstanceId, int mapConfigId)
         {
             Scene root = unit.Root();
-            
+
             // location加锁
             long unitId = unit.Id;
-            
+
             M2M_UnitTransferRequest request = M2M_UnitTransferRequest.Create();
             request.OldActorId = unit.GetActorId();
             request.Unit = unit.ToBson();
+            request.MapConfigId = mapConfigId;
             foreach (Entity entity in unit.Components.Values)
             {
                 if (entity is ITransfer)
@@ -31,7 +32,7 @@ namespace ET.Server
                 }
             }
             unit.Dispose();
-            
+
             await root.GetComponent<LocationProxyComponent>().Lock(LocationType.Unit, unitId, request.OldActorId);
             await root.GetComponent<MessageSender>().Call(sceneInstanceId, request);
         }

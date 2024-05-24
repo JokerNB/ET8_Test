@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "IsBattleMap": false,
+    "StartSceneConfigId": 10,
+    "BirthPosX": 30,
+    "BirthPosY": 10.65,
+    "BirthPosZ": 45,
+    "ResourcePath": "Map1/Map1"
+  },
+  {
+    "Id": 2,
+    "IsBattleMap": true,
+    "StartSceneConfigId": 11,
+    "BirthPosX": 30,
+    "BirthPosY": 10.65,
+    "BirthPosZ": 45,
+    "ResourcePath": "Map2/Map2"
+  }
+]

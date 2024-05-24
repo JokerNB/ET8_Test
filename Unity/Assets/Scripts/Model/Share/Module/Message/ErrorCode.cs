@@ -22,5 +22,16 @@ namespace ET
         public const int ERR_RequestRepeatedly = 200008;
         public const int ERR_AccountInBlackListError = 200009;
         public const int ERR_TokenError = 200010;
+        public const int ERR_ArgsError = 200011;
+        //技能ErrorCode
+        public const int ERR_Cast_ArgsError = 300000;
+        public const int ERR_Cast_CasterIsNull = 300001;
+        public const int ERR_Cast_TargetIsNull = 300002;
+        //Relive
+        public const int ERR_Relive_Alive = 300003;
+        public const int ERR_Relive_Dead_Op = 300004;
+        //Map
+        public const int ERR_MapNameNull = 300005;
+
     }
 }

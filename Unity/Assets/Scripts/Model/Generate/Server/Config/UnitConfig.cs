@@ -17,11 +17,8 @@ namespace ET
         public UnitConfig(ByteBuf _buf)
         {
             Id = _buf.ReadInt();
-            Type = _buf.ReadInt();
-            Name = _buf.ReadString();
-            Position = _buf.ReadInt();
-            Height = _buf.ReadInt();
-            Weight = _buf.ReadInt();
+            PropertyConfigId = _buf.ReadInt();
+            UnitType = (UnitType)_buf.ReadInt();
 
             PostInit();
         }
@@ -37,29 +34,14 @@ namespace ET
         public readonly int Id;
 
         /// <summary>
-        /// Type
+        /// 属性配置Id
         /// </summary>
-        public readonly int Type;
+        public readonly int PropertyConfigId;
 
         /// <summary>
-        /// 名字
+        /// 类型
         /// </summary>
-        public readonly string Name;
-
-        /// <summary>
-        /// 位置
-        /// </summary>
-        public readonly int Position;
-
-        /// <summary>
-        ///  
-        /// </summary>
-        public readonly int Height;
-
-        /// <summary>
-        /// 体重
-        /// </summary>
-        public readonly int Weight;
+        public readonly UnitType UnitType;
 
         public const int __ID__ = -568528378;
 
@@ -69,11 +51,8 @@ namespace ET
         {
             return "{ "
             + "Id:" + Id + ","
-            + "Type:" + Type + ","
-            + "Name:" + Name + ","
-            + "Position:" + Position + ","
-            + "Height:" + Height + ","
-            + "Weight:" + Weight + ","
+            + "PropertyConfigId:" + PropertyConfigId + ","
+            + "UnitType:" + UnitType + ","
             + "}";
         }
 

@@ -20,6 +20,7 @@ namespace ET
             Desc = _buf.ReadString();
             WaveNumber = _buf.ReadInt();
             HasSecond = _buf.ReadBool();
+            ToMapConfigId = _buf.ReadInt();
 
             PostInit();
         }
@@ -49,6 +50,11 @@ namespace ET
         /// </summary>
         public readonly bool HasSecond;
 
+        /// <summary>
+        /// 跳转地图配置Id
+        /// </summary>
+        public readonly int ToMapConfigId;
+
         public const int __ID__ = 580228;
 
         public override int GetTypeId() => __ID__;
@@ -60,6 +66,7 @@ namespace ET
             + "Desc:" + Desc + ","
             + "WaveNumber:" + WaveNumber + ","
             + "HasSecond:" + HasSecond + ","
+            + "ToMapConfigId:" + ToMapConfigId + ","
             + "}";
         }
 

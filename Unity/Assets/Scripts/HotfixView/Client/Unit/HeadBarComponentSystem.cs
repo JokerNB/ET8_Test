@@ -45,6 +45,8 @@ namespace ET.Client
             {
                 gCom.GetChild("NickName").asTextField.text = self.Root().GetComponent<PlayerComponent>().NickName;
             }
+
+            await ETTask.CompletedTask;
         }
 
         private static void UpdateHeadBarPanel(this HeadBarComponent self)

@@ -14,6 +14,11 @@
         public const int AITimer = 202;
         public const int SessionAcceptTimeout = 203;
         public const int AccountSessionCheckOutTime = 204;
+        public const int BuffExpireTime = 205;
+        public const int BuffTickTime = 206;
+        public const int BulletTick = 207;
+        public const int CreateMonster = 208;
+        public const int MonsterDead = 209;
 
         public const int RoomUpdate = 301;
     }

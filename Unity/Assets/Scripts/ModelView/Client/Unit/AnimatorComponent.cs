@@ -5,7 +5,9 @@ namespace ET.Client
 {
 	public enum MotionType
 	{
-		None,
+		None = 0,
+		Attack,
+		Hit,
 		Idle,
 		Run,
 	}

@@ -3,54 +3,63 @@
     "Id": 10001,
     "Desc": "难度1",
     "WaveNumber": 5,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   },
   {
     "Id": 10002,
     "Desc": "难度2",
     "WaveNumber": 6,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   },
   {
     "Id": 10003,
     "Desc": "难度3",
     "WaveNumber": 6,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   },
   {
     "Id": 10004,
     "Desc": "难度4",
     "WaveNumber": 7,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   },
   {
     "Id": 10005,
     "Desc": "难度5",
     "WaveNumber": 7,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   },
   {
     "Id": 10006,
     "Desc": "难度6",
     "WaveNumber": 7,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   },
   {
     "Id": 10007,
     "Desc": "难度7",
     "WaveNumber": 7,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   },
   {
     "Id": 10008,
     "Desc": "难度8",
     "WaveNumber": 7,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   },
   {
     "Id": 10009,
     "Desc": "难度9",
     "WaveNumber": 7,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   }
 ]

@@ -13,12 +13,10 @@ namespace ET.Client
                 Scene currentScene = root.CurrentScene();
 
                 ResourcesLoaderComponent resourcesLoaderComponent = currentScene.GetComponent<ResourcesLoaderComponent>();
-            
+                string path = MapConfigCategory.Instance.Get(args.mapConfigId).ResourcePath;
                 // 加载场景资源
-                await resourcesLoaderComponent.LoadSceneAsync($"Assets/Bundles/Scenes/{currentScene.Name}/{currentScene.Name}.unity", LoadSceneMode.Single);
+                await resourcesLoaderComponent.LoadSceneAsync($"Assets/Bundles/Scenes/{path}.unity", LoadSceneMode.Single);
                 currentScene.AddComponent<OperaComponent>();
-                if(currentScene.Name == "Map1")
-                    currentScene.AddComponent<MainMapTransferPointComponent>();
             }
             catch (Exception e)
             {

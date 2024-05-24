@@ -3,42 +3,49 @@
     "Id": 20001,
     "Desc": "开爽模式N1",
     "WaveNumber": 7,
-    "HasSecond": false
+    "HasSecond": false,
+    "ToMapConfigId": 2
   },
   {
     "Id": 20002,
     "Desc": "开爽模式N2",
     "WaveNumber": 7,
-    "HasSecond": true
+    "HasSecond": true,
+    "ToMapConfigId": 2
   },
   {
     "Id": 20003,
     "Desc": "开爽模式N3",
     "WaveNumber": 7,
-    "HasSecond": true
+    "HasSecond": true,
+    "ToMapConfigId": 2
   },
   {
     "Id": 20004,
     "Desc": "开爽模式N4",
     "WaveNumber": 7,
-    "HasSecond": true
+    "HasSecond": true,
+    "ToMapConfigId": 2
   },
   {
     "Id": 20005,
     "Desc": "开爽模式N5",
     "WaveNumber": 7,
-    "HasSecond": true
+    "HasSecond": true,
+    "ToMapConfigId": 2
   },
   {
     "Id": 20006,
     "Desc": "开爽模式N6",
     "WaveNumber": 7,
-    "HasSecond": true
+    "HasSecond": true,
+    "ToMapConfigId": 2
   },
   {
     "Id": 20007,
     "Desc": "开爽模式N7",
     "WaveNumber": 7,
-    "HasSecond": true
+    "HasSecond": true,
+    "ToMapConfigId": 2
   }
 ]

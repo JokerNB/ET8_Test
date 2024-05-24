@@ -1,28 +1,17 @@
-﻿using System;
-
-namespace ET.Server
+﻿namespace ET.Server
 {
-	[MessageLocationHandler(SceneType.Map)]
-	public class C2M_TransferMapHandler : MessageLocationHandler<Unit, C2M_TransferMap, M2C_TransferMap>
-	{
-		protected override async ETTask Run(Unit unit, C2M_TransferMap request, M2C_TransferMap response)
-		{
-			await ETTask.CompletedTask;
-
-			string currentMap = unit.Scene().Name;
-			string toMap = null;
-			if (currentMap == "Map1")
-			{
-				toMap = "Map2";
-			}
-			else
-			{
-				toMap = "Map1";
-			}
-
-			StartSceneConfig startSceneConfig = StartSceneConfigCategory.Instance.GetBySceneName(unit.Fiber().Zone, toMap);
-			
-			TransferHelper.TransferAtFrameFinish(unit, startSceneConfig.ActorId, toMap).Coroutine();
-		}
-	}
+    [MessageLocationHandler(SceneType.Map)]
+    [FriendOfAttribute(typeof(ET.Server.MapConfigComponent))]
+    public class C2M_TransferMapHandler : MessageLocationHandler<Unit, C2M_TransferMap, M2C_TransferMap>
+    {
+        protected override async ETTask Run(Unit unit, C2M_TransferMap request, M2C_TransferMap response)
+        {
+            Log.Error($"SceneName == {unit.Root().Name} , {unit.Fiber().Root.Name}");
+            var mapConfigComponent = unit.Root().GetComponent<MapConfigComponent>();
+            mapConfigComponent.ChangeMap(request.MapConfigId);
+            StartSceneConfig startSceneConfig = mapConfigComponent.StartSceneConfig_Cur;
+            TransferHelper.TransferAtFrameFinish(unit, startSceneConfig.ActorId, request.MapConfigId).Coroutine();
+            await ETTask.CompletedTask;
+        }
+    }
 }

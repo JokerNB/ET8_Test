@@ -1,0 +1,28 @@
+[
+  {
+    "Id": 1,
+    "PrefabName": "cfx31",
+    "TotalTime": 1000,
+    "IsFollowUnit": 1,
+    "PosX": 0,
+    "PosY": 0.1,
+    "PosZ": 0,
+    "ScaleX": 1,
+    "ScaleY": 1,
+    "ScaleZ": 1,
+    "ResourcePath": "Cartoon_FX_ Legacy/CFX Prefabs/Electric/CFX_ElectricityBall"
+  },
+  {
+    "Id": 2,
+    "PrefabName": "cfx_hit_cwhite",
+    "TotalTime": 500,
+    "IsFollowUnit": 1,
+    "PosX": 0,
+    "PosY": 0.1,
+    "PosZ": 0,
+    "ScaleX": 1,
+    "ScaleY": 1,
+    "ScaleZ": 1,
+    "ResourcePath": "Cartoon_FX_ Legacy/CFX Prefabs/Explosions/CFX_Firework_Trails_Gravity"
+  }
+]

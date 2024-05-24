@@ -33,9 +33,20 @@ namespace ET.Client
 	        unit.AddComponent<ObjectWait>();
 
 	        unit.AddComponent<XunLuoPathComponent>();
+	        unit.AddComponent<ClientCastComponent>();
+	        unit.AddComponent<ClientBuffComponent>();
 
 	        EventSystem.Instance.Publish(unit.Scene(), new AfterUnitCreate() {Unit = unit});
             return unit;
+        }
+
+        public static Unit CreateParticleUnit(Scene currentScene)
+        {
+	        UnitComponent unitComponent = currentScene.GetComponent<UnitComponent>();
+	        Unit unit = unitComponent.AddChild<Unit, int>(10003);
+	        unitComponent.Add(unit);
+	        unit.AddComponent<ObjectWait>();
+	        return unit;
         }
     }
 }

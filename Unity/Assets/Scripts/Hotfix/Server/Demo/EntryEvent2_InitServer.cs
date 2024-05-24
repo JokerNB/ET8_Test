@@ -12,6 +12,7 @@ namespace ET.Server
             {
                 case AppType.Server:
                 {
+                    root.AddComponent<ActionsDispatcherComponent>();
                     int process = root.Fiber.Process;
                     StartProcessConfig startProcessConfig = StartProcessConfigCategory.Instance.Get(process);
                     if (startProcessConfig.Port != 0)

@@ -12,10 +12,9 @@ namespace ET.Client
 			get => _fuiUIChooseDifficulty ??= (FUI_UIChooseDifficulty)this.GetParent<FUIEntity>().GComponent;
 		}
 
-		[StaticField]
-		public static int ModelType { get; set; } = 0;
-		[StaticField]
-		public static int ModelId { get; set; } = 0;
+		public int ModelType = 0;
+		public int ModelId = 0;
+		public int ToMapConfigId = 0;
 		public const int ModelConfigId = 1000;
 		public const int NormalConfigId = 10000;
 		public const int HappyConfigId = 20000;

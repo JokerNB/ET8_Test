@@ -47,6 +47,7 @@
     <Analyzer Include="/Users/liuwei/Desktop/WorkProject/ET8_Test/ET8_Test/Unity/Library/PackageCache/com.cysharp.memorypack@2554e81f03/Runtime/MemoryPack.Generator/MemoryPack.Generator.Roslyn3.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/HotfixView/Client/MMO/Battle/Cast/Event/CastBreak_PlayView.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Map/AfterChooseModelDifficulty_Transfer.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Opera/OperaComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/MainPanel/Event/UIMainPanelEventHandler.cs" />
@@ -68,7 +69,9 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/Scene/EnterMapFinish_CreateMainUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Login/UILoginSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Scene/AfterCreateCurrentScene_AddComponent.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/MMO/Battle/Cast/Event/CastHit_PlayView.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Login/Event/UILoginEventHandler.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/MMO/Battle/Cast/Event/CastFinish_PlayView.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/HeadBarComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Login/Event/LoginFinish_RemoveLoginUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/LoadingPanel/LoadingPanel_ContextDataSystem.cs" />
@@ -76,6 +79,8 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/GameObjectComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/RegisterPanel/Event/ChangeNickNameFinish_EntryMap.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/LoginGameFinish_ShowUI.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/MMO/Battle/Buff/Event/BuffRemove_removeBuffView.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/MMO/Battle/Cast/Event/CastStart_PlayView.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/UILobbyEventHandler.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/Camera/LSCameraComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Plugins/FairyGUI/FUIHelper.cs" />
@@ -86,12 +91,13 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Login/Event/AppStartInitFinish_CreateLoginUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/ChooseDifficulty/UIChooseDifficultySystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/MainPanel/UIMainPanelSystem.cs" />
-    <Compile Include="Assets/Scripts/HotfixView/Client/Map/MainMapTransferPointComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/LSUnitViewSystem.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/MMO/Battle/Buff/Event/BuffAdd_CreateBuffView.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/Scene/AfterCreateClientScene_LSAddComponent.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/LoadingPanel/UILoadingPanelSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/AnimatorComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/LoginAccountFinish_ShowUI.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/MMO/Battle/ParticleEffectHelper.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Module/LocalizeComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/LoadingPanel/Event/UILoadingPanelEventHandler.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/ChangeRotation_SyncGameObjectRotation.cs" />

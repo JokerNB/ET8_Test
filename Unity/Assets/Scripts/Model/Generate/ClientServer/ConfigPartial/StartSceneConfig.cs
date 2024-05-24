@@ -29,11 +29,6 @@ namespace ET
             return this.ProcessScenes[process];
         }
 
-        public StartSceneConfig GetBySceneName(int zone, string name)
-        {
-            return this.ClientScenesByName[zone][name];
-        }
-
         partial void PostInit()
         {
             foreach (StartSceneConfig startSceneConfig in this.DataList)

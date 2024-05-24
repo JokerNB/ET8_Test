@@ -17,14 +17,7 @@ namespace ET.Client
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-                if (Physics.Raycast(ray, out hit, 1000, self.mapMask))
-                {
-                    C2M_PathfindingResult c2MPathfindingResult = C2M_PathfindingResult.Create();
-                    c2MPathfindingResult.Position = hit.point;
-                    self.Root().GetComponent<ClientSenderComponent>().Send(c2MPathfindingResult);
-                }
+                self.OnClickMouse0().Coroutine();
             }
 
             if (Input.GetKeyDown(KeyCode.Q))
@@ -49,9 +42,10 @@ namespace ET.Client
                 self.Root().GetComponent<ClientSenderComponent>().Call(c2MTransferMap).Coroutine();
             }
 
-            if (Input.GetKeyDown(KeyCode.C))
+            if (Input.GetKeyDown(KeyCode.Alpha1))
             {
-
+                Log.Error("释放技能");
+                ClientCastHelper.CastSkill(self.Root(),1).Coroutine();
             }
         }
 
@@ -75,5 +69,23 @@ namespace ET.Client
             }
             Log.Debug($"Croutine 2 end2");
         }
+
+        private static async ETTask OnClickMouse0(this OperaComponent self)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, 1000, self.mapMask))
+            {
+                C2M_PathfindingResult c2MPathfindingResult = C2M_PathfindingResult.Create();
+                c2MPathfindingResult.Position = hit.point;
+                // var gameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                // gameObject.transform.position = hit.point;
+                self.Root().GetComponent<ClientSenderComponent>().Send(c2MPathfindingResult);
+                // await self.Root().GetComponent<TimerComponent>().WaitAsync(10000);
+                // GameObject.DestroyImmediate(gameObject);
+            }
+            await ETTask.CompletedTask;
+        }
+
     }
 }
