@@ -203,6 +203,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/MMO/Battle/Buff/Event/BuffTimeOut_RemoveBuff.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/NetComponentOnReadInvoker_BenchmarkClient.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/RouterConnectorSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/MMO/Battle/Skill/SkillStatusComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/G2M_SessionDisconnectHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Numeric/NumericChangeEvent_NotifyWatcher.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/Router/RouterNodeSystem.cs" />

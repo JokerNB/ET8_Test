@@ -18,6 +18,8 @@ namespace ET
         {
             Id = _buf.ReadInt();
             TotalTime = _buf.ReadInt();
+            CoolDown = _buf.ReadInt();
+            StatusSkill = _buf.ReadInt();
             SelectType = _buf.ReadInt();
             {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SelectParam = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SelectParam[__index0] = __e0;}}
             NoticeClientType = (NoticeClientType)_buf.ReadInt();
@@ -49,6 +51,16 @@ namespace ET
         /// 总时长
         /// </summary>
         public readonly int TotalTime;
+
+        /// <summary>
+        /// 冷却时间
+        /// </summary>
+        public readonly int CoolDown;
+
+        /// <summary>
+        /// 状态技能
+        /// </summary>
+        public readonly int StatusSkill;
 
         /// <summary>
         /// 目标选择方式
@@ -124,6 +136,8 @@ namespace ET
             return "{ "
             + "Id:" + Id + ","
             + "TotalTime:" + TotalTime + ","
+            + "CoolDown:" + CoolDown + ","
+            + "StatusSkill:" + StatusSkill + ","
             + "SelectType:" + SelectType + ","
             + "SelectParam:" + Luban.StringUtil.CollectionToString(SelectParam) + ","
             + "NoticeClientType:" + NoticeClientType + ","

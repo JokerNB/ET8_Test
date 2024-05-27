@@ -214,9 +214,10 @@
     <Compile Include="Assets/Scripts/Model/Share/Module/Console/ModeContex.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Message/LockStepOuter_C_11001.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/NetInner/A2NetInner_Message.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/MMO/Battle/Skill/SkillStatusComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSInputComponent.cs" />
-    <Compile Include="Assets/Scripts/Model/Server/Demo/Gate/PlayerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/CastConfigCategory.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Demo/Gate/PlayerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/BulletConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/MonsterGroupConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/ActorLocation/MessageLocationSenderOneType.cs" />

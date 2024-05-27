@@ -2,6 +2,8 @@
   {
     "Id": 1,
     "TotalTime": 1000,
+    "CoolDown": 2000,
+    "StatusSkill": 1,
     "SelectType": 2,
     "SelectParam": [
       "5"

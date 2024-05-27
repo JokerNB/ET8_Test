@@ -27,6 +27,12 @@ namespace ET.Server
             long newHp = numericComponent[NumericType.Hp];
             long res_damage = newHp - oldHp;
 
+            if (res_damage > 0)
+            {
+                //受伤打断技能
+                target.GetComponent<SkillStatusComponent>()?.BreakSkill();
+            }
+
             //广播飘字
             if (res_damage != 0)
             {
@@ -81,6 +87,17 @@ namespace ET.Server
                 default:
                     throw new ArgumentOutOfRangeException();
             }
+        }
+
+        public static int CanCastSkill(Unit unit, int castConfigId)
+        {
+            var castConfig = CastConfigCategory.Instance.GetOrDefault(castConfigId);
+            if (castConfig == null)
+                return ErrorCode.ERR_ArgsError;
+            if (!unit.IsAlive())
+                return ErrorCode.ERR_Relive_Dead_Op;
+            int error = unit.GetComponent<SkillStatusComponent>()?.CanCastSkill(castConfigId) ?? ErrorCode.ERR_Success;
+            return error;
         }
     }
 }

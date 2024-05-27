@@ -47,6 +47,7 @@ namespace ET.Server
                         unit.AddComponent<AOIEntity, int, float3>(heroConfig.AOIRange * 1000, unit.Position);
                         unit.AddComponent<CastComponent>();
                         unit.AddComponent<BuffComponent>();
+                        unit.AddComponent<SkillStatusComponent>();
                         return unit;
                     }
                 default:

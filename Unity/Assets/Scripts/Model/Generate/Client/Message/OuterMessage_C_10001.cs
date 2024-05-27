@@ -1746,6 +1746,39 @@ namespace ET
         }
     }
 
+    [MemoryPackable]
+    [Message(OuterMessage.M2C_CoolDownChange)]
+    public partial class M2C_CoolDownChange : MessageObject, IMessage
+    {
+        public static M2C_CoolDownChange Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(M2C_CoolDownChange), isFromPool) as M2C_CoolDownChange;
+        }
+
+        [MemoryPackOrder(0)]
+        public List<int> CastConfigIds { get; set; } = new();
+
+        [MemoryPackOrder(1)]
+        public List<long> CoolDownTimes { get; set; } = new();
+
+        [MemoryPackOrder(2)]
+        public List<long> CoolDownStartTime { get; set; } = new();
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.CastConfigIds.Clear();
+            this.CoolDownTimes.Clear();
+            this.CoolDownStartTime.Clear();
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
     public static class OuterMessage
     {
         public const ushort HttpGetRouterResponse = 10002;
@@ -1800,5 +1833,6 @@ namespace ET
         public const ushort M2C_BattleResult = 10051;
         public const ushort C2M_TestCast = 10052;
         public const ushort M2C_TestCast = 10053;
+        public const ushort M2C_CoolDownChange = 10054;
     }
 }

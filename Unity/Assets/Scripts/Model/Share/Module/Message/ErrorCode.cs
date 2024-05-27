@@ -27,11 +27,14 @@ namespace ET
         public const int ERR_Cast_ArgsError = 300000;
         public const int ERR_Cast_CasterIsNull = 300001;
         public const int ERR_Cast_TargetIsNull = 300002;
+        public const int ERR_Cast_UnitIsNull = 300003;
+        public const int ERR_Cast_NumIsNull = 300004;
+        public const int ERR_Cast_ForbidSkill = 300005;
+        public const int ERR_Cast_FSkillCDDown = 300006;
         //Relive
-        public const int ERR_Relive_Alive = 300003;
-        public const int ERR_Relive_Dead_Op = 300004;
+        public const int ERR_Relive_Alive = 300100;
+        public const int ERR_Relive_Dead_Op = 300101;
         //Map
-        public const int ERR_MapNameNull = 300005;
-
+        public const int ERR_MapNameNull = 300200;
     }
 }

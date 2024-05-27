@@ -111,6 +111,7 @@ namespace ET.Server
                             cast.Target.Add(unit.Id);
                         }
                     }
+
                     break;
             }
         }
@@ -131,8 +132,15 @@ namespace ET.Server
 
         public static async ETTask CastBeginAsync(this Cast cast)
         {
-            cast.StartTime = TimeInfo.Instance.ServerNow();
             Unit caster = cast.Caster;
+            bool notBreak = caster.GetComponent<SkillStatusComponent>()?.RunningSkill(cast) ?? true;
+            if (!notBreak)
+            {
+                cast.Break();
+                return;
+            }
+
+            cast.StartTime = TimeInfo.Instance.ServerNow();
 
             M2C_CastStart m2CCastStart = M2C_CastStart.Create();
             m2CCastStart.CastId = cast.Id;
@@ -265,10 +273,17 @@ namespace ET.Server
 
         public static void CastFinish(this Cast cast)
         {
+            Unit caster = cast.Caster;
+
+            bool notBreak = caster.GetComponent<SkillStatusComponent>()?.FinishSkill(cast) ?? true;
+            if (!notBreak)
+            {
+                cast.Break();
+                return;
+            }
             //没有持续时间，就是瞬发的技能流程，可以不用通知结束，客户端自行结束
             if (cast.Config.TotalTime > 0)
             {
-                Unit caster = cast.Caster;
                 M2C_CastFinish m2CCastFinish = M2C_CastFinish.Create();
                 m2CCastFinish.CastId = cast.Id;
                 m2CCastFinish.CasterId = caster.Id;
@@ -276,6 +291,17 @@ namespace ET.Server
             }
 
             cast?.Dispose();
+        }
+
+        public static void Break(this Cast cast)
+        {
+            Unit unit = cast.Caster;
+            M2C_CastBreak m2CCastBreak = M2C_CastBreak.Create();
+            m2CCastBreak.CastId = cast.Id;
+            m2CCastBreak.CasterId = unit.Id;
+            MMOMessageHelper.SendClient(unit, m2CCastBreak, cast.Config.NoticeClientType);
+
+            cast.Dispose();
         }
     }
 }
