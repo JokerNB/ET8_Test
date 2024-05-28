@@ -13,7 +13,8 @@ namespace ET.Client
                 Scene currentScene = root.CurrentScene();
 
                 ResourcesLoaderComponent resourcesLoaderComponent = currentScene.GetComponent<ResourcesLoaderComponent>();
-                string path = MapConfigCategory.Instance.Get(args.mapConfigId).ResourcePath;
+                MapConfig mapConfig = MapConfigCategory.Instance.Get(args.mapConfigId);
+                string path = mapConfig.ResourcePath;
                 // 加载场景资源
                 await resourcesLoaderComponent.LoadSceneAsync($"Assets/Bundles/Scenes/{path}.unity", LoadSceneMode.Single);
                 currentScene.AddComponent<OperaComponent>();

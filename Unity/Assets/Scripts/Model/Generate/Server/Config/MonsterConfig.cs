@@ -25,7 +25,7 @@ namespace ET
             MagicDef = _buf.ReadInt();
             AtkInterval = _buf.ReadFloat();
             AtkRange = _buf.ReadInt();
-            Speed = _buf.ReadInt();
+            Speed = _buf.ReadFloat();
             AOIRange = _buf.ReadInt();
             Coin = _buf.ReadInt();
             Exp = _buf.ReadInt();
@@ -90,7 +90,7 @@ namespace ET
         /// <summary>
         /// 移动速度
         /// </summary>
-        public readonly int Speed;
+        public readonly float Speed;
 
         /// <summary>
         /// 视野范围

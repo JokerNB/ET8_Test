@@ -47,6 +47,14 @@ namespace ET.Client
                 Log.Error("释放技能");
                 ClientCastHelper.CastSkill(self.Root(),1).Coroutine();
             }
+
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                Log.Error("切换场景");
+                C2M_TransferMap c2MTransferMap = C2M_TransferMap.Create();
+                c2MTransferMap.MapConfigId = 2;
+                self.Root().GetComponent<ClientSenderComponent>().Call(c2MTransferMap).Coroutine();
+            }
         }
 
         private static async ETTask Test1(this OperaComponent self)

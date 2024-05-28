@@ -12,10 +12,11 @@ namespace ET.Server
             self.ConfigId = args2;
             self.GroupConfigId = args3;
         }
+
         [EntitySystem]
         private static void Destroy(this ET.Server.MonsterFlag self)
         {
-            self.Root().GetComponent<MonsterMapComponent>().OnMonsterDead(self.ConfigId,self.GroupConfigId);
+            self.Root().GetComponent<MonsterMapComponent>().OnMonsterDead(self.ConfigId, self.GroupConfigId);
         }
     }
 
@@ -49,17 +50,30 @@ namespace ET.Server
         }
     }
 
-
     [EntitySystemOf(typeof(MonsterMapComponent))]
+    [FriendOfAttribute(typeof(ET.Server.MonsterMapComponent))]
     public static partial class MonsterMapComponentSystem
     {
         [EntitySystem]
         private static void Awake(this ET.Server.MonsterMapComponent self)
         {
+        }
+        [EntitySystem]
+        private static void Destroy(this ET.Server.MonsterMapComponent self)
+        {
+            self.GroupId_UnitsDic.Clear();
+        }
+
+        public static void EntryMapCreateAllMonster(this MonsterMapComponent self, Unit unit1)
+        {
+            M2C_CreateUnits m2CCreateUnits = M2C_CreateUnits.Create();
             foreach (MonsterConfig monsterConfig in MonsterConfigCategory.Instance.DataList)
             {
-                self.CreateMonster(monsterConfig.Id);
+                Unit unit = self.CreateMonster(monsterConfig.Id);
+                var unitInfo = UnitHelper.CreateUnitInfo(unit);
+                m2CCreateUnits.Units.Add(unitInfo);
             }
+            MapMessageHelper.SendToClient(unit1,m2CCreateUnits);
         }
 
         public static Unit CreateMonster(this MonsterMapComponent self, int Id)
@@ -68,16 +82,22 @@ namespace ET.Server
             MonsterGroupConfig monsterGroupConfig = MonsterGroupConfigCategory.Instance.Get(monsterConfig.GroupId);
 
             int h_range = monsterGroupConfig.Range / 2;
-            float3 pos = new float3(monsterGroupConfig.PosX, monsterGroupConfig.PosY, monsterGroupConfig.PosZ) + new float3(RandomGenerator.RandomNumber(-h_range, h_range));
-            Unit unit = UnitFactory.CreateMonster(self.Root(), monsterConfig.UnitConfigId, pos);
+            var randomRange = RandomGenerator.RandomNumber(-h_range, h_range);
+            float3 pos = new float3(monsterGroupConfig.PosX + randomRange, monsterGroupConfig.PosY, monsterGroupConfig.PosZ + randomRange);
+            Unit unit = UnitFactory.CreateMonster(self.Root(), monsterConfig.UnitConfigId, pos, Id);
             unit.AddComponent<MonsterFlag, int, int>(Id, monsterConfig.GroupId);
-            unit.AddComponent<AOIEntity, int, float3>(9 * 1000, unit.Position);
+            unit.AddComponent<AOIEntity, int, float3>(monsterConfig.AOIRange * 1000, unit.Position);
+            if(self.GroupId_UnitsDic.ContainsKey(monsterConfig.GroupId))
+                self.GroupId_UnitsDic[monsterConfig.GroupId].Add(unit);
+            else
+                self.GroupId_UnitsDic.Add(monsterConfig.GroupId, new ListComponent<EntityRef<Unit>>() { unit });
             return unit;
         }
 
-        public static void OnMonsterDead(this MonsterMapComponent self,int id,int groupId)
+        public static void OnMonsterDead(this MonsterMapComponent self, int id, int groupId)
         {
-            self.Root().GetComponent<TimerComponent>().NewOnceTimer(TimeInfo.Instance.ServerNow() + 3000,TimerInvokeType.CreateMonster,self.AddChild<CreateMonsterInfo,int>(id));
+            self.Root().GetComponent<TimerComponent>().NewOnceTimer(TimeInfo.Instance.ServerNow() + 3000, TimerInvokeType.CreateMonster, self.AddChild<CreateMonsterInfo, int>(id));
         }
+
     }
 }

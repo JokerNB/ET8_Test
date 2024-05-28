@@ -75,7 +75,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/LockStep/Map/C2Room_ChangeSceneFinishHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Router/RouterCheckComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/MMO/Relive/ReliveComponentSystem.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/MapConfig/MapConfigComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/AI/AIComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/MMO/Battle/Buff/BuffComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/LoginCenter/FiberInit_LoginCenter.cs" />

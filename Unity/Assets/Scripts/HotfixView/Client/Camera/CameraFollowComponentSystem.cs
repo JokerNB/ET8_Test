@@ -18,6 +18,29 @@ namespace ET.Client
             self.CinemachineFramingTransposer.m_CameraDistance = self.CameraDistance;
 
             Unit unit = UnitHelper.GetMyUnitFromCurrentScene(self.Root().CurrentScene());
+            if (unit == null)
+            {
+                Log.Error("CameraFollowComponentSystem Awake -> Unit Is NULL!!!");
+                return;
+            }
+
+            if (unit.GetComponent<GameObjectComponent>() == null)
+            {
+                Log.Error("CameraFollowComponentSystem Awake -> Unit GameObjectComponent Is NULL!!!");
+                return;
+            }
+
+            if (unit.GetComponent<GameObjectComponent>().GameObject == null)
+            {
+                Log.Error("CameraFollowComponentSystem Awake -> Unit GameObjectComponent.GameObject Is NULL!!!");
+                return;
+            }
+
+            if (self.CinemachineVirtualCamera == null)
+            {
+                Log.Error("CameraFollowComponentSystem Awake -> CinemachineVirtualCamera Is NULL!!!");
+                return;
+            }
 
             self.CinemachineVirtualCamera.Follow = unit.GetComponent<GameObjectComponent>().GameObject.transform;
             self.CinemachineVirtualCamera.LookAt = unit.GetComponent<GameObjectComponent>().GameObject.transform;
@@ -42,10 +65,23 @@ namespace ET.Client
         [EntitySystem]
         private static void Destroy(this ET.Client.CameraFollowComponent self)
         {
-            // GameObject.Destroy(self.CinemachineFramingTransposer);
             GameObject.Destroy(self.CinemachineVirtualCamera);
             GameObject.Destroy(self.CinemachineBrain);
             self.MainCamera = null;
+        }
+
+        public static void UpdateByChangeScene(this ET.Client.CameraFollowComponent self)
+        {
+            self.MainCamera = Camera.main;
+            self.CinemachineBrain = self.MainCamera.gameObject.GetComponent<CinemachineBrain>();
+            self.CinemachineVirtualCamera = self.MainCamera.gameObject.GetComponent<CinemachineVirtualCamera>();
+            self.CinemachineFramingTransposer = self.CinemachineVirtualCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
+            self.CinemachineFramingTransposer.m_CameraDistance = self.CameraDistance;
+
+            Unit unit = UnitHelper.GetMyUnitFromCurrentScene(self.Root().CurrentScene());
+
+            self.CinemachineVirtualCamera.Follow = unit.GetComponent<GameObjectComponent>().GameObject.transform;
+            self.CinemachineVirtualCamera.LookAt = unit.GetComponent<GameObjectComponent>().GameObject.transform;
         }
 
         public static void RotateCameraView(this CameraFollowComponent self)

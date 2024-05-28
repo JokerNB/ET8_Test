@@ -5,7 +5,6 @@ namespace ET.Client
     {
         protected override async ETTask Run(Scene scene, AfterCreateClientScene args)
         {
-            // scene.AddComponent<FUIComponent>();
             scene.AddComponent<ResourcesLoaderComponent>();
             await ETTask.CompletedTask;
         }

@@ -13,5 +13,12 @@ namespace ET.Server
         {
             return MapConfigCategory.Instance.DataList[0];
         }
+
+        public static MapConfig GetConfigBySceneName(string sceneName)
+        {
+            if (sceneName == "Map2")
+                return MapConfigCategory.Instance.Get(2);
+            return MapConfigCategory.Instance.Get(1);
+        }
     }
 }

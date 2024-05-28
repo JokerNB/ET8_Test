@@ -18,24 +18,13 @@ namespace ET.Server
                         int heroConfigId = unit.Config().PropertyConfigId;
                         var heroConfig = HeroConfigCategory.Instance.Get(heroConfigId);
                         //设置UnitPos
-                        float3 unitPos = new float3();
-                        if (scene.Name == "GateMap")
-                        {
-                            var mapConfigByFirst = MapConfigHelper.GetMapConfigByFirst();
-                            unitPos.x = mapConfigByFirst.BirthPosX;
-                            unitPos.y = mapConfigByFirst.BirthPosY;
-                            unitPos.z = mapConfigByFirst.BirthPosZ;
-                        }
-                        else
-                        {
-                            MapConfigComponent mapConfigComponent = scene.Root().GetComponent<MapConfigComponent>();
-                            var curMapConfig = mapConfigComponent.CurMapConfig;
-                            unitPos.x = curMapConfig.BirthPosX;
-                            unitPos.y = curMapConfig.BirthPosY;
-                            unitPos.z = curMapConfig.BirthPosZ;
-                        }
-
-                        unit.Position = unitPos;
+                        // float3 unitPos = new float3();
+                        // MapConfig mapConfig = MapConfigHelper.GetConfigBySceneName(scene.Name);
+                        // unitPos.x = mapConfig.BirthPosX;
+                        // unitPos.y = mapConfig.BirthPosY;
+                        // unitPos.z = mapConfig.BirthPosZ;
+                        //
+                        // unit.Position = unitPos;
 
                         NumericComponent numericComponent = unit.AddComponent<NumericComponent>();
                         numericComponent.Set(NumericType.Speed, heroConfig.Speed);
@@ -75,7 +64,7 @@ namespace ET.Server
             return unit;
         }
 
-        public static Unit CreateMonster(Scene scene, int unitConfigId, float3 pos)
+        public static Unit CreateMonster(Scene scene, int unitConfigId, float3 pos , int monsterConfigId)
         {
             UnitComponent unitComponent = scene.GetComponent<UnitComponent>();
             Unit unit = unitComponent.AddChild<Unit, int>(unitConfigId);
@@ -83,10 +72,12 @@ namespace ET.Server
             unit.Position = pos;
 
             NumericComponent numericComponent = unit.AddComponent<NumericComponent>();
-            numericComponent.Set(NumericType.Speed, 6f);
-            numericComponent.Set(NumericType.AOI, 15000);
-            numericComponent.Set(NumericType.MaxHp, 1000);
-            numericComponent.Set(NumericType.Hp, 1000);
+            MonsterConfig monsterConfig = MonsterConfigCategory.Instance.Get(monsterConfigId);
+
+            numericComponent.Set(NumericType.Speed, monsterConfig.Speed);
+            numericComponent.Set(NumericType.AOI, monsterConfig.AOIRange * 1000);
+            numericComponent.Set(NumericType.MaxHp, monsterConfig.HP);
+            numericComponent.Set(NumericType.Hp, monsterConfig.HP);
 
             unit.AddComponent<ReliveComponent>();
             unitComponent.Add(unit);

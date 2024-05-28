@@ -1,5 +1,4 @@
-﻿using System;
-using Unity.Mathematics;
+﻿using Unity.Mathematics;
 
 namespace ET.Server
 {
@@ -23,8 +22,7 @@ namespace ET.Server
             unit.AddComponent<MoveComponent>();
             unit.AddComponent<PathfindingComponent, string>(scene.Name);
             //根据配置设置unit出生位置
-            var mapConfigComponent = scene.Root().GetComponent<MapConfigComponent>();
-            var curMapConfig = mapConfigComponent.CurMapConfig;
+            var curMapConfig = MapConfigCategory.Instance.Get(request.MapConfigId);
             unit.Position = new float3(curMapConfig.BirthPosX, curMapConfig.BirthPosY, curMapConfig.BirthPosZ);
 
             unit.AddComponent<MailBoxComponent, MailBoxType>(MailBoxType.OrderedMessage);
@@ -40,6 +38,13 @@ namespace ET.Server
             M2C_CreateMyUnit m2CCreateUnits = M2C_CreateMyUnit.Create();
             m2CCreateUnits.Unit = UnitHelper.CreateUnitInfo(unit);
             MapMessageHelper.SendToClient(unit, m2CCreateUnits);
+
+            // 通知客户端创建怪物
+            if (curMapConfig.IsBattleMap)
+            {
+                MonsterMapComponent monsterMapComponent = scene.AddComponent<MonsterMapComponent>();
+                monsterMapComponent.EntryMapCreateAllMonster(unit);
+            }
 
             // 加入aoi
             var heroConfig = HeroConfigCategory.Instance.Get(unit.Config().PropertyConfigId);

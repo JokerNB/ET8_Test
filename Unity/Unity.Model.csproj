@@ -208,7 +208,6 @@
     <Compile Include="Assets/Scripts/Model/Server/LockStep/Gate/PlayerRoomComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/ActorLocation/LocationComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Demo/ServerInfo/ServerInfo.cs" />
-    <Compile Include="Assets/Scripts/Model/Server/Demo/Map/MapConfigComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyHappyCategroy.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/ActorLocation/LocationProxyComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Console/ModeContex.cs" />

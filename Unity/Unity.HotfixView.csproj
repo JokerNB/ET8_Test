@@ -63,6 +63,7 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/RegisterPanel/Event/UIRegisterEventHandler.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/LSUnitViewComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/LoadingPanel/LoadingPanelHelper.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/Scene/SceneChangeFinish_AddComponent.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/RegisterPanel/UIRegisterSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Scene/SceneChangeStart_AddComponent.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/LSSceneInitFinish_Finish.cs" />

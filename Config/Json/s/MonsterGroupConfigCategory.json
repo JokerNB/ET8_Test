@@ -1,16 +1,16 @@
 [
   {
     "Id": 1,
-    "PosX": 141,
-    "PosY": 0.5,
-    "PosZ": 237,
+    "PosX": 35,
+    "PosY": 10.64,
+    "PosZ": 48.8,
     "Range": 20
   },
   {
     "Id": 2,
-    "PosX": 160,
-    "PosY": 0.5,
-    "PosZ": 257,
+    "PosX": 35,
+    "PosY": 10.64,
+    "PosZ": 48.8,
     "Range": 10
   }
 ]
