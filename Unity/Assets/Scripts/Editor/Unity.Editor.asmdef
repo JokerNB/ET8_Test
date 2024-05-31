@@ -14,8 +14,7 @@
         "Unity.Hotfix",
         "Unity.HotfixView",
         "FairyGUI",
-        "YooAsset.Editor",
-        "FairyGUI.Dyanmic"
+        "YooAsset.Editor"
     ],
     "includePlatforms": [
         "Editor"

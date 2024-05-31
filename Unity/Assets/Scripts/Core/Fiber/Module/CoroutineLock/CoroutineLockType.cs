@@ -17,6 +17,7 @@ namespace ET
         public const int LoadingPanels = 11;
         public const int ChangeNickName = 12;
         public const int FindNickName = 13;
+        public const int GetRolesInfo = 14;
 
         public const int Max = 100; // 这个必须最大
     }

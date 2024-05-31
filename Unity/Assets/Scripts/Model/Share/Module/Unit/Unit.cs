@@ -9,6 +9,7 @@ namespace ET
     public partial class Unit: Entity, IAwake<int>
     {
         public int ConfigId { get; set; } //配置表id
+        public int ConfigId_Property { get; set; } //属性配置表id
 
         [BsonElement]
         private float3 position; //坐标
@@ -31,10 +32,10 @@ namespace ET
             get => math.mul(this.Rotation, math.forward());
             set => this.Rotation = quaternion.LookRotation(value, math.up());
         }
-        
+
         [BsonElement]
         private quaternion rotation;
-        
+
         [BsonIgnore]
         public quaternion Rotation
         {

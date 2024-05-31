@@ -17,6 +17,7 @@ message RouterSync
 message C2G_EnterMap // ISessionRequest
 {
 	int32 RpcId = 1;
+	int32 UnitConfigId = 2;
 }
 
 message G2C_EnterMap // ISessionResponse
@@ -221,6 +222,31 @@ message R2C_GetServerList // ISessionResponse
 	string Message = 3;
 
 	repeated ServerInfoProto ServerInfoList = 4;
+}
+
+message RolesInfoProto
+{
+	int32 UnitConfigId = 1;
+	int32 Proficiency = 2;
+	int32 Level = 3;
+	int32 IsUnlock = 4;
+}
+
+// ResponseType R2C_GetRolesList
+message C2R_GetRolesList // ISessionRequest
+{
+	int32 RpcId = 1;
+	string Account = 2;
+	string Token = 3;
+}
+
+message R2C_GetRolesList // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	repeated RolesInfoProto RolesInfosList = 4;
 }
 
 // ResponseType G2C_ChangeNickName

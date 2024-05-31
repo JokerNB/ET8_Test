@@ -38,9 +38,6 @@ namespace ET
         /// </summary>
         public readonly int PropertyConfigId;
 
-        /// <summary>
-        /// 类型
-        /// </summary>
         public readonly UnitType UnitType;
 
         public const int __ID__ = -568528378;

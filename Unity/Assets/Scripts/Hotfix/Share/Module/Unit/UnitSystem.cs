@@ -7,6 +7,7 @@ namespace ET
         private static void Awake(this Unit self, int configId)
         {
             self.ConfigId = configId;
+            self.ConfigId_Property = UnitConfigCategory.Instance.Get(configId).PropertyConfigId;
         }
 
         public static UnitConfig Config(this Unit self)

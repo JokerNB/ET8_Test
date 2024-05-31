@@ -14,6 +14,7 @@ namespace ET.Client
             root.AddComponent<PlayerComponent>();
             root.AddComponent<CurrentScenesComponent>();
             root.AddComponent<ServerInfoComponent>();
+            root.AddComponent<RolesInfoComponent>();
 
             World.Instance.AddSingleton<FUIEventSingleTon>();
             root.AddComponent<LocalizeComponent>();

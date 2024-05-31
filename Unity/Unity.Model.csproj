@@ -77,6 +77,7 @@
     <Compile Include="Assets/Scripts/Model/Share/Module/Unit/UnitComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/StartMachineConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Server/MMO/Battle/Actions/ActionsDispatcherComponent.cs" />
+    <Compile Include="Assets/Scripts/Model/Server/Demo/RolesInfo/RolesInfoManagerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSConstValue.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/DB/DBManagerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSInput.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/StartSceneConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Console/ConsoleDispatcher.cs" />
     <Compile Include="Assets/Scripts/Model/Server/MMO/Relive/ReliveComponent.cs" />
+    <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/MainType.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Entry.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Scene/CurrentScenesComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Realm/TokenComponent.cs" />
@@ -120,6 +122,7 @@
     <Compile Include="Assets/Scripts/Model/Share/Module/Unit/UnitEventType.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/FrameBuffer.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/ZoneType.cs" />
+    <Compile Include="Assets/Scripts/Model/Share/Demo/RolesInfo/RoleInfo.cs" />
     <Compile Include="Assets/Scripts/Model/Server/MMO/Battle/Actions/ActionsTempComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/ServerInfo/ServerInfoManagerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Realm/AccountCheckOutTimeComponent.cs" />
@@ -144,6 +147,7 @@
     <Compile Include="Assets/Scripts/Model/Client/MMO/Battle/Cast/ClientCastComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/MMO/Battle/Cast/CastComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/Router/RouterComponent.cs" />
+    <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/UnlockType.cs" />
     <Compile Include="Assets/Scripts/Model/Server/LockStep/Map/RoomServerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Benchmark/BenchmarkServerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Console/IConsoleHandler.cs" />
@@ -153,7 +157,6 @@
     <Compile Include="Assets/Scripts/Model/Client/Demo/NetClient/Ping/PingComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/DifficultyNormalCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/Http/IHttpHandler.cs" />
-    <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/MapConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/StartZoneConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Client/Demo/AI/XunLuoPathComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/BuffConfig.cs" />
@@ -161,7 +164,6 @@
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/ZoneStatus.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Numeric/INumericWatcher.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/AOI/Cell.cs" />
-    <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/MapConfig.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Realm/SessionLockingComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSUnit.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSUpdater.cs" />
@@ -217,6 +219,7 @@
     <Compile Include="Assets/Scripts/Model/Share/LockStep/LSInputComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/CastConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Gate/PlayerComponent.cs" />
+    <Compile Include="Assets/Scripts/Model/Client/RolesInfo/RolesInfoComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/BulletConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/MonsterGroupConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Module/ActorLocation/MessageLocationSenderOneType.cs" />

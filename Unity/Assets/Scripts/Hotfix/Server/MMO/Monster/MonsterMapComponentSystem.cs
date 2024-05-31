@@ -81,10 +81,10 @@ namespace ET.Server
             MonsterConfig monsterConfig = MonsterConfigCategory.Instance.Get(Id);
             MonsterGroupConfig monsterGroupConfig = MonsterGroupConfigCategory.Instance.Get(monsterConfig.GroupId);
 
-            int h_range = monsterGroupConfig.Range / 2;
-            var randomRange = RandomGenerator.RandomNumber(-h_range, h_range);
-            float3 pos = new float3(monsterGroupConfig.PosX + randomRange, monsterGroupConfig.PosY, monsterGroupConfig.PosZ + randomRange);
-            Unit unit = UnitFactory.CreateMonster(self.Root(), monsterConfig.UnitConfigId, pos, Id);
+            // int h_range = monsterGroupConfig.Range / 2;
+            // var randomRange = RandomGenerator.RandomNumber(-h_range, h_range);
+            // float3 pos = new float3(monsterGroupConfig.PosX + randomRange, monsterGroupConfig.PosY, monsterGroupConfig.PosZ + randomRange);
+            Unit unit = UnitFactory.CreateMonster(self.Root(), monsterConfig.UnitConfigId, Id);
             unit.AddComponent<MonsterFlag, int, int>(Id, monsterConfig.GroupId);
             unit.AddComponent<AOIEntity, int, float3>(monsterConfig.AOIRange * 1000, unit.Position);
             if(self.GroupId_UnitsDic.ContainsKey(monsterConfig.GroupId))

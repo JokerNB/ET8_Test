@@ -22,12 +22,17 @@ namespace ET
             Atk = _buf.ReadInt();
             PhysicalDef = _buf.ReadInt();
             MagicDef = _buf.ReadInt();
+            StrengthValue = _buf.ReadInt();
+            AgileValue = _buf.ReadInt();
+            MagicValue = _buf.ReadInt();
+            MainType = (MainType)_buf.ReadInt();
             AtkInterval = _buf.ReadFloat();
             AtkRange = _buf.ReadInt();
             Speed = _buf.ReadFloat();
             AOIRange = _buf.ReadInt();
-            ResourceName = _buf.ReadString();
             ViewDistance = _buf.ReadLong();
+            UnlockType = (UnlockType)_buf.ReadInt();
+            ResourceName = _buf.ReadString();
 
             PostInit();
         }
@@ -68,6 +73,23 @@ namespace ET
         public readonly int MagicDef;
 
         /// <summary>
+        /// 力量属性
+        /// </summary>
+        public readonly int StrengthValue;
+
+        /// <summary>
+        /// 敏捷属性
+        /// </summary>
+        public readonly int AgileValue;
+
+        /// <summary>
+        /// 智力属性
+        /// </summary>
+        public readonly int MagicValue;
+
+        public readonly MainType MainType;
+
+        /// <summary>
         /// 攻击间隔
         /// </summary>
         public readonly float AtkInterval;
@@ -88,14 +110,16 @@ namespace ET
         public readonly int AOIRange;
 
         /// <summary>
-        /// 资源名称
-        /// </summary>
-        public readonly string ResourceName;
-
-        /// <summary>
         /// 视野范围
         /// </summary>
         public readonly long ViewDistance;
+
+        public readonly UnlockType UnlockType;
+
+        /// <summary>
+        /// 资源名称
+        /// </summary>
+        public readonly string ResourceName;
 
         public const int __ID__ = -563759108;
 
@@ -110,12 +134,17 @@ namespace ET
             + "Atk:" + Atk + ","
             + "PhysicalDef:" + PhysicalDef + ","
             + "MagicDef:" + MagicDef + ","
+            + "StrengthValue:" + StrengthValue + ","
+            + "AgileValue:" + AgileValue + ","
+            + "MagicValue:" + MagicValue + ","
+            + "MainType:" + MainType + ","
             + "AtkInterval:" + AtkInterval + ","
             + "AtkRange:" + AtkRange + ","
             + "Speed:" + Speed + ","
             + "AOIRange:" + AOIRange + ","
-            + "ResourceName:" + ResourceName + ","
             + "ViewDistance:" + ViewDistance + ","
+            + "UnlockType:" + UnlockType + ","
+            + "ResourceName:" + ResourceName + ","
             + "}";
         }
 

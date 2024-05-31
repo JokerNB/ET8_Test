@@ -13,10 +13,11 @@ namespace ET.Client
                 Scene currentScene = root.CurrentScene();
 
                 ResourcesLoaderComponent resourcesLoaderComponent = currentScene.GetComponent<ResourcesLoaderComponent>();
-                MapConfig mapConfig = MapConfigCategory.Instance.Get(args.mapConfigId);
-                string path = mapConfig.ResourcePath;
+                //TODO:地图资源路径
+                // MapConfig mapConfig = MapConfigCategory.Instance.Get(args.mapConfigId);
+                // string path = mapConfig.ResourcePath;
                 // 加载场景资源
-                await resourcesLoaderComponent.LoadSceneAsync($"Assets/Bundles/Scenes/{path}.unity", LoadSceneMode.Single);
+                await resourcesLoaderComponent.LoadSceneAsync($"Assets/Bundles/Scenes/Map1.unity", LoadSceneMode.Single);
                 currentScene.AddComponent<OperaComponent>();
             }
             catch (Exception e)

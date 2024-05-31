@@ -17,12 +17,12 @@ namespace FUIEditor
             {
                 return;
             }
-                
+
             GatherController(componentInfo);
             GatherTransition(componentInfo);
 
             FUICodeSpawner.ExportedComponentInfos.Add(componentInfo.PackageId, componentInfo.Id, componentInfo);
-            
+
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("/** This is an automatically generated class by FUICodeSpawner. Please do not modify it. **/");
             sb.AppendLine();
@@ -32,6 +32,7 @@ namespace FUIEditor
             sb.AppendFormat("namespace {0}", componentInfo.NameSpace);
             sb.AppendLine();
             sb.AppendLine("{");
+            sb.AppendLine($"\t{FUICodeSpawner.AttributeName}");
             sb.AppendFormat("\tpublic partial class {0}{1}: {2}", FUICodeSpawner.ClassNamePrefix, componentInfo.NameWithoutExtension, componentInfo.ComponentClassName);
             sb.AppendLine();
             sb.AppendLine("\t{");
@@ -49,20 +50,20 @@ namespace FUIEditor
                 sb.AppendLine("\t\t}");
                 sb.AppendLine();
             }
-            
+
             for (int i = 0; i < ControllerNames.Count; i++)
             {
                 if (string.IsNullOrEmpty(ControllerNames[i])) continue;
                 sb.AppendFormat("\t\tpublic Controller {0};", ControllerNames[i]);
                 sb.AppendLine();
             }
-            
+
             for (int i = 0; i < TransitionNames.Count; i++)
             {
                 sb.AppendFormat("\t\tpublic Transition {0};", TransitionNames[i]);
                 sb.AppendLine();
             }
-            
+
             // 去掉 typeName 为空的变量
             List<VariableInfo> variableInfos = new List<VariableInfo>();
             for (int i = 0; i < componentInfo.VariableInfos.Count; i++)
@@ -95,7 +96,7 @@ namespace FUIEditor
             sb.AppendLine();
             sb.AppendLine("\t\t}");
             sb.AppendLine();
-            
+
             sb.AppendLine("\t\tpublic override void ConstructFromXML(XML xml)");
             sb.AppendLine("\t\t{");
             sb.AppendLine("\t\t\tbase.ConstructFromXML(xml);");
@@ -107,20 +108,20 @@ namespace FUIEditor
                 sb.AppendFormat("\t\t\t{0} = GetControllerAt({1});", ControllerNames[i], i);
                 sb.AppendLine();
             }
-            
+
             for (int i = 0; i < TransitionNames.Count; i++)
             {
                 sb.AppendFormat("\t\t\t{0} = GetTransitionAt({1});", TransitionNames[i], i);
                 sb.AppendLine();
             }
-            
+
             for (int i = 0; i < variableInfos.Count; i++)
             {
                 if (!IsExportVariable(variableInfos[i]))
                 {
                     continue;
                 }
-                
+
                 sb.AppendFormat("\t\t\t{0} = ({1})GetChildAt({2});", variableInfos[i].VariableName, variableInfos[i].TypeName, i);
                 sb.AppendLine();
             }
@@ -133,7 +134,7 @@ namespace FUIEditor
             {
                 Directory.CreateDirectory(dir);
             }
-            
+
             string filePath = "{0}/{1}{2}.cs".Fmt(dir, FUICodeSpawner.ClassNamePrefix, componentInfo.NameWithoutExtension);
             using FileStream fs = new FileStream(filePath, FileMode.Create);
             using StreamWriter sw = new StreamWriter(fs);
@@ -180,7 +181,7 @@ namespace FUIEditor
                 TransitionNames.Add(transitionName);
             }
         }
-        
+
         private static void GatherController(ComponentInfo componentInfo)
         {
             ControllerNames.Clear();

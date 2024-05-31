@@ -5,8 +5,8 @@
     {
         protected override async ETTask Run(Unit unit, C2M_TransferMap request, M2C_TransferMap response)
         {
-            StartSceneConfig startSceneConfig = StartSceneConfigCategory.Instance.Get(MapConfigCategory.Instance.Get(request.MapConfigId).StartSceneConfigId);
-            TransferHelper.TransferAtFrameFinish(unit, startSceneConfig.ActorId, request.MapConfigId).Coroutine();
+            // StartSceneConfig startSceneConfig = StartSceneConfigCategory.Instance.Get(MapConfigCategory.Instance.Get(request.MapConfigId).StartSceneConfigId);
+            // TransferHelper.TransferAtFrameFinish(unit, startSceneConfig.ActorId, request.MapConfigId).Coroutine();
             await ETTask.CompletedTask;
         }
     }

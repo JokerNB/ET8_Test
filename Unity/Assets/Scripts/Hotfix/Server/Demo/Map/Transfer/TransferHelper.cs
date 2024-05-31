@@ -5,15 +5,15 @@ namespace ET.Server
 {
     public static partial class TransferHelper
     {
-        public static async ETTask TransferAtFrameFinish(Unit unit, ActorId sceneInstanceId, int mapConfigId)
+        public static async ETTask TransferAtFrameFinish(Unit unit, ActorId sceneInstanceId)
         {
             await unit.Fiber().WaitFrameFinish();
 
-            await TransferHelper.Transfer(unit, sceneInstanceId, mapConfigId);
+            await TransferHelper.Transfer(unit, sceneInstanceId);
         }
 
 
-        public static async ETTask Transfer(Unit unit, ActorId sceneInstanceId, int mapConfigId)
+        public static async ETTask Transfer(Unit unit, ActorId sceneInstanceId)
         {
             Scene root = unit.Root();
 
@@ -23,7 +23,7 @@ namespace ET.Server
             M2M_UnitTransferRequest request = M2M_UnitTransferRequest.Create();
             request.OldActorId = unit.GetActorId();
             request.Unit = unit.ToBson();
-            request.MapConfigId = mapConfigId;
+            // request.MapConfigId = mapConfigId;
             foreach (Entity entity in unit.Components.Values)
             {
                 if (entity is ITransfer)

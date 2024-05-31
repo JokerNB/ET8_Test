@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using FUIEditor;
+using UnityEditor;
 using UnityEngine;
 using YooAsset;
 
@@ -34,6 +35,7 @@ namespace ET
         private BuildOptions buildOptions;
 
         private GlobalConfig globalConfig;
+        private string fairyGUIXMLPath;
 
         [MenuItem("ET/Build Tool", false, ETMenuItemPriority.BuildTool)]
         public static void ShowWindow()
@@ -123,6 +125,41 @@ namespace ET
             }
 
             GUILayout.Space(5);
+
+            GUILayout.Label("");
+            GUILayout.Label("FairyGUI");
+            GUIContent guiContent = new GUIContent("FairyGUI语言文件XML路径：", "在 FairyGUI 里生成");
+            EditorGUI.BeginChangeCheck();
+            string xmlPath = EditorGUILayout.TextField(guiContent, fairyGUIXMLPath);
+            if (EditorGUI.EndChangeCheck())
+            {
+                fairyGUIXMLPath = xmlPath;
+            }
+
+            if (GUILayout.Button("导出 FairyGUI 多语言"))
+            {
+                if (FUICodeSpawner.Localize(fairyGUIXMLPath))
+                {
+                    ShowNotification("FairyGUI 多语言导出成功！");
+                }
+                else
+                {
+                    ShowNotification("FairyGUI 多语言导出失败！");
+                }
+            }
+
+            GUILayout.Space(5);
+            if (GUILayout.Button("FUI代码生成"))
+            {
+                FUICodeSpawner.FUICodeSpawn();
+                ShowNotification("FUI代码生成成功！");
+            }
+        }
+
+        public static void ShowNotification(string tips)
+        {
+            EditorWindow game = EditorWindow.GetWindow(typeof(ET.BuildEditor).Assembly.GetType("ET.BuildEditor"));
+            game?.ShowNotification(new GUIContent($"{tips}"));
         }
     }
 }

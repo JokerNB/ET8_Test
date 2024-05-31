@@ -86,6 +86,7 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/Camera/LSCameraComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Plugins/FairyGUI/FUIHelper.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/ChooseDifficulty/Event/UIChooseDifficultyEventHandler.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/FUI/ChooseGameRole/UIChooseGameRoleSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/AfterUnitCreate_CreateUnitView.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Module/Resource/GameObjectHelper.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Scene/AfterCreateClientScene_AddComponent.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/Scene/AfterCreateClientScene_LSAddComponent.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/LoadingPanel/UILoadingPanelSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/AnimatorComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/FUI/ChooseGameRole/Event/UIChooseGameRoleEventHandler.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/LoginAccountFinish_ShowUI.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/MMO/Battle/ParticleEffectHelper.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Module/LocalizeComponentSystem.cs" />

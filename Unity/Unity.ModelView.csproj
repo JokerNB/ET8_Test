@@ -57,6 +57,7 @@
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/HeadBarPanel/HeadBarPanelBinder.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/LoadingPanel/FUI_UILoadingPanel_ProgressItem.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/ChooseDifficulty/FUI_UIChooseDifficulty.cs" />
+    <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/ChooseGameRole/FUI_UIGameRoleItem.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/LoadingPanel/FUI_UILoadingPanel_Progress.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUI/IFUIEventHandler.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/RegisterPanel/FUI_UIRegister.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets/Scripts/ModelView/Client/Module/Resource/ResourcesLoaderComponent.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUI/FUIAssetComponent.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/MainPanel/FUI_Button_Shop.cs" />
+    <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/ChooseGameRole/FUI_UIChooseGameRole.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUI/Lobby/UILobby.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/ChooseDifficulty/ChooseDifficultyBinder.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUI/PanelCoreData.cs" />
@@ -94,7 +96,9 @@
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/FUIBinder.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/Login/FUI_Button_Login.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/MainPanel/FUI_Button_SignIn.cs" />
+    <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/ChooseGameRole/ChooseGameRoleBinder.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/MainPanel/FUI_Button_Talent.cs" />
+    <Compile Include="Assets/Scripts/ModelView/Client/FUI/ChooseGameRole/UIChooseGameRole.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/LockStep/LSUnitView.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/MainPanel/FUI_UIMainPanel.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/Login/FUI_Button_Register.cs" />

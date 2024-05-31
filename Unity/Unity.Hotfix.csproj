@@ -51,6 +51,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Move/MoveComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/Handler/C2G_LoginGateHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/MMO/Battle/Cast/CastComponentSystem.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Client/Demo/RolesInfo/RolesInfoComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/LoginCenter/LoginInfoRecordComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/MMO/Battle/Actions/Types/Actions_CastBullet.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Benchmark/FiberInit_BenchmarkServer.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/MMO/Battle/Actions/ActionTempComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/DB/DBComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/A2NetClientHandler/A2NetClient_MessageHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/RolesInfo/RolesInfoManagerComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Unit/M2C_CreateUnitsHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Recast/PathfindingComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Console/ReloadDllConsoleHandler.cs" />
@@ -170,6 +172,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Main2NetClientHandler/Main2NetClient_LoginAccountHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Numeric/NumericWatcher_Hp_ShowUI.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Demo/EntryEvent1_InitShare.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/Handler/C2R_GetRolesListHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/ServerInfo/ServerInfoManagerComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Transfer/M2M_UnitTransferRequestHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Move/MoveHelper.cs" />
@@ -223,6 +226,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/BattleMap/C2M_ChooseModelDifficultyHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/SessionPlayerComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/MMO/Battle/Cast/CastFactory.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Share/Demo/RolesInfo/RoleInfoSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/MMO/Battle/Buff/BuffFactory.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Module/AOI/CellSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/FiberInit_Main.cs" />

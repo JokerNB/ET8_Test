@@ -74,6 +74,9 @@ namespace ET
         [MemoryPackOrder(0)]
         public int RpcId { get; set; }
 
+        [MemoryPackOrder(1)]
+        public int UnitConfigId { get; set; }
+
         public override void Dispose()
         {
             if (!this.IsFromPool)
@@ -82,6 +85,7 @@ namespace ET
             }
 
             this.RpcId = default;
+            this.UnitConfigId = default;
 
             ObjectPool.Instance.Recycle(this);
         }
@@ -1021,6 +1025,114 @@ namespace ET
     }
 
     [MemoryPackable]
+    [Message(OuterMessage.RolesInfoProto)]
+    public partial class RolesInfoProto : MessageObject
+    {
+        public static RolesInfoProto Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(RolesInfoProto), isFromPool) as RolesInfoProto;
+        }
+
+        [MemoryPackOrder(0)]
+        public int UnitConfigId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Proficiency { get; set; }
+
+        [MemoryPackOrder(2)]
+        public int Level { get; set; }
+
+        [MemoryPackOrder(3)]
+        public int IsUnlock { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.UnitConfigId = default;
+            this.Proficiency = default;
+            this.Level = default;
+            this.IsUnlock = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(OuterMessage.C2R_GetRolesList)]
+    [ResponseType(nameof(R2C_GetRolesList))]
+    public partial class C2R_GetRolesList : MessageObject, ISessionRequest
+    {
+        public static C2R_GetRolesList Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(C2R_GetRolesList), isFromPool) as C2R_GetRolesList;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public string Account { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string Token { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Account = default;
+            this.Token = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(OuterMessage.R2C_GetRolesList)]
+    public partial class R2C_GetRolesList : MessageObject, ISessionResponse
+    {
+        public static R2C_GetRolesList Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(R2C_GetRolesList), isFromPool) as R2C_GetRolesList;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Error { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string Message { get; set; }
+
+        [MemoryPackOrder(3)]
+        public List<RolesInfoProto> RolesInfosList { get; set; } = new();
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Error = default;
+            this.Message = default;
+            this.RolesInfosList.Clear();
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
     [Message(OuterMessage.C2G_ChangeNickName)]
     [ResponseType(nameof(G2C_ChangeNickName))]
     public partial class C2G_ChangeNickName : MessageObject, ISessionRequest
@@ -1812,27 +1924,30 @@ namespace ET
         public const ushort ServerInfoProto = 10030;
         public const ushort C2R_GetServerList = 10031;
         public const ushort R2C_GetServerList = 10032;
-        public const ushort C2G_ChangeNickName = 10033;
-        public const ushort G2C_ChangeNickName = 10034;
-        public const ushort A2C_Disconnect = 10035;
-        public const ushort C2R_LoginGame = 10036;
-        public const ushort R2C_LoginGame = 10037;
-        public const ushort C2R_GetRealmKey = 10038;
-        public const ushort R2C_GetRealmKey = 10039;
-        public const ushort C2G_EnterGame = 10040;
-        public const ushort G2C_EnterGame = 10041;
-        public const ushort M2C_CastStart = 10042;
-        public const ushort M2C_CastHit = 10043;
-        public const ushort M2C_CastFinish = 10044;
-        public const ushort M2C_CastBreak = 10045;
-        public const ushort BuffProto = 10046;
-        public const ushort M2C_BuffAdd = 10047;
-        public const ushort M2C_BuffTick = 10048;
-        public const ushort M2C_BuffUpdate = 10049;
-        public const ushort M2C_BuffRemove = 10050;
-        public const ushort M2C_BattleResult = 10051;
-        public const ushort C2M_TestCast = 10052;
-        public const ushort M2C_TestCast = 10053;
-        public const ushort M2C_CoolDownChange = 10054;
+        public const ushort RolesInfoProto = 10033;
+        public const ushort C2R_GetRolesList = 10034;
+        public const ushort R2C_GetRolesList = 10035;
+        public const ushort C2G_ChangeNickName = 10036;
+        public const ushort G2C_ChangeNickName = 10037;
+        public const ushort A2C_Disconnect = 10038;
+        public const ushort C2R_LoginGame = 10039;
+        public const ushort R2C_LoginGame = 10040;
+        public const ushort C2R_GetRealmKey = 10041;
+        public const ushort R2C_GetRealmKey = 10042;
+        public const ushort C2G_EnterGame = 10043;
+        public const ushort G2C_EnterGame = 10044;
+        public const ushort M2C_CastStart = 10045;
+        public const ushort M2C_CastHit = 10046;
+        public const ushort M2C_CastFinish = 10047;
+        public const ushort M2C_CastBreak = 10048;
+        public const ushort BuffProto = 10049;
+        public const ushort M2C_BuffAdd = 10050;
+        public const ushort M2C_BuffTick = 10051;
+        public const ushort M2C_BuffUpdate = 10052;
+        public const ushort M2C_BuffRemove = 10053;
+        public const ushort M2C_BattleResult = 10054;
+        public const ushort C2M_TestCast = 10055;
+        public const ushort M2C_TestCast = 10056;
+        public const ushort M2C_CoolDownChange = 10057;
     }
 }

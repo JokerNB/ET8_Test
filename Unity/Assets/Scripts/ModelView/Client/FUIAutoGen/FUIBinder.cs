@@ -4,6 +4,7 @@ using FairyGUI;
 
 namespace ET.Client
 {
+	[EnableClass]
 	public static class FUIBinder
 	{
 		public static void BindAll()
@@ -11,6 +12,7 @@ namespace ET.Client
 			UIObjectFactory.Clear();
 			
 			ChooseDifficultyBinder.BindAll();
+			ChooseGameRoleBinder.BindAll();
 			HeadBarPanelBinder.BindAll();
 			LoadingPanelBinder.BindAll();
 			LobbyBinder.BindAll();

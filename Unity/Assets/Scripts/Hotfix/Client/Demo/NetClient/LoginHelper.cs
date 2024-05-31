@@ -31,6 +31,18 @@ namespace ET.Client
 
             root.GetComponent<ServerInfoComponent>().Add(r2CGetServerList.ServerInfoList);
 
+            //请求角色列表
+            C2R_GetRolesList c2RGetRolesList = C2R_GetRolesList.Create();
+            c2RGetServerList.Account = account;
+            c2RGetServerList.Token = response.Token;
+            R2C_GetRolesList r2CGetRolesList = await clientSenderComponent.Call(c2RGetRolesList) as R2C_GetRolesList;
+            if (r2CGetRolesList.Error != ErrorCode.ERR_Success)
+            {
+                Log.Error("请求角色列表失败！");
+                return;
+            }
+            root.GetComponent<RolesInfoComponent>().Add(r2CGetRolesList.RolesInfosList);
+
             var playerComponent = root.GetComponent<PlayerComponent>();
             playerComponent.Token = response.Token;
             playerComponent.Account = account;

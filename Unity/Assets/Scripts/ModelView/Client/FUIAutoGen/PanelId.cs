@@ -6,6 +6,7 @@ namespace ET.Client
 	{
 		Invalid = 0,
 		UIChooseDifficulty,
+		UIChooseGameRole,
 		UILoadingPanel,
 		UILobby,
 		UILogin,

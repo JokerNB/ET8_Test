@@ -199,13 +199,6 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Config/MapConfigCategory.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 2
-        },
-        {
-            "Address": "",
             "AssetPath": "Assets/Bundles/Config/ModelCategory.bytes",
             "AssetGUID": "",
             "AssetTags": [],
@@ -6122,7 +6115,7 @@
             "UnityCRC": 0,
             "FileHash": "5816e44a2c151f7d61a751556d9b4194",
             "FileCRC": "00000000",
-            "FileSize": 1237068,
+            "FileSize": 1258672,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -6132,7 +6125,7 @@
             "UnityCRC": 0,
             "FileHash": "db2d5a40de474f9da488508573a024d2",
             "FileCRC": "00000000",
-            "FileSize": 260276,
+            "FileSize": 261227,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

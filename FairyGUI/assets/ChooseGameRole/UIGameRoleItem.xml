@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200" remark="Common">
+  <displayList>
+    <text id="n0_sns5" name="ID" xy="0,0" size="200,100" fontSize="75" align="center" autoSize="shrink" text="ID"/>
+    <text id="n1_sns5" name="Name" xy="0,100" size="200,100" fontSize="75" align="center" autoSize="shrink" text="Name"/>
+  </displayList>
+</component>

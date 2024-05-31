@@ -6,14 +6,15 @@ namespace ET.Server
     [FriendOfAttribute(typeof(ET.Server.BulletComponent))]
     public static partial class UnitFactory
     {
-        public static Unit Create(Scene scene, long id, UnitType unitType)
+        public static Unit Create(Scene scene, long id,int configId)
         {
             UnitComponent unitComponent = scene.GetComponent<UnitComponent>();
-            switch (unitType)
+            UnitConfig unitConfig = UnitConfigCategory.Instance.Get(configId);
+            switch (unitConfig.UnitType)
             {
                 case UnitType.Player:
                     {
-                        Unit unit = unitComponent.AddChildWithId<Unit, int>(id, 1);
+                        Unit unit = unitComponent.AddChildWithId<Unit, int>(id, configId);
                         unit.AddComponent<MoveComponent>();
                         int heroConfigId = unit.Config().PropertyConfigId;
                         var heroConfig = HeroConfigCategory.Instance.Get(heroConfigId);
@@ -40,7 +41,7 @@ namespace ET.Server
                         return unit;
                     }
                 default:
-                    throw new Exception($"not such unit type: {unitType}");
+                    throw new Exception($"not such unit type: {unitConfig.UnitType}");
             }
         }
 
@@ -64,12 +65,12 @@ namespace ET.Server
             return unit;
         }
 
-        public static Unit CreateMonster(Scene scene, int unitConfigId, float3 pos , int monsterConfigId)
+        public static Unit CreateMonster(Scene scene, int unitConfigId, int monsterConfigId)
         {
             UnitComponent unitComponent = scene.GetComponent<UnitComponent>();
             Unit unit = unitComponent.AddChild<Unit, int>(unitConfigId);
             unit.AddComponent<MoveComponent>();
-            unit.Position = pos;
+            // unit.Position = pos;
 
             NumericComponent numericComponent = unit.AddComponent<NumericComponent>();
             MonsterConfig monsterConfig = MonsterConfigCategory.Instance.Get(monsterConfigId);

@@ -6,6 +6,111 @@
   },
   {
     "Id": 2,
+    "PropertyConfigId": 2,
+    "UnitType": 0
+  },
+  {
+    "Id": 3,
+    "PropertyConfigId": 3,
+    "UnitType": 0
+  },
+  {
+    "Id": 4,
+    "PropertyConfigId": 4,
+    "UnitType": 0
+  },
+  {
+    "Id": 5,
+    "PropertyConfigId": 5,
+    "UnitType": 0
+  },
+  {
+    "Id": 6,
+    "PropertyConfigId": 6,
+    "UnitType": 0
+  },
+  {
+    "Id": 7,
+    "PropertyConfigId": 7,
+    "UnitType": 0
+  },
+  {
+    "Id": 8,
+    "PropertyConfigId": 8,
+    "UnitType": 0
+  },
+  {
+    "Id": 9,
+    "PropertyConfigId": 9,
+    "UnitType": 0
+  },
+  {
+    "Id": 10,
+    "PropertyConfigId": 10,
+    "UnitType": 0
+  },
+  {
+    "Id": 11,
+    "PropertyConfigId": 11,
+    "UnitType": 0
+  },
+  {
+    "Id": 12,
+    "PropertyConfigId": 12,
+    "UnitType": 0
+  },
+  {
+    "Id": 13,
+    "PropertyConfigId": 13,
+    "UnitType": 0
+  },
+  {
+    "Id": 14,
+    "PropertyConfigId": 14,
+    "UnitType": 0
+  },
+  {
+    "Id": 15,
+    "PropertyConfigId": 15,
+    "UnitType": 0
+  },
+  {
+    "Id": 16,
+    "PropertyConfigId": 16,
+    "UnitType": 0
+  },
+  {
+    "Id": 17,
+    "PropertyConfigId": 17,
+    "UnitType": 0
+  },
+  {
+    "Id": 18,
+    "PropertyConfigId": 18,
+    "UnitType": 0
+  },
+  {
+    "Id": 19,
+    "PropertyConfigId": 19,
+    "UnitType": 0
+  },
+  {
+    "Id": 20,
+    "PropertyConfigId": 20,
+    "UnitType": 0
+  },
+  {
+    "Id": 21,
+    "PropertyConfigId": 21,
+    "UnitType": 0
+  },
+  {
+    "Id": 22,
+    "PropertyConfigId": 22,
+    "UnitType": 0
+  },
+  {
+    "Id": 23,
     "PropertyConfigId": 1,
     "UnitType": 1
   }
