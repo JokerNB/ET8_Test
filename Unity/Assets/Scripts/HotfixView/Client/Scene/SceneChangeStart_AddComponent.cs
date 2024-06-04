@@ -17,7 +17,7 @@ namespace ET.Client
                 // MapConfig mapConfig = MapConfigCategory.Instance.Get(args.mapConfigId);
                 // string path = mapConfig.ResourcePath;
                 // 加载场景资源
-                await resourcesLoaderComponent.LoadSceneAsync($"Assets/Bundles/Scenes/Map1.unity", LoadSceneMode.Single);
+                await resourcesLoaderComponent.LoadSceneAsync($"Assets/Bundles/Scenes/{args.sceneName}/{args.sceneName}.unity", LoadSceneMode.Single);
                 currentScene.AddComponent<OperaComponent>();
             }
             catch (Exception e)

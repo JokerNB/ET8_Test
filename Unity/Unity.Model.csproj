@@ -121,8 +121,8 @@
     <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/StartProcessConfigCategory.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Module/Unit/UnitEventType.cs" />
     <Compile Include="Assets/Scripts/Model/Share/LockStep/FrameBuffer.cs" />
-    <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/ZoneType.cs" />
     <Compile Include="Assets/Scripts/Model/Share/Demo/RolesInfo/RoleInfo.cs" />
+    <Compile Include="Assets/Scripts/Model/Generate/ClientServer/Config/StartConfig/ZoneType.cs" />
     <Compile Include="Assets/Scripts/Model/Server/MMO/Battle/Actions/ActionsTempComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/ServerInfo/ServerInfoManagerComponent.cs" />
     <Compile Include="Assets/Scripts/Model/Server/Demo/Realm/AccountCheckOutTimeComponent.cs" />

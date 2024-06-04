@@ -9,7 +9,14 @@ namespace ET.Client
         {
             Unit unit = args.Unit;
             // Unit View层
-            string assetsName = $"Assets/Bundles/Unit/Unit.prefab";
+            string assetPath = "Assets/Bundles/";
+            string path = string.Empty;
+            if (unit.Type() == UnitType.Player)
+                path = HeroConfigCategory.Instance.Get(unit.ConfigId_Property).ResourceName;
+            else if(unit.Type() == UnitType.Monster)
+                path = MonsterConfigCategory.Instance.Get(unit.ConfigId_Property).ResourceName;
+
+            string assetsName = $"{assetPath}{path}.prefab";
             GameObject bundleGameObject = await scene.GetComponent<ResourcesLoaderComponent>().LoadAssetAsync<GameObject>(assetsName);
             GameObject prefab = bundleGameObject.Get<GameObject>("Skeleton");
 

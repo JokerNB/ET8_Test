@@ -8,6 +8,13 @@ namespace ET.Client.ChooseGameRole
 	[EnableClass]
 	public partial class FUI_UIGameRoleItem: GComponent
 	{
+		public enum UseTypePage
+		{
+			Limit,
+			Use,
+		}
+
+		public Controller UseType;
 		public GTextField ID;
 		public GTextField Name;
 		public const string URL = "ui://aj5lip0osns51";
@@ -21,6 +28,7 @@ namespace ET.Client.ChooseGameRole
 		{
 			base.ConstructFromXML(xml);
 
+			UseType = GetControllerAt(0);
 			ID = (GTextField)GetChildAt(0);
 			Name = (GTextField)GetChildAt(1);
 		}

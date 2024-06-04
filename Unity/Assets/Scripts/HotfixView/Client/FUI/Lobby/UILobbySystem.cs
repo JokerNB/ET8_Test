@@ -66,6 +66,18 @@ namespace ET.Client
                 return;
             }
 
+            //请求角色列表
+            C2G_GetRolesList c2RGetRolesList = C2G_GetRolesList.Create();
+            c2RGetRolesList.Account = account;
+            G2C_GetRolesList r2CGetRolesList = await self.Root().GetComponent<ClientSenderComponent>().Call(c2RGetRolesList) as G2C_GetRolesList;
+            if (r2CGetRolesList.Error != ErrorCode.ERR_Success)
+            {
+                Log.Error("请求角色列表失败！");
+                return;
+            }
+            Log.Debug("请求角色列表成功！");
+            self.Root().GetComponent<RolesInfoComponent>().Add(r2CGetRolesList.RolesInfosList);
+
             self.Root().GetComponent<PlayerComponent>().MyId = response.PlayerId;
             self.Root().GetComponent<PlayerComponent>().NickName = response.NickName;
 

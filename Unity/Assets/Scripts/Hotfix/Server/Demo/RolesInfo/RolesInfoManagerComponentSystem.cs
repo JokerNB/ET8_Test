@@ -16,83 +16,51 @@ namespace ET.Server
         [EntitySystem]
         private static void Destroy(this ET.Server.RolesInfoManagerComponent self)
         {
-            foreach (var roleInfoRef in self.RolesInfo_Sql.Values)
+            foreach (var roleInfoRef in self.RolesInfos.Values)
             {
                 RoleInfo roleInfo = roleInfoRef;
                 roleInfo?.Dispose();
             }
 
-            self.RolesInfo_Sql.Clear();
+            self.RolesInfos.Clear();
         }
 
-        public static void UpdateData(this RolesInfoManagerComponent self, RoleInfo roleInfo)
+        public static void Add(this RolesInfoManagerComponent self,List<RoleInfo> roleInfosData)
         {
-            if (self.RolesInfo_Sql.ContainsKey(roleInfo.UnitConfigId))
-                return;
-            self.RolesInfo_Sql.Add(roleInfo.UnitConfigId, roleInfo);
-        }
-
-        public static void UpdateData(this RolesInfoManagerComponent self, List<RoleInfo> roleInfos)
-        {
-            if (roleInfos == null || roleInfos.Count == 0)
-                return;
-            foreach (RoleInfo roleInfo in roleInfos)
+            foreach (RoleInfo roleInfo in roleInfosData)
             {
-                self.UpdateData(roleInfo);
+                if(self.RolesInfos.ContainsKey(roleInfo.UnitConfigId))
+                    continue;
+                self.RolesInfos.Add(roleInfo.UnitConfigId,roleInfo);
+                self.AddChild(roleInfo);
             }
-        }
-
-        public static List<RoleInfo> GetCanUseRoles(this RolesInfoManagerComponent self)
-        {
-            List<RoleInfo> roleInfos = new List<RoleInfo>();
-            //先从配置列表里随机4个可以使用
-            //免费 ->
+            //先从配置列表里随机4个可以使用 仅限Player
             var dataList = UnitConfigCategory.Instance.DataList;
             List<int> ids = self.GetRandomIdsByCount(4, dataList.Count);
             foreach (int id in ids)
             {
                 UnitConfig unitConfig = UnitConfigCategory.Instance.Get(id);
-                if(self.RolesInfo_Sql.ContainsKey(unitConfig.Id))
+                if(self.RolesInfos.ContainsKey(unitConfig.Id))
                     continue;
-                RoleInfo roleInfo = new RoleInfo();
+                RoleInfo roleInfo = self.AddChildWithId<RoleInfo>(id);
                 roleInfo.UnitConfigId = id;
                 roleInfo.Level = 0;
                 roleInfo.Proficiency = 0;
                 roleInfo.IsAlreadyOwned = 0;
-                roleInfos.Add(roleInfo);
+                roleInfo.IsTemporaryUnlock = 1;
+                self.RolesInfos.Add(id,roleInfo);
             }
-
-            foreach (RoleInfo roleInfo in self.RolesInfo_Sql.Values)
-            {
-                HeroConfig heroConfig = HeroConfigCategory.Instance.Get(UnitConfigCategory.Instance.Get(roleInfo.UnitConfigId).PropertyConfigId);
-                switch (heroConfig.UnlockType)
-                {
-                    case UnlockType.Proficiency:
-                        if (roleInfo.Level >= 3)
-                            roleInfos.Add(roleInfo);
-                        break;
-                    case UnlockType.Pay:
-                    case UnlockType.Activity:
-                    case UnlockType.ExchangeFragments:
-                        if (roleInfo.IsAlreadyOwned == 1)
-                            roleInfos.Add(roleInfo);
-                        break;
-                    default:
-                        throw new ArgumentOutOfRangeException();
-                }
-            }
-
-            return roleInfos;
         }
 
         public static List<int> GetRandomIdsByCount(this RolesInfoManagerComponent self, int randomCount, int dataCount)
         {
             List<int> ids = new List<int>();
 
+            //需要保证数据里最少有randomCount个符合条件的Unit
             var id = RandomGenerator.RandomNumber(1, dataCount);
             for (int i = 0; i < randomCount; i++)
             {
-                while (ids.Contains(id))
+                while (!(!ids.Contains(id) && self.RandomCanUse(id)))
                 {
                     id = RandomGenerator.RandomNumber(1, dataCount);
                 }
@@ -101,6 +69,26 @@ namespace ET.Server
             }
 
             return ids;
+        }
+
+        public static RoleInfo Get(this RolesInfoManagerComponent self, int id)
+        {
+            if (self.RolesInfos.ContainsKey(id))
+            {
+                RoleInfo roleInfo = self.RolesInfos[id];
+                return roleInfo;
+            }
+
+            return null;
+        }
+
+        public static bool RandomCanUse(this RolesInfoManagerComponent self, int id)
+        {
+            UnitConfig unitConfig = UnitConfigCategory.Instance.Get(id);
+            HeroConfig heroConfig = HeroConfigCategory.Instance.Get(unitConfig.PropertyConfigId);
+            bool isPlayer = unitConfig.UnitType == UnitType.Player;
+            bool isUnlock = heroConfig.UnlockType == UnlockType.Proficiency;
+            return isPlayer && isUnlock;
         }
     }
 }

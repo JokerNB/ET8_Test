@@ -15,7 +15,8 @@ namespace ET
             self.UnitConfigId = rolesInfoProto.UnitConfigId;
             self.Proficiency = rolesInfoProto.Proficiency;
             self.Level = rolesInfoProto.Level;
-            self.IsUnlock = rolesInfoProto.IsUnlock;
+            self.IsTemporaryUnlock = rolesInfoProto.IsTemporaryUnlock;
+            self.IsAlreadyOwned = rolesInfoProto.IsAlreadyOwned;
         }
 
         public static RolesInfoProto ToMessage(this RoleInfo self)
@@ -24,7 +25,8 @@ namespace ET
             rolesInfoProto.UnitConfigId = self.UnitConfigId;
             rolesInfoProto.Proficiency = self.Proficiency;
             rolesInfoProto.Level = self.Level;
-            rolesInfoProto.IsUnlock = self.IsUnlock;
+            rolesInfoProto.IsTemporaryUnlock = self.IsTemporaryUnlock;
+            rolesInfoProto.IsAlreadyOwned = self.IsAlreadyOwned;
             return rolesInfoProto;
         }
     }

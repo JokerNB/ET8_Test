@@ -17,7 +17,6 @@ message RouterSync
 message C2G_EnterMap // ISessionRequest
 {
 	int32 RpcId = 1;
-	int32 UnitConfigId = 2;
 }
 
 message G2C_EnterMap // ISessionResponse
@@ -27,6 +26,8 @@ message G2C_EnterMap // ISessionResponse
 	string Message = 3;
 	/// 自己的UnitId
 	int64 MyId = 4;
+	int64 SceneInstanceId = 5;
+	string SceneName = 6;
 }
 
 message MoveInfo
@@ -61,7 +62,6 @@ message M2C_StartSceneChange // IMessage
 {
 	int64 SceneInstanceId = 1;
 	string SceneName = 2;
-	int32 MapConfigId = 3;
 }
 
 message M2C_RemoveUnits // IMessage
@@ -229,18 +229,18 @@ message RolesInfoProto
 	int32 UnitConfigId = 1;
 	int32 Proficiency = 2;
 	int32 Level = 3;
-	int32 IsUnlock = 4;
+	int32 IsTemporaryUnlock = 4;
+	int32 IsAlreadyOwned = 5;
 }
 
-// ResponseType R2C_GetRolesList
-message C2R_GetRolesList // ISessionRequest
+// ResponseType G2C_GetRolesList
+message C2G_GetRolesList // ISessionRequest
 {
 	int32 RpcId = 1;
 	string Account = 2;
-	string Token = 3;
 }
 
-message R2C_GetRolesList // ISessionResponse
+message G2C_GetRolesList // ISessionResponse
 {
 	int32 RpcId = 1;
 	int32 Error = 2;
@@ -417,4 +417,11 @@ message M2C_CoolDownChange // IMessage
 	repeated int32 CastConfigIds = 1;
 	repeated int64 CoolDownTimes = 2;
 	repeated int64 CoolDownStartTime = 3;
+}
+
+message C2G_ChooseGameRole // ISessionMessage
+{
+	int32 RpcId = 1;
+	int32 UnitConfigId = 2;
+	int64 PlayerId = 3;
 }

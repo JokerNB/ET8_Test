@@ -74,9 +74,6 @@ namespace ET
         [MemoryPackOrder(0)]
         public int RpcId { get; set; }
 
-        [MemoryPackOrder(1)]
-        public int UnitConfigId { get; set; }
-
         public override void Dispose()
         {
             if (!this.IsFromPool)
@@ -85,7 +82,6 @@ namespace ET
             }
 
             this.RpcId = default;
-            this.UnitConfigId = default;
 
             ObjectPool.Instance.Recycle(this);
         }
@@ -115,6 +111,12 @@ namespace ET
         [MemoryPackOrder(3)]
         public long MyId { get; set; }
 
+        [MemoryPackOrder(4)]
+        public long SceneInstanceId { get; set; }
+
+        [MemoryPackOrder(5)]
+        public string SceneName { get; set; }
+
         public override void Dispose()
         {
             if (!this.IsFromPool)
@@ -126,6 +128,8 @@ namespace ET
             this.Error = default;
             this.Message = default;
             this.MyId = default;
+            this.SceneInstanceId = default;
+            this.SceneName = default;
 
             ObjectPool.Instance.Recycle(this);
         }
@@ -278,9 +282,6 @@ namespace ET
         [MemoryPackOrder(1)]
         public string SceneName { get; set; }
 
-        [MemoryPackOrder(2)]
-        public int MapConfigId { get; set; }
-
         public override void Dispose()
         {
             if (!this.IsFromPool)
@@ -290,7 +291,6 @@ namespace ET
 
             this.SceneInstanceId = default;
             this.SceneName = default;
-            this.MapConfigId = default;
 
             ObjectPool.Instance.Recycle(this);
         }
@@ -1043,7 +1043,10 @@ namespace ET
         public int Level { get; set; }
 
         [MemoryPackOrder(3)]
-        public int IsUnlock { get; set; }
+        public int IsTemporaryUnlock { get; set; }
+
+        [MemoryPackOrder(4)]
+        public int IsAlreadyOwned { get; set; }
 
         public override void Dispose()
         {
@@ -1055,20 +1058,21 @@ namespace ET
             this.UnitConfigId = default;
             this.Proficiency = default;
             this.Level = default;
-            this.IsUnlock = default;
+            this.IsTemporaryUnlock = default;
+            this.IsAlreadyOwned = default;
 
             ObjectPool.Instance.Recycle(this);
         }
     }
 
     [MemoryPackable]
-    [Message(OuterMessage.C2R_GetRolesList)]
-    [ResponseType(nameof(R2C_GetRolesList))]
-    public partial class C2R_GetRolesList : MessageObject, ISessionRequest
+    [Message(OuterMessage.C2G_GetRolesList)]
+    [ResponseType(nameof(G2C_GetRolesList))]
+    public partial class C2G_GetRolesList : MessageObject, ISessionRequest
     {
-        public static C2R_GetRolesList Create(bool isFromPool = false)
+        public static C2G_GetRolesList Create(bool isFromPool = false)
         {
-            return ObjectPool.Instance.Fetch(typeof(C2R_GetRolesList), isFromPool) as C2R_GetRolesList;
+            return ObjectPool.Instance.Fetch(typeof(C2G_GetRolesList), isFromPool) as C2G_GetRolesList;
         }
 
         [MemoryPackOrder(0)]
@@ -1076,9 +1080,6 @@ namespace ET
 
         [MemoryPackOrder(1)]
         public string Account { get; set; }
-
-        [MemoryPackOrder(2)]
-        public string Token { get; set; }
 
         public override void Dispose()
         {
@@ -1089,19 +1090,18 @@ namespace ET
 
             this.RpcId = default;
             this.Account = default;
-            this.Token = default;
 
             ObjectPool.Instance.Recycle(this);
         }
     }
 
     [MemoryPackable]
-    [Message(OuterMessage.R2C_GetRolesList)]
-    public partial class R2C_GetRolesList : MessageObject, ISessionResponse
+    [Message(OuterMessage.G2C_GetRolesList)]
+    public partial class G2C_GetRolesList : MessageObject, ISessionResponse
     {
-        public static R2C_GetRolesList Create(bool isFromPool = false)
+        public static G2C_GetRolesList Create(bool isFromPool = false)
         {
-            return ObjectPool.Instance.Fetch(typeof(R2C_GetRolesList), isFromPool) as R2C_GetRolesList;
+            return ObjectPool.Instance.Fetch(typeof(G2C_GetRolesList), isFromPool) as G2C_GetRolesList;
         }
 
         [MemoryPackOrder(0)]
@@ -1891,6 +1891,39 @@ namespace ET
         }
     }
 
+    [MemoryPackable]
+    [Message(OuterMessage.C2G_ChooseGameRole)]
+    public partial class C2G_ChooseGameRole : MessageObject, ISessionMessage
+    {
+        public static C2G_ChooseGameRole Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(C2G_ChooseGameRole), isFromPool) as C2G_ChooseGameRole;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int UnitConfigId { get; set; }
+
+        [MemoryPackOrder(2)]
+        public long PlayerId { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.UnitConfigId = default;
+            this.PlayerId = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
     public static class OuterMessage
     {
         public const ushort HttpGetRouterResponse = 10002;
@@ -1925,8 +1958,8 @@ namespace ET
         public const ushort C2R_GetServerList = 10031;
         public const ushort R2C_GetServerList = 10032;
         public const ushort RolesInfoProto = 10033;
-        public const ushort C2R_GetRolesList = 10034;
-        public const ushort R2C_GetRolesList = 10035;
+        public const ushort C2G_GetRolesList = 10034;
+        public const ushort G2C_GetRolesList = 10035;
         public const ushort C2G_ChangeNickName = 10036;
         public const ushort G2C_ChangeNickName = 10037;
         public const ushort A2C_Disconnect = 10038;
@@ -1949,5 +1982,6 @@ namespace ET
         public const ushort C2M_TestCast = 10055;
         public const ushort M2C_TestCast = 10056;
         public const ushort M2C_CoolDownChange = 10057;
+        public const ushort C2G_ChooseGameRole = 10058;
     }
 }

@@ -20,6 +20,7 @@ namespace ET.Client
         {
             self.FUIUIChooseGameRole.GameRoleList.itemRenderer = self.ItemRenderer;
             self.FUIUIChooseGameRole.GameRoleList.numItems = self.Root().GetComponent<RolesInfoComponent>().ShowRolesInfo.Count;
+            self.FUIUIChooseGameRole.GameRoleList.onClickItem.Add(self.OnClickItem);
         }
 
         private static void ItemRenderer(this UIChooseGameRole self, int index, GObject item)
@@ -28,6 +29,7 @@ namespace ET.Client
             var uiGameRoleItem = item as FUI_UIGameRoleItem;
             uiGameRoleItem.ID.text = roleInfo.UnitConfigId.ToString();
             uiGameRoleItem.Name.text = HeroConfigCategory.Instance.Get(UnitConfigCategory.Instance.Get(roleInfo.UnitConfigId).PropertyConfigId).HeroName.ToString();
+            uiGameRoleItem.UseType.selectedIndex = roleInfo.IsTemporaryUnlock;
         }
 
         public static void OnHide(this UIChooseGameRole self)
@@ -36,6 +38,19 @@ namespace ET.Client
 
         public static void BeforeUnload(this UIChooseGameRole self)
         {
+        }
+
+        public static void OnClickItem(this UIChooseGameRole self, EventContext context)
+        {
+            //选择使用哪个角色进行游戏
+            var index = self.FUIUIChooseGameRole.GameRoleList.GetChildIndex(context.data as GObject);
+            RoleInfo roleInfo = self.Root().GetComponent<RolesInfoComponent>().ShowRolesInfo[index];
+            if(roleInfo.IsTemporaryUnlock == 0)
+                return;
+            C2G_ChooseGameRole c2GChooseGameRole = C2G_ChooseGameRole.Create();
+            c2GChooseGameRole.UnitConfigId = roleInfo.UnitConfigId;
+            c2GChooseGameRole.PlayerId = self.Root().GetComponent<PlayerComponent>().MyId;
+            self.Root().GetComponent<ClientSenderComponent>().Send(c2GChooseGameRole);
         }
     }
 }

@@ -27,12 +27,11 @@ namespace ET.Server
 
             unit.AddComponent<MailBoxComponent, MailBoxType>(MailBoxType.OrderedMessage);
 
-            // 通知客户端开始切场景
-            M2C_StartSceneChange m2CStartSceneChange = M2C_StartSceneChange.Create();
-            m2CStartSceneChange.SceneInstanceId = scene.InstanceId;
-            m2CStartSceneChange.SceneName = scene.Name;
-            m2CStartSceneChange.MapConfigId = request.MapConfigId;
-            MapMessageHelper.SendToClient(unit, m2CStartSceneChange);
+            // // 通知客户端开始切场景
+            // M2C_StartSceneChange m2CStartSceneChange = M2C_StartSceneChange.Create();
+            // m2CStartSceneChange.SceneInstanceId = scene.InstanceId;
+            // m2CStartSceneChange.SceneName = scene.Name;
+            // MapMessageHelper.SendToClient(unit, m2CStartSceneChange);
 
             // 通知客户端创建My Unit
             M2C_CreateMyUnit m2CCreateUnits = M2C_CreateMyUnit.Create();

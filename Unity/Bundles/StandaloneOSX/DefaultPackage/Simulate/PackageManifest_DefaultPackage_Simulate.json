@@ -1445,4658 +1445,4665 @@
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/HeadBarPanel/HeadBarPanel_fui.bytes",
+            "AssetPath": "Assets/Bundles/FUI/ChooseGameRole/ChooseGameRole_fui.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 31
         },
         {
             "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/HeadBarPanel/HeadBarPanel_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 32
+        },
+        {
+            "Address": "",
             "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_atlas0.png",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 32
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_atlas0_1.png",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 32
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_atlas0_2.png",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 32
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_atlas0_3.png",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 32
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_atlas0_4.png",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 32
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_fui.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 32
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/Lobby/Lobby_fui.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 33
         },
         {
             "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_atlas0_1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 33
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_atlas0_2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 33
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_atlas0_3.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 33
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_atlas0_4.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 33
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/LoadingPanel/LoadingPanel_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 33
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/Lobby/Lobby_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 34
+        },
+        {
+            "Address": "",
             "AssetPath": "Assets/Bundles/FUI/Login/Login_atlas0.png",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 34
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/Login/Login_fui.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 34
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/MainPanel/MainPanel_fui.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 35
         },
         {
             "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/Login/Login_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 35
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/MainPanel/MainPanel_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 36
+        },
+        {
+            "Address": "",
             "AssetPath": "Assets/Bundles/FUI/RegisterPanel/RegisterPanel_atlas0.png",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 36
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/RegisterPanel/RegisterPanel_fui.bytes",
-            "AssetGUID": "",
-            "AssetTags": [],
-            "BundleID": 36
-        },
-        {
-            "Address": "",
-            "AssetPath": "Assets/Bundles/FUI/UIPackageMapping.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 37
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CartoonFX Free.txt",
+            "AssetPath": "Assets/Bundles/FUI/RegisterPanel/RegisterPanel_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 37
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/FUI/UIPackageMapping.bytes",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 38
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Electric/CFX_ElectricityBall.prefab",
+            "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CartoonFX Free.txt",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 39
         },
         {
             "Address": "",
-            "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke+Text.prefab",
+            "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Electric/CFX_ElectricityBall.prefab",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 40
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke+Text.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 41
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Explosions/CFX_Firework_Trails_Gravity.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 40
+            "BundleID": 41
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Hits/CFX_Hit_A Red+RandomText.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 41
+            "BundleID": 42
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Hits/CFX_Hit_C White.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 41
+            "BundleID": 42
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Misc/CFX_Magical_Source.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 42
+            "BundleID": 43
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Misc/CFX_MagicPoof.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 42
+            "BundleID": 43
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Misc/CFX_Poof.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 42
+            "BundleID": 43
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Misc/CFX_Tornado.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 42
+            "BundleID": 43
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX Prefabs/Misc/CFX_Virus.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 42
+            "BundleID": 43
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Blood/CFX2_Blood.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 43
+            "BundleID": 44
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Debris Hits/CFX2_RockHit.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 44
+            "BundleID": 45
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Electric/CFX2_SparksHit_B Sphere.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 45
+            "BundleID": 46
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Explosions/CFX2_WWExplosion_C.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 46
+            "BundleID": 47
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Misc/CFX2_BatsCloud.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 47
+            "BundleID": 48
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Misc/CFX2_BrokenHeart.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 47
+            "BundleID": 48
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Misc/CFX2_Wandering_Spirits.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 47
+            "BundleID": 48
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Pickup Items/CFX2_PickupDiamond2.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 48
+            "BundleID": 49
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Pickup Items/CFX2_PickupHeart.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 48
+            "BundleID": 49
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Pickup Items/CFX2_PickupSmiley2.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 48
+            "BundleID": 49
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Pickup Items/CFX2_PickupStar.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 48
+            "BundleID": 49
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Skull & Ghosts Effects/CFX2_EnemyDeathSkull.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 49
+            "BundleID": 50
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX2 Prefabs/Water/CFX2_Big_Splash (No Collision).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 50
+            "BundleID": 51
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Electric/CFX3_Hit_Electric_A_Ground.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 51
+            "BundleID": 52
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Electric/CFX3_Hit_Electric_C_Air.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 51
+            "BundleID": 52
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Environment/CFX3_Snow_Dense.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 52
+            "BundleID": 53
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Fire/CFX3_Fire_Explosion.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 53
+            "BundleID": 54
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Fire/CFX3_Fire_Shield.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 53
+            "BundleID": 54
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Fire/CFX3_Flying_Ember_Upward.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 53
+            "BundleID": 54
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Light/CFX3_Hit_Light_C_Air.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 54
+            "BundleID": 55
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Light/CFX3_ResurrectionLight_Circle.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 54
+            "BundleID": 55
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Magic Dark/CFX3_DarkMagicAura_A.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 55
+            "BundleID": 56
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_B_Runic.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 56
+            "BundleID": 57
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Magic Misc/CFX3_MagicAura_D_Runic.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 56
+            "BundleID": 57
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Magic Misc/CFX3_Vortex_Ground.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 56
+            "BundleID": 57
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Misc/CFX3_Hit_Misc_B_Gravity.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 57
+            "BundleID": 58
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Misc/CFX3_Hit_Misc_D.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 57
+            "BundleID": 58
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Misc/CFX3_Hit_SmokePuff.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 57
+            "BundleID": 58
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX3 Prefabs/Misc/CFX3_Skull_Explosion.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 57
+            "BundleID": 58
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Electric/CFX4 Sparks Explosion B.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 58
+            "BundleID": 59
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Fire/CFX4 Fire.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 59
+            "BundleID": 60
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Light/CFX4 Aura Bubble C.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 60
+            "BundleID": 61
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Magic/CFX4 Disruptive Force.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 61
+            "BundleID": 62
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Magic/CFX4 Magic Hit.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 61
+            "BundleID": 62
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Misc/CFX4 Drill Air Hit (NO COLLISION).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 62
+            "BundleID": 63
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Misc/CFX4 Hit B (Orange).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 62
+            "BundleID": 63
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Misc/CFX4 Hit Paint C (Cyan).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 62
+            "BundleID": 63
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Misc/CFX4 Hit Pow.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 62
+            "BundleID": 63
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Water/CFX4 Bubbles Whirl.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 63
+            "BundleID": 64
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/CFX4 Prefabs/Water/CFX4 Environment Bubbles Denser.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 63
+            "BundleID": 64
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX2_Anim_Bat Multiply.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX_Anim_Bubble_Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX_Anim_Electricity_Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX_Anim_Poof_Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX_Anim_Poof_AddSoft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX_Anim_Triangle2_Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX_Anim_Triangle2_AlphaBlendedPremult.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX_Anim_Triangle3_Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX_Anim_Triangle3_Mult.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Animated/CFX_Anim_Triangle_AddSoft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 64
+            "BundleID": 65
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Blood/CFX2_Blood AB.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 65
+            "BundleID": 66
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Electric/CFX_ElectricBolt_Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 66
+            "BundleID": 67
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Electric/CFX_Sparkles_Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 66
+            "BundleID": 67
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Electric/CFX_YellowStar.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 66
+            "BundleID": 67
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Fire/CFX3_FireBulk ADD.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 67
+            "BundleID": 68
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Fire/CFX3_FireSparkle ADD.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 67
+            "BundleID": 68
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Fire/CFX4_FireBulk AddSoft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 67
+            "BundleID": 68
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Fire/CFX4_FireSoft AddSoft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 67
+            "BundleID": 68
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_AuraRays MULT.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_AuraRunic ADD.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_CircleSoft ADDSOFT.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_GlowDot ADDSOFT.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_GlowDot MULT.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_GlowSpike ADD.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_GlowStar ADD.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_HollowCircle ADD.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_RayStraight ADD.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX3_SmallRay ADDSOFT.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Light/CFX4_AuraBubble ADD.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 68
+            "BundleID": 69
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX2_Debris_SmallRocks AB 4Frames.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX2_Glow Soft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX2_Glow.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX2_ShinyStar Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX2_WhiteCircle AB.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX2_WWSmoke AB.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX2_WWSmoke ABP.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX2_WWSmoke2 AB.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX3_SmokePuff ADDSOFT.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX3_SmokePuff MULT.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX4_Anim_WiggleLine Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX4_Circle AB.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX4_GroundDebris AB.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX4_PaintHit AB.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX4_PowHit AB.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX4_SmokePuff AB.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX4_SparksHit AddSoft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX_Bubble.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX_Skull.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX_Smoke_4frms.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX_Star Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX_Tornado.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Misc/CFX_WhiteCircle.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 69
+            "BundleID": 70
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Stretched/CFX2_Faded Ray.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 70
+            "BundleID": 71
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Stretched/CFX3_Ray MULT.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 70
+            "BundleID": 71
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Stretched/CFX_RayRounded.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 70
+            "BundleID": 71
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Stretched/CFX_SmallSpike_AddSoft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 70
+            "BundleID": 71
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Stretched/CFX_SpacedLine.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 70
+            "BundleID": 71
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_BrokenHeart Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_Diamond Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_Diamond Outline Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_Heart Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_Heart Outline Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_HeartBrokenSlice.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_SkullStretched Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_Smiley Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_Smiley Outline Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_Star Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX2_Star Outline Add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Symbols/CFX3_Skull ADDSOFT.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 71
+            "BundleID": 72
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Texts/CFX_Text_Boom.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 72
+            "BundleID": 73
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Texts/CFX_Text_Hit_Random.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 72
+            "BundleID": 73
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Water/CFX4_BubbleSubtle AddA8.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 73
+            "BundleID": 74
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Water/CFX4_Foam AddA8.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 73
+            "BundleID": 74
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Water/CFX_Anim_Splash_4frms.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 73
+            "BundleID": 74
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Water/CFX_Foam_AddSoft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 73
+            "BundleID": 74
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Materials/Water/CFX_Ripple_AddSoft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 73
+            "BundleID": 74
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Mesh/CFX_Mesh_Circular.FBX",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 74
+            "BundleID": 75
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Mesh/CFX_Mesh_Circular1.5.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 74
+            "BundleID": 75
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Mesh/CFX_Mesh_Circular2.FBX",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 74
+            "BundleID": 75
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Mesh/CFX_Mesh_CircularAngle.FBX",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 74
+            "BundleID": 75
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Bat.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Blood_AB.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Decal_BloodPuddle_AB.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Diamond Outline.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Diamond.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_FadedRay.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Glow.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_GlowSoft.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Heart.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_HeartBroken_2Frames.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_HeartBrokenSlice.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_HeartOutline.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_ShinyStar.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_SkullStretch.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_SmallRocks_4Frames.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Smiley Happy Outline.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Smiley Happy.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Star Outline.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Star.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_Wood.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_WWInvSmoke ABP.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_WWInvSmoke2 AB.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX2_T_WWSmoke Glow AB.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_AuraRays.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_AuraRunic.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_CircleSoft.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_FireBulk.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_FireSparkle.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_GlowDot.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_GlowSpike.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_GlowStar.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_HollowCircle.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_Leaf.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_RayStraight.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_Skull.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_SmallRay.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX3_T_SmokePuff.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_Anim_WiggleLine.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_AuraBubble.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_BubbleSubtle A8.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_Circle.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_FireBulk AB.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_FireSoft RGB.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_Foam A8.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_GroundDebris AB.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_PaintHit.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_PowHit.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_SmokePuff AB.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX4_T_SparksHit.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_ElectricSparkle.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Anim4_Bubble.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Anim4_RoundedLines.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Anim4_Triangle1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Anim4_Triangle3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Anim7_Electricity.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Anim8_Triangle2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Bolt.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Bubble.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Flame1_ABP.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Foam.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Ray.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_RayRounded.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Ripple.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Skull.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Smoke_4Frames.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_SpacedLine.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_SpacedSpike.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Splash_4Frames.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Star Add.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Star.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Text_Boom.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Text_HitRandom.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Text_Poof.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Text_Slash.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Text_Splash.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Text_Woooshh.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Text_Zap.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Thunderbolt.tga",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_Tornado.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_ Legacy/Textures/CFX_T_WhiteCircleSmall.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 75
+            "BundleID": 76
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr aura rays hdr ab nosp.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr aura rays.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr aura runic hdr ab nosp.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr aura runic.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr blood dissolve ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr blood dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr blood splash dissolve ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr blood splash dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr blood splash mesh.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr blood splash.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr blood.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr bubble 2 ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr bubble 2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr bubble ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr bubble hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr bubble.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr card club ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr card club.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr card diamond ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr card diamond mesh.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr card diamond.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr card heart ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr card heart.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr card spade ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr card spade.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr cloud blur add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr cloud blur.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris 3x3 ab lit emission.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris 3x3 ab lit.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris 3x3 normal.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris 3x3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab hdr.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2 ab lit.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2 normal.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris ice 2x2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3 ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3 ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3 normal.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3 ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4 hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric arcs x4 hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric arcs x4.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2 hdr.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2 mesh.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric small anim2 7x2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric spark.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric sparks ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr electric sparks hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ember blur hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ember blur.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr explosion second color map.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr explosion smoke alpha.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr explosion smoke dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire blur fade hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle blur hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle blur.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle crisp hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle crisp.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle drawn blurred hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle drawn blurred.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle drawn hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle drawn.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle plain hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire circle plain.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire crisp fade hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire crisp fade nosp hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire edge dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire edge hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire edge.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire full blurred fade hdr add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire plain fade hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire small anim blurred hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire small anim blurred.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire small anim hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire small anim.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fire stepped fade hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme blur mid fine hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme blur mid hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme blur stable fine hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme blur stable hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable fine hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme blur.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme candle hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme candle unstable hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme candle.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable fine hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable fine hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme crisp unstable hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme crisp.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme full blurred.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme plain mid fine hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme plain mid hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme plain stable fine hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme plain stable hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable fine hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme plain unstable hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme plain.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flamme stepped.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flare add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr flare.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fly anim x4.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr fly anim.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ghost trail add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ghost trail.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr heart break dissolve ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr heart break dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr heart break parts ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr heart break parts.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr heart.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr hidden.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr hit triangle 2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr hit triangle diamond dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr hit triangle dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr hit triangle.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr leave a ab lit normal.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr leave a normal.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr leave a.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr leave b ab lit normal.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr leave b normal.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr leave b.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr line loop electric ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr line loop electric hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr line loop electric.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr magic star hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr magic star mesh.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr magic star.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr no texture hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr noise clouds big.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr perlin big.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr perlin mid.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr perlin smudge.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr petal normal.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr petal pink x4 ab lit normal.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr petal pink x4.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow crisp ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft ground nosp add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft hdr p4 add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert add nosp.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft invert hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft nosp add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft p4 add nosp.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft p4 add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc glow soft p8 add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring electric hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring ice hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring local space ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring local space add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring local space hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring local space partial ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr proc ring water ripple local space arc ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr puddle dissolve ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr puddle dissolve soft ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr puddle dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr puddle mesh.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr puddle.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ring arc.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ring electric.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ring ice.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ring ripple arc dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ring ripple dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ring spikes revert hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ring spikes revert.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr screen distortion debug.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr screen distortion debug.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr screen distortion perlin.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr screen distortion perlin.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr screen distortion ring nosp.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr screen distortion ring.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr screen distortion ring.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr screen distortion sphere.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr screen distortion sphere.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull 2 dissolve ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull 2 dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull 2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull dissolve ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull dissolve alt.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull distort hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull outer outline ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull outer outline.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr skull.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smiley angry ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smiley angry.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smiley frown ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smiley frown.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smiley happy ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smiley happy.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smiley smile ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smiley smile.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud corner.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab blurred.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit crisp.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit normal.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft individual bright shadow.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft individual mid shadow.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft individual.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit soft.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 blurred.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 crisp dissolve ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 mult blurred.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 normal.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color underlit ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 white.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes half impact gradient.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes half impact hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes impact ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes impact add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve invert ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes impact dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes impact hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes impact mesh.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr spikes impact.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr star ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr star blurred add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr star blurred.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr star mesh.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr star.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr steam blur dissolve hdr add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch fire crisp fade hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch flamme crisp dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch flamme crisp.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch rain blur ab nosp.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch rain blur ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch rain blur.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch ray blur add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch ray blur hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch ray blur.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray blur add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray blur hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray blur.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch rectangle ray.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch sipkes blur x2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve smooth x2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve x2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2 mesh.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch sipkes x2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch skull dissolve ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch skull dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch skull.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc dissolve.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch smoke arc.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch smoke fume blur ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch smoke fume.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch spike fade add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch spike fade.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch spikes smooth x2 hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch spikes x2 hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch steam blur distort.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch trait ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch trait blur ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch trait blur add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch trait blur.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab nosp.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch trait.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch triangle add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch triangle fade ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch triangle fade.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth nosp ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch triangle smooth nosp add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr stretch triangle to diamond add.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles hit.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail flames hit.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail flames.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail ice hit.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail ice thin.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail ice.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail light.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail mask light.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail mask lines.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail mask plain.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail noise bubbles.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail noise ice.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail noise tech.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail plain.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail slash.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail tech hit.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail tech thin.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr sword trail tech.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr uv distortion fire perlin.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr uv distortion fire smudge.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water drop blur anim ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water drop blur anim hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water drop blur anim.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water foam ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water foam.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr water small splash stretch.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ww smoke bright hdr ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ww smoke bright.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ww smoke first color.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ww smoke glow ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ww smoke glow.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ww smoke second color ab.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Graphics/cfxr ww smoke second color.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 76
+            "BundleID": 77
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr electric_arc_circle.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr electric_barrier.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr mesh disk.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr mesh donut.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr mesh foam.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr mesh leave.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr mesh ring.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr mesh star4.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr mesh star6.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr mesh star8.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr mesh sword_slashes.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc_2.fbx",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr ring mesh half.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr ring mesh local space smoother.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr ring mesh local space.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Meshes/cfxr ring mesh.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 77
+            "BundleID": 78
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Misc/cfxr font AmazGoDaBold.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 78
+            "BundleID": 79
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Misc/cfxr font WashYourHand.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 78
+            "BundleID": 79
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Misc/cfxr particle font.mat",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 78
+            "BundleID": 79
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Misc/cfxr ParticleFont AmazGoDaBold.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 78
+            "BundleID": 79
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Assets/Misc/cfxr ParticleFont WashYourHand.asset",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 78
+            "BundleID": 79
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Eerie/CFXR2 Skull Head Alt.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 79
+            "BundleID": 80
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Eerie/CFXR2 Souls Escape.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 79
+            "BundleID": 80
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Eerie/CFXR2 WW Enemy Explosion.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 79
+            "BundleID": 80
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Electric/CFXR Electrified 3.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 80
+            "BundleID": 81
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Rain.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 80
+            "BundleID": 81
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Electric/CFXR3 Hit Electric C (Air).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 80
+            "BundleID": 81
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Explosions/CFXR Explosion 1.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 81
+            "BundleID": 82
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Explosions/CFXR Explosion Smoke 2 Solo (HDR).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 81
+            "BundleID": 82
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Explosions/CFXR2 WW Explosion.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 81
+            "BundleID": 82
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Explosions/CFXR3 Fire Explosion B.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 81
+            "BundleID": 82
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Explosions/CFXR4 Firework 1 Cyan-Purple (HDR).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 81
+            "BundleID": 82
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Explosions/CFXR4 Firework HDR Shoot Single (Random Color).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 81
+            "BundleID": 82
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Fire/CFXR Fire Breath.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 82
+            "BundleID": 83
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Fire/CFXR Fire.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 82
+            "BundleID": 83
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Fire/CFXR2 Firewall A.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 82
+            "BundleID": 83
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Fire/CFXR3 Hit Fire B (Air).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 82
+            "BundleID": 83
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Fire/CFXR4 Sun.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 82
+            "BundleID": 83
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Ice/CFXR3 Hit Ice B (Air).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 83
+            "BundleID": 84
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Impacts/CFXR Hit A (Red).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 84
+            "BundleID": 85
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Impacts/CFXR Hit D 3D (Yellow).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 84
+            "BundleID": 85
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 84
+            "BundleID": 85
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Impacts/CFXR2 Ground Hit.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 84
+            "BundleID": 85
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Light/CFXR3 Hit Light B (Air).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 85
+            "BundleID": 86
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Light/CFXR3 LightGlow A (Loop).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 85
+            "BundleID": 86
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Liquids/CFXR Water Ripples.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 86
+            "BundleID": 87
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Smaller).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 86
+            "BundleID": 87
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Liquids/CFXR2 Blood (Directional).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 86
+            "BundleID": 87
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Liquids/CFXR2 Blood Shape Splash.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 86
+            "BundleID": 87
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Liquids/CFXR4 Bubbles Breath Underwater Loop.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 86
+            "BundleID": 87
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Magic Misc/CFXR3 Magic Aura A (Runic).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 87
+            "BundleID": 88
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Magic Misc/CFXR4 Bouncing Glows Bubble (Blue Purple).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 87
+            "BundleID": 88
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Magic Misc/CFXR4 Falling Stars.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 87
+            "BundleID": 88
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR Flash.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR Magic Poof.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR Smoke Source 3D.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR2 Broken Heart.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR2 Cartoon Fight (Loop).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR2 Poison Cloud.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR2 Shiny Item (Loop).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR3 Ambient Glows.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR3 Hit Misc A.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Misc/CFXR3 Hit Misc F Smoke.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 88
+            "BundleID": 89
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Nature/CFXR3 Hit Leaves A (Lit).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 89
+            "BundleID": 90
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Nature/CFXR3 Shield Leaves A (Lit).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 89
+            "BundleID": 90
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Nature/CFXR4 Rain Falling.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 89
+            "BundleID": 90
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Nature/CFXR4 Rain Splashes.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 89
+            "BundleID": 90
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Nature/CFXR4 Wind Trails.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 89
+            "BundleID": 90
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Hit FIRE (Cross).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 90
+            "BundleID": 91
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Trail FIRE (360 Spiral).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 90
+            "BundleID": 91
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Trail FIRE (360 Thin Spiral).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 90
+            "BundleID": 91
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Sword Trails/Ice/CFXR4 Sword Hit ICE (Cross).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 91
+            "BundleID": 92
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Sword Trails/Ice/CFXR4 Sword Trail ICE (360 Spiral).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 91
+            "BundleID": 92
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Sword Trails/Ice/CFXR4 Sword Trail ICE (360 Thin Spiral).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 91
+            "BundleID": 92
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Hit PLAIN (Cross).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 92
+            "BundleID": 93
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Trail PLAIN (360 Spiral).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 92
+            "BundleID": 93
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Trail PLAIN (360 Thin Spiral).prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 92
+            "BundleID": 93
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/_Make your own text effect.txt",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/CFXR _BOING_.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/CFXR _BOOM_.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/CFXR _POW_.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/CFXR _SLASH_.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/CFXR2 _CURSED_.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/CFXR2 _WHAM_ 3.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/CFXR3 _WOW_.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/CFXR4 _FROZEN_.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Effects/Cartoon_FX_Remaster/CFXR Prefabs/Texts/CFXR4 _POISONED_.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 93
+            "BundleID": 94
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/FairyGUI/AddOn/FairyGUI-BlurFilter.shader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/FairyGUI/FairyGUI-BMFont.shader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/FairyGUI/FairyGUI-Image.shader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/FairyGUI/FairyGUI-Text.shader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/FairyGUI/FairyGUI-TMP.shader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/JMOAssets/CFX3 Multiply Color.shader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/JMOAssets/CFXM_MobileParticleAdd_Alpha8.shader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/JMOAssets/CFXR Particle Distortion.cfxrshader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/JMOAssets/CFXR Particle Glow.cfxrshader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/JMOAssets/CFXR Particle Procedural Ring.cfxrshader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         },
         {
             "Address": "",
             "AssetPath": "Assets/Bundles/Shaders/JMOAssets/CFXR Particle Ubershader.cfxrshader",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 94
+            "BundleID": 95
         }
     ],
     "BundleList": [
@@ -6115,7 +6122,7 @@
             "UnityCRC": 0,
             "FileHash": "5816e44a2c151f7d61a751556d9b4194",
             "FileCRC": "00000000",
-            "FileSize": 1258672,
+            "FileSize": 1269144,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -6125,7 +6132,7 @@
             "UnityCRC": 0,
             "FileHash": "db2d5a40de474f9da488508573a024d2",
             "FileCRC": "00000000",
-            "FileSize": 261227,
+            "FileSize": 261290,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -6406,6 +6413,16 @@
             "FileHash": "438bfa11365e6ddabffa3b62ef5f5dcb",
             "FileCRC": "00000000",
             "FileSize": 1307,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_bundles_fui_choosegamerole.bundle",
+            "UnityCRC": 0,
+            "FileHash": "b60ec2365b1d6fbdf1936958553c34b2",
+            "FileCRC": "00000000",
+            "FileSize": 912,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

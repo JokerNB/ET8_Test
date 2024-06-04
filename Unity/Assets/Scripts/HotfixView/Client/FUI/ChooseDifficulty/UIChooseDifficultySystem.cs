@@ -11,16 +11,16 @@ namespace ET.Client
 
             var listModel = self.FUIUIChooseDifficulty.List_Model;
             listModel.itemRenderer = RenderModelListItem;
-            listModel.onClickItem.Add(context => OnClickListModelItem(self, context));
+            listModel.onClickItem.Add(self.OnClickListModelItem);
             var configs = ModelCategory.Instance.DataList;
             listModel.numItems = configs.Count;
 
             var listDifficulty = self.FUIUIChooseDifficulty.List_Difficulty;
             listDifficulty.itemRenderer = self.RenderListDifficultyItem;
-            listDifficulty.onClickItem.Add(context => OnClickListDifficultyItem(self, context));
+            listDifficulty.onClickItem.Add(self.OnClickListDifficultyItem);
         }
 
-        private static void OnClickListDifficultyItem(UIChooseDifficulty self, EventContext context)
+        private static void OnClickListDifficultyItem(this UIChooseDifficulty self, EventContext context)
         {
             var modelType = self.ModelType;
             var modelId = self.ModelId;
@@ -85,7 +85,7 @@ namespace ET.Client
             button.title = title;
         }
 
-        private static void OnClickListModelItem(UIChooseDifficulty uiChooseDifficulty, EventContext eventContext)
+        private static void OnClickListModelItem(this UIChooseDifficulty uiChooseDifficulty, EventContext eventContext)
         {
             var listModel = uiChooseDifficulty.FUIUIChooseDifficulty.List_Model;
             var index = listModel.GetChildIndex(eventContext.data as GObject);

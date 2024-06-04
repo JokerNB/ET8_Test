@@ -20,7 +20,6 @@ namespace ET.Server
             root.AddComponent<AccountSessionComponent>();
             root.AddComponent<TokenComponent>();
             root.AddComponent<ServerInfoManagerComponent>();
-            root.AddComponent<RolesInfoManagerComponent>();
 
             await ETTask.CompletedTask;
         }

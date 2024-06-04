@@ -85,8 +85,8 @@
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/Lobby/Event/UILobbyEventHandler.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/LockStep/Camera/LSCameraComponentSystem.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Plugins/FairyGUI/FUIHelper.cs" />
-    <Compile Include="Assets/Scripts/HotfixView/Client/FUI/ChooseDifficulty/Event/UIChooseDifficultyEventHandler.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/FUI/ChooseGameRole/UIChooseGameRoleSystem.cs" />
+    <Compile Include="Assets/Scripts/HotfixView/Client/FUI/ChooseDifficulty/Event/UIChooseDifficultyEventHandler.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Unit/AfterUnitCreate_CreateUnitView.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Module/Resource/GameObjectHelper.cs" />
     <Compile Include="Assets/Scripts/HotfixView/Client/Scene/AfterCreateClientScene_AddComponent.cs" />

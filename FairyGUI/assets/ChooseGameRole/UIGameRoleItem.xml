@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="200,200" remark="Common">
+  <controller name="UseType" exported="true" pages="1,Limit,0,Use" selected="0"/>
   <displayList>
-    <text id="n0_sns5" name="ID" xy="0,0" size="200,100" fontSize="75" align="center" autoSize="shrink" text="ID"/>
-    <text id="n1_sns5" name="Name" xy="0,100" size="200,100" fontSize="75" align="center" autoSize="shrink" text="Name"/>
+    <text id="n0_sns5" name="ID" xy="0,0" size="200,100" fontSize="75" color="#ff0000" align="center" vAlign="middle" autoSize="shrink" text="ID">
+      <gearColor controller="UseType" pages="1,0" values="#ff0000,#000000|#00ff00,#000000"/>
+    </text>
+    <text id="n1_sns5" name="Name" xy="0,100" size="200,100" fontSize="45" color="#ff0000" align="center" vAlign="middle" autoSize="none" text="铁匠-桔子">
+      <gearColor controller="UseType" pages="1,0" values="#ff0000,#000000|#00ff00,#000000"/>
+    </text>
   </displayList>
 </component>

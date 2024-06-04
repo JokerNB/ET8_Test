@@ -5,14 +5,13 @@ namespace ET.Client
     {
         protected override async ETTask Run(Scene root, SceneChangeFinish a)
         {
-            await root.Root().GetComponent<TimerComponent>().WaitAsync(1000);
-            CameraFollowComponent cameraFollowComponent = root.GetComponent<CameraFollowComponent>();
-            if (cameraFollowComponent == null)
-                cameraFollowComponent = root.AddComponent<CameraFollowComponent>();
-            else
-                cameraFollowComponent.UpdateByChangeScene();
-
-            await ETTask.CompletedTask;
+            // await root.Root().GetComponent<TimerComponent>().WaitAsync(1000);
+            // CameraFollowComponent cameraFollowComponent = root.GetComponent<CameraFollowComponent>();
+            // if (cameraFollowComponent == null)
+            //     cameraFollowComponent = root.AddComponent<CameraFollowComponent>();
+            // else
+            //     cameraFollowComponent.UpdateByChangeScene();
+            await root.Root().GetComponent<FUIComponent>().ShowPanelAsync(PanelId.UIChooseGameRole);
         }
     }
 }

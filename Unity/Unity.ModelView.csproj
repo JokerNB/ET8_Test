@@ -94,9 +94,9 @@
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/RegisterPanel/FUI_Button_EntryGame.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/RegisterPanel/RegisterPanelBinder.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/FUIBinder.cs" />
+    <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/ChooseGameRole/ChooseGameRoleBinder.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/Login/FUI_Button_Login.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/MainPanel/FUI_Button_SignIn.cs" />
-    <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/ChooseGameRole/ChooseGameRoleBinder.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUIAutoGen/MainPanel/FUI_Button_Talent.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/FUI/ChooseGameRole/UIChooseGameRole.cs" />
     <Compile Include="Assets/Scripts/ModelView/Client/LockStep/LSUnitView.cs" />

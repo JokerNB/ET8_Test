@@ -60,6 +60,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Share/Demo/CheckRegexMatchComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/MMO/Battle/Buff/Handler/M2C_BuffRemoveHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/Handler/C2G_PingHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/Handler/C2G_ChooseGameRoleHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/Main/Move/M2C_PathfindingResultHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/MMO/Battle/Bullet/BulletComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/MMO/Relive/ReliveHelper.cs" />
@@ -172,7 +173,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/NetClient/Main2NetClientHandler/Main2NetClient_LoginAccountHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Module/Numeric/NumericWatcher_Hp_ShowUI.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Share/Demo/EntryEvent1_InitShare.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/Handler/C2R_GetRolesListHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/ServerInfo/ServerInfoManagerComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Transfer/M2M_UnitTransferRequestHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Move/MoveHelper.cs" />
@@ -191,6 +191,7 @@
     <Compile Include="Assets/Scripts/Hotfix/Server/MMO/Battle/Actions/ActionsSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Router/HttpGetRouterHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/Move/C2M_StopHandler.cs" />
+    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Gate/Handler/C2G_GetRolesListHandler.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/AccountCheckOutTimeComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/AI/AI_XunLuo.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/FiberInit_Realm.cs" />
@@ -254,7 +255,6 @@
     <Compile Include="Assets/Scripts/Hotfix/Client/LockStep/LSSceneChangeHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/MapMessageHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Realm/Handler/C2R_GetServerListHandler.cs" />
-    <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Map/MapConfig/MapConfigHelper.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Plugins/Example/HotfixClient.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Client/Demo/AI/XunLuoPathComponentSystem.cs" />
     <Compile Include="Assets/Scripts/Hotfix/Server/Demo/Robot/FiberInit_Robot.cs" />

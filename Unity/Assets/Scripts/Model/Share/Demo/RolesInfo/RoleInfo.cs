@@ -6,7 +6,7 @@ namespace ET
         public int UnitConfigId = default;
         public int Proficiency = default;
         public int Level = default;
-        public int IsUnlock = default;
+        public int IsTemporaryUnlock = default;
         public int IsAlreadyOwned = default;
     }
 }

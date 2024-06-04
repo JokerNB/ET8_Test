@@ -2,7 +2,7 @@
 {
     public struct SceneChangeStart
     {
-        public int mapConfigId;
+        public string sceneName;
     }
 
     public struct SceneChangeFinish

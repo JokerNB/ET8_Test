@@ -19,6 +19,8 @@ namespace ET.Server
             root.AddComponent<MessageLocationSenderComponent>();
             root.AddComponent<DBManagerComponent>();
 
+            root.AddComponent<RolesInfoManagerComponent>();
+
             StartSceneConfig startSceneConfig = StartSceneConfigCategory.Instance.Get((int)root.Id);
             root.AddComponent<NetComponent, IPEndPoint, NetworkProtocol>(startSceneConfig.InnerIPPort, NetworkProtocol.UDP);
             await ETTask.CompletedTask;
